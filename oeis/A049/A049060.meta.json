@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = (-1)^omega(n)*Sum_{d|n} d*(-1)^omega(d), where omega(n) = A001221(n) is number of distinct primes dividing n.",
+  "id": "A049060",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A049057",
+    "A049058",
+    "A049059",
+    "A057723",
+    "A060640",
+    "A126602",
+    "A126690"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

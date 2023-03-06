@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2/log(4/3).",
+  "id": "A069864",
+  "mentions": [
+    "A000002",
+    "A083679"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

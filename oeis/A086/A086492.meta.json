@@ -1,0 +1,18 @@
+{
+  "description": "Group the natural numbers such that the n-th group sum is divisible by prime(n): (1, 2, 3), (4, 5), (6, 7, 8, 9), (10, 11), (12, 13, 14, 15, 16, 17, 18, 19, 20, 21), ... Sequence contains the sum of the terms in the n-th group}/prime(n): a(n) = A086491(n)/prime(n).",
+  "id": "A086492",
+  "mentions": [
+    "A086491",
+    "A086493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

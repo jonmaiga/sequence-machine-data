@@ -1,0 +1,18 @@
+{
+  "description": "Zero, together with positive numbers n such that the n-th prime + n is a square.",
+  "id": "A064371",
+  "mentions": [
+    "A014688"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

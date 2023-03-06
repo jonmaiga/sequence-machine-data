@@ -1,0 +1,34 @@
+{
+  "description": "Number of prime divisors (counted with multiplicity) is odd; Liouville function lambda(n) (A008836) is negative.",
+  "id": "A026424",
+  "mentions": [
+    "A000028",
+    "A000040",
+    "A000069",
+    "A001222",
+    "A005408",
+    "A008836",
+    "A014612",
+    "A014614",
+    "A026416",
+    "A026422",
+    "A028260",
+    "A046308",
+    "A059897",
+    "A066829",
+    "A259444"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of Gaussian binomial coefficients [ n,k ] for q = 5.",
+  "id": "A022169",
+  "mentions": [
+    "A003462",
+    "A006111",
+    "A006112",
+    "A006119",
+    "A027872",
+    "A157832"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

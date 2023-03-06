@@ -1,0 +1,20 @@
+{
+  "description": "Sixth column (r=5) of FS(3) staircase array A062745.",
+  "id": "A062749",
+  "mentions": [
+    "A062745",
+    "A062746"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:12:51",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

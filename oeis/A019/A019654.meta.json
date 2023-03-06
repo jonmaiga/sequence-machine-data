@@ -1,0 +1,23 @@
+{
+  "description": "Consider problem of placing N queens on an n X n board so that each queen attacks precisely k others. Here k=4 and sequence gives number of different solutions when N takes its maximal value.",
+  "id": "A019654",
+  "mentions": [
+    "A051567",
+    "A051571",
+    "A051754",
+    "A051759",
+    "A063724"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

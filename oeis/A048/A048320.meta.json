@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base-9 expansions, read from left to right, have run lengths that strictly decrease.",
+  "id": "A048320",
+  "mentions": [
+    "A037013",
+    "A043698",
+    "A043712",
+    "A044820",
+    "A044958"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

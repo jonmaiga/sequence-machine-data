@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (aperiodic) words of length n which contain exactly four different symbols.",
+  "id": "A056269",
+  "mentions": [
+    "A000302",
+    "A000919",
+    "A054719",
+    "A056289",
+    "A056391"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:56:40",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

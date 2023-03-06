@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that the six numbers 1*prime(n)*prime(n+1), prime(n)*1*prime(n+1), prime(n)*prime(n+1)*1, 1*prime(n-1)*prime(n), prime(n-1)*1*prime(n) and prime(n-1)*prime(n)*1 are primes.",
+  "id": "A090871",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

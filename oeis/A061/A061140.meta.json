@@ -1,0 +1,36 @@
+{
+  "description": "Number of degree-n odd permutations of order exactly 8.",
+  "id": "A061140",
+  "mentions": [
+    "A000085",
+    "A000704",
+    "A001189",
+    "A001470",
+    "A001471",
+    "A001472",
+    "A001473",
+    "A048099",
+    "A051695",
+    "A052501",
+    "A053496",
+    "A053505",
+    "A061121",
+    "A061128",
+    "A061129",
+    "A061132",
+    "A061133",
+    "A061135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:34:53",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

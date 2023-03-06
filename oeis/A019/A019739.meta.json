@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of e/2.",
+  "id": "A019739",
+  "mentions": [
+    "A001113",
+    "A006083"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Periods of the Farey Bisection Expansions (FBE) of Sqrt[n], for n=1,2,3,...",
+  "id": "A098458",
+  "mentions": [
+    "A010121",
+    "A097853",
+    "A098457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of zeros in numbers 1 to 999..9 (n digits).",
+  "id": "A033713",
+  "mentions": [
+    "A007376",
+    "A033714",
+    "A058183"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:58:06",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

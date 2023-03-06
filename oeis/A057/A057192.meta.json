@@ -1,0 +1,27 @@
+{
+  "description": "Least m such that 1 + prime(n)*2^m is a prime, or -1 if no such m exists.",
+  "id": "A057192",
+  "mentions": [
+    "A002202",
+    "A005277",
+    "A005384",
+    "A005385",
+    "A014197",
+    "A046067",
+    "A051686",
+    "A058811",
+    "A058812",
+    "A058887",
+    "A076336"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

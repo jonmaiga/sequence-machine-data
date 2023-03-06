@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = abs((n-th digit of Pi) - (n-th digit of e)).",
+  "id": "A073223",
+  "mentions": [
+    "A000796",
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 150,
+    "source": "oeis-entry"
+  }
+}

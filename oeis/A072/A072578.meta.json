@@ -1,0 +1,25 @@
+{
+  "description": "In binary representation: n has the same number of 0's as the n-th prime has 1's.",
+  "id": "A072578",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A014499",
+    "A023416",
+    "A049084",
+    "A071600",
+    "A072577",
+    "A072579",
+    "A072581"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:23",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

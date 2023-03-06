@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest odd number that is less than n^2 and is the product of two distinct primes.",
+  "id": "A099611",
+  "mentions": [
+    "A000290",
+    "A006881",
+    "A046388",
+    "A099610",
+    "A349809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

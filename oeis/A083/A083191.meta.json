@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers arising in A083190.",
+  "id": "A083191",
+  "mentions": [
+    "A083190"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

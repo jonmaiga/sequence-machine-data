@@ -1,0 +1,21 @@
+{
+  "description": "Primes which can be written as sum of squares > 1.",
+  "id": "A078138",
+  "mentions": [
+    "A000040",
+    "A078132",
+    "A078134",
+    "A078139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

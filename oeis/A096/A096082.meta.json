@@ -1,0 +1,23 @@
+{
+  "description": "Smallest odd prime p such that p^2 | n^(p-1) - 1.",
+  "id": "A096082",
+  "mentions": [
+    "A001220",
+    "A007663",
+    "A039951",
+    "A124121"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Pair the odd primes so that the n-th pair is (p, p+2n) where p is the smallest prime not included earlier such that p and p+2n are primes and p+2n also does not occur earlier: (3, 5), (7, 11), (13, 19), (23, 31), (37, 47), (17, 29), ... This lists the successive pairs in order.",
+  "id": "A075323",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A065091",
+    "A075321",
+    "A075322",
+    "A247233"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

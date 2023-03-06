@@ -1,0 +1,18 @@
+{
+  "description": "Let G_n be the elementary Abelian group G_n = (C_3)^n; a(n) is the number of times the number 1 appears in the character table of G_n.",
+  "id": "A061253",
+  "mentions": [
+    "A006516"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

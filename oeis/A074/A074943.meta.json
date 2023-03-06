@@ -1,0 +1,18 @@
+{
+  "description": "tau(n) (mod 3).",
+  "id": "A074943",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

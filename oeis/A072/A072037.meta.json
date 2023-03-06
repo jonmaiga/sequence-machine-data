@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic powers (with positive exponents) of a prime but not a prime (A025475).",
+  "id": "A072037",
+  "mentions": [
+    "A002385",
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

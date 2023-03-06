@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose squares give sum of digits which is the n-th term of A056991.",
+  "id": "A067179",
+  "mentions": [
+    "A056991",
+    "A067178",
+    "A358702"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Complement and reverse the order of all but the most significant bit in binary expansion of n. n = 1ab..yz -> 1ZY..BA = a(n), where A = 1-a, B = 1-b, ... .",
+  "id": "A059894",
+  "mentions": [
+    "A000027",
+    "A000120",
+    "A023416",
+    "A054429",
+    "A059893",
+    "A290253",
+    "A290254"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

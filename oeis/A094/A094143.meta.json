@@ -1,0 +1,22 @@
+{
+  "description": "Least area of primitive Pythagorean triangle whose legs differ by A058529(n).",
+  "id": "A094143",
+  "mentions": [
+    "A058529",
+    "A094136",
+    "A094137",
+    "A094138",
+    "A094140",
+    "A094142"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Position of the largest peak value in Collatz (3x+1) trajectory.",
+  "id": "A087225",
+  "mentions": [
+    "A025586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

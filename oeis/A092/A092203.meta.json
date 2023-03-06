@@ -1,0 +1,19 @@
+{
+  "description": "Molien series for 16-dimensional group of structure 2^4.O_{4}^{+}(F_2) = 2^4.(S_3 X S_3).2 and order 1152, corresponding to genus 2 complete weight enumerators of Hermitian self-dual GF(2)-linear codes over GF(4) containing the all-ones vector.",
+  "id": "A092203",
+  "mentions": [
+    "A092201",
+    "A092497"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:53:33",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

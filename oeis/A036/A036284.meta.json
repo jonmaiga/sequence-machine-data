@@ -1,0 +1,34 @@
+{
+  "description": "Periodic vertical binary vectors of Fibonacci numbers.",
+  "id": "A036284",
+  "mentions": [
+    "A000045",
+    "A000225",
+    "A001175",
+    "A004685",
+    "A007283",
+    "A036285",
+    "A036286",
+    "A037093",
+    "A037096",
+    "A048720",
+    "A048723",
+    "A136378",
+    "A136379",
+    "A136380",
+    "A136382",
+    "A136384"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

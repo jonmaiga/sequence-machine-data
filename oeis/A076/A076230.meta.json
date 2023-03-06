@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma_2(k)/k and sigma_4(k)/k are integers.",
+  "id": "A076230",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A046762",
+    "A046764"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (-1)^n*(2*n - 1)*CatalanNumber(n - 2) for n >= 2, a(n) = n for n = 0, 1.",
+  "id": "A078718",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A002420",
+    "A068555",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

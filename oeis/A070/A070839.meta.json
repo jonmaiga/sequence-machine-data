@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that k + R(k) is a multiple of 11 different from all previous cases, where R(k) is digit reversal of k (A004086).",
+  "id": "A070839",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

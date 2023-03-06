@@ -1,0 +1,32 @@
+{
+  "description": "Square array of centered numbers, read by antidiagonals.",
+  "id": "A085391",
+  "mentions": [
+    "A001700",
+    "A001791",
+    "A002054",
+    "A002694",
+    "A003516",
+    "A005408",
+    "A005448",
+    "A005894",
+    "A008498",
+    "A008499",
+    "A008500",
+    "A008501",
+    "A030662"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

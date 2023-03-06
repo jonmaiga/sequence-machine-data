@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of multinomial coefficients, read by rows (version 2).",
+  "id": "A080575",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A007446",
+    "A036036",
+    "A036039",
+    "A036040",
+    "A102356",
+    "A178866",
+    "A178867"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

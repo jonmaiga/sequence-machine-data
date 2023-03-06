@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 9*x)^9.",
+  "id": "A053108",
+  "mentions": [
+    "A053107"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

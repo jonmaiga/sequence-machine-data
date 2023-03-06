@@ -1,0 +1,20 @@
+{
+  "description": "Differences between factorials and Xfactorials: A048631 - A000142.",
+  "id": "A048632",
+  "mentions": [
+    "A000142",
+    "A048631"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:21:25",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

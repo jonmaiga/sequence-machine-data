@@ -1,0 +1,18 @@
+{
+  "description": "Positions where the partial sums of the series in A092324 (and A092267) changes sign.",
+  "id": "A092273",
+  "mentions": [
+    "A092267",
+    "A092324"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

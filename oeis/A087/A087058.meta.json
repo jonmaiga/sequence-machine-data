@@ -1,0 +1,24 @@
+{
+  "description": "Smallest square number greater than 2*n^2.",
+  "id": "A087058",
+  "mentions": [
+    "A001951",
+    "A087055",
+    "A087056",
+    "A087057",
+    "A087059",
+    "A087060"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(2n,n)*n*(2n+1)/2.",
+  "id": "A051133",
+  "mentions": [
+    "A000217",
+    "A000911",
+    "A000984",
+    "A002802"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

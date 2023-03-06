@@ -1,0 +1,17 @@
+{
+  "description": "Place where n-th 1 occurs in A023132.",
+  "id": "A022794",
+  "mentions": [
+    "A023132"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider the mapping f(a/b) = (a^2+b^3)/(a^3+b^2) from rationals to rationals. Starting with 1/2 (a=1, b=2) and applying the mapping to each new (reduced) rational number gives 1/2, 9/5, 103/377, ... . Sequence gives values of the denominators.",
+  "id": "A081462",
+  "mentions": [
+    "A000058",
+    "A081461",
+    "A081466"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

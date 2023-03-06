@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,k) giving maximal numbers of codewords in mixed code with n binary coordinates and k ternary coordinates with Hamming distance 3, read by antidiagonals (n >= 0, k >= 0).",
+  "id": "A050142",
+  "mentions": [
+    "A057574",
+    "A057584"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

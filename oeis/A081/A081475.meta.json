@@ -1,0 +1,22 @@
+{
+  "description": "Consider the mapping f(x/y) = (x+y)/(2xy) where x/y is a reduced fraction. Beginning with x_0 = 1 and y_0 = 2, repeated application of this mapping produces a sequence of fractions x_n/y_n; a(n) is the n-th numerator.",
+  "id": "A081475",
+  "mentions": [
+    "A001685",
+    "A003686",
+    "A064526",
+    "A081476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

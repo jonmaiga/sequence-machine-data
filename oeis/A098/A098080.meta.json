@@ -1,0 +1,21 @@
+{
+  "description": "Nontrivial slowest increasing sequence whose succession of digits is that of the nonnegative integers.",
+  "id": "A098080",
+  "mentions": [
+    "A030655"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Moebius transform of powers of 2.",
+  "id": "A055895",
+  "mentions": [
+    "A034729",
+    "A055894",
+    "A113705",
+    "A339916"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

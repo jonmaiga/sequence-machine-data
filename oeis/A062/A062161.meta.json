@@ -1,0 +1,26 @@
+{
+  "description": "Boustrophedon transform of n mod 2.",
+  "id": "A062161",
+  "mentions": [
+    "A000035",
+    "A000111",
+    "A000667",
+    "A002084",
+    "A009747",
+    "A062162",
+    "A062272",
+    "A109449"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Costé prime expansion of Catalan's constant.",
+  "id": "A080348",
+  "mentions": [
+    "A079366",
+    "A079367",
+    "A079368",
+    "A079385",
+    "A079386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

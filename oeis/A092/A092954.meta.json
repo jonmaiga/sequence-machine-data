@@ -1,0 +1,17 @@
+{
+  "description": "Index of the first occurrence of n in A092953. There are a(n) primes p < n such that n+p is a prime.",
+  "id": "A092954",
+  "mentions": [
+    "A092953"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k-2 and k+2 are consecutive primes.",
+  "id": "A029708",
+  "mentions": [
+    "A029710",
+    "A031505",
+    "A087679"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

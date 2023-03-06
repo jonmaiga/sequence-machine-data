@@ -1,0 +1,24 @@
+{
+  "description": "For a rational number p/q let f(p/q) = sum of distinct prime factors (A008472) of p+q divided by number of distinct prime factors (A001221) of p+q; a(n) is obtained by iterating f, starting at n/1, until an integer is reached, or if no integer is ever reached then a(n) = 0.",
+  "id": "A058977",
+  "mentions": [
+    "A001221",
+    "A008472",
+    "A058971",
+    "A058972",
+    "A247462",
+    "A247468"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let f(n) be the smallest multiple of n that can be obtained by inserting digits anywhere in n except that f(n) is not equal to 10*n; a(n) = f(n)/n.",
+  "id": "A080501",
+  "mentions": [
+    "A080502",
+    "A122098"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

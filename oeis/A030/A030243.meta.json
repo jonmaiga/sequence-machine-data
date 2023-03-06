@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic relations with a nontrivial symmetry.",
+  "id": "A030243",
+  "mentions": [
+    "A000595",
+    "A030242"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nodes at n-th level in tree in which top node is 1; each node k has children labeled k, k+1, ..., (k+1)^2 at next level.",
+  "id": "A058311",
+  "mentions": [
+    "A008934",
+    "A058222",
+    "A147780",
+    "A147794"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

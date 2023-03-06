@@ -1,0 +1,23 @@
+{
+  "description": "Floor[ concatenation of n+4, n+3, n+2, n+1 and n divided by 5].",
+  "id": "A075006",
+  "mentions": [
+    "A036377",
+    "A074991",
+    "A075000",
+    "A075003",
+    "A075005",
+    "A075010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

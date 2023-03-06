@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions satisfying (cn(2,5) = cn(3,5) = 0).",
+  "id": "A036820",
+  "mentions": [
+    "A000041",
+    "A001318",
+    "A057077",
+    "A085787",
+    "A113429",
+    "A195825",
+    "A195837",
+    "A210843",
+    "A284361"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

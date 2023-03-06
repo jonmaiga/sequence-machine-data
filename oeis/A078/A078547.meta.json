@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(n, A052429(n)) - n.",
+  "id": "A078547",
+  "mentions": [
+    "A002796",
+    "A052429",
+    "A078546",
+    "A078548"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

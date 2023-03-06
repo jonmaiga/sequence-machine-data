@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors of 2^n + 1.",
+  "id": "A046798",
+  "mentions": [
+    "A000005",
+    "A000051",
+    "A002587",
+    "A002589",
+    "A046801",
+    "A054992",
+    "A057957",
+    "A059886",
+    "A274906",
+    "A344897"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

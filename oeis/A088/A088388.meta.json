@@ -1,0 +1,19 @@
+{
+  "description": "Exponent of the largest prime power factor of n, a(1)=0.",
+  "id": "A088388",
+  "mentions": [
+    "A034699",
+    "A088387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the sum of cubes of divisors of k and the sum of 4th powers of divisors of k are relatively prime.",
+  "id": "A046685",
+  "mentions": [
+    "A002476",
+    "A003627",
+    "A028982",
+    "A046678",
+    "A046679",
+    "A046680",
+    "A046681",
+    "A046683",
+    "A062503"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

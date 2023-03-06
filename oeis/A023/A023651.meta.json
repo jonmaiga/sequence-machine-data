@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that (product of digits of k) * (sum of digits of k) = 2k.",
+  "id": "A023651",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A038364",
+    "A038369",
+    "A062237",
+    "A066282"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Even squarefree numbers.",
+  "id": "A039956",
+  "mentions": [
+    "A002808",
+    "A005117",
+    "A039955",
+    "A039957",
+    "A056911",
+    "A092673",
+    "A104141",
+    "A264387"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

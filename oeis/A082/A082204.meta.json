@@ -1,0 +1,21 @@
+{
+  "description": "Begin with a 1, then place the smallest (as far as possible distinct) digits, such that, beginning from the n-th term, n terms form a palindrome.",
+  "id": "A082204",
+  "mentions": [
+    "A082205",
+    "A082206"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:47",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

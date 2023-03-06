@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(n, A079892(n)).",
+  "id": "A079893",
+  "mentions": [
+    "A079891",
+    "A079892",
+    "A079894"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

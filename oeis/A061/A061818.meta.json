@@ -1,0 +1,20 @@
+{
+  "description": "Multiples of 2 containing only digits 0,1,2.",
+  "id": "A061818",
+  "mentions": [
+    "A007494",
+    "A061819"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

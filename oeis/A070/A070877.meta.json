@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - 2x^k).",
+  "id": "A070877",
+  "mentions": [
+    "A010815",
+    "A032302",
+    "A070933"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

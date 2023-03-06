@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for imaginary part of first zero (in critical strip) of Riemann zeta function.",
+  "id": "A051655",
+  "mentions": [
+    "A002410",
+    "A013629"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

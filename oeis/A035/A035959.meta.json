@@ -1,0 +1,37 @@
+{
+  "description": "Number of partitions of n in which no parts are multiples of 5.",
+  "id": "A035959",
+  "mentions": [
+    "A000009",
+    "A000726",
+    "A001935",
+    "A035985",
+    "A047201",
+    "A061198",
+    "A061199",
+    "A096938",
+    "A104502",
+    "A116073",
+    "A133563",
+    "A145466",
+    "A219601",
+    "A261775",
+    "A261776",
+    "A320607",
+    "A328545",
+    "A328546"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

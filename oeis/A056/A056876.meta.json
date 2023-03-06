@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations (p_1, ..., p_n) of {1,...,n} that are \"balanced\" in the sense that the sum of k*p_k equals the sum of (n+1-k)*p_k; equivalently, the expected value of k*p_k is (expected value of k) times (expected value of p_k), assuming the uniform distribution.",
+  "id": "A056876",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

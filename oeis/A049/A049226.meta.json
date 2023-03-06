@@ -1,0 +1,23 @@
+{
+  "description": "Composite numbers n such that the sum of divisors of n, sigma(n), divided by the number of divisors, d(n) and sigma(n) minus n are both rational squares.",
+  "id": "A049226",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A048699",
+    "A049207",
+    "A049227",
+    "A049228",
+    "A066436"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

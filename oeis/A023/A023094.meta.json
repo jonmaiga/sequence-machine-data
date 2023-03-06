@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is least k such that k and 2k are anagrams in base n (written in base 10).",
+  "id": "A023094",
+  "mentions": [
+    "A000567",
+    "A023095",
+    "A023096",
+    "A023097",
+    "A023098",
+    "A023099",
+    "A023100",
+    "A023101",
+    "A023102"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

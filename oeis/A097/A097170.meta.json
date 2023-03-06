@@ -1,0 +1,23 @@
+{
+  "description": "Total number of minimal vertex covers among labeled trees on n nodes.",
+  "id": "A097170",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A097171",
+    "A097172",
+    "A097173",
+    "A097174"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

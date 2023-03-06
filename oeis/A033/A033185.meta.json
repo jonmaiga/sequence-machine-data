@@ -1,0 +1,26 @@
+{
+  "description": "Rooted tree triangle read by rows: a(n,k) = number of forests with n nodes and k rooted trees.",
+  "id": "A033185",
+  "mentions": [
+    "A000081",
+    "A000226",
+    "A005197",
+    "A027852",
+    "A029855",
+    "A106240",
+    "A181360",
+    "A336087"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

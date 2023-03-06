@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of form x^2 + 9 y^2.",
+  "id": "A020672",
+  "mentions": [
+    "A068228"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:21",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

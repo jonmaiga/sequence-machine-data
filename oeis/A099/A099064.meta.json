@@ -1,0 +1,17 @@
+{
+  "description": "Inverse binomial transform of A000960.",
+  "id": "A099064",
+  "mentions": [
+    "A000960"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:49:44",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

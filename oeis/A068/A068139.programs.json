@@ -1,0 +1,133 @@
+{
+  "oi": 68139,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sinh(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "sinh",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cosh(1)-e]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cosh",
+        "e",
+        "sub",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[tan(asin(tanh(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "tanh",
+        "asin",
+        "tan",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cot(acos(tanh(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "tanh",
+        "acos",
+        "cot",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cosh(1)*tanh(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cosh",
+        "1",
+        "tanh",
+        "*",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-14",
+      "ix": "contfrac[cot(2*atan(e))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "e",
+        "atan",
+        "*",
+        "cot",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-14",
+      "ix": "contfrac[cot(2*acot(e))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "e",
+        "acot",
+        "*",
+        "cot",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(cosh(1)²-1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cosh",
+        "²",
+        "1",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-06",
+      "ix": "contfrac[exp(-1)-cosh(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "neg",
+        "exp",
+        "1",
+        "cosh",
+        "sub",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "contfrac[sqrt((cosh(2)-1)/2)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "cosh",
+        "1",
+        "sub",
+        "2",
+        "/",
+        "sqrt",
+        "contfrac"
+      ]
+    }
+  ]
+}

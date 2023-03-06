@@ -1,0 +1,20 @@
+{
+  "description": "Growth function (or coordination sequence) of the infinite cubic graph corresponding to the srs net (a(n) = number of nodes at distance n from a fixed node).",
+  "id": "A038620",
+  "mentions": [
+    "A038621",
+    "A290705"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:39:53",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

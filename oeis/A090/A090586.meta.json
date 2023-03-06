@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum/Product of first n numbers.",
+  "id": "A090586",
+  "mentions": [
+    "A000142",
+    "A060593",
+    "A069268",
+    "A090585",
+    "A093420"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

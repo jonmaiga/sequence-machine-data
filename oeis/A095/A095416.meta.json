@@ -1,0 +1,27 @@
+{
+  "description": "Length of smallest repunit of which the prime factor-digit-excess computed by A095414 equals n.",
+  "id": "A095416",
+  "mentions": [
+    "A002275",
+    "A095370",
+    "A095371",
+    "A095407",
+    "A095413",
+    "A095414",
+    "A095418",
+    "A328899"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

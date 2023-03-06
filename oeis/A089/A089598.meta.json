@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: (1+x^2+x^3)/(1-x^3)^2.",
+  "id": "A089598",
+  "mentions": [
+    "A000027",
+    "A005408"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:59:51",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

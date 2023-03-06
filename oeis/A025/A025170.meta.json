@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1/(1 + 2*x + 9*x^2).",
+  "id": "A025170",
+  "mentions": [
+    "A087455",
+    "A088137",
+    "A127357"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:29:45",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

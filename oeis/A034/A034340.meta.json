@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary [ n,6 ] codes of dimension <= 6 without zero columns.",
+  "id": "A034340",
+  "mentions": [
+    "A034337",
+    "A076832"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

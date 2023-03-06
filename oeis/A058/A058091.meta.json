@@ -1,0 +1,29 @@
+{
+  "description": "McKay-Thompson series of class 9B for the Monster group.",
+  "id": "A058091",
+  "mentions": [
+    "A000521",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A007240",
+    "A007241",
+    "A007248",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A131986"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:15",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

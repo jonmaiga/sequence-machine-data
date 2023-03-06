@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers to the right of the central numbers of the (1,2)-Pascal triangle A029635.",
+  "id": "A029643",
+  "mentions": [
+    "A029635"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:29",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

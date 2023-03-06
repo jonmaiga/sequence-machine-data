@@ -1,0 +1,21 @@
+{
+  "description": "Triangle whose n-th row contains the least set (ordered lexicographically) of n distinct positive integers whose geometric mean is an integer.",
+  "id": "A080508",
+  "mentions": [
+    "A080504",
+    "A080509",
+    "A080510",
+    "A080511"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

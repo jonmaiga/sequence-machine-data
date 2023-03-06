@@ -1,0 +1,22 @@
+{
+  "description": "Primes p for which A037888(p) = 1, i.e., primes whose binary expansion is almost symmetric, needing just a one-bit flip to become palindrome.",
+  "id": "A095743",
+  "mentions": [
+    "A037888",
+    "A095062",
+    "A095748",
+    "A095749",
+    "A095753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

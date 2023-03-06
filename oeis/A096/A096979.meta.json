@@ -1,0 +1,30 @@
+{
+  "description": "Sum of the areas of the first n+1 Pell triangles.",
+  "id": "A096979",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001029",
+    "A001109",
+    "A001333",
+    "A002620",
+    "A048739",
+    "A059841",
+    "A064831",
+    "A084158",
+    "A096977",
+    "A096978"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:18:14",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

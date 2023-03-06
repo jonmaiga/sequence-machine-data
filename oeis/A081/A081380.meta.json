@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sets of prime factors (ignoring multiplicity) of A000203(n) = sigma(n) and of A001157(n) = sigma_2(n) are identical.",
+  "id": "A081380",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A081377",
+    "A081378"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "oi": 94641,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[log(atan(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "atan",
+        "log",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[log(acot(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "acot",
+        "log",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[log(4/π)]",
+      "mt": 50,
+      "px": [
+        "4",
+        "π",
+        "/",
+        "log",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-08-16",
+      "ix": "contfrac[C094640]%62",
+      "mt": 50,
+      "px": [
+        "C094640",
+        "contfrac",
+        "62",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-11-04",
+      "ix": "and(contfrac[C094640], -1)",
+      "mt": 50,
+      "px": [
+        "C094640",
+        "contfrac",
+        "-1",
+        "and"
+      ]
+    },
+    {
+      "d": "2022-04-29",
+      "ix": "or(contfrac[log(C003881)], char[2])",
+      "mt": 50,
+      "px": [
+        "C003881",
+        "log",
+        "contfrac",
+        "2",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[ϕ²]*contfrac[C094640]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "²",
+        "contfrac",
+        "C094640",
+        "contfrac",
+        "*"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C094640]/contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C094640",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "/"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C094640]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C094640",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "xor(1, xor(1, contfrac[log(C003881)]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "C003881",
+        "log",
+        "contfrac",
+        "xor",
+        "xor"
+      ]
+    }
+  ]
+}

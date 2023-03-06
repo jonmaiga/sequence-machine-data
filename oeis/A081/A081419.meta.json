@@ -1,0 +1,20 @@
+{
+  "description": "Largest value held in any register at the end of a halting computation by an n-instruction register Minski machine.",
+  "id": "A081419",
+  "mentions": [
+    "A028444"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

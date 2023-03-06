@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + floor(n*(n-3)/6).",
+  "id": "A058212",
+  "mentions": [
+    "A003035",
+    "A007997",
+    "A061857"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

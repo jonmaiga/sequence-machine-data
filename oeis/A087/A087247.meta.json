@@ -1,0 +1,27 @@
+{
+  "description": "Squarefree deficient nonprime numbers.",
+  "id": "A087247",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A005101",
+    "A005117",
+    "A006881",
+    "A008683",
+    "A013929",
+    "A087244",
+    "A087245",
+    "A087246",
+    "A087248"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

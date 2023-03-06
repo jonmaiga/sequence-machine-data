@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of 2 distinct nonzero squares in 9 or more ways.",
+  "id": "A025319",
+  "mentions": [
+    "A025300"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

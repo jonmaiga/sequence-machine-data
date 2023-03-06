@@ -1,0 +1,38 @@
+{
+  "description": "Square array of binomial transforms of (0,0,1,0,0,0,...), read by antidiagonals.",
+  "id": "A081130",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A001788",
+    "A008585",
+    "A027472",
+    "A027474",
+    "A027476",
+    "A033581",
+    "A038845",
+    "A081131",
+    "A081135",
+    "A081136",
+    "A081138",
+    "A081139",
+    "A081140",
+    "A081141",
+    "A081142",
+    "A081197",
+    "A244729"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of (binary) bit strings in which no even length block of 0's is followed by an even length block of 1's.",
+  "id": "A065494",
+  "mentions": [
+    "A061279",
+    "A065455",
+    "A065495",
+    "A065497"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:23:03",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

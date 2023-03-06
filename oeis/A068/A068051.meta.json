@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-node connected graphs with one cycle, possibly of length 1 or 2.",
+  "id": "A068051",
+  "mentions": [
+    "A000081",
+    "A000226",
+    "A000368",
+    "A027852",
+    "A217781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:18:17",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

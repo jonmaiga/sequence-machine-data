@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-element intersecting families (with not necessarily distinct sets) of an n-element set.",
+  "id": "A053155",
+  "mentions": [
+    "A051180"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

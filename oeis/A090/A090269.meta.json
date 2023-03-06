@@ -1,0 +1,21 @@
+{
+  "description": "Least k made of identical digits such that the concatenation k, prime(n), k is prime. a(5) = 0.",
+  "id": "A090269",
+  "mentions": [
+    "A010785",
+    "A055642",
+    "A090266",
+    "A090268"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

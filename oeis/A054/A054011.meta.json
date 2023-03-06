@@ -1,0 +1,20 @@
+{
+  "description": "n is not divisible by the number of its proper divisors.",
+  "id": "A054011",
+  "mentions": [
+    "A000005",
+    "A032741",
+    "A054009",
+    "A054012"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

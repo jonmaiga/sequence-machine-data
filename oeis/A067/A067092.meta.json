@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(X/Y) where X = concatenation in decreasing order of (2n)-th even number to (n+1)-th even number and Y = that of first n even numbers in increasing order.",
+  "id": "A067092",
+  "mentions": [
+    "A067088",
+    "A067089",
+    "A067090",
+    "A067091"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

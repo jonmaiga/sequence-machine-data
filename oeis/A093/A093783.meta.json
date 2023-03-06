@@ -1,0 +1,23 @@
+{
+  "description": "Sum of digits of n in Roman numeral representation.",
+  "id": "A093783",
+  "mentions": [
+    "A002963",
+    "A006968",
+    "A007953",
+    "A057226",
+    "A061493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

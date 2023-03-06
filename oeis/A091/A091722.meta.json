@@ -1,0 +1,22 @@
+{
+  "description": "Babylonian sexagesimal (base 60) expansion of 1/13.",
+  "id": "A091722",
+  "mentions": [
+    "A021017",
+    "A055643",
+    "A091721",
+    "A159991"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:53:19",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

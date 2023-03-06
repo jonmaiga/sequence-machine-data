@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected class-1 graphs on n nodes.",
+  "id": "A099436",
+  "mentions": [
+    "A099435",
+    "A099438"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

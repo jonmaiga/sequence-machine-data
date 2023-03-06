@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle in which first row is 1, n-th row (n > 1) lists distinct prime factors of n.",
+  "id": "A027748",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A006530",
+    "A007947",
+    "A008472",
+    "A013939",
+    "A020639",
+    "A027746",
+    "A027750",
+    "A141809",
+    "A141810",
+    "A284411"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:23",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-node planar graphs with even degrees.",
+  "id": "A049339",
+  "mentions": [
+    "A049340",
+    "A049365"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

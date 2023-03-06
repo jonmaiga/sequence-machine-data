@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p such that 2*p+1 has n distinct prime factors.",
+  "id": "A072059",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A002110",
+    "A023589",
+    "A072055",
+    "A072060"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

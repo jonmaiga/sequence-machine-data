@@ -1,0 +1,25 @@
+{
+  "description": "Greatest prime^2 factor of n, or a(n)=1 for squarefree n.",
+  "id": "A083730",
+  "mentions": [
+    "A001248",
+    "A005117",
+    "A006530",
+    "A008833",
+    "A013929",
+    "A046028",
+    "A249740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

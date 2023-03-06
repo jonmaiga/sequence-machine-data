@@ -1,0 +1,19 @@
+{
+  "description": "Odd rare numbers: odd n such that n-r and n+r are squares, where r is the reverse of n.",
+  "id": "A059755",
+  "mentions": [
+    "A035519"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

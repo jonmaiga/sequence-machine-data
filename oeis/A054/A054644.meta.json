@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled pure 2-complexes on n nodes with 3 2-simplexes.",
+  "id": "A054644",
+  "mentions": [
+    "A054563"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:20:23",
+    "offset": 4,
+    "size": 24,
+    "source": "joeis"
+  }
+}

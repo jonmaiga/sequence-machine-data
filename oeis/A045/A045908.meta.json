@@ -1,0 +1,18 @@
+{
+  "description": "Number of catafusenes with C_{2v}(b) symmetry (see reference for precise definition).",
+  "id": "A045908",
+  "mentions": [
+    "A002212"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:05:26",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

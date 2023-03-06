@@ -1,0 +1,30 @@
+{
+  "description": "Involution of natural numbers induced by Catalan automorphism *A089852 acting on the binary trees/parenthesizations encoded by A014486/A063171.",
+  "id": "A089852",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A046698",
+    "A057163",
+    "A063171",
+    "A069770",
+    "A073190",
+    "A073191",
+    "A089408",
+    "A089840",
+    "A089856",
+    "A089858",
+    "A089861"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

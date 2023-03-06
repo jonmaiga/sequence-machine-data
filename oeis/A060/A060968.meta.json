@@ -1,0 +1,27 @@
+{
+  "description": "Number of solutions to x^2 + y^2 == 1 (mod n).",
+  "id": "A060968",
+  "mentions": [
+    "A001221",
+    "A006752",
+    "A027748",
+    "A060594",
+    "A087784",
+    "A124010",
+    "A182039",
+    "A235863"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers in A058080 having only one factor pair (both distinct from 1) that add up to a sum belonging to A014092.",
+  "id": "A086473",
+  "mentions": [
+    "A014092",
+    "A058080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

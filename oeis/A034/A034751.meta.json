@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet convolution of 3^(n-1) with itself.",
+  "id": "A034751",
+  "mentions": [
+    "A034719"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:09:35",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

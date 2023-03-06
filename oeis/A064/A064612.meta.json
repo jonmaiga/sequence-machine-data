@@ -1,0 +1,30 @@
+{
+  "description": "Partial sum of bigomega is divisible by n, where bigomega(n)=A001222(n) and summatory-bigomega(n)=A022559(n).",
+  "id": "A064612",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A022559",
+    "A045345",
+    "A048290",
+    "A050226",
+    "A056650",
+    "A062982",
+    "A064602",
+    "A064605",
+    "A064607",
+    "A064610",
+    "A064611"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

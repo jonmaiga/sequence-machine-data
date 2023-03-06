@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest integer whose cube has n digits and first digit 1, except that a(2)=2.",
+  "id": "A083378",
+  "mentions": [
+    "A061439",
+    "A083377",
+    "A083379",
+    "A083380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

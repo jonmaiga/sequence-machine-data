@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which row n gives decomposition of Fib(n)*Fib(n+1) into non-adjacent Fibonacci numbers (given by their indices).",
+  "id": "A084346",
+  "mentions": [
+    "A001654",
+    "A035513",
+    "A077982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Distances of increasingly lonely primes to nearest prime.",
+  "id": "A023187",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046929",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051702",
+    "A051728",
+    "A051730"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

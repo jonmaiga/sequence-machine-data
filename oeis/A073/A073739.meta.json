@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integers whose convolution forms a sequence whose odd-indexed terms are twice the odd primes (see: A073740).",
+  "id": "A073739",
+  "mentions": [
+    "A036467",
+    "A073740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

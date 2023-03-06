@@ -1,0 +1,22 @@
+{
+  "description": "Differences between adjacent digits of Pi.",
+  "id": "A095916",
+  "mentions": [
+    "A000796",
+    "A030658",
+    "A049514",
+    "A138345",
+    "A193496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:45",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

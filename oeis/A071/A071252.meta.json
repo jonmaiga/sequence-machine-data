@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n - 1)*(n^2 + 1)/2.",
+  "id": "A071252",
+  "mentions": [
+    "A002378",
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:55",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

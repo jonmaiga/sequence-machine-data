@@ -1,0 +1,30 @@
+{
+  "description": "Numbers containing no prime digits.",
+  "id": "A084984",
+  "mentions": [
+    "A001743",
+    "A001744",
+    "A007092",
+    "A014263",
+    "A017042",
+    "A029581",
+    "A034844",
+    "A046034",
+    "A118950",
+    "A193238",
+    "A202267",
+    "A202268"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

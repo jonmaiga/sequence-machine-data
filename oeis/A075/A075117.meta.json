@@ -1,0 +1,30 @@
+{
+  "description": "Table by antidiagonals of generalized Lucas numbers: T(n,k) = T(n,k-1) + n*T(n,k-2) with T(n,0)=2 and T(n,1)=1.",
+  "id": "A075117",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A005408",
+    "A007395",
+    "A014551",
+    "A016777",
+    "A054977",
+    "A056220",
+    "A060959",
+    "A062786",
+    "A072265",
+    "A075118"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of n-th balanced number.",
+  "id": "A078120",
+  "mentions": [
+    "A001221",
+    "A020492"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

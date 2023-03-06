@@ -1,0 +1,34 @@
+{
+  "description": "Characteristic function of generalized pentagonal numbers A001318.",
+  "id": "A080995",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000122",
+    "A000326",
+    "A000700",
+    "A001318",
+    "A010054",
+    "A010815",
+    "A033683",
+    "A085141",
+    "A089806",
+    "A089810",
+    "A090864",
+    "A121373",
+    "A133985",
+    "A180447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

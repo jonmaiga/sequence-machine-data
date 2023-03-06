@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e/4.",
+  "id": "A019741",
+  "mentions": [
+    "A000326",
+    "A006085"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

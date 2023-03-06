@@ -1,0 +1,28 @@
+{
+  "description": "Number of undirected walks of length n+1 on an oriented triangle, visiting n+2 vertices, with n \"corners\"; the symmetry group is C3. Walks are not self-avoiding.",
+  "id": "A051437",
+  "mentions": [
+    "A000079",
+    "A000129",
+    "A000244",
+    "A000302",
+    "A005418",
+    "A007582",
+    "A077957",
+    "A193231"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

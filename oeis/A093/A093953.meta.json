@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = rightmost term in M^n * [1,1,1], where M = a 3 X 3 matrix composed of the first 3 rows of A050166 (fill in the matrix with zeros): = [1 0 0 / 1 2 0 / 1 4 5].",
+  "id": "A093953",
+  "mentions": [
+    "A000351",
+    "A016127",
+    "A050166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:00:06",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

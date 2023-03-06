@@ -1,0 +1,23 @@
+{
+  "description": "x-value of the solution (x,y,z) to 4/n = 1/x + 1/y + 1/z satisfying 0 < x < y < z and having the largest z-value. The y and z components are in A075246 and A075247.",
+  "id": "A075245",
+  "mentions": [
+    "A073101",
+    "A075246",
+    "A075247",
+    "A192787"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 3,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

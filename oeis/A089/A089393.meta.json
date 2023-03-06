@@ -1,0 +1,21 @@
+{
+  "description": "Smallest n-digit magnanimous prime (A089392), or 0 if there is no such prime with n digits.",
+  "id": "A089393",
+  "mentions": [
+    "A089392",
+    "A089394",
+    "A252495",
+    "A252996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

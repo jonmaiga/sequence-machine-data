@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^(2n) - (2n)^n.",
+  "id": "A094647",
+  "mentions": [
+    "A007925",
+    "A046065"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

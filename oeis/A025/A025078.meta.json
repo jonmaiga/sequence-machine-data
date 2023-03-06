@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n-k+1), where k = [ n/2 ] and s = (Fibonacci numbers).",
+  "id": "A025078",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:32:08",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

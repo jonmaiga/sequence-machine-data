@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetric n X 3 crossword puzzle grids.",
+  "id": "A034185",
+  "mentions": [
+    "A001333",
+    "A034184",
+    "A034186",
+    "A034187"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

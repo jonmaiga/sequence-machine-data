@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-isomorphic arrangements of n lines in the real projective plane such that the lines do not all pass through a common point.",
+  "id": "A048872",
+  "mentions": [
+    "A003036",
+    "A018242",
+    "A048873",
+    "A063800",
+    "A090338",
+    "A090339",
+    "A132346",
+    "A241600",
+    "A250001"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

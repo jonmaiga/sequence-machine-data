@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary words of length n (beginning with 0) with autocorrelation function 2^(n-1).",
+  "id": "A045694",
+  "mentions": [
+    "A019308"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:38:42",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Start with 1,2, concatenate 2^k previous terms and change last term as follows: 1->2, 2->3, 3->1.",
+  "id": "A078734",
+  "mentions": [
+    "A001511",
+    "A007814",
+    "A010872",
+    "A035263",
+    "A050985",
+    "A056832",
+    "A096271"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

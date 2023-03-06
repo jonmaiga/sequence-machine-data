@@ -1,0 +1,21 @@
+{
+  "description": "Greedy frac multiples of gamma: a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=gamma, where \"frac(y)\" denotes the fractional part of y.",
+  "id": "A080157",
+  "mentions": [
+    "A079938",
+    "A079939",
+    "A079940",
+    "A079941",
+    "A080142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

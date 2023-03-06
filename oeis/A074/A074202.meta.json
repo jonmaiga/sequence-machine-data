@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the number of 1's in the binary expansion of k divides 2^k-1.",
+  "id": "A074202",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A074203",
+    "A074293",
+    "A128309"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n) = 3*phi(sigma(n)).",
+  "id": "A067612",
+  "mentions": [
+    "A033845",
+    "A139257"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

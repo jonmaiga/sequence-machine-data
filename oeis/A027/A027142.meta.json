@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..2n-2} T(n,k) * T(n,k+2), with T given by A027113.",
+  "id": "A027142",
+  "mentions": [
+    "A027113"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:56:47",
+    "offset": 2,
+    "size": 20,
+    "source": "joeis"
+  }
+}

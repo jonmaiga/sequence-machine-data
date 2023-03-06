@@ -1,0 +1,17 @@
+{
+  "description": "Product of all possible sums of three numbers taken from among first n natural numbers.",
+  "id": "A093884",
+  "mentions": [
+    "A093883"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

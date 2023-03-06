@@ -1,0 +1,32 @@
+{
+  "description": "One of the two successive approximations up to 5^n for the 5-adic integer sqrt(-1).",
+  "id": "A048898",
+  "mentions": [
+    "A000351",
+    "A034935",
+    "A034939",
+    "A048899",
+    "A114525",
+    "A210848",
+    "A210850",
+    "A210851",
+    "A268922",
+    "A286840",
+    "A286841",
+    "A286877",
+    "A286878"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

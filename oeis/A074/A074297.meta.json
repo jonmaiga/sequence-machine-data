@@ -1,0 +1,19 @@
+{
+  "description": "Position of the first occurrence of n consecutive terms with the largest possible sum in the Kolakoski sequence (A000002).",
+  "id": "A074297",
+  "mentions": [
+    "A000002",
+    "A074296",
+    "A074298"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

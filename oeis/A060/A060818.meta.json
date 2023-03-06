@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 2^(floor(n/2) + floor(n/4) + floor(n/8) + floor(n/16) + ...).",
+  "id": "A060818",
+  "mentions": [
+    "A001147",
+    "A001790",
+    "A005187",
+    "A006519",
+    "A011371",
+    "A046161",
+    "A063079",
+    "A100258",
+    "A334907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:33:19",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

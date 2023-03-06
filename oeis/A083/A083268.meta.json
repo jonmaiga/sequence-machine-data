@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the lcm of related numbers to n (counted in A073757): related = {divisor-set, RRS}.",
+  "id": "A083268",
+  "mentions": [
+    "A038610",
+    "A073757",
+    "A083266",
+    "A083267"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

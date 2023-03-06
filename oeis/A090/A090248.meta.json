@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 27a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 27.",
+  "id": "A090248",
+  "mentions": [
+    "A046213",
+    "A049310",
+    "A053120",
+    "A077428",
+    "A078046",
+    "A078355",
+    "A087130",
+    "A090733",
+    "A097781"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:45:16",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

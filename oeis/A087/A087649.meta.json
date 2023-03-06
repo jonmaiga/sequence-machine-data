@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/2)*(Bell(n+2)-Bell(n+1)+Bell(n)).",
+  "id": "A087649",
+  "mentions": [
+    "A000110",
+    "A035098",
+    "A059606"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

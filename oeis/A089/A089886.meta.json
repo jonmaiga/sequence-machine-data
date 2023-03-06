@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) = number of subsets of {1,..., n} containing exactly k squares, triangle read by rows, 0<=k",
+  "id": "A089886",
+  "mentions": [
+    "A000079",
+    "A000196",
+    "A000290",
+    "A007318",
+    "A089887",
+    "A089888",
+    "A089889",
+    "A089890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

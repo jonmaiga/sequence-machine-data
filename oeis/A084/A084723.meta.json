@@ -1,0 +1,19 @@
+{
+  "description": "Primes arising in A083566. a(n) = n-th partial product of A083566 + 2.",
+  "id": "A084723",
+  "mentions": [
+    "A083566",
+    "A084724",
+    "A084725"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

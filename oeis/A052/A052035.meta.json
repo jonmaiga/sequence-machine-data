@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes whose sum of squared digits is also prime.",
+  "id": "A052035",
+  "mentions": [
+    "A000533",
+    "A002385",
+    "A003132",
+    "A052034"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

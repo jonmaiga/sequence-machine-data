@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent binary [ n,3 ] codes of dimension <= 3 without zero columns.",
+  "id": "A034337",
+  "mentions": [
+    "A034253",
+    "A076832"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of productions of a certain \"divide-and-conquer\" context-free grammar in Chomsky normal form that generates all permutations of n symbols.",
+  "id": "A092285",
+  "mentions": [
+    "A090349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Nonprimes n such that n+cototient(n) is a power of 2.",
+  "id": "A053162",
+  "mentions": [
+    "A000010",
+    "A000043",
+    "A000668",
+    "A001348",
+    "A051953",
+    "A053159",
+    "A053576",
+    "A053577",
+    "A053579"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

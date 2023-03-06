@@ -1,0 +1,32 @@
+{
+  "description": "a(n+1) = a(n) + sum of digits in base 4 representation of a(n), with a(0) = 1.",
+  "id": "A010065",
+  "mentions": [
+    "A003052",
+    "A004207",
+    "A010061",
+    "A010062",
+    "A010064",
+    "A053737",
+    "A230631",
+    "A230632",
+    "A230633",
+    "A230634",
+    "A230635",
+    "A230636",
+    "A230637",
+    "A230638"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

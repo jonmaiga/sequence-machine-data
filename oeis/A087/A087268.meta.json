@@ -1,0 +1,21 @@
+{
+  "description": "Solutions to gcd(x, pi(x)) = 1, where pi is A000720.",
+  "id": "A087268",
+  "mentions": [
+    "A000720",
+    "A007053",
+    "A057809",
+    "A087266",
+    "A087267"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

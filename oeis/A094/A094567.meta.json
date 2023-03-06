@@ -1,0 +1,20 @@
+{
+  "description": "Associated with alternating row sums of array in A094566.",
+  "id": "A094567",
+  "mentions": [
+    "A000045",
+    "A094566"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

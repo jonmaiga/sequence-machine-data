@@ -1,0 +1,18 @@
+{
+  "description": "Values of continued fraction for Pi/2 associated with the records in A096464.",
+  "id": "A096731",
+  "mentions": [
+    "A053300",
+    "A096464"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of array T in A053199.",
+  "id": "A053297",
+  "mentions": [
+    "A000027",
+    "A000225",
+    "A053199"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

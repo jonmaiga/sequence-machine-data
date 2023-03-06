@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that C(4n,n)/(3n+1) (A002293) is not divisible by 4.",
+  "id": "A078971",
+  "mentions": [
+    "A000225",
+    "A002293",
+    "A003462",
+    "A003463"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

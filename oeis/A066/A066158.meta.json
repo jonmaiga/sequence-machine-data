@@ -1,0 +1,25 @@
+{
+  "description": "Number of fixed polyominoes with n cells and tree-like structure.",
+  "id": "A066158",
+  "mentions": [
+    "A001168",
+    "A019441",
+    "A065068",
+    "A118356",
+    "A191094",
+    "A191095",
+    "A191096",
+    "A191097",
+    "A191098"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

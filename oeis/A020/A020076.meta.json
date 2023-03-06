@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor( Gamma(n+4/7)/Gamma(4/7) ).",
+  "id": "A020076",
+  "mentions": [
+    "A020074",
+    "A020075",
+    "A020077",
+    "A020078",
+    "A020079",
+    "A220609"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

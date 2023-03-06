@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number m such that the arithmetic mean of the distinct primes dividing m equals n.",
+  "id": "A082572",
+  "mentions": [
+    "A070009",
+    "A078177",
+    "A200612"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

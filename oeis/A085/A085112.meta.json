@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes with at least 3 digits in which the absolute difference of successive digits is identical.",
+  "id": "A085112",
+  "mentions": [
+    "A059758"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

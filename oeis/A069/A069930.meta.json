@@ -1,0 +1,27 @@
+{
+  "description": "Number of integers of the form (n+k)/(n-k) with 1 <= k <= n-1.",
+  "id": "A069930",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A001620",
+    "A006218",
+    "A032741",
+    "A060831",
+    "A066660",
+    "A066743",
+    "A069283"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

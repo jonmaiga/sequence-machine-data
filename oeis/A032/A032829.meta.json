@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose set of base-5 digits is {3,4}.",
+  "id": "A032829",
+  "mentions": [
+    "A007091"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of square root of 27.",
+  "id": "A010482",
+  "mentions": [
+    "A002194",
+    "A040021",
+    "A104956",
+    "A248254"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

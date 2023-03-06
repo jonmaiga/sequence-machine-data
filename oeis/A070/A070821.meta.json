@@ -1,0 +1,23 @@
+{
+  "description": "Integer part of n/(lpf(n)*gpf(n)), where lpf = A020639 is the least prime factor and gpf = A006530 the greatest prime factor.",
+  "id": "A070821",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A006530",
+    "A020639",
+    "A032742",
+    "A052126"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

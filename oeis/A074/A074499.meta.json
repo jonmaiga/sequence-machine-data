@@ -1,0 +1,19 @@
+{
+  "description": "Sum of three perfect powers.",
+  "id": "A074499",
+  "mentions": [
+    "A001597",
+    "A070049"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

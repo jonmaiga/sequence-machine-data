@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least semiprime > n!.",
+  "id": "A089539",
+  "mentions": [
+    "A001358",
+    "A085747",
+    "A089538",
+    "A089540",
+    "A089541",
+    "A089542"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

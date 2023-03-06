@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number such that there exist exactly n triples (x,y,z) of distinct divisors with z=x+y.",
+  "id": "A097370",
+  "mentions": [
+    "A094518"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

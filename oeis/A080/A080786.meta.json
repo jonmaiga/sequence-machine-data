@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) = number of k-smooth numbers <= n, read by rows.",
+  "id": "A080786",
+  "mentions": [
+    "A000079",
+    "A002473",
+    "A003586",
+    "A006530",
+    "A014684",
+    "A029837",
+    "A036234",
+    "A051037",
+    "A051038",
+    "A071520",
+    "A071521",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that prime(n)+2^k is prime, or -1 if no such prime exists.",
+  "id": "A094076",
+  "mentions": [
+    "A067760"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

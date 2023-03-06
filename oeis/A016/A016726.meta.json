@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k such that 1, 4, 9, ..., n^2 are distinct mod k.",
+  "id": "A016726",
+  "mentions": [
+    "A000290",
+    "A001751",
+    "A192419",
+    "A192420",
+    "A347693"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:52:55",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

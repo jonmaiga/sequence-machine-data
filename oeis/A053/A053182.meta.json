@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p^2 + p + 1 is prime.",
+  "id": "A053182",
+  "mentions": [
+    "A000203",
+    "A053183",
+    "A053184",
+    "A065508",
+    "A091567",
+    "A147683",
+    "A188596"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

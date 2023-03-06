@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime divisors (counted with multiplicity) of numbers of form a^n + b^n + c^n + ..., where a*b*c* ... is the prime factorization of n.",
+  "id": "A082876",
+  "mentions": [
+    "A001222",
+    "A082813",
+    "A082814",
+    "A082872"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

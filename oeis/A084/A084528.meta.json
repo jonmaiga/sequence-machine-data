@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A084529. Positions of ones in the first differences of A084526.",
+  "id": "A084528",
+  "mentions": [
+    "A084507",
+    "A084526",
+    "A084529"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

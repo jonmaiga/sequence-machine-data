@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 13 is the largest of all prime factors of the numbers between p and the next prime (cf. A052248).",
+  "id": "A080188",
+  "mentions": [
+    "A001359",
+    "A051038",
+    "A052248",
+    "A080196",
+    "A080197"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

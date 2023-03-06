@@ -1,0 +1,19 @@
+{
+  "description": "Index of first occurrence of n in A091853, or 0 if no such number exists.",
+  "id": "A091854",
+  "mentions": [
+    "A091853"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

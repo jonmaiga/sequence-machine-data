@@ -1,0 +1,22 @@
+{
+  "description": "Diagonals and antidiagonals of the prime-composite array, B(m,n) which are zeros from the Third Borve Conjecture.",
+  "id": "A067681",
+  "mentions": [
+    "A014617",
+    "A063173",
+    "A063174",
+    "A063175",
+    "A063176",
+    "A067677"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

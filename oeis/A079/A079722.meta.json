@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numbers related to an approximation problem connected with Riemann hypothesis.",
+  "id": "A079722",
+  "mentions": [
+    "A079723",
+    "A079724"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

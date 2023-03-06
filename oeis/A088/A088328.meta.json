@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows where row n contains lower twin primes of the form k*A002110(n)-1 in the range 0 < k < A006094(n+1).",
+  "id": "A088328",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A006094",
+    "A088329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of letters in n-th prime (in English).",
+  "id": "A049528",
+  "mentions": [
+    "A000040",
+    "A005589",
+    "A052360"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

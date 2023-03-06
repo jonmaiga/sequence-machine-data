@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of nonisomorphic unlabeled planar graphs with n >= 1 nodes and 0<=k<=3n-6 edges.",
+  "id": "A039735",
+  "mentions": [
+    "A005470",
+    "A008406",
+    "A049334"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

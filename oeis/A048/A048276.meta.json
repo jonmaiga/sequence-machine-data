@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of squarefree numbers among C(n,k), k=0..n.",
+  "id": "A048276",
+  "mentions": [
+    "A005117",
+    "A046098",
+    "A048277",
+    "A238337"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to tile a 7 X n rectangle with 1 X 1 and 2 X 2 tiles.",
+  "id": "A063651",
+  "mentions": [
+    "A001045",
+    "A054854",
+    "A054855",
+    "A063650",
+    "A063654",
+    "A245013"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:01:22",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

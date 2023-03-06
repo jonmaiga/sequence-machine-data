@@ -1,0 +1,28 @@
+{
+  "description": "Write n = m^k with m, k integers, k >= 1, then a(n) is the smallest possible choice for m.",
+  "id": "A052410",
+  "mentions": [
+    "A001597",
+    "A007916",
+    "A025478",
+    "A027748",
+    "A052409",
+    "A072775",
+    "A124010",
+    "A175781",
+    "A278028",
+    "A288636",
+    "A289023"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

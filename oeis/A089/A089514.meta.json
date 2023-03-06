@@ -1,0 +1,21 @@
+{
+  "description": "Fourth column of triangle A089504.",
+  "id": "A089514",
+  "mentions": [
+    "A089504",
+    "A089505",
+    "A089513"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:21:02",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

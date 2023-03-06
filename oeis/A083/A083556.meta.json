@@ -1,0 +1,19 @@
+{
+  "description": "n-th Payam number E_{+}(n), defined as the smallest positive odd integer k such that for every positive integer n, the number k*2^n+1 is not divisible by any primes p such that the multiplicative order of 2 mod p is less than or equal to e.",
+  "id": "A083556",
+  "mentions": [
+    "A080076",
+    "A083391"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes which when added to their reversals are squares.",
+  "id": "A059799",
+  "mentions": [
+    "A035519",
+    "A059798",
+    "A227371"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

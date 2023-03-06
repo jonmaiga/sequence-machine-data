@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 5, a(n+1) is the smallest multiple of a(n) using only prime digits (2,3,5,7).",
+  "id": "A078234",
+  "mentions": [
+    "A078232",
+    "A078233",
+    "A078235",
+    "A078236"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the number of digits in the prime numbers less than 10^n.",
+  "id": "A097952",
+  "mentions": [
+    "A006879",
+    "A006880",
+    "A046719",
+    "A119290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

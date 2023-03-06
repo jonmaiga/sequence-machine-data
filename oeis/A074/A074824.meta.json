@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^k + Fibonacci(k) is prime.",
+  "id": "A074824",
+  "mentions": [
+    "A000045",
+    "A074716",
+    "A117591"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

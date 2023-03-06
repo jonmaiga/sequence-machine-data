@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] having length of first run equal to k.",
+  "id": "A092582",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A000166",
+    "A001710",
+    "A001715",
+    "A001720",
+    "A001725",
+    "A002260",
+    "A002627",
+    "A005563",
+    "A055596",
+    "A092956",
+    "A128227",
+    "A130477",
+    "A154990",
+    "A173333"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

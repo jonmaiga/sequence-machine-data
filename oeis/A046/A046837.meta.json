@@ -1,0 +1,16 @@
+{
+  "description": "Internal digits of n^2 include digits of n as substring, n does not end in 0.",
+  "id": "A046837",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

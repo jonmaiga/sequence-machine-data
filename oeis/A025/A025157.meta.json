@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n with distinct parts p(i) such that if i != j, then |p(i) - p(j)| >= 3.",
+  "id": "A025157",
+  "mentions": [
+    "A000217",
+    "A003114",
+    "A096401",
+    "A194543",
+    "A263719"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which n-th row contains all possible products of n-1 of the first n natural numbers in ascending order.",
+  "id": "A077012",
+  "mentions": [
+    "A000254",
+    "A058298",
+    "A078921",
+    "A137853"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

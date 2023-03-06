@@ -1,0 +1,21 @@
+{
+  "description": "Prime(n) such that 4 does not divide the difference between prime(n) and prime(n+1).",
+  "id": "A098058",
+  "mentions": [
+    "A057619",
+    "A057622",
+    "A098059",
+    "A289118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

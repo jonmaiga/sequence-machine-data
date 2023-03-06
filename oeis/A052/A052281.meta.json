@@ -1,0 +1,23 @@
+{
+  "description": "Number of 4 X 4 symmetric stochastic matrices under row and column permutations.",
+  "id": "A052281",
+  "mentions": [
+    "A001496",
+    "A052280",
+    "A052282",
+    "A053493",
+    "A333886"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

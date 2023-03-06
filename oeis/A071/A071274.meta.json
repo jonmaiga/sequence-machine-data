@@ -1,0 +1,18 @@
+{
+  "description": "A071273 divided by 11.",
+  "id": "A071274",
+  "mentions": [
+    "A071273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

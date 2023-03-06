@@ -1,0 +1,20 @@
+{
+  "description": "Gaps associated with the arithmetic progressions of semiprimes in A096003.",
+  "id": "A097824",
+  "mentions": [
+    "A082919",
+    "A093364",
+    "A096003"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

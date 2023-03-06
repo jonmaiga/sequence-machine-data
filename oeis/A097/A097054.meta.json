@@ -1,0 +1,28 @@
+{
+  "description": "Nonsquare perfect powers.",
+  "id": "A097054",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A008683",
+    "A052409",
+    "A070265",
+    "A093771",
+    "A097055",
+    "A097056",
+    "A239728",
+    "A239870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

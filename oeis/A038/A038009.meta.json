@@ -1,0 +1,20 @@
+{
+  "description": "Values of A038007 not ending in 6 or 8.",
+  "id": "A038009",
+  "mentions": [
+    "A038007",
+    "A038010",
+    "A038011"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

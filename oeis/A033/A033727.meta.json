@@ -1,0 +1,15 @@
+{
+  "description": "Product theta3(q^d); d | 15.",
+  "id": "A033727",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

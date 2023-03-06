@@ -1,0 +1,21 @@
+{
+  "description": "Sum of end-to-end Manhattan distances over all self-avoiding n-step walks on cubic lattice. Numerator of mean Manhattan displacement s(n)=a(n)/A078717.",
+  "id": "A079156",
+  "mentions": [
+    "A001412",
+    "A078605",
+    "A078717"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

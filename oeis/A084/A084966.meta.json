@@ -1,0 +1,21 @@
+{
+  "description": "Minimum numbers of squares needed to write n! as a sum of nonzero squares.",
+  "id": "A084966",
+  "mentions": [
+    "A000142",
+    "A000419",
+    "A001481",
+    "A004215",
+    "A084953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

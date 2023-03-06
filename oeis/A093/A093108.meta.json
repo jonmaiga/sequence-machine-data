@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the Zsigmondy number Zs(n,4,1) differs from the n-th cyclotomic polynomial evaluated at 4.",
+  "id": "A093108",
+  "mentions": [
+    "A019322",
+    "A064080",
+    "A093106",
+    "A093107",
+    "A093109"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

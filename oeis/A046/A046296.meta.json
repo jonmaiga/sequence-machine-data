@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 2^k contains 2^10 = 1024 as its largest proper substring of the form 2^m.",
+  "id": "A046296",
+  "mentions": [
+    "A000079",
+    "A033921"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:48:59",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

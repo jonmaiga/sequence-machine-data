@@ -1,0 +1,27 @@
+{
+  "description": "Square table by antidiagonals of number of routes of length 2k+n on the sides of a 2n-gon from a point to its opposite point.",
+  "id": "A061897",
+  "mentions": [
+    "A000007",
+    "A000038",
+    "A000079",
+    "A005843",
+    "A008776",
+    "A028552",
+    "A040000",
+    "A060995",
+    "A061896"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

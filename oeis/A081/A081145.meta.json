@@ -1,0 +1,35 @@
+{
+  "description": "a(1)=1; thereafter, a(n) is the least positive integer which has not already occurred and is such that |a(n)-a(n-1)| is different from any |a(k)-a(k-1)| which has already occurred.",
+  "id": "A081145",
+  "mentions": [
+    "A005132",
+    "A006509",
+    "A063733",
+    "A072007",
+    "A078783",
+    "A081146",
+    "A084331",
+    "A084335",
+    "A093903",
+    "A099004",
+    "A100707",
+    "A117622",
+    "A129198",
+    "A129199",
+    "A308007",
+    "A308009",
+    "A308015",
+    "A308021",
+    "A308172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

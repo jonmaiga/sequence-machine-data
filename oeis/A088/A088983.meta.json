@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that each of the 6 consecutive numbers n through n+5 has exactly two distinct prime factors.",
+  "id": "A088983",
+  "mentions": [
+    "A001221",
+    "A003586",
+    "A006073",
+    "A007774",
+    "A045932",
+    "A045933",
+    "A045934",
+    "A045935",
+    "A064709",
+    "A074851"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

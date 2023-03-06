@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of unique-valued sequences of length k, n >= 1, 1 <= k <= 2n-3, in the symmetric group S_n.",
+  "id": "A097635",
+  "mentions": [
+    "A002860",
+    "A052129"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that k*n begins with 2: a(n) = A082811(n)/n.",
+  "id": "A082791",
+  "mentions": [
+    "A054850",
+    "A082784",
+    "A082786",
+    "A082787",
+    "A082788",
+    "A082789",
+    "A082811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

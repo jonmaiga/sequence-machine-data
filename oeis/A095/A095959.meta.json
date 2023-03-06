@@ -1,0 +1,21 @@
+{
+  "description": "Primes modulo 30.",
+  "id": "A095959",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A002110",
+    "A242119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:51",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

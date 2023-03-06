@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose prime factors are all congruent to +1 or -1 modulo 8.",
+  "id": "A058529",
+  "mentions": [
+    "A001132",
+    "A001653",
+    "A014498",
+    "A020882",
+    "A020886",
+    "A020888",
+    "A027748",
+    "A046086",
+    "A046087",
+    "A047522",
+    "A330174"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

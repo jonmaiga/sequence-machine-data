@@ -1,0 +1,19 @@
+{
+  "description": "Number of reducible GF(2)[X]-polynomials in range [0,n].",
+  "id": "A091245",
+  "mentions": [
+    "A065855",
+    "A091242",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

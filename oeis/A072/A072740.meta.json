@@ -1,0 +1,23 @@
+{
+  "description": "X-projection of the tabular N X N -> N bijection A072734.",
+  "id": "A072740",
+  "mentions": [
+    "A025581",
+    "A072734",
+    "A072735",
+    "A072736",
+    "A072741",
+    "A072783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

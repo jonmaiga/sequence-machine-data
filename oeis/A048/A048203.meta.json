@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=T(n,3), array T given by A048201.",
+  "id": "A048203",
+  "mentions": [
+    "A048201"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 3,
+    "size": 49,
+    "source": "joeis"
+  }
+}

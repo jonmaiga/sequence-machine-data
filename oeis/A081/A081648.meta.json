@@ -1,0 +1,19 @@
+{
+  "description": "Integers congruent to 0, 1, 4, 9, 16, 25, 36, 49 or 64 (mod 81) which are not squares.",
+  "id": "A081648",
+  "mentions": [
+    "A080151",
+    "A080160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

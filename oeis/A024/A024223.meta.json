@@ -1,0 +1,19 @@
+{
+  "description": "[ (4th elementary symmetric function of S(n))/(2nd elementary symmetric function of S(n)) ], where S(n) = {first n+3 positive integers congruent to 1 mod 3}.",
+  "id": "A024223",
+  "mentions": [
+    "A024212",
+    "A024214"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:43",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

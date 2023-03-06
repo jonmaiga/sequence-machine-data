@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of numbers used for basis change between certain falling factorials.",
+  "id": "A089503",
+  "mentions": [
+    "A007318",
+    "A068424",
+    "A071951",
+    "A078739"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

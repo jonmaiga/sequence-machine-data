@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = floor(X/Y) where X is the concatenation in increasing order of the first n even numbers and Y is that of the first n odd numbers.",
+  "id": "A067095",
+  "mentions": [
+    "A019519",
+    "A019520",
+    "A019521",
+    "A067088",
+    "A067089",
+    "A067090",
+    "A067091",
+    "A067092",
+    "A067093",
+    "A067094",
+    "A349960"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

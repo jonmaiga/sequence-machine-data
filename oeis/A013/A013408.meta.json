@@ -1,0 +1,15 @@
+{
+  "description": "arcsin(arcsin(x)-arctan(x))=3/3!*x^3-15/5!*x^5+945/7!*x^7-21735/9!*x^9...",
+  "id": "A013408",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:35:51",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

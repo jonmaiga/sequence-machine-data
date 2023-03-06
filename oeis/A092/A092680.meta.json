@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 3*2^k with a single anti-divisor.",
+  "id": "A092680",
+  "mentions": [
+    "A066272",
+    "A066466",
+    "A092679"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

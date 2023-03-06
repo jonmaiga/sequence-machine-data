@@ -1,0 +1,24 @@
+{
+  "description": "Set partitions up to rotations.",
+  "id": "A084423",
+  "mentions": [
+    "A000041",
+    "A079609",
+    "A080107",
+    "A084708",
+    "A152175",
+    "A162663"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

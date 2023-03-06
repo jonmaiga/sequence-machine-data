@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = max(prime(i)*(n+1-i) | 1 <= i <= n).",
+  "id": "A073818",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A073819",
+    "A073820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

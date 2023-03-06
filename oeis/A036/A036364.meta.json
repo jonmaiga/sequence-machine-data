@@ -1,0 +1,25 @@
+{
+  "description": "Number of free n-ominoes with cell centers determining n-2 space (proper dimension n-2).",
+  "id": "A036364",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A036365",
+    "A051491",
+    "A171860",
+    "A340310"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

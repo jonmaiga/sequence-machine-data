@@ -1,0 +1,28 @@
+{
+  "description": "Ordered areas of primitive Pythagorean triangles.",
+  "id": "A024406",
+  "mentions": [
+    "A006991",
+    "A009112",
+    "A020885",
+    "A024365",
+    "A094182",
+    "A094183",
+    "A121728",
+    "A121729",
+    "A256418",
+    "A258150"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

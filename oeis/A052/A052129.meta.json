@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = n*a(n-1)^2.",
+  "id": "A052129",
+  "mentions": [
+    "A000142",
+    "A001045",
+    "A030450",
+    "A088679",
+    "A112302",
+    "A116603",
+    "A123851",
+    "A123852",
+    "A123853",
+    "A123854",
+    "A238462"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

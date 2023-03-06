@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of certain upper bounds for Euler's number e.",
+  "id": "A095823",
+  "mentions": [
+    "A001563",
+    "A095822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

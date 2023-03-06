@@ -1,0 +1,25 @@
+{
+  "description": "Number of 4 X 4 matrices with entries mod n, up to row and column permutation.",
+  "id": "A058002",
+  "mentions": [
+    "A002724",
+    "A052271",
+    "A052272",
+    "A058001",
+    "A058003",
+    "A058004",
+    "A246106"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:38:53",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

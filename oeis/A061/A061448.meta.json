@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; a(n+1) = smallest prime > a(n) with leading digit equal to final digit of a(n).",
+  "id": "A061448",
+  "mentions": [
+    "A054262"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

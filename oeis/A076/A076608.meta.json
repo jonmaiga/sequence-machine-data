@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonprimes k < n such that also n-k is not a prime.",
+  "id": "A076608",
+  "mentions": [
+    "A005171",
+    "A073610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

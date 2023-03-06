@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime beginning with at least n n's (in decimal notation).",
+  "id": "A088639",
+  "mentions": [
+    "A065584",
+    "A065592",
+    "A068120",
+    "A088640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

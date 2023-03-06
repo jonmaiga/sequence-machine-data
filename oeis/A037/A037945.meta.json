@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of unique normalized cusp form Delta_20 of weight 20 for full modular group.",
+  "id": "A037945",
+  "mentions": [
+    "A013967",
+    "A290180"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

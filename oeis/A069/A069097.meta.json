@@ -1,0 +1,29 @@
+{
+  "description": "Moebius transform of A064987, n*sigma(n).",
+  "id": "A069097",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A007434",
+    "A033457",
+    "A064987",
+    "A068963",
+    "A127569",
+    "A143309",
+    "A143312",
+    "A343510"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

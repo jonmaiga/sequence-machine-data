@@ -1,0 +1,29 @@
+{
+  "description": "Apply DENEAT operator (or the Sisyphus function) to n.",
+  "id": "A073053",
+  "mentions": [
+    "A004643",
+    "A008577",
+    "A055642",
+    "A072420",
+    "A073054",
+    "A100961",
+    "A171797",
+    "A196563",
+    "A196564",
+    "A305395",
+    "A308004"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

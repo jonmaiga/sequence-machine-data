@@ -1,0 +1,21 @@
+{
+  "description": "a(n+2) = 9*a(n+1) - a(n) + 1, with a(1)=1, a(2)=10.",
+  "id": "A092420",
+  "mentions": [
+    "A018913",
+    "A092521",
+    "A212336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:41:20",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Squares whose digits can be arranged in increasing cyclic order - to form a substring of 123456789012345678901234567890...",
+  "id": "A068708",
+  "mentions": [
+    "A076966"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

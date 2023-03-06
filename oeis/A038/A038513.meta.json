@@ -1,0 +1,15 @@
+{
+  "description": "Numbers with three not necessarily distinct prime factors with smallest prime >=5.",
+  "id": "A038513",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

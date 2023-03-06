@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that prime(n)*k+1 is prime.",
+  "id": "A035096",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A034693",
+    "A035095"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

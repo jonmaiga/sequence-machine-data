@@ -1,0 +1,25 @@
+{
+  "description": "Difference between two positive cubes in more than one way.",
+  "id": "A034179",
+  "mentions": [
+    "A014439",
+    "A014440",
+    "A014441",
+    "A181123",
+    "A265625",
+    "A333376",
+    "A333377"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

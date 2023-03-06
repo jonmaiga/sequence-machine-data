@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k*prime(n)#/5 - 5 and k*prime(n)#/5 + 5 are consecutive primes with gap 10, where prime(n)# is the n-th primorial.",
+  "id": "A097570",
+  "mentions": [
+    "A002110",
+    "A097439",
+    "A097440",
+    "A097441",
+    "A098064"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form identical digits preceded by a 9.",
+  "id": "A090157",
+  "mentions": [
+    "A090148",
+    "A090149",
+    "A090150",
+    "A090151",
+    "A090152",
+    "A090153",
+    "A090154",
+    "A090155"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

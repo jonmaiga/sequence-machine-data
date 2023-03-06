@@ -1,0 +1,18 @@
+{
+  "description": "Number of optimal binary prefix-free codes with n words all ending in 1.",
+  "id": "A055167",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

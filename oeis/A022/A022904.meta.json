@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to c(1)*prime(4) + ... + c(n)*prime(n+3) = 1, where c(i) = +-1 for i>1, c(1) = 1.",
+  "id": "A022904",
+  "mentions": [
+    "A022903",
+    "A022920"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

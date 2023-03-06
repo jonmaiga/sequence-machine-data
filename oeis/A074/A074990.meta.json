@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes in the interval (n,3n].",
+  "id": "A074990",
+  "mentions": [
+    "A075699",
+    "A108954"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Odd Fibonacci pseudoprimes: odd composite numbers k such that either (1) k divides Fibonacci(k-1) if k == +-1 (mod 5) or (2) k divides Fibonacci(k+1) if k == +-2 (mod 5).",
+  "id": "A081264",
+  "mentions": [
+    "A069106",
+    "A069107",
+    "A141137"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

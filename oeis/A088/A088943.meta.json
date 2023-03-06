@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=60*sum(1<=i<=j<=k<=n,i*j^2/k).",
+  "id": "A088943",
+  "mentions": [
+    "A088941",
+    "A088942"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:23",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = F(n)*F(n-1) if n odd otherwise F(n)*F(n-1)-1, where F = Fibonacci numbers A000045.",
+  "id": "A059840",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A001654",
+    "A027941",
+    "A059248",
+    "A064831",
+    "A080144",
+    "A119996",
+    "A228873"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

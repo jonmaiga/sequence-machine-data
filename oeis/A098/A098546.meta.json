@@ -1,0 +1,32 @@
+{
+  "description": "Table read by rows: row n has a term T(n,k) for each of the partition(n) partitions of n. T(n,k) = binomial(n,m) where m is the number of parts.",
+  "id": "A098546",
+  "mentions": [
+    "A000041",
+    "A000312",
+    "A000670",
+    "A035206",
+    "A036036",
+    "A036038",
+    "A036042",
+    "A036043",
+    "A049009",
+    "A049019",
+    "A090657",
+    "A098346",
+    "A098545"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

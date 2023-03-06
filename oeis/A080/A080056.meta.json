@@ -1,0 +1,21 @@
+{
+  "description": "Greedy powers of (2/Pi): sum_{n=1..inf} (2/Pi)^a(n) = 1.",
+  "id": "A080056",
+  "mentions": [
+    "A077468",
+    "A080055",
+    "A080057"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

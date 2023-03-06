@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes with exactly n decimal digits which have repeated digits.",
+  "id": "A098227",
+  "mentions": [
+    "A006879",
+    "A006880",
+    "A098224",
+    "A098226"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Base-4 numbers whose list of divisors (in base 4) contains each digit 0-3 the same number of times.",
+  "id": "A045813",
+  "mentions": [
+    "A038564",
+    "A038565",
+    "A045814"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

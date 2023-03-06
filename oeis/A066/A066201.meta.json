@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals upwards: for n-th row (n>=0), T(n,0) = 1; for k > 0, T(n,k) = T(n,k-1)-(n+k-1) if this is positive and has not already appeared in this row, otherwise T(n,k) = T(n,k-1)+(n+k-1).",
+  "id": "A066201",
+  "mentions": [
+    "A005132",
+    "A063733",
+    "A066199",
+    "A066200"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

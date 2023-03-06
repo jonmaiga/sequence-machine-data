@@ -1,0 +1,22 @@
+{
+  "description": "Costé prime expansion of (sqrt(5)-1)/2.",
+  "id": "A079378",
+  "mentions": [
+    "A079366",
+    "A079367",
+    "A079368",
+    "A079379",
+    "A079380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

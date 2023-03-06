@@ -1,0 +1,18 @@
+{
+  "description": "Number of aperiodic necklaces of n beads of 2 colors, 10 of them black.",
+  "id": "A032168",
+  "mentions": [
+    "A000011"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:59:23",
+    "offset": 11,
+    "size": 29,
+    "source": "joeis"
+  }
+}

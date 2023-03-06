@@ -1,0 +1,20 @@
+{
+  "description": "Consider a room of size r X s where rs = 2n and 1 <= r <= s; count ways to arrange n Tatami mats in room; a(n) = total number of ways for all choices of r and s. Two arrangements are considered the same if one is a rotation or reflection of the other.",
+  "id": "A052270",
+  "mentions": [
+    "A067925",
+    "A068920",
+    "A068926"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:01",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

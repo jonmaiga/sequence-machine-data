@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes of form 6k+5.",
+  "id": "A092256",
+  "mentions": [
+    "A091113",
+    "A091300"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

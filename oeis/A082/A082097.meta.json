@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = d(a(n-1)) + n = A000005(a(n-1)) + n, with a(1)=1.",
+  "id": "A082097",
+  "mentions": [
+    "A000005",
+    "A069103",
+    "A082094",
+    "A082095",
+    "A082096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

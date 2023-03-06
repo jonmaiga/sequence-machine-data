@@ -1,0 +1,18 @@
+{
+  "description": "Largest number using only digits <= n that does not repeat a pair of consecutive digits.",
+  "id": "A034712",
+  "mentions": [
+    "A034711"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:03:45",
+    "offset": 1,
+    "size": 7,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which n-th row contains n primes == 1 mod (n) and the first term of a row is just greater than the last term of the previous row.",
+  "id": "A072467",
+  "mentions": [
+    "A072468",
+    "A072469"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

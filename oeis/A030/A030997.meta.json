@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime which is a concatenation of n consecutive primes.",
+  "id": "A030997",
+  "mentions": [
+    "A030461",
+    "A030469",
+    "A030473",
+    "A030996",
+    "A068655",
+    "A086041",
+    "A099727",
+    "A167517"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sums of 4 distinct powers of 5.",
+  "id": "A038476",
+  "mentions": [
+    "A000351",
+    "A038446",
+    "A038474",
+    "A038475",
+    "A038477"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Increasing gaps in A038593 (upper terms).",
+  "id": "A093362",
+  "mentions": [
+    "A038593"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

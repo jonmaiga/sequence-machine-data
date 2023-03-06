@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least k such that {n+1, n+2, n+3, ... n+k} has a subset the product of whose members with n is a square.",
+  "id": "A092487",
+  "mentions": [
+    "A006255",
+    "A092488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of 7-smooth numbers <= n.",
+  "id": "A071604",
+  "mentions": [
+    "A002473",
+    "A070939",
+    "A071520",
+    "A071521",
+    "A071523",
+    "A080684",
+    "A080685",
+    "A080686",
+    "A080786",
+    "A086299",
+    "A096300",
+    "A106600",
+    "A343598"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

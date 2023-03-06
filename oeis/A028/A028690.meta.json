@@ -1,0 +1,21 @@
+{
+  "description": "Sorted Galois and Pseudo-Galois numbers.",
+  "id": "A028690",
+  "mentions": [
+    "A028665",
+    "A028667",
+    "A028668",
+    "A028689",
+    "A028691"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that normalizer of Gamma_0(n) is triangle group (2,4,inf).",
+  "id": "A018229",
+  "mentions": [
+    "A018228",
+    "A018230",
+    "A018231"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

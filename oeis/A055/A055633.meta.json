@@ -1,0 +1,21 @@
+{
+  "description": "Number of nested algorithms a(m,n) where m is the number of items in a contaminated group and n is the total number of unclassified items (0 <= m <= n) (values read by antidiagonals).",
+  "id": "A055633",
+  "mentions": [
+    "A000108",
+    "A028580"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:51:28",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

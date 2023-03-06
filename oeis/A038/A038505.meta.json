@@ -1,0 +1,25 @@
+{
+  "description": "Sum of every 4th entry of row n in Pascal's triangle, starting at binomial(n,2).",
+  "id": "A038505",
+  "mentions": [
+    "A000749",
+    "A004525",
+    "A009116",
+    "A009545",
+    "A038503",
+    "A038504",
+    "A046980"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

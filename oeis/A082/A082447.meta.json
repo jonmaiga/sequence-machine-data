@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the number k such that s(k)=0 where s(0)=n and s(i)=s(i-1)-(s(i-1) modulo i).",
+  "id": "A082447",
+  "mentions": [
+    "A002491",
+    "A007952",
+    "A028913",
+    "A073047",
+    "A130747",
+    "A140060",
+    "A140061"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{m=1..24} (25-m)^n*A005875(m).",
+  "id": "A085120",
+  "mentions": [
+    "A005875"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of the 71-dimensional sublattice orthogonal to a norm 8 vector of the putative extremal 72-dimensional even unimodular lattice.",
+  "id": "A064163",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

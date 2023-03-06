@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; for n > 1, concatenate distinct prime factors of n in decreasing order.",
+  "id": "A085307",
+  "mentions": [
+    "A084317",
+    "A084318",
+    "A084319",
+    "A084796",
+    "A084797",
+    "A085308",
+    "A085309"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

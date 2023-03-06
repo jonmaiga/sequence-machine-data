@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. 1/(1-x^2-x^3).",
+  "id": "A052597",
+  "mentions": [
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:00:10",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

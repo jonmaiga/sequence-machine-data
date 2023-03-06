@@ -1,0 +1,17 @@
+{
+  "description": "A065811[n]/3.",
+  "id": "A065812",
+  "mentions": [
+    "A065811"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest semiprime with same leading digits as n!.",
+  "id": "A095192",
+  "mentions": [
+    "A001358",
+    "A068844"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

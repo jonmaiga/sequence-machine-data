@@ -1,0 +1,24 @@
+{
+  "description": "Take n-th prime p, let P = all primes having same digits; a(n) = q-p where q is smallest prime in P >p if q exists; otherwise a(n) = p-r where r is largest prime in P",
+  "id": "A052495",
+  "mentions": [
+    "A052494",
+    "A052507",
+    "A052902",
+    "A052998",
+    "A052999",
+    "A053544"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:04:31",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

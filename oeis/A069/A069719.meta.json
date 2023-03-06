@@ -1,0 +1,25 @@
+{
+  "description": "Integer quotients arising in A068418: sum of proper divisors is divided by cototient of terms of A068418.",
+  "id": "A069719",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A051953",
+    "A068414",
+    "A068418",
+    "A069714",
+    "A069737"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

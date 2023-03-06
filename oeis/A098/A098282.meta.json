@@ -1,0 +1,31 @@
+{
+  "description": "Iterate the map k -> A087712(k) starting at n; a(n) is the number of steps at which we see a repeated term for the first time; or -1 if the trajectory never repeats.",
+  "id": "A098282",
+  "mentions": [
+    "A007097",
+    "A030298",
+    "A077960",
+    "A087712",
+    "A144760",
+    "A144813",
+    "A144814",
+    "A144914",
+    "A144915",
+    "A145077",
+    "A145078",
+    "A145079",
+    "A156055"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

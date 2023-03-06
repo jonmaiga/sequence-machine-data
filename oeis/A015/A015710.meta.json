@@ -1,0 +1,18 @@
+{
+  "description": "Least k >= 0 such that phi(n) * sigma(n) + k^2 is a perfect square, or -1 if impossible.",
+  "id": "A015710",
+  "mentions": [
+    "A015713",
+    "A062354"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:42:43",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

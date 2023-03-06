@@ -1,0 +1,19 @@
+{
+  "description": "Even refactorable numbers (i.e., the number of divisors is itself a divisor and it is also even).",
+  "id": "A057265",
+  "mentions": [
+    "A033950",
+    "A036896"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

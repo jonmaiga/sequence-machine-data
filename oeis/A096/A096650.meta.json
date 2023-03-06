@@ -1,0 +1,22 @@
+{
+  "description": "Indices of prime Pell numbers.",
+  "id": "A096650",
+  "mentions": [
+    "A000040",
+    "A000129",
+    "A086383",
+    "A270387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

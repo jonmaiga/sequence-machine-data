@@ -1,0 +1,17 @@
+{
+  "description": "Coordination sequence for A_49 lattice.",
+  "id": "A035875",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:29:02",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

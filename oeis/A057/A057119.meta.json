@@ -1,0 +1,20 @@
+{
+  "description": "Iterative \"rewrite\" sequence of binary plane trees.",
+  "id": "A057119",
+  "mentions": [
+    "A014486",
+    "A057120",
+    "A057121",
+    "A057122"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

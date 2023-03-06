@@ -1,0 +1,24 @@
+{
+  "description": "Aliquot sequence starting at 1074.",
+  "id": "A014364",
+  "mentions": [
+    "A000203",
+    "A008885",
+    "A008892",
+    "A014360",
+    "A014365",
+    "A098007",
+    "A171103"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

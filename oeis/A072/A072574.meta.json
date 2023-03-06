@@ -1,0 +1,43 @@
+{
+  "description": "Triangle T(n,k) of number of compositions (ordered partitions) of n into exactly k distinct parts, 1<=k<=n.",
+  "id": "A072574",
+  "mentions": [
+    "A000142",
+    "A007318",
+    "A008289",
+    "A032020",
+    "A052928",
+    "A057427",
+    "A060016",
+    "A072575",
+    "A072576",
+    "A075900",
+    "A097805",
+    "A097910",
+    "A113704",
+    "A216652",
+    "A307068",
+    "A336127",
+    "A336128",
+    "A336130",
+    "A336131",
+    "A336132",
+    "A336139",
+    "A336141",
+    "A336142",
+    "A336342",
+    "A336343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

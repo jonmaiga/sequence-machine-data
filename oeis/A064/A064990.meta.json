@@ -1,0 +1,30 @@
+{
+  "description": "If A_k denotes the first 3^k terms, then A_0 = 0, A_{k+1} = A_k A_k B_k, where B_k is obtained from A_k by interchanging 0's and 1's.",
+  "id": "A064990",
+  "mentions": [
+    "A001285",
+    "A003462",
+    "A007051",
+    "A010060",
+    "A064991",
+    "A134391",
+    "A189628",
+    "A189658",
+    "A189659",
+    "A189660",
+    "A285196"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:35",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

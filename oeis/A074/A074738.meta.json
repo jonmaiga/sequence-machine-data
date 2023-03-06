@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of d = 1-(1+log(log(2)))/log(2) = 0.08607133....",
+  "id": "A074738",
+  "mentions": [
+    "A002174"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

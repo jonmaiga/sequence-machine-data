@@ -1,0 +1,19 @@
+{
+  "description": "Smallest squares such that partial sums of the sequence plus 17 are primes.",
+  "id": "A081449",
+  "mentions": [
+    "A081445",
+    "A081447",
+    "A081450"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

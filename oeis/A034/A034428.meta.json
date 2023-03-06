@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: 1 - (1-x)*(tan(x) + sec(x)).",
+  "id": "A034428",
+  "mentions": [
+    "A000111",
+    "A131281"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

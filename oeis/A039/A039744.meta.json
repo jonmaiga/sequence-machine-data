@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways n(n-1) can be partitioned into the sum of 2(n-1) integers in the range 0..n.",
+  "id": "A039744",
+  "mentions": [
+    "A007878",
+    "A118113"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

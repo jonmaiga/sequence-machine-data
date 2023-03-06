@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = sigma_11(n), the sum of the 11th powers of the divisors of n.",
+  "id": "A013959",
+  "mentions": [
+    "A000203",
+    "A000594",
+    "A001157",
+    "A001160",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017712",
+    "A027860",
+    "A046694"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:09",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

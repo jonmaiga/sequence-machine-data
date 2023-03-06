@@ -1,0 +1,21 @@
+{
+  "description": "Rotating digits of a(n)^3 right once still yields a cube.",
+  "id": "A035128",
+  "mentions": [
+    "A035129",
+    "A035130",
+    "A045877"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

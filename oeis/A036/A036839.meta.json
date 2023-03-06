@@ -1,0 +1,29 @@
+{
+  "description": "RATS(n): Reverse Add Then Sort the digits.",
+  "id": "A036839",
+  "mentions": [
+    "A004000",
+    "A004086",
+    "A004185",
+    "A009994",
+    "A056964",
+    "A114611",
+    "A161593",
+    "A288535"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

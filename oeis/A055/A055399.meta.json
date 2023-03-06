@@ -1,0 +1,29 @@
+{
+  "description": "Number of stages of sieve of Eratosthenes needed to identify n as prime or composite.",
+  "id": "A055399",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A004280",
+    "A010051",
+    "A038179",
+    "A054403",
+    "A055396",
+    "A055398",
+    "A056811",
+    "A083269"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:25",
+    "offset": 3,
+    "size": 87,
+    "source": "joeis"
+  }
+}

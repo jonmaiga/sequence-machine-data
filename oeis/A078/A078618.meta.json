@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(average of first n cubes).",
+  "id": "A078618",
+  "mentions": [
+    "A000537"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:59",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

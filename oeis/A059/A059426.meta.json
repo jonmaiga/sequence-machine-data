@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A026273.",
+  "id": "A059426",
+  "mentions": [
+    "A014675",
+    "A026273"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:46:29",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

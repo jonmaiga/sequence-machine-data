@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime preceding distinct values of lcm(1,...,m): Max{p|p < A003418(A000961(n))}. To get different LCM values, the last arguments(m) of LCM were selected from A000961.",
+  "id": "A058021",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

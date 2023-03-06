@@ -1,0 +1,19 @@
+{
+  "description": "3^n-th prime.",
+  "id": "A038833",
+  "mentions": [
+    "A006988",
+    "A033844"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

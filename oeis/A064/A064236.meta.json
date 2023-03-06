@@ -1,0 +1,18 @@
+{
+  "description": "Number of decimal digits in A001042.",
+  "id": "A064236",
+  "mentions": [
+    "A001042"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

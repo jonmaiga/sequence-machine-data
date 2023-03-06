@@ -1,0 +1,28 @@
+{
+  "description": "Number of 9-ary trees.",
+  "id": "A059967",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A001263",
+    "A001764",
+    "A002293",
+    "A002294",
+    "A002295",
+    "A002296",
+    "A007556",
+    "A036765",
+    "A036769"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:49:00",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

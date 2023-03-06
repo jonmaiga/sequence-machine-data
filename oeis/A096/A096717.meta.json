@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of terms in series expansion of arcsin(arctan(x)).",
+  "id": "A096717",
+  "mentions": [
+    "A045688",
+    "A045689",
+    "A096664",
+    "A096671",
+    "A096712",
+    "A096716",
+    "A096718",
+    "A096719",
+    "A096720",
+    "A096721",
+    "A096722"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

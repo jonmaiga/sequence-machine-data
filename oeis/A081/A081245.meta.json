@@ -1,0 +1,18 @@
+{
+  "description": "Number of days in months in the Haab year of Mayan/Mesoamerican calendars.",
+  "id": "A081245",
+  "mentions": [
+    "A081244"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:37",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

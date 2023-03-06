@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 26*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 26.",
+  "id": "A090247",
+  "mentions": [
+    "A019586",
+    "A032000",
+    "A097308"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

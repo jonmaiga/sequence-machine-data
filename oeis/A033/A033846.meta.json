@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose prime factors are 2 and 5.",
+  "id": "A033846",
+  "mentions": [
+    "A000700",
+    "A003592",
+    "A008683",
+    "A033845",
+    "A033847",
+    "A033848",
+    "A033849",
+    "A033850",
+    "A033851",
+    "A086780",
+    "A143201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

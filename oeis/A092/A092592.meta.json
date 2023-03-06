@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A001142(n)/A002944(n), i.e., the product of C(n,j) binomial coefficients (for j=0..n) is divided by the least common multiple of them.",
+  "id": "A092592",
+  "mentions": [
+    "A001142",
+    "A002944"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:41:34",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

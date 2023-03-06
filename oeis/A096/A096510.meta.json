@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number x such that the number of prime powers (including primes, excluding 1), in the neighborhood of x with radius ceiling(log(x)), equals n.",
+  "id": "A096510",
+  "mentions": [
+    "A096508",
+    "A096509",
+    "A096512",
+    "A096523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

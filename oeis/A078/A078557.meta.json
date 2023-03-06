@@ -1,0 +1,17 @@
+{
+  "description": "Squarefree balanced numbers (i.e., squarefree members of A020492).",
+  "id": "A078557",
+  "mentions": [
+    "A020492"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

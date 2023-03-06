@@ -1,0 +1,23 @@
+{
+  "description": "Integers n >= 1 such that n divides 0!-1!+2!-3!+4!-...+(-1)^{n-1}(n-1)!.",
+  "id": "A064383",
+  "mentions": [
+    "A000522",
+    "A057245",
+    "A064384",
+    "A124779",
+    "A129924"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

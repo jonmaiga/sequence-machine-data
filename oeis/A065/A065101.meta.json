@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = c, a(1) = p*c^3; a(n+2) = p*c^2*a(n+1) - a(n), for p = 3, c = 2.",
+  "id": "A065101",
+  "mentions": [
+    "A004191",
+    "A052530"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

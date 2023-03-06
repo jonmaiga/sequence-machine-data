@@ -1,0 +1,22 @@
+{
+  "description": "Smallest odd pseudoprimes to base n, not necessarily exceeding n. Compare with A007535 and A090086.",
+  "id": "A090087",
+  "mentions": [
+    "A007535",
+    "A090086",
+    "A090088",
+    "A090089",
+    "A090986"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

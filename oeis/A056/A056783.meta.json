@@ -1,0 +1,30 @@
+{
+  "description": "Number of diamond polyominoes with n cells.",
+  "id": "A056783",
+  "mentions": [
+    "A000105",
+    "A006746",
+    "A006747",
+    "A006748",
+    "A006749",
+    "A056780",
+    "A056877",
+    "A056878",
+    "A057973",
+    "A142886",
+    "A144553",
+    "A151522"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

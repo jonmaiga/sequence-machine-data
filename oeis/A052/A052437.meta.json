@@ -1,0 +1,22 @@
+{
+  "description": "Number of simple unlabeled n-node graphs with 1 center node.",
+  "id": "A052437",
+  "mentions": [
+    "A052438",
+    "A052439",
+    "A052440",
+    "A052441",
+    "A294525"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

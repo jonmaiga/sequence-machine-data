@@ -1,0 +1,21 @@
+{
+  "description": "Number of k >= 1 with k! == 1 (mod n).",
+  "id": "A049046",
+  "mentions": [
+    "A000142",
+    "A002034",
+    "A038203",
+    "A049050",
+    "A071710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

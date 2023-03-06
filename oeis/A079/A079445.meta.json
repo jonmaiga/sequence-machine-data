@@ -1,0 +1,17 @@
+{
+  "description": "phi(n)*(n-phi(n))-1 is prime.",
+  "id": "A079445",
+  "mentions": [
+    "A079446"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

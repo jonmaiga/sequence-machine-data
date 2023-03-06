@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{d | 10} theta_3(q^d).",
+  "id": "A033722",
+  "mentions": [
+    "A319822",
+    "A320163",
+    "A320164",
+    "A320165",
+    "A320166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

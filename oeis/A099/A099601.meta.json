@@ -1,0 +1,26 @@
+{
+  "description": "Quotient of de Bruijn sums S(4,n)/S(2,n).",
+  "id": "A099601",
+  "mentions": [
+    "A000984",
+    "A003215",
+    "A005258",
+    "A008384",
+    "A008388",
+    "A008392",
+    "A008396",
+    "A050983"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

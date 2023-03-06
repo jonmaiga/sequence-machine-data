@@ -1,0 +1,20 @@
+{
+  "description": "Solutions to sigma[2*(x^2)]=odd^2.",
+  "id": "A074388",
+  "mentions": [
+    "A000203",
+    "A001248",
+    "A028982",
+    "A074386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

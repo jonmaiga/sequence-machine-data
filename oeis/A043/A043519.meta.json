@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having three 7's in base 10.",
+  "id": "A043519",
+  "mentions": [
+    "A011537"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

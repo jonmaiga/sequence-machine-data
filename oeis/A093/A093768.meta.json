@@ -1,0 +1,28 @@
+{
+  "description": "Positive first differences of the rows of triangle A088459, which enumerates symmetric Dyck paths.",
+  "id": "A093768",
+  "mentions": [
+    "A005558",
+    "A005559",
+    "A005560",
+    "A005561",
+    "A005562",
+    "A005563",
+    "A005564",
+    "A005565",
+    "A005566",
+    "A088459"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

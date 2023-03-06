@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A010785.",
+  "id": "A027828",
+  "mentions": [
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:35:39",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that floor((n^n)/p) is prime, or 0 if no such number exists.",
+  "id": "A090527",
+  "mentions": [
+    "A038458",
+    "A090525",
+    "A090526",
+    "A090528"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

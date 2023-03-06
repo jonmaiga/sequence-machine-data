@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(T_(n+1)/T_(n)) where T_n is n-th tangential or \"Zag\" number (see A000182).",
+  "id": "A034972",
+  "mentions": [
+    "A000182"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

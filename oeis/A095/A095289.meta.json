@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest number (in base 10) such that the product of its digits is >= n.",
+  "id": "A095289",
+  "mentions": [
+    "A007954",
+    "A095706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

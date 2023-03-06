@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into distinct parts, the least being 3.",
+  "id": "A026824",
+  "mentions": [
+    "A022825",
+    "A022826",
+    "A022827",
+    "A022828",
+    "A022829",
+    "A022830",
+    "A022831",
+    "A025147",
+    "A025149",
+    "A096749",
+    "A096765"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

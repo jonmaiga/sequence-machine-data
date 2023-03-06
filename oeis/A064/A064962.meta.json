@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1000k+1, 1000k+3, 1000k+7, 1000k+9 are all primes.",
+  "id": "A064962",
+  "mentions": [
+    "A007811",
+    "A064687"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

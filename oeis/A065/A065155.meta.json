@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose cototient of totient is strictly greater than totient of cototient.",
+  "id": "A065155",
+  "mentions": [
+    "A000010",
+    "A051953",
+    "A065152",
+    "A065153",
+    "A065154"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

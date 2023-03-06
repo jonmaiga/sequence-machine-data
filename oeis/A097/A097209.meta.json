@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (10^p + 1)/11 (corresponding p are in A001562).",
+  "id": "A097209",
+  "mentions": [
+    "A001562",
+    "A054416",
+    "A095372",
+    "A187614"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

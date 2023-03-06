@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(n,k) read by rows in which row n consists of the numbers floor(2n/k), k=1,2,...,2n+1.",
+  "id": "A091453",
+  "mentions": [
+    "A013942",
+    "A091449",
+    "A327898"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

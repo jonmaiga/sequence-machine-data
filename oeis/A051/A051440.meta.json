@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(2^n) + 1.",
+  "id": "A051440",
+  "mentions": [
+    "A000040",
+    "A018249",
+    "A033844",
+    "A051438",
+    "A051439"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

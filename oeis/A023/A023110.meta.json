@@ -1,0 +1,38 @@
+{
+  "description": "Squares which remain squares when the last digit is removed.",
+  "id": "A023110",
+  "mentions": [
+    "A001075",
+    "A001541",
+    "A004275",
+    "A023111",
+    "A031149",
+    "A031150",
+    "A053784",
+    "A055792",
+    "A055793",
+    "A055808",
+    "A055812",
+    "A055851",
+    "A055859",
+    "A055872",
+    "A204502",
+    "A204503",
+    "A204514",
+    "A204516",
+    "A204518",
+    "A204520"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

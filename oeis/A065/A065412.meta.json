@@ -1,0 +1,20 @@
+{
+  "description": "(A005867 - A000165)/96.",
+  "id": "A065412",
+  "mentions": [
+    "A000165",
+    "A005867",
+    "A006093"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

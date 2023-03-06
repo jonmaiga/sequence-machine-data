@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = a(n-1)*n if n is a prime, a(n) = a(n-1)+ n if n is composite.",
+  "id": "A083524",
+  "mentions": [
+    "A083525"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

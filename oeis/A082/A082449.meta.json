@@ -1,0 +1,21 @@
+{
+  "description": "Let f(p) = greatest prime divisor of p-1. Sequence gives smallest prime which takes at least n steps to reach 2 when f is iterated.",
+  "id": "A082449",
+  "mentions": [
+    "A006530",
+    "A023503",
+    "A056637",
+    "A083647"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

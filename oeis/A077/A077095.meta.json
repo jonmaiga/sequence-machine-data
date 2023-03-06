@@ -1,0 +1,20 @@
+{
+  "description": "Starting iteration of Phi[]*(Sigma[]-Phi[]) function at these initial values leads to the fixed point 24.",
+  "id": "A077095",
+  "mentions": [
+    "A077090",
+    "A077100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

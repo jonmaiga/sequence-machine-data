@@ -1,0 +1,29 @@
+{
+  "description": "Numbers z such that x*(x+1) + y*(y+1) = z*(z+1) is solvable in positive integers x,y.",
+  "id": "A012132",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A001652",
+    "A027861",
+    "A047219",
+    "A053141",
+    "A076708",
+    "A098790",
+    "A115598",
+    "A124124",
+    "A166080",
+    "A212160",
+    "A212161"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:18:09",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

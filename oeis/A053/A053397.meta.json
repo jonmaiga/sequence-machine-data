@@ -1,0 +1,25 @@
+{
+  "description": "The full list of 6-Kaprekar numbers.",
+  "id": "A053397",
+  "mentions": [
+    "A006886",
+    "A037042",
+    "A053394",
+    "A053395",
+    "A053396",
+    "A333133"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

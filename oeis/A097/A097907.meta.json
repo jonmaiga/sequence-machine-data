@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{i >= 1} t(i)/g(i), where t(i) = triangular number(i) and g(i) = (sum of first i primes)^2.",
+  "id": "A097907",
+  "mentions": [
+    "A000217",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

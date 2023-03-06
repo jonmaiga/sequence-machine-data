@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, giving number of partial quotients in continued fraction representation of terms in the left branch of the infinite Stern-Brocot tree.",
+  "id": "A088696",
+  "mentions": [
+    "A000120",
+    "A007305",
+    "A007306",
+    "A014577",
+    "A081254",
+    "A088748",
+    "A147995",
+    "A164738"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

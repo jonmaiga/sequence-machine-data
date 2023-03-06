@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form m * 6^k for k >= 0 and m > 0 with gcd(m, 6) = 1.",
+  "id": "A064615",
+  "mentions": [
+    "A064614"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

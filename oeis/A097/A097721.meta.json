@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime that differs from prime(n) in decimal representation by exactly one editing operation: deletion, insertion, or substitution.",
+  "id": "A097721",
+  "mentions": [
+    "A000040",
+    "A097720",
+    "A097722"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

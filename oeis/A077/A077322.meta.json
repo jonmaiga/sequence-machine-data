@@ -1,0 +1,20 @@
+{
+  "description": "Initial terms of rows of A077321.",
+  "id": "A077322",
+  "mentions": [
+    "A077321",
+    "A077323",
+    "A077324",
+    "A077325"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

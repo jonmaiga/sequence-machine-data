@@ -1,0 +1,20 @@
+{
+  "description": "Number of noncongruent integer-sided 5-dimensional simplices with largest side n.",
+  "id": "A097127",
+  "mentions": [
+    "A002620",
+    "A097125",
+    "A097126"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

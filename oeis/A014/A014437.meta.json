@@ -1,0 +1,22 @@
+{
+  "description": "Odd Fibonacci numbers.",
+  "id": "A014437",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A001651",
+    "A059878"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

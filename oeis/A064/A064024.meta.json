@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = value of k such that absolute difference of 2^n and 3^k is minimized.",
+  "id": "A064024",
+  "mentions": [
+    "A056850"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

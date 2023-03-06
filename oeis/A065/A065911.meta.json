@@ -1,0 +1,23 @@
+{
+  "description": "Third solution mod p of x^4 = 2 for primes p such that more than two solution exists.",
+  "id": "A065911",
+  "mentions": [
+    "A007522",
+    "A014754",
+    "A040098",
+    "A065909",
+    "A065910",
+    "A065912"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "In the prime factorization of n replace the k-th prime with the k-th composite number, k > 0.",
+  "id": "A066260",
+  "mentions": [
+    "A002808",
+    "A049084",
+    "A066261",
+    "A066262"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that for all m>n there are more than k primes between m and 2m (inclusive).",
+  "id": "A078754",
+  "mentions": [
+    "A035250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

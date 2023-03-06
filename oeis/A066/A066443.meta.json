@@ -1,0 +1,30 @@
+{
+  "description": "Number of distinct paths of length 2n+1 along edges of a unit cube between two fixed adjacent vertices.",
+  "id": "A066443",
+  "mentions": [
+    "A002452",
+    "A003215",
+    "A037314",
+    "A054879",
+    "A054880",
+    "A057660",
+    "A083233",
+    "A083234",
+    "A102518",
+    "A120437",
+    "A125857",
+    "A158303"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

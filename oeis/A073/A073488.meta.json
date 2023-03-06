@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree numbers having exactly two prime gaps.",
+  "id": "A073488",
+  "mentions": [
+    "A005117",
+    "A073484",
+    "A073486",
+    "A073487",
+    "A073489",
+    "A073494"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

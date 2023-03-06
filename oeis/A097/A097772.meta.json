@@ -1,0 +1,22 @@
+{
+  "description": "Pell equation solutions (13*a(n))^2 - 170*b(n)^2 = -1 with b(n):=A097771(n), n >= 0.",
+  "id": "A097772",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A097771",
+    "A097775"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

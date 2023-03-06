@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into distinct parts, the least being 8.",
+  "id": "A026829",
+  "mentions": [
+    "A025147",
+    "A025154"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

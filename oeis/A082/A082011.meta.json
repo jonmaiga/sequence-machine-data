@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by antidiagonals, alternating upwards and downwards: T(1,1) = 2 and every other entry is the smallest prime not already used such that the n-th antidiagonal sum is a multiple of n.",
+  "id": "A082011",
+  "mentions": [
+    "A082012",
+    "A082013",
+    "A082014",
+    "A082015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

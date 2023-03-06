@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that x^8 = 2 has a solution mod p, but x^(8^2) = 2 has no solution mod p.",
+  "id": "A070184",
+  "mentions": [
+    "A045315",
+    "A059667",
+    "A070179",
+    "A070183",
+    "A070185",
+    "A070188"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

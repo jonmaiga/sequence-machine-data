@@ -1,0 +1,17 @@
+{
+  "description": "a(n+1) = a(n) + (a(n) mod 2)^(n mod a(n)), a(1) = 1.",
+  "id": "A092038",
+  "mentions": [
+    "A004524"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the arithmetic-geometric mean (AGM) of Pi and e.",
+  "id": "A074957",
+  "mentions": [
+    "A000796",
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

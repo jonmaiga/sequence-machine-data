@@ -1,0 +1,23 @@
+{
+  "description": "Class 13+ primes.",
+  "id": "A090468",
+  "mentions": [
+    "A005105",
+    "A005108",
+    "A005113",
+    "A081633",
+    "A081639",
+    "A084071",
+    "A129474"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

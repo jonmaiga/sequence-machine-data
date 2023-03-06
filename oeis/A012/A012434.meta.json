@@ -1,0 +1,15 @@
+{
+  "description": "arcsin(arctan(x)*arcsin(x))=2/2!*x^2-4/4!*x^4+278/6!*x^6-6984/8!*x^8...",
+  "id": "A012434",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:53:47",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

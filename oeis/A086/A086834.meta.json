@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime that is the smallest of at least two consecutive primes with sum=n; a(n)=0 if no consecutive primes with sum=n exist.",
+  "id": "A086834",
+  "mentions": [
+    "A084143"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

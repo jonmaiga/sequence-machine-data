@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T read by rows: differences of Motzkin triangle (A026300).",
+  "id": "A026105",
+  "mentions": [
+    "A001006",
+    "A002026",
+    "A025566",
+    "A026107",
+    "A026109",
+    "A026110",
+    "A026112",
+    "A026134",
+    "A026300"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Length of record run mentioned in A048971.",
+  "id": "A048972",
+  "mentions": [
+    "A001221",
+    "A048932",
+    "A048971"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

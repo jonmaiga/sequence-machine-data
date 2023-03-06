@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that phi(n) = pi(n), i.e., A000010(n) = A000720(n).",
+  "id": "A037171",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A037228",
+    "A037230"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1's in binary representation of n-th decimal digit in expansion of Pi.",
+  "id": "A086995",
+  "mentions": [
+    "A000796",
+    "A086994"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:51:41",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

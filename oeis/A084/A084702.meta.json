@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest k such that k + 1 and n*k + 1 both are perfect squares, or 0 if no such number exists.",
+  "id": "A084702",
+  "mentions": [
+    "A084703"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

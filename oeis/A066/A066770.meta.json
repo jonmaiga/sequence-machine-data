@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5^n*sin(2n*arctan(1/2)) or numerator of tan(2n*arctan(1/2)).",
+  "id": "A066770",
+  "mentions": [
+    "A000351",
+    "A066771"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:55:49",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

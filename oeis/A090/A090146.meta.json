@@ -1,0 +1,16 @@
+{
+  "description": "Primes of the form identical digits followed by a 3.",
+  "id": "A090146",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

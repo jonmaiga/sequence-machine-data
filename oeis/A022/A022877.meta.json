@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = floor( a(n-1)/a(1) + a(n-3)/a(3) + a(n-5)/a(5) + ... ), for n >= 3 with a(1) = 1 and a(2) = 3.",
+  "id": "A022877",
+  "mentions": [
+    "A022859",
+    "A022860",
+    "A022865",
+    "A022866",
+    "A022871",
+    "A022872",
+    "A022878"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

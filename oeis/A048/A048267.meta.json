@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer requiring n fifth powers to sum to it, starting with n=28.",
+  "id": "A048267",
+  "mentions": [
+    "A048266"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 28,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

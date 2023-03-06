@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 2*(1-x-x^2)/((1-x)*(1+x)*(1-2*x)).",
+  "id": "A052953",
+  "mentions": [
+    "A001045",
+    "A026644",
+    "A078008",
+    "A108561",
+    "A128209"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

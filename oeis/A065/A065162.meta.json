@@ -1,0 +1,20 @@
+{
+  "description": "Least common multiple of all orbit sizes (cycle lengths in corresponding permutations A065181-A065184) into which the Foata transform partitions the symmetric group Sn.",
+  "id": "A065162",
+  "mentions": [
+    "A065161",
+    "A065163",
+    "A065181",
+    "A065184"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

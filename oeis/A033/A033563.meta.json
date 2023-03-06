@@ -1,0 +1,18 @@
+{
+  "description": "Primes in A001067.",
+  "id": "A033563",
+  "mentions": [
+    "A001067",
+    "A112548"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:45:01",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

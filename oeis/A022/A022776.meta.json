@@ -1,0 +1,20 @@
+{
+  "description": "Place where n-th 1 occurs in A023115.",
+  "id": "A022776",
+  "mentions": [
+    "A007336",
+    "A023115",
+    "A049474"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:45",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

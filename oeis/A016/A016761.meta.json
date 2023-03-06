@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n+1)^9.",
+  "id": "A016761",
+  "mentions": [
+    "A016749",
+    "A258816"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

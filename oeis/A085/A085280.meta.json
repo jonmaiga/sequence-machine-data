@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-4x+x^2)/((1-x)(1-3x)(1-4x)).",
+  "id": "A085280",
+  "mentions": [
+    "A085279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

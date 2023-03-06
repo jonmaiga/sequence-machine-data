@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of square array A093541, in which column (k+1) equals the self-convolution of row k.",
+  "id": "A093543",
+  "mentions": [
+    "A093541",
+    "A093542"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

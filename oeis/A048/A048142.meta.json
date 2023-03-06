@@ -1,0 +1,26 @@
+{
+  "description": "Number of symmetrical planar partitions of n: planar partitions (A000219) that when regarded as 3-D objects have only a threefold axis of symmetry, i.e., C3 symmetry.",
+  "id": "A048142",
+  "mentions": [
+    "A000219",
+    "A000784",
+    "A000785",
+    "A000786",
+    "A005987",
+    "A048141",
+    "A051056",
+    "A051061",
+    "A096419"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

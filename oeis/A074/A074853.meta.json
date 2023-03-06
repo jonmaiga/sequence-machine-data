@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n not in A065036 but such that tau(n)=omega(n)^3.",
+  "id": "A074853",
+  "mentions": [
+    "A065036"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

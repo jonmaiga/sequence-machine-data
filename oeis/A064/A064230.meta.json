@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) = number of rational (0,1) matrices of rank k (n >= 0, 0 <= k <= n).",
+  "id": "A064230",
+  "mentions": [
+    "A000409",
+    "A000410",
+    "A046747",
+    "A055165",
+    "A064231",
+    "A086875"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

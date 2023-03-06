@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of form x^2 + y^2 + 7z^2.",
+  "id": "A097633",
+  "mentions": [
+    "A000394"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

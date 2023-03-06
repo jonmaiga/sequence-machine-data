@@ -1,0 +1,28 @@
+{
+  "description": "Number of anisohedral polyhexes with n cells.",
+  "id": "A075215",
+  "mentions": [
+    "A070766",
+    "A075206",
+    "A075207",
+    "A075208",
+    "A075209",
+    "A075210",
+    "A075211",
+    "A075212",
+    "A075213",
+    "A075214",
+    "A075224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

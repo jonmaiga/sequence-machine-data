@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: 1/((1-x)*(1-x^6)) = 1/ ( (1+x)*(x^2-x+1)*(1+x+x^2)*(x-1)^2 ).",
+  "id": "A097992",
+  "mentions": [
+    "A054895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:11",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

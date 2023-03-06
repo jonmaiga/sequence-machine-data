@@ -1,0 +1,19 @@
+{
+  "description": "Least p with exactly n distinct factorial numbers == 1 (mod p).",
+  "id": "A049050",
+  "mentions": [
+    "A049046",
+    "A071710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

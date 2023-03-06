@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: rotations of all branches of the rooted plane trees encoded by A014486.",
+  "id": "A057511",
+  "mentions": [
+    "A000793",
+    "A014486",
+    "A057501",
+    "A057509",
+    "A057512",
+    "A057513",
+    "A057546"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

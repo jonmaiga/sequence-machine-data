@@ -1,0 +1,30 @@
+{
+  "description": "Bisection of Fibonacci triangle A037027: odd-indexed members of column sequences of A037027 (not counting leading zeros).",
+  "id": "A060921",
+  "mentions": [
+    "A001870",
+    "A001906",
+    "A002450",
+    "A037027",
+    "A049310",
+    "A060920",
+    "A061177",
+    "A061182",
+    "A061183",
+    "A061184",
+    "A061185"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:59:59",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

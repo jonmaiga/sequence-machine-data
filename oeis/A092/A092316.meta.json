@@ -1,0 +1,23 @@
+{
+  "description": "Sum of largest parts of all partitions of n into odd distinct parts.",
+  "id": "A092316",
+  "mentions": [
+    "A000700",
+    "A005895",
+    "A067619",
+    "A092319",
+    "A116857"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

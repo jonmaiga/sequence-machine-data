@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose prime factors (taken with multiplicity) sum to 20.",
+  "id": "A049328",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

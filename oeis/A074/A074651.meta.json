@@ -1,0 +1,19 @@
+{
+  "description": "(1/n) * sum over d|n of {mu(n/d) * (3d)! / d!^3}.",
+  "id": "A074651",
+  "mentions": [
+    "A006174",
+    "A029808",
+    "A074655"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:57:26",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

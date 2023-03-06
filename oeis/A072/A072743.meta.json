@@ -1,0 +1,20 @@
+{
+  "description": "Greater members of a pair of primes (p, q) such that, for some integer k, (p+q)/2 = 2^k and p > 2^(k-1).",
+  "id": "A072743",
+  "mentions": [
+    "A072742",
+    "A072744",
+    "A072745",
+    "A072746"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Greater prime factor of semiprimes in A090159.",
+  "id": "A090160",
+  "mentions": [
+    "A038507",
+    "A078778",
+    "A082952",
+    "A090159"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of N: a(1)=2, a(2)=1 and for each k >= 2, let p(k)=least natural number not already an a(i), q(k)=p(k)+k-1, a(2k-1)=q(k), a(2k)=p(k).",
+  "id": "A054082",
+  "mentions": [
+    "A026355",
+    "A026356",
+    "A064579"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:41",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

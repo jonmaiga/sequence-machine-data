@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant c such that A003096(n-1) = ceiling(c^(2^n)).",
+  "id": "A077124",
+  "mentions": [
+    "A003096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

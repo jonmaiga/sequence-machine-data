@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A099605, in which row n equals the inverse Binomial transform of column n of the triangle A034870 of even-indexed rows of Pascal's triangle.",
+  "id": "A099606",
+  "mentions": [
+    "A000129",
+    "A034870",
+    "A099603",
+    "A099605"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:49:30",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

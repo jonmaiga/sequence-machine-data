@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sqrt(Pi)/5.",
+  "id": "A019707",
+  "mentions": [
+    "A000796",
+    "A002161",
+    "A087198",
+    "A268604"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

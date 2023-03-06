@@ -1,0 +1,26 @@
+{
+  "description": "Remainder when n is divided by the number of primes not exceeding n.",
+  "id": "A065134",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A004648",
+    "A057809",
+    "A057810",
+    "A062298",
+    "A065133",
+    "A065858",
+    "A065864"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of horizontally convex n-ominoes in which the top row has at least 2 squares and the rightmost square in the top row is above the leftmost square in the second row.",
+  "id": "A049220",
+  "mentions": [
+    "A001169"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:54:39",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

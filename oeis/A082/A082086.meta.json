@@ -1,0 +1,24 @@
+{
+  "description": "Fixed points when A001414 is iterated and started at factorials of prime numbers.",
+  "id": "A082086",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000961",
+    "A001414",
+    "A008475",
+    "A029908",
+    "A082081"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

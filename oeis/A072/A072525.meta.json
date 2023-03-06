@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n+1) is smallest composite number > a(n) such that a(n) + a(n+1) is prime.",
+  "id": "A072525",
+  "mentions": [
+    "A051884",
+    "A075570",
+    "A262159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

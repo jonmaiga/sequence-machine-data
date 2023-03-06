@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of the determinant of matrix (M(n) - H(n)), where H(n) is the n-th Hilbert matrix and M(n) is an n X n matrix with i,j-th entry i+j-1.",
+  "id": "A061913",
+  "mentions": [
+    "A005249"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

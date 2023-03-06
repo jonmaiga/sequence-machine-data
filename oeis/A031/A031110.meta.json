@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=least k such that base 9 representation of n begins at s(k), where s=A031100.",
+  "id": "A031110",
+  "mentions": [
+    "A031100"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:09",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

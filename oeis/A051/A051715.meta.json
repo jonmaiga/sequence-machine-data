@@ -1,0 +1,39 @@
+{
+  "description": "Denominators of table a(n,k) read by antidiagonals: a(0,k) = 1/(k+1), a(n+1,k) = (k+1)(a(n,k)-a(n,k+1)), n >= 0, k >= 0.",
+  "id": "A051715",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A026741",
+    "A027641",
+    "A027642",
+    "A045896",
+    "A051712",
+    "A051713",
+    "A051714",
+    "A051716",
+    "A051717",
+    "A051718",
+    "A051719",
+    "A051720",
+    "A051721",
+    "A051722",
+    "A051723"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

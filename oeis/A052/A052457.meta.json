@@ -1,0 +1,22 @@
+{
+  "description": "Number of bimagic series for squares of order n.",
+  "id": "A052457",
+  "mentions": [
+    "A052456",
+    "A052458",
+    "A090037",
+    "A090653",
+    "A106646"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest base b so that repunit (b^prime(n) - 1) / (b - 1) is prime, where prime(n) = n-th prime; or 0 if no such base exists.",
+  "id": "A066180",
+  "mentions": [
+    "A000043",
+    "A004023",
+    "A055129",
+    "A084732",
+    "A085398"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

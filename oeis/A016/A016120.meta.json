@@ -1,0 +1,15 @@
+{
+  "description": "Minimal number of cosets in an orthogonal sublattice of {A_n}* (minimal number of paths in any trellis diagram).",
+  "id": "A016120",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

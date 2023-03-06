@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p + 32 is also prime.",
+  "id": "A049489",
+  "mentions": [
+    "A001359",
+    "A023200",
+    "A023202",
+    "A049488"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

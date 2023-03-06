@@ -1,0 +1,19 @@
+{
+  "description": "Function whose restriction to A014486 gives A071156.",
+  "id": "A085198",
+  "mentions": [
+    "A014486",
+    "A071156"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

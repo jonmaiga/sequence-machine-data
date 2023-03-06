@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1 - 2x)/(1 - 2x - x^2 - x^3 + 2x^4).",
+  "id": "A052974",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:01:16",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

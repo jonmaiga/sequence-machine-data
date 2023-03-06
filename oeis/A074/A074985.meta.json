@@ -1,0 +1,23 @@
+{
+  "description": "Squares of semiprimes (A001358).",
+  "id": "A074985",
+  "mentions": [
+    "A001358",
+    "A030514",
+    "A085548",
+    "A085964",
+    "A085986"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

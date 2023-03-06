@@ -1,0 +1,21 @@
+{
+  "description": "Integers n > 1997 such that the 'Reverse and Add!' trajectory of n joins the trajectory of 1997.",
+  "id": "A063055",
+  "mentions": [
+    "A023108",
+    "A033865",
+    "A063054",
+    "A063056"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

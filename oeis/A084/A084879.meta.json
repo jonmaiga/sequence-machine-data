@@ -1,0 +1,23 @@
+{
+  "description": "Number of (k,m,n)-multiantichains of multisets with k=3 and m=2.",
+  "id": "A084879",
+  "mentions": [
+    "A016269",
+    "A047707",
+    "A051112",
+    "A051118",
+    "A084869",
+    "A084883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers n such that Sum_{p<=pi(n)} p = n, where pi(x) denotes the number of primes not exceeding x and the summation is over primes p.",
+  "id": "A091864",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

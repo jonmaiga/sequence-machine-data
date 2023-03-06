@@ -1,0 +1,19 @@
+{
+  "description": "Product of terms in row n of A083110.",
+  "id": "A083112",
+  "mentions": [
+    "A083110",
+    "A083111",
+    "A083113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

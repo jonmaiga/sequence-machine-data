@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of this sequence is equal to its hyperbinomial transform and results in A089471.",
+  "id": "A089470",
+  "mentions": [
+    "A088956",
+    "A089471"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

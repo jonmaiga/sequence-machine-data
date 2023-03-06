@@ -1,0 +1,22 @@
+{
+  "description": "Number triangle related to a problem of Knuth.",
+  "id": "A080850",
+  "mentions": [
+    "A024493",
+    "A024494",
+    "A024495"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Leading terms of rows in A081551.",
+  "id": "A081552",
+  "mentions": [
+    "A006127",
+    "A011557",
+    "A052944",
+    "A081551",
+    "A081553",
+    "A085952",
+    "A104743",
+    "A104745"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

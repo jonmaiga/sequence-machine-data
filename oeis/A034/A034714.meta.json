@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of squares with themselves.",
+  "id": "A034714",
+  "mentions": [
+    "A000005",
+    "A038040",
+    "A134576",
+    "A319085"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:13",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

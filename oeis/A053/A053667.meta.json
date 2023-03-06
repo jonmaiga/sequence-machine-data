@@ -1,0 +1,20 @@
+{
+  "description": "Product of digits of n^2.",
+  "id": "A053667",
+  "mentions": [
+    "A007954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:15",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

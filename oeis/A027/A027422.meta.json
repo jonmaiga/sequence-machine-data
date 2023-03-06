@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T00, T10, T11, T20, T21, T22, etc. where Tmn = number of distinct products ij with m-n<=i,j<=m.",
+  "id": "A027422",
+  "mentions": [
+    "A027384",
+    "A027421"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:34:09",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

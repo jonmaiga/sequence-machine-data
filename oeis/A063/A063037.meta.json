@@ -1,0 +1,26 @@
+{
+  "description": "Numbers without 3 consecutive equal binary digits.",
+  "id": "A063037",
+  "mentions": [
+    "A000045",
+    "A000975",
+    "A003726",
+    "A003796",
+    "A136037",
+    "A166535",
+    "A286262",
+    "A298644"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

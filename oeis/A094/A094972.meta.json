@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(11^n/2^n).",
+  "id": "A094972",
+  "mentions": [
+    "A000079",
+    "A001020",
+    "A002379",
+    "A094969",
+    "A094999"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

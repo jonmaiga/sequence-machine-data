@@ -1,0 +1,17 @@
+{
+  "description": "Number of repetitions (defined as the number of appearances minus one) of L quantum number for a given value of N=2*nb+tau=0,1,2,... principal quantum number for the 5 dimensional harmonic oscillator (connected to the solution of Bohr equation in 5 dimensional). For each tau, nu=0,1,..,[tau/3] and K=tau-2*nu. Finally L=K,K+1,K+2,...,2*K-2,2*K (or alternatively from K to 2*K with the exception of 2*K-1).",
+  "id": "A090666",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:24:55",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

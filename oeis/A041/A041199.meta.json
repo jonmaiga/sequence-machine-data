@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(110).",
+  "id": "A041199",
+  "mentions": [
+    "A040099",
+    "A041198",
+    "A176221"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Signed version of A035607.",
+  "id": "A080246",
+  "mentions": [
+    "A035607",
+    "A078042",
+    "A080247",
+    "A113413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:42:39",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

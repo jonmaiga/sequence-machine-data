@@ -1,0 +1,21 @@
+{
+  "description": "Define the divisor symmetry of a number n to be k if n-r and n+r have the same number of divisors for r = 1 to k but not for k+1. Sequence contains the divisor symmetry of n.",
+  "id": "A093492",
+  "mentions": [
+    "A093488",
+    "A093491",
+    "A093493",
+    "A093494",
+    "A202463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

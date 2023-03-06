@@ -1,0 +1,19 @@
+{
+  "description": "Possible primes appearing in A071196 as certain sums of previous consecutive primes. See A071196.",
+  "id": "A071199",
+  "mentions": [
+    "A071194",
+    "A071196",
+    "A071200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of X^2 in expansion of (1 + n*X + n*X^2)^n.",
+  "id": "A092365",
+  "mentions": [
+    "A000290",
+    "A152947"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:09:55",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

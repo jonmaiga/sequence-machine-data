@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which there exists a permutation of the numbers 1 to k such that the sum of adjacent numbers is a square.",
+  "id": "A090461",
+  "mentions": [
+    "A071983",
+    "A071984",
+    "A078107",
+    "A090460"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

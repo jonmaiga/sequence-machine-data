@@ -1,0 +1,25 @@
+{
+  "description": "A variation on the sieve of Eratosthenes (A000040): Start with the primes; the first term is 2, which is a(1) and we cross off every second prime starting with 2; the next prime not crossed off is 3, which is a(2) and we cross off every third prime starting with 3; the next prime not crossed off is 7, which is a(3) and we cross off every 7th prime starting with 7; and so on.",
+  "id": "A099361",
+  "mentions": [
+    "A000040",
+    "A000960",
+    "A099204",
+    "A099207",
+    "A099243",
+    "A099362",
+    "A100424"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

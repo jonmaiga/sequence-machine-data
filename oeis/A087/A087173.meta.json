@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime factor of n-th partition number.",
+  "id": "A087173",
+  "mentions": [
+    "A000041",
+    "A020639",
+    "A071963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest possible prime with at least n (from 2 to 10) distinct digits that remains prime (leading zeros not allowed) when all occurrences of its digits d are deleted.",
+  "id": "A057883",
+  "mentions": [
+    "A034302",
+    "A034305",
+    "A051362",
+    "A057876",
+    "A057882"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

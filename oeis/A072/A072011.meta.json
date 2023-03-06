@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A072010(k) = k.",
+  "id": "A072011",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A071695",
+    "A071696",
+    "A071697",
+    "A072010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(66).",
+  "id": "A016689",
+  "mentions": [
+    "A016494"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

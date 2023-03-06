@@ -1,0 +1,21 @@
+{
+  "description": "The summarize Fibonacci sequence: summarize the previous two terms!.",
+  "id": "A036059",
+  "mentions": [
+    "A036058",
+    "A036066"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:23",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

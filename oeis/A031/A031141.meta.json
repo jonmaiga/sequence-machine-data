@@ -1,0 +1,21 @@
+{
+  "description": "Position of rightmost digit 0 in 2^A031140(n).",
+  "id": "A031141",
+  "mentions": [
+    "A031140",
+    "A031142",
+    "A031143"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

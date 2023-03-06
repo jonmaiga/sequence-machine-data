@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 + 1 is expressible as the sum of two nonzero squares in at least one way (the trivial solution n^2 + 1 = n^2 + 1^2 is not counted).",
+  "id": "A050796",
+  "mentions": [
+    "A000129",
+    "A001653",
+    "A002315",
+    "A050795",
+    "A050798"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

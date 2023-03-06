@@ -1,0 +1,19 @@
+{
+  "description": "Smallest x such that d[phi(x)]-phi[d(x)]=n, where d()=A000005(),phi()=A000010() restricted to cases when d[phi(x)]-phi[d(x)] is positive.",
+  "id": "A078150",
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

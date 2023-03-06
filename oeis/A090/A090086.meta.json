@@ -1,0 +1,32 @@
+{
+  "description": "Smallest pseudoprime to base n, not necessarily exceeding n (cf. A007535).",
+  "id": "A090086",
+  "mentions": [
+    "A000790",
+    "A001567",
+    "A005935",
+    "A005936",
+    "A005937",
+    "A005938",
+    "A005939",
+    "A007535",
+    "A020136",
+    "A020228",
+    "A090085",
+    "A090087",
+    "A239293",
+    "A250200",
+    "A293203"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

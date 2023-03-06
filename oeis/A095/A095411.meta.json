@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that total number of decimal digits of all distinct prime factors of n is smaller than the number of digits of n.",
+  "id": "A095411",
+  "mentions": [
+    "A055642",
+    "A095407",
+    "A095408",
+    "A095409",
+    "A095410"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

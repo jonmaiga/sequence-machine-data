@@ -1,0 +1,24 @@
+{
+  "description": "Largest number having binary order n (A029837) and of which the number of divisors is maximal in that range of g(k) = n.",
+  "id": "A036493",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A007416",
+    "A029837",
+    "A036451",
+    "A036470",
+    "A036484",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

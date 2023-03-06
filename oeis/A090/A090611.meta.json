@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (24e^5-96e^4+108e^3-32e^2+e)/24.",
+  "id": "A090611",
+  "mentions": [
+    "A001113",
+    "A089139",
+    "A090142",
+    "A090143"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

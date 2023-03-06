@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct primes contained as binary substrings in binary representation of n.",
+  "id": "A078826",
+  "mentions": [
+    "A001221",
+    "A004676",
+    "A007088",
+    "A035232",
+    "A078822",
+    "A078827",
+    "A143792",
+    "A165416",
+    "A225243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

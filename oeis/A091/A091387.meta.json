@@ -1,0 +1,23 @@
+{
+  "description": "Aronson's mod 13 sequence: \"T is the first, fourth, eleventh, third, ... letter in this sentence, not counting spaces or commas and all mod 13\".",
+  "id": "A091387",
+  "mentions": [
+    "A005224",
+    "A091388",
+    "A091389",
+    "A091390",
+    "A091391"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

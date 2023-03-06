@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: (1-4*x)/((1-5*x)*(1-x)^2).",
+  "id": "A094195",
+  "mentions": [
+    "A047926",
+    "A073724",
+    "A090822",
+    "A091843",
+    "A094250"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:26:08",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

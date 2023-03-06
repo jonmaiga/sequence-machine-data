@@ -1,0 +1,22 @@
+{
+  "description": "Side of primitive equilateral triangle bearing at least one integral cevian that partitions an edge into two integral sections.",
+  "id": "A089025",
+  "mentions": [
+    "A001221",
+    "A002476",
+    "A004611",
+    "A088513",
+    "A088514",
+    "A088977"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

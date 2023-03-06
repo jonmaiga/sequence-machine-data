@@ -1,0 +1,19 @@
+{
+  "description": "Decimal part of n-th root of a(n) starts with digit 4.",
+  "id": "A034081",
+  "mentions": [
+    "A034061",
+    "A034071"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

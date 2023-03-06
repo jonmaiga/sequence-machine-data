@@ -1,0 +1,34 @@
+{
+  "description": "Number of partitions of n such that there is exactly one part which occurs twice, while all other parts occur only once.",
+  "id": "A090858",
+  "mentions": [
+    "A000009",
+    "A008284",
+    "A015723",
+    "A036469",
+    "A046660",
+    "A047967",
+    "A048272",
+    "A060687",
+    "A116608",
+    "A117571",
+    "A127002",
+    "A265251",
+    "A266477",
+    "A325241",
+    "A325244",
+    "A325284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

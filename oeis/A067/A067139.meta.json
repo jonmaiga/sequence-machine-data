@@ -1,0 +1,25 @@
+{
+  "description": "Irreducible elements in OR-numbral arithmetic.",
+  "id": "A067139",
+  "mentions": [
+    "A003986",
+    "A007059",
+    "A048888",
+    "A066376",
+    "A067138",
+    "A079500",
+    "A169912",
+    "A171000"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

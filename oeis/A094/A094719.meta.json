@@ -1,0 +1,17 @@
+{
+  "description": "Sum[k=1..n, T(k,n-k+1)], where T is array A094718.",
+  "id": "A094719",
+  "mentions": [
+    "A094718"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

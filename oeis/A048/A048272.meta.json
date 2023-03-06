@@ -1,0 +1,38 @@
+{
+  "description": "Number of odd divisors of n minus number of even divisors of n.",
+  "id": "A048272",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A005408",
+    "A005843",
+    "A008586",
+    "A015723",
+    "A016825",
+    "A035218",
+    "A042968",
+    "A048298",
+    "A051731",
+    "A059851",
+    "A060184",
+    "A081362",
+    "A094572",
+    "A099774",
+    "A112329",
+    "A183063"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Powerfree part of n: product of primes that divide n only once.",
+  "id": "A055231",
+  "mentions": [
+    "A000188",
+    "A001694",
+    "A005117",
+    "A007913",
+    "A007947",
+    "A008833",
+    "A020639",
+    "A028234",
+    "A055773",
+    "A056169",
+    "A056671",
+    "A057521",
+    "A062378",
+    "A063524",
+    "A067029",
+    "A071773",
+    "A092261",
+    "A332785"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Unicode codes for the lunation runes, used in certain medieval Scandinavian perpetual calendar staves as golden numbers 1-19.",
+  "id": "A098476",
+  "mentions": [
+    "A061745"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

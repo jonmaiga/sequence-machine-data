@@ -1,0 +1,23 @@
+{
+  "description": "Initial terms associated with the arithmetic progressions in A086786.",
+  "id": "A087308",
+  "mentions": [
+    "A086786",
+    "A087306",
+    "A087307",
+    "A087309",
+    "A087310",
+    "A114664",
+    "A114671"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose base-5 representation contains exactly one 0 and one 2.",
+  "id": "A045177",
+  "mentions": [
+    "A007091",
+    "A039284"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:15",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

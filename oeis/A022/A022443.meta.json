@@ -1,0 +1,17 @@
+{
+  "description": "Sequence and first differences include all positive integers except 2.",
+  "id": "A022443",
+  "mentions": [
+    "A005228"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways a loop can cross three roads meeting in a Y n times. The loop must touch the southwest sector.",
+  "id": "A078104",
+  "mentions": [
+    "A005315",
+    "A077460",
+    "A077550",
+    "A078105",
+    "A085919"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

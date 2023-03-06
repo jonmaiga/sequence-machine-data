@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: (1+x^2)/((1-2x)(1-x-x^2); a(n)=3a(n-1)-a(n-2)-2a(n-3); a(n)=5*2^n-L(n+3); a(n)=sum{k=0..n, (L(k)-0^k)2^(n-k)}.",
+  "id": "A099166",
+  "mentions": [
+    "A000032",
+    "A099167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:42:35",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

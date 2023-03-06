@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) defined by: A(x)^8 consists entirely of integer coefficients between 1 and 8 (A083948); A(x) is the unique power series solution with A(0)=1.",
+  "id": "A084208",
+  "mentions": [
+    "A083948",
+    "A084202",
+    "A084207",
+    "A084209",
+    "A084212"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

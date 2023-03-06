@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(139).",
+  "id": "A041254",
+  "mentions": [
+    "A041255"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:39:56",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

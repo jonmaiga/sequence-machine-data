@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Molien series for a certain 4-D group of order 192.",
+  "id": "A078404",
+  "mentions": [
+    "A078411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:56:17",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

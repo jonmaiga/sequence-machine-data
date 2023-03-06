@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the number of primes <= k is equal to the sum of primes from the smallest prime factor of k to the largest prime factor of k.",
+  "id": "A074210",
+  "mentions": [
+    "A000720",
+    "A074036"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

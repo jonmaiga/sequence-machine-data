@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of 3^n + 1 that are relatively prime to 3^m + 1 for all 0 < m < n.",
+  "id": "A064131",
+  "mentions": [
+    "A064132",
+    "A064133",
+    "A064134",
+    "A064135",
+    "A064136",
+    "A064137"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

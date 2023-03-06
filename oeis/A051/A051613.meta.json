@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = partitions of n into powers of distinct primes (1 not considered a power).",
+  "id": "A051613",
+  "mentions": [
+    "A000961",
+    "A008475",
+    "A009490",
+    "A023894",
+    "A025473",
+    "A054685",
+    "A106244",
+    "A106245"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ceiling((1/(ceiling(n/2)+1))*binomial(n,floor(n/2))) (interpolates between Catalan numbers).",
+  "id": "A028304",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A001405",
+    "A130380"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:34:44",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

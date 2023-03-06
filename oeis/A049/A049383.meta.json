@@ -1,0 +1,20 @@
+{
+  "description": "Iterated binomial coefficients.",
+  "id": "A049383",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

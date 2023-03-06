@@ -1,0 +1,20 @@
+{
+  "description": "Sum of squares of coefficients in full expansion of (z1+z2+...+zn)^n.",
+  "id": "A033935",
+  "mentions": [
+    "A245397",
+    "A287316"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

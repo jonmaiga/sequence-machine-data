@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n which are divisors of the number produced by concatenating (n-10), (n-9), (n-8), ... (n-1) in that order.",
+  "id": "A088872",
+  "mentions": [
+    "A069860",
+    "A088797",
+    "A088798",
+    "A088799",
+    "A088800",
+    "A088868",
+    "A088869",
+    "A088870",
+    "A088871"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

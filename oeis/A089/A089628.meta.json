@@ -1,0 +1,18 @@
+{
+  "description": "Smallest member of a pair of consecutive twin prime pairs that have no primes between them.",
+  "id": "A089628",
+  "mentions": [
+    "A053778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:25",
+    "offset": 3,
+    "size": 44,
+    "source": "joeis"
+  }
+}

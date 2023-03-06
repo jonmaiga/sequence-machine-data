@@ -1,0 +1,19 @@
+{
+  "description": "Decimal part of a(n)^(1/5) starts with n so that a(n)",
+  "id": "A034070",
+  "mentions": [
+    "A034060",
+    "A034080"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:59",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

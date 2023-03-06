@@ -1,0 +1,32 @@
+{
+  "description": "Number of subsets of divisors of n having equal sums as their complements.",
+  "id": "A083206",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A033630",
+    "A065205",
+    "A082729",
+    "A083207",
+    "A083208",
+    "A083209",
+    "A083210",
+    "A083211",
+    "A083212",
+    "A083213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

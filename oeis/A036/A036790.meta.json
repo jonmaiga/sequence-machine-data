@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Integral_{x=0..Pi} sin(x)/x.",
+  "id": "A036790",
+  "mentions": [
+    "A036792"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

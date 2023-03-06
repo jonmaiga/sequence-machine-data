@@ -1,0 +1,31 @@
+{
+  "description": "Bisection of A001353. Indices of square numbers which are also octagonal.",
+  "id": "A028230",
+  "mentions": [
+    "A001353",
+    "A001570",
+    "A001834",
+    "A001835",
+    "A001921",
+    "A007655",
+    "A036428",
+    "A046184",
+    "A049310",
+    "A077416",
+    "A077417",
+    "A094347",
+    "A108299"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

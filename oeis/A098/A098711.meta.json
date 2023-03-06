@@ -1,0 +1,22 @@
+{
+  "description": "Write down decimal expansion of Pi; starting with 31, divide up into chunks of minimal length so that chunks are increasing numbers and do not begin with 0.",
+  "id": "A098711",
+  "mentions": [
+    "A000796",
+    "A016062",
+    "A035331",
+    "A037244"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

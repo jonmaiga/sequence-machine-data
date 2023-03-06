@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes with two 0-bits (A095079) in range ]2^n,2^(n+1)].",
+  "id": "A095059",
+  "mentions": [
+    "A095018",
+    "A095056",
+    "A095057",
+    "A095058",
+    "A095062",
+    "A095079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

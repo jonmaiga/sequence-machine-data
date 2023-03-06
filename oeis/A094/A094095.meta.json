@@ -1,0 +1,19 @@
+{
+  "description": "a(n)^2 is the smallest square associated with the n-th term of A090943.",
+  "id": "A094095",
+  "mentions": [
+    "A090943",
+    "A092681"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

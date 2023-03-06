@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = curling number of (b(1),...,b(n-1)), where b() = Linus sequence A006345.",
+  "id": "A094840",
+  "mentions": [
+    "A006345",
+    "A090822",
+    "A093914",
+    "A093921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

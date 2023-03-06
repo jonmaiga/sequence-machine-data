@@ -1,0 +1,20 @@
+{
+  "description": "Composite de Polignac numbers (A006285).",
+  "id": "A098237",
+  "mentions": [
+    "A006285",
+    "A065381",
+    "A109925",
+    "A156695"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

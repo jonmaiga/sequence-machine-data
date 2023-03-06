@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 2^p + 3^p + 5^p + 7^p where p = prime(n).",
+  "id": "A098139",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:48:03",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

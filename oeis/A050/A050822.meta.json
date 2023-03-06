@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers in Hofstadter Q-sequence a(n)=a(n-a(n-1))+a(n-a(n-2)).",
+  "id": "A050822",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:50:29",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

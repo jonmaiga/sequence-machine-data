@@ -1,0 +1,22 @@
+{
+  "description": "Naught-y primes, primes with noughts (or zeros).",
+  "id": "A056709",
+  "mentions": [
+    "A000040",
+    "A011540",
+    "A038618",
+    "A164968"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

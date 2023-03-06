@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A033831(k) = A034444(k) where A034444(k) = number of unitary divisors of k.",
+  "id": "A033859",
+  "mentions": [
+    "A033831",
+    "A034444"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

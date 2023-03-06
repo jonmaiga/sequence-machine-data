@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that binomial (2n, n) / (n-1) is an integer.",
+  "id": "A094575",
+  "mentions": [
+    "A000108",
+    "A081767",
+    "A094453",
+    "A094576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

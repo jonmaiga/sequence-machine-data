@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of n*HarmonicNumber(n).",
+  "id": "A096617",
+  "mentions": [
+    "A000254",
+    "A001008",
+    "A002805",
+    "A025529",
+    "A027611",
+    "A193758"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

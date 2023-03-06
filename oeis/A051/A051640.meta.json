@@ -1,0 +1,17 @@
+{
+  "description": "a(n) contains the digit b-1 in all bases b from 2 to n.",
+  "id": "A051640",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

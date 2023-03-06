@@ -1,0 +1,21 @@
+{
+  "description": "Difference between 2n and the following prime.",
+  "id": "A060266",
+  "mentions": [
+    "A020482",
+    "A049653",
+    "A060264",
+    "A060267",
+    "A060268"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

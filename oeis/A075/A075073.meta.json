@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k-th perfect power - k is prime: A001597(k) - k is prime.",
+  "id": "A075073",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

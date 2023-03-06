@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = m given by arctan(tan(n)) = n - m*Pi.",
+  "id": "A082964",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Impossible primes in A071195. These primes are not terminal primes of shortest consecutive prime sequences initiated with n-th prime and providing prime-sum.",
+  "id": "A071198",
+  "mentions": [
+    "A071194",
+    "A071195",
+    "A071196",
+    "A071197"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

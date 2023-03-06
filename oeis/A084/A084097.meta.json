@@ -1,0 +1,46 @@
+{
+  "description": "Square array whose rows have e.g.f. exp(x)*cosh(sqrt(k)*x), k>=0, read by ascending antidiagonals.",
+  "id": "A084097",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000079",
+    "A001333",
+    "A002533",
+    "A002535",
+    "A003665",
+    "A011782",
+    "A016777",
+    "A026150",
+    "A028884",
+    "A046717",
+    "A083098",
+    "A083578",
+    "A084057",
+    "A084058",
+    "A090042",
+    "A120612",
+    "A125816",
+    "A125818",
+    "A133294",
+    "A133343",
+    "A133345",
+    "A133356",
+    "A134593",
+    "A140895",
+    "A221131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

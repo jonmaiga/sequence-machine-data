@@ -1,0 +1,22 @@
+{
+  "description": "Condensed version of A064085: all terms of A064085 with values greater than 1 (which coincides with all terms of A064085 with nonprime power index).",
+  "id": "A064086",
+  "mentions": [
+    "A000225",
+    "A024619",
+    "A064084",
+    "A064085"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

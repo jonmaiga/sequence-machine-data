@@ -1,0 +1,22 @@
+{
+  "description": "Least starting number initiating cubefree but nonsquarefree chain of consecutive integers with length n {j,j+1,...,j+n-1}; i.e., start of n consecutive numbers in A067259.",
+  "id": "A071125",
+  "mentions": [
+    "A051903",
+    "A063528",
+    "A067259"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Primes with odd number of 1's in binary expansion such that next prime has even number of 1's.",
+  "id": "A027705",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

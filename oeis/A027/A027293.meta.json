@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array given by rows: P(n,k) is the number of partitions of n that contain k as a part.",
+  "id": "A027293",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A010815",
+    "A066633",
+    "A067687",
+    "A145975",
+    "A146023",
+    "A155002",
+    "A182700",
+    "A182703",
+    "A343234"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:33",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

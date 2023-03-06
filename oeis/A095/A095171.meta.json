@@ -1,0 +1,20 @@
+{
+  "description": "Number of multiples of n in the n-th row of the triangle A095167.",
+  "id": "A095171",
+  "mentions": [
+    "A095167",
+    "A095168",
+    "A095169",
+    "A095170"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

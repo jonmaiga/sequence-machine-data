@@ -1,0 +1,19 @@
+{
+  "description": "Last terms in the rows (main diagonal) of the triangle described in A082200.",
+  "id": "A082201",
+  "mentions": [
+    "A082200",
+    "A082202",
+    "A082203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

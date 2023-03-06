@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree orders of non-Abelian groups.",
+  "id": "A068919",
+  "mentions": [
+    "A003277",
+    "A005117",
+    "A008966",
+    "A056868",
+    "A060652",
+    "A064899"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

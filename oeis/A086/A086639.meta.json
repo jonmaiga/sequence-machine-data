@@ -1,0 +1,26 @@
+{
+  "description": "Write decimal expansion of Pi in triangular form; sequence gives left edge.",
+  "id": "A086639",
+  "mentions": [
+    "A000030",
+    "A000217",
+    "A000796",
+    "A046126",
+    "A083437",
+    "A090897",
+    "A096764"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

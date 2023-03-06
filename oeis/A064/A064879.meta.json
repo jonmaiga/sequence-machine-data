@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of numbers composed of certain generalized Catalan numbers.",
+  "id": "A064879",
+  "mentions": [
+    "A000108",
+    "A019590",
+    "A064340",
+    "A064878",
+    "A064880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

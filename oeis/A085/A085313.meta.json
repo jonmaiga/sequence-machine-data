@@ -1,0 +1,28 @@
+{
+  "description": "Number of distinct 10th power residues modulo n.",
+  "id": "A085313",
+  "mentions": [
+    "A000224",
+    "A046530",
+    "A052273",
+    "A052274",
+    "A052275",
+    "A055653",
+    "A085310",
+    "A085311",
+    "A085312",
+    "A085314",
+    "A228849"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:39:09",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Define a function f on the positive integers by: if n is 1 or composite, stop; but if n = prime(k) then f(n) = k; a(n) = sum of terms in trajectory of n under repeated application of f.",
+  "id": "A098383",
+  "mentions": [
+    "A006450",
+    "A007097",
+    "A049076",
+    "A057450",
+    "A057451"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

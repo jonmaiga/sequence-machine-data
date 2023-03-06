@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (2 * (binomial(n,k)) * (n + 2 * k + 3)!)/((k + 1)! * (k + 2)! * (n + 3)!).",
+  "id": "A087727",
+  "mentions": [
+    "A005789",
+    "A087659"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

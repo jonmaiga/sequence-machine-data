@@ -1,0 +1,23 @@
+{
+  "description": "INVERT transform of factorial numbers.",
+  "id": "A051296",
+  "mentions": [
+    "A000142",
+    "A051295",
+    "A090238",
+    "A260530",
+    "A292778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

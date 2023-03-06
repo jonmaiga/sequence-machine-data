@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^4 + n^3 + n^2 + n^1.",
+  "id": "A027445",
+  "mentions": [
+    "A016861",
+    "A047203",
+    "A071237",
+    "A228275"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:34:17",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

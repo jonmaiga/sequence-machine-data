@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (2^(n-1)/n!) * Product_{k=1..n-1} (2^k-1).",
+  "id": "A091669",
+  "mentions": [
+    "A000142",
+    "A001122",
+    "A001567",
+    "A005329",
+    "A006935",
+    "A159353",
+    "A216838",
+    "A225101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

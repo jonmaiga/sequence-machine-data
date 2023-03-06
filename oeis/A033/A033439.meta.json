@@ -1,0 +1,32 @@
+{
+  "description": "Number of edges in 7-partite Turán graph of order n.",
+  "id": "A033439",
+  "mentions": [
+    "A000212",
+    "A002620",
+    "A007590",
+    "A030511",
+    "A033436",
+    "A033437",
+    "A033438",
+    "A033440",
+    "A033441",
+    "A033442",
+    "A033443",
+    "A033444",
+    "A109720",
+    "A184535"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:07",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Constant sequence: the all 4's sequence.",
+  "id": "A010709",
+  "mentions": [
+    "A000012",
+    "A007395",
+    "A010731",
+    "A010855",
+    "A010871",
+    "A020707",
+    "A098317"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:06:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

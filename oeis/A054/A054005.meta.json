@@ -1,0 +1,25 @@
+{
+  "description": "Sum of divisors of k and k+1 which have the same number and sum of divisors.",
+  "id": "A054005",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002961",
+    "A005237",
+    "A053249",
+    "A054004",
+    "A054006",
+    "A054007"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

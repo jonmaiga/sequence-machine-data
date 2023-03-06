@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 2; a(n+1) is the least prime p not already used such that |p-a(n)| is not equal to |a(k+1)-a(k)| for any k < n.",
+  "id": "A084331",
+  "mentions": [
+    "A081145",
+    "A084334",
+    "A101595"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

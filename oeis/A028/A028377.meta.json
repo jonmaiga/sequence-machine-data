@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{m>0} (1+q^m)^(m(m+1)/2).",
+  "id": "A028377",
+  "mentions": [
+    "A000294",
+    "A002117",
+    "A027999",
+    "A258341",
+    "A258342",
+    "A258343",
+    "A258344",
+    "A258345",
+    "A258346",
+    "A266964"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "n + largest square less than or equal to n; numbers in the range [2k^2,2k^2+2k] for some k.",
+  "id": "A061887",
+  "mentions": [
+    "A048760",
+    "A053186",
+    "A060984",
+    "A061885"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

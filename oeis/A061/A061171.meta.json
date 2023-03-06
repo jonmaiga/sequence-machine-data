@@ -1,0 +1,25 @@
+{
+  "description": "One half of second column of Lucas bisection triangle (odd part).",
+  "id": "A061171",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001906",
+    "A002878",
+    "A005248",
+    "A060924",
+    "A061187"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

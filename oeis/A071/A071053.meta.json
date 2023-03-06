@@ -1,0 +1,27 @@
+{
+  "description": "Number of ON cells at n-th generation of 1-D CA defined by Rule 150, starting with a single ON cell at generation 0.",
+  "id": "A071053",
+  "mentions": [
+    "A001045",
+    "A011782",
+    "A020987",
+    "A038184",
+    "A071036",
+    "A118110",
+    "A245562",
+    "A246035",
+    "A253102"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

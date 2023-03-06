@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of polynomials ( (1 -x +sqrt(x))^n + (1 -x -sqrt(x))^n )/2.",
+  "id": "A061176",
+  "mentions": [
+    "A059841",
+    "A060920",
+    "A061177",
+    "A180957"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

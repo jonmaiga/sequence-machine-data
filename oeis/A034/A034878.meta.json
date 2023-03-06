@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k! can be written as the product of smaller factorials.",
+  "id": "A034878",
+  "mentions": [
+    "A001013",
+    "A075082",
+    "A359636",
+    "A359751"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

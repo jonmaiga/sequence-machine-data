@@ -1,0 +1,25 @@
+{
+  "description": "Number of meaningful differential operations of the n-th order on the space R^9.",
+  "id": "A090994",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A020701",
+    "A020714",
+    "A033075",
+    "A090989",
+    "A090995",
+    "A129638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Total number of even entries in first n rows of Pascal's triangle (the zeroth and first rows being 1; 1,1).",
+  "id": "A051679",
+  "mentions": [
+    "A006046",
+    "A048967",
+    "A074330"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:41",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers divisible by the sum of their digits, but not by all their individual digits.",
+  "id": "A087141",
+  "mentions": [
+    "A005349",
+    "A087140",
+    "A087142"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

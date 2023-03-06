@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that k/phi(k) >= n, where phi is Euler's totient function.",
+  "id": "A091439",
+  "mentions": [
+    "A002110",
+    "A091456",
+    "A256968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

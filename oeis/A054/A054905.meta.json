@@ -1,0 +1,27 @@
+{
+  "description": "Smallest composite x such that sigma(x) + 2n = sigma(x + 2n).",
+  "id": "A054905",
+  "mentions": [
+    "A015913",
+    "A015914",
+    "A015915",
+    "A015916",
+    "A015917",
+    "A023200",
+    "A023201",
+    "A023202",
+    "A023203",
+    "A054799"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

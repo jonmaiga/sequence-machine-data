@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into parts congruent to {2, 3, 4} mod 6.",
+  "id": "A097451",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A047228",
+    "A056970",
+    "A070047",
+    "A096981",
+    "A098884",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:55:59",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

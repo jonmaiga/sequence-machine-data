@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer such that the concatenation of the first n terms is divisible by n.",
+  "id": "A099552",
+  "mentions": [
+    "A051883",
+    "A073893",
+    "A083161",
+    "A100769"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

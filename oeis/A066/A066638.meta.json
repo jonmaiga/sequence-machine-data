@@ -1,0 +1,21 @@
+{
+  "description": "Smallest power of a squarefree number that is a multiple of n.",
+  "id": "A066638",
+  "mentions": [
+    "A005117",
+    "A007947",
+    "A051903"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

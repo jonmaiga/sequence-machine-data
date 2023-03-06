@@ -1,0 +1,24 @@
+{
+  "description": "Number of prime-powers [including primes] in the (up and down) neighborhood of n with Ceiling[Log[n]] radius.",
+  "id": "A096509",
+  "mentions": [
+    "A000523",
+    "A000720",
+    "A004233",
+    "A023193",
+    "A096510",
+    "A096511",
+    "A096512"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

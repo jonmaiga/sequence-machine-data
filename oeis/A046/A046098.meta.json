@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that central binomial coefficient C(n, floor(n/2)) is squarefree.",
+  "id": "A046098",
+  "mentions": [
+    "A001405",
+    "A056651"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

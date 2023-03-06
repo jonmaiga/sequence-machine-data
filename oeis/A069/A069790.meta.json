@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers with arithmetic mean of digits = 1 (sum of digits = number of digits).",
+  "id": "A069790",
+  "mentions": [
+    "A007953",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

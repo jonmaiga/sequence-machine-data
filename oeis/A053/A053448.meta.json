@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative order of 5 mod m, where gcd(m, 5) = 1.",
+  "id": "A053448",
+  "mentions": [
+    "A002326",
+    "A047201",
+    "A050977",
+    "A053446",
+    "A053447"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:01",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

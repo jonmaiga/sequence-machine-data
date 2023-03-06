@@ -1,0 +1,22 @@
+{
+  "description": "Incrementally largest term in continued fraction for Champernowne constant (A030167).",
+  "id": "A038704",
+  "mentions": [
+    "A030167",
+    "A038705",
+    "A038706"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "bref",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

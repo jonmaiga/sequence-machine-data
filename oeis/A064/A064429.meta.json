@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = floor(n / 3) * 3 + sign(n mod 3) * (3 - n mod 3).",
+  "id": "A064429",
+  "mentions": [
+    "A001477",
+    "A004442",
+    "A008585",
+    "A016777",
+    "A016789",
+    "A074066",
+    "A080425",
+    "A080782",
+    "A102283",
+    "A143097"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:27",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

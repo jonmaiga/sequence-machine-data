@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number with exactly n nonprime divisors.",
+  "id": "A055079",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A033273",
+    "A057838",
+    "A058060",
+    "A058061"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

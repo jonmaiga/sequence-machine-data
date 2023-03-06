@@ -1,0 +1,18 @@
+{
+  "description": "1/n * sum over d|n of {mu(n/d) * (5d)! / d!^5}.",
+  "id": "A074653",
+  "mentions": [
+    "A006176",
+    "A074657"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:29:22",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

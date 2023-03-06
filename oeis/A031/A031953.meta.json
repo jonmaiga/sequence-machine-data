@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with exactly two distinct base-8 digits.",
+  "id": "A031953",
+  "mentions": [
+    "A031948",
+    "A031955"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

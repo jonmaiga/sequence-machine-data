@@ -1,0 +1,21 @@
+{
+  "description": "Group successively larger composite numbers so that the sum of the n-th group is a multiple of n. Sequence gives the number of terms in the n-th group.",
+  "id": "A074122",
+  "mentions": [
+    "A002808",
+    "A074120",
+    "A074121",
+    "A074123",
+    "A074130"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of (9*(n^4 - 2*n^3 + 2*n^2 - n) + 2)/(2*(2*n - 1)).",
+  "id": "A096431",
+  "mentions": [
+    "A096430",
+    "A097361",
+    "A146535"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:19",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

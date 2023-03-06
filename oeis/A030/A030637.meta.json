@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with 19 divisors.",
+  "id": "A030637",
+  "mentions": [
+    "A000040",
+    "A030634",
+    "A030635",
+    "A030636"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

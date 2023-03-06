@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with 1, a(n) = least number m > a(n-1) such that phi(a(n-1)) divides phi(m).",
+  "id": "A090556",
+  "mentions": [
+    "A014573",
+    "A069797",
+    "A090557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Atomic numbers of halogens in the periodic table.",
+  "id": "A097478",
+  "mentions": [
+    "A018227",
+    "A099955",
+    "A099956",
+    "A101647",
+    "A101648",
+    "A101649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

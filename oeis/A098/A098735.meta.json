@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of sum of all matrix elements M(i,j) = i^2 + j^2 (i,j = 1..n) divided by n!.",
+  "id": "A098735",
+  "mentions": [
+    "A000384",
+    "A005384",
+    "A014105",
+    "A053176",
+    "A096784",
+    "A098077",
+    "A109274",
+    "A123608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

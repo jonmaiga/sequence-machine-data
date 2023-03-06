@@ -1,0 +1,18 @@
+{
+  "description": "For a string of letters of length k, say abc...def, let f(k) be the string of length k-1 consisting of the adjacent pairs ab, bc, cd, ..., de, ef. Given n, let U be the string of length 2n consisting of n 1's followed by n 2's: 11...122...2. Then a(n) is the number of the C(2n,n) permutations V of U such that f(U) and f(V) agree in exactly one place.",
+  "id": "A098813",
+  "mentions": [
+    "A051292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

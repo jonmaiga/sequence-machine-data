@@ -1,0 +1,22 @@
+{
+  "description": "Number of cubes in multiplicative group modulo n.",
+  "id": "A087692",
+  "mentions": [
+    "A000010",
+    "A046073",
+    "A060839",
+    "A250207"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime factor of 2^n+3^n.",
+  "id": "A094473",
+  "mentions": [
+    "A007689",
+    "A020639",
+    "A050244",
+    "A082101",
+    "A094474",
+    "A094494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n and n+1 are semiprimes with a semiprime number of 1's in their binary representation.",
+  "id": "A086097",
+  "mentions": [
+    "A000120",
+    "A001358",
+    "A070552",
+    "A086096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

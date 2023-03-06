@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(n+1) = smallest prime of the form a(n) + k*prime(n+1), k >1.",
+  "id": "A085041",
+  "mentions": [
+    "A095184"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Digit sums of hoax numbers A019506.",
+  "id": "A050223",
+  "mentions": [
+    "A007953",
+    "A019506",
+    "A050218",
+    "A202393"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

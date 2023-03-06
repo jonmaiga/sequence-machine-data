@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: a(n,k)= coefficient of z^n of p_k(z), where p_k+1(z)=(p_k(z))^2+z, p_1(z)=z.",
+  "id": "A052154",
+  "mentions": [
+    "A000108",
+    "A137560"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:37",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

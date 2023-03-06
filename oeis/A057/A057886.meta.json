@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer 4-tuples that give the lengths of the sides of a nondegenerate quadrilateral with perimeter n.",
+  "id": "A057886",
+  "mentions": [
+    "A005044",
+    "A057887",
+    "A062890"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Denominators of Taylor series for exp(x)*cos(x).",
+  "id": "A046981",
+  "mentions": [
+    "A007019",
+    "A007415",
+    "A007452",
+    "A009775",
+    "A046979",
+    "A046980",
+    "A052277",
+    "A092820"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

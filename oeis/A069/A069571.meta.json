@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n in which the k-th digit (counted from the right) is nonzero and is either a divisor of k (but not 1 in case k has a single-digit prime divisor) or a multiple of k, for all 1 <= k <= number of digits of n.",
+  "id": "A069571",
+  "mentions": [
+    "A069570"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

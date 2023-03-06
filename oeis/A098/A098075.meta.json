@@ -1,0 +1,19 @@
+{
+  "description": "Threefold convolution of A004148 (the RNA secondary structure numbers) with itself.",
+  "id": "A098075",
+  "mentions": [
+    "A001622",
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

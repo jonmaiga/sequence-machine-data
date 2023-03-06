@@ -1,0 +1,21 @@
+{
+  "description": "In the list of divisors of n (in binary), each digit 0-1 appears equally often.",
+  "id": "A045799",
+  "mentions": [
+    "A038564",
+    "A038565",
+    "A045810"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

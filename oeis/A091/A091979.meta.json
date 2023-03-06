@@ -1,0 +1,17 @@
+{
+  "description": "Number of odd proper distinct prime divisors of n. That is, the number of odd distinct prime divisors of n that are less than n.",
+  "id": "A091979",
+  "mentions": [
+    "A001227"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

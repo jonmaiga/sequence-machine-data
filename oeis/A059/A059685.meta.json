@@ -1,0 +1,18 @@
+{
+  "description": "Split interval orders on n points.",
+  "id": "A059685",
+  "mentions": [
+    "A058259"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

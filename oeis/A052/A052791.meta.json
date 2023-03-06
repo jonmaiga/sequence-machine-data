@@ -1,0 +1,19 @@
+{
+  "description": "3^(n-3)*n*(n-1)*(n-2).",
+  "id": "A052791",
+  "mentions": [
+    "A001815"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:04",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

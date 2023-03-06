@@ -1,0 +1,26 @@
+{
+  "description": "Sum of divisors of n that are not of the form 4k+3.",
+  "id": "A082053",
+  "mentions": [
+    "A000203",
+    "A002145",
+    "A050449",
+    "A050452",
+    "A050460",
+    "A078181",
+    "A078182",
+    "A082052"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

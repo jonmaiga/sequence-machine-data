@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n*(n+1)/2)!.",
+  "id": "A052295",
+  "mentions": [
+    "A000142",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:40:46",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

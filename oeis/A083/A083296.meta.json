@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (4*3^n + (-7)^n)/5.",
+  "id": "A083296",
+  "mentions": [
+    "A083295",
+    "A083297"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

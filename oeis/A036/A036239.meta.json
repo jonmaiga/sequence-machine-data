@@ -1,0 +1,33 @@
+{
+  "description": "Number of 2-element intersecting families of an n-element set; number of 2-way interactions when 2 subsets of power set on {1..n} are chosen at random.",
+  "id": "A036239",
+  "mentions": [
+    "A003462",
+    "A006516",
+    "A016127",
+    "A016129",
+    "A016130",
+    "A016311",
+    "A016316",
+    "A016321",
+    "A016325",
+    "A028243",
+    "A032263",
+    "A036240",
+    "A051180",
+    "A051185"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

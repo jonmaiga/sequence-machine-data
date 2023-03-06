@@ -1,0 +1,20 @@
+{
+  "description": "Farey-factorial numerators, including duplicates.",
+  "id": "A093594",
+  "mentions": [
+    "A005728",
+    "A092824",
+    "A093593"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Total number of parts in all compositions of n into distinct odd parts.",
+  "id": "A097936",
+  "mentions": [
+    "A032021",
+    "A079499",
+    "A097910"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose base-8 representation has the same nonzero number of 0's and 6's.",
+  "id": "A039334",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

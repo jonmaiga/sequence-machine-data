@@ -1,0 +1,21 @@
+{
+  "description": "In binary representation: numbers occurring at least once in their factorial.",
+  "id": "A093686",
+  "mentions": [
+    "A000142",
+    "A007088",
+    "A036603",
+    "A093684",
+    "A093685"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

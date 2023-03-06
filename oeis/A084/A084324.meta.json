@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic numbers that set a new record for number of palindromic divisors.",
+  "id": "A084324",
+  "mentions": [
+    "A002113",
+    "A083867"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

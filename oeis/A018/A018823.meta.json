@@ -1,0 +1,15 @@
+{
+  "description": "n is the sum of k nonzero squares for all 4 <= k <= n-14.",
+  "id": "A018823",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:54:07",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

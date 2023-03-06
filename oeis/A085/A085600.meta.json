@@ -1,0 +1,17 @@
+{
+  "description": "Number of simple graphs with 3 edges on n vertices.",
+  "id": "A085600",
+  "mentions": [
+    "A000088"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

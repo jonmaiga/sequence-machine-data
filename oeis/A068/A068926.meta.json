@@ -1,0 +1,24 @@
+{
+  "description": "Table read by antidiagonals: ti(r,s) is the number of incongruent ways to tile an r X s room with 1 X 2 Tatami mats. At most 3 Tatami mats may meet at a point.",
+  "id": "A068926",
+  "mentions": [
+    "A052270",
+    "A068920",
+    "A068927",
+    "A068928",
+    "A068929",
+    "A068930",
+    "A068931"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(n) + tau(n) = 2n.",
+  "id": "A083874",
+  "mentions": [
+    "A007503",
+    "A105330",
+    "A105331",
+    "A173168"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

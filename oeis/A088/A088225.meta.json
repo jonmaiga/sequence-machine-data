@@ -1,0 +1,17 @@
+{
+  "description": "Solutions to x^n == 7 (mod 11).",
+  "id": "A088225",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:21",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

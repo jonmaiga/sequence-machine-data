@@ -1,0 +1,17 @@
+{
+  "description": "q-Catalan numbers (binomial version) for q=11.",
+  "id": "A015042",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:46:06",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

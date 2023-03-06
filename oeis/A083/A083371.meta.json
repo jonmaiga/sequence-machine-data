@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that q-p >= 8, where q is the next prime after p.",
+  "id": "A083371",
+  "mentions": [
+    "A000040",
+    "A031926",
+    "A031928",
+    "A031930",
+    "A031932",
+    "A076973",
+    "A124583",
+    "A124590"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

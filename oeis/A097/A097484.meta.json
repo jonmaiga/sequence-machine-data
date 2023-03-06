@@ -1,0 +1,29 @@
+{
+  "description": "Write the odd positive integers on labels in numerical order, forming an infinite sequence L. Consider the succession of single digits of L: 1 3 5 7 9 1 1 1 3 1 5 1 7 1 9 2 1 2 3 2 5 2 7 2 9 3 1 ... (A031312). This sequence is a derangement of L that produces the same succession of digits, subject to the constraint that the smallest unused label must be used that does not lead to a contradiction.",
+  "id": "A097484",
+  "mentions": [
+    "A005408",
+    "A031312",
+    "A097481",
+    "A097485",
+    "A097487",
+    "A097488",
+    "A097500",
+    "A097912",
+    "A097962",
+    "A098067",
+    "A098080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

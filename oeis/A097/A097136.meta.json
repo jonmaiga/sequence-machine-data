@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*Fibonacci(2*n) + 1.",
+  "id": "A097136",
+  "mentions": [
+    "A000045",
+    "A097132",
+    "A097133",
+    "A097135"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

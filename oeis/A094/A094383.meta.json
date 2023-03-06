@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that d>0 exists and p-d, p-2*d and p-3*d are also primes.",
+  "id": "A094383",
+  "mentions": [
+    "A094382",
+    "A216468",
+    "A216495",
+    "A216496",
+    "A216497",
+    "A216498"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

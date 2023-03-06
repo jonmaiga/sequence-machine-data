@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonorientable hyperbolic 3-manifolds of cusp type 1 obtained from n ideal tetrahedra.",
+  "id": "A091218",
+  "mentions": [
+    "A091107",
+    "A091108",
+    "A091145",
+    "A091319",
+    "A092304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

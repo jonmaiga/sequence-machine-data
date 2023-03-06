@@ -1,0 +1,25 @@
+{
+  "description": "Every suffix is prime and contains no 0 digits in base 4 (written in base 4).",
+  "id": "A024779",
+  "mentions": [
+    "A024780",
+    "A024781",
+    "A024782",
+    "A024783",
+    "A024784",
+    "A024785"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number with p(n)^3 divisors where p(n) is n-th prime.",
+  "id": "A061236",
+  "mentions": [
+    "A000005",
+    "A003680",
+    "A005179",
+    "A037992",
+    "A061148",
+    "A061149",
+    "A061283",
+    "A061286"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

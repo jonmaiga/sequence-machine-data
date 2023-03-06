@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 + 2^(n-1) + n for n > 0, a(0) = 2.",
+  "id": "A052968",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

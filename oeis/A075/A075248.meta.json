@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions (x,y,z) to 5/n = 1/x + 1/y + 1/z satisfying 0 < x < y < z.",
+  "id": "A075248",
+  "mentions": [
+    "A073101",
+    "A075249",
+    "A075250",
+    "A075251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "The 10-adic integer x = ...1787109376 satisfies x^2 = x.",
+  "id": "A018248",
+  "mentions": [
+    "A003226",
+    "A016090",
+    "A018247",
+    "A033819",
+    "A054869",
+    "A055620",
+    "A075693",
+    "A091664",
+    "A120817",
+    "A120818",
+    "A259468",
+    "A259469"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

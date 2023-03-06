@@ -1,0 +1,23 @@
+{
+  "description": "Number of integral solutions to Mordell's equation y^2 = x^3 + n.",
+  "id": "A081119",
+  "mentions": [
+    "A001014",
+    "A054504",
+    "A060950",
+    "A081120",
+    "A100028",
+    "A134108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of LEGO towers, one piece per floor, where every floor is perpendicular to the one below it (so we have a kind of 3-dimensional zigzag pattern).",
+  "id": "A082679",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:58:01",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

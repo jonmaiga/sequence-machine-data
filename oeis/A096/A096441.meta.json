@@ -1,0 +1,41 @@
+{
+  "description": "Number of palindromic and unimodal compositions of n. Equivalently, the number of orbits under conjugation of even nilpotent n X n matrices.",
+  "id": "A096441",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A006477",
+    "A016116",
+    "A025065",
+    "A027187",
+    "A027383",
+    "A035363",
+    "A035377",
+    "A035457",
+    "A058696",
+    "A066207",
+    "A078408",
+    "A096967",
+    "A117298",
+    "A117989",
+    "A168021",
+    "A274230",
+    "A300061",
+    "A340785",
+    "A345170",
+    "A349060",
+    "A349061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

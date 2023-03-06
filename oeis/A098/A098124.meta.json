@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n in which the largest part is equal to the number of parts.",
+  "id": "A098124",
+  "mentions": [
+    "A047993",
+    "A077229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

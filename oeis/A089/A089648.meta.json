@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose numbers of zeros and ones in binary representation differ at most by 1.",
+  "id": "A089648",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A031443",
+    "A031444",
+    "A031448",
+    "A037861"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

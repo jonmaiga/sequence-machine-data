@@ -1,0 +1,24 @@
+{
+  "description": "Number of periodic palindromic structures of length n using exactly two different symbols.",
+  "id": "A056508",
+  "mentions": [
+    "A045674",
+    "A052551",
+    "A056391",
+    "A056503",
+    "A164090",
+    "A284855",
+    "A285012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

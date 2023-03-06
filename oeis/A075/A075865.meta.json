@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that phi(n) = sigma(sum of distinct prime factors of n).",
+  "id": "A075865",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

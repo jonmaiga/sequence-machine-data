@@ -1,0 +1,28 @@
+{
+  "description": "a(1)=1, a(2)=1; for n>2, a(n) is the smallest positive integer such that the products a(i)*a(i+1), i=1..n-1, are all distinct.",
+  "id": "A088177",
+  "mentions": [
+    "A088178",
+    "A098550",
+    "A307720",
+    "A307730",
+    "A341492",
+    "A348437",
+    "A348438",
+    "A348439",
+    "A348440",
+    "A348441"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

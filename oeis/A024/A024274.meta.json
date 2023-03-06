@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. tan(sinh(x))*x/2 (even powers only).",
+  "id": "A024274",
+  "mentions": [
+    "A009683"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:39:49",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

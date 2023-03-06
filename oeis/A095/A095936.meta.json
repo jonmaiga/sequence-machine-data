@@ -1,0 +1,16 @@
+{
+  "description": "One- or two-digit primes encountered in the decimal expansion of e.",
+  "id": "A095936",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

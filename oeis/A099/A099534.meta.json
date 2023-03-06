@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=Sum of the first n decimal places of e.",
+  "id": "A099534",
+  "mentions": [
+    "A039918",
+    "A046974",
+    "A046975"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:03",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Second unsigned column of triangle A051339.",
+  "id": "A051545",
+  "mentions": [
+    "A000254",
+    "A001705",
+    "A001711",
+    "A001716",
+    "A001721",
+    "A001730",
+    "A028421",
+    "A051339",
+    "A051524",
+    "A051560",
+    "A051562",
+    "A051564",
+    "A163931"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

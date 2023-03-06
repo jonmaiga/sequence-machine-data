@@ -1,0 +1,28 @@
+{
+  "description": "Figurate numbers based on the 7-dimensional regular convex polytope called the 7-dimensional cross-polytope, or 7-dimensional hyperoctahedron, which is represented by the Schlaefli symbol {3, 3, 3, 3, 3, 4}. It is the dual of the 7-dimensional hypercube.",
+  "id": "A099193",
+  "mentions": [
+    "A000332",
+    "A005900",
+    "A014820",
+    "A069038",
+    "A069039",
+    "A081277",
+    "A099195",
+    "A099196",
+    "A099197",
+    "A142978"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

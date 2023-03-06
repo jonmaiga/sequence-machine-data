@@ -1,0 +1,19 @@
+{
+  "description": "Number of score sequences in tournament with n players, when 3 points are awarded in each game.",
+  "id": "A047729",
+  "mentions": [
+    "A000571",
+    "A007747"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

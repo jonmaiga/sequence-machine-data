@@ -1,0 +1,18 @@
+{
+  "description": "Number of seconds in the time units: second, minute, hour, day, week, month, year, century, millennium, (a)eon.",
+  "id": "A053401",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

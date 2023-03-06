@@ -1,0 +1,33 @@
+{
+  "description": "Triangle of certain generalized Bell numbers.",
+  "id": "A090210",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000522",
+    "A002720",
+    "A008279",
+    "A020556",
+    "A069223",
+    "A069948",
+    "A070227",
+    "A071379",
+    "A090209",
+    "A182924",
+    "A182925",
+    "A182933"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

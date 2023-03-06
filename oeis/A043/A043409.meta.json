@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having one 4 in base 7.",
+  "id": "A043409",
+  "mentions": [
+    "A007093"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:13",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

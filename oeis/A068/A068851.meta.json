@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 83 ( the smallest prime beginning with 8) and then the smallest prime with leading digits containing a(n-1).",
+  "id": "A068851",
+  "mentions": [
+    "A068849",
+    "A068850",
+    "A068852"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:20:23",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

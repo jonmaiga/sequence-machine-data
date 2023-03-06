@@ -1,0 +1,20 @@
+{
+  "description": "Let b(1)=1, b(2)=2, b(n) = sum of digits of b(1)+b(2)+b(3)+...+b(n-1), sequence gives values of n such that b(n)=3.",
+  "id": "A084229",
+  "mentions": [
+    "A065075",
+    "A084228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

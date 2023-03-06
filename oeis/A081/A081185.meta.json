@@ -1,0 +1,28 @@
+{
+  "description": "8th binomial transform of (0,1,0,2,0,4,0,8,0,16,...).",
+  "id": "A081185",
+  "mentions": [
+    "A002203",
+    "A081184",
+    "A147959",
+    "A164298",
+    "A164299",
+    "A164300",
+    "A164301",
+    "A164598",
+    "A164599",
+    "A164600"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

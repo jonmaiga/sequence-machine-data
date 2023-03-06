@@ -1,0 +1,22 @@
+{
+  "description": "Sum of composite numbers between prime p and nextprime(p) is palindromic with restriction 'p + 1 <> sum'.",
+  "id": "A054267",
+  "mentions": [
+    "A046933",
+    "A054264",
+    "A054265",
+    "A054266",
+    "A054268"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

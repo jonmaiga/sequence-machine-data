@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime formed by concatenating n consecutive decreasing numbers, 0 if no such prime exists.",
+  "id": "A052078",
+  "mentions": [
+    "A052077",
+    "A052079",
+    "A052080"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:55",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

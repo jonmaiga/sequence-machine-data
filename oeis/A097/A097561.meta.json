@@ -1,0 +1,15 @@
+{
+  "description": "Maximum number of integer-sided triangles with equal diameter and equal characteristic k defined by the area of a triangle given as A=q*sqrt(k) with a rational number q and a squarefree integer k.",
+  "id": "A097561",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

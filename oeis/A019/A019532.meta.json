@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that Fibonacci(k) divides k!.",
+  "id": "A019532",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A160811",
+    "A348517",
+    "A348518",
+    "A348519",
+    "A348520"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime which is a concatenation of n primes.",
+  "id": "A069837",
+  "mentions": [
+    "A036937",
+    "A069637",
+    "A096506"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

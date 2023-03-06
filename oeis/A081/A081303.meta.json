@@ -1,0 +1,23 @@
+{
+  "description": "gpf(m) - 2*spf(m), where gpf(m) is the greatest and spf(m) is the smallest prime factor of m (A006530, A020639).",
+  "id": "A081303",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A046665",
+    "A069900",
+    "A081304",
+    "A081305",
+    "A081306"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

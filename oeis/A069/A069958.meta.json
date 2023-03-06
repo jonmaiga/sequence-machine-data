@@ -1,0 +1,21 @@
+{
+  "description": "(Sum of digits of n)^3 - (sum of digits^3 of n).",
+  "id": "A069958",
+  "mentions": [
+    "A007953",
+    "A055012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

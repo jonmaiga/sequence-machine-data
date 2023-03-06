@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of the n-th GF(2)[X]-polynomial.",
+  "id": "A091220",
+  "mentions": [
+    "A000005",
+    "A091203",
+    "A091205",
+    "A091247",
+    "A091257"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

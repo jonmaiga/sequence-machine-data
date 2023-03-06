@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that A005210(n) = 0.",
+  "id": "A051202",
+  "mentions": [
+    "A005210"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

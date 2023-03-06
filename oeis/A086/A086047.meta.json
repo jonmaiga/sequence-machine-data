@@ -1,0 +1,16 @@
+{
+  "description": "Sum of first n 5-almost primes.",
+  "id": "A086047",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

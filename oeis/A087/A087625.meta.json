@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes in the ring Z_n.",
+  "id": "A087625",
+  "mentions": [
+    "A000010",
+    "A087623",
+    "A087624"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

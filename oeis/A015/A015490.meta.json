@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1, a(1)=5, a(n) = sum_{k=0}^{k=n-1} 5^k a(k).",
+  "id": "A015490",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:08:30",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

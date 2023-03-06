@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-component Carmichael numbers C = (6M + 1)(12M + 1)(18M + 1) < 10^n.",
+  "id": "A036060",
+  "mentions": [
+    "A002997",
+    "A033502",
+    "A055553",
+    "A087788",
+    "A132195"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 3,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

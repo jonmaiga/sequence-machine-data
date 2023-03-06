@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (n+1)*(2-n)/2.",
+  "id": "A080956",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A000217",
+    "A005563",
+    "A154990",
+    "A214292",
+    "A262221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

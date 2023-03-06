@@ -1,0 +1,21 @@
+{
+  "description": "Centered hexamorphic numbers: the k-th centered hexagonal number, 3k(k-1)+1, ends in k.",
+  "id": "A094534",
+  "mentions": [
+    "A003215",
+    "A003226"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

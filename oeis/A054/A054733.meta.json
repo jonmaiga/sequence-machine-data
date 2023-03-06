@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of number of (weakly) connected unlabeled digraphs with n nodes and k arcs (n >=2, k >= 1).",
+  "id": "A054733",
+  "mentions": [
+    "A000238",
+    "A003085",
+    "A052283",
+    "A053454",
+    "A057276",
+    "A062735",
+    "A283753",
+    "A350789"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 2,
+    "size": 57,
+    "source": "joeis"
+  }
+}

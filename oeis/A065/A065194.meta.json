@@ -1,0 +1,23 @@
+{
+  "description": "Limits of the recursion b(i+1)=B_[i](b(i)), where b(1)=n and B_[k+1](j) = B_[k](j), if j <= k; B_[k+1](j) = B_[k](j) + k, if j < k and (j mod 2k) >= k; B_[k+1](j) = B_[k](j) - k, if j < k and (j mod 2k) < k. Set a(n)=0 if b tends to infinity.",
+  "id": "A065194",
+  "mentions": [
+    "A065191",
+    "A065192",
+    "A065193",
+    "A065195",
+    "A065196",
+    "A065197"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Base 10 \"digit addition generators\": a(n) = smallest m such that m + (sum of digits of m) = n, or -1 if no such m exists.",
+  "id": "A096234",
+  "mentions": [
+    "A003052",
+    "A025804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least quadratic nonresidue modulo n (with n >= 3).",
+  "id": "A020649",
+  "mentions": [
+    "A053760"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:17",
+    "offset": 3,
+    "size": 108,
+    "source": "joeis"
+  }
+}

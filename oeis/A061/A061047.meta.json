@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of 1/49 - 1/n^2.",
+  "id": "A061047",
+  "mentions": [
+    "A045944",
+    "A061035",
+    "A061039",
+    "A061043",
+    "A061050",
+    "A098848"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:01:03",
+    "offset": 7,
+    "size": 48,
+    "source": "joeis"
+  }
+}

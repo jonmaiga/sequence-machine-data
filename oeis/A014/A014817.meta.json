@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(k^2/n).",
+  "id": "A014817",
+  "mentions": [
+    "A165993",
+    "A166375",
+    "A166387",
+    "A177041",
+    "A227841",
+    "A227842",
+    "A228131"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:51",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

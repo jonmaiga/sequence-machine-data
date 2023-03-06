@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers with at least 3 prime factors (counted with multiplicity).",
+  "id": "A033942",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A002808",
+    "A014612",
+    "A033987",
+    "A037143",
+    "A054576",
+    "A060278",
+    "A080257",
+    "A101040",
+    "A109810",
+    "A211110"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:05",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

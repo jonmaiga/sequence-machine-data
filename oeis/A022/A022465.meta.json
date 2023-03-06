@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that prime(n) mod n <= 10.",
+  "id": "A022465",
+  "mentions": [
+    "A038624"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

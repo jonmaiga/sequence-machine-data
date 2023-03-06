@@ -1,0 +1,28 @@
+{
+  "description": "Smallest prime contained as binary substring in binary representation of n>1, a(1)=1.",
+  "id": "A078832",
+  "mentions": [
+    "A000225",
+    "A007088",
+    "A010051",
+    "A020639",
+    "A030308",
+    "A036987",
+    "A078822",
+    "A078826",
+    "A078833",
+    "A225243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime beginning with exactly n 1's.",
+  "id": "A065584",
+  "mentions": [
+    "A004022",
+    "A056710",
+    "A065821",
+    "A068103",
+    "A068104",
+    "A068105"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

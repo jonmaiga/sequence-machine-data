@@ -1,0 +1,23 @@
+{
+  "description": "Next m>n such that m is divisible by lpf(n), lpf=A006530 largest prime factor.",
+  "id": "A070229",
+  "mentions": [
+    "A006530",
+    "A036441",
+    "A061228",
+    "A076271",
+    "A123581",
+    "A256393"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

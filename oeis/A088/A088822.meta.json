@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of largest prime factors of numbers from 1 to n.",
+  "id": "A088822",
+  "mentions": [
+    "A006530",
+    "A046670",
+    "A088821",
+    "A088823",
+    "A088824",
+    "A088825"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

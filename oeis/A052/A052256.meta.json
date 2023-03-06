@@ -1,0 +1,19 @@
+{
+  "description": "Last filtering prime (A052180) of primes p such that next prime is p+8 (A031926).",
+  "id": "A052256",
+  "mentions": [
+    "A031926",
+    "A052180"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:27",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

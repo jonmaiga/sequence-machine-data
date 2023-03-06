@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled rooted trees with a degree constraint (described in the comments below).",
+  "id": "A036777",
+  "mentions": [
+    "A036774",
+    "A036775",
+    "A036776"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:06:48",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

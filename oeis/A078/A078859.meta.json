@@ -1,0 +1,21 @@
+{
+  "description": "Least positive residues (mod 210) representing those residue classes which can be the lesser of twin prime pairs (A001359).",
+  "id": "A078859",
+  "mentions": [
+    "A001359",
+    "A008364"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

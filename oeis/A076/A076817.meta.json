@@ -1,0 +1,16 @@
+{
+  "description": "Let u(1)=u(2)=1, u(n)=(3^floor(u(n-1)/2)+1)/u(n-2); then a(n)=10*u(n).",
+  "id": "A076817",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:15",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

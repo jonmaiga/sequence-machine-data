@@ -1,0 +1,20 @@
+{
+  "description": "Primes arising in A090519, or 0 if A090519(n)= 0.",
+  "id": "A090520",
+  "mentions": [
+    "A090517",
+    "A090518",
+    "A090519"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

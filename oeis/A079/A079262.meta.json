@@ -1,0 +1,29 @@
+{
+  "description": "Octanacci numbers: a(0)=a(1)=...=a(6)=0, a(7)=1; for n >= 8, a(n) = Sum_{i=1..8} a(n-i).",
+  "id": "A079262",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A001591",
+    "A001592",
+    "A001630",
+    "A048887",
+    "A066178",
+    "A092921",
+    "A171890",
+    "A253705",
+    "A253706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:54:05",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

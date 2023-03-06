@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 3 which on one operation of the Collatz function T (N -> 3N+1/2^r) yield the number 5.",
+  "id": "A072196",
+  "mentions": [
+    "A072197"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (prime(n+2)-1)/6 if this is an integer or (prime(n+2)+ 1)/6 otherwise.",
+  "id": "A024699",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A002476",
+    "A007528",
+    "A103221",
+    "A208296"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:33",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

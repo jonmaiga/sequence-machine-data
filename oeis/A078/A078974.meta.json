@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of constant C such that Sum_{k>=1} 1/C^p(k) = 1 where p(k) is the k-th prime.",
+  "id": "A078974",
+  "mentions": [
+    "A078465",
+    "A084256"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) = smallest multiple of a(n-1) which is a palindromic square.",
+  "id": "A069500",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

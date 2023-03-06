@@ -1,0 +1,25 @@
+{
+  "description": "Positive numbers represented by the integer binary quadratic form x^2 + x*y - y^2 with x and y relatively prime.",
+  "id": "A089270",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001060",
+    "A005676",
+    "A038872",
+    "A057762",
+    "A165900",
+    "A336403"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

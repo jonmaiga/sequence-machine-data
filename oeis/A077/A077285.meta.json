@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n with designated summands.",
+  "id": "A077285",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000041",
+    "A091601",
+    "A102186",
+    "A258210",
+    "A266477"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

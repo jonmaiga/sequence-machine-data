@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A075893: Primes of the form (p^2+q^2+r^2)/3, where p,q,r are 3 consecutive primes.",
+  "id": "A084951",
+  "mentions": [
+    "A075893",
+    "A084952",
+    "A133529",
+    "A133940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Roman numerals written using 1 for I, 2 for V, 3 for X, 4 for L, 5 for C, 6 for D, 7 for M.",
+  "id": "A061493",
+  "mentions": [
+    "A002963",
+    "A003587",
+    "A006968",
+    "A036746",
+    "A036786",
+    "A036787",
+    "A036788",
+    "A057226",
+    "A160676",
+    "A160677",
+    "A199921"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

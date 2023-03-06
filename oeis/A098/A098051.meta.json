@@ -1,0 +1,18 @@
+{
+  "description": "Number of peakless Motzkin paths with no U H...HU's where U=(1,1) and H=(1,0) (can be easily expressed using RNA secondary structure terminology).",
+  "id": "A098051",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

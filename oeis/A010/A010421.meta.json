@@ -1,0 +1,25 @@
+{
+  "description": "Squares mod 60.",
+  "id": "A010421",
+  "mentions": [
+    "A010378",
+    "A010382",
+    "A010462",
+    "A028773",
+    "A096008",
+    "A159852"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

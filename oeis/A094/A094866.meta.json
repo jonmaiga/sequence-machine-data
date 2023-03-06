@@ -1,0 +1,17 @@
+{
+  "description": "Number of truncated ST-pairs O(q^N).",
+  "id": "A094866",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

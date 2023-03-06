@@ -1,0 +1,49 @@
+{
+  "description": "Lpf(n): least prime dividing n (when n > 1); a(1) = 1. Or, smallest prime factor of n, or smallest prime divisor of n.",
+  "id": "A020639",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005178",
+    "A005867",
+    "A006530",
+    "A007978",
+    "A009190",
+    "A014673",
+    "A027746",
+    "A027748",
+    "A028233",
+    "A032742",
+    "A034684",
+    "A034699",
+    "A046669",
+    "A046670",
+    "A053585",
+    "A053669",
+    "A054576",
+    "A055396",
+    "A067029",
+    "A068319",
+    "A072486",
+    "A088377",
+    "A090368",
+    "A115561",
+    "A117818",
+    "A127093",
+    "A240694"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

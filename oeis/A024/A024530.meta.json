@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of -Sum_{k=1..n} (-1)^k / prime(k).",
+  "id": "A024530",
+  "mentions": [
+    "A002110",
+    "A024451",
+    "A078437"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

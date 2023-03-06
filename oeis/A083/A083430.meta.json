@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that k*n is a number that is a permutation of the digits of first n numbers. a(n) = A083429(n)/n.",
+  "id": "A083430",
+  "mentions": [
+    "A083429",
+    "A083431",
+    "A083432"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

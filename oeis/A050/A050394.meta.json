@@ -1,0 +1,18 @@
+{
+  "description": "Exponential reversion of partitions into distinct parts A000009.",
+  "id": "A050394",
+  "mentions": [
+    "A000009",
+    "A050393"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:37:33",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Rewrite 0->100 in the binary expansion of n (but leaving single zero as zero) and append 10 to the right.",
+  "id": "A080310",
+  "mentions": [
+    "A080298",
+    "A080299",
+    "A080303"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

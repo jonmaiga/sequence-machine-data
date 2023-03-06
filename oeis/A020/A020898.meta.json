@@ -1,0 +1,22 @@
+{
+  "description": "Positive cubefree integers n such that the Diophantine equation X^3 + Y^3 = n*Z^3 has solutions.",
+  "id": "A020898",
+  "mentions": [
+    "A159843",
+    "A166246",
+    "A202679",
+    "A254324",
+    "A254326"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

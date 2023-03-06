@@ -1,0 +1,18 @@
+{
+  "description": "In the Ana sequence, use (the ungrammatical) \"a n\" instead of \"an n\" in describing n's. That is, begin with the letter \"a\". Generate the next term by using the indefinite article as appropriate, but using \"a n\" instead of \"an n\". E.g., \"an a\", then \"an a, a n, an a\" etc. Assign a=1, n=2.",
+  "id": "A068490",
+  "mentions": [
+    "A003842",
+    "A060032"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

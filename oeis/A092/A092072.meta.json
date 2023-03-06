@@ -1,0 +1,15 @@
+{
+  "description": "Molien series for complete weight enumerators of self-dual codes over GF(9) containing the all-ones vector.",
+  "id": "A092072",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:26:51",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

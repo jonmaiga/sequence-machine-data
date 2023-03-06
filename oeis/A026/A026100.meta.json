@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of the column of A026098 that contains n.",
+  "id": "A026100",
+  "mentions": [
+    "A026098"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

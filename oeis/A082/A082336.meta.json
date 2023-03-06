@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers induced by the Catalan bijection gma082336 acting on the parenthesizations encoded by A014486/A063171.",
+  "id": "A082336",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A019590",
+    "A057163",
+    "A063171",
+    "A074679",
+    "A074680",
+    "A082335",
+    "A082349",
+    "A082350"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

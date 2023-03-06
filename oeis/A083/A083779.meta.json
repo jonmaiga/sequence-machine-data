@@ -1,0 +1,19 @@
+{
+  "description": "n-th row of the following triangle contains n even numbers such that every sum of n-1 of them + 1 is a prime. Sequence contains the triangle by rows.",
+  "id": "A083779",
+  "mentions": [
+    "A083780",
+    "A083781"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p of the form 4m+1 with p <= n.",
+  "id": "A066339",
+  "mentions": [
+    "A000720",
+    "A066490",
+    "A079260",
+    "A296021"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

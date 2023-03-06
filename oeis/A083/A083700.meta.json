@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the limit of the n-th continued fraction convergent, A083699(n)/A072999(n), which has the least prime denominator.",
+  "id": "A083700",
+  "mentions": [
+    "A072999",
+    "A083698",
+    "A083699"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

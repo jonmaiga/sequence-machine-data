@@ -1,0 +1,26 @@
+{
+  "description": "Square of the Euclidean length of the vector of Littlewood-Richardson coefficients of Sum_{lambda |- n} s_lambda^2, where s_lambda are the symmetric Schur functions and the sum runs over all partitions lambda of n.",
+  "id": "A067855",
+  "mentions": [
+    "A001868",
+    "A003040",
+    "A036037",
+    "A070933",
+    "A080577",
+    "A181317",
+    "A266964",
+    "A330370"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

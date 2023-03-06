@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of 7^n contains no zeros (probably finite).",
+  "id": "A030703",
+  "mentions": [
+    "A000420",
+    "A007377",
+    "A007496",
+    "A008839",
+    "A030700",
+    "A030701",
+    "A030702",
+    "A030704",
+    "A030705",
+    "A030706",
+    "A052382",
+    "A195908",
+    "A195942",
+    "A195943",
+    "A195944",
+    "A195945",
+    "A195946"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

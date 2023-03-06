@@ -1,0 +1,20 @@
+{
+  "description": "Cyclotomic polynomials Phi_n at x=phi, ceiled up (where phi = tau = (sqrt(5)+1)/2).",
+  "id": "A063707",
+  "mentions": [
+    "A019320",
+    "A063703",
+    "A063705",
+    "A063708"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

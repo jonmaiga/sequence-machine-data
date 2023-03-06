@@ -1,0 +1,22 @@
+{
+  "description": "Smallest n-digit number with A066150(n) divisors.",
+  "id": "A066151",
+  "mentions": [
+    "A002182",
+    "A005179",
+    "A066150"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

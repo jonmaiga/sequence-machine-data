@@ -1,0 +1,22 @@
+{
+  "description": "Primes with at most two different digits.",
+  "id": "A030291",
+  "mentions": [
+    "A004022",
+    "A032758",
+    "A116692",
+    "A235154"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

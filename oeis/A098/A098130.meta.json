@@ -1,0 +1,17 @@
+{
+  "description": "Concatenation of consecutive primes in the forward and reverse order.",
+  "id": "A098130",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 6,
+    "source": "joeis"
+  }
+}

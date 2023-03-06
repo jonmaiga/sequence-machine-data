@@ -1,0 +1,17 @@
+{
+  "description": "Minimal number of conjugacy classes (which is also the number of irreducible representations) in G where G is a finite group of order n.",
+  "id": "A060653",
+  "mentions": [
+    "A051532"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

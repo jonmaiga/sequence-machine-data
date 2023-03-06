@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T read by rows: T(n,k)=t(n,2k), t given by A027926; 0 <= k <= n, n >= 0.",
+  "id": "A027935",
+  "mentions": [
+    "A027926",
+    "A027948"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:39",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

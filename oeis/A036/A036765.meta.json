@@ -1,0 +1,29 @@
+{
+  "description": "Number of ordered rooted trees with n non-root nodes and all outdegrees <= three.",
+  "id": "A036765",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A001006",
+    "A005725",
+    "A036766",
+    "A064580",
+    "A186241",
+    "A198951",
+    "A200731",
+    "A288942"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

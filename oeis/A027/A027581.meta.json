@@ -1,0 +1,21 @@
+{
+  "description": "Sequence satisfies T(T(a))=a, where T is defined below.",
+  "id": "A027581",
+  "mentions": [
+    "A003633",
+    "A027582"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

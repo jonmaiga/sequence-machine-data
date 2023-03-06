@@ -1,0 +1,16 @@
+{
+  "description": "Largest k such that round(1/(sqrt(prime(k+1))-sqrt(prime(k))) = n where prime(n) denotes the n-th prime (conjectured values).",
+  "id": "A078693",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

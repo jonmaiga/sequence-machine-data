@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes whose prime factors contain only odd digits.",
+  "id": "A046446",
+  "mentions": [
+    "A014076"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:32:53",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

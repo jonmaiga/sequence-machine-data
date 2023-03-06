@@ -1,0 +1,23 @@
+{
+  "description": "Number of step shifted (decimated) sequences using exactly six different symbols.",
+  "id": "A056380",
+  "mentions": [
+    "A056371",
+    "A056372",
+    "A056373",
+    "A056374",
+    "A056375",
+    "A056391"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:08:24",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

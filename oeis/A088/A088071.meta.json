@@ -1,0 +1,18 @@
+{
+  "description": "Number sandwiched between two numbers having only one prime divisor.",
+  "id": "A088071",
+  "mentions": [
+    "A014574",
+    "A088072"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

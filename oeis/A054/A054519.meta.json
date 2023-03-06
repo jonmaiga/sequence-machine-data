@@ -1,0 +1,30 @@
+{
+  "description": "Number of increasing arithmetic progressions of nonnegative integers ending in n, including those of length 1 or 2.",
+  "id": "A054519",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A007862",
+    "A027750",
+    "A049988",
+    "A051336",
+    "A056535",
+    "A175342",
+    "A238423",
+    "A295370",
+    "A325849"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

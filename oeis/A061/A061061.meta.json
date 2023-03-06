@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of 132 patterns in a permutation of 1,2,...,n.",
+  "id": "A061061",
+  "mentions": [
+    "A216499"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

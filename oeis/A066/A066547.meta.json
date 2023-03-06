@@ -1,0 +1,23 @@
+{
+  "description": "Let N = 123456789101112131415161718..., the concatenation of the natural numbers. a(n) is the n-digit number formed from the digits of N starting from the {n(n-1)/2 +1}th digit. Omit any leading zeros.",
+  "id": "A066547",
+  "mentions": [
+    "A001369",
+    "A007376",
+    "A007923",
+    "A033307",
+    "A066548",
+    "A100751"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

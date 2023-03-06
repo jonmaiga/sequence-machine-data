@@ -1,0 +1,25 @@
+{
+  "description": "Number of ground-state 3-ball juggling sequences of period n.",
+  "id": "A084509",
+  "mentions": [
+    "A002023",
+    "A084501",
+    "A084502",
+    "A084508",
+    "A084519",
+    "A084529",
+    "A145463"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

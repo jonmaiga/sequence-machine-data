@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = prime(n) - prime(n-1) + 1.",
+  "id": "A076368",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A048597",
+    "A060646",
+    "A076366",
+    "A076367"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

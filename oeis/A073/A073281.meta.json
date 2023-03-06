@@ -1,0 +1,22 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by the composition of the Catalan bijections A072796 and A073269.",
+  "id": "A073281",
+  "mentions": [
+    "A007595",
+    "A069770",
+    "A072796",
+    "A073200",
+    "A073269"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

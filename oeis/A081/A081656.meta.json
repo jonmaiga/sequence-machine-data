@@ -1,0 +1,21 @@
+{
+  "description": "2*6^n-2^n.",
+  "id": "A081656",
+  "mentions": [
+    "A081655",
+    "A081657",
+    "A094424"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

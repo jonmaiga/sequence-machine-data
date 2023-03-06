@@ -1,0 +1,19 @@
+{
+  "description": "Shuffles at which new cards appear on top of deck in Guy's shuffling problem A035485.",
+  "id": "A035500",
+  "mentions": [
+    "A035485",
+    "A035493",
+    "A035501"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

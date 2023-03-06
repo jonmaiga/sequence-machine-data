@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(p,k) read by rows, where p runs through the primes and 1 <= k <= p-1. T(p,k) = 1 if the reverse of the base-k expansion of p is a prime, otherwise 0.",
+  "id": "A074481",
+  "mentions": [
+    "A089829"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

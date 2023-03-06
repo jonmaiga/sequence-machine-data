@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of coefficients in expansion of sinh^2(n*x) in powers of sinh(x).",
+  "id": "A082649",
+  "mentions": [
+    "A001108",
+    "A123583",
+    "A123588"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

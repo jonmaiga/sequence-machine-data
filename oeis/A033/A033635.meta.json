@@ -1,0 +1,16 @@
+{
+  "description": "Square-root-perfect numbers: srsigma(n)=m*n^(1/2) for some integer m.",
+  "id": "A033635",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

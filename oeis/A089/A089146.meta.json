@@ -1,0 +1,21 @@
+{
+  "description": "Greatest common divisor of n^2 - 4 and n^2 + 4.",
+  "id": "A089146",
+  "mentions": [
+    "A028347",
+    "A087475"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (5^n-1)/4 mod n.",
+  "id": "A094920",
+  "mentions": [
+    "A003463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

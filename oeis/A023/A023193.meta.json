@@ -1,0 +1,25 @@
+{
+  "description": "a(n) gives the largest number k for which there is at least one admissible k-tuple taken from [0, 1, ..., n-1] if the tuple starts with 0. Admissibility is defined in a comment.",
+  "id": "A023193",
+  "mentions": [
+    "A000720",
+    "A008407",
+    "A020497",
+    "A047947",
+    "A062571",
+    "A066081",
+    "A292224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

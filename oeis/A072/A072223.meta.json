@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of unimodal analog of golden section with respect to A072176: a=lim A072176(n)/A072176(n+1).",
+  "id": "A072223",
+  "mentions": [
+    "A072176",
+    "A072224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

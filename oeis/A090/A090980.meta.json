@@ -1,0 +1,19 @@
+{
+  "description": "From the set of numbers > 1, go on deleting n smallest numbers relatively prime to n that were not deleted earlier; a(n) = the largest number deleted.",
+  "id": "A090980",
+  "mentions": [
+    "A081964",
+    "A090979"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

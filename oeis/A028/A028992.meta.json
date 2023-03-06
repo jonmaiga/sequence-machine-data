@@ -1,0 +1,22 @@
+{
+  "description": "Even 9-gonal (or enneagonal) numbers.",
+  "id": "A028992",
+  "mentions": [
+    "A001106",
+    "A014642",
+    "A028991",
+    "A028994"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

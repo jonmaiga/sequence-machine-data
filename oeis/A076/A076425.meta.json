@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(gpf(k))). lpd(k) is the largest proper divisor and gpf(k) is the largest prime factor of k.",
+  "id": "A076425",
+  "mentions": [
+    "A076423",
+    "A076426"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of inverse unimodal analog of binomial coefficients: binomial(n,m) = Sum_{k=0..n-m} a(2*k+m-1, 2*k).",
+  "id": "A072286",
+  "mentions": [
+    "A071922",
+    "A072285"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

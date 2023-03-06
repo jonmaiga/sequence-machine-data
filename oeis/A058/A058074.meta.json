@@ -1,0 +1,18 @@
+{
+  "description": "Integers m such that gcd(d(m),d(m+1)) = 1, where d(m) is number of positive divisors of m.",
+  "id": "A058074",
+  "mentions": [
+    "A005574",
+    "A058075"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

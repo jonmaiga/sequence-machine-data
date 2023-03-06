@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n - 1)*(n^2 + n - 1).",
+  "id": "A033445",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:07",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

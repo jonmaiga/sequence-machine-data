@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest m > 1 such that m divides n^m-1.",
+  "id": "A092028",
+  "mentions": [
+    "A020639",
+    "A092067"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 3,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

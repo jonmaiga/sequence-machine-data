@@ -1,0 +1,21 @@
+{
+  "description": "Number of squares (of another matrix) in M_2(n) - the ring of 2 X 2 matrices over Z_n.",
+  "id": "A068197",
+  "mentions": [
+    "A000224",
+    "A068516",
+    "A182039",
+    "A209411"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

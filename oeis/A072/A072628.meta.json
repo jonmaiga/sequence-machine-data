@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors d of n such that d-1 is not prime.",
+  "id": "A072628",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A072627"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

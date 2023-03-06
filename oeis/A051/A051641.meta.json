@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic binomial coefficients C(n,k) for k >= 2.",
+  "id": "A051641",
+  "mentions": [
+    "A002113",
+    "A006987",
+    "A104182"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

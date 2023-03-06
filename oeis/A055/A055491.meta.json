@@ -1,0 +1,29 @@
+{
+  "description": "Smallest square divisible by n divided by largest square which divides n.",
+  "id": "A055491",
+  "mentions": [
+    "A000188",
+    "A000290",
+    "A007913",
+    "A008833",
+    "A013661",
+    "A013664",
+    "A019554",
+    "A053143",
+    "A056551",
+    "A056552"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

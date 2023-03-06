@@ -1,0 +1,17 @@
+{
+  "description": "Generating function satisfies A(x) = exp(A(x)x + 3A(x^2)x^2/2 + A(x^3)x^3/3 + 3A(x^4)x^4/4 +...).",
+  "id": "A073079",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

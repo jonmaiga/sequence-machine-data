@@ -1,0 +1,22 @@
+{
+  "description": "First term of a run of 10 consecutive numbers such that for each m in the 10-tuple exactly m 1's are used in writing out all numbers 1 through m.",
+  "id": "A094799",
+  "mentions": [
+    "A014778",
+    "A094798"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

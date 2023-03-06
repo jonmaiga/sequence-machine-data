@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of numbers related to Eulerian numbers.",
+  "id": "A046803",
+  "mentions": [
+    "A002627",
+    "A008292",
+    "A046802"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:51:30",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

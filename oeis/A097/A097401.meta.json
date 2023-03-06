@@ -1,0 +1,23 @@
+{
+  "description": "Largest achievable determinant of a 3 X 3 matrix whose elements are 9 distinct nonnegative integers chosen from the range 0..n.",
+  "id": "A097401",
+  "mentions": [
+    "A097399",
+    "A097693",
+    "A097694",
+    "A097695",
+    "A097696"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:53:07",
+    "offset": 8,
+    "size": 36,
+    "source": "joeis"
+  }
+}

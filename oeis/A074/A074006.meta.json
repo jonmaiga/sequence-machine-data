@@ -1,0 +1,24 @@
+{
+  "description": "Number of elements of GF(5^n) with trace 0 and subtrace 0.",
+  "id": "A074006",
+  "mentions": [
+    "A074007",
+    "A074008",
+    "A074009",
+    "A074010",
+    "A074011",
+    "A074012",
+    "A074013"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

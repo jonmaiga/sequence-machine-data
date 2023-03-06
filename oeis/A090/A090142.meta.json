@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of e^2 - e.",
+  "id": "A090142",
+  "mentions": [
+    "A001113",
+    "A072334",
+    "A089139",
+    "A090143",
+    "A090611"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

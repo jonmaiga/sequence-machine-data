@@ -1,0 +1,15 @@
+{
+  "description": "Periodicity of entries in the first row of a Laver Table of size 2^n.",
+  "id": "A098820",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

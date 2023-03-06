@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes q such that phiter(q)=n where phiter(n)=A064415(n).",
+  "id": "A064674",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A058812",
+    "A064415",
+    "A064416"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

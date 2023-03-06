@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of nonzero numbers appearing in the Euler-Maclaurin summation formula. (See A060054 for the definition of these numbers.)",
+  "id": "A060055",
+  "mentions": [
+    "A060054"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

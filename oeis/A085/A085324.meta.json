@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least exponent so that reverse(n^a(n)) is a prime number. a(n)=0 if no such exponent exists, namely when e.g., n = 3k or n = 11k, k > 1.",
+  "id": "A085324",
+  "mentions": [
+    "A085298",
+    "A085299",
+    "A085300",
+    "A085325",
+    "A095179"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

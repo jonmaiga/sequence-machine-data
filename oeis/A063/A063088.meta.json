@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} phi(k) - Sum{k=1..n} d(k), where d() is the number of divisors function.",
+  "id": "A063088",
+  "mentions": [
+    "A002088",
+    "A006218"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

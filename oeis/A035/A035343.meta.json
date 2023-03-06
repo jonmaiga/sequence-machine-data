@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of coefficients in expansion of (1 + x + x^2 + x^3 + x^4)^n.",
+  "id": "A035343",
+  "mentions": [
+    "A007318",
+    "A008287",
+    "A016813",
+    "A027907",
+    "A063260",
+    "A063265",
+    "A171890",
+    "A213651",
+    "A213652"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:19:13",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

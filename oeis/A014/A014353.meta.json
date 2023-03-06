@@ -1,0 +1,20 @@
+{
+  "description": "Chance of getting nothing, a pair, 2 pair, 3 of a kind, other straight, other flush, full house, 4 of a kind, other straight flush, or a royal flush in poker is 1 in a(n) (rounded to nearest integer).",
+  "id": "A014353",
+  "mentions": [
+    "A002761",
+    "A002806"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

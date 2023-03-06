@@ -1,0 +1,35 @@
+{
+  "description": "Rectangular array T(k,n) of polygonal numbers, by antidiagonals.",
+  "id": "A086270",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A000567",
+    "A006522",
+    "A057145",
+    "A086271",
+    "A086272",
+    "A086273",
+    "A114112",
+    "A139601",
+    "A144112",
+    "A144257",
+    "A183225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:09",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

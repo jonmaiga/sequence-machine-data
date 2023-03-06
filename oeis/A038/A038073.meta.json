@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left under Weigh transform.",
+  "id": "A038073",
+  "mentions": [
+    "A038072",
+    "A038074"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

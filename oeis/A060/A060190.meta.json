@@ -1,0 +1,20 @@
+{
+  "description": "A column and diagonal of A060187 (k=4).",
+  "id": "A060190",
+  "mentions": [
+    "A060187",
+    "A060189"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:23:56",
+    "offset": 4,
+    "size": 18,
+    "source": "joeis"
+  }
+}

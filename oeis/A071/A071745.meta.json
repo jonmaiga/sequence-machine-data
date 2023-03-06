@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1+x^4*C)*C^4, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.",
+  "id": "A071745",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

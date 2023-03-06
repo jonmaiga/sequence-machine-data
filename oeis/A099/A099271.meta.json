@@ -1,0 +1,20 @@
+{
+  "description": "Unsigned member r=-13 of the family of Chebyshev sequences S_r(n) defined in A092184.",
+  "id": "A099271",
+  "mentions": [
+    "A078365",
+    "A092184"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:14:11",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

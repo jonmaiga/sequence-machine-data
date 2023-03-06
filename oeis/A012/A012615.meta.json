@@ -1,0 +1,16 @@
+{
+  "description": "cos(arcsinh(x)*tan(x))=1-12/4!*x^4-120/6!*x^6-5040/8!*x^8...",
+  "id": "A012615",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:46:28",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

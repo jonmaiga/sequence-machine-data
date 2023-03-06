@@ -1,0 +1,26 @@
+{
+  "description": "Squares which can be expressed as the product of a number and its reversal in at least two different ways.",
+  "id": "A083408",
+  "mentions": [
+    "A062917",
+    "A066531",
+    "A070760",
+    "A083406",
+    "A083407",
+    "A117281",
+    "A206642",
+    "A307019",
+    "A325150"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

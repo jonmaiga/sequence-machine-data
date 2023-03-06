@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that every (prime) factor of n!+1 is one more than a multiple of n.",
+  "id": "A064295",
+  "mentions": [
+    "A002981",
+    "A064164"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

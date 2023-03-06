@@ -1,0 +1,24 @@
+{
+  "description": "Decimal encoding of the prime factorization of n: concatenation of prime factors and exponents.",
+  "id": "A067599",
+  "mentions": [
+    "A027748",
+    "A037276",
+    "A068633",
+    "A080670",
+    "A112375",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

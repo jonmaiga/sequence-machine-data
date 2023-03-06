@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n, n/d=1 mod 4} d^3.",
+  "id": "A050462",
+  "mentions": [
+    "A050466"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:25",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

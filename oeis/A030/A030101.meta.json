@@ -1,0 +1,38 @@
+{
+  "description": "a(n) is the number produced when n is converted to binary digits, the binary digits are reversed and then converted back into a decimal number.",
+  "id": "A030101",
+  "mentions": [
+    "A000265",
+    "A004086",
+    "A005408",
+    "A006995",
+    "A030102",
+    "A030109",
+    "A030308",
+    "A036044",
+    "A053599",
+    "A053645",
+    "A055944",
+    "A056539",
+    "A057889",
+    "A062383",
+    "A178225",
+    "A264596",
+    "A273258"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

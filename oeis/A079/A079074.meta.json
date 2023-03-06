@@ -1,0 +1,22 @@
+{
+  "description": "Sum of numbers < n having in binary representation the same number of 0's and 1's as n.",
+  "id": "A079074",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A079071",
+    "A079072",
+    "A079073"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

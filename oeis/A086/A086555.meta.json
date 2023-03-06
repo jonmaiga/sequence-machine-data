@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies F(x) = 1/2 * (F(-log(1-x)) + x).",
+  "id": "A086555",
+  "mentions": [
+    "A005121",
+    "A246040"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

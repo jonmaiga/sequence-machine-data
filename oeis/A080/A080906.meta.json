@@ -1,0 +1,19 @@
+{
+  "description": "Primes with an even number of digits such that the first half of the digits and the second half of the digits are both primes.",
+  "id": "A080906",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

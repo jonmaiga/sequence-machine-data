@@ -1,0 +1,22 @@
+{
+  "description": "Smallest composite with n prime factors that are distinct in length.",
+  "id": "A046445",
+  "mentions": [
+    "A003617",
+    "A033873",
+    "A046442",
+    "A046443",
+    "A046444"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:22:07",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

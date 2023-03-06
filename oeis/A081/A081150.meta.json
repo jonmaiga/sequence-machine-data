@@ -1,0 +1,28 @@
+{
+  "description": "Number of even cycles in range [A014137(n-1)..A014138(n-1)] of permutation A057505/A057506.",
+  "id": "A081150",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057505",
+    "A057506",
+    "A057507",
+    "A081148",
+    "A081151",
+    "A081152",
+    "A081157",
+    "A081160",
+    "A081162",
+    "A089408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

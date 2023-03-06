@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] with exactly k increasing runs of odd length.",
+  "id": "A097591",
+  "mentions": [
+    "A000142",
+    "A000337",
+    "A000680",
+    "A096654",
+    "A097592",
+    "A302910",
+    "A308962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

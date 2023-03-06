@@ -1,0 +1,19 @@
+{
+  "description": "1+n+n^19 is a prime.",
+  "id": "A075713",
+  "mentions": [
+    "A002384",
+    "A075714"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

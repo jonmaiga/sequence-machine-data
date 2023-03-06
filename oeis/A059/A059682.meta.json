@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) giving number of 2 X k polyominoes with n cells (n >= 2, 1<=k<=n-1).",
+  "id": "A059682",
+  "mentions": [
+    "A059683",
+    "A059684",
+    "A109613"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 2,
+    "size": 91,
+    "source": "joeis"
+  }
+}

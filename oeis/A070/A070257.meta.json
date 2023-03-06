@@ -1,0 +1,21 @@
+{
+  "description": "Fecundity of n sets a new record.",
+  "id": "A070257",
+  "mentions": [
+    "A070061",
+    "A070562"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

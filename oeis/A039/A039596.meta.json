@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are simultaneously triangular and square pyramidal.",
+  "id": "A039596",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A001110",
+    "A027568",
+    "A053611",
+    "A053612"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

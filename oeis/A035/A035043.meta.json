@@ -1,0 +1,26 @@
+{
+  "description": "Replace any decimal digit '1' with '2' and vice versa.",
+  "id": "A035043",
+  "mentions": [
+    "A171013",
+    "A171015",
+    "A171016",
+    "A171018",
+    "A171057",
+    "A175770",
+    "A222210",
+    "A222254"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:41",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

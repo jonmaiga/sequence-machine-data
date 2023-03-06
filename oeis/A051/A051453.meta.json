@@ -1,0 +1,21 @@
+{
+  "description": "Prime powers such that 1 + lcm(1,2,...,p^w) is prime.",
+  "id": "A051453",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A049536",
+    "A049537"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

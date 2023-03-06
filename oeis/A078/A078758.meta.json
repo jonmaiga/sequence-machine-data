@@ -1,0 +1,19 @@
+{
+  "description": "Term in A064389 (variation (4) of Recamán's sequence) where n appears, or 0 if n never appears.",
+  "id": "A078758",
+  "mentions": [
+    "A005132",
+    "A057167",
+    "A064389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

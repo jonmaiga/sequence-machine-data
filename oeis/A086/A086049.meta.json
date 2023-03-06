@@ -1,0 +1,26 @@
+{
+  "description": "Position of first occurrence of n-th prime in concatenated primes (A033308, Copeland-Erdos constant).",
+  "id": "A086049",
+  "mentions": [
+    "A000030",
+    "A000040",
+    "A033307",
+    "A033308",
+    "A055642",
+    "A086044",
+    "A086048",
+    "A086050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

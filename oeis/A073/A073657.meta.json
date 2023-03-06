@@ -1,0 +1,19 @@
+{
+  "description": "A073656 is the rearrangement of Fibonacci numbers such that sum of two consecutive terms is a prime. This is the sequence of those Fibonacci numbers which retain their relative position in the above rearrangement.",
+  "id": "A073657",
+  "mentions": [
+    "A073655",
+    "A073656"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

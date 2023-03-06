@@ -1,0 +1,21 @@
+{
+  "description": "Odd terms of A084457.",
+  "id": "A084467",
+  "mentions": [
+    "A084457",
+    "A084464",
+    "A084468",
+    "A084469"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers with an odd number of prime factors (counted with multiplicity).",
+  "id": "A067019",
+  "mentions": [
+    "A005408",
+    "A016825",
+    "A026424",
+    "A046337",
+    "A353558",
+    "A358669",
+    "A358765"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

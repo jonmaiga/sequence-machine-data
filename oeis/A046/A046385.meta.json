@@ -1,0 +1,24 @@
+{
+  "description": "Smallest palindrome with exactly n palindromic prime factors (counted with multiplicity), and no other prime factors.",
+  "id": "A046385",
+  "mentions": [
+    "A002113",
+    "A019507",
+    "A046376",
+    "A046384",
+    "A309565"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

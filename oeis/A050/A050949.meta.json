@@ -1,0 +1,19 @@
+{
+  "description": "e expressed in base Pi: e = Sum a(i)*Pi^(-i), i=0,1,2,...",
+  "id": "A050949",
+  "mentions": [
+    "A050948"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of conjugacy classes (the same as the number of irreducible representations) in the dihedral group with 2n elements.",
+  "id": "A060762",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:01",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

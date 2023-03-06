@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Pellian with 2nd term equal to 6.",
+  "id": "A048693",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A048654",
+    "A048655",
+    "A175181"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:04:32",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = tau(n)-1 if n is odd or tau(n)-2 if n is even.",
+  "id": "A023645",
+  "mentions": [
+    "A000005",
+    "A014405",
+    "A023637",
+    "A023647",
+    "A049992",
+    "A069930",
+    "A072528",
+    "A095374",
+    "A296955",
+    "A321014"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

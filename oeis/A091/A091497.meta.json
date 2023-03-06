@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonzero terms in the n-th row of triangle A091492.",
+  "id": "A091497",
+  "mentions": [
+    "A087817",
+    "A087836",
+    "A091492",
+    "A091493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

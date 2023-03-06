@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array T(n,k) read by rows, giving number of rooted trees on the vertex set {1..n+1} where k children of the root have a label smaller than the label of the root.",
+  "id": "A071207",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A001221",
+    "A088956",
+    "A089466",
+    "A146289",
+    "A146290",
+    "A166900",
+    "A181555",
+    "A181567"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms in the simple continued fraction for the 10^n-th harmonic number, H_n = sum_{k=1 to n} (1/k).",
+  "id": "A091590",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A055573"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

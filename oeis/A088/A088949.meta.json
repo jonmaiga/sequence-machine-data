@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that (A006530(k) + A020639(k))/2 is an integer that divides k; special terms of A088948.",
+  "id": "A088949",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A046687",
+    "A088595",
+    "A088948"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

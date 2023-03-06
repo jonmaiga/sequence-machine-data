@@ -1,0 +1,20 @@
+{
+  "description": "Number of \"polyspheres\", or \"connected animals\" formed from n rhombic dodecahedra (or edge-connected cubes) in the f.c.c. lattice, allowing translation and rotations of the lattice, reflections and 180 deg. rotations about a 3-fold symmetry axis of the lattice.",
+  "id": "A038174",
+  "mentions": [
+    "A000162",
+    "A036168",
+    "A036173",
+    "A038119"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

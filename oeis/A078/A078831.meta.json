@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with unique occurrence of all binary substrings representing primes in binary representation of n.",
+  "id": "A078831",
+  "mentions": [
+    "A007088",
+    "A078826",
+    "A078827",
+    "A078830"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

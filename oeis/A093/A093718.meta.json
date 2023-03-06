@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n mod 3)^(n mod 2).",
+  "id": "A093718",
+  "mentions": [
+    "A000035",
+    "A010872",
+    "A093719"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:31",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

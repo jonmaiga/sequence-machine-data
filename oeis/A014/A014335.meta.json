@@ -1,0 +1,26 @@
+{
+  "description": "Exponential convolution of Fibonacci numbers with themselves (divided by 2).",
+  "id": "A014335",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A011782",
+    "A014334",
+    "A063727",
+    "A081057",
+    "A203579",
+    "A346415"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

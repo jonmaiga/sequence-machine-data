@@ -1,0 +1,27 @@
+{
+  "description": "Length of longest palindromic subword of (n base 2).",
+  "id": "A050430",
+  "mentions": [
+    "A007088",
+    "A050431",
+    "A050432",
+    "A050433",
+    "A083318",
+    "A193159",
+    "A215244",
+    "A215256",
+    "A215467"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

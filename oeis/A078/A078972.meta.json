@@ -1,0 +1,27 @@
+{
+  "description": "Brilliant numbers: semiprimes (products of two primes, A001358) whose prime factors have the same number of decimal digits.",
+  "id": "A078972",
+  "mentions": [
+    "A001358",
+    "A055642",
+    "A084126",
+    "A084127",
+    "A085647",
+    "A085721",
+    "A239585",
+    "A239586"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

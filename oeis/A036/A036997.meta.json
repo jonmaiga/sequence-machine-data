@@ -1,0 +1,20 @@
+{
+  "description": "Number of composite numbers <= n and relatively prime to n.",
+  "id": "A036997",
+  "mentions": [
+    "A048597",
+    "A048864",
+    "A048865"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

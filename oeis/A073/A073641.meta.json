@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 2; a(n) = smallest prime not included earlier such that concatenation of two successive terms is a prime.",
+  "id": "A073641",
+  "mentions": [
+    "A000040",
+    "A007645",
+    "A075609"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

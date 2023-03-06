@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) is the smallest previously unused natural number such that a(n) divides the sum of next a(n) terms.",
+  "id": "A074145",
+  "mentions": [
+    "A074137",
+    "A074138"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

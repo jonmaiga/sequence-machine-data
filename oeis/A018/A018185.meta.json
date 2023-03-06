@@ -1,0 +1,15 @@
+{
+  "description": "Powers of fifth root of 24 rounded up.",
+  "id": "A018185",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:02:33",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

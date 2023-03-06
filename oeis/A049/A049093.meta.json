@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n - 1 is squarefree.",
+  "id": "A049093",
+  "mentions": [
+    "A000225",
+    "A001220",
+    "A002326",
+    "A049094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

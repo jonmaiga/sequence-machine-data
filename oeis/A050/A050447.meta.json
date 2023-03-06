@@ -1,0 +1,32 @@
+{
+  "description": "Table T(n,m) giving total degree of n-th-order elementary symmetric polynomials in m variables, -1 <= n, 1 <= m, transposed and read by upward antidiagonals.",
+  "id": "A050447",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A000217",
+    "A000330",
+    "A001924",
+    "A002721",
+    "A006322",
+    "A006356",
+    "A006357",
+    "A006358",
+    "A050446"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:48:29",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

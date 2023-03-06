@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent projective binary linear [n,k] codes of any dimension k <= n. Also the number of simple binary matroids on n points.",
+  "id": "A076834",
+  "mentions": [
+    "A076833",
+    "A091008"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

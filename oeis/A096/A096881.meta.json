@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1+4*x)/(1-17*x^2).",
+  "id": "A096881",
+  "mentions": [
+    "A004663",
+    "A016116",
+    "A026383"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:19:31",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

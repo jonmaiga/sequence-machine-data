@@ -1,0 +1,18 @@
+{
+  "description": "Define the Shallit sequence S(a_0,a_1) by a_{n+2} is the least integer > a_{n+1}^2/a_n for n >= 0. This is S(2,6).",
+  "id": "A018906",
+  "mentions": [
+    "A014010"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

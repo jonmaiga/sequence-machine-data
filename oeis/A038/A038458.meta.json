@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the solution to 127^x - 113^x = 1. This is the smallest x such that q^x - p^x = 1 for two successive primes p, q.",
+  "id": "A038458",
+  "mentions": [
+    "A030178"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

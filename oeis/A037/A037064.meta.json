@@ -1,0 +1,20 @@
+{
+  "description": "a(n)-th prime is the smallest prime containing exactly n 6's.",
+  "id": "A037064",
+  "mentions": [
+    "A034388",
+    "A037065"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of paths of length n-1 a king can take from one side of an n X n chessboard to the opposite side.",
+  "id": "A081113",
+  "mentions": [
+    "A001006",
+    "A003991",
+    "A005773",
+    "A026300",
+    "A064808",
+    "A296449"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

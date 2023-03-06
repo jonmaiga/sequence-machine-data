@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of -cos(e).",
+  "id": "A085660",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:55",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

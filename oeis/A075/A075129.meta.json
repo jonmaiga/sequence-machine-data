@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of reflected tetranacci numbers A074058: a(n)=Sum((-1)^k Binomial(n,k)*A074058(k),(k=0,..,n)).",
+  "id": "A075129",
+  "mentions": [
+    "A074058",
+    "A075128"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:41:27",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

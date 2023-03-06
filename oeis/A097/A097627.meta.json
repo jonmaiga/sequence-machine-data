@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted directed trees on n nodes with a red root.",
+  "id": "A097627",
+  "mentions": [
+    "A000169",
+    "A052746",
+    "A097628",
+    "A097629"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

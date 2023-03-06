@@ -1,0 +1,20 @@
+{
+  "description": "Number of positions that are exactly n moves from the starting position in the Luminations Level 4 puzzle.",
+  "id": "A080556",
+  "mentions": [
+    "A080546",
+    "A080558"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

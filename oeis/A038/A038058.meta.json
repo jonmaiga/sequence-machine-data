@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled trees with 2-colored nodes.",
+  "id": "A038058",
+  "mentions": [
+    "A000272",
+    "A038055",
+    "A038057",
+    "A038062"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

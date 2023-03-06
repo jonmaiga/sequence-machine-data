@@ -1,0 +1,22 @@
+{
+  "description": "Integers which are exactly the concatenation of the first m odd numbers (A019519) divided by their sum (A000290 = m^2).",
+  "id": "A072723",
+  "mentions": [
+    "A000290",
+    "A019519",
+    "A067122",
+    "A072724",
+    "A072725"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

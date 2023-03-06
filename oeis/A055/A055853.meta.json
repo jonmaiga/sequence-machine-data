@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of A055852 with A011782.",
+  "id": "A055853",
+  "mentions": [
+    "A011782",
+    "A049600",
+    "A055587",
+    "A055852"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of primes between n*210 and (n+1)*210.",
+  "id": "A094892",
+  "mentions": [
+    "A008364",
+    "A078859",
+    "A095389",
+    "A095391"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

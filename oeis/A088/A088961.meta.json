@@ -1,0 +1,28 @@
+{
+  "description": "Zigzag matrices listed entry by entry.",
+  "id": "A088961",
+  "mentions": [
+    "A000330",
+    "A001700",
+    "A003876",
+    "A033876",
+    "A051417",
+    "A056520",
+    "A085527",
+    "A230585"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

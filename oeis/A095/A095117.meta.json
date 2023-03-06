@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = pi(n) + n, where pi(n) = A000720(n) is the number of primes <= n.",
+  "id": "A095117",
+  "mentions": [
+    "A000027",
+    "A000720",
+    "A064427",
+    "A095116",
+    "A165634",
+    "A337788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

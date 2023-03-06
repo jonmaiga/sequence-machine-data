@@ -1,0 +1,22 @@
+{
+  "description": "Automorphic primes: primes p such that p is k-th prime and p ends in k.",
+  "id": "A046883",
+  "mentions": [
+    "A046884",
+    "A067248",
+    "A068575",
+    "A075902"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of natural numbers: maps the fractions A038567/A038566 to the right side (n/m > 1) of Stern-Brocot tree.",
+  "id": "A054427",
+  "mentions": [
+    "A007306",
+    "A038566",
+    "A038567",
+    "A047679",
+    "A054424",
+    "A054428"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

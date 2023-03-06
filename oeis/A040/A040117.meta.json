@@ -1,0 +1,29 @@
+{
+  "description": "Primes congruent to 5 (mod 12). Also primes p such that x^4 = 9 has no solution mod p.",
+  "id": "A040117",
+  "mentions": [
+    "A000040",
+    "A040116",
+    "A068227",
+    "A068228",
+    "A068229",
+    "A068231",
+    "A068232",
+    "A068233",
+    "A068234",
+    "A068235",
+    "A243183"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:18:11",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

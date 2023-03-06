@@ -1,0 +1,30 @@
+{
+  "description": "Number of cyclic subgroups of Chevalley group A_n(2) (the group of nonsingular n X n matrices over GF(2) ).",
+  "id": "A062250",
+  "mentions": [
+    "A000010",
+    "A053651",
+    "A053658",
+    "A053660",
+    "A053718",
+    "A053722",
+    "A053725",
+    "A053771",
+    "A053777",
+    "A058502",
+    "A062240",
+    "A062552",
+    "A062766"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of elements in GL(2,Z_n) x with x^2 == I mod n where I is the identity matrix.",
+  "id": "A066907",
+  "mentions": [
+    "A060594",
+    "A066947"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

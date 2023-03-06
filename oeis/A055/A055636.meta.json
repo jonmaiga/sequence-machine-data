@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of A144494.",
+  "id": "A055636",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A022559",
+    "A046660",
+    "A144494"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:27:09",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

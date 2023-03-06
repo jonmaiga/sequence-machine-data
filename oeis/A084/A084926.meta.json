@@ -1,0 +1,18 @@
+{
+  "description": "Inverse hyperbolic cotangent reducible numbers. The hyperbolic analog of the non-Stormer numbers (A002312).",
+  "id": "A084926",
+  "mentions": [
+    "A002312",
+    "A084925"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

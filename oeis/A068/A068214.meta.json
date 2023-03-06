@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of Borwein integral of order 2n+1.",
+  "id": "A068214",
+  "mentions": [
+    "A068215",
+    "A144616"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

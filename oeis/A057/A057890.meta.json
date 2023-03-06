@@ -1,0 +1,31 @@
+{
+  "description": "In base 2, either a palindrome or becomes a palindrome if trailing 0's are omitted.",
+  "id": "A057890",
+  "mentions": [
+    "A000265",
+    "A006519",
+    "A006995",
+    "A030101",
+    "A057889",
+    "A057891",
+    "A061917",
+    "A178225",
+    "A272670",
+    "A273245",
+    "A273329"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

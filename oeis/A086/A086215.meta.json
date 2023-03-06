@@ -1,0 +1,20 @@
+{
+  "description": "Number of (-1,0,1) n X n matrices M that are positive definite.",
+  "id": "A086215",
+  "mentions": [
+    "A085656",
+    "A114601"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

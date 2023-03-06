@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers not of the form y^2 - x^3, x and y >= 1.",
+  "id": "A080762",
+  "mentions": [
+    "A001014",
+    "A054504",
+    "A080761"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

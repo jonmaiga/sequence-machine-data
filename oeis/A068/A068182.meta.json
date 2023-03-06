@@ -1,0 +1,21 @@
+{
+  "description": "Number of combinatorially non-equivalent \"triangulations\" of a compact genus n surface which have only 1 vertex (all vertices of the triangles are identified). Also the number of combinatorially distinct identifications of pairs of edges of a polygone P having 12g-6 sides leading to a compact oriented genus g surface containing the boundary of P as a 3-regular graph.",
+  "id": "A068182",
+  "mentions": [
+    "A348794",
+    "A348795",
+    "A348796",
+    "A348797"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

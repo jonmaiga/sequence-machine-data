@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci sequence beginning 3, 12.",
+  "id": "A022380",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000285"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

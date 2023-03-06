@@ -1,0 +1,17 @@
+{
+  "description": "A(p)/2/p^2 where p runs through the odd primes different from 7 and A(k) is the k-th central heptanomial coefficient (A025012).",
+  "id": "A087194",
+  "mentions": [
+    "A025012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

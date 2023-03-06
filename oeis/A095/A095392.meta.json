@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that more than half of the reduced-residue system modulo 210 consists of primes in the following sense: in {210n + R} more than 24 = phi(210)/2 primes occur, i.e., 25-33, 35, 46.",
+  "id": "A095392",
+  "mentions": [
+    "A095389",
+    "A095390",
+    "A095391"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

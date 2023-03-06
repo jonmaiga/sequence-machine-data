@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyiamonds with n cells, with holes.",
+  "id": "A070764",
+  "mentions": [
+    "A000577",
+    "A001419",
+    "A038144",
+    "A070765"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

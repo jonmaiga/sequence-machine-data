@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to lace a shoe that has n pairs of eyelets such that each eyelet has at least one direct connection to the opposite side.",
+  "id": "A078698",
+  "mentions": [
+    "A051286",
+    "A078602",
+    "A078700",
+    "A078702"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

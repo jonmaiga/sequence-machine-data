@@ -1,0 +1,20 @@
+{
+  "description": "Number of bases of n-dimensional vector space over GF(4).",
+  "id": "A053996",
+  "mentions": [
+    "A053291",
+    "A053601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:24:31",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered triples (a, b, c) with gcd(a, b, c) = 1 and 1 <= {a, b, c} <= n.",
+  "id": "A071778",
+  "mentions": [
+    "A018805",
+    "A082540",
+    "A082544",
+    "A343978",
+    "A344522"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

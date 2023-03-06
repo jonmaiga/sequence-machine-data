@@ -1,0 +1,20 @@
+{
+  "description": "From Renyi's \"beta expansion of 1 in base 3/2\": sequence gives lengths of runs of 0's in A058840.",
+  "id": "A058841",
+  "mentions": [
+    "A058840",
+    "A058842"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

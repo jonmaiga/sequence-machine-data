@@ -1,0 +1,22 @@
+{
+  "description": "Consecutive min and max-terms of solution-clusters of A057809, i,e, least and largest solutions to n=x/A000720[x].",
+  "id": "A087241",
+  "mentions": [
+    "A000720",
+    "A038623",
+    "A038627",
+    "A057809",
+    "A087235",
+    "A087240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

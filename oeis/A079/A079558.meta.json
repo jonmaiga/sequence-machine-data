@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; a(n)=LookAndSay(a(n-1)^2) if n>1.",
+  "id": "A079558",
+  "mentions": [
+    "A005150"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

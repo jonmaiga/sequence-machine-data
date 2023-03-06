@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the index in sequence A084138 when the value of that sequence is one (1), i.e., there is exactly one case where there are exactly a(n) primes between m and 2m, exclusively, for m > 0.",
+  "id": "A084141",
+  "mentions": [
+    "A060715",
+    "A060756",
+    "A084138",
+    "A084139",
+    "A084140",
+    "A084142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

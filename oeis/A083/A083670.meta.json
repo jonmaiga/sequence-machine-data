@@ -1,0 +1,21 @@
+{
+  "description": "Number of different antisymmetric relations on n unlabeled points.",
+  "id": "A083670",
+  "mentions": [
+    "A001174",
+    "A083667",
+    "A101460"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

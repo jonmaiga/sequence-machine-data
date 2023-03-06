@@ -1,0 +1,20 @@
+{
+  "description": "Starting at n, \"say what you see\"; sequence gives number of primes obtained before first composite number appears.",
+  "id": "A037047",
+  "mentions": [
+    "A005150",
+    "A036978",
+    "A045918"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

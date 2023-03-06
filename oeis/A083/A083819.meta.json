@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, then the smallest k > 1 such that nk + 1 is the digit reversal of k + 1, or 0 if no such number exists.",
+  "id": "A083819",
+  "mentions": [
+    "A083811",
+    "A083812",
+    "A083813",
+    "A083818"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

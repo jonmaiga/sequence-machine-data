@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and all of its even complements from 2 to 10 are primes. In other words, n and j^k - n (where k is the smallest power of j such that j^k > n) are prime for all of the following values of j: 2, 4, 6, 8, 10.",
+  "id": "A086082",
+  "mentions": [
+    "A068811",
+    "A086081"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "From Mertens's conjecture (1): floor(sqrt(n)) - |M(n)|, where M is Mertens's function A002321.",
+  "id": "A059571",
+  "mentions": [
+    "A002321",
+    "A059572",
+    "A059581"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

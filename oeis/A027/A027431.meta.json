@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Pi^3/zeta(3).",
+  "id": "A027431",
+  "mentions": [
+    "A276120"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

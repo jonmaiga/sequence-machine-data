@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the product of the sum and the product of the digits of n (0 is not to be considered a factor in the product).",
+  "id": "A062331",
+  "mentions": [
+    "A007953",
+    "A051801"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Array read by antidiagonals: T(k,n) = solution to postage stamp problem with n stamps and k denominations (n >= 1, k >= 1).",
+  "id": "A084193",
+  "mentions": [
+    "A001208",
+    "A001209",
+    "A001210",
+    "A001211",
+    "A001212",
+    "A001213",
+    "A001214",
+    "A001215",
+    "A001216",
+    "A005342",
+    "A005343",
+    "A005344",
+    "A014616",
+    "A053346",
+    "A053348",
+    "A075060",
+    "A084192"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

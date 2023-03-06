@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n) = 4*(n-phi(n)).",
+  "id": "A068420",
+  "mentions": [
+    "A000668",
+    "A110075"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = lcm(d(n^2),d(n)), where d(n) = A000005, the number of divisors of n.",
+  "id": "A072695",
+  "mentions": [
+    "A000005",
+    "A072696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

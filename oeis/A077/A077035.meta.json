@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=7; a(n),a(n+1) are smallest > a(n-1) such that a(n-1)^2+a(n)^2=a(n+1)^2.",
+  "id": "A077035",
+  "mentions": [
+    "A076604",
+    "A077034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

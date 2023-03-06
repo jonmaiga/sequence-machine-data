@@ -1,0 +1,28 @@
+{
+  "description": "Right-hand neighbors of Fibonacci numbers in Stern's diatomic series.",
+  "id": "A094967",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A002487",
+    "A003603",
+    "A049456",
+    "A065941",
+    "A094966",
+    "A109223",
+    "A133080",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

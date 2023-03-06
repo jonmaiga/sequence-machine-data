@@ -1,0 +1,19 @@
+{
+  "description": "Number of vertices of minimal graph with an automorphism group of order n.",
+  "id": "A080803",
+  "mentions": [
+    "A058890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

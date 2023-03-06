@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-complementary 3-plexes.",
+  "id": "A051251",
+  "mentions": [
+    "A000171",
+    "A047660"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

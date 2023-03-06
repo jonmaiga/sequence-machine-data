@@ -1,0 +1,21 @@
+{
+  "description": "For each Fibonacci number F(m) = A000045(m), m >= 1, look for the smallest Fibonacci number F(k) > F(m) such that F(m) + F(k) is a square. If it exists, append F(k) to the sequence.",
+  "id": "A088060",
+  "mentions": [
+    "A000045",
+    "A094570",
+    "A182576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

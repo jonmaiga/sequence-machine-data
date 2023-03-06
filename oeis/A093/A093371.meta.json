@@ -1,0 +1,25 @@
+{
+  "description": "Start with any initial string of n numbers s(1), ..., s(n), with s(1) = 2, other s(i)'s = 2 or 3 (so there are 2^(n-1) starting strings). The rule for extending the string is this as follows: To get s(n+1), write the string s(1)s(2)...s(n) as xy^k for words x and y (where y has positive length) and k is maximized, i.e., k = the maximal number of repeating blocks at the end of the sequence. Then a(n) = number of starting strings for which k = 1.",
+  "id": "A093371",
+  "mentions": [
+    "A007148",
+    "A045690",
+    "A090822",
+    "A093369",
+    "A093370",
+    "A122536",
+    "A216955",
+    "A216956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

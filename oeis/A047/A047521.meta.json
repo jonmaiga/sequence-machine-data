@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are congruent to {0, 7} mod 8.",
+  "id": "A047521",
+  "mentions": [
+    "A004771",
+    "A008590",
+    "A014550",
+    "A030308",
+    "A274406"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; a(n) = a(n-1) - n^2 if positive and new, otherwise a(n) = a(n-1) + n^2.",
+  "id": "A053461",
+  "mentions": [
+    "A005132",
+    "A064365",
+    "A076042"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

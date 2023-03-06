@@ -1,0 +1,28 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = k*floor(n/10) + n mod 10, 0<=k<=n.",
+  "id": "A083291",
+  "mentions": [
+    "A010879",
+    "A028897",
+    "A028898",
+    "A028899",
+    "A028900",
+    "A028901",
+    "A028902",
+    "A028903",
+    "A028904",
+    "A076314",
+    "A083292"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

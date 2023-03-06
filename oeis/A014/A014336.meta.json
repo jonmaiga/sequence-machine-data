@@ -1,0 +1,20 @@
+{
+  "description": "Three-fold exponential convolution of Fibonacci numbers with themselves.",
+  "id": "A014336",
+  "mentions": [
+    "A000045",
+    "A014337"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

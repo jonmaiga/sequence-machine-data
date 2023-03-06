@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent n-state 1-input n-output automata.",
+  "id": "A054748",
+  "mentions": [
+    "A054732",
+    "A054749"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:59",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(20).",
+  "id": "A016643",
+  "mentions": [
+    "A016448"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

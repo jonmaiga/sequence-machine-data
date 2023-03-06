@@ -1,0 +1,22 @@
+{
+  "description": "Positions of '1's in the decimal expansion of Pi (where positions 1,2,3,... refer to the digits 3,1,4,...).",
+  "id": "A053745",
+  "mentions": [
+    "A014976",
+    "A037000",
+    "A053746",
+    "A053753"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

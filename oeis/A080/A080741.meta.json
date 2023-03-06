@@ -1,0 +1,21 @@
+{
+  "description": "Smallest element of n-th row of A080738.",
+  "id": "A080741",
+  "mentions": [
+    "A080737",
+    "A080738",
+    "A080740",
+    "A080742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

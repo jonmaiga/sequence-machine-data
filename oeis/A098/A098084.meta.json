@@ -1,0 +1,19 @@
+{
+  "description": "a(n) satisfies P(n) + P(n+1) + a(n) = least prime >= P(n) + P(n+1), where P(i)=i-th prime.",
+  "id": "A098084",
+  "mentions": [
+    "A098085",
+    "A177017"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

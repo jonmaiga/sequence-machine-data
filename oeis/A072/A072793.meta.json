@@ -1,0 +1,23 @@
+{
+  "description": "Simple tabular N X N -> N bijection: first interleave the bits as with A054238, then apply the bijection A048680.",
+  "id": "A072793",
+  "mentions": [
+    "A048680",
+    "A054238",
+    "A072656",
+    "A072661",
+    "A072662",
+    "A072794"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

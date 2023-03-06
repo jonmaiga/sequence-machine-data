@@ -1,0 +1,28 @@
+{
+  "description": "Solutions to phi(gpf(x)) - gpf(phi(x)) = 65534 = c are special multiples of 65537, x=65537*k, where the largest prime factors of factor k were observed in {2, 3, 5, 17, 257}.",
+  "id": "A070816",
+  "mentions": [
+    "A000010",
+    "A000215",
+    "A006530",
+    "A007283",
+    "A070002",
+    "A070003",
+    "A070004",
+    "A070777",
+    "A070812",
+    "A070813",
+    "A070814",
+    "A070815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-2x-x^2)/((1-2x)(1-4x+x^2)).",
+  "id": "A087945",
+  "mentions": [
+    "A001834",
+    "A052948",
+    "A087944"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:17:57",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

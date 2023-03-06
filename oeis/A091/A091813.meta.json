@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive squarefree integers k<=n satisfying gcd_*(k,n)=1, where gcd_*(k,n) is the greatest divisor of k that is also a unitary divisor of n.",
+  "id": "A091813",
+  "mentions": [
+    "A007947",
+    "A047994",
+    "A073311"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

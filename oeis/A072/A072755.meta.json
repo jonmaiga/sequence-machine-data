@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to Copeland-Erdos constant.",
+  "id": "A072755",
+  "mentions": [
+    "A030168",
+    "A033308",
+    "A072754"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

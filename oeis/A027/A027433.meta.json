@@ -1,0 +1,17 @@
+{
+  "description": "Sum over all 2^(2n) pairs (u,v) of binary sequences of length n of length of maximal common subsequence between them.",
+  "id": "A027433",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

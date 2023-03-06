@@ -1,0 +1,33 @@
+{
+  "description": "Number of binary n X n matrices with all rows (columns) distinct, up to permutation of columns (rows).",
+  "id": "A094223",
+  "mentions": [
+    "A059202",
+    "A059584",
+    "A059587",
+    "A060690",
+    "A088309",
+    "A088310",
+    "A088616",
+    "A089673",
+    "A089674",
+    "A093466",
+    "A094000",
+    "A116532",
+    "A116539",
+    "A181230",
+    "A259763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

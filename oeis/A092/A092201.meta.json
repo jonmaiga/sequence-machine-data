@@ -1,0 +1,18 @@
+{
+  "description": "Molien series for 16-dimensional group of structure O_{4}^{+}(2) and order 72, corresponding to genus 2 complete weight enumerators of Hermitian self-dual GF(2)-linear codes over GF(4).",
+  "id": "A092201",
+  "mentions": [
+    "A092203"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:53:33",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

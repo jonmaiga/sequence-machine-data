@@ -1,0 +1,20 @@
+{
+  "description": "Positive sums or differences of two cubes of primes.",
+  "id": "A086121",
+  "mentions": [
+    "A045636",
+    "A045699",
+    "A086119",
+    "A086120"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

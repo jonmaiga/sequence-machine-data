@@ -1,0 +1,24 @@
+{
+  "description": "Define C(n) by the recursion C(0) = 6*i where i^2 = -1, C(n+1) = 1/(1 + C(n)), then a(n) = 6*(-1)^n/Im(C(n)) where Im(z) denotes the imaginary part of z.",
+  "id": "A069963",
+  "mentions": [
+    "A000045",
+    "A069921",
+    "A069959",
+    "A069960",
+    "A069961",
+    "A069962"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

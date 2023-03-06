@@ -1,0 +1,27 @@
+{
+  "description": "Number of n-uniform tilings having n different arrangements of polygons about their vertices.",
+  "id": "A068600",
+  "mentions": [
+    "A008458",
+    "A008486",
+    "A008574",
+    "A008576",
+    "A008579",
+    "A008706",
+    "A068599",
+    "A072154",
+    "A219529",
+    "A250120",
+    "A250122"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:45",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

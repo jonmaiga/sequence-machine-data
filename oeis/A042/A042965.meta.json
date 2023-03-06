@@ -1,0 +1,34 @@
+{
+  "description": "Nonnegative integers not congruent to 2 mod 4.",
+  "id": "A042965",
+  "mentions": [
+    "A000027",
+    "A001045",
+    "A006165",
+    "A009531",
+    "A016825",
+    "A020883",
+    "A020884",
+    "A042968",
+    "A047209",
+    "A047222",
+    "A101825",
+    "A106510",
+    "A143978",
+    "A214546",
+    "A267958"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

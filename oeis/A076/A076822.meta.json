@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of the n-th triangular number involving only the numbers 1..n and with exactly n terms.",
+  "id": "A076822",
+  "mentions": [
+    "A002838",
+    "A039744",
+    "A047993",
+    "A067059",
+    "A188181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

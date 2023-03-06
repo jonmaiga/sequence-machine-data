@@ -1,0 +1,18 @@
+{
+  "description": "Let y = m/GK(k), where m and k vary over the positive integers and GK(k)=log(1+1/(k*(k+2))/log(2) is the Gauss-Kuzmin distribution of k. Sort the y values by size and number them consecutively by n. This sequence gives the values of n when m=1.",
+  "id": "A084576",
+  "mentions": [
+    "A084577",
+    "A084587"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

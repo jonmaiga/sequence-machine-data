@@ -1,0 +1,19 @@
+{
+  "description": "Number of highly composite numbers (HCNs) between the n-th highly composite number k and 2*k if 2*k is a highly composite number, or -1 if 2*k is not a highly composite number.",
+  "id": "A073772",
+  "mentions": [
+    "A002182",
+    "A072938",
+    "A073771"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

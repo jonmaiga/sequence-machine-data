@@ -1,0 +1,38 @@
+{
+  "description": "Chowla's function: sum of divisors of n except for 1 and n.",
+  "id": "A048050",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000593",
+    "A001065",
+    "A002954",
+    "A005276",
+    "A007956",
+    "A008472",
+    "A008578",
+    "A027750",
+    "A027751",
+    "A048671",
+    "A048995",
+    "A057533",
+    "A065475",
+    "A182936",
+    "A237593",
+    "A244049",
+    "A245092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

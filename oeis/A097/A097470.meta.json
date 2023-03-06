@@ -1,0 +1,16 @@
+{
+  "description": "Number of 0's in the decimal expansion of the lesser of twin primes.",
+  "id": "A097470",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:56:01",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

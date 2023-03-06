@@ -1,0 +1,23 @@
+{
+  "description": "Integers with exactly 2 prime divisors such that the cube of the number of divisors exceeds the number.",
+  "id": "A056760",
+  "mentions": [
+    "A000005",
+    "A033033",
+    "A033035",
+    "A034884"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

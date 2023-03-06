@@ -1,0 +1,23 @@
+{
+  "description": "Permutation A069768 applied six times or permutation A073291 \"cubed\" or permutation A073293 \"squared\".",
+  "id": "A073299",
+  "mentions": [
+    "A069768",
+    "A073290",
+    "A073291",
+    "A073293",
+    "A073297",
+    "A073298"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

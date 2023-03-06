@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = max { k | gcd(n, k) = k and gcd(k, 6) = 1 }.",
+  "id": "A065330",
+  "mentions": [
+    "A000265",
+    "A001222",
+    "A038502",
+    "A065331",
+    "A106799",
+    "A165725"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

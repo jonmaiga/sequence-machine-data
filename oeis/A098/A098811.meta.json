@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^n + L(n) is prime, where L(n)=A000032(n) is the n-th Lucas number.",
+  "id": "A098811",
+  "mentions": [
+    "A000032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

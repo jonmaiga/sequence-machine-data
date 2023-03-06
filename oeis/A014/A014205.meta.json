@@ -1,0 +1,19 @@
+{
+  "description": "(1/12)*(n+5)*(n+1)*n^2.",
+  "id": "A014205",
+  "mentions": [
+    "A084990"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:41",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

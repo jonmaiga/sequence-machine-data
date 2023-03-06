@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n and prime[n] together use only distinct digits.",
+  "id": "A085451",
+  "mentions": [
+    "A010784",
+    "A029743",
+    "A045532",
+    "A059930",
+    "A085452",
+    "A178788"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

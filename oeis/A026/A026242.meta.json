@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = j if n is L(j), else a(n) = k if n is U(k), where L = A000201, U = A001950 (lower and upper Wythoff sequences).",
+  "id": "A026242",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001950",
+    "A002251",
+    "A026272",
+    "A074049",
+    "A089910"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

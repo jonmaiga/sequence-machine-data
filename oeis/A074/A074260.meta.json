@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled cyclic subgroups of S_n having the maximum possible order.",
+  "id": "A074260",
+  "mentions": [
+    "A000010",
+    "A000793",
+    "A051625",
+    "A074064",
+    "A074859"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

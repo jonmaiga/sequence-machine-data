@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that there exists a k less than n with k*n and n^2 having an equal number of divisors.",
+  "id": "A093617",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A048691",
+    "A093616",
+    "A093618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

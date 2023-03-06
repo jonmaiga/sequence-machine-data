@@ -1,0 +1,26 @@
+{
+  "description": "Least number which is the sum of two distinct nonzero squares in exactly n ways.",
+  "id": "A093195",
+  "mentions": [
+    "A000446",
+    "A002144",
+    "A016032",
+    "A018782",
+    "A025302",
+    "A025311",
+    "A025441",
+    "A054994",
+    "A124980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

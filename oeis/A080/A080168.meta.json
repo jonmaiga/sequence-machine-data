@@ -1,0 +1,23 @@
+{
+  "description": "Primes beginning and ending with '11' in binary representation.",
+  "id": "A080168",
+  "mentions": [
+    "A000040",
+    "A002145",
+    "A004676",
+    "A030101",
+    "A074832",
+    "A080166"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

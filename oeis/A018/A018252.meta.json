@@ -1,0 +1,38 @@
+{
+  "description": "The nonprime numbers: 1 together with the composite numbers, A002808.",
+  "id": "A018252",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000040",
+    "A000720",
+    "A001222",
+    "A001477",
+    "A002808",
+    "A006508",
+    "A010051",
+    "A014284",
+    "A137621",
+    "A137624",
+    "A141468",
+    "A175944",
+    "A175965",
+    "A230954",
+    "A230955",
+    "A239968"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

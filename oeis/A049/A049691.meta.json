@@ -1,0 +1,26 @@
+{
+  "description": "a(n)=T(n,n), array T as in A049687. Also a(n)=T(2n,2n), array T given by A049639.",
+  "id": "A049691",
+  "mentions": [
+    "A000010",
+    "A006842",
+    "A006843",
+    "A018805",
+    "A049639",
+    "A049687",
+    "A206297",
+    "A324796",
+    "A324797"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

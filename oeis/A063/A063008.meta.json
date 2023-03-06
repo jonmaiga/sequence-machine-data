@@ -1,0 +1,27 @@
+{
+  "description": "Canonical partition sequence (see A080577) encoded by prime factorization. The partition [p1,p2,p3,...] with p1 >= p2 >= p3 >= ... is encoded as 2^p1 * 3^p2 * 5^p3 * ... .",
+  "id": "A063008",
+  "mentions": [
+    "A001222",
+    "A025487",
+    "A036035",
+    "A036036",
+    "A036037",
+    "A059901",
+    "A080576",
+    "A080577"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

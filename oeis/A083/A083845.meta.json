@@ -1,0 +1,23 @@
+{
+  "description": "a(n)^2 + 1 is largest prime of the form x^2 + 1 <= 10^n.",
+  "id": "A083845",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A083844",
+    "A083846",
+    "A083847",
+    "A083848",
+    "A083849"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Maximum k <= n such that 1, 2, ..., k are all relatively prime to n.",
+  "id": "A057237",
+  "mentions": [
+    "A020639",
+    "A066169",
+    "A083218",
+    "A193829"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

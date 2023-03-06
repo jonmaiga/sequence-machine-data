@@ -1,0 +1,30 @@
+{
+  "description": "Partial sum of usigma is divisible by n, where usigma(n) = A034448(n) and summatory-usigma(n) = A064609(n).",
+  "id": "A064611",
+  "mentions": [
+    "A034448",
+    "A045345",
+    "A048290",
+    "A050226",
+    "A056550",
+    "A062982",
+    "A064605",
+    "A064606",
+    "A064607",
+    "A064609",
+    "A064610",
+    "A064612"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

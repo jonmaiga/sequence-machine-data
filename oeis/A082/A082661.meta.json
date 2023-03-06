@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A082596(n) = A050221(n), sequence gives A060863(n).",
+  "id": "A082661",
+  "mentions": [
+    "A050221",
+    "A060863",
+    "A082596"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

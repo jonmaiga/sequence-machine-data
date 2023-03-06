@@ -1,0 +1,28 @@
+{
+  "description": "Smallest n-digit Fibonacci number.",
+  "id": "A072351",
+  "mentions": [
+    "A072352",
+    "A105710",
+    "A105712",
+    "A105713",
+    "A105714",
+    "A105715",
+    "A105716",
+    "A105717",
+    "A105718",
+    "A105719"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

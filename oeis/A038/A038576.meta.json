@@ -1,0 +1,17 @@
+{
+  "description": "CONTINUANT transform of {phi(n)}, 1, 1, 2, 2, 4, 2, .. (A002088).",
+  "id": "A038576",
+  "mentions": [
+    "A002088"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

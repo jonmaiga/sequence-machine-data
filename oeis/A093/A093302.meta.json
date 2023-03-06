@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (a(n-1)+(2n-1))*(2n) with a(0) = 0.",
+  "id": "A093302",
+  "mentions": [
+    "A007566",
+    "A010844",
+    "A077138",
+    "A271476"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

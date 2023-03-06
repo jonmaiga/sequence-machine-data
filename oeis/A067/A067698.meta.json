@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers such that sigma(n) >= exp(gamma) * n * log(log(n)).",
+  "id": "A067698",
+  "mentions": [
+    "A004394",
+    "A057641",
+    "A091901",
+    "A189686",
+    "A196229"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

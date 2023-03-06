@@ -1,0 +1,19 @@
+{
+  "description": "Odd interprimes divisible by 3.",
+  "id": "A072572",
+  "mentions": [
+    "A024675",
+    "A072569",
+    "A072573"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

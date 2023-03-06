@@ -1,0 +1,22 @@
+{
+  "description": "Records in sequence of lengths of suffix blocks associated with A091844.",
+  "id": "A091845",
+  "mentions": [
+    "A090822",
+    "A091579",
+    "A091787",
+    "A091840",
+    "A091844"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

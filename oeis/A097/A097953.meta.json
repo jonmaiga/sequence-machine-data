@@ -1,0 +1,19 @@
+{
+  "description": "Boustrophedon transform of ((-2)^n+0^n)/2.",
+  "id": "A097953",
+  "mentions": [
+    "A000734",
+    "A062272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:40:11",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

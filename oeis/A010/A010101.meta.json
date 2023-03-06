@@ -1,0 +1,19 @@
+{
+  "description": "Maximal size of binary code of length n and asymmetric distance 2.",
+  "id": "A010101",
+  "mentions": [
+    "A265032"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

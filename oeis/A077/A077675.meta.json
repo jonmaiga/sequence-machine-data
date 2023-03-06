@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree numbers with square nonzero square digits.",
+  "id": "A077675",
+  "mentions": [
+    "A077674"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that n multiplied by (the 9's complement of n) + 1 is a prime. If n has d digits then 9's complement of n is 10^d -(n+1).",
+  "id": "A088339",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

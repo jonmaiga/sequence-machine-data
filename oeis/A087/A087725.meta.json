@@ -1,0 +1,24 @@
+{
+  "description": "Maximal number of moves required for the n X n generalization of the sliding block 15-puzzle (or fifteen-puzzle).",
+  "id": "A087725",
+  "mentions": [
+    "A046164",
+    "A089473",
+    "A090031",
+    "A151943"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

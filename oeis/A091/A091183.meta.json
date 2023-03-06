@@ -1,0 +1,19 @@
+{
+  "description": "Index of first occurrence of n in A091182.",
+  "id": "A091183",
+  "mentions": [
+    "A014574",
+    "A090695",
+    "A091182"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

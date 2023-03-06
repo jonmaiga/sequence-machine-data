@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n! / A003040(n).",
+  "id": "A082914",
+  "mentions": [
+    "A003040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

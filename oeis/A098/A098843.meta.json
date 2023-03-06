@@ -1,0 +1,22 @@
+{
+  "description": "Number of reduced Latin cubes of order n.",
+  "id": "A098843",
+  "mentions": [
+    "A098679",
+    "A098846",
+    "A099321"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

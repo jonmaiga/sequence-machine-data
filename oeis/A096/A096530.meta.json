@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose divisors cannot be permuted so that all sums of triple adjacent divisors are primes.",
+  "id": "A096530",
+  "mentions": [
+    "A096527",
+    "A096529"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

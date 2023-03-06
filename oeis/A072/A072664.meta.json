@@ -1,0 +1,20 @@
+{
+  "description": "End of smallest run of n consecutive integers with n, n-1, ..., 1 distinct prime factors in that order.",
+  "id": "A072664",
+  "mentions": [
+    "A001221",
+    "A068069",
+    "A072665",
+    "A086560"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

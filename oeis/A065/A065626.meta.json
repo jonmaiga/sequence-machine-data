@@ -1,0 +1,28 @@
+{
+  "description": "Table of permutations of N, each row being a generator of the \"rotation group\" of infinite planar binary tree. Inverse generators are given in A065625.",
+  "id": "A065626",
+  "mentions": [
+    "A054429",
+    "A057115",
+    "A065167",
+    "A065625",
+    "A065628",
+    "A065630",
+    "A065632",
+    "A065634",
+    "A065636",
+    "A065638",
+    "A065640"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

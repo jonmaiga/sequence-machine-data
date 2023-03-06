@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are a sum of a square and 2 nonnegative cubes.",
+  "id": "A022556",
+  "mentions": [
+    "A022557"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

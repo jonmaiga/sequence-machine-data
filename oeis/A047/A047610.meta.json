@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers that are congruent to {1, 4, 5} mod 8.",
+  "id": "A047610",
+  "mentions": [
+    "A016813",
+    "A017113"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:59",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

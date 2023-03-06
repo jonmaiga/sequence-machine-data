@@ -1,0 +1,29 @@
+{
+  "description": "Squares of primes lacking the digit zero in their decimal expansion.",
+  "id": "A052043",
+  "mentions": [
+    "A001248",
+    "A010052",
+    "A051750",
+    "A051751",
+    "A051832",
+    "A051833",
+    "A052040",
+    "A052041",
+    "A052042",
+    "A052382",
+    "A064911",
+    "A168046"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:21",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

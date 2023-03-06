@@ -1,0 +1,131 @@
+{
+  "oi": 16533,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[log(2/11)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "11",
+        "/",
+        "log",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "contfrac[C016582]%76",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "76",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-07-11",
+      "ix": "or(contfrac[C016582], char[1])",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "1",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-07-21",
+      "ix": "root(contfrac[C016582]^3, 3)",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-08-22",
+      "ix": "contfrac[C016582]^cos(char[1])",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "1",
+        "char",
+        "cos",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C016582]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C016582], contfrac[ϕ²])",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-08-16",
+      "ix": "contfrac[C016582]^floor(atan(n))",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "n",
+        "atan",
+        "floor",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-07-11",
+      "ix": "contfrac[C016582]^ceil(acot(n))",
+      "mt": 50,
+      "px": [
+        "C016582",
+        "contfrac",
+        "n",
+        "acot",
+        "ceil",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-07-11",
+      "ix": "or(floor(acot(n)), contfrac[C016582])",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "floor",
+        "C016582",
+        "contfrac",
+        "or"
+      ]
+    }
+  ]
+}

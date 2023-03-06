@@ -1,0 +1,18 @@
+{
+  "description": "Number of functions of [n] to [n] that simultaneously avoid the patterns 112 and 221.",
+  "id": "A093965",
+  "mentions": [
+    "A093966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

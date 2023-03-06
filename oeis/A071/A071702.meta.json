@@ -1,0 +1,20 @@
+{
+  "description": "Number of twin prime pairs <= n of form (4*k+3,4*(k+1)+1), k>=0.",
+  "id": "A071702",
+  "mentions": [
+    "A071538",
+    "A071698",
+    "A071699",
+    "A071701"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

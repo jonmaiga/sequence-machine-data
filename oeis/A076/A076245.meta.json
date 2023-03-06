@@ -1,0 +1,21 @@
+{
+  "description": "Numbers at which values of A051547 increase.",
+  "id": "A076245",
+  "mentions": [
+    "A003418",
+    "A051451",
+    "A051547",
+    "A076244",
+    "A076246"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

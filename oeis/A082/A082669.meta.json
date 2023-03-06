@@ -1,0 +1,16 @@
+{
+  "description": "Let p(n) = upper member of n-th pair of twin primes; sequence gives a(n) = p(n)*(p(n)-1)/2.",
+  "id": "A082669",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

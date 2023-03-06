@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-digit palindromes in base n.",
+  "id": "A099767",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

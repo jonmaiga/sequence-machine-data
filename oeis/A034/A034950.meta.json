@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of eta(8z)*eta(16z)*theta_3(2z).",
+  "id": "A034950",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A072068",
+    "A072069",
+    "A080963",
+    "A121373",
+    "A248394"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

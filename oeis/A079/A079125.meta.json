@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to partition the sum of all divisors of n (sigma(n), A000203) into distinct positive integers not greater than n.",
+  "id": "A079125",
+  "mentions": [
+    "A000009",
+    "A000203",
+    "A067953",
+    "A079122",
+    "A079124",
+    "A079126"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

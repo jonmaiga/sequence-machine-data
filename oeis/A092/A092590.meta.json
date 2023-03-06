@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A065395(A000040(n)); values of commutator of sigma and phi function at prime number arguments.",
+  "id": "A092590",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A033632",
+    "A065393",
+    "A065394",
+    "A065395",
+    "A092584",
+    "A092589"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

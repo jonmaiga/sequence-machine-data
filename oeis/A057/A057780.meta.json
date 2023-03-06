@@ -1,0 +1,25 @@
+{
+  "description": "Multiples of 3 that are one less than a perfect square.",
+  "id": "A057780",
+  "mentions": [
+    "A001082",
+    "A001651",
+    "A016766",
+    "A033684",
+    "A132355",
+    "A185039",
+    "A218864"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:38:13",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

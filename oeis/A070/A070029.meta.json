@@ -1,0 +1,19 @@
+{
+  "description": "Primes with only prime digits and whose initial, all intermediate and final iterated sums of digits are primes.",
+  "id": "A070029",
+  "mentions": [
+    "A062088",
+    "A070027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

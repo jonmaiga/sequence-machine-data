@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes arising in A083125. a(n) = A083125(n)*A083125(n+1).",
+  "id": "A083126",
+  "mentions": [
+    "A002113",
+    "A083125",
+    "A083666"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

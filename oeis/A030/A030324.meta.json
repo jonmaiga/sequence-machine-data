@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, where row k consists of the binary digits of Fibonacci(k+1).",
+  "id": "A030324",
+  "mentions": [
+    "A000045",
+    "A004685",
+    "A272170"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

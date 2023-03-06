@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-1)*a(1) for n >= 2. Also a(n) = (2^n)*C(n-1), where C = A000108 (Catalan numbers).",
+  "id": "A025225",
+  "mentions": [
+    "A000108",
+    "A100238",
+    "A115125",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

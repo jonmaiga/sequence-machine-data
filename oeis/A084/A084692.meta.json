@@ -1,0 +1,16 @@
+{
+  "description": "Sum of first n zeros of BesselJ function of zero order.",
+  "id": "A084692",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

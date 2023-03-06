@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes in A082939.",
+  "id": "A082940",
+  "mentions": [
+    "A002113",
+    "A082939"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

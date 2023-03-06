@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of Pi(n) needed to reach 1, where Pi(x) denotes the number of primes <= x.",
+  "id": "A071578",
+  "mentions": [
+    "A000720",
+    "A060197"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

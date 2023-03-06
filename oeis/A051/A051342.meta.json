@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime factor of 1 + (product of first n primes).",
+  "id": "A051342",
+  "mentions": [
+    "A002110",
+    "A002582",
+    "A002585",
+    "A014545",
+    "A020639",
+    "A038507"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

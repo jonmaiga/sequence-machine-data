@@ -1,0 +1,25 @@
+{
+  "description": "Triangle in which the n-th row contains n distinct semiprimes not listed previously with all prime factors from among the first n primes.",
+  "id": "A087112",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A065342",
+    "A077553",
+    "A100484",
+    "A143215",
+    "A219603"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

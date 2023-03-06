@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that 3*phi(n) < n.",
+  "id": "A091454",
+  "mentions": [
+    "A000010",
+    "A054741",
+    "A091456"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

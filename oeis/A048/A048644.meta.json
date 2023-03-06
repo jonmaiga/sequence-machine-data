@@ -1,0 +1,22 @@
+{
+  "description": "Differences between partial sums of Gray code (A048641) and triangular numbers (A000217).",
+  "id": "A048644",
+  "mentions": [
+    "A000217",
+    "A048461",
+    "A048641",
+    "A048643"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

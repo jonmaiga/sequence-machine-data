@@ -1,0 +1,19 @@
+{
+  "description": "Number of proper factorizations of p1^n*p2^6, where p1 and p2 are distinct primes.",
+  "id": "A031129",
+  "mentions": [
+    "A002755",
+    "A028422"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck n-paths starting U^mD^m (an m-pyramid), followed by a pyramid-free Dyck path.",
+  "id": "A035929",
+  "mentions": [
+    "A000108",
+    "A082989",
+    "A128834",
+    "A165543"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

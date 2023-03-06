@@ -1,0 +1,22 @@
+{
+  "description": "Farey Bisection Expansion of sqrt(7).",
+  "id": "A098457",
+  "mentions": [
+    "A010121",
+    "A097853",
+    "A098458",
+    "A131372"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:22:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

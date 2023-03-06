@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sum of the remainders when the n-th prime is divided by primes up to the (n-1)-th prime.",
+  "id": "A033955",
+  "mentions": [
+    "A024934",
+    "A067435",
+    "A067436",
+    "A207409"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

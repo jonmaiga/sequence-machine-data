@@ -1,0 +1,19 @@
+{
+  "description": "Possibly the only integers of the form sqrt(m^2*(m^2-1)*2/3) [only checked for the first 5 terms].",
+  "id": "A072818",
+  "mentions": [
+    "A001079",
+    "A072819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

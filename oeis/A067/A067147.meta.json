@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of coefficients for expressing x^n in terms of Hermite polynomials.",
+  "id": "A067147",
+  "mentions": [
+    "A000407",
+    "A001498",
+    "A001813",
+    "A001814",
+    "A047974",
+    "A048854",
+    "A060821",
+    "A066325",
+    "A067994",
+    "A099174"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

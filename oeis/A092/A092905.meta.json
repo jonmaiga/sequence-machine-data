@@ -1,0 +1,30 @@
+{
+  "description": "Triangle, read by rows, such that the partial sums of the n-th row form the n-th diagonal, for n>=0, where each row begins with 1.",
+  "id": "A092905",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000601",
+    "A002621",
+    "A002622",
+    "A008284",
+    "A072233",
+    "A087811",
+    "A103921",
+    "A288341",
+    "A288345",
+    "A293482"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

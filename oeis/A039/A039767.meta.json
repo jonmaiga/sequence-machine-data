@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that gcd(phi(k), k-1) = number of prime factors of (k-1).",
+  "id": "A039767",
+  "mentions": [
+    "A000010",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:13:03",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

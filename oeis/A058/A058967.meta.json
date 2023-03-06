@@ -1,0 +1,17 @@
+{
+  "description": "If n < 8 then A058966(n), else n*2^(n - 3) - 2*n - 50.",
+  "id": "A058967",
+  "mentions": [
+    "A058966"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-09 16:15:07",
+    "offset": 3,
+    "size": 29,
+    "source": "joeis"
+  }
+}

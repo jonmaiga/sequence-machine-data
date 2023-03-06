@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = if n is 7-smooth then 1 else 0: characteristic function of 7-smooth numbers.",
+  "id": "A086299",
+  "mentions": [
+    "A002473",
+    "A006530",
+    "A068191"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

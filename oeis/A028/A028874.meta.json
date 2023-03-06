@@ -1,0 +1,24 @@
+{
+  "description": "Primes of form n^2 - 3.",
+  "id": "A028874",
+  "mentions": [
+    "A000040",
+    "A000466",
+    "A002476",
+    "A028871",
+    "A028872",
+    "A068228",
+    "A082109"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Products of distinct terms of A001566: a(n) = Product_{i=0..floor(log_2(n+1))} L(2^(i+1))^bit(n,i).",
+  "id": "A050614",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001566",
+    "A018760",
+    "A050613",
+    "A050615",
+    "A062877",
+    "A075149",
+    "A127872"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:46:33",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

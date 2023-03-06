@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that both k - tau(k) and k + tau(k) are prime where tau(k) = A000005(k).",
+  "id": "A067533",
+  "mentions": [
+    "A000005",
+    "A067531",
+    "A067532"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

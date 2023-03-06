@@ -1,0 +1,19 @@
+{
+  "description": "Least k >= 6 such that A087666(k) = n.",
+  "id": "A087710",
+  "mentions": [
+    "A086336",
+    "A087663",
+    "A087666"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

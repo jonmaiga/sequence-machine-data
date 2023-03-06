@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(n+6,6)*(6*n+7)/7.",
+  "id": "A034265",
+  "mentions": [
+    "A027810",
+    "A034261",
+    "A093563",
+    "A254142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:11:35",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

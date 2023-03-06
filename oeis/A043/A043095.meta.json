@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with property that no two consecutive base 9 digits are equal.",
+  "id": "A043095",
+  "mentions": [
+    "A000975",
+    "A031941",
+    "A031942",
+    "A031943",
+    "A043089",
+    "A043090",
+    "A043091",
+    "A043092",
+    "A043096"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

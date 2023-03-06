@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the fractional part of (3/2)^k decreases monotonically to zero.",
+  "id": "A081464",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

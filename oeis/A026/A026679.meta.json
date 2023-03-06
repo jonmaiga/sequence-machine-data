@@ -1,0 +1,18 @@
+{
+  "description": "Sum{T(i,j)}, 0<=i<=n, 0<=j<=n, T given by A026670.",
+  "id": "A026679",
+  "mentions": [
+    "A026670",
+    "A026677"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:08:28",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

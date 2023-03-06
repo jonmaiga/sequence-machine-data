@@ -1,0 +1,22 @@
+{
+  "description": "Records in A091842.",
+  "id": "A091843",
+  "mentions": [
+    "A090822",
+    "A091579",
+    "A091787",
+    "A091840",
+    "A091842"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

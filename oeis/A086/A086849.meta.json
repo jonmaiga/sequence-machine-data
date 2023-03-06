@@ -1,0 +1,23 @@
+{
+  "description": "Sum of first n nonsquares.",
+  "id": "A086849",
+  "mentions": [
+    "A000037",
+    "A000196",
+    "A000217",
+    "A000330",
+    "A048395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

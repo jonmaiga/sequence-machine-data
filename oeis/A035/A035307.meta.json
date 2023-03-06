@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least integer such that every even unimodular lattice in dimension 8n contains some vectors of all even (squared) norm >= 2*a(n).",
+  "id": "A035307",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

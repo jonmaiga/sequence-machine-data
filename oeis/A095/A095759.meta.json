@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(row>=0, 0<= pos <=row) by rows: T(r,p) contains number of odd primes p in range [2^(r+1),2^(r+2)] for which A037888(p)=pos.",
+  "id": "A095759",
+  "mentions": [
+    "A036378",
+    "A037888",
+    "A048700",
+    "A048704",
+    "A095741",
+    "A095742",
+    "A095749",
+    "A095753",
+    "A095754",
+    "A095755",
+    "A095756",
+    "A095757",
+    "A095758",
+    "A095760"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

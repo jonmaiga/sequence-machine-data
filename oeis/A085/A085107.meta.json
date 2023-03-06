@@ -1,0 +1,15 @@
+{
+  "description": "Starting with n-1 go on adding the numbers less than n and coprime to it in descending order until one gets a prime. a(n) = this prime, or 0 if no such number exists.",
+  "id": "A085107",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

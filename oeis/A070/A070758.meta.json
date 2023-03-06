@@ -1,0 +1,19 @@
+{
+  "description": "Values of floor((3/2)^n) that are composite.",
+  "id": "A070758",
+  "mentions": [
+    "A043037",
+    "A067904",
+    "A070759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

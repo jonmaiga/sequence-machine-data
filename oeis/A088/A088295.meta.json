@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime in which the digit string can be partitioned in n+1 parts such that the product of the first n parts = the (n+1)th one.",
+  "id": "A088295",
+  "mentions": [
+    "A088291",
+    "A088292",
+    "A088293",
+    "A088294"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

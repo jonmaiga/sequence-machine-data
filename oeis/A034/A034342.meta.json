@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary [ n,8 ] codes of dimension <= 8 without zero columns.",
+  "id": "A034342",
+  "mentions": [
+    "A034337",
+    "A076832"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primorial plus 1 prime indices: n such that n-th Euclid number A006862(n) = 1 + (Product of first n primes) is prime.",
+  "id": "A014545",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A005234",
+    "A006862",
+    "A018239",
+    "A057704"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

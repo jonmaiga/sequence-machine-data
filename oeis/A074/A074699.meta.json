@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = tau(Fibonacci(24*2^n))/(24*2^n) where tau(x) is the number of divisors of x (A000005(x)).",
+  "id": "A074699",
+  "mentions": [
+    "A000005",
+    "A063375",
+    "A074698"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes with exactly 4 distinct palindromic prime factors.",
+  "id": "A046410",
+  "mentions": [
+    "A046330",
+    "A046378"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*n + 1 - prevprime(2*n + 1).",
+  "id": "A049716",
+  "mentions": [
+    "A049613",
+    "A049653",
+    "A049711",
+    "A049847"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

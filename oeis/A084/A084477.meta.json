@@ -1,0 +1,24 @@
+{
+  "description": "Number of fault-free tilings of a 4 X 3n rectangle with right trominoes.",
+  "id": "A084477",
+  "mentions": [
+    "A046984",
+    "A067411",
+    "A084478",
+    "A084479",
+    "A084480",
+    "A084481"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

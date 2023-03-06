@@ -1,0 +1,19 @@
+{
+  "description": "Each tree encoded in A014486 mapped to the corresponding branch-reduced zigzag-tree (positions in A014486).",
+  "id": "A080979",
+  "mentions": [
+    "A014486",
+    "A080293",
+    "A080980"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

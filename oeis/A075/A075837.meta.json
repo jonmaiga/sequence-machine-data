@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = f(n,k,n-2), n >= 0, 0 <= k <= n, where f is given below.",
+  "id": "A075837",
+  "mentions": [
+    "A007318",
+    "A014410",
+    "A075779",
+    "A075780",
+    "A075798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

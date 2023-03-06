@@ -1,0 +1,26 @@
+{
+  "description": "Number of symmetrical planar partitions of n: planar partitions (A000219) that when regarded as 3-D objects have a threefold axis of symmetry that is the intersection of 3 mirror planes, i.e., C3v symmetry.",
+  "id": "A048141",
+  "mentions": [
+    "A000219",
+    "A000784",
+    "A000785",
+    "A000786",
+    "A005987",
+    "A048142",
+    "A051056",
+    "A051061",
+    "A096419"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

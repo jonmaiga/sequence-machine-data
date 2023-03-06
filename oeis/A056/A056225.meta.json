@@ -1,0 +1,19 @@
+{
+  "description": "Hankel transform of number of divisors sequence (A000005).",
+  "id": "A056225",
+  "mentions": [
+    "A000005",
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

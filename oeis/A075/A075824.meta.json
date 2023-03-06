@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers that cannot be expressed as 2^k - 3^m where k and m are integers.",
+  "id": "A075824",
+  "mentions": [
+    "A074981",
+    "A192110",
+    "A328077"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*n^n - (n-1)(n-1)^n.",
+  "id": "A085283",
+  "mentions": [
+    "A007778",
+    "A014293",
+    "A045531",
+    "A055869",
+    "A085606",
+    "A882498"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n is a prime and sum of all lucky numbers <= n is a prime.",
+  "id": "A046282",
+  "mentions": [
+    "A000959",
+    "A013917"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

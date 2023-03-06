@@ -1,0 +1,20 @@
+{
+  "description": "Composite connected numbers: composite numbers k such that g(k) < g(u) + g(v) holds for all relatively prime factorizations k=u*v, where g(x) = ceiling(log_2 x).",
+  "id": "A029827",
+  "mentions": [
+    "A029837",
+    "A034444",
+    "A036381",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:25",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = C(3n,n) - C(3n,n-4).",
+  "id": "A026032",
+  "mentions": [
+    "A026022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:34:54",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

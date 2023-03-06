@@ -1,0 +1,20 @@
+{
+  "description": "Primes p having exactly one partition into distinct divisors of p+1.",
+  "id": "A085499",
+  "mentions": [
+    "A085494",
+    "A085496",
+    "A085498"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Squarefree numbers squared.",
+  "id": "A062503",
+  "mentions": [
+    "A000290",
+    "A001248",
+    "A005117",
+    "A046692",
+    "A062320",
+    "A062838",
+    "A072774",
+    "A082020",
+    "A113849",
+    "A113850",
+    "A113851",
+    "A113852",
+    "A227291",
+    "A329332"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "An example of a d-perfect sequence: a(n) = Catalan(n) mod 3.",
+  "id": "A039969",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A006996",
+    "A010872",
+    "A039972",
+    "A067397"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

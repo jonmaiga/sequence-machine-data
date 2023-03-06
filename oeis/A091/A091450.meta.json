@@ -1,0 +1,22 @@
+{
+  "description": "Transpose of A091449: array T(n,k) read by antidiagonals, where column n is the increasing sequence of numbers k for which the simple continued fraction of sqrt(k) has period n.",
+  "id": "A091450",
+  "mentions": [
+    "A002522",
+    "A013642",
+    "A091449",
+    "A091451",
+    "A091453"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

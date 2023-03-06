@@ -1,0 +1,24 @@
+{
+  "description": "Solutions to 2*phi(x) = x+1.",
+  "id": "A050474",
+  "mentions": [
+    "A000010",
+    "A129613",
+    "A129614",
+    "A129615",
+    "A202855",
+    "A203966"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

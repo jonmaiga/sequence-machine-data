@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonseparable planar maps with r*n edges and a fixed outer face of r*k edges which are invariant under a rotation of 1/r for any r >= 2 (independent of actual value of r).",
+  "id": "A091599",
+  "mentions": [
+    "A000259",
+    "A046646",
+    "A046647",
+    "A046651",
+    "A046653",
+    "A091665"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:51:05",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

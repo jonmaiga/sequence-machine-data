@@ -1,0 +1,19 @@
+{
+  "description": "Integer quotient of largest and initial values in 3x+1 iteration, started at n.",
+  "id": "A087262",
+  "mentions": [
+    "A025586",
+    "A056959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that s(n) >= sigma(n), where s(n) = A095118(n) is the sum of the squares of the divisors of n which are <= sqrt(n) and sigma(n) = A000203(n) is the sum of the divisors of n.",
+  "id": "A095119",
+  "mentions": [
+    "A000203",
+    "A095118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

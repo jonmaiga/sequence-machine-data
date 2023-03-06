@@ -1,0 +1,30 @@
+{
+  "description": "Number of square binary matrices with n ones, with no zero rows or columns, up to row and column permutation.",
+  "id": "A057151",
+  "mentions": [
+    "A049311",
+    "A054976",
+    "A056037",
+    "A056079",
+    "A056080",
+    "A057149",
+    "A057150",
+    "A057152",
+    "A101370",
+    "A104601",
+    "A104602",
+    "A120732",
+    "A283877",
+    "A319616"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

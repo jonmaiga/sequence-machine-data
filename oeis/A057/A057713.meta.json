@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime divisor of Kummer numbers ( = primorials - 1), or 1 if no such prime exists.",
+  "id": "A057713",
+  "mentions": [
+    "A002110",
+    "A002582",
+    "A002584",
+    "A002585",
+    "A006862",
+    "A020639",
+    "A038507",
+    "A057588"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

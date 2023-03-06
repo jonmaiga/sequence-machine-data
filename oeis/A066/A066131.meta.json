@@ -1,0 +1,20 @@
+{
+  "description": "In base 2, ten 'Reverse and Add' steps are needed to reach a palindrome.",
+  "id": "A066131",
+  "mentions": [
+    "A006995",
+    "A065215",
+    "A066122"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

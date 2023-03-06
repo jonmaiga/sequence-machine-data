@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers such that every cyclic shift (other than the number itself) gives a prime.",
+  "id": "A068653",
+  "mentions": [
+    "A003459",
+    "A068652"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

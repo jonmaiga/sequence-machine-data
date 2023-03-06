@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which row n contains first n numbers with exactly n distinct prime factors.",
+  "id": "A048692",
+  "mentions": [
+    "A002110",
+    "A073329",
+    "A125666"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

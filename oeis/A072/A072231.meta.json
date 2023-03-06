@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(n^2/A005185(n-1)), where A005185 is Hofstadter's Q-sequence.",
+  "id": "A072231",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

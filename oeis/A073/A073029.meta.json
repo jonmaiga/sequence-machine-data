@@ -1,0 +1,25 @@
+{
+  "description": "Names for numbers in English, with each letter transformed into its index in the alphabet.",
+  "id": "A073029",
+  "mentions": [
+    "A001477",
+    "A005589",
+    "A052360",
+    "A072922",
+    "A073327"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabf",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

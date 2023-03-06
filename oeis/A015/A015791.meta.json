@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest integer k such that phi(k) + n | sigma(k + n).",
+  "id": "A015791",
+  "mentions": [
+    "A002110",
+    "A004394",
+    "A015775",
+    "A015781",
+    "A015782",
+    "A015783",
+    "A015784",
+    "A015785",
+    "A015786",
+    "A015788"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

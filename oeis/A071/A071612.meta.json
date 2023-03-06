@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime that is the first of n consecutive primes which are all emirps.",
+  "id": "A071612",
+  "mentions": [
+    "A006567",
+    "A070905",
+    "A071614",
+    "A103172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

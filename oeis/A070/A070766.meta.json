@@ -1,0 +1,22 @@
+{
+  "description": "Number of polyhexes with n cells that tile the plane.",
+  "id": "A070766",
+  "mentions": [
+    "A000228",
+    "A018190",
+    "A054359",
+    "A070767",
+    "A070768"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

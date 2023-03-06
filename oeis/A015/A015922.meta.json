@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 2^k == 8 (mod k).",
+  "id": "A015922",
+  "mentions": [
+    "A015921",
+    "A033553",
+    "A130133",
+    "A130134",
+    "A276967"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

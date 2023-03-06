@@ -1,0 +1,23 @@
+{
+  "description": "Count, setting 5n to zero.",
+  "id": "A091703",
+  "mentions": [
+    "A001477",
+    "A011558",
+    "A080891",
+    "A091684"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

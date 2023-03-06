@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the sum of the first n odd primes is palindromic.",
+  "id": "A058845",
+  "mentions": [
+    "A038582",
+    "A058846",
+    "A058847",
+    "A071148"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

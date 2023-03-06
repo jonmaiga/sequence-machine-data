@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes n with gpf(n) > gpf(n+1), where gpf=A006530 (greatest prime factor).",
+  "id": "A087430",
+  "mentions": [
+    "A006530",
+    "A070087",
+    "A087429"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "Square array read by antidiagonals: even-numbered rows of the table are of the form n*(n+m) and odd-numbered rows are of the form n*(n+m)/2.",
+  "id": "A098832",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A005563",
+    "A022998",
+    "A026741",
+    "A027379",
+    "A028347",
+    "A028560",
+    "A028566",
+    "A051942",
+    "A055999",
+    "A056000",
+    "A056115",
+    "A056119",
+    "A056121",
+    "A056126",
+    "A098603",
+    "A098737",
+    "A098847",
+    "A098848",
+    "A098849",
+    "A098850",
+    "A165351",
+    "A168509",
+    "A181900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

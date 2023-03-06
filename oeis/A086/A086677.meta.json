@@ -1,0 +1,21 @@
+{
+  "description": "Number of Steiner topologies on n points.",
+  "id": "A086677",
+  "mentions": [
+    "A001147",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

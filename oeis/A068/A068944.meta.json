@@ -1,0 +1,18 @@
+{
+  "description": "Highest power of 9 dividing A068943(n) for n>0.",
+  "id": "A068944",
+  "mentions": [
+    "A068943",
+    "A068945"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Smallest of three consecutive squarefree numbers k, k+1, k+2 of the form p*q where p and q are primes.",
+  "id": "A039833",
+  "mentions": [
+    "A006881",
+    "A007675",
+    "A008683",
+    "A008966",
+    "A038456",
+    "A039832",
+    "A045939",
+    "A056809",
+    "A063736",
+    "A063838",
+    "A064911",
+    "A070552",
+    "A179502",
+    "A195685",
+    "A263990"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

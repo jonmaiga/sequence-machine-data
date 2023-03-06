@@ -1,0 +1,20 @@
+{
+  "description": "A001067 appears to count the periodic points for a certain map. If so, then this is the sequence of the numbers of orbits of length n.",
+  "id": "A060309",
+  "mentions": [
+    "A001067",
+    "A060171",
+    "A060479"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

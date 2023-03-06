@@ -1,0 +1,23 @@
+{
+  "description": "Total sum of prime parts in all partitions of n.",
+  "id": "A073118",
+  "mentions": [
+    "A000041",
+    "A008472",
+    "A037032",
+    "A194545",
+    "A309561"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

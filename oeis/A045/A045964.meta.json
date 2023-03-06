@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A045954.",
+  "id": "A045964",
+  "mentions": [
+    "A045954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:31",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

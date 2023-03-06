@@ -1,0 +1,27 @@
+{
+  "description": "One half of odd-numbered entries of even-numbered rows of Pascal's triangle A007318.",
+  "id": "A091044",
+  "mentions": [
+    "A000302",
+    "A001109",
+    "A006519",
+    "A007318",
+    "A053124",
+    "A091042",
+    "A091043",
+    "A111910"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

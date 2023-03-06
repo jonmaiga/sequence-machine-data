@@ -1,0 +1,22 @@
+{
+  "description": "(Apparently) not the difference between adjacent perfect powers (A001597, integers of form a^b, a >= 1, b >= 2).",
+  "id": "A023057",
+  "mentions": [
+    "A001597",
+    "A023055",
+    "A074980",
+    "A074981",
+    "A077286"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

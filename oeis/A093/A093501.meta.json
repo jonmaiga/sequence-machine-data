@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose digit permutations are all squarefree numbers.",
+  "id": "A093501",
+  "mentions": [
+    "A077337"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

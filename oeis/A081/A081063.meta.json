@@ -1,0 +1,24 @@
+{
+  "description": "Number of numbers <= n that are 3-smooth or prime powers.",
+  "id": "A081063",
+  "mentions": [
+    "A000523",
+    "A000961",
+    "A003586",
+    "A062153",
+    "A065515",
+    "A071521",
+    "A081061"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

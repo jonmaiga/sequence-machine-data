@@ -1,0 +1,19 @@
+{
+  "description": "From P-positions in a certain game.",
+  "id": "A081695",
+  "mentions": [
+    "A081694"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

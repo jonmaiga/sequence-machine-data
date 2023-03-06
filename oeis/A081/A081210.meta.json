@@ -1,0 +1,24 @@
+{
+  "description": "In prime factorization of n replace each prime power p^e with the greatest squarefree number <= p^e.",
+  "id": "A081210",
+  "mentions": [
+    "A005117",
+    "A070321",
+    "A081211",
+    "A081212",
+    "A081213",
+    "A081214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

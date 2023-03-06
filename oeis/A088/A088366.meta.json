@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index of the n-th local maximum of A053707.",
+  "id": "A088366",
+  "mentions": [
+    "A025475",
+    "A053707",
+    "A088365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

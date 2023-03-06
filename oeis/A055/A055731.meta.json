@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes < 6^n.",
+  "id": "A055731",
+  "mentions": [
+    "A000400",
+    "A000720",
+    "A006880",
+    "A007053",
+    "A040014"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Partial product of prime gaps: a(n) = a(n-1)*(prime(n+1) - prime(n)).",
+  "id": "A081411",
+  "mentions": [
+    "A001223",
+    "A080374",
+    "A080375",
+    "A080376",
+    "A099002"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

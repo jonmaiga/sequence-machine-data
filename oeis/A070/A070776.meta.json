@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that number of terms in the k-th cyclotomic polynomial is equal to the largest prime factor of k.",
+  "id": "A070776",
+  "mentions": [
+    "A000079",
+    "A005940",
+    "A006530",
+    "A051664",
+    "A061345",
+    "A070536",
+    "A070537",
+    "A078701",
+    "A299766",
+    "A324106",
+    "A324109",
+    "A324111",
+    "A336101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

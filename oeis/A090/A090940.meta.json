@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least odd prime distinct from earlier elements such that average of first n elements is prime.",
+  "id": "A090940",
+  "mentions": [
+    "A090941"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

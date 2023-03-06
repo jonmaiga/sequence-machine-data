@@ -1,0 +1,24 @@
+{
+  "description": "Difference between 10-adic numbers defined in A018248 & A018247.",
+  "id": "A075693",
+  "mentions": [
+    "A007185",
+    "A016090",
+    "A018247",
+    "A018248",
+    "A076308"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

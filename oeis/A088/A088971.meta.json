@@ -1,0 +1,21 @@
+{
+  "description": "Number of twin prime pairs between consecutive prime-indexed primes of order 3. The bounds are included in the calculation.",
+  "id": "A088971",
+  "mentions": [
+    "A006450",
+    "A049090",
+    "A077800",
+    "A088973"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

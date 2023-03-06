@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} k/prime(k)^4.",
+  "id": "A097878",
+  "mentions": [
+    "A097879",
+    "A097906"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

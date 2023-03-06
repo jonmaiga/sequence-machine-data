@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that rad(n+1)=rad(n)+1, where rad(m)=A007947(m) is the squarefree kernel of m.",
+  "id": "A081083",
+  "mentions": [
+    "A007674",
+    "A007947",
+    "A049097",
+    "A081084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

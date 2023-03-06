@@ -1,0 +1,19 @@
+{
+  "description": "Beginning with 5, distinct odd primes such that the arithmetic mean of every pair of successive terms is prime.",
+  "id": "A086523",
+  "mentions": [
+    "A086519",
+    "A086522",
+    "A086524"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

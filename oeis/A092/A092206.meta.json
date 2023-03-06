@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers that are not of the form n^2 or 3n^2.",
+  "id": "A092206",
+  "mentions": [
+    "A000290",
+    "A033428",
+    "A092205",
+    "A214295"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

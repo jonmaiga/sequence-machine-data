@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive triangular number not included earlier that is a multiple of n (a permutation of the triangular numbers).",
+  "id": "A073872",
+  "mentions": [
+    "A073873",
+    "A073874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of final terms of the LMSFTW of length m that differ from the first m terms of the LMSFTW of length m+1, where m is the n-th term of A094672.",
+  "id": "A094673",
+  "mentions": [
+    "A085794",
+    "A094672"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

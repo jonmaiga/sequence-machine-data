@@ -1,0 +1,23 @@
+{
+  "description": "10-smooth numbers that show their prime factors.",
+  "id": "A075048",
+  "mentions": [
+    "A002473",
+    "A052382",
+    "A067183",
+    "A357132"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

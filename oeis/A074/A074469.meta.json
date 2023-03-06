@@ -1,0 +1,28 @@
+{
+  "description": "Subscript m such that SigmaComposite-Harmonic series cd[m]=Sum[1/A000203[A002808(k)],{k,1,m}]>=n.",
+  "id": "A074469",
+  "mentions": [
+    "A000203",
+    "A002387",
+    "A002808",
+    "A004080",
+    "A046024",
+    "A073255",
+    "A074468",
+    "A074470",
+    "A074631",
+    "A074633"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

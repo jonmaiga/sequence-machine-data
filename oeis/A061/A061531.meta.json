@@ -1,0 +1,20 @@
+{
+  "description": "Boustrophedon transform of b(0)=1 and otherwise b(n)=mu(n).",
+  "id": "A061531",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (C(2p,p)-2) / p^3, where p = prime(n).",
+  "id": "A087754",
+  "mentions": [
+    "A000040",
+    "A034602",
+    "A060842",
+    "A268512",
+    "A268589",
+    "A268590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:01:10",
+    "offset": 3,
+    "size": 14,
+    "source": "joeis"
+  }
+}

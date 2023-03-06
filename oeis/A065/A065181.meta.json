@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of nonnegative integers produced when the finite permutations listed by A055089 are subjected to inverse of Foata's transformation. Inverse of A065182.",
+  "id": "A065181",
+  "mentions": [
+    "A055089",
+    "A056019",
+    "A065161",
+    "A065163",
+    "A065182",
+    "A065183",
+    "A065184"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

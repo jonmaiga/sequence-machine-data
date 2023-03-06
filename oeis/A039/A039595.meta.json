@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers that are also triangular numbers.",
+  "id": "A039595",
+  "mentions": [
+    "A000045",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

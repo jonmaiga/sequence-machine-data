@@ -1,0 +1,23 @@
+{
+  "description": "Number of tetramagic (4-multimagic) series for squares of order n.",
+  "id": "A090037",
+  "mentions": [
+    "A052456",
+    "A052457",
+    "A052458",
+    "A090653",
+    "A092312",
+    "A106646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

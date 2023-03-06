@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative inverse in the finite field F(prime(n)) of the product of the first n-1 primes modulo prime(n).",
+  "id": "A079276",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A062347",
+    "A240673",
+    "A341805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

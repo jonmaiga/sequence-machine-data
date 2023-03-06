@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = prime(n) - 2.",
+  "id": "A040976",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001359",
+    "A014689",
+    "A014692",
+    "A092953",
+    "A123556",
+    "A342309",
+    "A359408",
+    "A360735"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

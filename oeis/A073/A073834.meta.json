@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of b(n) where b(1) = 1, b(i) = b(i-1) + 1/b(i-1).",
+  "id": "A073834",
+  "mentions": [
+    "A073833"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Exponential (or \"EXP\") transform of squares A000290.",
+  "id": "A033462",
+  "mentions": [
+    "A000290",
+    "A279636"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

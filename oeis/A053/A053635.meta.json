@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d)*2^(n/d).",
+  "id": "A053635",
+  "mentions": [
+    "A000031",
+    "A034738",
+    "A053634",
+    "A053636",
+    "A053685",
+    "A185651"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

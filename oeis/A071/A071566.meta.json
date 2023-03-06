@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that x^k + x^(k-1) + x^(k-2) + ... + x + 1 is irreducible over GF(11).",
+  "id": "A071566",
+  "mentions": [
+    "A019339",
+    "A071642"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes occurring in exactly three prime triples (p,q,r) with p",
+  "id": "A098423",
+  "mentions": [
+    "A000040",
+    "A007529",
+    "A098414",
+    "A098415",
+    "A098418",
+    "A098419",
+    "A098420",
+    "A098421",
+    "A098422"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

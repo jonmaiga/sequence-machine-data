@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose squarefree kernel is not a primorial number, i.e., A007947(a(n)) is not in A002110.",
+  "id": "A080259",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A055932"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

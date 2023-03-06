@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between successive composite numbers.",
+  "id": "A073784",
+  "mentions": [
+    "A002808",
+    "A073425",
+    "A073783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

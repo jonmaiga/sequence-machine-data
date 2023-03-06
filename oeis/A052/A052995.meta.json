@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of 2*x*(1 - x)/(1 - 3*x + x^2).",
+  "id": "A052995",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001519",
+    "A006355",
+    "A025169",
+    "A055819",
+    "A069403",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

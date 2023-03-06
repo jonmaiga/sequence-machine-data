@@ -1,0 +1,24 @@
+{
+  "description": "Number of (unordered) triples of integers from [1,n] with no common factors between pairs.",
+  "id": "A015617",
+  "mentions": [
+    "A015614",
+    "A015616",
+    "A015631",
+    "A065473",
+    "A185953",
+    "A186230",
+    "A186974"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

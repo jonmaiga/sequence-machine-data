@@ -1,0 +1,21 @@
+{
+  "description": "Sum of odd decimal digits of n.",
+  "id": "A071649",
+  "mentions": [
+    "A007953",
+    "A071648",
+    "A071650"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

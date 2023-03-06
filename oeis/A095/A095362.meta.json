@@ -1,0 +1,20 @@
+{
+  "description": "Ratio A095110(n)/A000079(n-2) rounded to nearest integer.",
+  "id": "A095362",
+  "mentions": [
+    "A000079",
+    "A095110",
+    "A095361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

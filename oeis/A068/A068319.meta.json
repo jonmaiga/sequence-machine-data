@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = if n <= lpf(n)^2 then lpf(n) else a(lpf(n) + n/lpf(n)), where lpf = least prime factor, A020639.",
+  "id": "A068319",
+  "mentions": [
+    "A020639",
+    "A032742",
+    "A088377",
+    "A111234"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

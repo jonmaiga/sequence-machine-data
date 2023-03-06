@@ -1,0 +1,28 @@
+{
+  "description": "On a 3 X 3 board, the number of n-move paths for a chess king ending in a given corner square.",
+  "id": "A086346",
+  "mentions": [
+    "A002203",
+    "A057087",
+    "A079291",
+    "A084128",
+    "A086347",
+    "A086348",
+    "A086349",
+    "A110048",
+    "A123109",
+    "A179596"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

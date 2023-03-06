@@ -1,0 +1,15 @@
+{
+  "description": "arcsinh(sin(arctanh(x)))=x+4/5!*x^5-80/7!*x^7-3440/9!*x^9-764800/11!*x^11...",
+  "id": "A012057",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

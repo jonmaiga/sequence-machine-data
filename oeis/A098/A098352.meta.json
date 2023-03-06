@@ -1,0 +1,21 @@
+{
+  "description": "Multiplication table of the even numbers read by antidiagonals.",
+  "id": "A098352",
+  "mentions": [
+    "A003991",
+    "A098353"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

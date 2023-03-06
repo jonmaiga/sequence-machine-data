@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that either contain the digit 5 or are divisible by 5.",
+  "id": "A092454",
+  "mentions": [
+    "A092433",
+    "A092451",
+    "A092457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

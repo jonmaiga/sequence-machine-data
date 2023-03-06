@@ -1,0 +1,20 @@
+{
+  "description": "Sums of lists produced by a variant of the iteration that produces the Catalan numbers: start with 0 and at each iteration replace each integer k with the list 0,1,...,k-1,k,k+1,k,k-1,...,1,0 and let a(n) be the sum of the resulting (flattened) list after n iterations.",
+  "id": "A065096",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A033877"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

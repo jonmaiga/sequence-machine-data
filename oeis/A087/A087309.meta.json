@@ -1,0 +1,24 @@
+{
+  "description": "Least number that ends an arithmetic progression of n numbers with the same prime signature.",
+  "id": "A087309",
+  "mentions": [
+    "A086786",
+    "A087308",
+    "A087310",
+    "A114659",
+    "A114662",
+    "A114669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

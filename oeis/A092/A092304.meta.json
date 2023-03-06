@@ -1,0 +1,22 @@
+{
+  "description": "Number of cusped hyperbolic 3-manifolds obtained from n ideal tetrahedra.",
+  "id": "A092304",
+  "mentions": [
+    "A091107",
+    "A091108",
+    "A091145",
+    "A091218",
+    "A091319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

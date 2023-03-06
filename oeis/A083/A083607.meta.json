@@ -1,0 +1,19 @@
+{
+  "description": "Starting positions of strings of four 2's in the decimal expansion of Pi.",
+  "id": "A083607",
+  "mentions": [
+    "A083606",
+    "A083608"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of times n appears among the decimal digits of (n!)!.",
+  "id": "A078670",
+  "mentions": [
+    "A000197"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

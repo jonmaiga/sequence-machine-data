@@ -1,0 +1,23 @@
+{
+  "description": "n-th 4k+1 prime times n-th 4k-1 prime.",
+  "id": "A048630",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A048628",
+    "A080774",
+    "A267099",
+    "A354192"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

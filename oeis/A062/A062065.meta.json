@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n >= 1, a(n+1) is smallest number such that the sums of any one, two or three of a(1), ..., a(n) are distinct (repetitions not allowed).",
+  "id": "A062065",
+  "mentions": [
+    "A036241",
+    "A051912"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

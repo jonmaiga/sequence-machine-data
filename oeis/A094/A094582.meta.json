@@ -1,0 +1,19 @@
+{
+  "description": "In decimal expansion of Pi=3.1415... : smallest k such that the (k+n)-th position equals the k-th position.",
+  "id": "A094582",
+  "mentions": [
+    "A000796",
+    "A094581"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

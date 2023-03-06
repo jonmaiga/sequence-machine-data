@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k^2 + 3 is prime.",
+  "id": "A049422",
+  "mentions": [
+    "A005574",
+    "A007591",
+    "A067201",
+    "A078402",
+    "A114269",
+    "A114270",
+    "A114271",
+    "A114272",
+    "A114273",
+    "A114274",
+    "A114275"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least positive k such that k, k+1, k+2, ... k+n-1 is a stapled interval of length n, or 0 if no such sequence exists.",
+  "id": "A090318",
+  "mentions": [
+    "A034386",
+    "A130170",
+    "A130171",
+    "A130173"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Values of n such that A065295(n) = 1.",
+  "id": "A065296",
+  "mentions": [
+    "A065295"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

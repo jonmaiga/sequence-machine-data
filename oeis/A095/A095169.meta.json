@@ -1,0 +1,20 @@
+{
+  "description": "Leading diagonal of the triangle A095167.",
+  "id": "A095169",
+  "mentions": [
+    "A095167",
+    "A095168",
+    "A095170",
+    "A095171"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

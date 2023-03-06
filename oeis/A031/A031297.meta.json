@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k such that the base-10 representation of n begins at s(k), where s=A007376.",
+  "id": "A031297",
+  "mentions": [
+    "A007376",
+    "A165449",
+    "A229186"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

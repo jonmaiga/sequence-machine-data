@@ -1,0 +1,23 @@
+{
+  "description": "x-value of the solution (x,y,z) to 5/n = 1/x + 1/y + 1/z satisfying 0 < x < y < z and having the largest z-value. The y and z components are in A075250 and A075251.",
+  "id": "A075249",
+  "mentions": [
+    "A047252",
+    "A075248",
+    "A075250",
+    "A075251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Trajectory of 30 under prime factor concatenation procedure.",
+  "id": "A037931",
+  "mentions": [
+    "A037273"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

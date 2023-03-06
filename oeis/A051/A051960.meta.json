@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = C(n)*(3n+2) where C(n) = Catalan numbers = A000108.",
+  "id": "A051960",
+  "mentions": [
+    "A000108",
+    "A028283",
+    "A051924"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

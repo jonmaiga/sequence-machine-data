@@ -1,0 +1,25 @@
+{
+  "description": "Smallest multiple of n with digit sum = 8, or 0 if no such number exists, e.g. a(3k)= 0.",
+  "id": "A069527",
+  "mentions": [
+    "A069521",
+    "A069522",
+    "A069523",
+    "A069524",
+    "A069525",
+    "A069526",
+    "A088397"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

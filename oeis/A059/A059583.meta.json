@@ -1,0 +1,16 @@
+{
+  "description": "Each c(i) is \"multiply\" (*) or \"divide\" (/); a(n) is number of choices for c(1),..,c(n) so that the reduced fraction 1 c(1) 2 c(2) 3 c(3) 5 ... c(n) prime(n) is equal to (k*m+1)/m for a positive integer m and a nonnegative integer k.",
+  "id": "A059583",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into 2 parts which are not relatively prime.",
+  "id": "A082023",
+  "mentions": [
+    "A000010",
+    "A082024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of length n which avoid the patterns 1234 and 1324.",
+  "id": "A053617",
+  "mentions": [
+    "A032351",
+    "A053614",
+    "A106228",
+    "A165542",
+    "A165545",
+    "A257561",
+    "A257562"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

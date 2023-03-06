@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = Sum_{d in D(n)} 2^d, where D(n) = set of digits of n in decimal representation.",
+  "id": "A086066",
+  "mentions": [
+    "A000004",
+    "A000042",
+    "A002276",
+    "A002277",
+    "A002278",
+    "A002279",
+    "A002280",
+    "A002281",
+    "A002282",
+    "A002283",
+    "A007088",
+    "A011540",
+    "A011557",
+    "A052382",
+    "A086067",
+    "A111066"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct primes dividing the n-th partition number.",
+  "id": "A087175",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A071963",
+    "A085561",
+    "A192885"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

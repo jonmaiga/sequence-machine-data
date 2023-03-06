@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n >= 1, giving number of prime unoriented alternating links with n crossings and k components.",
+  "id": "A059739",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A049344",
+    "A059741"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

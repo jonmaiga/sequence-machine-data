@@ -1,0 +1,20 @@
+{
+  "description": "If n=r*2^s, r odd, then a(n)=t*r, where t is smallest (in magnitude) number such that 1=t*r+u*2^s.",
+  "id": "A040026",
+  "mentions": [
+    "A000265"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

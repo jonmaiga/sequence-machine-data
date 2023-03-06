@@ -1,0 +1,20 @@
+{
+  "description": "10th binomial transform of (1,1,0,0,0,0,......).",
+  "id": "A081122",
+  "mentions": [
+    "A081108",
+    "A081109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

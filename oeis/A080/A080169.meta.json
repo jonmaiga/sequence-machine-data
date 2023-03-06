@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are cubes of primes of the form 4k+1 (A002144).",
+  "id": "A080169",
+  "mentions": [
+    "A002144",
+    "A080109",
+    "A080175",
+    "A334425"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

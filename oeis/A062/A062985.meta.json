@@ -1,0 +1,28 @@
+{
+  "description": "Generalized Catalan array FS(5; n,r).",
+  "id": "A062985",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A008586",
+    "A062986",
+    "A062988",
+    "A062990"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

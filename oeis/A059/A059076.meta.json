@@ -1,0 +1,28 @@
+{
+  "description": "Number of pairs of orientable necklaces with n beads and two colors; i.e., turning the necklace over does not leave it unchanged.",
+  "id": "A059076",
+  "mentions": [
+    "A000029",
+    "A000031",
+    "A008965",
+    "A027383",
+    "A029744",
+    "A052823",
+    "A059053",
+    "A091696",
+    "A164090",
+    "A293496",
+    "A305541"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

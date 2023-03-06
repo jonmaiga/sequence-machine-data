@@ -1,0 +1,27 @@
+{
+  "description": "Odd primes p such that 13 is a square mod p.",
+  "id": "A038883",
+  "mentions": [
+    "A000040",
+    "A038872",
+    "A038873",
+    "A038889",
+    "A068228",
+    "A120330",
+    "A141111",
+    "A141112",
+    "A141123",
+    "A296937"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:43:31",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

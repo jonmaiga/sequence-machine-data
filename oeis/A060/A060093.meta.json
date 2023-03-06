@@ -1,0 +1,22 @@
+{
+  "description": "Number of 5-block ordered bicoverings of an unlabeled n-set.",
+  "id": "A060093",
+  "mentions": [
+    "A059946",
+    "A060090",
+    "A060092",
+    "A060489"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:45",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

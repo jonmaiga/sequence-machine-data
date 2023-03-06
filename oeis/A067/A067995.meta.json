@@ -1,0 +1,20 @@
+{
+  "description": "Minimal number of coins needed to pay exactly n cents using coins of sizes 1, 2, 3, 5, 10, 20, 25, 50, 100 cents (all historical U.S.A. coinage from 1 to 100 cents).",
+  "id": "A067995",
+  "mentions": [
+    "A053344",
+    "A067996",
+    "A067997"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

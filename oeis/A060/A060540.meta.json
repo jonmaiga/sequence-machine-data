@@ -1,0 +1,50 @@
+{
+  "description": "Square array read by antidiagonals downwards: T(n,k) = (n*k)!/(k!^n*n!), (n>=1, k>=1), the number of ways of dividing nk labeled items into n unlabeled boxes with k items in each box.",
+  "id": "A060540",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A001147",
+    "A001700",
+    "A007318",
+    "A025035",
+    "A025036",
+    "A025037",
+    "A025038",
+    "A025040",
+    "A025041",
+    "A025042",
+    "A036040",
+    "A057599",
+    "A060358",
+    "A060538",
+    "A060542",
+    "A060543",
+    "A082368",
+    "A096126",
+    "A099174",
+    "A132440",
+    "A133314",
+    "A135278",
+    "A246048",
+    "A322252"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

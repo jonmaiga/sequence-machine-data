@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = least k such that s(k) = n+1, where s = A026354.",
+  "id": "A026355",
+  "mentions": [
+    "A000201",
+    "A005614",
+    "A007067",
+    "A019586",
+    "A026351",
+    "A026354"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:59",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

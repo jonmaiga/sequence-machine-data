@@ -1,0 +1,18 @@
+{
+  "description": "Pisot sequence L(9,10).",
+  "id": "A048592",
+  "mentions": [
+    "A008776"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

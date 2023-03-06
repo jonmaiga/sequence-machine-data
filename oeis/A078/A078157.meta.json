@@ -1,0 +1,23 @@
+{
+  "description": "A078152(2^n).",
+  "id": "A078157",
+  "mentions": [
+    "A078152",
+    "A078153",
+    "A078154",
+    "A078155",
+    "A078156",
+    "A078158"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

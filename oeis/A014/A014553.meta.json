@@ -1,0 +1,21 @@
+{
+  "description": "Maximal multiplicative persistence (or length) of any n-digit number.",
+  "id": "A014553",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A035927"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:53",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

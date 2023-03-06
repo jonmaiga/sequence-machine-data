@@ -1,0 +1,30 @@
+{
+  "description": "Numerator of sigma(4n)/sigma(n).",
+  "id": "A088839",
+  "mentions": [
+    "A000203",
+    "A006519",
+    "A038712",
+    "A065442",
+    "A080278",
+    "A088837",
+    "A088838",
+    "A088840",
+    "A088841",
+    "A096268",
+    "A193553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

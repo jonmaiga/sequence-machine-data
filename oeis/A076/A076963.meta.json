@@ -1,0 +1,15 @@
+{
+  "description": "Relatively prime numbers with nondecreasing number of divisors. a(1) = 1, tau(a(n+1)) >= tau(a(n)) and (a(n),a(n+1)) = 1.",
+  "id": "A076963",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

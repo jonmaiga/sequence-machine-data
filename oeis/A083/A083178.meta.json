@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with a digit sum of n and a maximum product of digits. In case of two identical products choose the largest number.",
+  "id": "A083178",
+  "mentions": [
+    "A000792"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

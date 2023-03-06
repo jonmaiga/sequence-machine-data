@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k), 1 <= k <= n, giving maximal size of code of length n and covering radius k over alphabet of size 4.",
+  "id": "A060440",
+  "mentions": [
+    "A060438",
+    "A060439"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

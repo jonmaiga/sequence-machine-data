@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers divisible by a square > 1.",
+  "id": "A053850",
+  "mentions": [
+    "A013929",
+    "A024556",
+    "A078837"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least inverse of A001390, or 0 if no inverse exists.",
+  "id": "A020638",
+  "mentions": [
+    "A001390"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

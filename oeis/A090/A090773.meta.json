@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are congruent to {4, 6} mod 10.",
+  "id": "A090773",
+  "mentions": [
+    "A047221",
+    "A090298"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:17",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

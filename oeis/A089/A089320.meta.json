@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n) = smallest multiple of n using nonzero digits beginning with the digit reversal of a(n-1), if n is not == 0 (mod 10), else a(10^r*k) =10^r*{digit Reversal of a(10^r*k-1)}.",
+  "id": "A089320",
+  "mentions": [
+    "A089321"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "13th cyclotomic polynomial evaluated at powers of 2.",
+  "id": "A020521",
+  "mentions": [
+    "A000079",
+    "A060887"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:58:00",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

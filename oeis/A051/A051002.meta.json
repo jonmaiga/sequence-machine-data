@@ -1,0 +1,25 @@
+{
+  "description": "Sum of 5th powers of odd divisors of n.",
+  "id": "A051002",
+  "mentions": [
+    "A000593",
+    "A001160",
+    "A001227",
+    "A050999",
+    "A051000",
+    "A051001",
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

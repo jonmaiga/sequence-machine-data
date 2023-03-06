@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Alladi-Grinstead constant exp(c-1), where c is given in A085361.",
+  "id": "A085291",
+  "mentions": [
+    "A085288",
+    "A085289",
+    "A085290",
+    "A085361"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

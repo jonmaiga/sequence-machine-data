@@ -1,0 +1,20 @@
+{
+  "description": "Table T(n,k), read by rows, related to a conjecture of P. Erdos (see A039669).",
+  "id": "A089654",
+  "mentions": [
+    "A039669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

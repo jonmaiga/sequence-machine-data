@@ -1,0 +1,15 @@
+{
+  "description": "Number of triples (x,y,z) of integers such that 0 <= x <= y < n, 0 <= z < n, n^2 = x^2 + y^2 - z^2.",
+  "id": "A089216",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=A082081[n! ]=A082081[A000142[n]] Fixed points of iterated A008475 function initiated at factorials as initial values.",
+  "id": "A082083",
+  "mentions": [
+    "A000142",
+    "A000961",
+    "A001414",
+    "A008475",
+    "A056239",
+    "A082081",
+    "A082084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

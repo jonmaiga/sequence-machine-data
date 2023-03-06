@@ -1,0 +1,18 @@
+{
+  "description": "A Beatty sequence using exp(Pi/4)/(exp(Pi/4)-1).",
+  "id": "A094391",
+  "mentions": [
+    "A094390"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

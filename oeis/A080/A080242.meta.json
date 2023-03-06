@@ -1,0 +1,26 @@
+{
+  "description": "Table of coefficients of polynomials P(n,x) defined by the relation P(n,x) = (1+x)*P(n-1,x) + (-x)^(n+1).",
+  "id": "A080242",
+  "mentions": [
+    "A001045",
+    "A035317",
+    "A059259",
+    "A059260",
+    "A072024",
+    "A108561",
+    "A112555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

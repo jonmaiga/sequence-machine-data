@@ -1,0 +1,23 @@
+{
+  "description": "Figurate numbers based on the 600-cell (4-D polytope with Schlaefli symbol {3,3,5}).",
+  "id": "A092182",
+  "mentions": [
+    "A000332",
+    "A000583",
+    "A014820",
+    "A092181",
+    "A092183"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:53:33",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

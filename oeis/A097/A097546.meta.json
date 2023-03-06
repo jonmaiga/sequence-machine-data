@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of \"Farey fraction\" approximations to Pi.",
+  "id": "A097546",
+  "mentions": [
+    "A001203",
+    "A002965",
+    "A097545"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

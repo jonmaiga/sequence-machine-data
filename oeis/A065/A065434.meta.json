@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of imaginary part of 2nd nontrivial zero of Riemann zeta function.",
+  "id": "A065434",
+  "mentions": [
+    "A002410",
+    "A013629",
+    "A058303",
+    "A065452",
+    "A065453",
+    "A192492",
+    "A305741",
+    "A305742",
+    "A305743",
+    "A305744",
+    "A306004"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies both A(-x)*A(x) = A(x^2) and xA(x)^2 = B(xA(x^2)) where B(x) = x*(1+x)/(1-x).",
+  "id": "A091188",
+  "mentions": [
+    "A085748",
+    "A091190",
+    "A091200",
+    "A092869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

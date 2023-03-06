@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are inconsummate to some base.",
+  "id": "A058225",
+  "mentions": [
+    "A058226"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

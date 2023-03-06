@@ -1,0 +1,16 @@
+{
+  "description": "Array T read by diagonals; T(i,j)=number of lattice points in triangle (possibly degenerate) with vertices (0,0),(i,0),(i,j).",
+  "id": "A049727",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:55",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

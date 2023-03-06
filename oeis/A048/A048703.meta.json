@@ -1,0 +1,28 @@
+{
+  "description": "Numbers which in base 4 are palindromes and have an even number of digits.",
+  "id": "A048703",
+  "mentions": [
+    "A000302",
+    "A000523",
+    "A007090",
+    "A014192",
+    "A030103",
+    "A048701",
+    "A048704",
+    "A055948",
+    "A110591",
+    "A118595"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:30:15",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

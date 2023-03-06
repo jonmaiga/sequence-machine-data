@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that first n primes (p_1=2, ..., p_n) are 17th power residues mod p.",
+  "id": "A060364",
+  "mentions": [
+    "A002223",
+    "A002228",
+    "A060363"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

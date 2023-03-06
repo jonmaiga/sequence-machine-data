@@ -1,0 +1,25 @@
+{
+  "description": "Square table T, read by antidiagonals, where T(n,k) gives the number of n-th generation descendents of a node labeled (k) in the tree of tournament sequences.",
+  "id": "A093729",
+  "mentions": [
+    "A008934",
+    "A093730",
+    "A097710",
+    "A113080",
+    "A113081",
+    "A113092",
+    "A113103"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:07:30",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Function f(x) = phi(x) + floor(x/2) is iterated, starting at x=n; a(n) is the length of terminal cycle (or 0 if no finite cycle exists).",
+  "id": "A097026",
+  "mentions": [
+    "A000010",
+    "A097027",
+    "A097028",
+    "A097029"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

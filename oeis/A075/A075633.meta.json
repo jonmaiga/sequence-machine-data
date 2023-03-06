@@ -1,0 +1,20 @@
+{
+  "description": "Initial terms of groups in A075631.",
+  "id": "A075633",
+  "mentions": [
+    "A075631",
+    "A075632",
+    "A075634"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

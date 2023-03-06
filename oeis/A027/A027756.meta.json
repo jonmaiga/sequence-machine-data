@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^2 + k + 7 is prime.",
+  "id": "A027756",
+  "mentions": [
+    "A005471"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:27",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the first moments of all partitions of n.",
+  "id": "A066184",
+  "mentions": [
+    "A066183",
+    "A066185",
+    "A066186"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

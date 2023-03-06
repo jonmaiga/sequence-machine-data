@@ -1,0 +1,26 @@
+{
+  "description": "Values of n for which pi_{4,3}(p_n) - pi_{4,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A051024",
+  "mentions": [
+    "A007350",
+    "A007351",
+    "A038691",
+    "A051025",
+    "A066520",
+    "A096447",
+    "A096448",
+    "A096628",
+    "A156749",
+    "A199547"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

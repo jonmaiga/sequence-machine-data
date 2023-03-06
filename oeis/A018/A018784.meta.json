@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(phi(n)) = n.",
+  "id": "A018784",
+  "mentions": [
+    "A001229",
+    "A019434",
+    "A097645",
+    "A097646"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

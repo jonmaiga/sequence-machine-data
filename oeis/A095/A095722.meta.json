@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: exp(x)/(1-x)^8.",
+  "id": "A095722",
+  "mentions": [
+    "A000522",
+    "A001339",
+    "A082030",
+    "A094816",
+    "A095000",
+    "A095177",
+    "A096307",
+    "A096341"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

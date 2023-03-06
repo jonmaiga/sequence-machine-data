@@ -1,0 +1,22 @@
+{
+  "description": "The decimal expansion of c^c^c^... where c is the constant defined in A037077.",
+  "id": "A052110",
+  "mentions": [
+    "A000027",
+    "A000312",
+    "A002488",
+    "A037077",
+    "A073230"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:41",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

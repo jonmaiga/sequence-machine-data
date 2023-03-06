@@ -1,0 +1,21 @@
+{
+  "description": "Brilliant star numbers: semiprimes of the form 6n^2 - 6n + 1 such that both prime factors have the same number of decimal digits.",
+  "id": "A083749",
+  "mentions": [
+    "A003154",
+    "A063773",
+    "A078972",
+    "A218172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

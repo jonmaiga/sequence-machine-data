@@ -1,0 +1,27 @@
+{
+  "description": "Values of phi(n) corresponding to A035113.",
+  "id": "A035114",
+  "mentions": [
+    "A000010",
+    "A002181",
+    "A002202",
+    "A007614",
+    "A014197",
+    "A016825",
+    "A032447",
+    "A035113",
+    "A058277"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Exponents of 2 when A068496(n) is also a power of 2.",
+  "id": "A070035",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A068496",
+    "A070034",
+    "A070036"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

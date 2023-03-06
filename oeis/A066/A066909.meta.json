@@ -1,0 +1,19 @@
+{
+  "description": "(product of primes < n that do not divide n) (mod n).",
+  "id": "A066909",
+  "mentions": [
+    "A062347",
+    "A066838"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

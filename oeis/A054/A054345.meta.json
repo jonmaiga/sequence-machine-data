@@ -1,0 +1,23 @@
+{
+  "description": "Number of inequivalent sublattices of index n in square lattice, where two lattices are considered equivalent if one can be rotated to give the other.",
+  "id": "A054345",
+  "mentions": [
+    "A001615",
+    "A003051",
+    "A054346",
+    "A054384",
+    "A145392"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

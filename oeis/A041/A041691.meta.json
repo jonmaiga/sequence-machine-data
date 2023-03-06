@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(365).",
+  "id": "A041691",
+  "mentions": [
+    "A040345",
+    "A041690",
+    "A176980"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:52",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient triangle of polynomials used for numerator of g.f.s for column sequences of array A078739.",
+  "id": "A089276",
+  "mentions": [
+    "A078739",
+    "A089275"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

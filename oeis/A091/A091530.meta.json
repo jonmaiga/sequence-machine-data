@@ -1,0 +1,17 @@
+{
+  "description": "Sum {k=1 to n} H(k) k! (n-k)!, where H(k) is the k-th harmonic number.",
+  "id": "A091530",
+  "mentions": [
+    "A091528"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Odious numbers (see A000069) in A003159.",
+  "id": "A091855",
+  "mentions": [
+    "A000069",
+    "A003159",
+    "A007413",
+    "A010060",
+    "A029883",
+    "A033485",
+    "A036554",
+    "A036577",
+    "A036585",
+    "A050292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

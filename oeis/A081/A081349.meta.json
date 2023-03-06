@@ -1,0 +1,23 @@
+{
+  "description": "Square maze arrangement of the natural numbers, read by antidiagonals.",
+  "id": "A081349",
+  "mentions": [
+    "A000217",
+    "A081344",
+    "A081350",
+    "A081351",
+    "A081352",
+    "A093650"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

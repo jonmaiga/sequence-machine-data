@@ -1,0 +1,21 @@
+{
+  "description": "Lesser of three consecutive nonsquare integers each of which is the sum of two squares.",
+  "id": "A073412",
+  "mentions": [
+    "A000404",
+    "A000415",
+    "A001481",
+    "A064715",
+    "A064716"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

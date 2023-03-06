@@ -1,0 +1,19 @@
+{
+  "description": "\"Compact\" numbers: see reference for definition.",
+  "id": "A070566",
+  "mentions": [
+    "A062329",
+    "A079603",
+    "A145554"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

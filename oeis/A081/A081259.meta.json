@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that C(3n,n) divides k!.",
+  "id": "A081259",
+  "mentions": [
+    "A060308",
+    "A151799"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

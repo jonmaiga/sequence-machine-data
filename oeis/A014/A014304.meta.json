@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(exp(x)*(2-exp(x))).",
+  "id": "A014304",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

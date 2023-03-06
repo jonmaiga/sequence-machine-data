@@ -1,0 +1,23 @@
+{
+  "description": "Number of 4k+3 primes whose Legendre-vector is a Dyck-path (A095102) in range ]2^n,2^(n+1)].",
+  "id": "A095092",
+  "mentions": [
+    "A095008",
+    "A095062",
+    "A095090",
+    "A095093",
+    "A095102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that there exist exactly 2 Abelian groups of order n, i.e., A000688(n) = 2.",
+  "id": "A060687",
+  "mentions": [
+    "A000688",
+    "A001221",
+    "A001222",
+    "A013661",
+    "A046660",
+    "A179119",
+    "A271971"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

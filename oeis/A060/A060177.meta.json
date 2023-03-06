@@ -1,0 +1,30 @@
+{
+  "description": "Triangle of generalized sum of divisors function, read by rows.",
+  "id": "A060177",
+  "mentions": [
+    "A000005",
+    "A000070",
+    "A002133",
+    "A002134",
+    "A003056",
+    "A058884",
+    "A060043",
+    "A060044",
+    "A116608"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

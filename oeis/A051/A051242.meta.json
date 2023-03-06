@@ -1,0 +1,19 @@
+{
+  "description": "Array T by antidiagonals; T(n,k)=k-th binary number d(1),...,d(j) for which exactly n digits d(i) satisfy d(i)=d(j+1-i) (n=0,1,2,...; k=1,2,3,..).",
+  "id": "A051242",
+  "mentions": [
+    "A035928"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:33",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

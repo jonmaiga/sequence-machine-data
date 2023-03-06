@@ -1,0 +1,30 @@
+{
+  "description": "Number of j (0 <= j <= n) such that the central binomial coefficient C(n,floor(n/2)) = A001405(n) is divisible by C(n,j).",
+  "id": "A080383",
+  "mentions": [
+    "A000225",
+    "A001405",
+    "A020475",
+    "A022292",
+    "A042996",
+    "A057977",
+    "A067348",
+    "A080384",
+    "A080385",
+    "A080386",
+    "A080387",
+    "A080393",
+    "A327430",
+    "A327431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

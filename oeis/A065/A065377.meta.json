@@ -1,0 +1,18 @@
+{
+  "description": "Primes not of the form p + k^2, with p prime and k > 0.",
+  "id": "A065377",
+  "mentions": [
+    "A000040",
+    "A065376"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

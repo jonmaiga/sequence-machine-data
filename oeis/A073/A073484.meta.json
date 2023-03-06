@@ -1,0 +1,27 @@
+{
+  "description": "Number of gaps in factors of the n-th squarefree number.",
+  "id": "A073484",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A006094",
+    "A073483",
+    "A073485",
+    "A073486",
+    "A073487",
+    "A073488",
+    "A073489"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

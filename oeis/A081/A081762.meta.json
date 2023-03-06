@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p*(p-2) divides 2^(p-1)-1.",
+  "id": "A081762",
+  "mentions": [
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

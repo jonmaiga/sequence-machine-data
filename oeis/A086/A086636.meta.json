@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients, read by rows, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = (3-sqrt(1-4x))/2 + xy*f(x,y)^3.",
+  "id": "A086636",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A086637"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

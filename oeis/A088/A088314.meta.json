@@ -1,0 +1,22 @@
+{
+  "description": "Cardinality of set of sets of parts of all partitions of n.",
+  "id": "A088314",
+  "mentions": [
+    "A007947",
+    "A056239",
+    "A070880",
+    "A182410"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

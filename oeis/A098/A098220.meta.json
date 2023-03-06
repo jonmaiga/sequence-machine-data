@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(sigma(sigma(p))/p) = floor(sigma(p+1)/p) = floor(A008333(n)/p), where p is the n-th prime number.",
+  "id": "A098220",
+  "mentions": [
+    "A000203",
+    "A008333",
+    "A051027",
+    "A098219",
+    "A098221",
+    "A098222"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

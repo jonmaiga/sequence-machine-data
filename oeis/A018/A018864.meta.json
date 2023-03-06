@@ -1,0 +1,16 @@
+{
+  "description": "6^a(n) is smallest power of 6 beginning with n.",
+  "id": "A018864",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

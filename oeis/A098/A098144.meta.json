@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest number greater than a(n-1) having a largest proper divisor that is greater than and coprime to a(n-1); a(1) = 1.",
+  "id": "A098144",
+  "mentions": [
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

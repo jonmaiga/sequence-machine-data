@@ -1,0 +1,31 @@
+{
+  "description": "Numbers n such that 2^n + 19 is prime.",
+  "id": "A057221",
+  "mentions": [
+    "A019434",
+    "A057195",
+    "A057196",
+    "A057197",
+    "A057200",
+    "A057201",
+    "A057203",
+    "A057732",
+    "A059242",
+    "A102633",
+    "A102634",
+    "A223607",
+    "A253774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

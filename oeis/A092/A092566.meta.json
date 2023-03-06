@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of triangle A092565, in which the n-th row polynomial equals the numerator of the n-th convergent of the continued fraction [1 + x + x^2; 1 + x + x^2, 1 + x + x^2, ...].",
+  "id": "A092566",
+  "mentions": [
+    "A037027",
+    "A092565"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

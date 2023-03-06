@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive power of 4 having n in its decimal representation.",
+  "id": "A063567",
+  "mentions": [
+    "A062521"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

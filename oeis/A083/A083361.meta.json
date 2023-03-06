@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of sequence A083359 in which every prime factor can be found in the number at least as often as it is factor of the number.",
+  "id": "A083361",
+  "mentions": [
+    "A083359",
+    "A083360"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

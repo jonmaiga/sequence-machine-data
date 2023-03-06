@@ -1,0 +1,21 @@
+{
+  "description": "e-perfect numbers: numbers k such that the sum of the e-divisors (exponential divisors) of k equals 2*k.",
+  "id": "A054979",
+  "mentions": [
+    "A049419",
+    "A051377",
+    "A054980",
+    "A219016"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

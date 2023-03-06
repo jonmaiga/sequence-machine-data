@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = largest prime of the form n!/k! + 1.",
+  "id": "A093437",
+  "mentions": [
+    "A002981",
+    "A088332",
+    "A093621"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

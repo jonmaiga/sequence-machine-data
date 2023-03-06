@@ -1,0 +1,19 @@
+{
+  "description": "Least k>0 such that rad(n+k) > rad(n), where rad is the squarefree kernel (A007947).",
+  "id": "A079229",
+  "mentions": [
+    "A007947",
+    "A020754",
+    "A079228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

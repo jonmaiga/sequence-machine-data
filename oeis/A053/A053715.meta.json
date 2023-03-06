@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n-th triangular number (the sum of the first n integers) in base n.",
+  "id": "A053715",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:51",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

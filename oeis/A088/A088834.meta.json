@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that sigma(k) == 6 (mod k).",
+  "id": "A088834",
+  "mentions": [
+    "A045768",
+    "A045769",
+    "A045770",
+    "A054024",
+    "A059609",
+    "A076496",
+    "A077374",
+    "A087167",
+    "A088012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

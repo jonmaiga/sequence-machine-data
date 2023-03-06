@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that uphi(sigma(m)) = 2m, where the unitary phi function (A047994) is defined by: if x = p1^r1*p2^r2*p3^r3*... then uphi(x) = (p1^r1 - 1)*(p2^r2 - 1)*(p3^r3 - 1)*...",
+  "id": "A030165",
+  "mentions": [
+    "A030164",
+    "A047994"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

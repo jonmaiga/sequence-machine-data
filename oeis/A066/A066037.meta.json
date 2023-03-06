@@ -1,0 +1,25 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles in the binary n-cube, or the number of cyclic n-bit Gray codes.",
+  "id": "A066037",
+  "mentions": [
+    "A003042",
+    "A003043",
+    "A006069",
+    "A006070",
+    "A091299",
+    "A091302",
+    "A236602"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

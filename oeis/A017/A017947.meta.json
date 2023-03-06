@@ -1,0 +1,15 @@
+{
+  "description": "Powers of sqrt(14) rounded to nearest integer.",
+  "id": "A017947",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

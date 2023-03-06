@@ -1,0 +1,22 @@
+{
+  "description": "\"Sum of n first primes\" minus \"sum of first n nonprimes\".",
+  "id": "A071411",
+  "mentions": [
+    "A007504",
+    "A014237",
+    "A024850",
+    "A051349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

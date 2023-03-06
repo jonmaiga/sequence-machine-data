@@ -1,0 +1,19 @@
+{
+  "description": "Position of A051912 in A093110. a(n) is the number of integers < A051912(n) that can be expressed as a sum of three terms from A051912.",
+  "id": "A093111",
+  "mentions": [
+    "A051912",
+    "A093110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

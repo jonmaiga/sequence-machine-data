@@ -1,0 +1,28 @@
+{
+  "description": "Iphi(n): infinitary analog of Euler's phi function.",
+  "id": "A091732",
+  "mentions": [
+    "A007947",
+    "A037445",
+    "A049417",
+    "A050376",
+    "A064179",
+    "A064380",
+    "A300841",
+    "A302777",
+    "A323413"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

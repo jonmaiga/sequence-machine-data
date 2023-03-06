@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of -3*n + 2*(1+n)*HarmonicNumber(n).",
+  "id": "A096620",
+  "mentions": [
+    "A063090",
+    "A093418",
+    "A093419",
+    "A115107",
+    "A288964"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

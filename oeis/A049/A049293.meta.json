@@ -1,0 +1,23 @@
+{
+  "description": "Number of subgroups of index 3 in fundamental group of a closed surface of characteristic -n.",
+  "id": "A049293",
+  "mentions": [
+    "A003319",
+    "A027837",
+    "A049290",
+    "A049295"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": -2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

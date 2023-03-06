@@ -1,0 +1,22 @@
+{
+  "description": "Index of first occurrence of n in A048288.",
+  "id": "A050678",
+  "mentions": [
+    "A000422",
+    "A048288",
+    "A050676"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

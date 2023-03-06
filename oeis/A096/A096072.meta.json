@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose position is not changed by the rearrangement defined by A096070; or k such that A096070(k) = k.",
+  "id": "A096072",
+  "mentions": [
+    "A096070"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

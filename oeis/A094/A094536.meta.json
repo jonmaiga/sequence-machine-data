@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary words of length n that are not \"bifix-free\".",
+  "id": "A094536",
+  "mentions": [
+    "A003000",
+    "A094537",
+    "A254128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

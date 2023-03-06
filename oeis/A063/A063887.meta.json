@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-step walks on a square lattice starting from the origin but not returning to it at any stage.",
+  "id": "A063887",
+  "mentions": [
+    "A001620",
+    "A054474"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

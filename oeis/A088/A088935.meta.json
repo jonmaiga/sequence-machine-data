@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that leading digits of 2^n and 5^n are equal.",
+  "id": "A088935",
+  "mentions": [
+    "A088995"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "[ 4th elementary symmetric function of {log(k)} ], k = 2,3,...,n.",
+  "id": "A025204",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 5,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "For n <= 6, entry of maximal modulus in the inverse of the n-th Hilbert matrix. For n >= 3, this is the (n-1,n-1)-th entry.",
+  "id": "A061065",
+  "mentions": [
+    "A000515",
+    "A005249",
+    "A210356",
+    "A210357"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

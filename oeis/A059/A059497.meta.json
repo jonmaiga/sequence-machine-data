@@ -1,0 +1,18 @@
+{
+  "description": "Primes omitted from A059496.",
+  "id": "A059497",
+  "mentions": [
+    "A059496"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

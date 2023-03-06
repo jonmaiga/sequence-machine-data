@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = numerator(n!/n^2).",
+  "id": "A092043",
+  "mentions": [
+    "A000142",
+    "A001819",
+    "A014973",
+    "A027641",
+    "A027642",
+    "A048993",
+    "A048994",
+    "A181569"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

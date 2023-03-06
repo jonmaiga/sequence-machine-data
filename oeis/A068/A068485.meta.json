@@ -1,0 +1,21 @@
+{
+  "description": "One-sixtieth of the even leg of Pythagorean triangles whose other sides are both primes (other than 3, 5 or 13).",
+  "id": "A068485",
+  "mentions": [
+    "A048161",
+    "A067755",
+    "A067756",
+    "A263951"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

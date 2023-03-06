@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma_2(n) - sigma_1(n).",
+  "id": "A086666",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A052847",
+    "A069153",
+    "A092348"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:19",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonempty subsequences {s(k)} of 1..n such that the difference sequence is palindromic.",
+  "id": "A053599",
+  "mentions": [
+    "A016116",
+    "A027383",
+    "A152202"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

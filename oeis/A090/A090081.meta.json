@@ -1,0 +1,29 @@
+{
+  "description": "Cube root-smooth numbers: numbers k whose largest prime factor does not exceed the cube root of k.",
+  "id": "A090081",
+  "mentions": [
+    "A001248",
+    "A006530",
+    "A036966",
+    "A048098",
+    "A054744",
+    "A059172",
+    "A063763",
+    "A068936",
+    "A076405",
+    "A076467",
+    "A175475"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

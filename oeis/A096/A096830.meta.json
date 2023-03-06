@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes in neighborhood with center=n! and radius = ceiling(log(n!)).",
+  "id": "A096830",
+  "mentions": [
+    "A000142",
+    "A096509",
+    "A096523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

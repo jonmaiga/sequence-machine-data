@@ -1,0 +1,20 @@
+{
+  "description": "Squares mod 79.",
+  "id": "A010440",
+  "mentions": [
+    "A028792"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

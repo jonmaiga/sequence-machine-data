@@ -1,0 +1,17 @@
+{
+  "description": "Nonprimes n such that (3/2)*(1/n)*(2*n+1)*(3^n+1)*B(2*n) is an integer, where B(k) denotes the k-th Bernoulli number.",
+  "id": "A090825",
+  "mentions": [
+    "A053176"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

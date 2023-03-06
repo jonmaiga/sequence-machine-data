@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with at least as many non-unitary divisors (A048105) as unitary divisors (A034444).",
+  "id": "A048108",
+  "mentions": [
+    "A013929",
+    "A034444",
+    "A048105",
+    "A048107",
+    "A059956",
+    "A060687",
+    "A271971"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

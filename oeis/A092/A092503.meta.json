@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^floor(n/2).",
+  "id": "A092503",
+  "mentions": [
+    "A000312",
+    "A078707"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

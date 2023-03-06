@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = N(7,n), where N(7,x) is the 7th Narayana polynomial.",
+  "id": "A090200",
+  "mentions": [
+    "A001263",
+    "A008550",
+    "A090198",
+    "A090199"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:07",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

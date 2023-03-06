@@ -1,0 +1,17 @@
+{
+  "description": "3 and -3 are both 4th powers (one implies other) mod these primes p=1 mod 8.",
+  "id": "A014755",
+  "mentions": [
+    "A007519"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

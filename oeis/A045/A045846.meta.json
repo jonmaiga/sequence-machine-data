@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct ways to cut an n X n square into squares with integer sides.",
+  "id": "A045846",
+  "mentions": [
+    "A034295",
+    "A063443",
+    "A211348",
+    "A219924",
+    "A224239",
+    "A226554",
+    "A226936"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

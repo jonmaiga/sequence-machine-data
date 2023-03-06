@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of coefficients of polynomials H(n,x) formed from the first (n+1) terms of the power series expansion of ( -x/log(1-x) )^(n+1), multiplied by n!.",
+  "id": "A075263",
+  "mentions": [
+    "A008292",
+    "A009006",
+    "A028246",
+    "A075264",
+    "A084938",
+    "A123125"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

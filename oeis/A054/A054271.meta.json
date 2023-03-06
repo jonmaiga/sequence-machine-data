@@ -1,0 +1,28 @@
+{
+  "description": "Difference between prime(n)^2 and the previous prime.",
+  "id": "A054271",
+  "mentions": [
+    "A001223",
+    "A001248",
+    "A054270",
+    "A091666",
+    "A133517",
+    "A133518",
+    "A133519",
+    "A133520",
+    "A133521",
+    "A133522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:17:33",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

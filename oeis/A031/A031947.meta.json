@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in which 0,1,2,3,4,5 all occur in base 6.",
+  "id": "A031947",
+  "mentions": [
+    "A007092",
+    "A023744"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

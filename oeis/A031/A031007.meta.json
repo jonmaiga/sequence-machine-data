@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k): Write n in base 7, reverse order of digits, to get row n.",
+  "id": "A031007",
+  "mentions": [
+    "A030308",
+    "A030341",
+    "A030386",
+    "A030567",
+    "A031045",
+    "A031087",
+    "A031235",
+    "A031298"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:03",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

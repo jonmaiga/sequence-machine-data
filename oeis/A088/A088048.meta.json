@@ -1,0 +1,19 @@
+{
+  "description": "Let S(k) be the set of absolute differences of pairs of primes <= k. a(n) is the least k such that S(k) contains all residues mod prime(n).",
+  "id": "A088048",
+  "mentions": [
+    "A088046",
+    "A088047",
+    "A109257"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

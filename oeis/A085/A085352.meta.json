@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1-4x)/((1-5x)(1-6x)).",
+  "id": "A085352",
+  "mentions": [
+    "A085351",
+    "A085353"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

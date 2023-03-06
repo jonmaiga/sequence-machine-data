@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that concatenation of k and prime(n) is a prime, or 0 if no other number exists. a(1) = a(3) = 0.",
+  "id": "A088606",
+  "mentions": [
+    "A065112",
+    "A096915"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

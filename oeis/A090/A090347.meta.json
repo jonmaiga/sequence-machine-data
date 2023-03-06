@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled trees with n nodes and even number of leaves minus number of labeled trees with n nodes and odd number of leaves.",
+  "id": "A090347",
+  "mentions": [
+    "A055314"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

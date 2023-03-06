@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyominoes with n cells without holes that do not tile the plane.",
+  "id": "A054361",
+  "mentions": [
+    "A000104",
+    "A054360",
+    "A070768",
+    "A071334"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

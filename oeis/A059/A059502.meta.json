@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = (3*n*F(2n-1) + (3-n)*F(2n))/5 where F() = Fibonacci numbers A000045.",
+  "id": "A059502",
+  "mentions": [
+    "A000045",
+    "A000667",
+    "A001519",
+    "A001871",
+    "A027994",
+    "A059216",
+    "A059219",
+    "A059503",
+    "A059512",
+    "A147703"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:43:15",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sums of two squares and divisible by 13.",
+  "id": "A098961",
+  "mentions": [
+    "A001481",
+    "A008595",
+    "A094447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

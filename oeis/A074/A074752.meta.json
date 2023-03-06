@@ -1,0 +1,20 @@
+{
+  "description": "Number of combinatorially inequivalent cyclic subgroups of S_n of order 6. Number of partitions of n of order 6.",
+  "id": "A074752",
+  "mentions": [
+    "A256067",
+    "A256554"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:57",
+    "offset": 5,
+    "size": 56,
+    "source": "joeis"
+  }
+}

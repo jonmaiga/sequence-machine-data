@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of two 4th powers in more than one way.",
+  "id": "A018786",
+  "mentions": [
+    "A001235",
+    "A003336",
+    "A003824",
+    "A024508",
+    "A255351",
+    "A255352",
+    "A309762"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

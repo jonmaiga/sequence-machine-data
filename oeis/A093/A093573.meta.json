@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n gives positions where n occurs in the Golay-Rudin-Shapiro related sequence A020986.",
+  "id": "A093573",
+  "mentions": [
+    "A020985",
+    "A020986",
+    "A020991",
+    "A212591"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

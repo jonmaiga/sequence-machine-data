@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of Sum_{k=0..n} binomial(n,k)/(n^2+k^2+1).",
+  "id": "A086721",
+  "mentions": [
+    "A086720"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

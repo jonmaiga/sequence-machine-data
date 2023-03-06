@@ -1,0 +1,23 @@
+{
+  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; the n-th Lucas number is in antidiagonal a(n).",
+  "id": "A057045",
+  "mentions": [
+    "A000032",
+    "A022846",
+    "A057048",
+    "A057054",
+    "A057057",
+    "A057062"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

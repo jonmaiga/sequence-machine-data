@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-5 representation contains exactly one 1 and no 2's.",
+  "id": "A045221",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:17",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

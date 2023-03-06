@@ -1,0 +1,15 @@
+{
+  "description": "Number of inequivalent linear projective ternary codes of length n (i.e., with distinct columns and without zero columns). Also the number of nonisomorphic simple ternary matroids on an n-set.",
+  "id": "A076894",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

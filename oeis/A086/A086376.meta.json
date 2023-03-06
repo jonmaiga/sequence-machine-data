@@ -1,0 +1,21 @@
+{
+  "description": "Maximal coefficient of the polynomial (1-x)*(1-x^2)*...*(1-x^n).",
+  "id": "A086376",
+  "mentions": [
+    "A000980",
+    "A025591",
+    "A086781",
+    "A160089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

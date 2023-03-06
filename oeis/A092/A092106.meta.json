@@ -1,0 +1,18 @@
+{
+  "description": "Fractal mountains in base 3.",
+  "id": "A092106",
+  "mentions": [
+    "A005536"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

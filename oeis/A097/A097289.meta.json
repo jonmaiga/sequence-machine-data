@@ -1,0 +1,20 @@
+{
+  "description": "Contains exactly once every pair (i,j) satisfying 0 < i <= j.",
+  "id": "A097289",
+  "mentions": [
+    "A097283",
+    "A097290",
+    "A097291"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

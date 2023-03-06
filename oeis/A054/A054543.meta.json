@@ -1,0 +1,25 @@
+{
+  "description": "Engel series expansion (or \"Egyptian product\") for Catalan's constant G.",
+  "id": "A054543",
+  "mentions": [
+    "A006752",
+    "A006784",
+    "A014538",
+    "A028254",
+    "A028257",
+    "A104338",
+    "A118323",
+    "A153069",
+    "A153070"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

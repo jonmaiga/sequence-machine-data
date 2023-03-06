@@ -1,0 +1,25 @@
+{
+  "description": "Smallest of three consecutive primes whose sum is a prime.",
+  "id": "A073681",
+  "mentions": [
+    "A034962",
+    "A152468",
+    "A152469",
+    "A152470",
+    "A174742",
+    "A180948",
+    "A180950",
+    "A189571",
+    "A226380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

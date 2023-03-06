@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n without rotational symmetry (or 1-fold symmetry).",
+  "id": "A085436",
+  "mentions": [
+    "A084423"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that tau(n) > tau(n+1) where tau(x) = A000005(x).",
+  "id": "A074827",
+  "mentions": [
+    "A000005",
+    "A074775"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

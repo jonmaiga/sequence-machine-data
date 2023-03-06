@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that every prefix and suffix is 1 or a prime.",
+  "id": "A012884",
+  "mentions": [
+    "A012883",
+    "A068669",
+    "A143390"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

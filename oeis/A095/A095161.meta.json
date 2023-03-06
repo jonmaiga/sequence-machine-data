@@ -1,0 +1,17 @@
+{
+  "description": "n occurs n times, with distinct successive terms.",
+  "id": "A095161",
+  "mentions": [
+    "A095162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

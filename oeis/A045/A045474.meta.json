@@ -1,0 +1,17 @@
+{
+  "description": "Normalized extreme values for \"3x+1\" trees of depth n.",
+  "id": "A045474",
+  "mentions": [
+    "A045476"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

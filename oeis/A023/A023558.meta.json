@@ -1,0 +1,17 @@
+{
+  "description": "Convolution of A023531 and Lucas numbers.",
+  "id": "A023558",
+  "mentions": [
+    "A023531"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:52:28",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

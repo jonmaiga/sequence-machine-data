@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for (3+sqrt 3)/2; complement of A022838.",
+  "id": "A054406",
+  "mentions": [
+    "A022838",
+    "A026255",
+    "A182778",
+    "A184799",
+    "A194143",
+    "A194979"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

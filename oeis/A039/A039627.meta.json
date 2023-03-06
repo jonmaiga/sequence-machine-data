@@ -1,0 +1,17 @@
+{
+  "description": "Number of planar simply-connected mono-q-polyhexes for q=3.",
+  "id": "A039627",
+  "mentions": [
+    "A018190"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, then the smallest prime divisor of A065447(n) not included earlier.",
+  "id": "A087552",
+  "mentions": [
+    "A002275",
+    "A065447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

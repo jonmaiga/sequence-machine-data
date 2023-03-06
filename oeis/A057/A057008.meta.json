@@ -1,0 +1,19 @@
+{
+  "description": "Number of conjugacy classes of subgroups of index n in free group of rank 5.",
+  "id": "A057008",
+  "mentions": [
+    "A057004",
+    "A057013",
+    "A160447"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

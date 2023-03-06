@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime of the form abs(n^k - k^n), the absolute difference between n^k and k^n, or -1 if no such prime exists.",
+  "id": "A078202",
+  "mentions": [
+    "A078201",
+    "A122735",
+    "A123701"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

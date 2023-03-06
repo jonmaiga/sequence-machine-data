@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = greatest number in row n of array T given by A027011.",
+  "id": "A027020",
+  "mentions": [
+    "A027011"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:31:21",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

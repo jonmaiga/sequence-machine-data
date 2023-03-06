@@ -1,0 +1,28 @@
+{
+  "description": "Triangle: T(n,k) is the number of partitions of n such that some part is repeated k times and no part is repeated more than k times.",
+  "id": "A091602",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A091603",
+    "A091604",
+    "A091605",
+    "A091609",
+    "A213177",
+    "A232697",
+    "A264397"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

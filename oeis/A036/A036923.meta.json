@@ -1,0 +1,20 @@
+{
+  "description": "Odd composite numbers n such that the digit sum of n equals digit sum of sum of its prime factors (counted with multiplicity).",
+  "id": "A036923",
+  "mentions": [
+    "A006753",
+    "A019506",
+    "A036920"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:09",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

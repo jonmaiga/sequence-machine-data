@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 9^k + 3^k.",
+  "id": "A045588",
+  "mentions": [
+    "A074610"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

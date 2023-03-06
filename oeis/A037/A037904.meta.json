@@ -1,0 +1,25 @@
+{
+  "description": "Greatest digit of n - least digit of n.",
+  "id": "A037904",
+  "mentions": [
+    "A000030",
+    "A010785",
+    "A010879",
+    "A040163",
+    "A054054",
+    "A054055",
+    "A064834"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

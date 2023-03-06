@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number such that the concatenation of a(1)a(2)a(3)...a(n) is divisible by n.",
+  "id": "A051883",
+  "mentions": [
+    "A082399",
+    "A336399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

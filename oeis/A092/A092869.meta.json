@@ -1,0 +1,29 @@
+{
+  "description": "Series expansion of the Ramanujan-Goellnitz-Gordon continued fraction.",
+  "id": "A092869",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003823",
+    "A010054",
+    "A010815",
+    "A069910",
+    "A069911",
+    "A083365",
+    "A091188",
+    "A111374",
+    "A121373",
+    "A226559"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:20:05",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

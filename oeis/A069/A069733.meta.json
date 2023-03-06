@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors d of n such that d or n/d is odd. Number of non-orientable coverings of the Klein bottle with n lists.",
+  "id": "A069733",
+  "mentions": [
+    "A000005",
+    "A000265",
+    "A001620",
+    "A028234",
+    "A046897",
+    "A067029",
+    "A069184"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

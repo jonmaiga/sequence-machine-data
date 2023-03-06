@@ -1,0 +1,17 @@
+{
+  "description": "Satisfies Sum_{n>=0} a(n)*x^n/n! = log(f(x)) = series reversion of x*f(x), where f(x*f(x)) = exp(x) and f(x) = Sum_{n>=0} A087961(n)*x^n/n!.",
+  "id": "A087962",
+  "mentions": [
+    "A087961"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

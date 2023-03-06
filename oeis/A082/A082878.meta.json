@@ -1,0 +1,19 @@
+{
+  "description": "Arithmetic derivative of numbers of the form p*q^k with distinct primes p and q, k>0.",
+  "id": "A082878",
+  "mentions": [
+    "A003415",
+    "A084227"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

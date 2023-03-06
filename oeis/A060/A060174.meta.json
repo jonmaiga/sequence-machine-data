@@ -1,0 +1,25 @@
+{
+  "description": "Dimensions of graded algebra associated with forest meanders.",
+  "id": "A060174",
+  "mentions": [
+    "A005315",
+    "A060066",
+    "A060089",
+    "A060111",
+    "A060148",
+    "A060149",
+    "A060198",
+    "A060206"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

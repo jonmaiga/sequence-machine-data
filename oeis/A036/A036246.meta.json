@@ -1,0 +1,20 @@
+{
+  "description": "CONTINUANT transform of squares 1, 4, 9, ...",
+  "id": "A036246",
+  "mentions": [
+    "A036245",
+    "A073824"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

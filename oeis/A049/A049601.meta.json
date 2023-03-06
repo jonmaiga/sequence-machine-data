@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=Sum{T(2i,n-2i): i=0,1,...,[ n/2 ]}, array T as in A049600.",
+  "id": "A049601",
+  "mentions": [
+    "A049600",
+    "A049602"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:39:27",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

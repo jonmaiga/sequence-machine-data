@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of times we must iterate A097246, starting at n, before the result is squarefree.",
+  "id": "A097249",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A097246",
+    "A097248",
+    "A097250",
+    "A277899"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

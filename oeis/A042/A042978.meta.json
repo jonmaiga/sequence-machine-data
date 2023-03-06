@@ -1,0 +1,20 @@
+{
+  "description": "Stern primes: primes not of the form p + 2b^2 for p prime and b > 0.",
+  "id": "A042978",
+  "mentions": [
+    "A000040",
+    "A001105",
+    "A060003"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

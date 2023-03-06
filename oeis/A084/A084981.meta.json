@@ -1,0 +1,18 @@
+{
+  "description": "Numbers all of whose proper divisors are palindromic.",
+  "id": "A084981",
+  "mentions": [
+    "A062687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

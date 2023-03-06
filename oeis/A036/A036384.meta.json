@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd split numbers (A036382) in the interval [2^(n-1), 2^n].",
+  "id": "A036384",
+  "mentions": [
+    "A029827",
+    "A029837",
+    "A036378",
+    "A036382",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

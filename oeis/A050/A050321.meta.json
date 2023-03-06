@@ -1,0 +1,18 @@
+{
+  "description": "k such that A050292(k) is different from A004396(k).",
+  "id": "A050321",
+  "mentions": [
+    "A004396",
+    "A050292"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:43:49",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

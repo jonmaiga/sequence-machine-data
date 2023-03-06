@@ -1,0 +1,32 @@
+{
+  "description": "The \"Semi-Fibonacci sequence\": a(1) = 1; a(n) = a(n/2) (n even); a(n) = a(n-1) + a(n-2) (n odd).",
+  "id": "A030067",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A005009",
+    "A005010",
+    "A005015",
+    "A005029",
+    "A007283",
+    "A020714",
+    "A030068",
+    "A074364",
+    "A109671",
+    "A129092",
+    "A129100"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

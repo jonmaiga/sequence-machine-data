@@ -1,0 +1,25 @@
+{
+  "description": "Number of Dyck n-paths with ascents and descents of length equal to 1 (mod 4).",
+  "id": "A023427",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A004148",
+    "A006318",
+    "A202845",
+    "A202849",
+    "A216116"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

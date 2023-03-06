@@ -1,0 +1,30 @@
+{
+  "description": "Number of unitary divisors of n (A034444) < number of non-unitary divisors of n (A048105).",
+  "id": "A048111",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001694",
+    "A013929",
+    "A034444",
+    "A046951",
+    "A048105",
+    "A048109",
+    "A059956",
+    "A082293",
+    "A082294",
+    "A082295",
+    "A085548"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

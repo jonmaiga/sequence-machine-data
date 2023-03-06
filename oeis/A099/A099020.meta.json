@@ -1,0 +1,21 @@
+{
+  "description": "Euler-Seidel matrix T(k,n) with start sequence A001147, read by antidiagonals.",
+  "id": "A099020",
+  "mentions": [
+    "A000085",
+    "A001147",
+    "A099021"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

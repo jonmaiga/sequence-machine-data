@@ -1,0 +1,20 @@
+{
+  "description": "Smallest perimeter S such that exactly n distinct Pythagorean triangles with this perimeter can be constructed.",
+  "id": "A099830",
+  "mentions": [
+    "A001399",
+    "A009096",
+    "A069905",
+    "A099829"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

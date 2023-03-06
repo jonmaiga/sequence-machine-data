@@ -1,0 +1,27 @@
+{
+  "description": "Number of inequivalent ways to color edges of a cube using at most n colors.",
+  "id": "A060530",
+  "mentions": [
+    "A000543",
+    "A046023",
+    "A047780",
+    "A199406",
+    "A282670",
+    "A331351",
+    "A337406",
+    "A337407",
+    "A337411"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:03",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

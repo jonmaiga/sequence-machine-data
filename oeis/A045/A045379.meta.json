@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f.: exp(4*z + exp(z) - 1).",
+  "id": "A045379",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A005494",
+    "A108087",
+    "A143496",
+    "A196834"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

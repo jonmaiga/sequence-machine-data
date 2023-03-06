@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet convolution of Ramanujan numbers (A000594) with themselves.",
+  "id": "A034778",
+  "mentions": [
+    "A000594"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

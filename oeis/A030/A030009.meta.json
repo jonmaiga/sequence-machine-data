@@ -1,0 +1,19 @@
+{
+  "description": "Euler transform of primes.",
+  "id": "A030009",
+  "mentions": [
+    "A007441",
+    "A166861"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

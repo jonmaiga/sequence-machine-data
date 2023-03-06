@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with exactly one subset of their sets of divisors such that the complement has the same sum.",
+  "id": "A083209",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A005835",
+    "A006037",
+    "A064771",
+    "A083206"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

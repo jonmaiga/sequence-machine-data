@@ -1,0 +1,21 @@
+{
+  "description": "Only Fermat number divisible by A023394(n) is 2^2^a(n) + 1.",
+  "id": "A023395",
+  "mentions": [
+    "A000215",
+    "A023394",
+    "A046052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

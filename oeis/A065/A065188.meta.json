@@ -1,0 +1,36 @@
+{
+  "description": "\"Greedy Queens\" permutation of the positive integers.",
+  "id": "A065188",
+  "mentions": [
+    "A001622",
+    "A065185",
+    "A065186",
+    "A065189",
+    "A065257",
+    "A199134",
+    "A269526",
+    "A275884",
+    "A275890",
+    "A275891",
+    "A275892",
+    "A275893",
+    "A275894",
+    "A275895",
+    "A275896",
+    "A275897",
+    "A275898",
+    "A276324",
+    "A276325"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

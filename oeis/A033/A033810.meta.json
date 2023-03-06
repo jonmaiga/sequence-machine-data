@@ -1,0 +1,26 @@
+{
+  "description": "Number of people needed so that probability of at least two sharing a birthday out of n possible days is at least 50%.",
+  "id": "A033810",
+  "mentions": [
+    "A014088",
+    "A088141",
+    "A182008",
+    "A182009",
+    "A182010",
+    "A225852",
+    "A225871"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having in binary representation no proper prefix that is also a suffix.",
+  "id": "A091065",
+  "mentions": [
+    "A007088",
+    "A070939",
+    "A091064",
+    "A091066",
+    "A242869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

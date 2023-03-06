@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that sigma(k+1) - sigma(k) = sigma(k)/d(k), where d(k) denotes the number of divisors of k.",
+  "id": "A066176",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

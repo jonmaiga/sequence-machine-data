@@ -1,0 +1,19 @@
+{
+  "description": "0 together with numbers k such that 8*R_k - 7 is a prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A099421",
+  "mentions": [
+    "A002275",
+    "A056664"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest square such that n occurs in its decimal representation.",
+  "id": "A086935",
+  "mentions": [
+    "A062584"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

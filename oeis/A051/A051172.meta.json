@@ -1,0 +1,21 @@
+{
+  "description": "T(n,7), array T as in A051168; a count of Lyndon words; aperiodic necklaces with 7 black beads and n-7 white beads.",
+  "id": "A051172",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A011797",
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:17",
+    "offset": 7,
+    "size": 35,
+    "source": "joeis"
+  }
+}

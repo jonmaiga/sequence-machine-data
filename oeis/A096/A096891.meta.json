@@ -1,0 +1,28 @@
+{
+  "description": "Least hypotenuse of primitive Pythagorean triangles with odd leg 2n+1.",
+  "id": "A096891",
+  "mentions": [
+    "A020882",
+    "A088557",
+    "A088558",
+    "A096892",
+    "A096893",
+    "A096894",
+    "A096895",
+    "A096896",
+    "A096897",
+    "A096898",
+    "A096899",
+    "A096900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

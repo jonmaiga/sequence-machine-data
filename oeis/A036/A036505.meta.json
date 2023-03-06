@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of (n+1)^n/n!.",
+  "id": "A036505",
+  "mentions": [
+    "A036503",
+    "A063170",
+    "A090878",
+    "A095996",
+    "A128433",
+    "A128434"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

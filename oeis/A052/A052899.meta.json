@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f.: ( 1-2*x ) / ((x-1)*(4*x^2+2*x-1)).",
+  "id": "A052899",
+  "mentions": [
+    "A084057",
+    "A087131"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

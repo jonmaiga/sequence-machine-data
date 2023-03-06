@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{d|n, d odd} d*2^(n/d).",
+  "id": "A054600",
+  "mentions": [
+    "A000016",
+    "A000031",
+    "A054598",
+    "A054601"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:13:49",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

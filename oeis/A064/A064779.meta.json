@@ -1,0 +1,18 @@
+{
+  "description": "Primes such that the sum of their digits and the sum of the reciprocals of their digits is also prime.",
+  "id": "A064779",
+  "mentions": [
+    "A034708"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least prime p such that p-1 is divisible by 2^n and not by 2^(n+1).",
+  "id": "A057775",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A035050",
+    "A035089",
+    "A126717",
+    "A201914"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

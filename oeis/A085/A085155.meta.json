@@ -1,0 +1,24 @@
+{
+  "description": "Powers of semiprimes.",
+  "id": "A085155",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001358",
+    "A067029",
+    "A071178",
+    "A074985",
+    "A085156"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

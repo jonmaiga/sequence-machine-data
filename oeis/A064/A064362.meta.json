@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that no Lucas number is a multiple of n.",
+  "id": "A064362",
+  "mentions": [
+    "A000032",
+    "A065156",
+    "A106291",
+    "A124378"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

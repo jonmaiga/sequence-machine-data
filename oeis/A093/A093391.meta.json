@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n/16) + floor((n+1)/16) + floor((n+2)/16) + floor((n+3)/16).",
+  "id": "A093391",
+  "mentions": [
+    "A004524",
+    "A054900",
+    "A093390",
+    "A093392"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:15",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

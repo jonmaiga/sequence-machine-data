@@ -1,0 +1,19 @@
+{
+  "description": "Minimal elements of pairs of \"(-1)sigma amicable numbers\", sorted by their minimal elements.",
+  "id": "A051595",
+  "mentions": [
+    "A049060",
+    "A051594"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 14:59:22",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

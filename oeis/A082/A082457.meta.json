@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(1+2n, A057643(1+2n)).",
+  "id": "A082457",
+  "mentions": [
+    "A000203",
+    "A057643",
+    "A066715",
+    "A083344"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

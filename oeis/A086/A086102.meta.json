@@ -1,0 +1,17 @@
+{
+  "description": "Concatenation of last two digits of p(n) and first two digits of p(n+1) is prime; values of such n in the sequence.",
+  "id": "A086102",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

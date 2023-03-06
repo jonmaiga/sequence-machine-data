@@ -1,0 +1,15 @@
+{
+  "description": "tanh(tan(x)+arcsin(x))=2*x-13/3!*x^3+297/5!*x^5-14159/7!*x^7...",
+  "id": "A012955",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:41:33",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

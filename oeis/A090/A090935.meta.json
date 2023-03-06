@@ -1,0 +1,17 @@
+{
+  "description": "Number of rational knots with n crossings with unknotting gap.",
+  "id": "A090935",
+  "mentions": [
+    "A090936"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 10,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

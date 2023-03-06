@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that 9*10^k - 1 is prime.",
+  "id": "A056725",
+  "mentions": [
+    "A001771",
+    "A002235",
+    "A002275",
+    "A003307",
+    "A005541",
+    "A046865",
+    "A046866",
+    "A046867",
+    "A079906",
+    "A079907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

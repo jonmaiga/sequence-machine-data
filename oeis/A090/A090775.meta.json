@@ -1,0 +1,18 @@
+{
+  "description": "6*a(n) is the gap between sexy prime triples in the n-th sexy prime triple triple whose initial term is 5.",
+  "id": "A090775",
+  "mentions": [
+    "A023201",
+    "A046117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

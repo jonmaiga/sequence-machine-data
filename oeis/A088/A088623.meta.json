@@ -1,0 +1,19 @@
+{
+  "description": "Prime obtained as the concatenation 1 followed by the smallest power of n, or 0 if no such number exists.",
+  "id": "A088623",
+  "mentions": [
+    "A088622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

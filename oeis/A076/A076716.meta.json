@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct factorizations of n! with all factors > 1.",
+  "id": "A076716",
+  "mentions": [
+    "A001055",
+    "A157612",
+    "A162247",
+    "A318284"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

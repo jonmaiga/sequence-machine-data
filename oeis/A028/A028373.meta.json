@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that have only the straight digits {1, 4, 7}.",
+  "id": "A028373",
+  "mentions": [
+    "A028374",
+    "A079651"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:37:09",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

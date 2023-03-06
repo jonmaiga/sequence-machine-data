@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not the sum (of a nonempty sequence) of consecutive primes.",
+  "id": "A050940",
+  "mentions": [
+    "A034707",
+    "A054845"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

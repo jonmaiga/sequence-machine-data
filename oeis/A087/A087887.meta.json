@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 18n^3 + 6n^2.",
+  "id": "A087887",
+  "mentions": [
+    "A036659",
+    "A085409",
+    "A085482"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:11:15",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

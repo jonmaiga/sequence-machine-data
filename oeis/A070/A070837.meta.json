@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k such that abs(k - R(k)) = 9n, where R(k) is digit reversal of k (A004086); or 0 if no such k exists.",
+  "id": "A070837",
+  "mentions": [
+    "A004086",
+    "A056965",
+    "A070838"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

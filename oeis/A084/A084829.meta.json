@@ -1,0 +1,23 @@
+{
+  "description": "Best packing of m>1 equal spheres in a sphere setting a new density record.",
+  "id": "A084829",
+  "mentions": [
+    "A084644",
+    "A084826",
+    "A084827",
+    "A084828",
+    "A121346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Inverse of 703rd cyclotomic polynomial.",
+  "id": "A014712",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:27",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

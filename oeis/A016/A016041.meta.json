@@ -1,0 +1,29 @@
+{
+  "description": "Primes that are palindromic in base 2 (but written here in base 10).",
+  "id": "A016041",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A006995",
+    "A029971",
+    "A095730",
+    "A095741",
+    "A095749",
+    "A117697",
+    "A194097",
+    "A256081"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

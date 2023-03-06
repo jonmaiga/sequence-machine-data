@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1)*a(n-3) + a(n-2), with a(0)=a(1)=0 and a(2)=1.",
+  "id": "A048634",
+  "mentions": [
+    "A092526",
+    "A201506",
+    "A344388"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:35:45",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

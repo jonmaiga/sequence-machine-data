@@ -1,0 +1,20 @@
+{
+  "description": "Commuting even permutations: number of ordered pairs g, h in the alternating group A_n such that gh = hg.",
+  "id": "A073584",
+  "mentions": [
+    "A000702",
+    "A000720",
+    "A053529"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

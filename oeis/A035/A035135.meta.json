@@ -1,0 +1,22 @@
+{
+  "description": "Cubefree composite palindromes.",
+  "id": "A035135",
+  "mentions": [
+    "A002113",
+    "A002808",
+    "A004709",
+    "A035133",
+    "A035134"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

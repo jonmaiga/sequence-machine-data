@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers <= n that can be written as sum of two 3-smooth numbers.",
+  "id": "A081331",
+  "mentions": [
+    "A003586",
+    "A081326",
+    "A081329",
+    "A081330"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

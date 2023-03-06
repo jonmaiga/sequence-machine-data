@@ -1,0 +1,25 @@
+{
+  "description": "Largest metadrome (number with digits in strict ascending order) in base n.",
+  "id": "A023811",
+  "mentions": [
+    "A049363",
+    "A051846",
+    "A058128",
+    "A060073",
+    "A062813",
+    "A134640"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

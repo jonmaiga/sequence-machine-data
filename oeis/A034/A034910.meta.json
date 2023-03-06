@@ -1,0 +1,29 @@
+{
+  "description": "One quarter of octo-factorial numbers.",
+  "id": "A034910",
+  "mentions": [
+    "A001147",
+    "A002391",
+    "A034908",
+    "A034909",
+    "A034911",
+    "A034912",
+    "A045755",
+    "A073000",
+    "A090802",
+    "A195699",
+    "A203516"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

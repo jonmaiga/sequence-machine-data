@@ -1,0 +1,19 @@
+{
+  "description": "Unhappy primes, primes that are also unhappy numbers.",
+  "id": "A094480",
+  "mentions": [
+    "A031177",
+    "A035497"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

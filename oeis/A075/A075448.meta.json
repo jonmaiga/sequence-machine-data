@@ -1,0 +1,17 @@
+{
+  "description": "A075443(n^2)-A075443(n) mod n [i.e., least nonnegative residue].",
+  "id": "A075448",
+  "mentions": [
+    "A075443"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

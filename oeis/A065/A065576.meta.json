@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the first k nonary digits found in decimal expansion of Pi form a prime.",
+  "id": "A065576",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

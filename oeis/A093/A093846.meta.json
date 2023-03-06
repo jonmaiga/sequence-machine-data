@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 10^(n-1) - 1 + k*floor(9*10^(n-1)/n), for 1 <= k <= n.",
+  "id": "A093846",
+  "mentions": [
+    "A061772",
+    "A093847",
+    "A093849",
+    "A093850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

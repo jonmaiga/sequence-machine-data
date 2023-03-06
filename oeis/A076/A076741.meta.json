@@ -1,0 +1,23 @@
+{
+  "description": "Nonzero coefficients of the polynomials in the numerator of 1/(1+x^2) and its successive derivatives, starting with the constant term.",
+  "id": "A076741",
+  "mentions": [
+    "A007318",
+    "A076256",
+    "A076257",
+    "A076743"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

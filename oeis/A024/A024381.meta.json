@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sum of squares of first n positive integers congruent to 1 mod 4.",
+  "id": "A024381",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:15",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

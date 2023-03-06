@@ -1,0 +1,15 @@
+{
+  "description": "Sum of successive remainders in computing Euclidean algorithm for (1,1/sqrt(n)) is rational.",
+  "id": "A086378",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

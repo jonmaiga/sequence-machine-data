@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of smallest Pisot-Vijayaraghavan number (positive root of x^3 = x + 1 ).",
+  "id": "A072117",
+  "mentions": [
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

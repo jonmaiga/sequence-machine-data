@@ -1,0 +1,21 @@
+{
+  "description": "Generalized Euler number c(9,n).",
+  "id": "A064070",
+  "mentions": [
+    "A064074",
+    "A349264",
+    "A349268"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:19:28",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

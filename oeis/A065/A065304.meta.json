@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A003285(k) = A003285(k+1) == 1 (mod 2).",
+  "id": "A065304",
+  "mentions": [
+    "A003285",
+    "A288186"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(97).",
+  "id": "A041174",
+  "mentions": [
+    "A010168",
+    "A010548",
+    "A020854",
+    "A041175"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:28:53",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

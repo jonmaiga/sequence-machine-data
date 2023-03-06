@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n, (d+1) prime} (d + 1).",
+  "id": "A085020",
+  "mentions": [
+    "A008472",
+    "A067513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime p such that (2^n)*p is a nontotient number.",
+  "id": "A058887",
+  "mentions": [
+    "A000010",
+    "A005277",
+    "A007617",
+    "A040076",
+    "A057192",
+    "A071628",
+    "A076336",
+    "A181662"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

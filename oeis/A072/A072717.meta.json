@@ -1,0 +1,18 @@
+{
+  "description": "Let d(k) be the sequence whose values are in (1,2,3,4,5,6,7,8,9) and are such that the continued fraction for the decimal number D(n)=0.d(1)d(2)...d(n) has strictly more elements than the continued fraction for D(n-1)=0.d(1)d(2)...d(n-1) and d(n) is as small as possible. Sequence gives values of d(n)=a(n) for d(1)=1.",
+  "id": "A072717",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of C(n+1,k)*C(2*n-3*k,n-3*k)/(n+1) by rows.",
+  "id": "A073187",
+  "mentions": [
+    "A071969"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Pi^Pi^...^Pi (n times) rounded to nearest integer.",
+  "id": "A073236",
+  "mentions": [
+    "A000796",
+    "A004002",
+    "A073233",
+    "A073234",
+    "A073237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

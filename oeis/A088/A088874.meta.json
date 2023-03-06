@@ -1,0 +1,27 @@
+{
+  "description": "T(n, k) = [x^k] (2*n)! [z^(2*n)] 1/cos(z)^x, triangle read by rows, for 0 <= k <= n.",
+  "id": "A088874",
+  "mentions": [
+    "A000007",
+    "A000182",
+    "A000364",
+    "A001147",
+    "A084938",
+    "A085734",
+    "A241171",
+    "A318146"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

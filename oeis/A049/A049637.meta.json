@@ -1,0 +1,19 @@
+{
+  "description": "Congruent to 2, 3, 6, 8, 10 or 12 mod 13, but not equal to 3.",
+  "id": "A049637",
+  "mentions": [
+    "A049627"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:03",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

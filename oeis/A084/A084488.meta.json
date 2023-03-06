@@ -1,0 +1,17 @@
+{
+  "description": "Prime(n)+q, where q is the next prime such that q mod 4 = (prime(n)+2) mod 4.",
+  "id": "A084488",
+  "mentions": [
+    "A084487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

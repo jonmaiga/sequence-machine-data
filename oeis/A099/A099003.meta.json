@@ -1,0 +1,25 @@
+{
+  "description": "Number of 4 X n 0-1 matrices avoiding simultaneously the right angled numbered polyomino patterns (ranpp) (00;1), (10;0) and (11;0).",
+  "id": "A099003",
+  "mentions": [
+    "A048489",
+    "A139634",
+    "A139635",
+    "A139697",
+    "A139698",
+    "A139700",
+    "A139701"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:10:29",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

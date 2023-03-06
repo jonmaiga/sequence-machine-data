@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n is not an odd prime and not a square of prime and the n-th Motzkin number == 1 (mod n).",
+  "id": "A081736",
+  "mentions": [
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

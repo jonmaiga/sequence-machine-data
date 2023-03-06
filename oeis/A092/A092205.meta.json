@@ -1,0 +1,24 @@
+{
+  "description": "Number of units in the imaginary quadratic field Q(sqrt(-n)).",
+  "id": "A092205",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A033428",
+    "A033482",
+    "A092206",
+    "A236213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

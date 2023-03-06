@@ -1,0 +1,17 @@
+{
+  "description": "Remainder-numerators from Egyptian fraction expansion of 3/46547 using odd greedy algorithm.",
+  "id": "A030543",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

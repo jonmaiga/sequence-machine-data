@@ -1,0 +1,15 @@
+{
+  "description": "Experimental values for number of circles in packing equal circles into a square for which there is a loose circle.",
+  "id": "A051660",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Cubes lacking the digit zero in their decimal expansion.",
+  "id": "A052045",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A051750",
+    "A051751",
+    "A051832",
+    "A051833",
+    "A052040",
+    "A052041",
+    "A052042",
+    "A052043",
+    "A052044",
+    "A052382",
+    "A052427",
+    "A168046"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

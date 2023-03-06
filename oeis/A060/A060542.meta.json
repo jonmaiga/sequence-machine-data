@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/6)*multinomial(3*n;n,n,n).",
+  "id": "A060542",
+  "mentions": [
+    "A006480",
+    "A025035",
+    "A060540"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

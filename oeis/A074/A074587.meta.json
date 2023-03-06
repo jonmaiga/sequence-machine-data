@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the coefficients of the n-th Moebius polynomial, M(n,x), where M(n,-1) = mu(n), the Moebius function of n.",
+  "id": "A074587",
+  "mentions": [
+    "A008966",
+    "A074586",
+    "A169659"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

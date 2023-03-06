@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of 3-valued Post functions of n variables under action of group GL(n,3).",
+  "id": "A049869",
+  "mentions": [
+    "A000585"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

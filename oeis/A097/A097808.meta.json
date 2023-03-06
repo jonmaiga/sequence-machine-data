@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array ((1+2x)/(1+x)^2, 1/(1+x)) read by rows.",
+  "id": "A097808",
+  "mentions": [
+    "A040000",
+    "A059260",
+    "A097805",
+    "A097806",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

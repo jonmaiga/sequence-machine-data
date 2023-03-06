@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{h=0..n, k=0..n} T(h,k), array T counting knights' moves as in A049604.",
+  "id": "A047881",
+  "mentions": [
+    "A047879",
+    "A049604"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

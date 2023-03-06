@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = binomial(n,17).",
+  "id": "A010970",
+  "mentions": [
+    "A001787",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 17,
+    "size": 26,
+    "source": "joeis"
+  }
+}

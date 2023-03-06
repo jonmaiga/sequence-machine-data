@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Card{ (x,y,z) | lcm(x,y,z)=n }.",
+  "id": "A070919",
+  "mentions": [
+    "A000005",
+    "A008683",
+    "A048691",
+    "A070920",
+    "A070921",
+    "A086222",
+    "A247513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

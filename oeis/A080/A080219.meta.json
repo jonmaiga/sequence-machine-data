@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of exponential factorial constant Sum_{n>=1} 1/A049384(n).",
+  "id": "A080219",
+  "mentions": [
+    "A049384",
+    "A167155"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

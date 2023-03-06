@@ -1,0 +1,17 @@
+{
+  "description": "Image of partition numbers (A000041) under \"little Hankel\" transform that sends [c_0, c_1, ...] to [d_0, d_1, ...] where d_n = c_n^2 - c_{n+1}*c_{n-1}.",
+  "id": "A056222",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:32:42",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

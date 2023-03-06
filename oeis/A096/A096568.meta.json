@@ -1,0 +1,23 @@
+{
+  "description": "By rows, array T(n,k)=number of compositions of n with first part k and no equal adjacent parts.",
+  "id": "A096568",
+  "mentions": [
+    "A003242",
+    "A096569",
+    "A096570",
+    "A096571",
+    "A096572"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

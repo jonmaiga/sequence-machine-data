@@ -1,0 +1,22 @@
+{
+  "description": "Number of trees with 3-colored nodes.",
+  "id": "A038060",
+  "mentions": [
+    "A000055",
+    "A006965",
+    "A038055",
+    "A038059",
+    "A038062"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:23:55",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

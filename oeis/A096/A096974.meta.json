@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that A096123(n) = n!/(nextprime(n/2)-1)!.",
+  "id": "A096974",
+  "mentions": [
+    "A096123"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

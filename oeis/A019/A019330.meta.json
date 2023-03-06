@@ -1,0 +1,15 @@
+{
+  "description": "Cyclotomic polynomials at x=12.",
+  "id": "A019330",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:31:15",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

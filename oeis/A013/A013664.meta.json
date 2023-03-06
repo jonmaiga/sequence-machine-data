@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of zeta(6).",
+  "id": "A013664",
+  "mentions": [
+    "A010052",
+    "A010057",
+    "A013662",
+    "A013666",
+    "A013668",
+    "A013670",
+    "A091043",
+    "A092732",
+    "A337710"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:37:31",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

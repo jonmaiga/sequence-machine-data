@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form p^2 + 4, where p is prime.",
+  "id": "A045637",
+  "mentions": [
+    "A005473",
+    "A062324",
+    "A094473",
+    "A094479",
+    "A185086"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:31",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of composite numbers so that the successive differences are distinct prime numbers. Priority is given to the least successive difference (prime) that has not occurred earlier.",
+  "id": "A094750",
+  "mentions": [
+    "A002808",
+    "A094751"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

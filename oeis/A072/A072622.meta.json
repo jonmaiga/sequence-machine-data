@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers obtained from the permutation A072089 (one-based).",
+  "id": "A072622",
+  "mentions": [
+    "A070041",
+    "A072088",
+    "A072089",
+    "A072620",
+    "A072621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

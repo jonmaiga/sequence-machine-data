@@ -1,0 +1,21 @@
+{
+  "description": "a(n)= [B(2n,5)/B(2n)] ( [x]=floor(x), see comment for B(n,k) definition ).",
+  "id": "A096049",
+  "mentions": [
+    "A096045",
+    "A096046",
+    "A096047",
+    "A096048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

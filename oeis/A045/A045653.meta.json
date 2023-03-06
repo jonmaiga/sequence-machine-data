@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-bead balanced binary strings, rotationally equivalent to reverse.",
+  "id": "A045653",
+  "mentions": [
+    "A000984",
+    "A023900",
+    "A045654",
+    "A045655",
+    "A045656",
+    "A045662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

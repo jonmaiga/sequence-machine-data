@@ -1,0 +1,19 @@
+{
+  "description": "Images of hexamorphic numbers: suppose k-th hexagonal number H(k) (A000384) ends in k; sequence gives positive values of H(k).",
+  "id": "A038494",
+  "mentions": [
+    "A000384",
+    "A039594"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:39:05",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

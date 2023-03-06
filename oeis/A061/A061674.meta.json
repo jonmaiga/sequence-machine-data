@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that k*n is a palindrome or becomes a palindrome when 0's are added on the left.",
+  "id": "A061674",
+  "mentions": [
+    "A050782",
+    "A062279",
+    "A062293"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

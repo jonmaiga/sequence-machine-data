@@ -1,0 +1,20 @@
+{
+  "description": "Index in A002858 of the smaller of the two Ulam numbers that sum to the n-th Ulam number.",
+  "id": "A080330",
+  "mentions": [
+    "A002858",
+    "A080328",
+    "A080329",
+    "A080331"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

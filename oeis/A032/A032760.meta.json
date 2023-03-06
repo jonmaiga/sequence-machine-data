@@ -1,0 +1,20 @@
+{
+  "description": "Take list of squares, move left digit of each term to end of previous term.",
+  "id": "A032760",
+  "mentions": [
+    "A000290",
+    "A032759",
+    "A032764"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes in whose binary expansion the number of 1 bits is <= 3 + number of 0 bits.",
+  "id": "A095319",
+  "mentions": [
+    "A000040",
+    "A095062",
+    "A095315",
+    "A095318",
+    "A095323",
+    "A095329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

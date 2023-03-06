@@ -1,0 +1,43 @@
+{
+  "description": "Square array T(n,k) of generalized Fibonacci numbers, read by antidiagonals upwards (n, k >= 0).",
+  "id": "A083856",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A000567",
+    "A001045",
+    "A005408",
+    "A006130",
+    "A006131",
+    "A015440",
+    "A015441",
+    "A015442",
+    "A015443",
+    "A015445",
+    "A028387",
+    "A057427",
+    "A083857",
+    "A083859",
+    "A083860",
+    "A083861",
+    "A106734",
+    "A110112",
+    "A110113",
+    "A172237",
+    "A193376"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of stereoisomers of acyclic hydrocarbons with n carbon atoms.",
+  "id": "A036672",
+  "mentions": [
+    "A000598",
+    "A000628",
+    "A002986",
+    "A010372",
+    "A036673",
+    "A086194",
+    "A107984",
+    "A134818",
+    "A173289",
+    "A261336"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:13:31",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

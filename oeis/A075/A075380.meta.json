@@ -1,0 +1,21 @@
+{
+  "description": "Rearrangement of natural numbers so that the sum of two neighboring terms is not squarefree.",
+  "id": "A075380",
+  "mentions": [
+    "A075381",
+    "A121878",
+    "A167901",
+    "A167902",
+    "A167903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "One eighty-fourth the area of primitive Pythagorean triangles with (increasing) square hypotenuses (precisely those of A008846).",
+  "id": "A072289",
+  "mentions": [
+    "A008846",
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

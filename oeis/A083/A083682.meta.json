@@ -1,0 +1,20 @@
+{
+  "description": "Sum of aliquot divisors of semiprimes.",
+  "id": "A083682",
+  "mentions": [
+    "A001065",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

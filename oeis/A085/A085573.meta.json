@@ -1,0 +1,18 @@
+{
+  "description": "2*Sum(floor(C(n,w)/w),w=1..n/2-1)+floor(C(n,n/2)/(n/2)) if n is even, otherwise 2*Sum(floor(C(n,w)/w),w=1..(n-1)/2).",
+  "id": "A085573",
+  "mentions": [
+    "A085568",
+    "A086672"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

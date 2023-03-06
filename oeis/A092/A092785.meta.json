@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum(sum(binomial(j-n-1,m),m=0..n),j=0..n).",
+  "id": "A092785",
+  "mentions": [
+    "A000108",
+    "A072547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

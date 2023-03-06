@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+x)^3/((1+x)^3+x^4).",
+  "id": "A099531",
+  "mentions": [
+    "A099529",
+    "A099530"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

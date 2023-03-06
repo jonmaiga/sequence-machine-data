@@ -1,0 +1,16 @@
+{
+  "description": "Useless numbers: numbers written in English without any of the letters e, s or u.",
+  "id": "A073418",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

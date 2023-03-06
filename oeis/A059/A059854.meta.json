@@ -1,0 +1,20 @@
+{
+  "description": "Period of continued fraction for sqrt(n^2+5), n >= 3.",
+  "id": "A059854",
+  "mentions": [
+    "A003285",
+    "A059853",
+    "A059855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 3,
+    "size": 78,
+    "source": "joeis"
+  }
+}

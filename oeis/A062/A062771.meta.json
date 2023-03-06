@@ -1,0 +1,20 @@
+{
+  "description": "Order of automorphism group of the group C_n X C_2 (where C_n is the cyclic group with n elements).",
+  "id": "A062771",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

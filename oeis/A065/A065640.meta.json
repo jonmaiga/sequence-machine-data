@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of N induced by rotating the node 8 left in the infinite planar binary tree. The eighth row of A065626. Inverse of A065639.",
+  "id": "A065640",
+  "mentions": [
+    "A057114",
+    "A057115",
+    "A065626",
+    "A065628",
+    "A065632",
+    "A065639"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

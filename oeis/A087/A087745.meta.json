@@ -1,0 +1,24 @@
+{
+  "description": "Numbers A001317 repeated.",
+  "id": "A087745",
+  "mentions": [
+    "A001317",
+    "A049444",
+    "A049459",
+    "A051338",
+    "A051378",
+    "A051379",
+    "A051523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in 5 or more ways.",
+  "id": "A025296",
+  "mentions": [
+    "A025288",
+    "A025295",
+    "A025297",
+    "A025333",
+    "A051167"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:27:35",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

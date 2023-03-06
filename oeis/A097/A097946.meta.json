@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A008683(n)*A014197(n) where A008683 is the Moebius (or Mobius) function mu(n) and A014197 is the number of numbers m with Euler phi(m) = n.",
+  "id": "A097946",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A014197",
+    "A077064",
+    "A097945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

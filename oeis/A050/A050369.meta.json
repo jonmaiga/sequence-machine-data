@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered factorizations of n into 2 kinds of 2, 3 kinds of 3, ...",
+  "id": "A050369",
+  "mentions": [
+    "A000027",
+    "A074206",
+    "A107311",
+    "A153881"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

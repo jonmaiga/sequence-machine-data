@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k)=Sum_{i=0..n} |stirling1(n,n-i)|*binomial(i,k), k=0..n-1.",
+  "id": "A059364",
+  "mentions": [
+    "A001147",
+    "A059340",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

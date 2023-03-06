@@ -1,0 +1,24 @@
+{
+  "description": "Number of terms in n-th derivative of a function composed with itself 10 times.",
+  "id": "A024210",
+  "mentions": [
+    "A008778",
+    "A022811",
+    "A022817",
+    "A022818",
+    "A024207",
+    "A024209",
+    "A050304"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:33:37",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime with digit product 6^n.",
+  "id": "A091465",
+  "mentions": [
+    "A088653",
+    "A089298",
+    "A089365",
+    "A090840",
+    "A090841"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

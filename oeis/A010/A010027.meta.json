@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k consecutive ascending pairs (0 <= k <= n-1).",
+  "id": "A010027",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A000274",
+    "A000313",
+    "A001260",
+    "A001261",
+    "A001339",
+    "A045943",
+    "A081923",
+    "A081924",
+    "A087981",
+    "A123513",
+    "A289632"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

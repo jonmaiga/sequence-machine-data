@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime <= n * (n + 1) / 2.",
+  "id": "A065384",
+  "mentions": [
+    "A000217",
+    "A053001",
+    "A064383",
+    "A065382"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

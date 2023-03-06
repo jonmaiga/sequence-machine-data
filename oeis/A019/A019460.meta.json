@@ -1,0 +1,27 @@
+{
+  "description": "Add 1, multiply by 1, add 2, multiply by 2, etc., start with 2.",
+  "id": "A019460",
+  "mentions": [
+    "A000522",
+    "A019461",
+    "A019462",
+    "A019463",
+    "A019464",
+    "A019465",
+    "A019466",
+    "A082448",
+    "A082458"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

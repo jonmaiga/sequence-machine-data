@@ -1,0 +1,18 @@
+{
+  "description": "Cubes using only digits 1, 2, 3, 5 and 7.",
+  "id": "A074100",
+  "mentions": [
+    "A079656"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximal exponent in prime factorization of (prime(n)+1)*(prime(n+1)+1)/4.",
+  "id": "A079087",
+  "mentions": [
+    "A051903",
+    "A079079",
+    "A079085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

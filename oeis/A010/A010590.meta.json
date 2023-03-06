@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of cube root of 18.",
+  "id": "A010590",
+  "mentions": [
+    "A010248"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:54",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the concatenation of k and previous_prime(k) is a prime.",
+  "id": "A034809",
+  "mentions": [
+    "A034808",
+    "A034821"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

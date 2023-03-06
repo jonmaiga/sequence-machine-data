@@ -1,0 +1,20 @@
+{
+  "description": "Smallest palindromic number relatively prime to all the previous terms.",
+  "id": "A083137",
+  "mentions": [
+    "A002113",
+    "A083136",
+    "A083139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

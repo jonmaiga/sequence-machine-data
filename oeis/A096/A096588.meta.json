@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=number of Catalan knight paths in Quadrant I from (0,0) to points on the vertical line x=n. A Catalan knight moves (2 right and 1 up) or (1 right and 1 down).",
+  "id": "A096588",
+  "mentions": [
+    "A096587"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

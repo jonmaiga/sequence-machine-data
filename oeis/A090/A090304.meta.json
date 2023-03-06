@@ -1,0 +1,17 @@
+{
+  "description": "Indices of 0's in A090303.",
+  "id": "A090304",
+  "mentions": [
+    "A090303"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Abundancy of n-th abundant number: sigma(k) - 2k for k such that this is > 0.",
+  "id": "A033881",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A033884"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:08:47",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Column 5 of A048790.",
+  "id": "A094161",
+  "mentions": [
+    "A048790"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:07",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

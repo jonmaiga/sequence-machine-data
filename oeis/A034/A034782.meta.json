@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A034693(n) = 3: 3n + 1 is prime, but neither n + 1 nor 2n + 1.",
+  "id": "A034782",
+  "mentions": [
+    "A034693",
+    "A034694"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Result of applying the transformation on generating functions A -> 1/((1-x)*(1-x*A)) to the g.f. for A024718.",
+  "id": "A073525",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A024718"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:18:58",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

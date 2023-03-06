@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 6n^2 - 1.",
+  "id": "A090686",
+  "mentions": [
+    "A000040",
+    "A007528",
+    "A090687"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:23",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

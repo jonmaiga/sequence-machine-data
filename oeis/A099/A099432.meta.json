@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of A030195(n) (generalized (3,3)-Fibonacci) with itself.",
+  "id": "A099432",
+  "mentions": [
+    "A030195",
+    "A073388"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-tuples of integers with GCD=1 and giving the lengths of sides of a nondegenerate quadrilateral with perimeter n.",
+  "id": "A057887",
+  "mentions": [
+    "A051493",
+    "A057886"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:50",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

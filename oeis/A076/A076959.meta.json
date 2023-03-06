@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between 3^n and 4^n.",
+  "id": "A076959",
+  "mentions": [
+    "A055729",
+    "A086680"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

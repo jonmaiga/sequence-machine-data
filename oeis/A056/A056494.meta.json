@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (period n) periodic palindromes using a maximum of three different symbols.",
+  "id": "A056494",
+  "mentions": [
+    "A038754",
+    "A056391",
+    "A056459",
+    "A284856"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:40:36",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

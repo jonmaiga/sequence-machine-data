@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n/lpf(n) + lpf(n) - 1, where lpf = A020639 = least prime factor.",
+  "id": "A064916",
+  "mentions": [
+    "A020639",
+    "A032742",
+    "A064917",
+    "A064918",
+    "A064919",
+    "A064920"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

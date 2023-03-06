@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k > 1 such that k mod ord2(k) is even, where ord2(k) is the order of 2 mod k.",
+  "id": "A036260",
+  "mentions": [
+    "A002326",
+    "A007733",
+    "A036259"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

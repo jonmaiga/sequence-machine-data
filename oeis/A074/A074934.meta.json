@@ -1,0 +1,15 @@
+{
+  "description": "Number of integers in {1, 2, ..., Fibonacci(n)} that are coprime to n.",
+  "id": "A074934",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

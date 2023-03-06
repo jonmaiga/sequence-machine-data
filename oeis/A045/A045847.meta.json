@@ -1,0 +1,32 @@
+{
+  "description": "Matrix whose (i,j)-th entry is number of representations of j as a sum of i squares of nonnegative integers; read by diagonals.",
+  "id": "A045847",
+  "mentions": [
+    "A000007",
+    "A000925",
+    "A002102",
+    "A010052",
+    "A014110",
+    "A038671",
+    "A045848",
+    "A045849",
+    "A045850",
+    "A045851",
+    "A045852",
+    "A287617",
+    "A302018"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:26:33",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

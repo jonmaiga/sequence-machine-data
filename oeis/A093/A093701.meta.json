@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest m>a(n-1) such that 1+m*n is prime, a(1) = 1.",
+  "id": "A093701",
+  "mentions": [
+    "A013632",
+    "A081942",
+    "A093702"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

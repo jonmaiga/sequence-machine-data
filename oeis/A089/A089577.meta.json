@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = r-th prime of the form (p-q)/(q-r) with r=prime(n+1), q=prime(n+2), and primes p > q.",
+  "id": "A089577",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum{T(n-k,k)}, 0<=k<=[ n/2 ], T given by A026659.",
+  "id": "A026669",
+  "mentions": [
+    "A026659"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:15:20",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

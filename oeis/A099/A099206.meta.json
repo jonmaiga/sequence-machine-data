@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of x^2*(2*x^11+2*x^9+2*x^8+x^7+2*x^6+x^5+x^4+x^3-x^2-x-1) / (x^9+x^6+2*x^3-1).",
+  "id": "A099206",
+  "mentions": [
+    "A109545"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:35:18",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

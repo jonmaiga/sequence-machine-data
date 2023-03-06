@@ -1,0 +1,25 @@
+{
+  "description": "The next new gap between successive primes.",
+  "id": "A014320",
+  "mentions": [
+    "A000101",
+    "A001223",
+    "A002386",
+    "A005250",
+    "A330853",
+    "A334543",
+    "A335366",
+    "A335367"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Group the primes such that the sum of each group is a prime. Each group from the second onwards should contain at least 3 primes: (2, 3), (5, 7, 11), (13, 17, 19, 23, 29), (31, 37, 41), (43, 47, 53, 59, 61), ... This is the sequence of the leading element in each group.",
+  "id": "A073683",
+  "mentions": [
+    "A073682",
+    "A073684",
+    "A077279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

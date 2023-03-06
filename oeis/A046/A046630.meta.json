@@ -1,0 +1,21 @@
+{
+  "description": "Number of cubic residues mod 2^n.",
+  "id": "A046630",
+  "mentions": [
+    "A033138",
+    "A046530",
+    "A049347"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:14:44",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

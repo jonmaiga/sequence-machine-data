@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 1's in Kolakoski sequence (A000002).",
+  "id": "A013947",
+  "mentions": [
+    "A000002",
+    "A013948",
+    "A022297",
+    "A156077"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:09",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

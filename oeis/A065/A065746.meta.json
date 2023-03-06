@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of squares of all true powers of primes: A000005[A025475(n)^2].",
+  "id": "A065746",
+  "mentions": [
+    "A000005",
+    "A005097",
+    "A025475",
+    "A065403",
+    "A065405"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

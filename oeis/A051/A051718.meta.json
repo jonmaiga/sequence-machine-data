@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of column 2 of table described in A051714/A051715.",
+  "id": "A051718",
+  "mentions": [
+    "A051714",
+    "A051715",
+    "A051719"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

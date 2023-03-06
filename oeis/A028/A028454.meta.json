@@ -1,0 +1,19 @@
+{
+  "description": "Number of perfect matchings in graph P_{4} X P_{4} X P_{n}.",
+  "id": "A028454",
+  "mentions": [
+    "A006253",
+    "A028452",
+    "A049507"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that Q(sqrt(-n)) has class number 4.",
+  "id": "A046085",
+  "mentions": [
+    "A003173",
+    "A005847",
+    "A006203",
+    "A046002",
+    "A046004",
+    "A046006",
+    "A055109",
+    "A055110",
+    "A055111"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

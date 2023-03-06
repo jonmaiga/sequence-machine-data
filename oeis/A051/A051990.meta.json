@@ -1,0 +1,26 @@
+{
+  "description": "Discriminants of real quadratic fields of ERD-type with class groups of exponent 2 and discriminants of the form D = r^2*k^2+k, k odd.",
+  "id": "A051990",
+  "mentions": [
+    "A051991",
+    "A051992",
+    "A051993",
+    "A051994",
+    "A051995",
+    "A051996",
+    "A051997",
+    "A051998"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

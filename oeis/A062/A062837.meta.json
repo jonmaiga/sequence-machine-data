@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n, 2n+1, 3n+1 are all squarefree.",
+  "id": "A062837",
+  "mentions": [
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

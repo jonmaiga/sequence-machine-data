@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 3 divides sigma(n).",
+  "id": "A087943",
+  "mentions": [
+    "A000203",
+    "A028983",
+    "A034020",
+    "A059269",
+    "A066498",
+    "A074216",
+    "A144613",
+    "A329963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

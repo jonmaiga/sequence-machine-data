@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that Mordell's equation y^2 = x^3 + n has no integral solutions.",
+  "id": "A054504",
+  "mentions": [
+    "A001014",
+    "A081119",
+    "A081121"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

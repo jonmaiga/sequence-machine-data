@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes in the neighborhood of prime(n), the n-th prime in the center with radius ceiling(log(prime(n))).",
+  "id": "A096838",
+  "mentions": [
+    "A096509",
+    "A096523",
+    "A096830",
+    "A096840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

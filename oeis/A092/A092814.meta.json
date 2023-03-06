@@ -1,0 +1,22 @@
+{
+  "description": "Schmidt's problem sum for r = 4.",
+  "id": "A092814",
+  "mentions": [
+    "A001850",
+    "A005259",
+    "A092813",
+    "A092815",
+    "A218689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

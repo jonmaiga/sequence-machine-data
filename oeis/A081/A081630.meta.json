@@ -1,0 +1,20 @@
+{
+  "description": "2-(-3)^n.",
+  "id": "A081630",
+  "mentions": [
+    "A081629",
+    "A081631"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

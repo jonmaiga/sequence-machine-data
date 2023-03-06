@@ -1,0 +1,19 @@
+{
+  "description": "A sequence derived from a truncated Pascal's Triangle matrix.",
+  "id": "A095262",
+  "mentions": [
+    "A001047"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:02:35",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

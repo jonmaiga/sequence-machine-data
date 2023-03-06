@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(n,n-1), array T as in A050143. Also T(2n+1,n), array T as in A055807.",
+  "id": "A050147",
+  "mentions": [
+    "A002003",
+    "A006318",
+    "A050143",
+    "A055807"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:26:41",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "12-hyperperfect numbers: n = 12*(sigma(n) - n - 1) + 1.",
+  "id": "A028500",
+  "mentions": [
+    "A000396",
+    "A007593",
+    "A028499",
+    "A028501",
+    "A028502",
+    "A034916",
+    "A220290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

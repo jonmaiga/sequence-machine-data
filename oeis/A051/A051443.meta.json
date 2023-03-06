@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^(n+1)*(n+1)^n.",
+  "id": "A051443",
+  "mentions": [
+    "A007925",
+    "A051442",
+    "A090205"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:01:57",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

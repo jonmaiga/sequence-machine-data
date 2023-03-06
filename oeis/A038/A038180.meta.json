@@ -1,0 +1,21 @@
+{
+  "description": "Number of \"connected animals\" formed from n square- or hexagon-connected truncated octahedra in the b.c.c. lattice, allowing translation and rotations of the lattice.",
+  "id": "A038180",
+  "mentions": [
+    "A000162",
+    "A036168",
+    "A036174",
+    "A038119",
+    "A038181"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

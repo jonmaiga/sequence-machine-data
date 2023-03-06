@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) counts solid partitions of n+1 that can be 'shrunk' in k ways to a solid partition of n by removing 1 element from it. Equivalently, it counts how many solid partitions of n+1 have k different solid partitions of n it just covers.",
+  "id": "A098530",
+  "mentions": [
+    "A000293",
+    "A007426",
+    "A098052",
+    "A098529"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime factors of A072697(n).",
+  "id": "A072699",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A072697",
+    "A072698",
+    "A072700"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

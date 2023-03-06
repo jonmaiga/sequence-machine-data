@@ -1,0 +1,19 @@
+{
+  "description": "Sum of first n 3-almost primes.",
+  "id": "A086062",
+  "mentions": [
+    "A014612"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:25:39",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

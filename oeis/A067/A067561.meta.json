@@ -1,0 +1,15 @@
+{
+  "description": "Radii n of circles with integer radius that can approximately be squared integrally: the floor or ceiling of Pi*n^2 is an integer square.",
+  "id": "A067561",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

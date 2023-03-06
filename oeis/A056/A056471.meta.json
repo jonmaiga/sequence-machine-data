@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromic structures using a maximum of six different symbols.",
+  "id": "A056471",
+  "mentions": [
+    "A056391",
+    "A056452"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:10:58",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

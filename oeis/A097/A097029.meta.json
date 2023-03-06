@@ -1,0 +1,24 @@
+{
+  "description": "Fixed points when the function f(x) = phi(x) + floor(x/2) is iterated, i.e., solutions to f(x) = x.",
+  "id": "A097029",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A050474",
+    "A051179",
+    "A097026",
+    "A097027",
+    "A097028",
+    "A203966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

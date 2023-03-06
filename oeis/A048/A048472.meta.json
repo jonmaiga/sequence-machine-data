@@ -1,0 +1,21 @@
+{
+  "description": "Array T by antidiagonals, T(k,n)=(k+1)*n*2^(n-1)+1, n >= 0, k >= 1.",
+  "id": "A048472",
+  "mentions": [
+    "A002064",
+    "A005183",
+    "A049069"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:07:25",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

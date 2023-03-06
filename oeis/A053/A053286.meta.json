@@ -1,0 +1,21 @@
+{
+  "description": "Cototient of 2^n +1.",
+  "id": "A053286",
+  "mentions": [
+    "A000010",
+    "A000051",
+    "A000225",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:19:39",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

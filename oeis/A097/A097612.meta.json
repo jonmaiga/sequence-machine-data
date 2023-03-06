@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k returns (i.e. down steps hitting the x-axis).",
+  "id": "A097612",
+  "mentions": [
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

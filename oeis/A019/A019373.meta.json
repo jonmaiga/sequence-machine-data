@@ -1,0 +1,15 @@
+{
+  "description": "Primes with primitive root 48.",
+  "id": "A019373",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:59",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

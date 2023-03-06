@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are primitively represented by x^2 + y^2 + z^2.",
+  "id": "A047449",
+  "mentions": [
+    "A000378",
+    "A004215",
+    "A034043",
+    "A034045",
+    "A034046",
+    "A034047"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:51",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

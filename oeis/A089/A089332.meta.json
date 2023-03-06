@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(10*(primepi((n+1)^2) - primepi(n^2) - 2*n/sqrt(n)+4)).",
+  "id": "A089332",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

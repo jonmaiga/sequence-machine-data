@@ -1,0 +1,22 @@
+{
+  "description": "Least integer cube >= n^2.",
+  "id": "A077107",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A070923",
+    "A077106",
+    "A077110",
+    "A077115"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of odd primes such that sum of three successive terms is composite.",
+  "id": "A075571",
+  "mentions": [
+    "A075572"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

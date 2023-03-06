@@ -1,0 +1,28 @@
+{
+  "description": "Number of rational knots (or two-bridge knots) with n crossings (up to mirroring).",
+  "id": "A018240",
+  "mentions": [
+    "A001045",
+    "A002863",
+    "A005418",
+    "A086825",
+    "A089790",
+    "A090597",
+    "A122495",
+    "A329908",
+    "A336398"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the 4th powers of the divisors of n is divisible by n.",
+  "id": "A046764",
+  "mentions": [
+    "A001159",
+    "A007691"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

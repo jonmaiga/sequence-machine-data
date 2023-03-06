@@ -1,0 +1,23 @@
+{
+  "description": "Function A062401(x) = phi(sigma(x)) is iterated. Starting with n, a(n) is the smallest term arising in trajectory, either in transient or in terminal cycle.",
+  "id": "A096865",
+  "mentions": [
+    "A062401",
+    "A062402",
+    "A095955",
+    "A096859",
+    "A096860",
+    "A096861",
+    "A096866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

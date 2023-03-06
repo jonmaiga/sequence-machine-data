@@ -1,0 +1,27 @@
+{
+  "description": "Number of digits in the prime factorization of n (counting terms of the form p^1 as p).",
+  "id": "A050252",
+  "mentions": [
+    "A020639",
+    "A027748",
+    "A046758",
+    "A046759",
+    "A046760",
+    "A055642",
+    "A073048",
+    "A110475",
+    "A124010",
+    "A192010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "1/6 of the number of ways of 3-coloring an (n-1) X n grid.",
+  "id": "A078101",
+  "mentions": [
+    "A078099",
+    "A207997"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

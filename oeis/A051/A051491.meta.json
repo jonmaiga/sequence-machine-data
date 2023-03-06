@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Otter's rooted tree constant: lim_{n->inf} A000081(n+1)/A000081(n).",
+  "id": "A051491",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A051492",
+    "A086308",
+    "A187770",
+    "A215978",
+    "A274082"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

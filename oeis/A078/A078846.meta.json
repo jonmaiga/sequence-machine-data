@@ -1,0 +1,24 @@
+{
+  "description": "Where 11^n occurs in n-almost-primes, starting at a(0)=1.",
+  "id": "A078846",
+  "mentions": [
+    "A001358",
+    "A078840",
+    "A078841",
+    "A078842",
+    "A078843",
+    "A078844",
+    "A078845"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

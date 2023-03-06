@@ -1,0 +1,30 @@
+{
+  "description": "Describe n (count digits in order of increasing value, ignoring missing digits).",
+  "id": "A047842",
+  "mentions": [
+    "A005150",
+    "A005151",
+    "A010785",
+    "A045918",
+    "A047841",
+    "A047843",
+    "A127354",
+    "A127355",
+    "A235775",
+    "A244112"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Generalized ordered Bell numbers Bo(4,n).",
+  "id": "A094417",
+  "mentions": [
+    "A000670",
+    "A004123",
+    "A032033",
+    "A050353",
+    "A094416",
+    "A094418",
+    "A094419",
+    "A131689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

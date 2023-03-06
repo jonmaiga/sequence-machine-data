@@ -1,0 +1,20 @@
+{
+  "description": "Quadruplets: base 10 representation is the juxtaposition of four identical strings.",
+  "id": "A074843",
+  "mentions": [
+    "A020338"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having a unique representation as sum of a positive square and a positive cube.",
+  "id": "A078360",
+  "mentions": [
+    "A054402",
+    "A055394",
+    "A078359"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

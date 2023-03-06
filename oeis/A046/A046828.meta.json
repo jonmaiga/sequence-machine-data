@@ -1,0 +1,16 @@
+{
+  "description": "Digits of n^2 include digits of n, n does not end in 0.",
+  "id": "A046828",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:41",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

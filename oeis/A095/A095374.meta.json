@@ -1,0 +1,23 @@
+{
+  "description": "One less than the number of divisors of 2*n + 1.",
+  "id": "A095374",
+  "mentions": [
+    "A000005",
+    "A023645",
+    "A095372",
+    "A095373",
+    "A099774"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

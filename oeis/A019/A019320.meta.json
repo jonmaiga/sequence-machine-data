@@ -1,0 +1,23 @@
+{
+  "description": "Cyclotomic polynomials at x=2.",
+  "id": "A019320",
+  "mentions": [
+    "A020501",
+    "A034268",
+    "A054432",
+    "A063672",
+    "A063696",
+    "A063698"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

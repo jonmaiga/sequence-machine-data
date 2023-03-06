@@ -1,0 +1,18 @@
+{
+  "description": "(p^2-5)/4 for odd primes p.",
+  "id": "A074367",
+  "mentions": [
+    "A024701"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

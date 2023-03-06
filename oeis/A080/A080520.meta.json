@@ -1,0 +1,21 @@
+{
+  "description": "E est la premiere, deuxieme, neuvieme, douzieme, quatorzieme, seizieme, ... lettre dans cette phrase, ou les espaces, les virgules et les traits d'union ne comptent pas.",
+  "id": "A080520",
+  "mentions": [
+    "A005224",
+    "A080517",
+    "A080519"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

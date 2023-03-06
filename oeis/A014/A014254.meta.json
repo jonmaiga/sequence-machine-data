@@ -1,0 +1,25 @@
+{
+  "description": "Liponombres: numbers whose French name does not contain the letter \"e\".",
+  "id": "A014254",
+  "mentions": [
+    "A006933",
+    "A007005",
+    "A050280",
+    "A139121",
+    "A139212",
+    "A167507",
+    "A233185"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:47:39",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

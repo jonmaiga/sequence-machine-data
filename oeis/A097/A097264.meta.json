@@ -1,0 +1,19 @@
+{
+  "description": "Primitive Pythagorean Quadruples a^2+b^2+c^2=d^2, 0",
+  "id": "A097264",
+  "mentions": [
+    "A096907",
+    "A096908",
+    "A096909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

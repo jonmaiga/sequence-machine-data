@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose product of divisors is larger than that of any smaller number.",
+  "id": "A034287",
+  "mentions": [
+    "A007955",
+    "A007956",
+    "A034090",
+    "A034091",
+    "A034288",
+    "A067128",
+    "A174899",
+    "A174901"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of Maclaurin series coefficients for 2*cos(x/sqrt(3) + arctan(-sqrt(3))) = cos(x/sqrt(3)) + sqrt(3)*sin(x/sqrt(3)).",
+  "id": "A059944",
+  "mentions": [
+    "A057077",
+    "A165998",
+    "A268363"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

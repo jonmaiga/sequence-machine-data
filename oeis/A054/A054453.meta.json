@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of partial row sums of triangle A054450(n,m), n >= m >= 0.",
+  "id": "A054453",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A029907",
+    "A049310",
+    "A053121",
+    "A054450",
+    "A054454",
+    "A054455"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:15",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1, a(2n)=2a(n)+1, a(2n+1)=2a(n)+2.",
+  "id": "A092754",
+  "mentions": [
+    "A004754",
+    "A053644",
+    "A054429",
+    "A062050",
+    "A206332"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

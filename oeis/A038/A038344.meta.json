@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that phi(k) + sigma(k) is a prime.",
+  "id": "A038344",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000040",
+    "A000203",
+    "A028982",
+    "A065387"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

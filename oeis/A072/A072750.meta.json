@@ -1,0 +1,23 @@
+{
+  "description": "Counting factor 7 in the first n squarefree numbers.",
+  "id": "A072750",
+  "mentions": [
+    "A005117",
+    "A008589",
+    "A072747",
+    "A072748",
+    "A072749",
+    "A072751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

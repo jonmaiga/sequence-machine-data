@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = denominator of arithmetic derivative of k/n, 1<=k<=n.",
+  "id": "A084887",
+  "mentions": [
+    "A003415",
+    "A084885",
+    "A084886"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

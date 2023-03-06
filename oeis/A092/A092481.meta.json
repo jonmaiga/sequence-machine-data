@@ -1,0 +1,20 @@
+{
+  "description": "Number of different sets of n-gons labeled 1...n such that all members of each set contain equivalent paths with increasing labels; i.e., the number of isotemporal classes of n-gons.",
+  "id": "A092481",
+  "mentions": [
+    "A000029",
+    "A000031",
+    "A027671"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers in A062918.",
+  "id": "A069792",
+  "mentions": [
+    "A062918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

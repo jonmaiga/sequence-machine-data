@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p-1 is squarefree.",
+  "id": "A039787",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A005596",
+    "A007947",
+    "A049092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

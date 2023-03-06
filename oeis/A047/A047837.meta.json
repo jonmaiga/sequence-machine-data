@@ -1,0 +1,20 @@
+{
+  "description": "Honaker's triangle problem: form a triangle with base of length n, all entries different, all row sums equal; a(n) gives minimal row sum.",
+  "id": "A047837",
+  "mentions": [
+    "A047866",
+    "A047873"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes (in order) occurring in A053810.",
+  "id": "A053811",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A006530",
+    "A020639",
+    "A025473",
+    "A053810",
+    "A053812"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

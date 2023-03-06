@@ -1,0 +1,21 @@
+{
+  "description": "Sum of end-to-end Manhattan distances over all self-avoiding walks on cubic lattice trapped after n steps.",
+  "id": "A079158",
+  "mentions": [
+    "A077817",
+    "A079156",
+    "A079157"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 11,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

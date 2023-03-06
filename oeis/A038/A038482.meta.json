@@ -1,0 +1,21 @@
+{
+  "description": "Sums of 3 distinct powers of 7.",
+  "id": "A038482",
+  "mentions": [
+    "A000420",
+    "A038445",
+    "A038481",
+    "A038483"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

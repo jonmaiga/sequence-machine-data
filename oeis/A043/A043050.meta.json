@@ -1,0 +1,16 @@
+{
+  "description": "a(n)=(s(n)+4)/5, where s(n)=n-th base 5 palindrome that starts with 1.",
+  "id": "A043050",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

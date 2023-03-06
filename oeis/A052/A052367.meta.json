@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonnegative integer 5 X 5 matrices with sum of elements equal to n, under row and column permutations.",
+  "id": "A052367",
+  "mentions": [
+    "A002724",
+    "A052365",
+    "A052366",
+    "A053307",
+    "A318795"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

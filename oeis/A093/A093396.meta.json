@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of n divided by the product of the anti-divisors of n.",
+  "id": "A093396",
+  "mentions": [
+    "A066272",
+    "A066417",
+    "A091507",
+    "A093394",
+    "A093395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

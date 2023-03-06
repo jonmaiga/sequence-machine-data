@@ -1,0 +1,19 @@
+{
+  "description": "Group the natural numbers as in A090499; sequence gives the number of members in each group.",
+  "id": "A090501",
+  "mentions": [
+    "A090499",
+    "A090500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of configurations of the 3-dimensional 2 X 2 X 2 sliding cube puzzle that require a minimum of n moves to be reached.",
+  "id": "A090572",
+  "mentions": [
+    "A089473",
+    "A089484",
+    "A090573",
+    "A090578"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Lonely numbers: distance to closest prime sets a new record.",
+  "id": "A051650",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046929",
+    "A046931",
+    "A051652",
+    "A051697",
+    "A051702",
+    "A051728",
+    "A051730"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

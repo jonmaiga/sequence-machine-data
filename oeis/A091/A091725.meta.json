@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of second exponential integral at 1, ExpIntegralEi[1].",
+  "id": "A091725",
+  "mentions": [
+    "A001563",
+    "A001620",
+    "A229837"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

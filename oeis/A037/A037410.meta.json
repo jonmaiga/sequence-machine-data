@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers having the same set of digits in base 2 and base 5.",
+  "id": "A037410",
+  "mentions": [
+    "A033042"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

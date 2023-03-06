@@ -1,0 +1,31 @@
+{
+  "description": "Number of prime power divisors of n.",
+  "id": "A073093",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A010055",
+    "A023888",
+    "A025487",
+    "A027750",
+    "A032742",
+    "A036041",
+    "A054372",
+    "A210208"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

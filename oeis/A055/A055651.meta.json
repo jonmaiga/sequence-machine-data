@@ -1,0 +1,27 @@
+{
+  "description": "Table T(m,k)=m^k-k^m (with 0^0 taken to be 1) as square array read by antidiagonals.",
+  "id": "A055651",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A007925",
+    "A023443",
+    "A024012",
+    "A024026",
+    "A024040",
+    "A046065",
+    "A055652"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:27:20",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

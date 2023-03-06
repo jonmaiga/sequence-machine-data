@@ -1,0 +1,21 @@
+{
+  "description": "Sequence A019320 in binary.",
+  "id": "A063672",
+  "mentions": [
+    "A019320",
+    "A063671",
+    "A063697",
+    "A063699"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:57:45",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

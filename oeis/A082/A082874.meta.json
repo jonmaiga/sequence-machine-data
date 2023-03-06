@@ -1,0 +1,19 @@
+{
+  "description": "Independence number of king KG_4 on triangle board B_n.",
+  "id": "A082874",
+  "mentions": [
+    "A082873"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:31",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

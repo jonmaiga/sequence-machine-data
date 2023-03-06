@@ -1,0 +1,25 @@
+{
+  "description": "Jacobsthal function A048669 applied to the product of the first n primes (A002110).",
+  "id": "A048670",
+  "mentions": [
+    "A002110",
+    "A005867",
+    "A048669",
+    "A058989",
+    "A072752",
+    "A331118"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

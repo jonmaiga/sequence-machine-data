@@ -1,0 +1,18 @@
+{
+  "description": "Number of occurrences of pattern 1-2 after n iterations of morphism A007413.",
+  "id": "A093356",
+  "mentions": [
+    "A007413"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "First member of a prime sextuplet in a 2p-1 progression.",
+  "id": "A057329",
+  "mentions": [
+    "A005382",
+    "A005383",
+    "A005603",
+    "A057326",
+    "A057327",
+    "A057328",
+    "A057330"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

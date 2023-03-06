@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n in which the first k digits of n form an integer divisible by k^2, for k = 1, 2, ..., m, where m is the number of digits in n.",
+  "id": "A079042",
+  "mentions": [
+    "A079041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

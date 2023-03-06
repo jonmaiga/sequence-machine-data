@@ -1,0 +1,25 @@
+{
+  "description": "The Catalan factorial walks (for each rooted plane tree encoded by A014486) encoded as zero-free numbers in factorial base (A007623).",
+  "id": "A071155",
+  "mentions": [
+    "A000108",
+    "A007623",
+    "A014486",
+    "A071153",
+    "A071156",
+    "A071157",
+    "A120695"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

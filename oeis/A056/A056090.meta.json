@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-element ordered antichain covers of an unlabeled n-element set.",
+  "id": "A056090",
+  "mentions": [
+    "A051112",
+    "A056047",
+    "A056074",
+    "A056093"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:30:41",
+    "offset": 4,
+    "size": 26,
+    "source": "joeis"
+  }
+}

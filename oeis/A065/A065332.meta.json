@@ -1,0 +1,24 @@
+{
+  "description": "3-smooth numbers in their natural position, gaps filled with 0.",
+  "id": "A065332",
+  "mentions": [
+    "A003586",
+    "A065330",
+    "A065331",
+    "A065333",
+    "A065334",
+    "A065335"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:37",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

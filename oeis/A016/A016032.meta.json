@@ -1,0 +1,27 @@
+{
+  "description": "Least positive integer that is the sum of two squares of positive integers in exactly n ways.",
+  "id": "A016032",
+  "mentions": [
+    "A000446",
+    "A018782",
+    "A018825",
+    "A025284",
+    "A025293",
+    "A025426",
+    "A048610",
+    "A093195",
+    "A124980"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

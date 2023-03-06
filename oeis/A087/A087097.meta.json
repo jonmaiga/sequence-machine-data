@@ -1,0 +1,29 @@
+{
+  "description": "Lunar primes (formerly called dismal primes) (cf. A087062).",
+  "id": "A087097",
+  "mentions": [
+    "A000030",
+    "A010879",
+    "A011539",
+    "A054054",
+    "A087019",
+    "A087061",
+    "A087062",
+    "A087636",
+    "A087638",
+    "A087984"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

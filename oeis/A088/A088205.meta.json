@@ -1,0 +1,20 @@
+{
+  "description": "Infinite audioactive word that shifts 1 place left under \"Look and Say\" method A, starting with a(0)=0.",
+  "id": "A088205",
+  "mentions": [
+    "A005150",
+    "A087282",
+    "A088203",
+    "A088206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

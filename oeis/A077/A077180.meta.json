@@ -1,0 +1,19 @@
+{
+  "description": "Smallest concatenation of integers starting from 1 that is a multiple of the n-th prime.",
+  "id": "A077180",
+  "mentions": [
+    "A077181",
+    "A077182"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

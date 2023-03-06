@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximal sets of partitions of n with property that all parts in all partitions in the set are distinct.",
+  "id": "A068598",
+  "mentions": [
+    "A000009"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

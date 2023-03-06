@@ -1,0 +1,21 @@
+{
+  "description": "Number of repunit divisors of n.",
+  "id": "A083230",
+  "mentions": [
+    "A000005",
+    "A002275",
+    "A043284",
+    "A109492"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

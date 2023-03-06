@@ -1,0 +1,19 @@
+{
+  "description": "Number of 0's in n-th row of triangle in A071036 (cellular automaton \"Rule 150\").",
+  "id": "A071052",
+  "mentions": [
+    "A071036",
+    "A071053"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:47",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Digit lengths for which there exist plateau or depression primes of the general form a*(10^m-1)/9 +- b*(10^(m-1)+1).",
+  "id": "A082720",
+  "mentions": [
+    "A077797",
+    "A077799",
+    "A082697",
+    "A082719"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

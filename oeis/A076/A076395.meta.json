@@ -1,0 +1,16 @@
+{
+  "description": "Squares whose external digits form a square and whose internal digits form a prime.",
+  "id": "A076395",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

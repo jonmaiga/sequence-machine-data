@@ -1,0 +1,20 @@
+{
+  "description": "Form a conjugate partition of row with 1+1+1 in first row. all other rows are the union of their parents. n-th row sum is equal to 3*2^(n-1). The largest part of n-th row is A000204(n). a(n) = number of types of piles in n-th row.",
+  "id": "A064480",
+  "mentions": [
+    "A000204",
+    "A000700",
+    "A000701"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n minus exponent of 2 in n, with a(0) = 0.",
+  "id": "A093048",
+  "mentions": [
+    "A002689",
+    "A007814",
+    "A014070",
+    "A060690",
+    "A075101",
+    "A084623",
+    "A093049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:20:19",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

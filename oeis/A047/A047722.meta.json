@@ -1,0 +1,20 @@
+{
+  "description": "Sum of 11 but no fewer nonzero fourth powers.",
+  "id": "A047722",
+  "mentions": [
+    "A000583",
+    "A002377",
+    "A003345",
+    "A047724"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

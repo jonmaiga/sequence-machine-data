@@ -1,0 +1,18 @@
+{
+  "description": "Starting positions of strings of 3 0's in the decimal expansion of Pi.",
+  "id": "A050202",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:55",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

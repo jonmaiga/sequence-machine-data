@@ -1,0 +1,27 @@
+{
+  "description": "Square table by antidiagonals where T(n,k) = binomial(n+2^k-1,n).",
+  "id": "A092056",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000079",
+    "A000292",
+    "A000580",
+    "A007582",
+    "A010968",
+    "A060690"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

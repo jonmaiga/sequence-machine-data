@@ -1,0 +1,23 @@
+{
+  "description": "Smallest multiple of n beginning with 5.",
+  "id": "A082795",
+  "mentions": [
+    "A000030",
+    "A082794",
+    "A082796",
+    "A082797",
+    "A082798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

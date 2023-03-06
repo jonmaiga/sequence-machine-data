@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n XOR (n-1), i.e., nim-sum of sequential pairs, written in binary.",
+  "id": "A038713",
+  "mentions": [
+    "A001511",
+    "A038712"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:41:37",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

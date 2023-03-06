@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = p^2 + p + 1 where p runs through the primes.",
+  "id": "A060800",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A001248",
+    "A002476",
+    "A006093",
+    "A008864",
+    "A030078",
+    "A036690",
+    "A131991",
+    "A131992",
+    "A131993",
+    "A253905"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:01",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

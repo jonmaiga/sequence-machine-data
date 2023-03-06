@@ -1,0 +1,28 @@
+{
+  "description": "Number of irreducible polynomials of degree n over GF(4); dimensions of free Lie algebras.",
+  "id": "A027377",
+  "mentions": [
+    "A001037",
+    "A001692",
+    "A027376",
+    "A054660",
+    "A054661",
+    "A054664",
+    "A054719",
+    "A065419",
+    "A074650"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

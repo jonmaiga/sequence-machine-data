@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of array A082224.",
+  "id": "A082227",
+  "mentions": [
+    "A082224",
+    "A082228",
+    "A082231"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (3^(2^n) + 1)/2 = A059919(n)/2, n >= 0.",
+  "id": "A059917",
+  "mentions": [
+    "A011764",
+    "A059723",
+    "A059918",
+    "A059919",
+    "A093625"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "B-trees of order 5 with n labeled leaves.",
+  "id": "A058521",
+  "mentions": [
+    "A014535",
+    "A037026"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

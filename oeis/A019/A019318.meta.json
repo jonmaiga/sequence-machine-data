@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent ways of choosing n squares from an n X n board, considering rotations and reflections to be the same.",
+  "id": "A019318",
+  "mentions": [
+    "A014409",
+    "A054252"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

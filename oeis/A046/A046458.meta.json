@@ -1,0 +1,19 @@
+{
+  "description": "Positive even integers that are not the sum of two nonprime odd integers.",
+  "id": "A046458",
+  "mentions": [
+    "A118081"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

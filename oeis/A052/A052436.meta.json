@@ -1,0 +1,24 @@
+{
+  "description": "Number of canonical polygons of n sides.",
+  "id": "A052436",
+  "mentions": [
+    "A307387",
+    "A307391",
+    "A307426",
+    "A307454",
+    "A307455",
+    "A307456",
+    "A307519"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

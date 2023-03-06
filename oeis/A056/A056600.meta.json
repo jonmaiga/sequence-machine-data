@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is smallest number A such that there is an equality of the form (A=Product of n distinct primes) = (B=Product of n distinct primes) + (C=Product of n distinct primes) with gcd(A,B) = gcd(B,C) = gcd(A,C) = 1, B < C.",
+  "id": "A056600",
+  "mentions": [
+    "A056602",
+    "A069717",
+    "A069718"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Molien series for 64-D extraspecial group 2^{1+2*6}.",
+  "id": "A030537",
+  "mentions": [
+    "A014095",
+    "A030533",
+    "A030535",
+    "A030536"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

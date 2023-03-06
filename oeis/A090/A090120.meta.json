@@ -1,0 +1,28 @@
+{
+  "description": "Numbers x such that nextprime(x^2) - prevprime(x^2) = 4.",
+  "id": "A090120",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A007491",
+    "A007917",
+    "A007918",
+    "A053001",
+    "A090116",
+    "A090117",
+    "A090118",
+    "A090119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

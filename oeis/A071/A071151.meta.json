@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are the sum of the first k odd primes for some k.",
+  "id": "A071151",
+  "mentions": [
+    "A007504",
+    "A013916",
+    "A013918",
+    "A065091",
+    "A071148",
+    "A071150"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

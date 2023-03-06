@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of {1, ..., n} with no four terms in arithmetic progression.",
+  "id": "A066369",
+  "mentions": [
+    "A018789",
+    "A051013"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

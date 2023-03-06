@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n*((2^61-1)^4) - 1 and n*((2^61-1)^4) + 1 are twin primes.",
+  "id": "A099231",
+  "mentions": [
+    "A099229",
+    "A099230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

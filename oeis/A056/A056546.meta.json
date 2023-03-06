@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 5*n*a(n-1) + 1 with a(0)=1.",
+  "id": "A056546",
+  "mentions": [
+    "A000142",
+    "A000351",
+    "A000522",
+    "A010844",
+    "A010845",
+    "A056545",
+    "A056547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:05:42",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

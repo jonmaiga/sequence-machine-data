@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(485).",
+  "id": "A041924",
+  "mentions": [
+    "A040462",
+    "A041925"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:53",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Both n and n^3 have the same initial digit and also n and n^3 have the same final digit when expressed in base 10.",
+  "id": "A086458",
+  "mentions": [
+    "A008854",
+    "A086457",
+    "A144582"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

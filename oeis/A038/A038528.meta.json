@@ -1,0 +1,27 @@
+{
+  "description": "If n has decimal expansion abc...d, with k digits, let f(n) be obtained by deleting all k's from abc...d, closing up and deleting initial 0's; sequence gives n such that f(f(f(...(n)))) = 0 or empty.",
+  "id": "A038528",
+  "mentions": [
+    "A002024",
+    "A031298",
+    "A038527",
+    "A054055",
+    "A055642",
+    "A138166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

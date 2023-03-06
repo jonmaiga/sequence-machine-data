@@ -1,0 +1,22 @@
+{
+  "description": "Earliest sequence with a(a(n))=6n.",
+  "id": "A054786",
+  "mentions": [
+    "A002516",
+    "A002517",
+    "A002518",
+    "A007379"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:53",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

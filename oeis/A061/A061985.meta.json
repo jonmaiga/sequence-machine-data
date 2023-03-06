@@ -1,0 +1,22 @@
+{
+  "description": "Values which can occur in sequence b(k) = 1 + b(floor(k/2)) + b(floor(k/3)) with b(0) = 0, i.e., in A061984.",
+  "id": "A061985",
+  "mentions": [
+    "A022328",
+    "A022329",
+    "A061984",
+    "A061986",
+    "A061987"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

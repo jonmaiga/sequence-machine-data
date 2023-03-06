@@ -1,0 +1,22 @@
+{
+  "description": "Product of numerator and denominator of fractions in Farey tree A007305/A007306.",
+  "id": "A049449",
+  "mentions": [
+    "A007305",
+    "A007306",
+    "A119272"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

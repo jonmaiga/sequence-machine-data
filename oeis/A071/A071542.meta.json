@@ -1,0 +1,26 @@
+{
+  "description": "Number of steps to reach 0 starting with n and using the iterated process : x -> x - (number of 1's in binary representation of x).",
+  "id": "A071542",
+  "mentions": [
+    "A000120",
+    "A011371",
+    "A179016",
+    "A213706",
+    "A213707",
+    "A213708",
+    "A213709",
+    "A218254"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

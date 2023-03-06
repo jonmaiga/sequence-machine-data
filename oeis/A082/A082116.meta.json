@@ -1,0 +1,26 @@
+{
+  "description": "Fibonacci sequence (mod 5).",
+  "id": "A082116",
+  "mentions": [
+    "A000045",
+    "A010073",
+    "A011655",
+    "A079002",
+    "A079343",
+    "A079344",
+    "A082115",
+    "A082117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:09",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

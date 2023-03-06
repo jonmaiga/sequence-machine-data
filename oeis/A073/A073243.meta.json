@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of exp(-LambertW(log(Pi))), solution to x = 1/Pi^x.",
+  "id": "A073243",
+  "mentions": [
+    "A000796",
+    "A030178",
+    "A030437",
+    "A030797",
+    "A049541",
+    "A073229",
+    "A073230",
+    "A073240",
+    "A073241"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

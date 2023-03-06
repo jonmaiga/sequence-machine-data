@@ -1,0 +1,19 @@
+{
+  "description": "Smallest composite number which is a sum of n distinct composite numbers.",
+  "id": "A073621",
+  "mentions": [
+    "A068873",
+    "A073619",
+    "A073620"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers for which reduced residue system contains more primes than nonprimes.",
+  "id": "A048868",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221",
+    "A002110",
+    "A048597",
+    "A060735"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

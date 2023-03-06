@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative integers n such that 2^n uses only distinct decimal digits.",
+  "id": "A084688",
+  "mentions": [
+    "A000079",
+    "A052060",
+    "A260814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

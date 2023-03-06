@@ -1,0 +1,26 @@
+{
+  "description": "Magnanimous primes: primes with the property that inserting a \"+\" in any place between two digits yields a sum which is prime.",
+  "id": "A089392",
+  "mentions": [
+    "A028834",
+    "A088134",
+    "A089393",
+    "A089394",
+    "A089695",
+    "A182175",
+    "A221699",
+    "A227823",
+    "A252996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

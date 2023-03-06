@@ -1,0 +1,31 @@
+{
+  "description": "Index of smallest repunit having exactly n prime factors (counted with multiplicity).",
+  "id": "A046421",
+  "mentions": [
+    "A000042",
+    "A001222",
+    "A002275",
+    "A004022",
+    "A004023",
+    "A046053",
+    "A046413",
+    "A046414",
+    "A046415",
+    "A046416",
+    "A046417",
+    "A046418",
+    "A046419",
+    "A086565"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

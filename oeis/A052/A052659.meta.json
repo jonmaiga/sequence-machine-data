@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1-2x)(1-x)/(1-4x+2x^2).",
+  "id": "A052659",
+  "mentions": [
+    "A007070"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:09:18",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

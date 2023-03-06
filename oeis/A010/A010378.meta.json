@@ -1,0 +1,23 @@
+{
+  "description": "Squares mod 15.",
+  "id": "A010378",
+  "mentions": [
+    "A010382",
+    "A010421",
+    "A010462",
+    "A070438",
+    "A096008"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

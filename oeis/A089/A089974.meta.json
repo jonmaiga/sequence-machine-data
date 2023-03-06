@@ -1,0 +1,19 @@
+{
+  "description": "(n+1)-st term of the n-th binomial transform of this sequence equals 1 for all n>=0.",
+  "id": "A089974",
+  "mentions": [
+    "A071207",
+    "A089962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

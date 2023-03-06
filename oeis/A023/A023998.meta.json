@@ -1,0 +1,26 @@
+{
+  "description": "Number of block permutations on an n-set which are uniform, i.e., corresponding blocks have same size.",
+  "id": "A023998",
+  "mentions": [
+    "A002720",
+    "A023997",
+    "A061691",
+    "A132813",
+    "A179119",
+    "A275043",
+    "A321296",
+    "A322670"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

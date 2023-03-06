@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of coefficients of n-th degree interpolating polynomial to sqrt(x) multiplied by 4^n.",
+  "id": "A091764",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

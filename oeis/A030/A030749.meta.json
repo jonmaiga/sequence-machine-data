@@ -1,0 +1,18 @@
+{
+  "description": "Number of new terms at stage n in the formation of A030747; likewise at stage n in the formation of A030787.",
+  "id": "A030749",
+  "mentions": [
+    "A030747",
+    "A030787"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

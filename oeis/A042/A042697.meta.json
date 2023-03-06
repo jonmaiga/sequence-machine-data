@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(878).",
+  "id": "A042697",
+  "mentions": [
+    "A040848",
+    "A042696"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:48:14",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

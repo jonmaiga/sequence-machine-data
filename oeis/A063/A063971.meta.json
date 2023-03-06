@@ -1,0 +1,20 @@
+{
+  "description": "Values of n for which A013939(n)/n is an integer.",
+  "id": "A063971",
+  "mentions": [
+    "A001221",
+    "A013939",
+    "A050226",
+    "A064612"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

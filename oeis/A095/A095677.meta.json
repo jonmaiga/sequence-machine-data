@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, read by rows, defined by Sum_{k = 0..n} T(n,k)*x^k = Sum_{k = 0..n} binomial(n,k)*(x+k)^n.",
+  "id": "A095677",
+  "mentions": [
+    "A000079",
+    "A014477"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Fractal palindromic primes of second order.",
+  "id": "A067899",
+  "mentions": [
+    "A082584",
+    "A082599"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least odd prime divisor of prime(n)*prime(n-1) - 1, or 1 if prime(n)*prime(n-1) - 1 is a power of 2.",
+  "id": "A023519",
+  "mentions": [
+    "A023515",
+    "A078701"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

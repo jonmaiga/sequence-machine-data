@@ -1,0 +1,21 @@
+{
+  "description": "Length of maximal prime gap p_{k+1} - p_k with starting prime p_k < 10^n.",
+  "id": "A053303",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A005250",
+    "A038460",
+    "A053302"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

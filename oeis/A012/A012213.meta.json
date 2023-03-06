@@ -1,0 +1,15 @@
+{
+  "description": "exp(arctan(arcsinh(x)))=1+x+1/2!*x^2-2/3!*x^3-11/4!*x^4+24/5!*x^5...",
+  "id": "A012213",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

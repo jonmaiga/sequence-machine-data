@@ -1,0 +1,29 @@
+{
+  "description": "Superperfect numbers: numbers k such that sigma(sigma(k)) = 2*k where sigma is the sum-of-divisors function (A000203).",
+  "id": "A019279",
+  "mentions": [
+    "A000043",
+    "A000203",
+    "A000396",
+    "A000668",
+    "A019280",
+    "A032742",
+    "A034897",
+    "A061652",
+    "A072868",
+    "A090748"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of natural numbers such that concatenation of terms beginning with the first one with a 1 as the least significant digit is a prime.",
+  "id": "A083762",
+  "mentions": [
+    "A083763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

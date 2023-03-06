@@ -1,0 +1,21 @@
+{
+  "description": "a(n) cannot be prefixed or followed by any digit to form a prime ('empty' suffixes are allowed).",
+  "id": "A032737",
+  "mentions": [
+    "A032682",
+    "A032685",
+    "A032702",
+    "A032733"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

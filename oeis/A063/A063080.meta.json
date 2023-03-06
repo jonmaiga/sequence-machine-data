@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k/d(k) is prime, where d(k) is the number of divisors of k.",
+  "id": "A063080",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036762",
+    "A036763",
+    "A039819",
+    "A051278",
+    "A051279",
+    "A051280"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

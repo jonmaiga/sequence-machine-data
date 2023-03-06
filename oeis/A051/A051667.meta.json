@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6*2^n - 4*n - 6.",
+  "id": "A051667",
+  "mentions": [
+    "A000290",
+    "A050488",
+    "A051666"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

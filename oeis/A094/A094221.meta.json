@@ -1,0 +1,22 @@
+{
+  "description": "1/detM(n) where M(n) is the n X n matrix m(i,j)=F(i)/F(i+j-1) and F(i)=i-th Fibonacci number.",
+  "id": "A094221",
+  "mentions": [
+    "A003266",
+    "A062073",
+    "A062381",
+    "A253267",
+    "A253270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

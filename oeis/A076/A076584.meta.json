@@ -1,0 +1,17 @@
+{
+  "description": "Let P(n,x) = Product_{k=1..n} polcyclo(k,x) where polcyclo(k,x) denotes the k-th cyclotomic polynomial. Sequence gives the maximum value of coefficients of P(n,x).",
+  "id": "A076584",
+  "mentions": [
+    "A002088"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

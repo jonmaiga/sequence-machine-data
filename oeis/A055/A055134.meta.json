@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of labeled endofunctions on n points with k fixed points.",
+  "id": "A055134",
+  "mentions": [
+    "A000312",
+    "A055135",
+    "A055136",
+    "A055897",
+    "A065440",
+    "A081132"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:23:18",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that remain prime through 5 iterations of function f(x) = 9x + 2.",
+  "id": "A023352",
+  "mentions": [
+    "A023233",
+    "A023265",
+    "A023296",
+    "A023324"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

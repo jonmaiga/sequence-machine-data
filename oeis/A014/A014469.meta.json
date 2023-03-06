@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array formed from odd elements to right of middle of rows of the triangle of Eulerian numbers (A008292).",
+  "id": "A014469",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:23:56",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

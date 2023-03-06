@@ -1,0 +1,21 @@
+{
+  "description": "Normalized volume of center slice of n-dimensional cube: 2^n* n!*Vol({ (x_1,...,x_n) in [ 0,1 ]^n: n/2 <= Sum_{i = 1..n} x_i <= (n+1)/2 }).",
+  "id": "A011818",
+  "mentions": [
+    "A008292",
+    "A025585",
+    "A104098"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:16:37",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "arctan(arctan(x)*sin(x))=2/2!*x^2-12/4!*x^4-50/6!*x^6+12936/8!*x^8...",
+  "id": "A012423",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:35:23",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

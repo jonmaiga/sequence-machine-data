@@ -1,0 +1,19 @@
+{
+  "description": "Difference between n-th composite number and its largest prime divisor.",
+  "id": "A085273",
+  "mentions": [
+    "A002808",
+    "A085271"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

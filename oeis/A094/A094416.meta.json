@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: generalized ordered Bell numbers Bo(r,n).",
+  "id": "A094416",
+  "mentions": [
+    "A000670",
+    "A004123",
+    "A014105",
+    "A019538",
+    "A032033",
+    "A094417",
+    "A094418",
+    "A094419",
+    "A094420",
+    "A094421",
+    "A094422",
+    "A131689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

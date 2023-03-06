@@ -1,0 +1,15 @@
+{
+  "description": "Recip transform of 2*(1 + x^2 + x^5)-1/(1-x).",
+  "id": "A049156",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:02:10",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

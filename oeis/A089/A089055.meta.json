@@ -1,0 +1,21 @@
+{
+  "description": "Solution to the non-squashing boxes problem (version 2).",
+  "id": "A089055",
+  "mentions": [
+    "A000123",
+    "A088567",
+    "A089054",
+    "A089239"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

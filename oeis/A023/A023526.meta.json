@@ -1,0 +1,15 @@
+{
+  "description": "Greatest exponent in prime-power factorization of p(n)*p(n-1) + 1.",
+  "id": "A023526",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

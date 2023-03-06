@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of form 8^i*9^j, with i, j >= 0.",
+  "id": "A025633",
+  "mentions": [
+    "A025611",
+    "A025615"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

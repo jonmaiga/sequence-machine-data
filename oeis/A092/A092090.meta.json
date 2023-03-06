@@ -1,0 +1,20 @@
+{
+  "description": "Boustrophedon transform of Fibonacci numbers 1, 2, 3, 5, 8, ...",
+  "id": "A092090",
+  "mentions": [
+    "A000744",
+    "A062122",
+    "A092073"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

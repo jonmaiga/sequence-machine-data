@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma_3(n) - sigma_2(n) - sigma_1(n).",
+  "id": "A092350",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

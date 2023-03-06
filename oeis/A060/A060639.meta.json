@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of partitions of [n] whose join is the partition {{1,2,...,n}}.",
+  "id": "A060639",
+  "mentions": [
+    "A000110",
+    "A000225",
+    "A001188",
+    "A059849",
+    "A318815"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

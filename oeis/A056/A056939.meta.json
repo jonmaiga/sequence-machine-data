@@ -1,0 +1,39 @@
+{
+  "description": "Array read by antidiagonals: number of antichains (or order ideals) in the poset 3*m*n or plane partitions with rows <= m, columns <= n and entries <= 3.",
+  "id": "A056939",
+  "mentions": [
+    "A000292",
+    "A000372",
+    "A001181",
+    "A001263",
+    "A006356",
+    "A006542",
+    "A007318",
+    "A056932",
+    "A056940",
+    "A056941",
+    "A142465",
+    "A142467",
+    "A142468",
+    "A174109",
+    "A197208",
+    "A214281",
+    "A342889",
+    "A342890",
+    "A342891"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest difference between consecutive divisors (ordered by size) of 2n+1.",
+  "id": "A060685",
+  "mentions": [
+    "A020639",
+    "A060681"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

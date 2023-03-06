@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Lucas(4n) + 3, or 5*Fibonacci(2n-1)*Fibonacci(2n+1).",
+  "id": "A081076",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A056854",
+    "A064170"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

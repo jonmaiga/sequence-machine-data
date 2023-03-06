@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of log(4).",
+  "id": "A016627",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A000384",
+    "A001787",
+    "A002162",
+    "A002378",
+    "A007531",
+    "A016732",
+    "A066066",
+    "A069072",
+    "A133362",
+    "A191907",
+    "A334388"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime > n(n+1)/2.",
+  "id": "A097050",
+  "mentions": [
+    "A000217",
+    "A060264",
+    "A065383",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

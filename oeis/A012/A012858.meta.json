@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of [x^(4n+2)] in the Taylor series log(cosec(x)*sinh(x))= x^2/3 +2*x^6/2835 +2*x^10/467775 +4*x^14/127702575 +..",
+  "id": "A012858",
+  "mentions": [
+    "A069853",
+    "A202520"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

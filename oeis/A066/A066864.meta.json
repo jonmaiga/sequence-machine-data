@@ -1,0 +1,27 @@
+{
+  "description": "Number of binary arrangements without adjacent 1's on n X n rhombic hexagonal grid.",
+  "id": "A066864",
+  "mentions": [
+    "A006506",
+    "A027683",
+    "A066863",
+    "A066865",
+    "A066866",
+    "A085851",
+    "A219741",
+    "A226444"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

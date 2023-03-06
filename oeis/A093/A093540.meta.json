@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} 1/L(n), where L(n) is the n-th Lucas number.",
+  "id": "A093540",
+  "mentions": [
+    "A000204",
+    "A001622",
+    "A079586",
+    "A153415",
+    "A153416"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

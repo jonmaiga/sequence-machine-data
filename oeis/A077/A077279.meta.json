@@ -1,0 +1,20 @@
+{
+  "description": "Last prime of n-th group of successive primes in A073684.",
+  "id": "A077279",
+  "mentions": [
+    "A073682",
+    "A073683",
+    "A073684",
+    "A092285"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

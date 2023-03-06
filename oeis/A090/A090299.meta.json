@@ -1,0 +1,42 @@
+{
+  "description": "Table T(n,k), n>=0 and k>=0, read by antidiagonals : the k-th column given by the k-th polynomial K_k related to A090285.",
+  "id": "A090299",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000302",
+    "A000346",
+    "A000531",
+    "A000984",
+    "A001700",
+    "A002457",
+    "A002697",
+    "A002802",
+    "A005408",
+    "A018218",
+    "A020918",
+    "A020920",
+    "A028387",
+    "A029887",
+    "A038845",
+    "A038846",
+    "A042941",
+    "A042985",
+    "A045492",
+    "A045724",
+    "A090285"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

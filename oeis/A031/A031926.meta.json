@@ -1,0 +1,18 @@
+{
+  "description": "Lower prime of a difference of 8 between consecutive primes.",
+  "id": "A031926",
+  "mentions": [
+    "A023202",
+    "A248855"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

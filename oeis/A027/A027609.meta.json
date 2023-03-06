@@ -1,0 +1,19 @@
+{
+  "description": "Least non-partition into positive n-th powers.",
+  "id": "A027609",
+  "mentions": [
+    "A027600",
+    "A027601"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

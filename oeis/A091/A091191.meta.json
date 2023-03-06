@@ -1,0 +1,27 @@
+{
+  "description": "Primitive abundant numbers: abundant numbers (A005101) having no abundant proper divisor.",
+  "id": "A091191",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A006038",
+    "A027751",
+    "A071395",
+    "A080224",
+    "A091192",
+    "A275082",
+    "A294890",
+    "A294930"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

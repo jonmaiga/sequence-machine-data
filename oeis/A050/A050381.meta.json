@@ -1,0 +1,35 @@
+{
+  "description": "Number of series-reduced planted trees with n leaves of 2 colors.",
+  "id": "A050381",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001678",
+    "A005804",
+    "A029856",
+    "A031148",
+    "A141268",
+    "A196545",
+    "A291636",
+    "A316697",
+    "A319254",
+    "A330465",
+    "A331872",
+    "A331874",
+    "A331933",
+    "A331934",
+    "A331935",
+    "A331964"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

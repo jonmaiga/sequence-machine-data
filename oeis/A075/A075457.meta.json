@@ -1,0 +1,18 @@
+{
+  "description": "Integer averages of first n perfect powers for some n.",
+  "id": "A075457",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

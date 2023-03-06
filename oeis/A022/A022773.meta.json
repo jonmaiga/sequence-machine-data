@@ -1,0 +1,17 @@
+{
+  "description": "Ordered sequence of distinct terms of the form floor(x^i * floor(x^j)), i,j >= 0, where x = log(5).",
+  "id": "A022773",
+  "mentions": [
+    "A016628"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

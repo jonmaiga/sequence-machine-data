@@ -1,0 +1,17 @@
+{
+  "description": "Number of matchings in graph P_{9} X P_{n}.",
+  "id": "A033512",
+  "mentions": [
+    "A210662"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

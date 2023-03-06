@@ -1,0 +1,18 @@
+{
+  "description": "Minimal number of steps to get from 0 to n when there are 3 kinds of step: add 1, multiply by 2, multiply by 3.",
+  "id": "A056796",
+  "mentions": [
+    "A056792",
+    "A056817"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

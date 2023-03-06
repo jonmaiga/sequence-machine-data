@@ -1,0 +1,20 @@
+{
+  "description": "Final term of n-th row of triangle in A079784.",
+  "id": "A079782",
+  "mentions": [
+    "A003418",
+    "A079781",
+    "A079783",
+    "A079784"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

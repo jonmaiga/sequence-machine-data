@@ -1,0 +1,25 @@
+{
+  "description": "Quotient Fibonacci(5*n)/(5*Fibonacci(n)), where Fibonacci(n) = A000045(n).",
+  "id": "A088545",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000045",
+    "A001656",
+    "A007598",
+    "A059929",
+    "A103326"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:35:18",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

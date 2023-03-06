@@ -1,0 +1,40 @@
+{
+  "description": "Number of nodes of even outdegree (including leaves) in all ordered trees with n edges.",
+  "id": "A026641",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A000984",
+    "A001045",
+    "A014300",
+    "A014301",
+    "A035317",
+    "A072547",
+    "A091526",
+    "A092566",
+    "A101850",
+    "A120588",
+    "A126093",
+    "A127361",
+    "A158815",
+    "A172025",
+    "A172061",
+    "A172062",
+    "A172063",
+    "A172064",
+    "A172065",
+    "A172066",
+    "A172067"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

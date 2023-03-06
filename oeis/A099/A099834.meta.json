@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of different determinants that can be produced by permuting the elements of a 3 X 3 integer matrix with nonnegative entries <= n.",
+  "id": "A099834",
+  "mentions": [
+    "A033431",
+    "A088021",
+    "A088217",
+    "A089472",
+    "A098072",
+    "A099815"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of 2-edge-connected labeled graphs on n nodes.",
+  "id": "A095983",
+  "mentions": [
+    "A001187",
+    "A002218",
+    "A007146",
+    "A013922",
+    "A052446",
+    "A053549",
+    "A059166",
+    "A059167",
+    "A100743",
+    "A198046",
+    "A322395",
+    "A327069",
+    "A327071",
+    "A327079",
+    "A327109",
+    "A327144",
+    "A327146",
+    "A327200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes whose sum of divisors is palindromic.",
+  "id": "A028986",
+  "mentions": [
+    "A002113",
+    "A028980"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

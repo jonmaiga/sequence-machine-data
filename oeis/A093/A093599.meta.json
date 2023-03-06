@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers having an odd number of prime factors, all of which are distinct.",
+  "id": "A093599",
+  "mentions": [
+    "A007304",
+    "A030059"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

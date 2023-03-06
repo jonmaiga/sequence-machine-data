@@ -1,0 +1,22 @@
+{
+  "description": "Sum of composite numbers between prime p and nextprime(p) is palindromic.",
+  "id": "A054266",
+  "mentions": [
+    "A046933",
+    "A054264",
+    "A054265",
+    "A054267",
+    "A054268"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

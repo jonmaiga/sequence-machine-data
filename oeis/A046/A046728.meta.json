@@ -1,0 +1,21 @@
+{
+  "description": "Let p1, p2 be first pair of consecutive primes with difference 2n; let p3, p4 be 2nd such pair; sequence gives \"wadi\" value p3-p1.",
+  "id": "A046728",
+  "mentions": [
+    "A000230",
+    "A038343",
+    "A038460",
+    "A046789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Catalan(n)^(2n-2).",
+  "id": "A079103",
+  "mentions": [
+    "A079102",
+    "A079104",
+    "A079105",
+    "A079106"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

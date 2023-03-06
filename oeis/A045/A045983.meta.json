@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that n or more consecutive integers starting at k have the same number of distinct prime divisors.",
+  "id": "A045983",
+  "mentions": [
+    "A006049",
+    "A075028",
+    "A075031"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

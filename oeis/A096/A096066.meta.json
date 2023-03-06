@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, 1<=k<=n: T(n,k) is the number of occurrences of the k-th prime in partitions of the n-th prime into primes.",
+  "id": "A096066",
+  "mentions": [
+    "A000040",
+    "A056768"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

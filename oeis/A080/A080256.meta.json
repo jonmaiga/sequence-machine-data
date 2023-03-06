@@ -1,0 +1,30 @@
+{
+  "description": "Sum of numbers of distinct and of all prime factors of n.",
+  "id": "A080256",
+  "mentions": [
+    "A000040",
+    "A000430",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A002808",
+    "A007964",
+    "A030513",
+    "A046660",
+    "A058080",
+    "A064598",
+    "A080257",
+    "A080258"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:42:39",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

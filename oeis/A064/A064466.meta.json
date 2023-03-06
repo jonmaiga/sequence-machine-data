@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 6 and a(n) = Min { m > a(n-1) | both a(n-1) - p and m - p are prime for some prime p } for n > 0.",
+  "id": "A064466",
+  "mentions": [
+    "A001359",
+    "A002373",
+    "A064634",
+    "A064635"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

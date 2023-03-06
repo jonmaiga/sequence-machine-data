@@ -1,0 +1,16 @@
+{
+  "description": "Smallest prime obtained as k*n! concatenated with a 1 for some k.",
+  "id": "A089766",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

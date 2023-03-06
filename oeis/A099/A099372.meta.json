@@ -1,0 +1,21 @@
+{
+  "description": "Squares of A099371(n) (generalized Fibonacci).",
+  "id": "A099372",
+  "mentions": [
+    "A099279",
+    "A099371",
+    "A099373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:03:41",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

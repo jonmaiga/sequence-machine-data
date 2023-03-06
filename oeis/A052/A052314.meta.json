@@ -1,0 +1,18 @@
+{
+  "description": "Triangle: Matrix square of A051168.",
+  "id": "A052314",
+  "mentions": [
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:53:16",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

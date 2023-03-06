@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p + 10 is also prime.",
+  "id": "A023203",
+  "mentions": [
+    "A002476",
+    "A007645",
+    "A015916",
+    "A031928",
+    "A079033",
+    "A092146"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

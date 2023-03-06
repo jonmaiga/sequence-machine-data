@@ -1,0 +1,19 @@
+{
+  "description": "Sum of numbers read upward at a 45-degree angle in A079809.",
+  "id": "A079811",
+  "mentions": [
+    "A079808",
+    "A079809"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

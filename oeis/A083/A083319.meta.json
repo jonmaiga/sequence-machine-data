@@ -1,0 +1,20 @@
+{
+  "description": "4^n+3^n-2^n.",
+  "id": "A083319",
+  "mentions": [
+    "A083318",
+    "A083320"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:28:01",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

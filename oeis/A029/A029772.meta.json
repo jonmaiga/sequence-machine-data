@@ -1,0 +1,18 @@
+{
+  "description": "Every digit that appears in n also appears at least once in n^2.",
+  "id": "A029772",
+  "mentions": [
+    "A046827"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:03",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

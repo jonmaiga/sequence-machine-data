@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is defined by the property that n^a(n) divides n! but n^(a(n)+1) does not.",
+  "id": "A011776",
+  "mentions": [
+    "A000142",
+    "A011777",
+    "A011778",
+    "A074845",
+    "A090622",
+    "A133481",
+    "A175787"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

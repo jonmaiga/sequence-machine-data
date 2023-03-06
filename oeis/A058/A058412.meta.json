@@ -1,0 +1,29 @@
+{
+  "description": "Squares composed of digits {0,1,2}, not ending with zero.",
+  "id": "A058412",
+  "mentions": [
+    "A007088",
+    "A058411",
+    "A063009",
+    "A066139",
+    "A136808",
+    "A136809",
+    "A136810",
+    "A137147",
+    "A277946",
+    "A277959",
+    "A278038"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:26",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

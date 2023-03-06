@@ -1,0 +1,18 @@
+{
+  "description": "Integers divisible by 7 which are sequentially obtained from the decimal extension of square root of 2 (1.414213562373095048801688724209...).",
+  "id": "A099203",
+  "mentions": [
+    "A099205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

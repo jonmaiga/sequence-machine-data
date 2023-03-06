@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 12 applications of 'Reverse and Subtract' lead to n, whereas fewer than 12 applications do not lead to n.",
+  "id": "A072718",
+  "mentions": [
+    "A072137",
+    "A072141",
+    "A072142",
+    "A072143",
+    "A072719"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nexus numbers (n+1)^24 - n^24.",
+  "id": "A022540",
+  "mentions": [
+    "A010812",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:07",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Apply partial sum operator twice to Catalan numbers.",
+  "id": "A014140",
+  "mentions": [
+    "A000108",
+    "A002476",
+    "A005043",
+    "A014137",
+    "A068228",
+    "A106270"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

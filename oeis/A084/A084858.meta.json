@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of A001651.",
+  "id": "A084858",
+  "mentions": [
+    "A001651",
+    "A001792"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

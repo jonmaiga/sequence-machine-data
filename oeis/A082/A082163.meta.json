@@ -1,0 +1,22 @@
+{
+  "description": "Number of deterministic completely defined initially connected acyclic automata with 2 inputs and n+1 transient unlabeled states including a unique state having all transitions to the absorbing state.",
+  "id": "A082163",
+  "mentions": [
+    "A082159",
+    "A082161",
+    "A082171",
+    "A103236"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

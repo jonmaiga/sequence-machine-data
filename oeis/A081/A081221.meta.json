@@ -1,0 +1,21 @@
+{
+  "description": "Number of consecutive numbers >= n having at least one square divisor > 1.",
+  "id": "A081221",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A068781",
+    "A080733"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

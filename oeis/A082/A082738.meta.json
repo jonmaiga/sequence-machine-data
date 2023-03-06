@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal of triangle in A082737.",
+  "id": "A082738",
+  "mentions": [
+    "A082737",
+    "A082739",
+    "A082740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

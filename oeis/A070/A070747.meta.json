@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = signum(sin(n)), where signum=A057427.",
+  "id": "A070747",
+  "mentions": [
+    "A000493",
+    "A000494",
+    "A032615",
+    "A057427",
+    "A070748",
+    "A070751",
+    "A070752"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

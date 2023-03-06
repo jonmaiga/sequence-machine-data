@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with 1, re-arrangement of natural numbers such that {a(2n-1)*a(2n)}^(1/2) and {a(2n)+a(2n+1)}/2 are integers.",
+  "id": "A094312",
+  "mentions": [
+    "A094313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

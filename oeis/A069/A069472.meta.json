@@ -1,0 +1,20 @@
+{
+  "description": "Smallest twin prime in a sequence of exactly n disjoint twin pairs, sandwiched between non-twins.",
+  "id": "A069472",
+  "mentions": [
+    "A035789",
+    "A035790",
+    "A035791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

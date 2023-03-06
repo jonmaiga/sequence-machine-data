@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime p such that n-p is a 3-smooth number, a(n)=0 if no such prime exists.",
+  "id": "A081309",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A065333",
+    "A081308",
+    "A081310",
+    "A081311"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

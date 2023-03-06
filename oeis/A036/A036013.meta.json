@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest number >1 such that a(1)a(2)...a(n) - 1 is prime (or 1).",
+  "id": "A036013",
+  "mentions": [
+    "A036012"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

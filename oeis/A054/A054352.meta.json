@@ -1,0 +1,26 @@
+{
+  "description": "Lengths of successive generations of the Kolakoski sequence A000002.",
+  "id": "A054352",
+  "mentions": [
+    "A000002",
+    "A042942",
+    "A054348",
+    "A054349",
+    "A054350",
+    "A054351",
+    "A054353",
+    "A329758"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes indexed by A078515; i.e., primes which start record runs of consecutive primes with distinct first differences.",
+  "id": "A079889",
+  "mentions": [
+    "A078515",
+    "A078516",
+    "A079007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

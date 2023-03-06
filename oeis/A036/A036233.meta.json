@@ -1,0 +1,23 @@
+{
+  "description": "Inverse Colombian function.",
+  "id": "A036233",
+  "mentions": [
+    "A003052",
+    "A004207",
+    "A006507",
+    "A007618",
+    "A016052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

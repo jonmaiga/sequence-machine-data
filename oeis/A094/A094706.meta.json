@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of Pell(n) and 2^n.",
+  "id": "A094706",
+  "mentions": [
+    "A000079",
+    "A000129",
+    "A101164",
+    "A255494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

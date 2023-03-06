@@ -1,0 +1,18 @@
+{
+  "description": "A Ramanujan congruence modulo 11^2 related to partition numbers: a(n) = p(121*n-5)/121 where p(k) is the k-th partition number.",
+  "id": "A072867",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

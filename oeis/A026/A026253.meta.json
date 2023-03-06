@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/2)*s(n), where s(n) is the n-th even number in A026250. Also a(n) = position of n in A026253.",
+  "id": "A026253",
+  "mentions": [
+    "A026250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the sum of the anti-divisors of n = 2n.",
+  "id": "A073931",
+  "mentions": [
+    "A066272",
+    "A066417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

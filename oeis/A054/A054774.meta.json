@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 2^i*5^j where i+j is odd.",
+  "id": "A054774",
+  "mentions": [
+    "A003592",
+    "A004171",
+    "A013710",
+    "A026424",
+    "A036667"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prefixing, suffixing or inserting a 7 in the number anywhere gives a prime.",
+  "id": "A069832",
+  "mentions": [
+    "A068674",
+    "A068679",
+    "A069833"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimal forbidden posets for split semiorders on n points.",
+  "id": "A058260",
+  "mentions": [
+    "A000111",
+    "A058259"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

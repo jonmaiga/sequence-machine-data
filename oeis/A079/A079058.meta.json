@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that A025591(k)>p(n) (p(n)=the n-th partition number).",
+  "id": "A079058",
+  "mentions": [
+    "A000041",
+    "A025591"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

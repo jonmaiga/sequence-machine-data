@@ -1,0 +1,49 @@
+{
+  "description": "List of totally balanced sequences of 2n binary digits written in base 10. Binary expansion of each term contains n 0's and n 1's and reading from left to right (the most significant to the least significant bit), the number of 0's never exceeds the number of 1's.",
+  "id": "A014486",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A007814",
+    "A009766",
+    "A014137",
+    "A020988",
+    "A031443",
+    "A036990",
+    "A057514",
+    "A057515",
+    "A061854",
+    "A063171",
+    "A071156",
+    "A072643",
+    "A079436",
+    "A080116",
+    "A080237",
+    "A080300",
+    "A085184",
+    "A085192",
+    "A089309",
+    "A089408",
+    "A127301",
+    "A213704",
+    "A358505",
+    "A358523",
+    "A358524",
+    "A358550",
+    "A358551"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:49",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

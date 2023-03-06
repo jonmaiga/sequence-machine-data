@@ -1,0 +1,23 @@
+{
+  "description": "Largest value of A075860(j) when j runs through composite numbers between n-th and (n+1)-th primes. That is, the largest fixed-point[=prime] reached by iteration of A008472(=sum of prime factors) initiated with composite values between two consecutive primes.",
+  "id": "A082880",
+  "mentions": [
+    "A008472",
+    "A029908",
+    "A075860",
+    "A082087",
+    "A082088",
+    "A082881"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

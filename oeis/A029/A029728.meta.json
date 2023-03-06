@@ -1,0 +1,27 @@
+{
+  "description": "Complete list of solutions to y^2 = x^3 + 17; sequence gives x values.",
+  "id": "A029728",
+  "mentions": [
+    "A029727",
+    "A134042",
+    "A134074",
+    "A134103",
+    "A134105",
+    "A134107",
+    "A134167",
+    "A309071",
+    "A316456"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

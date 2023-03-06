@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(48).",
+  "id": "A041083",
+  "mentions": [
+    "A002530",
+    "A010502",
+    "A041082"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

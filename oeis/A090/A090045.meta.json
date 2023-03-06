@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of reflexive polytopes in dimension n.",
+  "id": "A090045",
+  "mentions": [
+    "A140296"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

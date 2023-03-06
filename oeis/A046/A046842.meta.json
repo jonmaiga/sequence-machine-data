@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form n*2^n-n-1.",
+  "id": "A046842",
+  "mentions": [
+    "A046843"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

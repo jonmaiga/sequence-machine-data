@@ -1,0 +1,18 @@
+{
+  "description": "Squares on unbounded chessboard for which the least number of knight's moves from corner (0,0) is n.",
+  "id": "A047883",
+  "mentions": [
+    "A098500"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:19:11",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

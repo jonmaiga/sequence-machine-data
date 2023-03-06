@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k>=n such that the number of partitions of k is a multiple of n, or -1 if no such k exists.",
+  "id": "A086146",
+  "mentions": [
+    "A046641"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

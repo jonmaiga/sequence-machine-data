@@ -1,0 +1,22 @@
+{
+  "description": "Mean (rounded) of composite numbers below 10^n.",
+  "id": "A092802",
+  "mentions": [
+    "A006880",
+    "A046731",
+    "A092800",
+    "A092801"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

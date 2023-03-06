@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of (s(0),s(1),...,s(n)) such that every s(i) is a nonnegative integer, s(0) = 1, s(n) = 3, |s(1) - s(0)| = 1, |s(i) - s(i-1)| <= 1 for i >= 2. Also a(n) = T(n,n-2), where T is the array in A026120.",
+  "id": "A026124",
+  "mentions": [
+    "A001006",
+    "A026109",
+    "A026120"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:19:08",
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

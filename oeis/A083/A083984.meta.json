@@ -1,0 +1,21 @@
+{
+  "description": "If k is a number with exactly two distinct decimal digits, say a and b, neither of which is 0 (i.e., a member of A101594), define the self-complement of k, SC(k), to be the number obtained by replacing a with b and vice versa. E.g. SC(232233) = 323322. Sequence contains numbers n such that n and SC(n) are relatively prime.",
+  "id": "A083984",
+  "mentions": [
+    "A083983",
+    "A083985",
+    "A083986",
+    "A101594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

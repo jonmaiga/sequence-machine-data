@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers not divisible by 10 that stay multiples of themselves when freed of their last n digits.",
+  "id": "A095256",
+  "mentions": [
+    "A002283",
+    "A006218",
+    "A057494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

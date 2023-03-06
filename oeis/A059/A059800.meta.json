@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that the quotient-cycle length in continued fraction expansion of sqrt(p) is n: smallest prime p(m) for which A054269(m)=n.",
+  "id": "A059800",
+  "mentions": [
+    "A013646",
+    "A054269",
+    "A130272"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

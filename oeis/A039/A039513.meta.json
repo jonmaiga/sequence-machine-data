@@ -1,0 +1,18 @@
+{
+  "description": "2i + 1 such that A039508(i) = 2.",
+  "id": "A039513",
+  "mentions": [
+    "A039508",
+    "A039515"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

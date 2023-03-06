@@ -1,0 +1,22 @@
+{
+  "description": "Ratio from A049101.",
+  "id": "A049105",
+  "mentions": [
+    "A049101",
+    "A049102",
+    "A049106"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

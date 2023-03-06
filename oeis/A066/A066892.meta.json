@@ -1,0 +1,15 @@
+{
+  "description": "Card (k : prime(k+n)-prime(k)=0 mod(k)).",
+  "id": "A066892",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

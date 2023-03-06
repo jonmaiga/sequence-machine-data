@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients of 1/sqrt(1 - 2*x - 11*x^2); also, a(n) is the central coefficient of (1 + x + 3*x^2)^n.",
+  "id": "A084603",
+  "mentions": [
+    "A002426",
+    "A025237",
+    "A027907",
+    "A069835",
+    "A084600",
+    "A084601",
+    "A084602",
+    "A084604",
+    "A084609",
+    "A084615"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

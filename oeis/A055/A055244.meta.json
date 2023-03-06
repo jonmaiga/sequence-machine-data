@@ -1,0 +1,23 @@
+{
+  "description": "Number of certain stackings of n+1 squares on a double staircase.",
+  "id": "A055244",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A046854",
+    "A055245",
+    "A194540"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

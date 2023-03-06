@@ -1,0 +1,20 @@
+{
+  "description": "Number of 1's in binary expansion(product of nonzero digits(n^n)).",
+  "id": "A096343",
+  "mentions": [
+    "A000120",
+    "A051801"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

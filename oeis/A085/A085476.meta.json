@@ -1,0 +1,24 @@
+{
+  "description": "Periodic Pascal array, read by antidiagonals.",
+  "id": "A085476",
+  "mentions": [
+    "A000749",
+    "A006090",
+    "A007318",
+    "A049016",
+    "A049017"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

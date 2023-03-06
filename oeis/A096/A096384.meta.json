@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the area of the triangle with sides prime(n), prime(n+2) and prime(n+4), rounded down to the nearest integer.",
+  "id": "A096384",
+  "mentions": [
+    "A007531"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 4,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

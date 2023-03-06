@@ -1,0 +1,19 @@
+{
+  "description": "Product of a prime and a triangular number.",
+  "id": "A085783",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A196421"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

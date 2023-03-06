@@ -1,0 +1,17 @@
+{
+  "description": "Primitive recursive function r(z, r(s, r(s, r(s, p_2)))) at (n, 0).",
+  "id": "A083417",
+  "mentions": [
+    "A253099"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

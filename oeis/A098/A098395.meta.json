@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the next larger integer including the highest digit of a(n-1), a(1) = 1.",
+  "id": "A098395",
+  "mentions": [
+    "A011539"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

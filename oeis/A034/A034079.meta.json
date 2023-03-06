@@ -1,0 +1,19 @@
+{
+  "description": "Decimal part of n-th root of a(n) starts with digit 2.",
+  "id": "A034079",
+  "mentions": [
+    "A034059",
+    "A034069"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 2,
+    "size": 55,
+    "source": "joeis"
+  }
+}

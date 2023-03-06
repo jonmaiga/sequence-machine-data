@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that (3*k + 1)/2 is prime.",
+  "id": "A034934",
+  "mentions": [
+    "A003627",
+    "A007645",
+    "A023896",
+    "A038536",
+    "A045309",
+    "A053818",
+    "A175505",
+    "A179871",
+    "A179891"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:29",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

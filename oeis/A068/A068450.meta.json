@@ -1,0 +1,18 @@
+{
+  "description": "Factorial expansion of sqrt(Pi) = Sum_{n>0} a(n)/n!.",
+  "id": "A068450",
+  "mentions": [
+    "A002161",
+    "A075874"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Primorial numbers (second definition): n# = product of primes <= n.",
+  "id": "A034386",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001008",
+    "A002110",
+    "A002805",
+    "A003418",
+    "A006530",
+    "A007947",
+    "A024451",
+    "A034387",
+    "A057872",
+    "A073838",
+    "A106830",
+    "A179215",
+    "A249270",
+    "A250133",
+    "A282511",
+    "A282512",
+    "A296358"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

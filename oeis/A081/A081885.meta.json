@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps needed to reach an integer starting with n+1/16 and iterating the map x-->x*ceiling(x).",
+  "id": "A081885",
+  "mentions": [
+    "A068119",
+    "A073524"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

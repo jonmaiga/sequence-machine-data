@@ -1,0 +1,17 @@
+{
+  "description": "If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = min{ p_i*e_i }.",
+  "id": "A081811",
+  "mentions": [
+    "A081810"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

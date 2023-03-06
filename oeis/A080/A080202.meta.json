@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(b,k) read by rows, giving numbers of pairs of unequal permutations of all the digits 1, ..., k in base b (k",
+  "id": "A080202",
+  "mentions": [
+    "A080203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

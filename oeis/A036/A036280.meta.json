@@ -1,0 +1,22 @@
+{
+  "description": "Numerators in Taylor series for x * cosec(x).",
+  "id": "A036280",
+  "mentions": [
+    "A036281",
+    "A036282",
+    "A036283"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

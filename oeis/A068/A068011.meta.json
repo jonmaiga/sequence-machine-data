@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of {1,2,3,...,n} that sum to 0 mod 5.",
+  "id": "A068011",
+  "mentions": [
+    "A068009",
+    "A068031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:52:31",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

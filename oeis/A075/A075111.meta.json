@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=Sum((-1)^(i+Floor(n/2))T(2i+e),(i=0,..,Floor(n/2))), where T(n) are tribonacci numbers (A000073) and e=(1/2)(1-(-1)^n).",
+  "id": "A075111",
+  "mentions": [
+    "A000073",
+    "A056594",
+    "A074662",
+    "A074677",
+    "A074678"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:47:25",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

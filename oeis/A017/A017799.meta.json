@@ -1,0 +1,26 @@
+{
+  "description": "Binomial coefficients C(83,n).",
+  "id": "A017799",
+  "mentions": [
+    "A007318",
+    "A010926",
+    "A011001",
+    "A017765",
+    "A017798",
+    "A017800",
+    "A017816"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

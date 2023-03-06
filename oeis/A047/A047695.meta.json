@@ -1,0 +1,20 @@
+{
+  "description": "y such that y^2 = C(x,0) + C(x,1) + C(x,2) + C(x,3) is soluble.",
+  "id": "A047695",
+  "mentions": [
+    "A047694"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

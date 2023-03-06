@@ -1,0 +1,21 @@
+{
+  "description": "The first, second, fourth, sixth, seventh, ... letters in this sentence are consonants (ignoring spaces and commas).",
+  "id": "A050481",
+  "mentions": [
+    "A005224",
+    "A080517",
+    "A080520"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:27",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

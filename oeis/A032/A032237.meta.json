@@ -1,0 +1,16 @@
+{
+  "description": "Shifts left 2 places under \"DGK\" (bracelet, element, unlabeled) transform.",
+  "id": "A032237",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

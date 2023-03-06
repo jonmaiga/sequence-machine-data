@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic derivative of n*rad(n)+1, where rad = A007947 (squarefree kernel).",
+  "id": "A078323",
+  "mentions": [
+    "A003415",
+    "A007947",
+    "A078310",
+    "A078322"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

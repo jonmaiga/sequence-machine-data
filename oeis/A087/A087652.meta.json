@@ -1,0 +1,21 @@
+{
+  "description": "Product of the nonprime divisors of n.",
+  "id": "A087652",
+  "mentions": [
+    "A000005",
+    "A001358",
+    "A023890",
+    "A033273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the strings n9n and 9n9 are both prime.",
+  "id": "A090265",
+  "mentions": [
+    "A090262",
+    "A090263",
+    "A090264"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

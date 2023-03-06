@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the difference between maximal and central squarefree kernel numbers dividing values of {binomial(n,k)} or A001405(n), respectively.",
+  "id": "A048682",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A001405",
+    "A020740",
+    "A048623"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:20:26",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

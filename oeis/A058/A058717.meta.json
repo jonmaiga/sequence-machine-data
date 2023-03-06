@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) giving number of nonisomorphic loopless matroids of rank k on n labeled points (n >= 1, 1<=k<=n).",
+  "id": "A058717",
+  "mentions": [
+    "A000065",
+    "A058710",
+    "A058711",
+    "A058716",
+    "A058718",
+    "A058719"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

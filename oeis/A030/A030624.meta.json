@@ -1,0 +1,20 @@
+{
+  "description": "Powers of 2 grouped in pairs of 2 digits (version 3).",
+  "id": "A030624",
+  "mentions": [
+    "A030622",
+    "A030623"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

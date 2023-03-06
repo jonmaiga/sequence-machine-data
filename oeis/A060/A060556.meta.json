@@ -1,0 +1,30 @@
+{
+  "description": "Bisection of triangle A060098: odd-indexed members of column sequences of A060098 (not counting leading zeros).",
+  "id": "A060556",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A002378",
+    "A004320",
+    "A007318",
+    "A040977",
+    "A060098",
+    "A060102",
+    "A060557",
+    "A060558",
+    "A060559"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

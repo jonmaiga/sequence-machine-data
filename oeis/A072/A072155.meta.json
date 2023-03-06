@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum_{k=1..n} phi(k)/k.",
+  "id": "A072155",
+  "mentions": [
+    "A071708",
+    "A250031",
+    "A250032",
+    "A250034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Greatest common divisor of 2^n-1 and 3^n-1.",
+  "id": "A086892",
+  "mentions": [
+    "A000225",
+    "A000255",
+    "A003462",
+    "A024023",
+    "A260119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Composites that use the same digits as their prime factorization.",
+  "id": "A025283",
+  "mentions": [
+    "A075047",
+    "A260046",
+    "A260047",
+    "A260048",
+    "A260049",
+    "A260050",
+    "A260051",
+    "A260052",
+    "A260053",
+    "A260054",
+    "A260055"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

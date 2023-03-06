@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of natural numbers inverse to A075618.",
+  "id": "A095690",
+  "mentions": [
+    "A075618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

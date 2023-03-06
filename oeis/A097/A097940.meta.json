@@ -1,0 +1,21 @@
+{
+  "description": "Sum of smallest parts (counted with multiplicity) of all compositions of n.",
+  "id": "A097940",
+  "mentions": [
+    "A046746",
+    "A092309",
+    "A308630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

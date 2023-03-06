@@ -1,0 +1,19 @@
+{
+  "description": "Congruent to 0 or 2 mod 3, but not equal to 0 or 3.",
+  "id": "A049636",
+  "mentions": [
+    "A007494",
+    "A049627"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:03",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

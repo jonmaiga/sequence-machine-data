@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that Q(sqrt(-k)) has class number 8.",
+  "id": "A055110",
+  "mentions": [
+    "A003173",
+    "A005847",
+    "A006203",
+    "A046002",
+    "A046004",
+    "A046006",
+    "A046085",
+    "A055109",
+    "A055111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

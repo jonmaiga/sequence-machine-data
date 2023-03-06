@@ -1,0 +1,23 @@
+{
+  "description": "Number of binary rooted trees (every node has out-degree 0 or 2) with n labeled leaves (2n-1 nodes in all) and at most 2 distinct labels. Also the number of expressions in at most two variables constructible with n-1 instances of a single commutative and nonassociative binary operator.",
+  "id": "A083563",
+  "mentions": [
+    "A000108",
+    "A001190",
+    "A001699",
+    "A319539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

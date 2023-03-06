@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of N induced by the order-preserving permutation of the rational numbers (x -> x+1); positions in Stern-Brocot tree.",
+  "id": "A057114",
+  "mentions": [
+    "A007305",
+    "A047679",
+    "A054424",
+    "A057115",
+    "A059893",
+    "A065249",
+    "A065250",
+    "A065259",
+    "A065625"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

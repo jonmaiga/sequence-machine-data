@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (natural numbers), t = A023531.",
+  "id": "A024855",
+  "mentions": [
+    "A023531"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:43",
+    "offset": 2,
+    "size": 78,
+    "source": "joeis"
+  }
+}

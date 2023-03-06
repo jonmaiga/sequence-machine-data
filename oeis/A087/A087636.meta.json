@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-digit lunar primes.",
+  "id": "A087636",
+  "mentions": [
+    "A087061",
+    "A087062",
+    "A087097",
+    "A087638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

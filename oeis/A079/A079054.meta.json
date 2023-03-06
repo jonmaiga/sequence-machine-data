@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = -1 if the closest prime to prime(n) is prime(n-1); = 1 if the closest prime to prime(n) is prime(n+1); = 0 if prime(n-1) and prime(n+1) are equally close to prime(n).",
+  "id": "A079054",
+  "mentions": [
+    "A001223",
+    "A092243",
+    "A268343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

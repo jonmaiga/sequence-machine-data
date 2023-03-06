@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are congruent to {0, 3, 7} mod 8.",
+  "id": "A047528",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:55",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

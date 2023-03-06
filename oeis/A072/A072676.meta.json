@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which the prime circle problem has a solution composed of disjoint subsets: the arrangement of numbers 1 through 2k around a circle is such that the sum of each pair of adjacent numbers is prime, the odd numbers are in order and the even numbers are in groups of decreasing sequences.",
+  "id": "A072676",
+  "mentions": [
+    "A051252",
+    "A072184",
+    "A072616",
+    "A072617",
+    "A072618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

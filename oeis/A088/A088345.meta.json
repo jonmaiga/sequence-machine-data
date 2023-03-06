@@ -1,0 +1,17 @@
+{
+  "description": "n is divisible by the sum of all divisors of n which are less than the square root of n (values of n where 1 is the only divisor less than sqrt(n) are excluded as trivial cases.).",
+  "id": "A088345",
+  "mentions": [
+    "A070039"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

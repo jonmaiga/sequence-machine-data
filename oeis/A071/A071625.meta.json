@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct exponents when n is factorized as a product of primes.",
+  "id": "A071625",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001615",
+    "A006939",
+    "A051903",
+    "A051904",
+    "A056239",
+    "A059404",
+    "A062770",
+    "A118914",
+    "A181819",
+    "A323014",
+    "A323022",
+    "A323023",
+    "A323024",
+    "A323025"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that the m-th prime is of the form 3*k-1.",
+  "id": "A091177",
+  "mentions": [
+    "A000040",
+    "A003627",
+    "A024893",
+    "A087370",
+    "A088879",
+    "A133677"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

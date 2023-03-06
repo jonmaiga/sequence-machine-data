@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+1)^n - n^n.",
+  "id": "A055869",
+  "mentions": [
+    "A045531",
+    "A055858",
+    "A055864"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

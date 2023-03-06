@@ -1,0 +1,22 @@
+{
+  "description": "A084113(n) minus A084114(n).",
+  "id": "A084115",
+  "mentions": [
+    "A032741",
+    "A066423",
+    "A084110",
+    "A084113",
+    "A084114",
+    "A084116"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

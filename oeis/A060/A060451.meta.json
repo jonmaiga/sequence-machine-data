@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(m,R) (1 <= R <= m) giving shortest possible length n of an [n,n-m] binary linear code with covering radius R.",
+  "id": "A060451",
+  "mentions": [
+    "A060450"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

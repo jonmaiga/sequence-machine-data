@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficient C(n,28).",
+  "id": "A010981",
+  "mentions": [
+    "A001787",
+    "A010980",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 28,
+    "size": 23,
+    "source": "joeis"
+  }
+}

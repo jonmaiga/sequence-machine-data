@@ -1,0 +1,15 @@
+{
+  "description": "Inverse of 2101st cyclotomic polynomial.",
+  "id": "A016110",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:40",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

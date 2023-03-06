@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the sum of the factorials of their digits.",
+  "id": "A093325",
+  "mentions": [
+    "A005349",
+    "A061602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

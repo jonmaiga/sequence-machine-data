@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2n) is the smallest composite number == 1 mod (a(2n-1)) and a(2n+1) is the smallest prime == 1 (mod a(2n)).",
+  "id": "A075341",
+  "mentions": [
+    "A061092",
+    "A061766",
+    "A075340"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

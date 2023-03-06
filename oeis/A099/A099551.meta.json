@@ -1,0 +1,28 @@
+{
+  "description": "Odd part of n modulo 10. Final digit of A000265(n).",
+  "id": "A099551",
+  "mentions": [
+    "A000265",
+    "A010879",
+    "A099544",
+    "A099545",
+    "A099546",
+    "A099547",
+    "A099548",
+    "A099549",
+    "A099550"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

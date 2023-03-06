@@ -1,0 +1,20 @@
+{
+  "description": "Least common multiple of {3,7,11,...,4n+3}.",
+  "id": "A097329",
+  "mentions": [
+    "A004767",
+    "A051539",
+    "A074638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

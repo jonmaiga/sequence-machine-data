@@ -1,0 +1,22 @@
+{
+  "description": "Smallest square formed from n by inserting zero or more decimal digits.",
+  "id": "A068165",
+  "mentions": [
+    "A029944",
+    "A038690",
+    "A068164",
+    "A091873"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

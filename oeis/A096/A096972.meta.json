@@ -1,0 +1,32 @@
+{
+  "description": "Number of preimages of n (or immediate predecessors) under map f(k) = k + (product of nonzero digits of k).",
+  "id": "A096972",
+  "mentions": [
+    "A063108",
+    "A063425",
+    "A096347",
+    "A096922",
+    "A096923",
+    "A096924",
+    "A096925",
+    "A096926",
+    "A096927",
+    "A096928",
+    "A096929",
+    "A096930",
+    "A096931",
+    "A230106"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

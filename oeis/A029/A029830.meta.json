@@ -1,0 +1,31 @@
+{
+  "description": "Eisenstein series E_20(q) (alternate convention E_10(q)), multiplied by 174611.",
+  "id": "A029830",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A008410",
+    "A013973",
+    "A013974",
+    "A029828",
+    "A029829",
+    "A029831",
+    "A058550",
+    "A279892",
+    "A279893",
+    "A282015",
+    "A282292"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

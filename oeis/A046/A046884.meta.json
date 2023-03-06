@@ -1,0 +1,20 @@
+{
+  "description": "Doubly automorphic primes: p is k-th prime, ends in k and k is itself prime.",
+  "id": "A046884",
+  "mentions": [
+    "A046883"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

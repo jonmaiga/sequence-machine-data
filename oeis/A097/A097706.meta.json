@@ -1,0 +1,31 @@
+{
+  "description": "Part of n composed of prime factors of form 4k+3.",
+  "id": "A097706",
+  "mentions": [
+    "A000265",
+    "A004614",
+    "A065338",
+    "A065339",
+    "A072436",
+    "A072437",
+    "A170818",
+    "A170819",
+    "A248909",
+    "A260728",
+    "A286363",
+    "A343431"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

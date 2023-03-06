@@ -1,0 +1,22 @@
+{
+  "description": "XOR BINOMIAL transform of A038712.",
+  "id": "A099894",
+  "mentions": [
+    "A038712",
+    "A048298",
+    "A062383",
+    "A099884",
+    "A099895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:59",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

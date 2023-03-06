@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers below 10^n with nonzero multiplicative digital root 9.",
+  "id": "A051829",
+  "mentions": [
+    "A051802",
+    "A051811",
+    "A051820"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime(k) such that the prime power with largest exponent that divides the product P(k) of composite numbers between prime(k) and prime(k+1) is an odd number, i.e., if p^r and 2^s divide P(k) then r >= s, p is an odd prime.",
+  "id": "A077217",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A051903",
+    "A061214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array A(x,y): induced by the 2-ary form of the list-function 'list' present in the programming languages Lisp and Scheme, in the same way as A085201 is induced by the 2-ary 'append'-function. Listed antidiagonalwise as A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ...",
+  "id": "A085205",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A057548",
+    "A072764",
+    "A085201",
+    "A085206",
+    "A085226",
+    "A085227",
+    "A085228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

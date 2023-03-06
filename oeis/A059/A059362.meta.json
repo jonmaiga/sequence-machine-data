@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that x^24 = 2 has no solution mod p.",
+  "id": "A059362",
+  "mentions": [
+    "A000040",
+    "A049556",
+    "A059264",
+    "A059331",
+    "A059669",
+    "A212376"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:26",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

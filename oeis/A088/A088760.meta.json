@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest multiple of a(n-1) that contains all the digits of a(n-1) and is not a multiple of 10.",
+  "id": "A088760",
+  "mentions": [
+    "A077696",
+    "A077711",
+    "A088761"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

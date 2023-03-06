@@ -1,0 +1,19 @@
+{
+  "description": "First column of triangle A082737.",
+  "id": "A082739",
+  "mentions": [
+    "A082737",
+    "A082738",
+    "A082740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

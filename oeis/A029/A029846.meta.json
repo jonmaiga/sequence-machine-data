@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-1)*b(n-2)+2, b() given by A029758.",
+  "id": "A029846",
+  "mentions": [
+    "A029758"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

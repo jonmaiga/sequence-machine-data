@@ -1,0 +1,18 @@
+{
+  "description": "Table(n,j) of the least k such that k*P(n)#/210-j and k*P(n)#/210-j+8 are consecutive primes, for n > 4 and j=7 to 1.",
+  "id": "A098079",
+  "mentions": [
+    "A098078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 5,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form (kp)^p for prime p and k=1,2,3,....",
+  "id": "A097764",
+  "mentions": [
+    "A000040",
+    "A051674",
+    "A084746",
+    "A097792",
+    "A255134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

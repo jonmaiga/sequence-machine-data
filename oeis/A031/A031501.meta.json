@@ -1,0 +1,17 @@
+{
+  "description": "Triangle of numbers maxfit[ i ][ j ] = upper bound on number of incidences in a geometry with <= i points and <= j blocks.",
+  "id": "A031501",
+  "mentions": [
+    "A001200"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

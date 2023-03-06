@@ -1,0 +1,18 @@
+{
+  "description": "Large-q series expansion for exponential of bulk free energy of the square-lattice zero-temperature Potts antiferromagnet, divided by (q-1)^2/q, in terms of the variable z = 1/(q - 1).",
+  "id": "A090673",
+  "mentions": [
+    "A238835",
+    "A238836"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

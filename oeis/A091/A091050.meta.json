@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors of n that are perfect powers.",
+  "id": "A091050",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001597",
+    "A005117",
+    "A005361",
+    "A013929",
+    "A025474",
+    "A027750",
+    "A075802",
+    "A091051"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

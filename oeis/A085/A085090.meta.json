@@ -1,0 +1,21 @@
+{
+  "description": "If 2n-1 is prime then a(n) = 2n-1, otherwise a(n) = 0.",
+  "id": "A085090",
+  "mentions": [
+    "A098090",
+    "A101264",
+    "A122845"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

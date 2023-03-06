@@ -1,0 +1,17 @@
+{
+  "description": "Engel expansion of 1/Pi.",
+  "id": "A014012",
+  "mentions": [
+    "A006784"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

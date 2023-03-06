@@ -1,0 +1,32 @@
+{
+  "description": "Highest power of 3 dividing n!.",
+  "id": "A054861",
+  "mentions": [
+    "A004128",
+    "A007949",
+    "A011371",
+    "A027868",
+    "A053735",
+    "A054895",
+    "A054899",
+    "A067080",
+    "A090622",
+    "A096346",
+    "A096396",
+    "A098844",
+    "A122841",
+    "A132027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 11; for n>1, a(n) = smallest palindromic prime beginning with a(n-1).",
+  "id": "A088103",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

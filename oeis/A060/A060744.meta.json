@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n | p(n)*q(n), where p() is the unrestricted partition function (A000041) and q is the distinct partition function (A000009).",
+  "id": "A060744",
+  "mentions": [
+    "A000009",
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:26",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

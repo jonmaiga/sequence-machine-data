@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of numbers obtained by reversing the first n digits of Pi and juxtaposing.",
+  "id": "A095709",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:49",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

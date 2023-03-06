@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which reduced residue system contains fewer primes than nonprimes.",
+  "id": "A048867",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:15:09",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

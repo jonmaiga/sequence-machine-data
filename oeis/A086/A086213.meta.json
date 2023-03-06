@@ -1,0 +1,20 @@
+{
+  "description": "Tribonacci numbers that start with first three cubes.",
+  "id": "A086213",
+  "mentions": [
+    "A000213",
+    "A086192"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:05:20",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

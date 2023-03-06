@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor of peak values of 3x+1 trajectory started at n.",
+  "id": "A095386",
+  "mentions": [
+    "A006530",
+    "A025586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 2,
+    "size": 79,
+    "source": "joeis"
+  }
+}

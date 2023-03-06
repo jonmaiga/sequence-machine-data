@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 2^j+p^j are primes for j=0,1,4,32.",
+  "id": "A094489",
+  "mentions": [
+    "A082101",
+    "A094473",
+    "A094488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

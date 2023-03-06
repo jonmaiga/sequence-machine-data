@@ -1,0 +1,16 @@
+{
+  "description": "Shifts left 2 places under \"BHK\" (reversible, identity, unlabeled) transform.",
+  "id": "A032104",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:50:58",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

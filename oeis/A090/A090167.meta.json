@@ -1,0 +1,25 @@
+{
+  "description": "Number of configurations of the 6 X 2 variant of the so-called \"Sam Loyd\" sliding block 15-puzzle that require a minimum of n moves to be reached, starting with the empty square in one of the corners.",
+  "id": "A090167",
+  "mentions": [
+    "A087725",
+    "A089473",
+    "A090033",
+    "A090034",
+    "A090035",
+    "A090036",
+    "A090166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

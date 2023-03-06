@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that (n+1)^n - n^(n-1) is prime.",
+  "id": "A054463",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

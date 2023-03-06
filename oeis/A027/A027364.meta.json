@@ -1,0 +1,29 @@
+{
+  "description": "Coefficients of unique normalized cusp form Delta_16 of weight 16 for full modular group.",
+  "id": "A027364",
+  "mentions": [
+    "A000521",
+    "A000594",
+    "A001158",
+    "A013963",
+    "A037944",
+    "A037945",
+    "A037946",
+    "A037947",
+    "A126763",
+    "A290152",
+    "A290178"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

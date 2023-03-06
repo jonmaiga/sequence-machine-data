@@ -1,0 +1,21 @@
+{
+  "description": "Array T(m,n) read by antidiagonals: if X and Y are two (possibly empty) finite sets with m and n elements respectively and Z is the disjoint union of X and Y, then T(m,n) is the number of self-inverse partial functions f:Z ->Z which do not fix any element of Y.",
+  "id": "A086363",
+  "mentions": [
+    "A000085",
+    "A005425"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

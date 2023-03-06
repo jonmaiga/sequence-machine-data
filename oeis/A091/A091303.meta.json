@@ -1,0 +1,20 @@
+{
+  "description": "Third diagonal of A008970 (after A000111 and A000708).",
+  "id": "A091303",
+  "mentions": [
+    "A000111",
+    "A000708",
+    "A008970"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

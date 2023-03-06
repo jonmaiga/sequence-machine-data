@@ -1,0 +1,22 @@
+{
+  "description": "Multiplication table of the powers of three read by antidiagonals.",
+  "id": "A098355",
+  "mentions": [
+    "A000244",
+    "A003056",
+    "A003991",
+    "A098354",
+    "A137688"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

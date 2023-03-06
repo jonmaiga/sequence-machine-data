@@ -1,0 +1,21 @@
+{
+  "description": "Random digits.",
+  "id": "A039925",
+  "mentions": [
+    "A002205",
+    "A039926"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

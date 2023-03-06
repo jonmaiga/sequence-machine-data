@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=a(2)=a(3)=1, a(n)=n-a(a(n-1))-a(a(n-2))-a(a(n-3)).",
+  "id": "A078474",
+  "mentions": [
+    "A003160",
+    "A005206",
+    "A284680"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

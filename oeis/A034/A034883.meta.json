@@ -1,0 +1,21 @@
+{
+  "description": "Maximum length of Euclidean algorithm starting with n and any nonnegative i",
+  "id": "A034883",
+  "mentions": [
+    "A051010",
+    "A071647",
+    "A084242",
+    "A188224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:53",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

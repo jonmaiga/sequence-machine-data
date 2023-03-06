@@ -1,0 +1,19 @@
+{
+  "description": "Index of occurrence of the first 0 bit in binary representation of 3^n.",
+  "id": "A093476",
+  "mentions": [
+    "A011754",
+    "A048651"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

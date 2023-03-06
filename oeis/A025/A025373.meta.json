@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of 4 nonzero squares in 8 or more ways.",
+  "id": "A025373",
+  "mentions": [
+    "A025336",
+    "A025364",
+    "A025372",
+    "A025374",
+    "A025428",
+    "A344801",
+    "A345152"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:28:23",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

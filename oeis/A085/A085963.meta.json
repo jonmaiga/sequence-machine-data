@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of Farey fractions with prime numerators and denominators.",
+  "id": "A085963",
+  "mentions": [
+    "A085692"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

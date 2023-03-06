@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n occurring in binary representation of n*(n+1)/2.",
+  "id": "A092734",
+  "mentions": [
+    "A000217",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

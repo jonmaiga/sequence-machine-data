@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor((Sum_{r=1..n} r)*(Sum_{r=1..n} 1/r)).",
+  "id": "A090541",
+  "mentions": [
+    "A052488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

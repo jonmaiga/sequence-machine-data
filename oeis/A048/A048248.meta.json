@@ -1,0 +1,16 @@
+{
+  "description": "Possible traces of n-step walks on 1-D lattice, ignoring translations.",
+  "id": "A048248",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

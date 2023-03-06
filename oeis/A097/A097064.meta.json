@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1 - 4*x + 6*x^2)/(1 - 2*x)^2.",
+  "id": "A097064",
+  "mentions": [
+    "A001787",
+    "A002162",
+    "A016578",
+    "A036289",
+    "A097062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:23:41",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

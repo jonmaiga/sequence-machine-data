@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/phi (phi being the golden ratio) as an infinite product: 1/phi = Product_{k=0..n} (1-1/a(k)).",
+  "id": "A088334",
+  "mentions": [
+    "A001566",
+    "A001622",
+    "A094214",
+    "A101342"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

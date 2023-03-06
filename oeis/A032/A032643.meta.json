@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k concatenated with k+3 is a lucky number.",
+  "id": "A032643",
+  "mentions": [
+    "A000959",
+    "A032653"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

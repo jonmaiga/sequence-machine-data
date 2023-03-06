@@ -1,0 +1,33 @@
+{
+  "description": "Number of distinct resistances that can be produced from a circuit of n equal resistors using only series and parallel combinations.",
+  "id": "A048211",
+  "mentions": [
+    "A000084",
+    "A051389",
+    "A153588",
+    "A174283",
+    "A174284",
+    "A174285",
+    "A174286",
+    "A176497",
+    "A176498",
+    "A176499",
+    "A176500",
+    "A176501",
+    "A176502",
+    "A180414"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

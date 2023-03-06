@@ -1,0 +1,17 @@
+{
+  "description": "2-nadirs of sigma: numbers k such that sigma(k-2) > sigma(k-1) > sigma(k) < sigma(k+1) < sigma(k+2).",
+  "id": "A076774",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

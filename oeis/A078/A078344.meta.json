@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; a(2)=2; a(3)=3; a(n) = sum(k=3,n-1,a(k) + a(k-1) + a(k-2) ).",
+  "id": "A078344",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:40:18",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

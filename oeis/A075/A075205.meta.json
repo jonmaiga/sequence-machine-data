@@ -1,0 +1,28 @@
+{
+  "description": "Number of polyominoes with n cells that tile the plane isohedrally.",
+  "id": "A075205",
+  "mentions": [
+    "A054359",
+    "A075198",
+    "A075199",
+    "A075200",
+    "A075201",
+    "A075202",
+    "A075203",
+    "A075204",
+    "A075206",
+    "A075214",
+    "A075223"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

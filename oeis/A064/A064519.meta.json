@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that usigma(n) / tau(n) is prime.",
+  "id": "A064519",
+  "mentions": [
+    "A000005",
+    "A034448"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

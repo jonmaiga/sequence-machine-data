@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sqrt(n) if n is a square, otherwise 1.",
+  "id": "A056926",
+  "mentions": [
+    "A000196",
+    "A007955",
+    "A010052",
+    "A037213",
+    "A056925"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

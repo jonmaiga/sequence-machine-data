@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of number pairs from A054038 which together use all ten digits once.",
+  "id": "A085545",
+  "mentions": [
+    "A054038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

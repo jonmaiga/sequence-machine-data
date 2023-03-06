@@ -1,0 +1,18 @@
+{
+  "description": "Class numbers associated with entries of A094852.",
+  "id": "A094853",
+  "mentions": [
+    "A094852"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

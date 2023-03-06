@@ -1,0 +1,17 @@
+{
+  "description": "Numerators k for which the partial quotients of the k-CF of sqrt(2) are periodic, where a k-CF is defined as the continued fraction representation having k as the constant numerator: x = q_0 + k/(q_1 + k/(q_2 + k/(q_3 +...))).",
+  "id": "A087950",
+  "mentions": [
+    "A087951"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

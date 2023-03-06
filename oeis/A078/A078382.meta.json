@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors of numbers which can be written as sum of a positive square and a positive cube.",
+  "id": "A078382",
+  "mentions": [
+    "A000203",
+    "A055394",
+    "A078381",
+    "A078383",
+    "A078384"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

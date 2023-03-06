@@ -1,0 +1,27 @@
+{
+  "description": "OddPowerSigma(n) = sum of odd power divisors of n.",
+  "id": "A033634",
+  "mentions": [
+    "A000203",
+    "A008864",
+    "A065463",
+    "A072587",
+    "A072691",
+    "A126849",
+    "A181150",
+    "A268335",
+    "A295316"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

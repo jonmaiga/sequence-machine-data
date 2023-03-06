@@ -1,0 +1,24 @@
+{
+  "description": "Subset of vampire numbers A014575 having exactly two representations of the desired form.",
+  "id": "A048936",
+  "mentions": [
+    "A014575",
+    "A020342",
+    "A048933",
+    "A048939",
+    "A080718",
+    "A144563",
+    "A280928"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

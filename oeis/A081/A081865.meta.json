@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sigma_7(2n-1).",
+  "id": "A081865",
+  "mentions": [
+    "A013955"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

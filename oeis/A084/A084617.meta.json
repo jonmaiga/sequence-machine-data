@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of circles with diameter 1 that can be packed in a square of side length n.",
+  "id": "A084617",
+  "mentions": [
+    "A023393",
+    "A051657",
+    "A084616"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

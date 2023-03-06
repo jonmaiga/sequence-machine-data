@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that define integer Heronian triangles [a(n), prime(a(n)), A068968(n)] with area A068969(n).",
+  "id": "A068967",
+  "mentions": [
+    "A000040",
+    "A068964",
+    "A068968",
+    "A068969"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the concatenation 2n3n5n7n11n13 is prime.",
+  "id": "A092117",
+  "mentions": [
+    "A032711",
+    "A083677",
+    "A083966",
+    "A083969",
+    "A092115"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

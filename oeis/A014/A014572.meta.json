@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Thue-Morse constant.",
+  "id": "A014572",
+  "mentions": [
+    "A014571"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

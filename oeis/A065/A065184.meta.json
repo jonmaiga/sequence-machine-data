@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of nonnegative integers produced when the finite permutations listed by A060117 are subjected to the left-right maxima variant of Foata's transformation. Inverse of A065183.",
+  "id": "A065184",
+  "mentions": [
+    "A060117",
+    "A060125",
+    "A065161",
+    "A065163",
+    "A065181",
+    "A065182",
+    "A065183"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

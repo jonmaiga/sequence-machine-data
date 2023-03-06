@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors of n! that are coprime to n.",
+  "id": "A095997",
+  "mentions": [
+    "A000142",
+    "A027423"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

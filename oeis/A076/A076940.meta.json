@@ -1,0 +1,19 @@
+{
+  "description": "Define a mapping for a reduced rational number p/q by f(p/q) = 1 followed by p zeros followed by a 1 followed by q zeros.",
+  "id": "A076940",
+  "mentions": [
+    "A066657",
+    "A066658"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

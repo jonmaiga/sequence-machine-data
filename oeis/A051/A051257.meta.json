@@ -1,0 +1,24 @@
+{
+  "description": "Numbers formed from binomial coefficients (mod 2+k) interpreted as digits in factorial base.",
+  "id": "A051257",
+  "mentions": [
+    "A001317",
+    "A001339",
+    "A047999",
+    "A048757",
+    "A051256"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

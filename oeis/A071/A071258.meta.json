@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 4; a(n) = smallest composite number of form k*a(n-1) + 1 with k > 1.",
+  "id": "A071258",
+  "mentions": [
+    "A059411",
+    "A061092",
+    "A061766"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

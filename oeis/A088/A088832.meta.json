@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n whose abundance is 4: sigma(n) - 2n = 4.",
+  "id": "A088832",
+  "mentions": [
+    "A033880",
+    "A045768",
+    "A045769",
+    "A059608",
+    "A088830",
+    "A088831",
+    "A125246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

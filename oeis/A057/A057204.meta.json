@@ -1,0 +1,24 @@
+{
+  "description": "Primes congruent to 1 mod 6 generated recursively. Initial prime is 7. The next term is p(n) = Min_{p is prime; p divides 4Q^2+3; p mod 6 = 1}, where Q is the product of previous entries of the sequence.",
+  "id": "A057204",
+  "mentions": [
+    "A000945",
+    "A000946",
+    "A002476",
+    "A005265",
+    "A005266",
+    "A051308",
+    "A051335",
+    "A057208"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

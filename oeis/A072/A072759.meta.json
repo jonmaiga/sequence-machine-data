@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of permutation A072758 of the nonnegative integers.",
+  "id": "A072759",
+  "mentions": [
+    "A072758"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

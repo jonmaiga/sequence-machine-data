@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that [A070080(k), A070081(k), A070082(k)] is an integer triangle with prime sides.",
+  "id": "A070111",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070088",
+    "A070114",
+    "A070117",
+    "A070120",
+    "A070123",
+    "A070126",
+    "A070129",
+    "A070132",
+    "A070135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

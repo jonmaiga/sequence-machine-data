@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest number m which can be obtained in n ways by subtracting twice a triangular number from a perfect square.",
+  "id": "A078714",
+  "mentions": [
+    "A018782",
+    "A038547",
+    "A078703",
+    "A204046",
+    "A204086"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

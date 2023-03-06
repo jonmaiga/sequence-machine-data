@@ -1,0 +1,22 @@
+{
+  "description": "Map from binary trees of size n to the set of corresponding trivalent plane trees (tpt) represented as size 2n+1 general trees.",
+  "id": "A083930",
+  "mentions": [
+    "A014486",
+    "A057123",
+    "A057548",
+    "A083929",
+    "A083936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

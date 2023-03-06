@@ -1,0 +1,17 @@
+{
+  "description": "Primes produced by repeated application of the formula p -> (4p +- 3) starting at the prime 2.",
+  "id": "A086319",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Total number of triangles in all polyiamonds with n triangles.",
+  "id": "A096361",
+  "mentions": [
+    "A000577"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least n such that n consecutive values in A080378 equals 2; i.e., exactly n differences between consecutive primes give residues 2 when divided by 4.",
+  "id": "A080379",
+  "mentions": [
+    "A001223",
+    "A080378",
+    "A080381"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

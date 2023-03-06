@@ -1,0 +1,38 @@
+{
+  "description": "Numerators in canonical bijection from positive integers to positive rationals <= 1: arrange fractions by increasing denominator then by increasing numerator.",
+  "id": "A038566",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A002260",
+    "A020652",
+    "A020653",
+    "A023896",
+    "A038567",
+    "A038568",
+    "A038569",
+    "A038610",
+    "A054424",
+    "A060837",
+    "A069220",
+    "A071970",
+    "A111992",
+    "A112484",
+    "A169581"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "core",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

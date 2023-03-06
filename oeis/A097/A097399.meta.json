@@ -1,0 +1,21 @@
+{
+  "description": "Maximum of the determinant over all permutations of the entries of a 3 X 3 matrix which are consecutive integers in the range (n-4,n+4).",
+  "id": "A097399",
+  "mentions": [
+    "A085000",
+    "A097400",
+    "A097401",
+    "A097693"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:53:07",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

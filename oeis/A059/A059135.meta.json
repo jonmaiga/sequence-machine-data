@@ -1,0 +1,19 @@
+{
+  "description": "A hierarchical sequence (S(W2{3}c) - see A059126).",
+  "id": "A059135",
+  "mentions": [
+    "A059126",
+    "A059127"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:23:34",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

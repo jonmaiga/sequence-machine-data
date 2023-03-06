@@ -1,0 +1,18 @@
+{
+  "description": "Nonpalindromic and \"non-core\" numbers that when squared give palindrome with odd number of digits.",
+  "id": "A016106",
+  "mentions": [
+    "A028818"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

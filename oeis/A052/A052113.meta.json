@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-complementary directed 2-multigraphs with loops on n nodes.",
+  "id": "A052113",
+  "mentions": [
+    "A004105",
+    "A047832"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

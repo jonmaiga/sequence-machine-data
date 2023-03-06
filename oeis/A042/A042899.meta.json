@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(981).",
+  "id": "A042899",
+  "mentions": [
+    "A040949",
+    "A042898"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:45:15",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: number of Motzkin paths by length and by number of humps.",
+  "id": "A097229",
+  "mentions": [
+    "A001263",
+    "A001793"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

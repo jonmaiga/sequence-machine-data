@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of letters in n (in the Norwegian language Nynorsk).",
+  "id": "A028292",
+  "mentions": [
+    "A014656"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

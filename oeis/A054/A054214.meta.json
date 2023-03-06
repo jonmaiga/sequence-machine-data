@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that n concatenated with n-1 is a square.",
+  "id": "A054214",
+  "mentions": [
+    "A020339",
+    "A020340",
+    "A030465",
+    "A030466",
+    "A030467",
+    "A054215",
+    "A054216",
+    "A116123",
+    "A116142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

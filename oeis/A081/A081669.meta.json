@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of exp(2x)+exp(x)BesselI_0(2x).",
+  "id": "A081669",
+  "mentions": [
+    "A000984",
+    "A081668",
+    "A081670"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

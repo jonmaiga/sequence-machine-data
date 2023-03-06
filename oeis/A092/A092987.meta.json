@@ -1,0 +1,19 @@
+{
+  "description": "A092985(n) divided by {A057237(n)}!.",
+  "id": "A092987",
+  "mentions": [
+    "A057237",
+    "A092985"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

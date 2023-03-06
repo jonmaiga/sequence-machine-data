@@ -1,0 +1,16 @@
+{
+  "description": "First occurrence of primes p such that p = (prime(k) + prime(k+n))/2 for some positive integer k and n=2, 3, ...",
+  "id": "A098036",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of repdigits of A002276.",
+  "id": "A099669",
+  "mentions": [
+    "A002275",
+    "A002276",
+    "A002283",
+    "A057932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

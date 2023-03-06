@@ -1,0 +1,19 @@
+{
+  "description": "Smallest abundant divisor of n-th abundant number.",
+  "id": "A091196",
+  "mentions": [
+    "A005101",
+    "A080224",
+    "A091191"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

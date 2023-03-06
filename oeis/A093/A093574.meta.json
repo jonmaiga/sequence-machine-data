@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime of the form n^j+(n+1)^k, with j,k integer > 0.",
+  "id": "A093574",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A093575",
+    "A093576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

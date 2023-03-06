@@ -1,0 +1,32 @@
+{
+  "description": "Triangle of numbers read by rows: T(n,k) = floor( C(n,k)/(k+1) ), where k=0..n-1 and n >= 1.",
+  "id": "A011847",
+  "mentions": [
+    "A001840",
+    "A006918",
+    "A008619",
+    "A011795",
+    "A011797",
+    "A011842",
+    "A011843",
+    "A011844",
+    "A011845",
+    "A011846",
+    "A032168",
+    "A032169",
+    "A095718",
+    "A245558"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:57",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

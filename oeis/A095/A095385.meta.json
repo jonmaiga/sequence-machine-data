@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with property that n is a peak value in 3x+1 trajectory such that both n+1 and n-1 are prime numbers.",
+  "id": "A095385",
+  "mentions": [
+    "A025586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

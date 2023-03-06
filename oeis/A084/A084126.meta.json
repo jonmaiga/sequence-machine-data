@@ -1,0 +1,33 @@
+{
+  "description": "Prime factor <= other prime factor of n-th semiprime.",
+  "id": "A084126",
+  "mentions": [
+    "A001358",
+    "A006530",
+    "A020639",
+    "A068318",
+    "A084127",
+    "A087718",
+    "A087794",
+    "A089994",
+    "A089995",
+    "A096916",
+    "A106550",
+    "A106554",
+    "A108541",
+    "A131284",
+    "A138510",
+    "A138511"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:43",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

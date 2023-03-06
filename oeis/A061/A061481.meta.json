@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(e^(n/e)).",
+  "id": "A061481",
+  "mentions": [
+    "A000792",
+    "A073229",
+    "A073230",
+    "A107586"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:31:02",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

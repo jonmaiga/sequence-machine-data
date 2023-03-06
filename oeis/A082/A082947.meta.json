@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes not divisible by any of their digits.",
+  "id": "A082947",
+  "mentions": [
+    "A002113",
+    "A038772"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:30",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

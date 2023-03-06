@@ -1,0 +1,38 @@
+{
+  "description": "Numbers that are not the sum of distinct triangular numbers.",
+  "id": "A053614",
+  "mentions": [
+    "A000217",
+    "A001422",
+    "A002243",
+    "A002244",
+    "A007294",
+    "A007419",
+    "A014134",
+    "A014156",
+    "A014158",
+    "A020757",
+    "A024940",
+    "A025524",
+    "A050941",
+    "A050942",
+    "A051533",
+    "A051611",
+    "A060773",
+    "A061208",
+    "A121405"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

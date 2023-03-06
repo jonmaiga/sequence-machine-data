@@ -1,0 +1,18 @@
+{
+  "description": "Let q_k = p*(p+2) be product of k-th pair of twin primes; sequence gives values of p+2 such that (q_k)^2 > q_{k-i}*q_{k+i} for all 1 <= i <= k-1.",
+  "id": "A021007",
+  "mentions": [
+    "A021005",
+    "A028388"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

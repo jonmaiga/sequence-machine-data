@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(2n/3) * ceiling(2n/3) / 2.",
+  "id": "A082667",
+  "mentions": [
+    "A008130",
+    "A151842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:29",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

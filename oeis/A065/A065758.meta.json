@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n divided by n - phi(n) in approximately the golden ratio, i.e., n such that for some r, n is an r-digit minimizer of abs(k / (k - EulerPhi(k)) - (golden ratio phi)).",
+  "id": "A065758",
+  "mentions": [
+    "A065657"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

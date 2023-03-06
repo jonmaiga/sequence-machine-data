@@ -1,0 +1,27 @@
+{
+  "description": "Theta series of A*_6 lattice.",
+  "id": "A023918",
+  "mentions": [
+    "A000007",
+    "A000122",
+    "A004013",
+    "A004016",
+    "A008446",
+    "A023916",
+    "A023917",
+    "A023919",
+    "A023936",
+    "A047328"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

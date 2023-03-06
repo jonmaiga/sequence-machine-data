@@ -1,0 +1,15 @@
+{
+  "description": "A modified Fibonacci sequence controlled by a toggle switch. The toggle switch (initial state of 2) flips between 2 and 3 after each reduction.",
+  "id": "A096016",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

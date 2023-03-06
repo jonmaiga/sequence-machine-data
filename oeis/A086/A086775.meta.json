@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the number defined by the continued fraction shown below.",
+  "id": "A086775",
+  "mentions": [
+    "A001622",
+    "A136319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

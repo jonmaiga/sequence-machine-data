@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least m such that 2*n*m is a nontotient value; that is, 2*n*a(n) is in A005277.",
+  "id": "A071615",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A071616"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=3-k(n), where k=A006928; also, a and k have the same runlength sequence, with n-th term k(n-1) for n >= 2.",
+  "id": "A049710",
+  "mentions": [
+    "A000002",
+    "A006928",
+    "A049705",
+    "A088569"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:39",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

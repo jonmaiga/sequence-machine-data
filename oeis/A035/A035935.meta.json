@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number that always takes at least n steps to reach 0 under \"k -> any product of 2 numbers whose concatenation is k\".",
+  "id": "A035935",
+  "mentions": [
+    "A035930",
+    "A035934"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

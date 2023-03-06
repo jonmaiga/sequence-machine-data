@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that, for some numbers (j,k), j<=k, n is the smallest positive multiple of j (or more) of the first k positive integers.",
+  "id": "A094348",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A002201",
+    "A003418",
+    "A057641",
+    "A072938",
+    "A095848",
+    "A096179",
+    "A106037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

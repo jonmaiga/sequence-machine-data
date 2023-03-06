@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of arctangent of 1/2.",
+  "id": "A073000",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A002391",
+    "A019669",
+    "A105199",
+    "A105531",
+    "A254619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

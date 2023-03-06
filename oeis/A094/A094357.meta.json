@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form k^2 -1 such that every partial product is also of the form k^2-1.",
+  "id": "A094357",
+  "mentions": [
+    "A084702",
+    "A093959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

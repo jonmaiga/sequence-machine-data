@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..m} (k+1) * A026022(n, m-k), where m=n for n=0,1 and m = floor((n+3)/2) for n >= 2.",
+  "id": "A027299",
+  "mentions": [
+    "A026022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:54:34",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

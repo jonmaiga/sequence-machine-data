@@ -1,0 +1,19 @@
+{
+  "description": "Order of automorphism group of Barnes-Wall lattice in dimension 2^n.",
+  "id": "A014116",
+  "mentions": [
+    "A001309",
+    "A003956",
+    "A014115"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:19:44",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

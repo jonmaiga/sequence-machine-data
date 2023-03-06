@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of imaginary part of solution to z = log z.",
+  "id": "A059527",
+  "mentions": [
+    "A030178",
+    "A059526"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

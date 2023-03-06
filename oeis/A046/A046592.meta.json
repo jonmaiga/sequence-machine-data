@@ -1,0 +1,20 @@
+{
+  "description": "First denominator and then numerator of each element of the 1/4-Pascal triangle (by row), excluding 2's.",
+  "id": "A046592",
+  "mentions": [
+    "A046563"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:01",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

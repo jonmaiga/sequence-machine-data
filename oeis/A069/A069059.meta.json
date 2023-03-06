@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and sigma(k) are not relatively prime.",
+  "id": "A069059",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A014567",
+    "A017666"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

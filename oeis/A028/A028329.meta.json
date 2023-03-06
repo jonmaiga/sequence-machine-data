@@ -1,0 +1,27 @@
+{
+  "description": "Twice central binomial coefficients.",
+  "id": "A028329",
+  "mentions": [
+    "A000984",
+    "A028326",
+    "A047073",
+    "A054113",
+    "A063886",
+    "A095660",
+    "A100320",
+    "A162551",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

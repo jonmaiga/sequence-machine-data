@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the concatenation of next n numbers (omit leading 0's).",
+  "id": "A053067",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A035333",
+    "A052087",
+    "A279610"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

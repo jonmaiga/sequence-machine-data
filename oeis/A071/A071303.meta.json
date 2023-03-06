@@ -1,0 +1,33 @@
+{
+  "description": "1/2 times the number of n X n 0..3 matrices M with MM' mod 4 = I, where M' is the transpose of M and I is the n X n identity matrix.",
+  "id": "A071303",
+  "mentions": [
+    "A003920",
+    "A060968",
+    "A071302",
+    "A071304",
+    "A071305",
+    "A071306",
+    "A071307",
+    "A071308",
+    "A071309",
+    "A071310",
+    "A071900",
+    "A087784",
+    "A208895",
+    "A229136",
+    "A264083",
+    "A330490"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

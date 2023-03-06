@@ -1,0 +1,34 @@
+{
+  "description": "Numbers that are the product of a pair of twin primes.",
+  "id": "A037074",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001359",
+    "A002822",
+    "A006512",
+    "A007508",
+    "A010878",
+    "A010888",
+    "A014574",
+    "A071700",
+    "A072965",
+    "A074480",
+    "A075369",
+    "A136017",
+    "A209328",
+    "A210503"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

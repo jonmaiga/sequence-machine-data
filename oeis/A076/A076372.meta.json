@@ -1,0 +1,19 @@
+{
+  "description": "Numbers arising once in A076370, the \"Primorial-Cut-Sequence\", i.e., subscripts k where A076371(k) = 1.",
+  "id": "A076372",
+  "mentions": [
+    "A002110",
+    "A076370",
+    "A076371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

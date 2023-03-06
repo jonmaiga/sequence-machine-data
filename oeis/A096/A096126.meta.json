@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer of the form (n^2)!/(n!)^k.",
+  "id": "A096126",
+  "mentions": [
+    "A034841",
+    "A057599",
+    "A096127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

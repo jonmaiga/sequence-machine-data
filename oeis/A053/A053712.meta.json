@@ -1,0 +1,25 @@
+{
+  "description": "Lower balancing primes to prime-balanced factorials.",
+  "id": "A053712",
+  "mentions": [
+    "A006562",
+    "A006990",
+    "A033932",
+    "A033933",
+    "A037151",
+    "A053709",
+    "A053710",
+    "A053711",
+    "A053713"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers (with nonzero digits) where A046810 increases.",
+  "id": "A046811",
+  "mentions": [
+    "A046810"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:41",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

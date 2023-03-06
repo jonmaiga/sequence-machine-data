@@ -1,0 +1,19 @@
+{
+  "description": "Triangle partitions of order n: topologically distinct ways to dissect a triangle into n triangles.",
+  "id": "A056814",
+  "mentions": [
+    "A053740"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

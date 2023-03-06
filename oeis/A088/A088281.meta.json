@@ -1,0 +1,33 @@
+{
+  "description": "a(1) = 11; for n > 1, palindromic primes in which a single digit is sandwiched between strings of '1's.",
+  "id": "A088281",
+  "mentions": [
+    "A034093",
+    "A065074",
+    "A065083",
+    "A088282",
+    "A088283",
+    "A088284",
+    "A105975",
+    "A105976",
+    "A105977",
+    "A105978",
+    "A105979",
+    "A105980",
+    "A105981",
+    "A105982",
+    "A105992",
+    "A164937"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

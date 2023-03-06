@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that 3 is a square mod p.",
+  "id": "A038874",
+  "mentions": [
+    "A002313",
+    "A033203",
+    "A038873",
+    "A040101",
+    "A045331",
+    "A057125",
+    "A068228",
+    "A097933"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:43:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

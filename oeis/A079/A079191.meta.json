@@ -1,0 +1,23 @@
+{
+  "description": "Number of isomorphism classes of anti-commutative closed binary operations on a set of order n, listed by class size.",
+  "id": "A079191",
+  "mentions": [
+    "A027423",
+    "A079171",
+    "A079188",
+    "A079189",
+    "A079190",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

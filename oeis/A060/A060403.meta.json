@@ -1,0 +1,21 @@
+{
+  "description": "Each term is the previous term plus the number of letters in the previous number, as conventionally spelled out in American English.",
+  "id": "A060403",
+  "mentions": [
+    "A005589",
+    "A139097",
+    "A160395"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

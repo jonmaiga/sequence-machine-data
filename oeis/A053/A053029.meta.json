@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with 4 zeros in Fibonacci numbers mod m.",
+  "id": "A053029",
+  "mentions": [
+    "A001176",
+    "A053030",
+    "A053031",
+    "A128924"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:17",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

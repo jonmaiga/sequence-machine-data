@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes that are the sum of two successive semiprimes.",
+  "id": "A092192",
+  "mentions": [
+    "A092191"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

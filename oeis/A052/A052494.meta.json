@@ -1,0 +1,20 @@
+{
+  "description": "Number of different primes that can be formed by permuting digits of n-th prime.",
+  "id": "A052494",
+  "mentions": [
+    "A039999",
+    "A046810"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:04:33",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

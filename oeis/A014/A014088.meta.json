@@ -1,0 +1,23 @@
+{
+  "description": "Minimal number of people to give a 50% probability of having at least n coincident birthdays in one year.",
+  "id": "A014088",
+  "mentions": [
+    "A033810",
+    "A088141",
+    "A182008",
+    "A182009",
+    "A182010",
+    "A225852",
+    "A225871"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

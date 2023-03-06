@@ -1,0 +1,33 @@
+{
+  "description": "Square array read by antidiagonals of highest power of k dividing n! (with n,k>1).",
+  "id": "A090622",
+  "mentions": [
+    "A011371",
+    "A011776",
+    "A027868",
+    "A054861",
+    "A054896",
+    "A064458",
+    "A090616",
+    "A090617",
+    "A090618",
+    "A090619",
+    "A090620",
+    "A090621",
+    "A090623",
+    "A090624",
+    "A115627"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into an even number of parts, the least being 2; also, a(n+2) = number of partitions of n into an odd number of parts, each >=2.",
+  "id": "A027194",
+  "mentions": [
+    "A002865",
+    "A027188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

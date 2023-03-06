@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled cyclic trees with n nodes such that the root is smaller than all its children.",
+  "id": "A071212",
+  "mentions": [
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

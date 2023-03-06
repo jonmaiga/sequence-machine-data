@@ -1,0 +1,22 @@
+{
+  "description": "An example of a 3 X 3 matrix with nonnegative elements that produces the maximum possible number of 10080 different determinants if all 9! permutations of the matrix elements are performed. The target is to find a matrix for which the largest element becomes as small as possible.",
+  "id": "A098072",
+  "mentions": [
+    "A088021",
+    "A099834",
+    "A301372",
+    "A316601"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

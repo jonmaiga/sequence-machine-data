@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(phi(sigma(k))) = phi(sigma(phi(k))).",
+  "id": "A067160",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A066175",
+    "A163370",
+    "A163372"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

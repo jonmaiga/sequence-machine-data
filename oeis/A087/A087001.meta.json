@@ -1,0 +1,21 @@
+{
+  "description": "Left half of periodic part of decimal expansion of 1/p for those primes having a periodic part of even length.",
+  "id": "A087001",
+  "mentions": [
+    "A055642",
+    "A086999",
+    "A087000",
+    "A087002"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

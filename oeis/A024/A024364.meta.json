@@ -1,0 +1,22 @@
+{
+  "description": "Ordered perimeters of primitive Pythagorean triangles.",
+  "id": "A024364",
+  "mentions": [
+    "A010814",
+    "A020886",
+    "A024408",
+    "A070109",
+    "A103606"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

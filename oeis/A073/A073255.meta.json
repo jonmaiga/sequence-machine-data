@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors of n-th composite number.",
+  "id": "A073255",
+  "mentions": [
+    "A000203",
+    "A002808",
+    "A035004"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

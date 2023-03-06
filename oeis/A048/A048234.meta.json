@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = T(2n-1,n), array T given by A048225.",
+  "id": "A048234",
+  "mentions": [
+    "A048224",
+    "A048225"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

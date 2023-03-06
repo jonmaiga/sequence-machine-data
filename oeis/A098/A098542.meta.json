@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T, read by rows, such that the matrix square shifts T left one column and up one row, with T(0,0)=T(1,0)=1 and T(n,0)=0 for n>1 and T(n,n)=1 for n>=0.",
+  "id": "A098542",
+  "mentions": [
+    "A098539",
+    "A098543",
+    "A098544"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

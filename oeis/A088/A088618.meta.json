@@ -1,0 +1,16 @@
+{
+  "description": "Rearrangement of odd numbers such that every concatenation of at least two terms is composite.",
+  "id": "A088618",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

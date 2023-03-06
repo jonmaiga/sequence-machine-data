@@ -1,0 +1,27 @@
+{
+  "description": "Number of positive Fibonacci numbers with n decimal digits.",
+  "id": "A050815",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A002390",
+    "A060384",
+    "A072353",
+    "A097348",
+    "A098842",
+    "A105563",
+    "A105565"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

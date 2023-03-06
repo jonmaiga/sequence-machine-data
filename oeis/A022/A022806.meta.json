@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = B(n) + c(n) where B(n) is Beatty sequence [ n*e ] and c is the complement of B.",
+  "id": "A022806",
+  "mentions": [
+    "A022843",
+    "A054385"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:17",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

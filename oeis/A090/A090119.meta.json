@@ -1,0 +1,27 @@
+{
+  "description": "a(n)=nextprime[A090116(n)], the smallest prime following squares listed in A090116 and also the distance of a(n) from the preceding prime is 2n.",
+  "id": "A090119",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A007491",
+    "A007917",
+    "A007918",
+    "A053001",
+    "A090116",
+    "A090117",
+    "A090118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Write n in binary, interchange 0's and 1's, convert back to decimal.",
+  "id": "A035327",
+  "mentions": [
+    "A000225",
+    "A003817",
+    "A006257",
+    "A007088",
+    "A010078",
+    "A048379",
+    "A061601",
+    "A079944",
+    "A080079",
+    "A087734",
+    "A167831",
+    "A167877",
+    "A171960",
+    "A240857",
+    "A256078"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

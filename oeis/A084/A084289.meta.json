@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the arithmetic mean of p and the next prime after p is a true prime power from A025475.",
+  "id": "A084289",
+  "mentions": [
+    "A000961",
+    "A025475",
+    "A053706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

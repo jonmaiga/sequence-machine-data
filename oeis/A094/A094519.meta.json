@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having at least one pair (x,y) of divisors with x",
+  "id": "A094519",
+  "mentions": [
+    "A002378",
+    "A008588",
+    "A008594",
+    "A008602",
+    "A088723",
+    "A094518",
+    "A094520"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

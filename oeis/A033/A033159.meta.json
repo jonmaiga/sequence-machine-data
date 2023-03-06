@@ -1,0 +1,17 @@
+{
+  "description": "Begins with (2, 3); avoids 3-term arithmetic progressions.",
+  "id": "A033159",
+  "mentions": [
+    "A003278"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:33",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

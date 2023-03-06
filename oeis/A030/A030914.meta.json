@@ -1,0 +1,15 @@
+{
+  "description": "[ exp(2/15)*n! ].",
+  "id": "A030914",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:19:03",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

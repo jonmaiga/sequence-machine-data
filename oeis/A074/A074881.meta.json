@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) giving number of labeled cyclic subgroups of order k in symmetric group S_n, n >= 1, 1 <= k <= g(n), where g(n) = A000793(n) is Landau's function.",
+  "id": "A074881",
+  "mentions": [
+    "A000010",
+    "A000793",
+    "A051625",
+    "A057731",
+    "A181949"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

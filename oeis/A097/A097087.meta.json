@@ -1,0 +1,18 @@
+{
+  "description": "Exponents of 2 in the unreduced denominators of coefficients A097086(n)/2^a(n)*1/n! in function F(x) that satisfies F(F(x)) = x*exp(x).",
+  "id": "A097087",
+  "mentions": [
+    "A097086"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Even order Taylor coefficients at x = 0 of exp(-x^2/(x^2-2)), odd order coefficients being equal to zero.",
+  "id": "A081020",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

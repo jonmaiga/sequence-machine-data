@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (concatenation of numbers from n to 1) - n^n.",
+  "id": "A083453",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

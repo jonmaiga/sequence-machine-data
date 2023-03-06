@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose square with its last digit deleted is also a square.",
+  "id": "A031149",
+  "mentions": [
+    "A000290",
+    "A004275",
+    "A023110",
+    "A030686",
+    "A030687",
+    "A031150",
+    "A055792",
+    "A055793",
+    "A204502",
+    "A204512",
+    "A204514",
+    "A204516",
+    "A204518",
+    "A204520"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

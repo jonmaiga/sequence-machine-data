@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that floor( (1+1/k)^n ) = floor( (1+1/n)^k ).",
+  "id": "A072932",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

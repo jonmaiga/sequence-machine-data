@@ -1,0 +1,26 @@
+{
+  "description": "Third binomial transform of Fibonacci(n+1).",
+  "id": "A081568",
+  "mentions": [
+    "A000045",
+    "A007582",
+    "A028387",
+    "A081567",
+    "A081569",
+    "A094441",
+    "A099453",
+    "A161731"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

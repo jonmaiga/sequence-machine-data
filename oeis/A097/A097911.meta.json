@@ -1,0 +1,19 @@
+{
+  "description": "Minimal order of a graph containing as induced subgraphs isomorphic copies of all graphs on n unlabeled nodes.",
+  "id": "A097911",
+  "mentions": [
+    "A004401",
+    "A034797"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

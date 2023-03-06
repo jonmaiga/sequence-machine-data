@@ -1,0 +1,20 @@
+{
+  "description": "A079802(n)/A079802(n-1).",
+  "id": "A079803",
+  "mentions": [
+    "A079802",
+    "A079804",
+    "A079805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

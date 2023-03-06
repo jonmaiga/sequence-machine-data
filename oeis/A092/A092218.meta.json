@@ -1,0 +1,21 @@
+{
+  "description": "Primes that divide some Euler number.",
+  "id": "A092218",
+  "mentions": [
+    "A000364",
+    "A002144",
+    "A092217",
+    "A092219",
+    "A120115"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

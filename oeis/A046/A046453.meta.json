@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers with four prime factors (not necessarily distinct) whose concatenation yields a palindrome.",
+  "id": "A046453",
+  "mentions": [
+    "A033993",
+    "A046447"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

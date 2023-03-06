@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 6*2^n - 5.",
+  "id": "A048488",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A007283",
+    "A048483",
+    "A082505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

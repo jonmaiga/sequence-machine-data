@@ -1,0 +1,19 @@
+{
+  "description": "Values of n where number of permutations of digits a(n) that are prime increases.",
+  "id": "A046891",
+  "mentions": [
+    "A039999",
+    "A046892"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:49",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

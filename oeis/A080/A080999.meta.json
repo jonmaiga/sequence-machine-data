@@ -1,0 +1,20 @@
+{
+  "description": "Centrality of A080997(n) = a(n)/(A080997(n))^2.",
+  "id": "A080999",
+  "mentions": [
+    "A018804",
+    "A080997",
+    "A080998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

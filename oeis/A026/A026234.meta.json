@@ -1,0 +1,22 @@
+{
+  "description": "In the sequence of positive integers, swap the k-th prime and k-th nonprime, for k = 1,2,3,...",
+  "id": "A026234",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A236675",
+    "A236676"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:53",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of triangles with corners on the integer lattice Z X Z (up to translations, rotations and reflections), the square of the longest side equal to A001481.",
+  "id": "A098134",
+  "mentions": [
+    "A001481"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers n such that the partial sum of the Kolakoski sequence (A000002) at n is less than 3n/2.",
+  "id": "A074287",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

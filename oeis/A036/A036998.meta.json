@@ -1,0 +1,19 @@
+{
+  "description": "The number of decompositions of n into different parts relatively prime to n.",
+  "id": "A036998",
+  "mentions": [
+    "A038566",
+    "A057562",
+    "A079124"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

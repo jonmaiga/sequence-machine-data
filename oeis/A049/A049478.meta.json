@@ -1,0 +1,21 @@
+{
+  "description": "Record values in A346778.",
+  "id": "A049478",
+  "mentions": [
+    "A049476",
+    "A049477",
+    "A088643",
+    "A346778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

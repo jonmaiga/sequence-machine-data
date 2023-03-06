@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of b(n), where Sum_{k>=1} b(k)/k^r = 1/(Sum_{k>=1} H(k)/k^r). H(k) = Sum_{j=1..k} 1/j, the k-th harmonic number.",
+  "id": "A096663",
+  "mentions": [
+    "A097504"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

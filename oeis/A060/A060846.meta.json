@@ -1,0 +1,29 @@
+{
+  "description": "Smallest prime > a nontrivial power of a prime.",
+  "id": "A060846",
+  "mentions": [
+    "A000961",
+    "A001597",
+    "A001694",
+    "A007917",
+    "A007918",
+    "A013632",
+    "A013633",
+    "A025475",
+    "A049711",
+    "A060845",
+    "A068435",
+    "A246547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of common divisors of n and sigma(n).",
+  "id": "A073802",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007691",
+    "A009194",
+    "A062068",
+    "A073803",
+    "A073804",
+    "A173438"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

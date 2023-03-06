@@ -1,0 +1,26 @@
+{
+  "description": "a(n)-th factorial is the smallest factorial containing exactly n 9's, or 0 if no such number exists.",
+  "id": "A072220",
+  "mentions": [
+    "A072124",
+    "A072163",
+    "A072177",
+    "A072178",
+    "A072199",
+    "A072200",
+    "A072204",
+    "A072208",
+    "A072232"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

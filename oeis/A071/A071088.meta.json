@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations that avoid the generalized pattern 12345-6.",
+  "id": "A071088",
+  "mentions": [
+    "A071075",
+    "A071076",
+    "A071077",
+    "A177523"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

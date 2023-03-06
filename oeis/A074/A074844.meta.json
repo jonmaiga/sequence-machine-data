@@ -1,0 +1,20 @@
+{
+  "description": "Largest difference between consecutive divisors of n is equal to the sum of divisors of n except 1 and n.",
+  "id": "A074844",
+  "mentions": [
+    "A048050",
+    "A060681",
+    "A109080"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

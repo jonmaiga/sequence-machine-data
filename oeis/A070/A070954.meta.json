@@ -1,0 +1,19 @@
+{
+  "description": "Emirps which when concatenated with their reversals after a 0 make a palindromic prime of the form emirp0prime.",
+  "id": "A070954",
+  "mentions": [
+    "A006567",
+    "A054217"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

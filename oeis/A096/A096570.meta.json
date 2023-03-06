@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n with first part 2 and no equal adjacent parts; this is column 2 of the array in A096568.",
+  "id": "A096570",
+  "mentions": [
+    "A003242",
+    "A096568",
+    "A096569",
+    "A096571",
+    "A096572"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

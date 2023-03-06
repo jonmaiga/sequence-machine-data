@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of expansion of exp(cosh(x)), A005046.",
+  "id": "A081557",
+  "mentions": [
+    "A005046",
+    "A081558"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

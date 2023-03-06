@@ -1,0 +1,26 @@
+{
+  "description": "Least nontrivial multiple of the n-th prime beginning with 8.",
+  "id": "A078292",
+  "mentions": [
+    "A078285",
+    "A078286",
+    "A078287",
+    "A078288",
+    "A078289",
+    "A078290",
+    "A078291",
+    "A078293"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

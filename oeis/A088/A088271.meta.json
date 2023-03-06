@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes that yield a prime when sandwiched between two 7's. (Prefixing and suffixing a 'seven' on both sides yields another pal prime).",
+  "id": "A088271",
+  "mentions": [
+    "A088269",
+    "A088270",
+    "A088272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

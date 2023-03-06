@@ -1,0 +1,19 @@
+{
+  "description": "Exponents of powers of squarefree numbers.",
+  "id": "A072776",
+  "mentions": [
+    "A052409",
+    "A072774",
+    "A072775"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

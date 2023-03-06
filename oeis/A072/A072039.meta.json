@@ -1,0 +1,22 @@
+{
+  "description": "Row of Zorach additive triangle in which n appears (or 0 in the unlikely event that it does not).",
+  "id": "A072039",
+  "mentions": [
+    "A035311",
+    "A035312",
+    "A035313",
+    "A035358",
+    "A072038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n with some part repeated.",
+  "id": "A047967",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A013929",
+    "A038348",
+    "A261982",
+    "A320264",
+    "A324847",
+    "A324929",
+    "A324966",
+    "A324967"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:59:15",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

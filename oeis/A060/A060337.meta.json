@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled acyclic digraphs with n nodes containing exactly n-2 points of in-degree zero.",
+  "id": "A060337",
+  "mentions": [
+    "A003025",
+    "A003026",
+    "A058876"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 3,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

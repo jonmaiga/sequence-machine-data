@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which k-th row lists natural number values for the collection of riffs with k nodes.",
+  "id": "A062504",
+  "mentions": [
+    "A061396",
+    "A062860"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

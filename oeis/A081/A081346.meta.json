@@ -1,0 +1,22 @@
+{
+  "description": "First column in maze arrangement of natural numbers A081344.",
+  "id": "A081346",
+  "mentions": [
+    "A001844",
+    "A016754",
+    "A081344",
+    "A081345"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

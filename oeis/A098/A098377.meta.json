@@ -1,0 +1,19 @@
+{
+  "description": "Left edge T(n,n) or the main diagonal of the triangle A097883.",
+  "id": "A098377",
+  "mentions": [
+    "A097883",
+    "A098376"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

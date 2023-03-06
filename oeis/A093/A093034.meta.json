@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 1+multiple perfect numbers.",
+  "id": "A093034",
+  "mentions": [
+    "A007691",
+    "A171263",
+    "A171264",
+    "A171265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

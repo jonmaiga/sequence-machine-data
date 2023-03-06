@@ -1,0 +1,20 @@
+{
+  "description": "Sum of maximal Dyck path prefix lengths of all 4k+3 primes in range ]2^n,2^(n+1)].",
+  "id": "A095107",
+  "mentions": [
+    "A095062",
+    "A095105",
+    "A095106",
+    "A095110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

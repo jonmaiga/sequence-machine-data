@@ -1,0 +1,19 @@
+{
+  "description": "Very round numbers: reduced residue system consists of only primes and 1.",
+  "id": "A048597",
+  "mentions": [
+    "A036997"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime triples < 10^n, where a prime triple means 3 successive primes of the form {p, p+2, p+4} or {p, p+4, p+6}.",
+  "id": "A055737",
+  "mentions": [
+    "A006880",
+    "A007529",
+    "A055738",
+    "A098415"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. Gudermannian(x) = 2*arctan(exp(x)) - Pi/2.",
+  "id": "A028296",
+  "mentions": [
+    "A000364",
+    "A019669",
+    "A094088",
+    "A210657",
+    "A210672",
+    "A210674",
+    "A210676",
+    "A249939"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

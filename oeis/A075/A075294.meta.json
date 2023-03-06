@@ -1,0 +1,19 @@
+{
+  "description": "Interprimes which are of the form s*prime, s=19.",
+  "id": "A075294",
+  "mentions": [
+    "A075277",
+    "A075296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

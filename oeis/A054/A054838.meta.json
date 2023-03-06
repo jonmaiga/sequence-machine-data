@@ -1,0 +1,29 @@
+{
+  "description": "Fifth term of weak prime septet: p(m-3)-p(m-4) < p(m-2)-p(m-3) < p(m-1)-p(m-2) < p(m)-p(m-1) < p(m+1)-p(m) < p(m+2)-p(m+1).",
+  "id": "A054838",
+  "mentions": [
+    "A051635",
+    "A054800",
+    "A054803",
+    "A054804",
+    "A054818",
+    "A054819",
+    "A054831",
+    "A054837",
+    "A054839",
+    "A054840",
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 11:08:29",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

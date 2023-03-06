@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n!*[x^n] (log(x+1) * Sum_{j=0..n} C(2*n,j)*x^j).",
+  "id": "A098118",
+  "mentions": [
+    "A000984",
+    "A001008",
+    "A002805",
+    "A005249",
+    "A008275",
+    "A078791",
+    "A086881",
+    "A257635"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

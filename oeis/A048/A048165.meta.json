@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of Product_{k > 0} 1/(1 + x^prime(k)).",
+  "id": "A048165",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000586",
+    "A000607",
+    "A001221",
+    "A008683",
+    "A083399",
+    "A088705",
+    "A184198",
+    "A184199",
+    "A280954",
+    "A305614"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

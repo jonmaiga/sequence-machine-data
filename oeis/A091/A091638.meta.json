@@ -1,0 +1,30 @@
+{
+  "description": "Number of primes less than 10^n which do not contain the digit 4.",
+  "id": "A091638",
+  "mentions": [
+    "A006880",
+    "A091634",
+    "A091635",
+    "A091636",
+    "A091637",
+    "A091639",
+    "A091640",
+    "A091641",
+    "A091642",
+    "A091643",
+    "A091705"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Smallest primitive root modulo n, or 0 if no root exists.",
+  "id": "A046145",
+  "mentions": [
+    "A001918",
+    "A002233",
+    "A008330",
+    "A010554",
+    "A046144",
+    "A046146",
+    "A071894",
+    "A111076",
+    "A219027",
+    "A285512",
+    "A285513",
+    "A285514"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

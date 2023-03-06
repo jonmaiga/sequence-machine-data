@@ -1,0 +1,27 @@
+{
+  "description": "Remainder when 3rd order prime A038580(n) is divided by n-th prime=A000040(n).",
+  "id": "A076242",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A038580",
+    "A049090",
+    "A049202",
+    "A049203",
+    "A057809",
+    "A076240",
+    "A076243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

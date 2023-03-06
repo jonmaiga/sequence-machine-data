@@ -1,0 +1,18 @@
+{
+  "description": "Let f(1)=f(2)=1, f(k)=f(k-1)+f(k-2)+ (k (mod n)). Then f(k)=floor(r(n)*F(k))+g(k) where F(k) denotes the k-th Fibonacci number and g(k) a function becoming periodic. Sequence depends on r(n) which is the largest positive root of : a(3n-2)*X^2-a(3n-1)*X+a(3n)=0.",
+  "id": "A081420",
+  "mentions": [
+    "A001350"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

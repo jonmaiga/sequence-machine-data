@@ -1,0 +1,18 @@
+{
+  "description": "Number of orbits of length n under the map whose periodic points are counted by A061686.",
+  "id": "A091112",
+  "mentions": [
+    "A061686"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

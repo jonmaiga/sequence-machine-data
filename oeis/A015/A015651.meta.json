@@ -1,0 +1,15 @@
+{
+  "description": "Number of ordered 5-tuples of integers from [ 2,n ] with no global factor.",
+  "id": "A015651",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 2,
+    "size": 36,
+    "source": "joeis"
+  }
+}

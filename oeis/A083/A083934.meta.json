@@ -1,0 +1,21 @@
+{
+  "description": "A014486-indices of A083932-trees.",
+  "id": "A083934",
+  "mentions": [
+    "A014486",
+    "A080300",
+    "A083932",
+    "A083935"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

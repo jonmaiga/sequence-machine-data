@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with 15 divisors.",
+  "id": "A030633",
+  "mentions": [
+    "A000005",
+    "A010802",
+    "A030630",
+    "A030631",
+    "A030632",
+    "A189988"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

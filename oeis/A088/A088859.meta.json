@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = L(n) + 2^n where L(n) = A000032(n) (the Lucas numbers).",
+  "id": "A088859",
+  "mentions": [
+    "A000032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:43:30",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

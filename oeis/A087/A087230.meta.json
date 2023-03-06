@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the 2-adic valuation of 6*n + 4.",
+  "id": "A087230",
+  "mentions": [
+    "A001511",
+    "A007814",
+    "A016957",
+    "A020988",
+    "A020989",
+    "A061547",
+    "A085058",
+    "A087229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

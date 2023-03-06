@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of coefficients arising in calculation of A002872 and A002874 (sorting numbers).",
+  "id": "A036073",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A001861",
+    "A002872",
+    "A002874",
+    "A162663"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "n! - n# + 1 is prime, where n# is the primorial function.",
+  "id": "A081712",
+  "mentions": [
+    "A081710",
+    "A081711",
+    "A081713"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Product of composite numbers between the n-th and (n+1)st primes.",
+  "id": "A061214",
+  "mentions": [
+    "A006530",
+    "A046933",
+    "A052248",
+    "A052297",
+    "A054265"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

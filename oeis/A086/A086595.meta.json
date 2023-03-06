@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to arrange the numbers 1..n in a circle (up to direction) such that every two adjacent numbers are relatively prime.",
+  "id": "A086595",
+  "mentions": [
+    "A076220"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

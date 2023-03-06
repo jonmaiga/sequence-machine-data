@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of triangle A091602.",
+  "id": "A091605",
+  "mentions": [
+    "A000009",
+    "A000726",
+    "A091602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 2,
+    "size": 50,
+    "source": "joeis"
+  }
+}

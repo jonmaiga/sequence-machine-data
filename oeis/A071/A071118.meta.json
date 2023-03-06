@@ -1,0 +1,19 @@
+{
+  "description": "Size of the automorphism group of the group Z X Z_n.",
+  "id": "A071118",
+  "mentions": [
+    "A000010",
+    "A002618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:09",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

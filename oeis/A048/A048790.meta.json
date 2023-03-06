@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of rooted n-dimensional polycubes with k cells, with no symmetries removed (n >= 1, k >= 1).",
+  "id": "A048790",
+  "mentions": [
+    "A048663",
+    "A048668",
+    "A094100",
+    "A094101",
+    "A094159",
+    "A094161"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:44:19",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

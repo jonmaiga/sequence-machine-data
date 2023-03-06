@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers of the form x^2+3xy-y^2.",
+  "id": "A035256",
+  "mentions": [
+    "A035195",
+    "A038883",
+    "A141188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:55",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

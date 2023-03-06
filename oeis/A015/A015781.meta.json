@@ -1,0 +1,17 @@
+{
+  "description": "Phi(n) + 2 | sigma(n + 2).",
+  "id": "A015781",
+  "mentions": [
+    "A015775"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

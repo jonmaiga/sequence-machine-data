@@ -1,0 +1,23 @@
+{
+  "description": "Third column of triangle A075502.",
+  "id": "A075922",
+  "mentions": [
+    "A008277",
+    "A075502",
+    "A075513",
+    "A075921",
+    "A075923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:00:26",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

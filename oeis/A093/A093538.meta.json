@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes between 10^n and 10^n+100.",
+  "id": "A093538",
+  "mentions": [
+    "A323744"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

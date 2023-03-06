@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime below prime(n)^2 (A001248).",
+  "id": "A054270",
+  "mentions": [
+    "A000040",
+    "A000879",
+    "A001248",
+    "A054271"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

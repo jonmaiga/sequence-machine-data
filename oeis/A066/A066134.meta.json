@@ -1,0 +1,23 @@
+{
+  "description": "Numbers from A066112 that are neither square nor twice a square, i.e., are not in A028982 but are in A028983.",
+  "id": "A066134",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A028982",
+    "A028983",
+    "A046871",
+    "A066109",
+    "A066112"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest integral ladder whose ends slide over the respective distances 1 and m=2n+1 while slipping down along horizontal ground and vertical wall against which it leans.",
+  "id": "A094081",
+  "mentions": [
+    "A001844"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:53",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

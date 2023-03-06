@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets S = {a_1, a_2, ..., a_k}, with 1 < a_i < a_j <= n such that no a_j divides the product of all the others.",
+  "id": "A023995",
+  "mentions": [
+    "A038199"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

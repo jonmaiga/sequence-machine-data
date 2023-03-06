@@ -1,0 +1,21 @@
+{
+  "description": "Largest unsigned Stirling number of the first kind: max_k(s(n+1,k)); i.e., largest coefficient of polynomial x*(x+1)*(x+2)*(x+3)*...*(x+n).",
+  "id": "A065048",
+  "mentions": [
+    "A000254",
+    "A000399",
+    "A008275",
+    "A309237"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

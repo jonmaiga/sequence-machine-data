@@ -1,0 +1,20 @@
+{
+  "description": "Number of cyclically symmetric plane partitions (Macdonald's plane partition conjecture).",
+  "id": "A096419",
+  "mentions": [
+    "A047993",
+    "A048141",
+    "A048142"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

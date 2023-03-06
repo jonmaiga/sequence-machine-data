@@ -1,0 +1,15 @@
+{
+  "description": "Inverse of 1898th cyclotomic polynomial.",
+  "id": "A015907",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:53:40",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

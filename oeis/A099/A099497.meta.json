@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A007925(n) = n^(n+1) - (n+1)^n is a semiprime.",
+  "id": "A099497",
+  "mentions": [
+    "A007925",
+    "A072179",
+    "A099498"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

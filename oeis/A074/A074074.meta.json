@@ -1,0 +1,20 @@
+{
+  "description": "The numbers D in the set {D :=(2n+1)^2-4m^2, 1<=m<=n} that generate the smallest solution x to x^2 - D*y^2 = 1.",
+  "id": "A074074",
+  "mentions": [
+    "A000037",
+    "A033313",
+    "A074075",
+    "A074076"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

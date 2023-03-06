@@ -1,0 +1,25 @@
+{
+  "description": "Array read by rows in which 0th row is {1,2}; for n>0, n-th row gives finite orders of 2n X 2n integer matrices that are not orders of 2n-1 X 2n-1 integer matrices.",
+  "id": "A080738",
+  "mentions": [
+    "A080737",
+    "A080739",
+    "A080740",
+    "A080741",
+    "A080742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

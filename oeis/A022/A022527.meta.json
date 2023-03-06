@@ -1,0 +1,23 @@
+{
+  "description": "Nexus numbers: a(n) = (n+1)^11 - n^11.",
+  "id": "A022527",
+  "mentions": [
+    "A008292",
+    "A008455",
+    "A022526",
+    "A022538",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:07",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

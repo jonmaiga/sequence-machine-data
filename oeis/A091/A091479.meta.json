@@ -1,0 +1,21 @@
+{
+  "description": "Number of graphs with n nodes. Nodes and edges labeled each from their own label set.",
+  "id": "A091479",
+  "mentions": [
+    "A000217",
+    "A000522",
+    "A006125",
+    "A091478"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of consecutive integers whose product = A093449(n).",
+  "id": "A093450",
+  "mentions": [
+    "A093449"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

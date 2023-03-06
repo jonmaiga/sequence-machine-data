@@ -1,0 +1,27 @@
+{
+  "description": "Bisection of triangle A060098: even-indexed members of column sequences of A060098 (not counting leading zeros).",
+  "id": "A060102",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A002417",
+    "A007318",
+    "A052975",
+    "A060098",
+    "A060103",
+    "A060556"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

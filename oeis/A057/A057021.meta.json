@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of (sum of divisors of n / number of divisors of n).",
+  "id": "A057021",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A009205",
+    "A049642",
+    "A054025",
+    "A057020",
+    "A057022",
+    "A069081"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

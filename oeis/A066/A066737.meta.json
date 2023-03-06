@@ -1,0 +1,23 @@
+{
+  "description": "Composite numbers that are concatenations of primes.",
+  "id": "A066737",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A121609",
+    "A152242"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

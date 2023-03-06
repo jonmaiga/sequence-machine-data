@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 13; for n > 0, a(n+1) = a(n) * sum of digits of a(n).",
+  "id": "A047903",
+  "mentions": [
+    "A047892"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:04:07",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

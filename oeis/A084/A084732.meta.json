@@ -1,0 +1,19 @@
+{
+  "description": "Let p be the n-th prime; Cp(x) be the p-th cyclotomic polynomial (x^p-1)/(x-1); a(n) is the first prime Cp(x) after Cp(1).",
+  "id": "A084732",
+  "mentions": [
+    "A066180",
+    "A085399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Formal inverse of triangle A080246. Unsigned version of A080245.",
+  "id": "A080247",
+  "mentions": [
+    "A000007",
+    "A001003",
+    "A006318",
+    "A006319",
+    "A006320",
+    "A006321",
+    "A006603",
+    "A033877",
+    "A080245",
+    "A080246",
+    "A084938",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

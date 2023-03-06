@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of Product (1-m*q^m)^-25; m=1..inf.",
+  "id": "A022749",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:02:34",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

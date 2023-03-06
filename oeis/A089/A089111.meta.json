@@ -1,0 +1,16 @@
+{
+  "description": "Convoluted convolved Fibonacci numbers G_6^(r).",
+  "id": "A089111",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

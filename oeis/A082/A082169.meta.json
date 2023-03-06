@@ -1,0 +1,21 @@
+{
+  "description": "Deterministic completely defined quasi-acyclic automata with 2 inputs, n transient and k absorbing labeled states.",
+  "id": "A082169",
+  "mentions": [
+    "A082157",
+    "A082161"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

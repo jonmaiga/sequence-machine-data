@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n with equal nonzero number of parts congruent to each of 0, 1, 2 and 3 (mod 4).",
+  "id": "A046782",
+  "mentions": [
+    "A046770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

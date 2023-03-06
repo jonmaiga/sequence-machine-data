@@ -1,0 +1,18 @@
+{
+  "description": "100000n+1, 100000n+3, 100000n+7, 100000n+9 are all primes.",
+  "id": "A064964",
+  "mentions": [
+    "A007811",
+    "A064687"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

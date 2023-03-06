@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that primorial(p)/2 - 2 is prime.",
+  "id": "A096547",
+  "mentions": [
+    "A014545",
+    "A070826",
+    "A087398",
+    "A096177",
+    "A096178"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

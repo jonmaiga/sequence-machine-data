@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic mean of k and R(k) where k is a number using all odd digits and R(k) is its digit reversal (A004086).",
+  "id": "A071240",
+  "mentions": [
+    "A004086",
+    "A071241",
+    "A071242"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

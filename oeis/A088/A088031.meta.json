@@ -1,0 +1,17 @@
+{
+  "description": "Smallest n-th power k such that k-1 is divisible by an n-th power. Smallest n-th power == 1 (mod some n-th power).",
+  "id": "A088031",
+  "mentions": [
+    "A088032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

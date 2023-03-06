@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1^n + 2^n + 4^n + 8^n + 16^n.",
+  "id": "A020514",
+  "mentions": [
+    "A006097",
+    "A022166",
+    "A082771"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

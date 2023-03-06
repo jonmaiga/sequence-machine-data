@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled nodes having chromatic number k, 1 <= k <= n.",
+  "id": "A084268",
+  "mentions": [
+    "A000088",
+    "A033995",
+    "A057427",
+    "A076278",
+    "A076279",
+    "A076280",
+    "A076281",
+    "A076282",
+    "A076283",
+    "A076315",
+    "A076316",
+    "A076317",
+    "A076318",
+    "A076319",
+    "A076320",
+    "A076321",
+    "A084269",
+    "A115597",
+    "A205567",
+    "A205568"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

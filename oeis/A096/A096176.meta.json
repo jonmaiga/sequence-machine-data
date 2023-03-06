@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (k^3-1)/(k-1) is prime.",
+  "id": "A096176",
+  "mentions": [
+    "A002384",
+    "A004061",
+    "A028491",
+    "A081257",
+    "A096174",
+    "A096175"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

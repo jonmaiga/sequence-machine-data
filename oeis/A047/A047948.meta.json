@@ -1,0 +1,25 @@
+{
+  "description": "Smallest of three consecutive primes with a difference of 6: primes p such that p+6 and p+12 are the next two primes.",
+  "id": "A047948",
+  "mentions": [
+    "A001223",
+    "A031924",
+    "A033451",
+    "A046789",
+    "A052197",
+    "A052198",
+    "A078853"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:39",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

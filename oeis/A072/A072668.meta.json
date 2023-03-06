@@ -1,0 +1,25 @@
+{
+  "description": "Numbers one less than composite numbers.",
+  "id": "A072668",
+  "mentions": [
+    "A002808",
+    "A006093",
+    "A060462",
+    "A066938",
+    "A072670",
+    "A072672",
+    "A079696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "A smoothed version of A091587.",
+  "id": "A091588",
+  "mentions": [
+    "A090822",
+    "A091587",
+    "A091839",
+    "A091840",
+    "A217590",
+    "A357063"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

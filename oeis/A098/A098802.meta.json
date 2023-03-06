@@ -1,0 +1,20 @@
+{
+  "description": "Greatest prime factors in Pascal's triangle (read by rows).",
+  "id": "A098802",
+  "mentions": [
+    "A006530",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

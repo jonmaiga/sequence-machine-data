@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct products ij with 0 <= i, j <= n.",
+  "id": "A027384",
+  "mentions": [
+    "A027417",
+    "A027420",
+    "A027424",
+    "A027425",
+    "A027427"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

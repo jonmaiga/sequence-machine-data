@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into decimal palindromes.",
+  "id": "A091580",
+  "mentions": [
+    "A000041",
+    "A002113",
+    "A088669",
+    "A091581",
+    "A319453"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

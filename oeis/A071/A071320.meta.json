@@ -1,0 +1,22 @@
+{
+  "description": "Least of four consecutive numbers which are cubefree and not squarefree, i.e., numbers k such that {k, k+1, k+2, k+3} are in A067259.",
+  "id": "A071320",
+  "mentions": [
+    "A051903",
+    "A063528",
+    "A067259",
+    "A071318",
+    "A071319"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Product of entries in n-th row of triangle in A081454.",
+  "id": "A081456",
+  "mentions": [
+    "A081454",
+    "A081455",
+    "A081457",
+    "A086435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

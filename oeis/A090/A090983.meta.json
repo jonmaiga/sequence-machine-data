@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least nonsquare having square residues modulo each of the first n primes.",
+  "id": "A090983",
+  "mentions": [
+    "A002189",
+    "A018883"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

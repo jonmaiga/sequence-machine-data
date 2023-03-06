@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive Integer m such that m+i^2=0 mod p_i (i-th prime) for 1<=i<=n.",
+  "id": "A083418",
+  "mentions": [
+    "A053665"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

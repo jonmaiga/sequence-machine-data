@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangle A099555, so that a(n) = Sum_{k=0..2n} (n-[k/2])^k where [k/2] is the integer floor of k/2.",
+  "id": "A099556",
+  "mentions": [
+    "A099555"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

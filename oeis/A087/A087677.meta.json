@@ -1,0 +1,18 @@
+{
+  "description": "Consider recurrence b(0) = n/3, b(n) = b(0)*floor(b(n-1)); sequence gives first integer reached, or -1 if no integer is ever reached.",
+  "id": "A087677",
+  "mentions": [
+    "A087675",
+    "A087676"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 6,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

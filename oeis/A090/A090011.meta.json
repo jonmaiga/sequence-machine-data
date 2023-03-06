@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = number of partitions of binomial(n,k), 0<=k<=n, triangular array read by rows.",
+  "id": "A090011",
+  "mentions": [
+    "A000041",
+    "A007318",
+    "A128855",
+    "A226659"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose prime factors are 2 and 11.",
+  "id": "A033848",
+  "mentions": [
+    "A033845",
+    "A033846",
+    "A033847",
+    "A033849",
+    "A033850",
+    "A033851",
+    "A143201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

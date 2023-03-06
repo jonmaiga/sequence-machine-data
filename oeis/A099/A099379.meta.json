@@ -1,0 +1,24 @@
+{
+  "description": "The real part of n', the arithmetic derivative for Gaussian integers.",
+  "id": "A099379",
+  "mentions": [
+    "A003415",
+    "A099380",
+    "A218854",
+    "A218855",
+    "A218856",
+    "A218857"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

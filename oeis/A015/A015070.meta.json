@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of [100,22,32] code associated with Hoffman-Singleton and Higman-Sims graphs.",
+  "id": "A015070",
+  "mentions": [
+    "A015071"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are between consecutive prime-indexed primes.",
+  "id": "A088982",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A007821"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

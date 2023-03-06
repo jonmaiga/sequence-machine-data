@@ -1,0 +1,18 @@
+{
+  "description": "Grundy numbers for start position in 1 X n closed Dots and Boxes.",
+  "id": "A082501",
+  "mentions": [
+    "A082503"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

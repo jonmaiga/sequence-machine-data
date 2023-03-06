@@ -1,0 +1,21 @@
+{
+  "description": "Primes ordered by decreasing value of the function p -> sqrt(q) - sqrt(p) where q is the next prime after p.",
+  "id": "A079296",
+  "mentions": [
+    "A002386",
+    "A078692",
+    "A084974"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

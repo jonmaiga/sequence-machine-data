@@ -1,0 +1,27 @@
+{
+  "description": "Pascal's tetrahedron: entries in 3-dimensional version of Pascal triangle, or trinomial coefficients.",
+  "id": "A046816",
+  "mentions": [
+    "A002378",
+    "A007318",
+    "A022916",
+    "A027480",
+    "A033487",
+    "A033488",
+    "A268240"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

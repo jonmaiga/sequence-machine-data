@@ -1,0 +1,19 @@
+{
+  "description": "Number of Pythagorean triples mod 2^n; i.e., number of solutions to x^2 + y^2 = z^2 mod 2^n.",
+  "id": "A091143",
+  "mentions": [
+    "A062775"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:37:20",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

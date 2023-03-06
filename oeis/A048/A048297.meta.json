@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in power series expansion over GF(2)[ X^(-1) ] of continued fraction [ 0, X, X^2, X^4, X^8, X^16, ... ].",
+  "id": "A048297",
+  "mentions": [
+    "A003714"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:39",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

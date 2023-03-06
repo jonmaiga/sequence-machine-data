@@ -1,0 +1,21 @@
+{
+  "description": "Solutions to lcm(n, tau(n)) = 2n which are neither prime nor twice a prime, where tau(k) = d(k) is the number of divisors of k.",
+  "id": "A077646",
+  "mentions": [
+    "A000040",
+    "A001747",
+    "A009530",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

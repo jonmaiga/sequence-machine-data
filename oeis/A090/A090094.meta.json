@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest composite number coprime to n, n+1, n+2, n+3 and n+4.",
+  "id": "A090094",
+  "mentions": [
+    "A053669",
+    "A053670",
+    "A053671",
+    "A053672",
+    "A053673",
+    "A053674",
+    "A090092",
+    "A090093",
+    "A090095"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

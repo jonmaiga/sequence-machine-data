@@ -1,0 +1,20 @@
+{
+  "description": "Antidiagonal sums of square array A082011 divided by the number of the antidiagonal.",
+  "id": "A082015",
+  "mentions": [
+    "A082011",
+    "A082012",
+    "A082013",
+    "A082014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

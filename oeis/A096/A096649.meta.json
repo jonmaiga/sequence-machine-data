@@ -1,0 +1,16 @@
+{
+  "description": "First occurrence where n# - p is a prime for primes p = 3,5,...",
+  "id": "A096649",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

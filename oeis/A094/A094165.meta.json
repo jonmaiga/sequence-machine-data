@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted 2-dimensional polyominoes with n hexagonal cells, with no symmetries removed.",
+  "id": "A094165",
+  "mentions": [
+    "A001207",
+    "A094166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

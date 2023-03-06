@@ -1,0 +1,17 @@
+{
+  "description": "Start with the first n, which reads: \"Prolong the sequence with n numbers having their parity opposed to n\". Then read and obey the second n, then the third n, etc. This sequence is the slowest increasing one with such rule.",
+  "id": "A098177",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

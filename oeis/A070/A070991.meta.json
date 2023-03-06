@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the trajectory of n under the `3x+1' map reaches n - 1.",
+  "id": "A070991",
+  "mentions": [
+    "A070165",
+    "A070993",
+    "A219696",
+    "A221213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

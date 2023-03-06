@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose decimal expansion is a concatenation of two or more consecutive increasing numbers (no leading zeros allowed).",
+  "id": "A052087",
+  "mentions": [
+    "A030458",
+    "A035333",
+    "A052088",
+    "A052089"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Initial prime in set of 4 consecutive primes in arithmetic progression with common difference 24.",
+  "id": "A052242",
+  "mentions": [
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052243"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

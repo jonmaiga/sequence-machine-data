@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose product of digits is a power of 2.",
+  "id": "A028846",
+  "mentions": [
+    "A007954",
+    "A028838",
+    "A028889",
+    "A061426",
+    "A174813"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:33",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

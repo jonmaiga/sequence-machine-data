@@ -1,0 +1,25 @@
+{
+  "description": "Number of walks of length 2n on the 3-regular tree beginning and ending at some fixed vertex.",
+  "id": "A089022",
+  "mentions": [
+    "A000108",
+    "A000602",
+    "A039599",
+    "A126087",
+    "A133460",
+    "A151374",
+    "A183135"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

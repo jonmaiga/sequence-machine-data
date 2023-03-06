@@ -1,0 +1,38 @@
+{
+  "description": "Starting index of a string of 6 or more consecutive equal digits in decimal expansion of Pi.",
+  "id": "A049534",
+  "mentions": [
+    "A049514",
+    "A049515",
+    "A049516",
+    "A049517",
+    "A049518",
+    "A049519",
+    "A049520",
+    "A049521",
+    "A049522",
+    "A049523",
+    "A083600",
+    "A083604",
+    "A083609",
+    "A083613",
+    "A083618",
+    "A083623",
+    "A083628",
+    "A083634",
+    "A083640",
+    "A083645"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

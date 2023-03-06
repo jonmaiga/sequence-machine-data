@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = gcd(rad(n), n/rad(n)), where rad(n) = A007947(n) is the squarefree kernel of n.",
+  "id": "A071773",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A005117",
+    "A007947",
+    "A007948",
+    "A008833",
+    "A020639",
+    "A028234",
+    "A057521",
+    "A166486",
+    "A359433"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

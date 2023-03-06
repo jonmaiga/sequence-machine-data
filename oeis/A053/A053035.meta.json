@@ -1,0 +1,19 @@
+{
+  "description": "Number of powers of 2 in the iteration-sequence when A051953 (cototient function) is repeatedly applied starting with n!.",
+  "id": "A053035",
+  "mentions": [
+    "A000005",
+    "A051953",
+    "A053475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

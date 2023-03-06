@@ -1,0 +1,26 @@
+{
+  "description": "Nexus numbers (n+1)^6 - n^6.",
+  "id": "A022522",
+  "mentions": [
+    "A001014",
+    "A005408",
+    "A008292",
+    "A022521",
+    "A022523",
+    "A047969",
+    "A181125",
+    "A243201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways of embedding a connected graph with n edges in the square lattice.",
+  "id": "A019988",
+  "mentions": [
+    "A001997",
+    "A003792",
+    "A006372",
+    "A056841",
+    "A059103",
+    "A085632",
+    "A096267",
+    "A151537",
+    "A181528",
+    "A336281",
+    "A348095",
+    "A348096"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

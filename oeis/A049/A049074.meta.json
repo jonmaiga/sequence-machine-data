@@ -1,0 +1,19 @@
+{
+  "description": "Ulam's conjecture (steps to return n to 1 after division by 2 and, if needed, multiplication by 3 with 1 added).",
+  "id": "A049074",
+  "mentions": [
+    "A033493",
+    "A049067"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:39",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

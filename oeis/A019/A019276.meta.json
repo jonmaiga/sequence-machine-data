@@ -1,0 +1,20 @@
+{
+  "description": "Megaperfect numbers: numbers n where A019294(n) = min {m: n divides sigma^(m) (n)} increases to a record; sigma^(m) means apply the sum-of-divisors function m times.",
+  "id": "A019276",
+  "mentions": [
+    "A019277",
+    "A019294",
+    "A019295"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

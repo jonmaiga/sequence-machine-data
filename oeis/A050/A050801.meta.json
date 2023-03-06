@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k^2 is expressible as the sum of two positive cubes in at least one way.",
+  "id": "A050801",
+  "mentions": [
+    "A000404",
+    "A001105",
+    "A033430",
+    "A038597",
+    "A050802",
+    "A050803",
+    "A106265",
+    "A217248"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

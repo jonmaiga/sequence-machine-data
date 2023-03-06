@@ -1,0 +1,17 @@
+{
+  "description": "Primes p with property that p + 32 is also prime and there are seven primes between p and p + 32.",
+  "id": "A086149",
+  "mentions": [
+    "A049489"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

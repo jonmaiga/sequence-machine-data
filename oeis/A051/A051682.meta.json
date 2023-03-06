@@ -1,0 +1,27 @@
+{
+  "description": "11-gonal (or hendecagonal) numbers: a(n) = n*(9*n-7)/2.",
+  "id": "A051682",
+  "mentions": [
+    "A000217",
+    "A004188",
+    "A007586",
+    "A017173",
+    "A093644",
+    "A131432",
+    "A188892",
+    "A195160",
+    "A218470"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:41",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

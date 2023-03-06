@@ -1,0 +1,33 @@
+{
+  "description": "Sum of exponents in prime-power factorization of n!.",
+  "id": "A022559",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A013939",
+    "A025528",
+    "A027746",
+    "A046660",
+    "A069513",
+    "A082288",
+    "A083342",
+    "A115627",
+    "A144494",
+    "A210241",
+    "A238002"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

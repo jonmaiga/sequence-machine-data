@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are palindromic in base 11.",
+  "id": "A029956",
+  "mentions": [
+    "A002113",
+    "A029957"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

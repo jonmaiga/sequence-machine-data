@@ -1,0 +1,23 @@
+{
+  "description": "Parity of digits of Pi.",
+  "id": "A030657",
+  "mentions": [
+    "A000035",
+    "A000796",
+    "A173999",
+    "A174000"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

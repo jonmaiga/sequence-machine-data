@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit base-8 deletable primes.",
+  "id": "A096241",
+  "mentions": [
+    "A080603",
+    "A080608",
+    "A096235",
+    "A096246",
+    "A322443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

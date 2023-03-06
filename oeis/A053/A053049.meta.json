@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer m such that sum_(k=1 to m) phi(k) is divisible by n, where phi(k) is the totient function.",
+  "id": "A053049",
+  "mentions": [
+    "A002034",
+    "A011772"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

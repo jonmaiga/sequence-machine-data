@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree numbers k with largest prime factor = floor(sqrt(k)).",
+  "id": "A071311",
+  "mentions": [
+    "A005117",
+    "A071835"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

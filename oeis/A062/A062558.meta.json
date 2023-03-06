@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonisomorphic cyclic subgroups of dihedral group with 2n elements.",
+  "id": "A062558",
+  "mentions": [
+    "A000005",
+    "A000035",
+    "A000045",
+    "A023645",
+    "A062249",
+    "A076984"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

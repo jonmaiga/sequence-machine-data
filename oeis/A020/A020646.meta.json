@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k for which 7^n divides k!.",
+  "id": "A020646",
+  "mentions": [
+    "A007843",
+    "A007844",
+    "A007845"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:15",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Balance index of each prime.",
+  "id": "A096693",
+  "mentions": [
+    "A090403",
+    "A096695",
+    "A096705",
+    "A096706",
+    "A096707",
+    "A096708",
+    "A096709",
+    "A096711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

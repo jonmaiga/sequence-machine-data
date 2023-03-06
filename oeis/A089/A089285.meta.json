@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors of floor(Pi*10^n), Pi=3.14...",
+  "id": "A089285",
+  "mentions": [
+    "A000203",
+    "A000796",
+    "A011545",
+    "A089284",
+    "A089286",
+    "A089287"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

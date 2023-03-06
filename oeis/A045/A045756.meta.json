@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of e.g.f. (1-9*x)^(-1/9), 9-factorial numbers.",
+  "id": "A045756",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A007559",
+    "A007696",
+    "A008542",
+    "A008548",
+    "A045754",
+    "A045755",
+    "A048994",
+    "A114806",
+    "A132393",
+    "A144772",
+    "A144773",
+    "A256268"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "sin(cos(x)*arcsin(x))=x-3/3!*x^3+25/5!*x^5-371/7!*x^7+11985/9!*x^9...",
+  "id": "A012481",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:56:20",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest maximum of sum of 3 consecutive terms in any arrangement of [1..n] in a circle.",
+  "id": "A066385",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

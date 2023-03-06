@@ -1,0 +1,22 @@
+{
+  "description": "Normalized triangle of odd numbered entries of even numbered rows of Pascal's triangle A007318.",
+  "id": "A091043",
+  "mentions": [
+    "A006519",
+    "A007318",
+    "A034870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

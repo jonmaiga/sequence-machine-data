@@ -1,0 +1,17 @@
+{
+  "description": "Consider the family of multigraphs enriched by the species of mod-6 sets. Sequence gives number of those multigraphs with 6n arcs.",
+  "id": "A099691",
+  "mentions": [
+    "A038205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

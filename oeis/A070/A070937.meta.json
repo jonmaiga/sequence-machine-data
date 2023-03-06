@@ -1,0 +1,22 @@
+{
+  "description": "Number of times maximal coefficient (A025591) appears in Product_{k<=n} (x^k + 1), i.e., number of times highest value appears in n-th row of A053632 or n-th column of A070936.",
+  "id": "A070937",
+  "mentions": [
+    "A014695",
+    "A025591",
+    "A053632",
+    "A070936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:11",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

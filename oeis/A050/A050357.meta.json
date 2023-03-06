@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered factorizations with 2 levels of parentheses indexed by prime signatures.",
+  "id": "A050357",
+  "mentions": [
+    "A025487",
+    "A050356"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

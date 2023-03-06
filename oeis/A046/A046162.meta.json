@@ -1,0 +1,20 @@
+{
+  "description": "Reduced numerators of (n-1)^2/(n^2 + n + 1).",
+  "id": "A046162",
+  "mentions": [
+    "A046163",
+    "A147560"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

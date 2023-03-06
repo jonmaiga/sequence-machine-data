@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers which are the sum of two squares.",
+  "id": "A073613",
+  "mentions": [
+    "A000217",
+    "A001481"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

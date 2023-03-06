@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(g(1)+g(2)-g(4)-g(5)), where g(k) = sum(1/(6*m+k)^2,m=0..infinity).",
+  "id": "A086723",
+  "mentions": [
+    "A086722",
+    "A086731"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

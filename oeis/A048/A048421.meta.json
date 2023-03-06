@@ -1,0 +1,19 @@
+{
+  "description": "Squares composed of two '1-digit' overlapping subsquares.",
+  "id": "A048421",
+  "mentions": [
+    "A000290",
+    "A048422"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

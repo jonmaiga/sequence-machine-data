@@ -1,0 +1,15 @@
+{
+  "description": "Number of nonzero terms in expansion of square of Vandermonde determinant of order (n+1)x(n+1) in terms of Schur functions.",
+  "id": "A028333",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

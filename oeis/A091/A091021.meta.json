@@ -1,0 +1,22 @@
+{
+  "description": "Primes p=prime(k) such that in binary representation k is a substring of p.",
+  "id": "A091021",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A007088",
+    "A049084",
+    "A091020"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

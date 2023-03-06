@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m such that 0!+1!+...+(m-1)! is divisible by n, or 0 if no such m exists.",
+  "id": "A013584",
+  "mentions": [
+    "A003422",
+    "A013585",
+    "A049044",
+    "A049045",
+    "A275608"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

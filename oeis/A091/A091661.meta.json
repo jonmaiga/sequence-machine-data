@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in a 10-adic square root of 1.",
+  "id": "A091661",
+  "mentions": [
+    "A018247",
+    "A018248",
+    "A063006",
+    "A091663",
+    "A091664"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

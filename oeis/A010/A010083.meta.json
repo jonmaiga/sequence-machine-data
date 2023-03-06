@@ -1,0 +1,21 @@
+{
+  "description": "Weight distribution of [128,120,4] extended Hamming code of length 128. This is also the Reed-Muller code RM(5,7).",
+  "id": "A010083",
+  "mentions": [
+    "A010080",
+    "A010081",
+    "A010082"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

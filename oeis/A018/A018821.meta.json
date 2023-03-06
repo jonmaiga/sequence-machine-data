@@ -1,0 +1,15 @@
+{
+  "description": "n is the sum of k nonzero squares for all 2 <= k <= n-14.",
+  "id": "A018821",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

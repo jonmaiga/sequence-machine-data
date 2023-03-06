@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the starting position of the first occurrence of a string of exactly n 6's in the decimal expansion of Pi.",
+  "id": "A096760",
+  "mentions": [
+    "A035117",
+    "A050279",
+    "A050285",
+    "A096756",
+    "A096757",
+    "A096758",
+    "A096759",
+    "A096761",
+    "A096762",
+    "A096763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

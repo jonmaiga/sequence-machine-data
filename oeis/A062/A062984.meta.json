@@ -1,0 +1,19 @@
+{
+  "description": "M(C(n)), where M(n) is Mertens's function (A002321) and C(n) is Chowla's function (A048050).",
+  "id": "A062984",
+  "mentions": [
+    "A002321",
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

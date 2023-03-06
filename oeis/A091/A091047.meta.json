@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the final value of n reached through repeated interpretation of n as a base b+1 number where b is the largest digit of n.",
+  "id": "A091047",
+  "mentions": [
+    "A054055",
+    "A068505",
+    "A091048",
+    "A091049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

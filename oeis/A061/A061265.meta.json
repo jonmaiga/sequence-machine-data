@@ -1,0 +1,22 @@
+{
+  "description": "Number of squares between n-th prime and (n+1)st prime.",
+  "id": "A061265",
+  "mentions": [
+    "A014085",
+    "A038107",
+    "A053001",
+    "A221056"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "(2n)! divided by denominator of Taylor expansion of exp(cos(x)-1).",
+  "id": "A097322",
+  "mentions": [
+    "A005046",
+    "A010050",
+    "A047690"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

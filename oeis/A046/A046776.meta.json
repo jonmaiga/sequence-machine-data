@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of 5n with equal number of parts congruent to each of 0, 1, 2, 3 and 4 (mod 5).",
+  "id": "A046776",
+  "mentions": [
+    "A036884",
+    "A036886",
+    "A036889",
+    "A036892",
+    "A046765",
+    "A046787",
+    "A202085",
+    "A202086",
+    "A202087",
+    "A202088"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n where the largest part is less than or equal to the number of parts.",
+  "id": "A077229",
+  "mentions": [
+    "A064174",
+    "A077227",
+    "A098124",
+    "A098125",
+    "A348125"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

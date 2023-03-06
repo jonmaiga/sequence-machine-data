@@ -1,0 +1,16 @@
+{
+  "description": "Number of numbers k which give 1 after applying exactly n iterations of the 3k+1 algorithm (if a number is even, divide it by 2; if it is odd, multiply by 3 and add 1). This total includes numbers k which also give 1 for a smaller number of iterations (i.e., for this sequence we do not assume the algorithm halts when 1 is reached).",
+  "id": "A082538",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

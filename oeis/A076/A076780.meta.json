@@ -1,0 +1,19 @@
+{
+  "description": "Let u(1)=u(2)=1, u(n)=(2^floor(u(n-1)/2)+1)/u(n-2) then a(n) = denominator of u(n).",
+  "id": "A076780",
+  "mentions": [
+    "A076742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:11",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

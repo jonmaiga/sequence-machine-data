@@ -1,0 +1,19 @@
+{
+  "description": "For S a finite string of numbers, let M(S) denote the maximal number among them. Let a(1)=1. For n>1, a(n) is the greatest k such that the string a(1)a(2)...a(n-1) can be written in the form [x][y_1][y_2]...[y_k] where each y_i is of positive (but not necessarily equal) length and M(y_i)=M(y_j) for all i,j.",
+  "id": "A092334",
+  "mentions": [
+    "A090822",
+    "A091975",
+    "A091976"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

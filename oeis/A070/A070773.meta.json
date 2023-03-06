@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to p(2m)-2p(m)=2n-1, where p(m) = m-th prime.",
+  "id": "A070773",
+  "mentions": [
+    "A022457",
+    "A066066",
+    "A069890",
+    "A070774"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Incrementally largest terms in the continued fraction for Euler's constant gamma (A002852).",
+  "id": "A033091",
+  "mentions": [
+    "A001620",
+    "A002852",
+    "A033092",
+    "A059856",
+    "A098967"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "5th binomial transform of (1,4,0,0,0,0,...).",
+  "id": "A081040",
+  "mentions": [
+    "A081039",
+    "A081041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

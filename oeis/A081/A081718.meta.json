@@ -1,0 +1,24 @@
+{
+  "description": "Array T(m,n) read by antidiagonals, where T(m,n) = number of m X infinity multiplicity integer partition (mip) matrix of n (m >= 0, n >= 0).",
+  "id": "A081718",
+  "mentions": [
+    "A022811",
+    "A022812",
+    "A022813",
+    "A022814",
+    "A022815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

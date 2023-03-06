@@ -1,0 +1,17 @@
+{
+  "description": "Each number is twice times the product of the digits of the previous number.",
+  "id": "A095915",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = N(5,n), where N(5,x) is the 5th Narayana polynomial.",
+  "id": "A090198",
+  "mentions": [
+    "A001263",
+    "A008550",
+    "A090199",
+    "A090200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:05",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

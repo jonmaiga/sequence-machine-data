@@ -1,0 +1,18 @@
+{
+  "description": "Even sieve: start with natural numbers, remove every 2nd term, remove every 4th term from what remains, remove every 6th term from what remains, etc.",
+  "id": "A056533",
+  "mentions": [
+    "A000165",
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:21",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

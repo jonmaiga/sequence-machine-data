@@ -1,0 +1,20 @@
+{
+  "description": "Total number of parts equal to 1 in all plane partitions of n.",
+  "id": "A090539",
+  "mentions": [
+    "A000219",
+    "A066633",
+    "A091298",
+    "A092288"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Fibonacci sequence beginning 0, 5.",
+  "id": "A022088",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000108",
+    "A014217",
+    "A119457",
+    "A267633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

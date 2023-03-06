@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..2n} (k+1) * A027082(n, 2n-k).",
+  "id": "A027107",
+  "mentions": [
+    "A027082",
+    "A237930"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

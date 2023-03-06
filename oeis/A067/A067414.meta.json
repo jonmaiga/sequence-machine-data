@@ -1,0 +1,22 @@
+{
+  "description": "Seventh column of triangle A067410.",
+  "id": "A067414",
+  "mentions": [
+    "A001023",
+    "A067410",
+    "A067413",
+    "A067415"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:12:24",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

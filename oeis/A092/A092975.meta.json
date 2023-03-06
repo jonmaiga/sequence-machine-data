@@ -1,0 +1,19 @@
+{
+  "description": "Consider all partitions of n into parts all of which are divisors of n; a(n) = maximal product of parts.",
+  "id": "A092975",
+  "mentions": [
+    "A002581",
+    "A243405"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

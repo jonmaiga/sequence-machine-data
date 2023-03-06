@@ -1,0 +1,28 @@
+{
+  "description": "Triangle related to A001700 and A000302 (powers of 4).",
+  "id": "A046658",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000531",
+    "A001700",
+    "A029887",
+    "A045492",
+    "A045530",
+    "A045724",
+    "A046885"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:05",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

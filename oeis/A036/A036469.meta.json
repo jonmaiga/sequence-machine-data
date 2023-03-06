@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A000009 (partitions into distinct parts).",
+  "id": "A036469",
+  "mentions": [
+    "A000009",
+    "A000070",
+    "A026906",
+    "A035363",
+    "A166240",
+    "A201377",
+    "A265093",
+    "A346520"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

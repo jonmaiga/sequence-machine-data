@@ -1,0 +1,21 @@
+{
+  "description": "Built from superfactorials A000178.",
+  "id": "A089501",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A089500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers <= n that are primes or not prime powers.",
+  "id": "A085972",
+  "mentions": [
+    "A000720",
+    "A065515",
+    "A085501",
+    "A085970",
+    "A085971"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

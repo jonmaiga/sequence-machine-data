@@ -1,0 +1,25 @@
+{
+  "description": "Number of semiprimes (A001358) <= n.",
+  "id": "A072000",
+  "mentions": [
+    "A000720",
+    "A001358",
+    "A056811",
+    "A064911",
+    "A066265",
+    "A072613",
+    "A174956"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

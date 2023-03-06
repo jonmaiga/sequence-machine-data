@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of values of k such that A077389(k) = A060863(n).",
+  "id": "A082596",
+  "mentions": [
+    "A060863",
+    "A077389",
+    "A082653"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

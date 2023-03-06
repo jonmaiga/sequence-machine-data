@@ -1,0 +1,20 @@
+{
+  "description": "A sum of decreasing powers.",
+  "id": "A081680",
+  "mentions": [
+    "A081679",
+    "A081681"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:52:32",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

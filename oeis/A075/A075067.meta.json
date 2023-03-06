@@ -1,0 +1,19 @@
+{
+  "description": "Start of the first run of exactly n consecutive odd composite numbers.",
+  "id": "A075067",
+  "mentions": [
+    "A000230",
+    "A045881",
+    "A189118"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Limit of the recursion B_[k] = P[k](B_[k-1]), where B_[0] = (1,2,3,4,5,...) and P[k] is the permutation that permutes the entries k+j and 2k + j for all j = 1,..,k.",
+  "id": "A064537",
+  "mentions": [
+    "A064791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

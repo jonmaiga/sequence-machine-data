@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 2*x*(x + 1)*y*(y + 1) where x and y are distinct.",
+  "id": "A054734",
+  "mentions": [
+    "A053990",
+    "A054731"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:27",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

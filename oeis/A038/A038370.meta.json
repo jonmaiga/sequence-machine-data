@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime with \"n^2\" as central digit(s).",
+  "id": "A038370",
+  "mentions": [
+    "A084413",
+    "A084414"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:19",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

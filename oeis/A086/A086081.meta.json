@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and its 2's complement are both primes. In other words, n and 2^k - n (where k is the smallest power of 2 such that 2^k > n) are primes.",
+  "id": "A086081",
+  "mentions": [
+    "A068811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

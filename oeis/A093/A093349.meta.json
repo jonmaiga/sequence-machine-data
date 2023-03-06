@@ -1,0 +1,19 @@
+{
+  "description": "A 7-fractal \"castle\" starting with 0.",
+  "id": "A093349",
+  "mentions": [
+    "A093347",
+    "A093348"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numerators in the convergents of [L_1, L_2, L_3, . . . ] where L_i is period length of the continued fraction for sqrt(i).",
+  "id": "A053190",
+  "mentions": [
+    "A053011"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:20:49",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

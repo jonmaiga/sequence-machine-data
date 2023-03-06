@@ -1,0 +1,21 @@
+{
+  "description": "LCM of terms in period of continued fraction expansion of square root of A051451(n), i.e., sqrt(lcm(1..x)) where x is a prime power from A000961.",
+  "id": "A077639",
+  "mentions": [
+    "A000961",
+    "A051451",
+    "A077636",
+    "A077638"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

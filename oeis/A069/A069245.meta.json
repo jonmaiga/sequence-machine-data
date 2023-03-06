@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of coefficients in Airy-type asymptotic expansion.",
+  "id": "A069245",
+  "mentions": [
+    "A069244"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

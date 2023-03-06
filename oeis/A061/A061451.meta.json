@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) of k-th order Fibonacci numbers read by antidiagonals in up-direction.",
+  "id": "A061451",
+  "mentions": [
+    "A000045",
+    "A000213",
+    "A000288",
+    "A000322",
+    "A000383",
+    "A060455"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

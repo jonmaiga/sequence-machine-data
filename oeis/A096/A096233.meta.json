@@ -1,0 +1,20 @@
+{
+  "description": "Number of digits of the 10^n-th tribonacci number (A000073).",
+  "id": "A096233",
+  "mentions": [
+    "A000073",
+    "A068070"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

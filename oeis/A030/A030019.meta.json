@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled spanning trees in the complete hypergraph on n vertices (all hyperedges having cardinality 2 or greater).",
+  "id": "A030019",
+  "mentions": [
+    "A030438",
+    "A035051",
+    "A035053",
+    "A052888",
+    "A134954",
+    "A134956",
+    "A134958",
+    "A210587"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

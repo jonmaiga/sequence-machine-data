@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of Faulhaber numbers (denominators) read by rows.",
+  "id": "A065553",
+  "mentions": [
+    "A065551"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

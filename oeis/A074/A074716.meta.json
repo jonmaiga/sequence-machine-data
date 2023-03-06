@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2^n-F(n) is prime, where F(n) is the n-th Fibonacci number.",
+  "id": "A074716",
+  "mentions": [
+    "A074824"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

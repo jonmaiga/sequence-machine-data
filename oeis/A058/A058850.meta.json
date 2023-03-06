@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes that are the sum of consecutive initial odd composites.",
+  "id": "A058850",
+  "mentions": [
+    "A058848",
+    "A058849"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

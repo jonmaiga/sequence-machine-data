@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/(2*sqrt(Pi)).",
+  "id": "A087198",
+  "mentions": [
+    "A019707",
+    "A086201",
+    "A087197",
+    "A087199"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:53:57",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

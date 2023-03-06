@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for Pi/3.",
+  "id": "A070988",
+  "mentions": [
+    "A019670"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

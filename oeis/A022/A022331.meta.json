@@ -1,0 +1,22 @@
+{
+  "description": "Index of 2^n within sequence of numbers of form 2^i*3^j (A003586).",
+  "id": "A022331",
+  "mentions": [
+    "A000079",
+    "A003586",
+    "A020915",
+    "A022330",
+    "A071521"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:12:47",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

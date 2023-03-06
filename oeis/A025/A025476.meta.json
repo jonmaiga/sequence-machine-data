@@ -1,0 +1,20 @@
+{
+  "description": "Prime root of n-th nontrivial prime power (A025475).",
+  "id": "A025476",
+  "mentions": [
+    "A025473",
+    "A025475",
+    "A048148"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

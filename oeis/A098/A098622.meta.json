@@ -1,0 +1,23 @@
+{
+  "description": "Consider the family of directed multigraphs enriched by the species of set partitions. Sequence gives number of those multigraphs with n labeled loops and arcs.",
+  "id": "A098622",
+  "mentions": [
+    "A000110",
+    "A014507",
+    "A038205",
+    "A098620",
+    "A098621",
+    "A098623"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

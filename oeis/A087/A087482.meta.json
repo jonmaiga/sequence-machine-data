@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary polynomials of degree n irreducible over the integers.",
+  "id": "A087482",
+  "mentions": [
+    "A001037",
+    "A087481"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

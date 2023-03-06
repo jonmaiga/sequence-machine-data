@@ -1,0 +1,18 @@
+{
+  "description": "Molien series for 16-dimensional group of structure S_3 and order 6, corresponding to complete weight enumerators of Hermitian self-dual GF(4)-linear codes over GF(16).",
+  "id": "A092496",
+  "mentions": [
+    "A092497"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:14:55",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

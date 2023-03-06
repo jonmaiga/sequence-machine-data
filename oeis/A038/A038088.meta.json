@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-node rooted identity trees of height 4.",
+  "id": "A038088",
+  "mentions": [
+    "A038081",
+    "A038082",
+    "A038083",
+    "A038093",
+    "A227819"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 5,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

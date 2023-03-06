@@ -1,0 +1,18 @@
+{
+  "description": "Least product of the partitions of n into two parts with maximal tau value: let n = a+b be a partition of n, then a(n) = a*b such that tau(a*b) is maximal.",
+  "id": "A092990",
+  "mentions": [
+    "A000005",
+    "A092991"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

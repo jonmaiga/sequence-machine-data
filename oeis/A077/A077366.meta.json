@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers whose internal digits form a triangular number. Or triangular number such that deleting the MSD and LSD leaves a triangular number.",
+  "id": "A077366",
+  "mentions": [
+    "A069702",
+    "A077367",
+    "A077368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

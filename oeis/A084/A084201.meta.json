@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the sum of the digits is prime and the sum of the digits of 2p is also prime.",
+  "id": "A084201",
+  "mentions": [
+    "A007953",
+    "A049084",
+    "A084194"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

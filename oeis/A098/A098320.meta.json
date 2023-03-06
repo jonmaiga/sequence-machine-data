@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=0; for i>=1, a(i+1)=position of first occurrence of a(i) in decimal expansion of 1/e.",
+  "id": "A098320",
+  "mentions": [
+    "A068985",
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098290",
+    "A098319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

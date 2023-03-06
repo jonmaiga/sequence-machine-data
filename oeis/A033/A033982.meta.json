@@ -1,0 +1,26 @@
+{
+  "description": "Integers n such that 2^n == 11 (mod n).",
+  "id": "A033982",
+  "mentions": [
+    "A015910",
+    "A015911",
+    "A033981",
+    "A033983",
+    "A050259",
+    "A124965",
+    "A124974",
+    "A124977",
+    "A125000"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

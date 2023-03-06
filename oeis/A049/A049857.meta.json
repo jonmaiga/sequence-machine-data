@@ -1,0 +1,19 @@
+{
+  "description": "Concatenate prevprime(n), n, and nextprime(n).",
+  "id": "A049857",
+  "mentions": [
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:49",
+    "offset": 3,
+    "size": 30,
+    "source": "joeis"
+  }
+}

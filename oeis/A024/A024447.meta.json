@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the products of the primes taken 2 at a time from the first n primes.",
+  "id": "A024447",
+  "mentions": [
+    "A007504",
+    "A024448",
+    "A024449",
+    "A024450"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

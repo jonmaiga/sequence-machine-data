@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the cyclotomic polynomial of order n has a nonzero coefficient which does not appear in any cyclotomic polynomials of lower order.",
+  "id": "A046887",
+  "mentions": [
+    "A013594"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

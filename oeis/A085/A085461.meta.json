@@ -1,0 +1,28 @@
+{
+  "description": "Number of 5-tuples (v1,v2,v3,v4,v5) of nonnegative integers less than n such that v1 <= v5, v2 <= v5, v2 <= v4 and v3 <= v4.",
+  "id": "A085461",
+  "mentions": [
+    "A000330",
+    "A002721",
+    "A006322",
+    "A006325",
+    "A079547",
+    "A085462",
+    "A085463",
+    "A085464",
+    "A085465",
+    "A110450"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:23",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

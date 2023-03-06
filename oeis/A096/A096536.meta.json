@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k, k+1, k+2 are all abundant.",
+  "id": "A096536",
+  "mentions": [
+    "A005101",
+    "A096399",
+    "A119240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

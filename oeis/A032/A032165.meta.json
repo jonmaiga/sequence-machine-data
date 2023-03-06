@@ -1,0 +1,19 @@
+{
+  "description": "Number of aperiodic necklaces of n beads of 10 colors.",
+  "id": "A032165",
+  "mentions": [
+    "A000011",
+    "A074650"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

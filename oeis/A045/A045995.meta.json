@@ -1,0 +1,25 @@
+{
+  "description": "Rows of Fibonacci-Pascal triangle.",
+  "id": "A045995",
+  "mentions": [
+    "A000045",
+    "A006449",
+    "A007318",
+    "A081667",
+    "A281450"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

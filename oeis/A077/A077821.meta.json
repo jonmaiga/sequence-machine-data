@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of (1-x)^(-1)/(1-3*x-3*x^2-3*x^3).",
+  "id": "A077821",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:52:05",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

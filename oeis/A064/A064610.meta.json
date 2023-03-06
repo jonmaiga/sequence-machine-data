@@ -1,0 +1,30 @@
+{
+  "description": "Places k where A064608(k) (partial sums of unitary tau) is divisible by k.",
+  "id": "A064610",
+  "mentions": [
+    "A045345",
+    "A048290",
+    "A050226",
+    "A056650",
+    "A062982",
+    "A063971",
+    "A063986",
+    "A064605",
+    "A064606",
+    "A064607",
+    "A064608",
+    "A064911"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

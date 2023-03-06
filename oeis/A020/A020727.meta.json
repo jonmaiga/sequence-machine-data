@@ -1,0 +1,18 @@
+{
+  "description": "Pisot sequence P(2,7): a(0)=2, a(1)=7, thereafter a(n+1) is the nearest integer to a(n)^2/a(n-1).",
+  "id": "A020727",
+  "mentions": [
+    "A003480",
+    "A008776"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

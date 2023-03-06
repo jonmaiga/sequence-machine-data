@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1 a(n) = smallest number of the form n^r (with r rational != 1) not included earlier.",
+  "id": "A073843",
+  "mentions": [
+    "A052409",
+    "A052410",
+    "A073842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

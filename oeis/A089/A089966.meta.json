@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that omega(n) = gpf(n) mod spf(n), where omega=A001221, gpf=A006530 and spf=A020639.",
+  "id": "A089966",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A020639",
+    "A064900",
+    "A069859",
+    "A089967"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

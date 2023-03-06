@@ -1,0 +1,23 @@
+{
+  "description": "Number of (zeroless) pandigital fractions for 1/n.",
+  "id": "A054383",
+  "mentions": [
+    "A064160",
+    "A115927",
+    "A115929",
+    "A115930",
+    "A115931",
+    "A115932"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The x value of the unique nontrivial solution to x^3 + d*y^3 = 1 for all admissible (d = 2,7,9,17,..., A005988).",
+  "id": "A055735",
+  "mentions": [
+    "A005988",
+    "A259453"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-07 16:12:11",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

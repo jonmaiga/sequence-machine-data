@@ -1,0 +1,18 @@
+{
+  "description": "Values of y in positive integer solutions of x^2 + y^5 = z^3, listed in increasing order of z. (If a z-value occurs twice, list solutions in increasing order of y.)",
+  "id": "A070066",
+  "mentions": [
+    "A070065",
+    "A070067"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

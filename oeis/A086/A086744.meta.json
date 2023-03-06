@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{n>=1} (2n/(2n+1))^((-1)^t(n)), where t(n) = A010060(n) is the Thue-Morse sequence.",
+  "id": "A086744",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

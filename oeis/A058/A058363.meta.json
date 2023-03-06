@@ -1,0 +1,15 @@
+{
+  "description": "Numbers whose reduced system of residues forms an arithmetic progression. It consists of primes, twice primes, and powers of 2.",
+  "id": "A058363",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

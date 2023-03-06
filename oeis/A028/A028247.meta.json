@@ -1,0 +1,20 @@
+{
+  "description": "Number of T-frame polyominoes with n cells.",
+  "id": "A028247",
+  "mentions": [
+    "A270060",
+    "A360419",
+    "A360420"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

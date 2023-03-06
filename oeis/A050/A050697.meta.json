@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that appear in A035140 but not in A050694.",
+  "id": "A050697",
+  "mentions": [
+    "A035140",
+    "A050694"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:47",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

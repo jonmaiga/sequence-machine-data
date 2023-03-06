@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A053230(n) = 2.",
+  "id": "A053233",
+  "mentions": [
+    "A000203",
+    "A053224",
+    "A053230",
+    "A053231",
+    "A053232",
+    "A053234",
+    "A053235",
+    "A053236",
+    "A053237"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

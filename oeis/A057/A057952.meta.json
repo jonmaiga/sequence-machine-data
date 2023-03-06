@@ -1,0 +1,32 @@
+{
+  "description": "Number of prime factors of 9^n - 1 (counted with multiplicity).",
+  "id": "A057952",
+  "mentions": [
+    "A001222",
+    "A002591",
+    "A024101",
+    "A046051",
+    "A057951",
+    "A057953",
+    "A057954",
+    "A057955",
+    "A057956",
+    "A057957",
+    "A057958",
+    "A074477",
+    "A085034",
+    "A133801",
+    "A274909"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

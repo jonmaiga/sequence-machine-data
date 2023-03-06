@@ -1,0 +1,23 @@
+{
+  "description": "A Connell-like sequence: take 1 number = 1 (mod Q), 2 numbers = 2 (mod Q), 3 numbers = 3 (mod Q), etc., where Q = 3.",
+  "id": "A033292",
+  "mentions": [
+    "A000326",
+    "A136392",
+    "A143689",
+    "A143690"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:59",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

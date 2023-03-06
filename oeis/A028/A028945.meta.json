@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A006720(n)^2 (squared terms of Somos-4 sequence).",
+  "id": "A028945",
+  "mentions": [
+    "A006720",
+    "A028935",
+    "A028941",
+    "A028944"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

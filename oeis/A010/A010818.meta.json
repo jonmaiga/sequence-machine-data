@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of Product (1 - x^k)^10 in powers of x.",
+  "id": "A010818",
+  "mentions": [
+    "A000203",
+    "A000594",
+    "A000727",
+    "A000731",
+    "A000735",
+    "A000739",
+    "A002107",
+    "A010815",
+    "A010840",
+    "A122266",
+    "A234565"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

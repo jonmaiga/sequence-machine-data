@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k)=A(n,k)*binomial(n+k-1,n), where A(n,k) are the Eulerian numbers (A008292).",
+  "id": "A038675",
+  "mentions": [
+    "A000312",
+    "A001700",
+    "A008292",
+    "A014449"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:08:18",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

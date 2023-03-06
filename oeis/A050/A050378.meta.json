@@ -1,0 +1,19 @@
+{
+  "description": "Number of factorizations into members of A050376 by prime signature. A050377(A025487).",
+  "id": "A050378",
+  "mentions": [
+    "A025487",
+    "A050376",
+    "A050377"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

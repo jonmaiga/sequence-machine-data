@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are congruent to {0, 2, 3, 4, 5} mod 7.",
+  "id": "A047363",
+  "mentions": [
+    "A005097",
+    "A016743",
+    "A047222"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:47",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

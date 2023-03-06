@@ -1,0 +1,27 @@
+{
+  "description": "Decimal concatenations of the quadruples (d1,d2,d3,d4) with elements in {2,4,6} for which there exists a prime p >= 5 such that the differences between the 5 consecutive primes starting with p are (d1,d2,d3,d4).",
+  "id": "A078868",
+  "mentions": [
+    "A001223",
+    "A022006",
+    "A022007",
+    "A078866",
+    "A078867",
+    "A078870",
+    "A078946",
+    "A078970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

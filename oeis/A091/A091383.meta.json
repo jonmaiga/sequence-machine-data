@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers where the sequence of largest quadratic \"mixed\" residues modulo the primes (A091380) is non-monotonic.",
+  "id": "A091383",
+  "mentions": [
+    "A088190",
+    "A088193",
+    "A088199",
+    "A091380",
+    "A091381",
+    "A091382",
+    "A091384",
+    "A091385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

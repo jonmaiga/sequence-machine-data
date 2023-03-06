@@ -1,0 +1,22 @@
+{
+  "description": "Replace each 1 in decimal expansion of n with 1 1's, each 2 with 2 2's, etc. (0 vanishes).",
+  "id": "A048376",
+  "mentions": [
+    "A048377",
+    "A057628",
+    "A057630"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:20:21",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

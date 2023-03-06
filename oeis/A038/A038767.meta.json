@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which n-th primorial + square of (n+1)-th prime is also a prime.",
+  "id": "A038767",
+  "mentions": [
+    "A002110",
+    "A054758",
+    "A245694"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

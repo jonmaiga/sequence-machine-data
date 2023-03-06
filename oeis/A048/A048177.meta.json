@@ -1,0 +1,19 @@
+{
+  "description": "Primes p = d_1 d_2 ... d_k in base 10 such that for some base b, p = Sum_{i = 1..k} b^d_i.",
+  "id": "A048177",
+  "mentions": [
+    "A048178"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

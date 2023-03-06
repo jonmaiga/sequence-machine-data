@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of constant A*B in the asymptotic expression of the summatory function Sum_{n=1..N} (1/phi(n)) as A(log(N)+B) + O(log(N)/N).",
+  "id": "A098468",
+  "mentions": [
+    "A082695",
+    "A085609"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

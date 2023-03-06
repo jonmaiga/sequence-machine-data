@@ -1,0 +1,27 @@
+{
+  "description": "Number of balanced partitions of n into distinct parts: least part is equal to number of parts.",
+  "id": "A096401",
+  "mentions": [
+    "A000009",
+    "A006141",
+    "A025157",
+    "A047993",
+    "A237976",
+    "A237977",
+    "A237979",
+    "A263719",
+    "A339446"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k such that floor(k*Pi) begins with n (Pi=3.14159...).",
+  "id": "A078220",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

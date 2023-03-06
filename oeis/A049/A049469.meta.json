@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of sin(1).",
+  "id": "A049469",
+  "mentions": [
+    "A009445",
+    "A049470",
+    "A074790",
+    "A211883",
+    "A211884"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:57",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

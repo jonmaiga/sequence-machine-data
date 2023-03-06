@@ -1,0 +1,23 @@
+{
+  "description": "m-th composite number c(m) = A002808(m), where m is the n-th prime number: a(n) = A002808(A000040(n)).",
+  "id": "A065858",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A008578",
+    "A022449",
+    "A065856",
+    "A065857",
+    "A175251"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

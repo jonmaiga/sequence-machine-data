@@ -1,0 +1,43 @@
+{
+  "description": "Smallest number which is coprime to the last two predecessors and has not yet appeared; a(1)=1, a(2)=2.",
+  "id": "A084937",
+  "mentions": [
+    "A011655",
+    "A084933",
+    "A090252",
+    "A103683",
+    "A121216",
+    "A247665",
+    "A249575",
+    "A249602",
+    "A249603",
+    "A249680",
+    "A249681",
+    "A249682",
+    "A249683",
+    "A249684",
+    "A249685",
+    "A249686",
+    "A249689",
+    "A249694",
+    "A249777",
+    "A249856",
+    "A249857",
+    "A250099",
+    "A250100",
+    "A353706",
+    "A353709",
+    "A353710"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

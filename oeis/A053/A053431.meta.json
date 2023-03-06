@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (Pi/2)*k^2*sin(1/k) < floor(Pi*k/2).",
+  "id": "A053431",
+  "mentions": [
+    "A001203"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:23:56",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that either k or k-1 is a prime.",
+  "id": "A093515",
+  "mentions": [
+    "A000040",
+    "A005381",
+    "A051006",
+    "A092855",
+    "A092875",
+    "A093510",
+    "A093511",
+    "A093512",
+    "A093513",
+    "A093514",
+    "A093516",
+    "A093517",
+    "A121561",
+    "A161903",
+    "A323162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

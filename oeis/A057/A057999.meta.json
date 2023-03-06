@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is smallest prime such that a(n)-1 is a proper multiple of a(n-1)-1, with a(0) = 2.",
+  "id": "A057999",
+  "mentions": [
+    "A036012",
+    "A046966",
+    "A046972",
+    "A058000"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

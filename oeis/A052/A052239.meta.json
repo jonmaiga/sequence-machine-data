@@ -1,0 +1,38 @@
+{
+  "description": "Smallest prime p in set of 4 consecutive primes in arithmetic progression with common difference 6n.",
+  "id": "A052239",
+  "mentions": [
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052195",
+    "A052242",
+    "A052243",
+    "A054701",
+    "A054800",
+    "A058252",
+    "A058323",
+    "A067388",
+    "A089234",
+    "A161534",
+    "A204852",
+    "A210683",
+    "A259224",
+    "A286817",
+    "A287171",
+    "A287547",
+    "A287550",
+    "A287593"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

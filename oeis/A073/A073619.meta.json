@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 0; a(n) = smallest composite number which is a sum of n distinct primes.",
+  "id": "A073619",
+  "mentions": [
+    "A007504",
+    "A068873",
+    "A073620",
+    "A073621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

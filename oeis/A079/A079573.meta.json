@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled, connected graphs on n vertices with no induced subgraph isomorphic to a diamond, where a diamond is the graph on four vertices formed by removing an edge from the complete graph K4.",
+  "id": "A079573",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

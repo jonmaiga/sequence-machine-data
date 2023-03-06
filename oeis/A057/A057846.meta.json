@@ -1,0 +1,22 @@
+{
+  "description": "Sort the digits of n into alphabetical order (the \"Obsessive Filer's Sequence\").",
+  "id": "A057846",
+  "mentions": [
+    "A072809",
+    "A225805"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

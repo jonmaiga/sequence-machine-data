@@ -1,0 +1,23 @@
+{
+  "description": "k such that A035312(k-1) = n or 0 if there is none.",
+  "id": "A035358",
+  "mentions": [
+    "A000217",
+    "A035311",
+    "A035312",
+    "A035313",
+    "A072038",
+    "A072039"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

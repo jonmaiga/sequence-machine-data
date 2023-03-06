@@ -1,0 +1,19 @@
+{
+  "description": "Spiro-tribonacci numbers: a(n) = sum of three previous terms that are nearest when terms arranged in a spiral.",
+  "id": "A092360",
+  "mentions": [
+    "A078510",
+    "A092369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of chowla(n).",
+  "id": "A053246",
+  "mentions": [
+    "A001065",
+    "A048050",
+    "A053222",
+    "A053223"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

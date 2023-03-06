@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(m,n) is the cardinality of the set {k in [1,n-1] : gcd(k,n)=m}.",
+  "id": "A087623",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

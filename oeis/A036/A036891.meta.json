@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 5n such that cn(1,5) = cn(4,5) < cn(2,5) = cn(3,5) <= cn(0,5).",
+  "id": "A036891",
+  "mentions": [
+    "A036882",
+    "A036892",
+    "A036895",
+    "A202085"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

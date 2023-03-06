@@ -1,0 +1,23 @@
+{
+  "description": "(Largest Matula-Goebel number encoding a tree with n nodes) - (smallest Matula-Goebel number encoding a tree with n nodes).",
+  "id": "A091233",
+  "mentions": [
+    "A000081",
+    "A005517",
+    "A005518",
+    "A061773",
+    "A091241",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

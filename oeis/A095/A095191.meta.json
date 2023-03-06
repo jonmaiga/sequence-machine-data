@@ -1,0 +1,19 @@
+{
+  "description": "Composites k such that k + A001414(k) is a semiprime.",
+  "id": "A095191",
+  "mentions": [
+    "A001358",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

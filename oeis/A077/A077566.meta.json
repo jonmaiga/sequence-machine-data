@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number which can be factored into parts with distinct prime signatures in n different ways, or 0 if no such number exists.",
+  "id": "A077566",
+  "mentions": [
+    "A077563",
+    "A077564",
+    "A077565"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

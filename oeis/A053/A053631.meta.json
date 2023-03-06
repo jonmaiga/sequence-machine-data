@@ -1,0 +1,21 @@
+{
+  "description": "Pythagorean spiral: a(n-1)+1, a(n) and a(n)+1 are the sides of a right triangle (a primitive Pythagorean triangle).",
+  "id": "A053631",
+  "mentions": [
+    "A007018",
+    "A046092",
+    "A053630",
+    "A127690"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

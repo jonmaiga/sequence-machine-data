@@ -1,0 +1,21 @@
+{
+  "description": "a(n)^2 is a square whose consecutive digits differ by 1.",
+  "id": "A048412",
+  "mentions": [
+    "A002477",
+    "A048411"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

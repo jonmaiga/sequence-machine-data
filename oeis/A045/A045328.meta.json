@@ -1,0 +1,16 @@
+{
+  "description": "Primes congruent to {0, 1, 2, 3, 6} (mod 7).",
+  "id": "A045328",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:17",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

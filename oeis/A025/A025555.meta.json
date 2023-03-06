@@ -1,0 +1,23 @@
+{
+  "description": "Least common multiple (or LCM) of first n positive triangular numbers (A000217).",
+  "id": "A025555",
+  "mentions": [
+    "A000217",
+    "A003418",
+    "A051538",
+    "A051543"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:22:27",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Ordered m for which m = k^3*a*b*(a^4 - b^4) determine (unique) solution triples(k,a,b), where k=1,2,3,... and (a,b) are coprime pairs, not both odd (i.e., of opposite parity).",
+  "id": "A081779",
+  "mentions": [
+    "A057096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

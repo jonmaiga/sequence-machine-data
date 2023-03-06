@@ -1,0 +1,20 @@
+{
+  "description": "A log based Cantor self similar sequence.",
+  "id": "A088661",
+  "mentions": [
+    "A088487",
+    "A088488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

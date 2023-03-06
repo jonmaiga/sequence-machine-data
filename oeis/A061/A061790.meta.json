@@ -1,0 +1,17 @@
+{
+  "description": "Number of sums i^2 + j^2 that occur more than once for 1 <= i <= j <= n.",
+  "id": "A061790",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

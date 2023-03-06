@@ -1,0 +1,20 @@
+{
+  "description": "Inverse binomial transform of a_0 = 1, a_1, a_2, etc. is a_0, 0, a_1, 0, a_2, 0, etc.",
+  "id": "A027826",
+  "mentions": [
+    "A051163",
+    "A152193"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

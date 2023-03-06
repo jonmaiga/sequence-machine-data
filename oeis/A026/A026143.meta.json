@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = position of n in A026142.",
+  "id": "A026143",
+  "mentions": [
+    "A026142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:49",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

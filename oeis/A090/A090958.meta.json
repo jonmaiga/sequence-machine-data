@@ -1,0 +1,17 @@
+{
+  "description": "Numbers in increasing order such that the least multiple of prime(n) in the sequence is primorial(n).",
+  "id": "A090958",
+  "mentions": [
+    "A090959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of quasigroups of order n, considered to be equivalent when they are isomorphic or anti-isomorphic (by reversal of the operator).",
+  "id": "A058171",
+  "mentions": [
+    "A057991",
+    "A057993"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

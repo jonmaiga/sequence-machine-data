@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangle A091614.",
+  "id": "A091623",
+  "mentions": [
+    "A091613",
+    "A091614"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

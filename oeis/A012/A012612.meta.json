@@ -1,0 +1,15 @@
+{
+  "description": "arcsin(arcsinh(x)*tan(x))=2/2!*x^2+4/4!*x^4+230/6!*x^6+3848/8!*x^8...",
+  "id": "A012612",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:11:08",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

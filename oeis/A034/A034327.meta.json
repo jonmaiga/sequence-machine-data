@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of numbers of connected regular (k X n)-matrix matroids of dimension k.",
+  "id": "A034327",
+  "mentions": [
+    "A034328"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

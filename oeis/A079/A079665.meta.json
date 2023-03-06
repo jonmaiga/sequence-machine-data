@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form (2^s+1)/(2^r+1) for s>1, 1<=r<=s-1.",
+  "id": "A079665",
+  "mentions": [
+    "A079581",
+    "A079672",
+    "A079673"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

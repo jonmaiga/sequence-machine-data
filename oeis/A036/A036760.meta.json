@@ -1,0 +1,23 @@
+{
+  "description": "Number of tree-like octagonal systems.",
+  "id": "A036760",
+  "mentions": [
+    "A036758",
+    "A036759",
+    "A121112",
+    "A121113",
+    "A121114"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:14:32",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "A convolution triangle of numbers based on A001405 (central binomial coefficients).",
+  "id": "A054336",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A035324",
+    "A045621",
+    "A053121",
+    "A054335",
+    "A054341",
+    "A181472"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

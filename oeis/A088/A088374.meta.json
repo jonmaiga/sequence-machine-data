@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a postulated upper estimate for the complex Grothendieck constant.",
+  "id": "A088374",
+  "mentions": [
+    "A088367",
+    "A088373",
+    "A088375"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

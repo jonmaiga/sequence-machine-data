@@ -1,0 +1,22 @@
+{
+  "description": "The set of 16 consecutive primes with the property that they form a 4 X 4 magic square with the smallest magic constant (258).",
+  "id": "A073521",
+  "mentions": [
+    "A073519",
+    "A073520",
+    "A073522",
+    "A073523"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

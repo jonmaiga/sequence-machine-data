@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of first n consecutive prime numbers is pandigital (includes all 10 digits exactly once).",
+  "id": "A049442",
+  "mentions": [
+    "A049443",
+    "A049446"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A052313, which is the matrix square of the triangle of circular binomial coefficients (A047996).",
+  "id": "A091714",
+  "mentions": [
+    "A000031",
+    "A047996",
+    "A052313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

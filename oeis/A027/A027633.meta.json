@@ -1,0 +1,22 @@
+{
+  "description": "Molien series for full 8 X 8 Siegel modular group H_3 of order 371589120.",
+  "id": "A027633",
+  "mentions": [
+    "A027638",
+    "A027672",
+    "A039946"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:33",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

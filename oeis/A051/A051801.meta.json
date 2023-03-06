@@ -1,0 +1,25 @@
+{
+  "description": "Product of the nonzero digits of n.",
+  "id": "A051801",
+  "mentions": [
+    "A004719",
+    "A007953",
+    "A007954",
+    "A051802",
+    "A338882"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

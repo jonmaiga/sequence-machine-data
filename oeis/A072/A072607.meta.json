@@ -1,0 +1,22 @@
+{
+  "description": "If D[n] is divisor-set of n, then in set of 1+D only 2 primes occur:{2,3}; also n is not squarefree.",
+  "id": "A072607",
+  "mentions": [
+    "A000005",
+    "A002202",
+    "A005277",
+    "A051222",
+    "A053176",
+    "A067513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

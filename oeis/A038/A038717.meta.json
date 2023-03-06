@@ -1,0 +1,17 @@
+{
+  "description": "Triangular array read by rows: T(n,m) = number of ways your team can score m points in n rounds of a soccer competition (loss=0 point, draw=1 point, win=3 points), for n >= 0, 0 <= m <= 3n.",
+  "id": "A038717",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:41:39",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

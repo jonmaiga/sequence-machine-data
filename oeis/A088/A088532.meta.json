@@ -1,0 +1,19 @@
+{
+  "description": "\"Patterns of permutations\": Define the \"pattern\" formed by k positions in a permutation to be the permutation of {1..k} specifying the relative order of the elements in those positions; a(n) = largest number of different patterns that can occur in a permutation of n letters.",
+  "id": "A088532",
+  "mentions": [
+    "A092603"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

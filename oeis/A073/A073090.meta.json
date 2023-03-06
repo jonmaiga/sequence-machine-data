@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p from (1,2,3,...,n) to (1,2,3...,n) such that 1/p(1)+2/p(2)+...+n/p(n) is an integer.",
+  "id": "A073090",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

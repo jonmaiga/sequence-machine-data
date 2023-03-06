@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = round(n/(log(n)-1) - pi(n)).",
+  "id": "A053619",
+  "mentions": [
+    "A000720",
+    "A052434",
+    "A052435"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

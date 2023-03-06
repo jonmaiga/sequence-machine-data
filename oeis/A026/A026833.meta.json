@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts, the least being even.",
+  "id": "A026833",
+  "mentions": [
+    "A026832"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes not exceeding factorial of n-th prime.",
+  "id": "A082879",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

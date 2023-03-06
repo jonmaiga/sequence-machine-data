@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct nonsquares.",
+  "id": "A087154",
+  "mentions": [
+    "A000037",
+    "A000041",
+    "A033461",
+    "A087153",
+    "A225045",
+    "A280264"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Composite solutions to sigma(x)+8 = sigma(x+8).",
+  "id": "A059118",
+  "mentions": [
+    "A015915"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

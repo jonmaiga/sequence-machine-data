@@ -1,0 +1,20 @@
+{
+  "description": "Numbers congruent to 3 mod 4 which are divisible only by primes congruent to 3 mod 4.",
+  "id": "A094179",
+  "mentions": [
+    "A004614",
+    "A004767",
+    "A026424",
+    "A094180"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

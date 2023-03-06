@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3^n*n^(n-1).",
+  "id": "A038061",
+  "mentions": [
+    "A000169",
+    "A038055",
+    "A038062"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:55:51",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

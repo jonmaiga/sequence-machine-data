@@ -1,0 +1,18 @@
+{
+  "description": "Consider triangle in which the 2n-th row contains first 2n positive integers in decreasing order and the (2n+1)-st row contains first 2n+1 positive integers in increasing order; sequence contains concatenation of numbers read upward at a 45-degree angle.",
+  "id": "A079808",
+  "mentions": [
+    "A079809"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

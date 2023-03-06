@@ -1,0 +1,20 @@
+{
+  "description": "Distinct values of GCD of divisor sum of primorials and primorial itself: gcd(A002110(n), A000203(A002110(n))).",
+  "id": "A054642",
+  "mentions": [
+    "A000203",
+    "A002110",
+    "A054640",
+    "A054641"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:34:09",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

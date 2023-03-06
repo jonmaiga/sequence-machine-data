@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A080791.",
+  "id": "A089263",
+  "mentions": [
+    "A007814",
+    "A023416",
+    "A036987",
+    "A080791",
+    "A088705"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

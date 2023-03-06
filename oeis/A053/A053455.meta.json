@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ((8^n) - (-6)^n)/14.",
+  "id": "A053455",
+  "mentions": [
+    "A015441",
+    "A051958",
+    "A053404",
+    "A080921",
+    "A238801"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

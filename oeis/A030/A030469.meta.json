@@ -1,0 +1,27 @@
+{
+  "description": "Primes which are concatenations of three consecutive primes.",
+  "id": "A030469",
+  "mentions": [
+    "A000040",
+    "A030461",
+    "A030473",
+    "A030997",
+    "A068655",
+    "A086041",
+    "A099727",
+    "A132903",
+    "A167517"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:17",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

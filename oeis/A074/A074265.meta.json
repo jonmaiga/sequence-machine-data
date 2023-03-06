@@ -1,0 +1,19 @@
+{
+  "description": "Values of Kolakoski sequence A000002 at positions n = 0 mod 5.",
+  "id": "A074265",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

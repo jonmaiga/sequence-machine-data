@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which row n contains the smallest nontrivial set of n consecutive numbers divisible by the next n numbers respectively. The next n numbers are numbers from n(n-1)/2 +1 up to n(n+1)/2.",
+  "id": "A091793",
+  "mentions": [
+    "A061431",
+    "A091794",
+    "A091795"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

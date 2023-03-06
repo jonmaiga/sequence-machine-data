@@ -1,0 +1,22 @@
+{
+  "description": "Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which generate a group of finite order under matrix multiplication.",
+  "id": "A053170",
+  "mentions": [
+    "A053171",
+    "A053172",
+    "A053173",
+    "A053174"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

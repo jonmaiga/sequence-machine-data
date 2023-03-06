@@ -1,0 +1,23 @@
+{
+  "description": "Lengths of runs of 3's in A039702.",
+  "id": "A091267",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A039702",
+    "A091237",
+    "A091318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

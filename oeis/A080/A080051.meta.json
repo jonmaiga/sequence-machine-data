@@ -1,0 +1,20 @@
+{
+  "description": "Common factors of 2^p-1 and the p-th Fibonacci number, p prime.",
+  "id": "A080051",
+  "mentions": [
+    "A074776",
+    "A079506",
+    "A080050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

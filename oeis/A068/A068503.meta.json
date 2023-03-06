@@ -1,0 +1,21 @@
+{
+  "description": "Highest power of 3 dividing prime(n)-1.",
+  "id": "A068503",
+  "mentions": [
+    "A006093",
+    "A038500",
+    "A099584"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

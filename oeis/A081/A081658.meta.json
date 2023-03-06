@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows, coefficients of polynomials related to the Euler numbers ordered by falling powers.",
+  "id": "A081658",
+  "mentions": [
+    "A000364",
+    "A003701",
+    "A009006",
+    "A046739",
+    "A119879",
+    "A119880",
+    "A122045",
+    "A153641",
+    "A155457",
+    "A155585",
+    "A188458"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

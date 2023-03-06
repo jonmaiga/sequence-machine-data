@@ -1,0 +1,19 @@
+{
+  "description": "The terms of A055237 (sums of two powers of 5) divided by 2.",
+  "id": "A073217",
+  "mentions": [
+    "A055237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

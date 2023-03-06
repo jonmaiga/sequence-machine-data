@@ -1,0 +1,26 @@
+{
+  "description": "Łukasiewicz words that are also valid asynchronic siteswap juggling patterns.",
+  "id": "A071160",
+  "mentions": [
+    "A054429",
+    "A060495",
+    "A060498",
+    "A065177",
+    "A071153",
+    "A071161",
+    "A071162",
+    "A071163"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

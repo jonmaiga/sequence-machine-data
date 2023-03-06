@@ -1,0 +1,20 @@
+{
+  "description": "The number of rectangles (orthogonal or not) with corners on an n X n grid of points.",
+  "id": "A085582",
+  "mentions": [
+    "A000537",
+    "A002415",
+    "A113751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

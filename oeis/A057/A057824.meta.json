@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p+1 is LCM(1,...,m) for some (usually more than one) m.",
+  "id": "A057824",
+  "mentions": [
+    "A003418",
+    "A049536",
+    "A049537",
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

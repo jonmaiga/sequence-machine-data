@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(2*n^2 - 3*n + 4)/3.",
+  "id": "A037235",
+  "mentions": [
+    "A058331",
+    "A134249"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:59",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "First column of the Zorach additive triangle A035312.",
+  "id": "A035311",
+  "mentions": [
+    "A035312",
+    "A035313",
+    "A035358",
+    "A189713"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

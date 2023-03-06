@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(0,n), array T given by A048505.",
+  "id": "A048506",
+  "mentions": [
+    "A000697",
+    "A001788",
+    "A048505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

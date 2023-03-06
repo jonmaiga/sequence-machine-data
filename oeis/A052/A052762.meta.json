@@ -1,0 +1,29 @@
+{
+  "description": "Products of 4 consecutive integers: a(n) = n*(n-1)*(n-2)*(n-3).",
+  "id": "A052762",
+  "mentions": [
+    "A000332",
+    "A001094",
+    "A002378",
+    "A007531",
+    "A052787",
+    "A062938",
+    "A069756",
+    "A130534",
+    "A173333",
+    "A242023"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:04:37",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

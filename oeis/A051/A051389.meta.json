@@ -1,0 +1,23 @@
+{
+  "description": "Number of rational resistances requiring exactly n 1-ohm resistors in series or parallel.",
+  "id": "A051389",
+  "mentions": [
+    "A046825",
+    "A048211",
+    "A153588",
+    "A180414"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

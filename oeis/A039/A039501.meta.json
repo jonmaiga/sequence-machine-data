@@ -1,0 +1,21 @@
+{
+  "description": "Iterations of \"n->n/2 if n even, n->3n-1 if n odd\" (A001281) starting at these numbers reach 5.",
+  "id": "A039501",
+  "mentions": [
+    "A001281",
+    "A037084",
+    "A039500",
+    "A039505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:11:57",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

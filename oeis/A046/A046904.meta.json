@@ -1,0 +1,19 @@
+{
+  "description": "Number of isomorphism classes of posets with n points with property that there is no nonsingelton proper subset T for which x not in T implies xT or x incomparable with every element of T.",
+  "id": "A046904",
+  "mentions": [
+    "A000798",
+    "A003431",
+    "A046905"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

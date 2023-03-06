@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are congruent to 1 or 5 mod 12.",
+  "id": "A087445",
+  "mentions": [
+    "A001651",
+    "A002450",
+    "A047241",
+    "A072197",
+    "A087444",
+    "A087446",
+    "A096773",
+    "A259663"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:57:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Main diagonal of table A083047.",
+  "id": "A083048",
+  "mentions": [
+    "A083044",
+    "A083047",
+    "A083049",
+    "A083050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

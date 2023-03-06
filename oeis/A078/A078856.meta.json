@@ -1,0 +1,32 @@
+{
+  "description": "Initial term in sequence of four consecutive primes whose consecutive differences have d-pattern = [6, 4, 6]; short d-string notation for pattern = [646].",
+  "id": "A078856",
+  "mentions": [
+    "A007530",
+    "A033451",
+    "A052378",
+    "A078562",
+    "A078847",
+    "A078848",
+    "A078849",
+    "A078850",
+    "A078851",
+    "A078852",
+    "A078853",
+    "A078854",
+    "A078855",
+    "A078857",
+    "A078858"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:57",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

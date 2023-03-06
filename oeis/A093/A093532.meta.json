@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the average length of a line segment picked at random in the unit n-ball for even n.",
+  "id": "A093532",
+  "mentions": [
+    "A093530",
+    "A093531",
+    "A093533"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

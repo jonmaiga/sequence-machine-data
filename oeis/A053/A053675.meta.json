@@ -1,0 +1,19 @@
+{
+  "description": "Positions where 5 occurs in decimal expansion of e (starting count at decimal point).",
+  "id": "A053675",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 8^k + 2^k.",
+  "id": "A045581",
+  "mentions": [
+    "A074603"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

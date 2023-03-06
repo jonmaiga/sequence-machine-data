@@ -1,0 +1,22 @@
+{
+  "description": "Rhombi (in 3 different orientations) in a rhombus with 60-degree acute angles.",
+  "id": "A052153",
+  "mentions": [
+    "A000330",
+    "A000537",
+    "A006003",
+    "A046092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:37",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

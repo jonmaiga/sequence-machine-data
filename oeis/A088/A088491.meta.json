@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(p(n)/p(n-1)), where p(n) = n!/(Product_{j=1..floor(n/2)} A004001(j)).",
+  "id": "A088491",
+  "mentions": [
+    "A004001",
+    "A088493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

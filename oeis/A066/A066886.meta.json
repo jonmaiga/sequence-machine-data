@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the elements in any transversal of a prime(n) X prime(n) array containing the numbers from 1 to prime(n)^2 in standard order.",
+  "id": "A066886",
+  "mentions": [
+    "A005097",
+    "A006003",
+    "A006254",
+    "A066883",
+    "A066885"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

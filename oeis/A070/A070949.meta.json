@@ -1,0 +1,17 @@
+{
+  "description": "Little Hankel transform of A002487.",
+  "id": "A070949",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

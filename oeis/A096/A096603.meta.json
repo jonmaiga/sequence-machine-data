@@ -1,0 +1,20 @@
+{
+  "description": "Numbers occurring twice in A096607.",
+  "id": "A096603",
+  "mentions": [
+    "A096602",
+    "A096604",
+    "A096605",
+    "A096607"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

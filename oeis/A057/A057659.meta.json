@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers whose square is composed of just two different decimal digits.",
+  "id": "A057659",
+  "mentions": [
+    "A016069"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

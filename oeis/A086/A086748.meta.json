@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that when C(2k, k) == 1 (mod m) then k is necessarily even.",
+  "id": "A086748",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

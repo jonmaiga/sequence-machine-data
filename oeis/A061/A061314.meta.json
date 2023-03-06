@@ -1,0 +1,27 @@
+{
+  "description": "Table by antidiagonals where T(n,k)=T(n,k-1)+T(n,k-1)^2/k^2 and T(n,0)=n.",
+  "id": "A061314",
+  "mentions": [
+    "A000004",
+    "A000027",
+    "A001477",
+    "A002378",
+    "A061315",
+    "A061316",
+    "A061318",
+    "A061320",
+    "A061322"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (4*6^n + (-4)^n)/5.",
+  "id": "A083299",
+  "mentions": [
+    "A083222",
+    "A083300"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

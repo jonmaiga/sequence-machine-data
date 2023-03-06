@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{n>0} n/exp(n).",
+  "id": "A098875",
+  "mentions": [
+    "A001113",
+    "A008292",
+    "A010050",
+    "A027641",
+    "A027642",
+    "A073333",
+    "A165747",
+    "A225169",
+    "A255169"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:28:15",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

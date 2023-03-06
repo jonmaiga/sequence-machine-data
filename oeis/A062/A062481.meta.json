@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^prime(n).",
+  "id": "A062481",
+  "mentions": [
+    "A000040",
+    "A000312",
+    "A051674",
+    "A096250"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

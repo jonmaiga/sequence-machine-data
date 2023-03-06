@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=T(2n,n+1), where T is given by A048113.",
+  "id": "A048120",
+  "mentions": [
+    "A048113"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:39:39",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

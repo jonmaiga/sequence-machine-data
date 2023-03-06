@@ -1,0 +1,19 @@
+{
+  "description": "Let x(n) = 123...n, y(n) = n...321; c(n) = delete the LSD of y(n) and concatenated with x(n); d(n) = delete LSD of x(n) and concatenate with y(n). a(n) = c(n) - d(n).",
+  "id": "A083828",
+  "mentions": [
+    "A083827"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

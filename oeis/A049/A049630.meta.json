@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=0..floor(n/2)} T(2i,n-2i) where T is A049627.",
+  "id": "A049630",
+  "mentions": [
+    "A049627"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

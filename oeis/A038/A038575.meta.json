@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors of n-th Fibonacci number, counted with multiplicity.",
+  "id": "A038575",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A022307",
+    "A060441",
+    "A086597"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

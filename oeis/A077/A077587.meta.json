@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = C(n+1) + n*C(n) where C = A000108 (Catalan numbers).",
+  "id": "A077587",
+  "mentions": [
+    "A000108",
+    "A057977",
+    "A063549",
+    "A114462"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

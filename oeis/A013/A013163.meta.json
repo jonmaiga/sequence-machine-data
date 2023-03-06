@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f.: arctanh(arctanh(x)+log(x+1))=2*x-1/2!*x^2+20/3!*x^3-54/4!*x^4...",
+  "id": "A013163",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

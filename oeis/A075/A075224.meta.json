@@ -1,0 +1,28 @@
+{
+  "description": "Number of anisohedral polyiamonds with n cells.",
+  "id": "A075224",
+  "mentions": [
+    "A071332",
+    "A075206",
+    "A075215",
+    "A075216",
+    "A075217",
+    "A075218",
+    "A075219",
+    "A075220",
+    "A075221",
+    "A075222",
+    "A075223"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

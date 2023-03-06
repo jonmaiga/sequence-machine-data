@@ -1,0 +1,20 @@
+{
+  "description": "Flipping burnt pancakes. Given a sorted stack of n burnt pancakes of different sizes (smallest on top, ..., largest at the bottom), each with its burnt side up, a(n) is the number of spatula flips needed to restore them to their initial order but with the burnt sides down.",
+  "id": "A078942",
+  "mentions": [
+    "A058986",
+    "A078941"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

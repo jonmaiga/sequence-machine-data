@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n+0, n+1, ... and n+9 are, in some order, 1 * a prime, 2 * a prime, ... and 10 * a prime.",
+  "id": "A071372",
+  "mentions": [
+    "A071367",
+    "A071373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

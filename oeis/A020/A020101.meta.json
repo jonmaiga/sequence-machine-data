@@ -1,0 +1,15 @@
+{
+  "description": "Ceiling of GAMMA(n+4/11)/GAMMA(4/11).",
+  "id": "A020101",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:02:10",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

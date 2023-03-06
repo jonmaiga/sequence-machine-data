@@ -1,0 +1,20 @@
+{
+  "description": "Value of largest k such that (n-1) + (n-2) + (n-3) + ... + (n-k) is a multiple of n, or 0 if no such k exists.",
+  "id": "A095202",
+  "mentions": [
+    "A000217",
+    "A095200",
+    "A095201"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

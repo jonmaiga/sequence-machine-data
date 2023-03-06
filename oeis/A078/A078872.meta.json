@@ -1,0 +1,23 @@
+{
+  "description": "The quintuples (d1,d2,d3,d4,d5) with elements in {2,4,6} are listed in lexicographic order; for each quintuple, this sequence lists the smallest prime p >= 7 such that the differences between the 6 consecutive primes starting with p are (d1,d2,d3,d4,d5), if such a prime exists.",
+  "id": "A078872",
+  "mentions": [
+    "A001223",
+    "A078866",
+    "A078870",
+    "A078873",
+    "A078874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

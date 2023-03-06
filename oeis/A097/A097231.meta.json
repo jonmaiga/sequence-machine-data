@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions (excluding rotations and reflections) for a series of 9 consecutive primes beginning with the n-th prime arranged in a 3 X 3 square such that all row, column and diagonal totals are primes.",
+  "id": "A097231",
+  "mentions": [
+    "A097232",
+    "A097233"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

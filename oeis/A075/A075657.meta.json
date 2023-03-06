@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sum of digits (A007953) is a divisor of sum of prime divisors (A008472).",
+  "id": "A075657",
+  "mentions": [
+    "A007953",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

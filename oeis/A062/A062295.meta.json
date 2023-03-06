@@ -1,0 +1,24 @@
+{
+  "description": "A B_2 sequence: a(n) is the smallest square such that pairwise sums of not necessarily distinct elements are all distinct.",
+  "id": "A062295",
+  "mentions": [
+    "A000290",
+    "A005282",
+    "A010672",
+    "A011185",
+    "A025582",
+    "A062292",
+    "A133743",
+    "A133744"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

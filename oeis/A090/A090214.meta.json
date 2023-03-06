@@ -1,0 +1,32 @@
+{
+  "description": "Generalized Stirling2 array S_{4,4}(n,k).",
+  "id": "A090214",
+  "mentions": [
+    "A008277",
+    "A008279",
+    "A008297",
+    "A016813",
+    "A035342",
+    "A057353",
+    "A071379",
+    "A078739",
+    "A078740",
+    "A078741",
+    "A090213",
+    "A090215",
+    "A090221"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

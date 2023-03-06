@@ -1,0 +1,15 @@
+{
+  "description": "Powers of fourth root of 15 rounded up.",
+  "id": "A018089",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:22",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of leaves on the rooted tree of height n constructed by the following rule. Assign weight 1 to the single node at height 1. At each node of weight w at height k>0, branch to nodes at height k+1 as follows: one node of weight 1 and a node of weight d+1 if d divides w.",
+  "id": "A054657",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:17:53",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

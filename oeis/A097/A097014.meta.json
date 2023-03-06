@@ -1,0 +1,25 @@
+{
+  "description": "Smallest x such that sigma(x) mod 210 = n.",
+  "id": "A097014",
+  "mentions": [
+    "A000203",
+    "A074625",
+    "A084301",
+    "A084303",
+    "A097011",
+    "A097012",
+    "A097013",
+    "A097015"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

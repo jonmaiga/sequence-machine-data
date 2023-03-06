@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(A023883(n)) / tau(A023883(n)).",
+  "id": "A072910",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A023883",
+    "A102187"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

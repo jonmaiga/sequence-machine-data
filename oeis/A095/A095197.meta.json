@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n+1) = 2 * digit reversal of a(n).",
+  "id": "A095197",
+  "mentions": [
+    "A095198"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

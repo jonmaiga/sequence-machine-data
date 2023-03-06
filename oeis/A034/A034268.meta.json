@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = LCM_{k=1..n} (2^k - 1).",
+  "id": "A034268",
+  "mentions": [
+    "A003418",
+    "A019320",
+    "A051844"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

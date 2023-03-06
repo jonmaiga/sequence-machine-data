@@ -1,0 +1,18 @@
+{
+  "description": "Floor[ product of next n primes /sum of next n primes].",
+  "id": "A077143",
+  "mentions": [
+    "A077144",
+    "A077145"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

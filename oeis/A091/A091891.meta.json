@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into parts which are a sum of exactly as many distinct powers of 2 as n has 1's in its binary representation.",
+  "id": "A091891",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000120",
+    "A014311",
+    "A018819",
+    "A018900",
+    "A091889",
+    "A091890",
+    "A091892",
+    "A091893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

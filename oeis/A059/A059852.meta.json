@@ -1,0 +1,30 @@
+{
+  "description": "Consider the English alphabet in the International Morse radio telegraph code. Map a 'dit' to the digit one and a 'dah' to the digit 2, then express that ternary number in decimal.",
+  "id": "A059852",
+  "mentions": [
+    "A008777",
+    "A032924",
+    "A060109",
+    "A060110",
+    "A105386",
+    "A105387",
+    "A281015",
+    "A281017",
+    "A281018"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

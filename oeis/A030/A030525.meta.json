@@ -1,0 +1,24 @@
+{
+  "description": "Number of polyhexes of class PF2 with a particular symmetry.",
+  "id": "A030525",
+  "mentions": [
+    "A026106",
+    "A026118",
+    "A026298",
+    "A030519",
+    "A030520",
+    "A030529",
+    "A030532",
+    "A030534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:38:17",
+    "offset": 4,
+    "size": 34,
+    "source": "joeis"
+  }
+}

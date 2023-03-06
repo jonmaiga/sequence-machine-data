@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled 4-chromatic (i.e., chromatic number = 4) graphs on n nodes.",
+  "id": "A084272",
+  "mentions": [
+    "A084270",
+    "A084271",
+    "A084279",
+    "A084280"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

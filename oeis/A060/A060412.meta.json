@@ -1,0 +1,28 @@
+{
+  "description": "In the '3x+1' problem, these values for the starting value set new records for the \"dropping time\", number of steps to reach a lower value than the start.",
+  "id": "A060412",
+  "mentions": [
+    "A008884",
+    "A014682",
+    "A060413",
+    "A060414",
+    "A060415",
+    "A060445",
+    "A102419",
+    "A126241",
+    "A161021",
+    "A161022",
+    "A161023",
+    "A217934"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

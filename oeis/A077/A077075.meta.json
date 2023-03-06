@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that Z(k,4) <= Z(n,5) where Z(m,s) = Sum_{i>=m} 1/i^s.",
+  "id": "A077075",
+  "mentions": [
+    "A051890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

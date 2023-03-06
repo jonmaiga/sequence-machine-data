@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients of series expansion of a certain integral in the theory of charged particle beams.",
+  "id": "A077230",
+  "mentions": [
+    "A077231"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

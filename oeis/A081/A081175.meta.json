@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form Sum_{i=1..k} i^j, j >= 1, k >= 1.",
+  "id": "A081175",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A000537",
+    "A000538",
+    "A000539",
+    "A000540",
+    "A000541",
+    "A000542",
+    "A007487",
+    "A023002",
+    "A164307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

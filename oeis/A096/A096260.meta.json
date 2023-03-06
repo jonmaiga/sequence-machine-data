@@ -1,0 +1,21 @@
+{
+  "description": "Number of different triangles, squares and rectangles created when a square piece of paper is folded n times, the first time by a diagonal of the square and after by the median of the triangle.",
+  "id": "A096260",
+  "mentions": [
+    "A096222",
+    "A096227",
+    "A097405"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:21:37",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

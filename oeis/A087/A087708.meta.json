@@ -1,0 +1,21 @@
+{
+  "description": "First integer > n reached under iteration of map x -> (5/3)*ceiling(x) when started at n, or -1 if no such integer is ever reached.",
+  "id": "A087708",
+  "mentions": [
+    "A087704",
+    "A087705",
+    "A087706",
+    "A087707",
+    "A087709"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sum of (n-1)-th row terms of triangle A134059.",
+  "id": "A082505",
+  "mentions": [
+    "A000010",
+    "A007283",
+    "A009195",
+    "A050339",
+    "A053576",
+    "A109466",
+    "A134059",
+    "A144706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:49:45",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

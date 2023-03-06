@@ -1,0 +1,19 @@
+{
+  "description": "Golden rectangle numbers: n * A007067(n).",
+  "id": "A050508",
+  "mentions": [
+    "A007067"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

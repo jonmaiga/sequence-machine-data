@@ -1,0 +1,15 @@
+{
+  "description": "sin(arctan(x)*tan(x))=2/2!*x^2+40/6!*x^6-2688/8!*x^8-31712/10!*x^10...",
+  "id": "A012445",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:52:57",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

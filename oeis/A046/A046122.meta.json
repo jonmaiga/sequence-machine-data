@@ -1,0 +1,22 @@
+{
+  "description": "Second member of a sexy prime quadruple: value of p+6 such that p, p+6, p+12 and p+18 are all prime.",
+  "id": "A046122",
+  "mentions": [
+    "A023201",
+    "A023271",
+    "A046117",
+    "A046123",
+    "A046124"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

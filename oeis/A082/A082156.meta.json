@@ -1,0 +1,22 @@
+{
+  "description": "Dispersion of the complement of row 1 of A056536.",
+  "id": "A082156",
+  "mentions": [
+    "A000290",
+    "A056536",
+    "A056537",
+    "A122196"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

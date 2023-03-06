@@ -1,0 +1,24 @@
+{
+  "description": "(Number of oddly factored numbers <= n) - (number of evenly factored numbers <= n).",
+  "id": "A072203",
+  "mentions": [
+    "A002819",
+    "A028488",
+    "A051470",
+    "A066829"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

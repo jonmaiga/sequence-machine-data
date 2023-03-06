@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(n+4,4)*(2*n+1).",
+  "id": "A051880",
+  "mentions": [
+    "A051799",
+    "A093645",
+    "A280880"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:19",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

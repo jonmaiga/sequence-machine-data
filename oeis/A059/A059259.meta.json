@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows giving coefficient T(i,j) of x^i y^j in 1/(1-x-x*y-y^2) = 1/((1+y)(1-x-y)) for (i,j) = (0,0), (1,0), (0,1), (2,0), (1,1), (0,2), ...",
+  "id": "A059259",
+  "mentions": [
+    "A001045",
+    "A006498",
+    "A026641",
+    "A035317",
+    "A059260",
+    "A071921",
+    "A080242",
+    "A108561",
+    "A112555",
+    "A123521",
+    "A157897",
+    "A225010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:14:43",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

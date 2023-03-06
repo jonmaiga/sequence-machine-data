@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(1..Catalan(n)).",
+  "id": "A078491",
+  "mentions": [
+    "A000108",
+    "A003418",
+    "A060113",
+    "A073204"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

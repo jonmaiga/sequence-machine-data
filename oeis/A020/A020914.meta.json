@@ -1,0 +1,32 @@
+{
+  "description": "Number of digits in the base-2 representation of 3^n.",
+  "id": "A020914",
+  "mentions": [
+    "A000244",
+    "A020857",
+    "A020915",
+    "A022330",
+    "A022921",
+    "A054414",
+    "A056576",
+    "A070939",
+    "A098294",
+    "A122437",
+    "A126241",
+    "A204399",
+    "A227048"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

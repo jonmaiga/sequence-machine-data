@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that the Fibonacci iterations starting with (1, p) lead to a \"nine digits anagram\".",
+  "id": "A034588",
+  "mentions": [
+    "A000040",
+    "A034306",
+    "A034587",
+    "A034589",
+    "A050289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

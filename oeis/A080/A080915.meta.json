@@ -1,0 +1,17 @@
+{
+  "description": "Number of electrons in outermost electron shell (valence electrons) in chemical element number n.",
+  "id": "A080915",
+  "mentions": [
+    "A080916"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

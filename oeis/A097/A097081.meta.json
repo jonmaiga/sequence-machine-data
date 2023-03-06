@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,4k)*2^k.",
+  "id": "A097081",
+  "mentions": [
+    "A093406"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:41:09",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

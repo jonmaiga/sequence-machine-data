@@ -1,0 +1,21 @@
+{
+  "description": "Number of perfect powers (A001597) not exceeding 10^n.",
+  "id": "A070428",
+  "mentions": [
+    "A001597",
+    "A089579",
+    "A089580"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

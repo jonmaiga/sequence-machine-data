@@ -1,0 +1,20 @@
+{
+  "description": "Inequivalent solutions to Langford (or Langford-Skolem) problem of arranging the numbers 1,1,2,2,3,3,...,n,n so that there is one number between the two 1's, two numbers between the two 2's, ..., n numbers between the two n's, listed by length and lexicographic order.",
+  "id": "A050998",
+  "mentions": [
+    "A014552",
+    "A014601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

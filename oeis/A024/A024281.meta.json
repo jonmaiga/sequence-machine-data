@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of sin(tan(x)^2)/2.",
+  "id": "A024281",
+  "mentions": [
+    "A009518"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:02:17",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

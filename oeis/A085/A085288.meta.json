@@ -1,0 +1,22 @@
+{
+  "description": "Number of sorted multiplicative partitions of n!.",
+  "id": "A085288",
+  "mentions": [
+    "A000142",
+    "A000688",
+    "A085289",
+    "A085290",
+    "A085291"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

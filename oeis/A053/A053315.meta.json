@@ -1,0 +1,22 @@
+{
+  "description": "a(n) contains n digits (either '4' or '5') and is divisible by 2^n.",
+  "id": "A053315",
+  "mentions": [
+    "A023403",
+    "A035014",
+    "A050621",
+    "A050622"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

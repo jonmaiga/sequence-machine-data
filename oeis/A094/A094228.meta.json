@@ -1,0 +1,15 @@
+{
+  "description": "Let s = -sqrt(2)*sqrt(n)*sqrt(1+I*n/(2*Pi))-n*log(n); then a(n) = floor(Re(-s)).",
+  "id": "A094228",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

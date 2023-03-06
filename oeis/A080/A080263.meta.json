@@ -1,0 +1,26 @@
+{
+  "description": "A014486-encoding of the branch-reduced binomial-mod-2 binary trees.",
+  "id": "A080263",
+  "mentions": [
+    "A006046",
+    "A014486",
+    "A047999",
+    "A070886",
+    "A074330",
+    "A080264",
+    "A080265",
+    "A080268",
+    "A080293",
+    "A080978"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

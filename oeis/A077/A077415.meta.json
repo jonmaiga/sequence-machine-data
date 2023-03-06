@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*(n+2)*(n-2)/3.",
+  "id": "A077415",
+  "mentions": [
+    "A000292",
+    "A028387",
+    "A033275",
+    "A060351",
+    "A077414",
+    "A084990"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:21",
+    "offset": 2,
+    "size": 42,
+    "source": "joeis"
+  }
+}

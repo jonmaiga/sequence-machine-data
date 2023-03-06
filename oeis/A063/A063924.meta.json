@@ -1,0 +1,26 @@
+{
+  "description": "Number of 3-dimensional cells in the regular 4-dimensional polytopes.",
+  "id": "A063924",
+  "mentions": [
+    "A053016",
+    "A060296",
+    "A063722",
+    "A063723",
+    "A063925",
+    "A063926",
+    "A063927"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

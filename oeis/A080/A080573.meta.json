@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways writing n as a sum of two distinct Ulam numbers.",
+  "id": "A080573",
+  "mentions": [
+    "A002858",
+    "A033629"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

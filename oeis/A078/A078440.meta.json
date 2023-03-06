@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that n is not a power of 2 and the finite sequence n, f(n), f(f(n)), ...., 1 in the Collatz (or 3x + 1) problem contains exactly one prime. (The earliest \"1\" is meant.)",
+  "id": "A078440",
+  "mentions": [
+    "A006370",
+    "A055509",
+    "A078350",
+    "A196871"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

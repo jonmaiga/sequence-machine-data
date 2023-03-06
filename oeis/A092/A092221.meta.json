@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that numerator of Bernoulli(2*k) is divisible by 59, the second irregular prime.",
+  "id": "A092221",
+  "mentions": [
+    "A000928",
+    "A091216",
+    "A092222",
+    "A092223",
+    "A092224",
+    "A092225",
+    "A092226",
+    "A092227",
+    "A092228",
+    "A092229",
+    "A092231"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

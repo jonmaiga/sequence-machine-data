@@ -1,0 +1,18 @@
+{
+  "description": "Bell Bell numbers: a(n+1) = B(a(n)), where B() are the Bell numbers, A000110.",
+  "id": "A061306",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

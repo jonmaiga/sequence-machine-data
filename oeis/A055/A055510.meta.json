@@ -1,0 +1,18 @@
+{
+  "description": "Largest odd prime in sequence obtained in 3x+1 (or Collatz) problem starting at n, or 0 if no such prime is found.",
+  "id": "A055510",
+  "mentions": [
+    "A055509",
+    "A087272"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:26:09",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

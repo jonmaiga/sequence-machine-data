@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = L(4*n+2)/3, where L=A000032 (the Lucas sequence).",
+  "id": "A049685",
+  "mentions": [
+    "A000032",
+    "A002310",
+    "A002320",
+    "A002720",
+    "A004187",
+    "A027941",
+    "A033890",
+    "A049310",
+    "A056854",
+    "A094954",
+    "A108299",
+    "A111216",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

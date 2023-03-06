@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of 3^k, k = 0,..,n.",
+  "id": "A051639",
+  "mentions": [
+    "A000244"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:21:36",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

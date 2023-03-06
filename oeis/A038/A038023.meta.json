@@ -1,0 +1,26 @@
+{
+  "description": "Triangle: T(n,k), k<=n: commutative groupoids with a nontrivial symmetry with n elements and k idempotents.",
+  "id": "A038023",
+  "mentions": [
+    "A001329",
+    "A001425",
+    "A030259",
+    "A030262",
+    "A030265",
+    "A038021",
+    "A038022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

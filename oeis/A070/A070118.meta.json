@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that [A070080(n), A070081(n), A070082(n)] is an acute integer triangle.",
+  "id": "A070118",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070085",
+    "A070093",
+    "A070119",
+    "A070120",
+    "A070121",
+    "A070122",
+    "A070123",
+    "A070124",
+    "A070125",
+    "A070126"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

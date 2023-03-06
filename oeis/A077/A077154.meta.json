@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that there are as many composite numbers less than n as there are between n and k.",
+  "id": "A077154",
+  "mentions": [
+    "A002808",
+    "A077152",
+    "A077153",
+    "A092996",
+    "A092997",
+    "A092998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "'Lucas array': triangular array T read by rows.",
+  "id": "A027960",
+  "mentions": [
+    "A000204",
+    "A026998",
+    "A027011",
+    "A027961",
+    "A027962",
+    "A027963",
+    "A027964",
+    "A036563",
+    "A053298"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

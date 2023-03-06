@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form 3*x*y*z + 2(x*y + y*z + z*x) + (x + y + z) for x, y, z positive integers.",
+  "id": "A090767",
+  "mentions": [
+    "A047845"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

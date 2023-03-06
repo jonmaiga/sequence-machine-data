@@ -1,0 +1,17 @@
+{
+  "description": "Column with index 2 of triangle A096651: a(n) = A096651(n+2,2).",
+  "id": "A096642",
+  "mentions": [
+    "A096651"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

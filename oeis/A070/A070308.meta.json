@@ -1,0 +1,19 @@
+{
+  "description": "\"Canada perfect numbers\": n such that the sum of digits^2 of n equals the sum of d|n, 1",
+  "id": "A070308",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

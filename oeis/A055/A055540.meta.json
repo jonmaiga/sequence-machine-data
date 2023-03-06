@@ -1,0 +1,21 @@
+{
+  "description": "Total number of leaves (nodes of vertex degree 1) in all graphs of n nodes.",
+  "id": "A055540",
+  "mentions": [
+    "A003227",
+    "A003228",
+    "A055541",
+    "A327371"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

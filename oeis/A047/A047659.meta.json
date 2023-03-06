@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to place 3 nonattacking queens on an n X n board.",
+  "id": "A047659",
+  "mentions": [
+    "A000914",
+    "A001752",
+    "A002415",
+    "A007009",
+    "A008911",
+    "A036464",
+    "A061994",
+    "A108792",
+    "A176186",
+    "A178721",
+    "A179058",
+    "A348129"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:55",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

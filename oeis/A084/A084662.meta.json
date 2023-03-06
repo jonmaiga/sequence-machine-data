@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 4; a(n) = a(n-1) + gcd(a(n-1), n).",
+  "id": "A084662",
+  "mentions": [
+    "A084663",
+    "A106108",
+    "A134734",
+    "A134736",
+    "A230504"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

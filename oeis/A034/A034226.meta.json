@@ -1,0 +1,18 @@
+{
+  "description": "Number of ternary codes (not necessarily linear) of length n with 6 words.",
+  "id": "A034226",
+  "mentions": [
+    "A034188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

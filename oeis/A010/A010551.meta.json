@@ -1,0 +1,27 @@
+{
+  "description": "Multiply successively by 1,1,2,2,3,3,4,4,..., n >= 1, a(0) = 1.",
+  "id": "A010551",
+  "mentions": [
+    "A008619",
+    "A051237",
+    "A064044",
+    "A130820",
+    "A152666",
+    "A210667",
+    "A229020",
+    "A246117",
+    "A275062"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

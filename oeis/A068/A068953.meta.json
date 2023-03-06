@@ -1,0 +1,18 @@
+{
+  "description": "Number of bases B (2 <= B <= n) such that every digit of n in base B is 0 or 1.",
+  "id": "A068953",
+  "mentions": [
+    "A059972"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

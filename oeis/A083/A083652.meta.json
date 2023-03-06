@@ -1,0 +1,29 @@
+{
+  "description": "Sum of lengths of binary expansions of 0 through n.",
+  "id": "A083652",
+  "mentions": [
+    "A000120",
+    "A001855",
+    "A007088",
+    "A023416",
+    "A030190",
+    "A030530",
+    "A059015",
+    "A070939",
+    "A123753",
+    "A296349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

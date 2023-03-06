@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) is next smallest nontrivial cube containing a(n) as a substring, initial term is 27.",
+  "id": "A050644",
+  "mentions": [
+    "A048567",
+    "A050645",
+    "A050650"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

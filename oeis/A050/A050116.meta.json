@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the product of two distinct Lucas numbers.",
+  "id": "A050116",
+  "mentions": [
+    "A000032"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

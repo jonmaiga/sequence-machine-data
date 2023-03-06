@@ -1,0 +1,22 @@
+{
+  "description": "Number of sets of odd number of even lists, cf. A000262.",
+  "id": "A096939",
+  "mentions": [
+    "A000262",
+    "A088009",
+    "A088026",
+    "A096965"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

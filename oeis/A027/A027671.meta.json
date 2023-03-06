@@ -1,0 +1,28 @@
+{
+  "description": "Number of necklaces with n beads of 3 colors, allowing turning over.",
+  "id": "A027671",
+  "mentions": [
+    "A000011",
+    "A001867",
+    "A051137",
+    "A056353",
+    "A075195",
+    "A081720",
+    "A114438",
+    "A182751",
+    "A278639"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:32:00",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

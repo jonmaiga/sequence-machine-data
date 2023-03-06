@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose cube is the sum of three distinct nonnegative cubes.",
+  "id": "A023042",
+  "mentions": [
+    "A001235",
+    "A003072",
+    "A114923",
+    "A225908",
+    "A226903"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that A095372(n) = 1+90*(-1+100^n)/99 is prime.",
+  "id": "A095373",
+  "mentions": [
+    "A002275",
+    "A095370",
+    "A095371",
+    "A095372"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

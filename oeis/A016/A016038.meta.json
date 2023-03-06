@@ -1,0 +1,31 @@
+{
+  "description": "Strictly non-palindromic numbers: n is not palindromic in any base b with 2 <= b <= n-2.",
+  "id": "A016038",
+  "mentions": [
+    "A037143",
+    "A037144",
+    "A037183",
+    "A047811",
+    "A050812",
+    "A050813",
+    "A135549",
+    "A135550",
+    "A135551",
+    "A138348"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

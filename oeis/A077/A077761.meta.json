@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Mertens's constant, which is the limit of (Sum_{i=1..k} 1/prime(i)) - log(log(prime(k))) as k goes to infinity, where prime(i) is the i-th prime number.",
+  "id": "A077761",
+  "mentions": [
+    "A001620",
+    "A085541",
+    "A085548",
+    "A085964",
+    "A085965",
+    "A085966"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

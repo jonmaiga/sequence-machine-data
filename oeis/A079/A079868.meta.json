@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1 and for n>1: round(n^(1/Omega(n))), where Omega(n) is the total number of prime factors of n (A001222).",
+  "id": "A079868",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A079866",
+    "A079869",
+    "A079870",
+    "A079881"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

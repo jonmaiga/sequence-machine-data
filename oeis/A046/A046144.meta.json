@@ -1,0 +1,26 @@
+{
+  "description": "Number of primitive roots modulo n.",
+  "id": "A046144",
+  "mentions": [
+    "A001918",
+    "A002233",
+    "A008330",
+    "A010554",
+    "A033949",
+    "A046145",
+    "A046146",
+    "A071894",
+    "A219027"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

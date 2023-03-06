@@ -1,0 +1,18 @@
+{
+  "description": "(+2)-sigma perfect numbers: numbers k such that (+2)sigma(k) = 2*k, where (+2)sigma(k) = A107758(k).",
+  "id": "A052396",
+  "mentions": [
+    "A000079",
+    "A107758"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. (2+x-x^2)/(1-x)^2.",
+  "id": "A052649",
+  "mentions": [
+    "A000142",
+    "A001048",
+    "A007623",
+    "A129326",
+    "A276955"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:44",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

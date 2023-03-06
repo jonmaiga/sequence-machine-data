@@ -1,0 +1,20 @@
+{
+  "description": "Row sums in A093844.",
+  "id": "A093845",
+  "mentions": [
+    "A093460",
+    "A093844",
+    "A110500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

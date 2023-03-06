@@ -1,0 +1,25 @@
+{
+  "description": "Number of 4k+3 primes (A002145) in range ]2^n,2^(n+1)].",
+  "id": "A095008",
+  "mentions": [
+    "A002145",
+    "A036378",
+    "A095007",
+    "A095010",
+    "A095012",
+    "A095062",
+    "A095092",
+    "A095093"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "24-factorial numbers.",
+  "id": "A028693",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

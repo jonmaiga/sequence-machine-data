@@ -1,0 +1,20 @@
+{
+  "description": "Next perfect power having the same least root of n-th perfect power, A001597.",
+  "id": "A076405",
+  "mentions": [
+    "A001597",
+    "A025478",
+    "A025479",
+    "A052410"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

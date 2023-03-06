@@ -1,0 +1,19 @@
+{
+  "description": "Flip 6,9 numbers: if number k contains decimal digit '6' or '9', then flip all occurrences of '6' to '9' and vice versa.",
+  "id": "A088999",
+  "mentions": [
+    "A171055",
+    "A222251"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

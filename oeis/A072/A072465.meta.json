@@ -1,0 +1,19 @@
+{
+  "description": "A Fibonacci-like model in which each pair of rabbits dies after the birth of their 4th litter: a(n) = a(n-2) + a(n-3) + a(n-4) + a(n-5).",
+  "id": "A072465",
+  "mentions": [
+    "A013982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:26:42",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

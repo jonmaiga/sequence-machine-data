@@ -1,0 +1,19 @@
+{
+  "description": "Difference between pi(10^n) and the integer nearest to 10^n / log(10^n).",
+  "id": "A057835",
+  "mentions": [
+    "A006880",
+    "A057834"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

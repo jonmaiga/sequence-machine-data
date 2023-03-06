@@ -1,0 +1,17 @@
+{
+  "description": "Final terms of rows of A085612.",
+  "id": "A085836",
+  "mentions": [
+    "A085612"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

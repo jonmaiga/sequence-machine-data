@@ -1,0 +1,34 @@
+{
+  "description": "Least number with exactly n odd divisors.",
+  "id": "A038547",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A002110",
+    "A005179",
+    "A006093",
+    "A053624",
+    "A053640",
+    "A069283",
+    "A070826",
+    "A076274",
+    "A080577",
+    "A119265",
+    "A122842",
+    "A237593",
+    "A266531",
+    "A279387"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

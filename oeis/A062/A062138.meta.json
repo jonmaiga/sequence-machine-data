@@ -1,0 +1,35 @@
+{
+  "description": "Coefficient triangle of generalized Laguerre polynomials n!*L(n,5,x)(rising powers of x).",
+  "id": "A062138",
+  "mentions": [
+    "A001725",
+    "A008297",
+    "A021009",
+    "A048854",
+    "A062137",
+    "A062139",
+    "A062140",
+    "A062148",
+    "A062149",
+    "A062150",
+    "A062151",
+    "A062152",
+    "A062191",
+    "A062192",
+    "A066667",
+    "A143498"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

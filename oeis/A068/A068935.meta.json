@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having the sum of distinct prime factors less than the sum of exponents in prime factorization, A008472(n) < A001222(n).",
+  "id": "A068935",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A054411",
+    "A068936",
+    "A068937",
+    "A068938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

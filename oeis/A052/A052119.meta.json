@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of number with continued fraction expansion 0, 1, 2, 3, 4, 5, 6, ...",
+  "id": "A052119",
+  "mentions": [
+    "A060997",
+    "A070910",
+    "A096789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:21",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n^3 mod 22.",
+  "id": "A070484",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:31",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

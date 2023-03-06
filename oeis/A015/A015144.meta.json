@@ -1,0 +1,17 @@
+{
+  "description": "Triangle of (Gaussian) q-binomial coefficients for q=-19.",
+  "id": "A015144",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:59:17",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

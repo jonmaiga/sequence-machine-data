@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (a(n-1)*a(n-2) + a(n-2)*a(n-3) + 1)/a(n-4).",
+  "id": "A077458",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^(n-1)-1)/(n-1)^2.",
+  "id": "A060073",
+  "mentions": [
+    "A000142",
+    "A037205",
+    "A058128",
+    "A059522",
+    "A060072",
+    "A127837"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Numerator of the generalized harmonic number H(n,3,1) described below.",
+  "id": "A075135",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A025547",
+    "A025550",
+    "A051536",
+    "A051539",
+    "A051540",
+    "A074596",
+    "A074597",
+    "A074598",
+    "A074637",
+    "A074638",
+    "A075136",
+    "A075137",
+    "A075144"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

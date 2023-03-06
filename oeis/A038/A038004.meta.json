@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that A033178(k)=n.",
+  "id": "A038004",
+  "mentions": [
+    "A033178"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

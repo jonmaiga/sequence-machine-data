@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of composite numbers between successive primes.",
+  "id": "A054264",
+  "mentions": [
+    "A046933",
+    "A054265",
+    "A054266",
+    "A054267",
+    "A054268"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:31:52",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

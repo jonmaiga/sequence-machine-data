@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/sqrt(1-2x-11x^2+12x^3).",
+  "id": "A098478",
+  "mentions": [
+    "A026569",
+    "A098477"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

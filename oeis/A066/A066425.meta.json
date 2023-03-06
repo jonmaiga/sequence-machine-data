@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; thereafter a(n) is the smallest number > a(n-1) such that a(n) minus any sum of distinct earlier terms is not already in the sequence.",
+  "id": "A066425",
+  "mentions": [
+    "A068054",
+    "A068055",
+    "A068056",
+    "A068057",
+    "A068058",
+    "A068059",
+    "A068221",
+    "A068224"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

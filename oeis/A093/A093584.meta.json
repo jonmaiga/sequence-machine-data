@@ -1,0 +1,20 @@
+{
+  "description": "Pi*denominators of odd raw moments in the distribution of a triangle picked at random from points on the circumference of a unit circle.",
+  "id": "A093584",
+  "mentions": [
+    "A093583",
+    "A093585",
+    "A093586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

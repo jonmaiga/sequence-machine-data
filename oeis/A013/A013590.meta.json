@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that Phi(k,x) is a cyclotomic polynomial containing a coefficient with an absolute value greater than one.",
+  "id": "A013590",
+  "mentions": [
+    "A013594",
+    "A117223",
+    "A117318",
+    "A137979"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

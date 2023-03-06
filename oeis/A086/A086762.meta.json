@@ -1,0 +1,19 @@
+{
+  "description": "A piecewise recurrence relation with a(2)=7 and for n>=2: if a(n) is prime, not 31, a(n+1) = A000265(3*a(n)+1); if a(n) is odd composite, not 1, a(n+1) = A000265(a(n)+1); if a(n) is even, a(n+1) = A000265(a(n)); if a(n) is 1 or 31, find the number S(n) of occurrences of 1 and 31 among a(2),a(3),...,a(n) and compute a(n+1) by the above rules as if a(n) were 2+S(n), unless 2+S(n)=31, in which case a(n+1)=47.",
+  "id": "A086762",
+  "mentions": [
+    "A000265",
+    "A086763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

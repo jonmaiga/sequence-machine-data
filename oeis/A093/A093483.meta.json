@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 2; for n>1, a(n) = smallest integer > a(n-1) such that a(n) + a(i) + 1 is prime for all 1 <= i <= n-1.",
+  "id": "A093483",
+  "mentions": [
+    "A010051",
+    "A034881",
+    "A103828",
+    "A117480",
+    "A121404"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of largest power of 2 which appears in the cototient-iteration started with n!.",
+  "id": "A053039",
+  "mentions": [
+    "A051593",
+    "A051953",
+    "A053038",
+    "A053475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

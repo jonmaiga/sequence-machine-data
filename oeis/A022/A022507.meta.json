@@ -1,0 +1,27 @@
+{
+  "description": "Describe previous term from the right (method A - initial term is 3).",
+  "id": "A022507",
+  "mentions": [
+    "A004086",
+    "A006711",
+    "A022482",
+    "A022506",
+    "A022508",
+    "A022513",
+    "A045918"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

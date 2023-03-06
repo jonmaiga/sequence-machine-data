@@ -1,0 +1,23 @@
+{
+  "description": "Array of number of partitions of n with odd parts not exceeding 2*m-1 with m in {1, 2, ..., ceiling(n/2)}.",
+  "id": "A097306",
+  "mentions": [
+    "A008619",
+    "A026820",
+    "A097305",
+    "A097307"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

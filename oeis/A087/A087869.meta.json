@@ -1,0 +1,15 @@
+{
+  "description": "a[n] =Abs[Abs[Prime[n]-a[n-1]]+Abs[Prime[n]-a[n-2]]+Abs[Prime[n]-a[n-3]]-Abs[Prime[n]-a[n-4]]-Abs[Prime[n]-a[n-5]]]",
+  "id": "A087869",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Binary expansion contains a single 0.",
+  "id": "A030130",
+  "mentions": [
+    "A000918",
+    "A023416",
+    "A036563",
+    "A055010",
+    "A086224",
+    "A140977",
+    "A160502",
+    "A164874"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:46:13",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

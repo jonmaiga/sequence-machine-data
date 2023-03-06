@@ -1,0 +1,22 @@
+{
+  "description": "Numbers divisible by their individual digits, but not by the sum of their digits (counted with multiplicity).",
+  "id": "A087142",
+  "mentions": [
+    "A034838",
+    "A052382",
+    "A065877",
+    "A087141",
+    "A337163"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

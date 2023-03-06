@@ -1,0 +1,20 @@
+{
+  "description": "Pandigital sums associated with A049442.",
+  "id": "A049446",
+  "mentions": [
+    "A049442"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Sublattices of index n in generic 6-dimensional lattice.",
+  "id": "A038993",
+  "mentions": [
+    "A000584",
+    "A001001",
+    "A038991",
+    "A038992",
+    "A038994",
+    "A038995",
+    "A038996",
+    "A038997",
+    "A038998",
+    "A038999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

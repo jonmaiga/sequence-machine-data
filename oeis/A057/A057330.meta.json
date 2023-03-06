@@ -1,0 +1,26 @@
+{
+  "description": "First member of a prime n-tuplet in a 2p-1 progression.",
+  "id": "A057330",
+  "mentions": [
+    "A000040",
+    "A005382",
+    "A005603",
+    "A057326",
+    "A057327",
+    "A057328",
+    "A057329",
+    "A179866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

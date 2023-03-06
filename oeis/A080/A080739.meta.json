@@ -1,0 +1,20 @@
+{
+  "description": "Number of elements in n-th row of A080738.",
+  "id": "A080739",
+  "mentions": [
+    "A080737",
+    "A080738",
+    "A080740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

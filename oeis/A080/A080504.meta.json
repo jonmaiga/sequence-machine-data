@@ -1,0 +1,23 @@
+{
+  "description": "Triangle whose n-th row contains the least set (ordered lexicographically) of n distinct positive integers whose arithmetic and geometric means are both integers.",
+  "id": "A080504",
+  "mentions": [
+    "A080505",
+    "A080506",
+    "A080507",
+    "A080508",
+    "A080511",
+    "A081556"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

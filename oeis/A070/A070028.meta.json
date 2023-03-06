@@ -1,0 +1,20 @@
+{
+  "description": "Absolute primes: primes whose initial, all intermediate and final sums of digits are primes.",
+  "id": "A070028",
+  "mentions": [
+    "A003459",
+    "A004022",
+    "A070027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

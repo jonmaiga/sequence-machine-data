@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted trees with n nodes and 11 leaves.",
+  "id": "A055286",
+  "mentions": [
+    "A055277"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:59",
+    "offset": 12,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "EXPCONV of squares A000290 with themselves.",
+  "id": "A033463",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

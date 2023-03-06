@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Let k = n-th composite number. Then n-th row gives n smallest numbers unrelated to k (numbers which do not divide k, are not divisible by k and are not coprime to k).",
+  "id": "A077669",
+  "mentions": [
+    "A077667",
+    "A077668",
+    "A077670"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

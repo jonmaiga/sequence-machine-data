@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(749).",
+  "id": "A042442",
+  "mentions": [
+    "A042443"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:40:59",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

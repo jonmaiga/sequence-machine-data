@@ -1,0 +1,26 @@
+{
+  "description": "Table by antidiagonals of coefficient of x^k in expansion of 1/((1+x)^2*(1-x)^n).",
+  "id": "A062534",
+  "mentions": [
+    "A001057",
+    "A002624",
+    "A006918",
+    "A008805",
+    "A027656",
+    "A028346",
+    "A038608",
+    "A058394"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

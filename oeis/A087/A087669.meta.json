@@ -1,0 +1,20 @@
+{
+  "description": "The smallest index m such that b(m) is an integer, where b(0)=(2n+1)/n and b(k+1)=b(k)*floor(b(k)) for k>=0.",
+  "id": "A087669",
+  "mentions": [
+    "A087666",
+    "A087670",
+    "A192229",
+    "A192230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

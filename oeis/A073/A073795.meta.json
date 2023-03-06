@@ -1,0 +1,29 @@
+{
+  "description": "Replace 8^k with (-8)^k in base 8 expansion of n.",
+  "id": "A073795",
+  "mentions": [
+    "A007094",
+    "A053985",
+    "A065369",
+    "A073789",
+    "A073791",
+    "A073792",
+    "A073793",
+    "A073794",
+    "A073796",
+    "A073835"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

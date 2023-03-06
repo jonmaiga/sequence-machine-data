@@ -1,0 +1,21 @@
+{
+  "description": "Lower triangular matrix T, read by rows, such that T(n,0) = 1 and T(n,k) = T(n-1,k) + T^2(n-1,k-1) for k>0, where T^2 is the matrix square of T.",
+  "id": "A097712",
+  "mentions": [
+    "A016121",
+    "A093662",
+    "A097710",
+    "A097713"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

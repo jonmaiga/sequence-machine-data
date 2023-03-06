@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that k^2 + 5 is prime.",
+  "id": "A078402",
+  "mentions": [
+    "A005574",
+    "A007591",
+    "A049422",
+    "A056905",
+    "A056906",
+    "A067201",
+    "A114269",
+    "A114270",
+    "A114271",
+    "A114272",
+    "A114273",
+    "A114274",
+    "A114275"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:56:17",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

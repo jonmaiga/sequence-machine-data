@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m such that the concatenation of n+1 numbers m^0, m^1,..., m^(n-1), m^n is a prime.",
+  "id": "A096469",
+  "mentions": [
+    "A004023",
+    "A213072"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

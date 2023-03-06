@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the n-th row of A077339.",
+  "id": "A081929",
+  "mentions": [
+    "A069178",
+    "A077339",
+    "A077340"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

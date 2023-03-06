@@ -1,0 +1,25 @@
+{
+  "description": "Smallest positive number k such that 2^k contains n.",
+  "id": "A063565",
+  "mentions": [
+    "A006889",
+    "A030000",
+    "A094776",
+    "A131535",
+    "A131536",
+    "A259089",
+    "A259091",
+    "A259092"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

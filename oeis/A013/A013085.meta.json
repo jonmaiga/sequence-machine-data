@@ -1,0 +1,15 @@
+{
+  "description": "sin(arcsinh(x)+arcsin(x))=2*x-8/3!*x^3+50/5!*x^5-1640/7!*x^7...",
+  "id": "A013085",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:28",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

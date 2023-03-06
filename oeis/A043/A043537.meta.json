@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct base-10 digits of n.",
+  "id": "A043537",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A016070",
+    "A038378",
+    "A047726",
+    "A055642",
+    "A076493",
+    "A118668",
+    "A119797",
+    "A119798",
+    "A119799",
+    "A119823",
+    "A130694",
+    "A178788"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

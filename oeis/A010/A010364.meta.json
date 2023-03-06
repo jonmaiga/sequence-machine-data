@@ -1,0 +1,15 @@
+{
+  "description": "Class A multi-edge stars with n edges and 2 odd labeled roots.",
+  "id": "A010364",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

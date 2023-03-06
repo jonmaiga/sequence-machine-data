@@ -1,0 +1,27 @@
+{
+  "description": "Height of n-th term in Recamán's sequence A005132.",
+  "id": "A064289",
+  "mentions": [
+    "A005132",
+    "A057167",
+    "A064227",
+    "A064228",
+    "A064288",
+    "A064290",
+    "A064292",
+    "A064293",
+    "A064294",
+    "A160357"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

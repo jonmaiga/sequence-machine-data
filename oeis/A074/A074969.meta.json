@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with six distinct prime divisors.",
+  "id": "A074969",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001358",
+    "A007774",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A033992",
+    "A033993",
+    "A051270",
+    "A067885",
+    "A176655",
+    "A246655",
+    "A348072",
+    "A348073"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic ways a loop can cross three roads meeting in a Y n times (orbits under symmetry group of order 6).",
+  "id": "A078105",
+  "mentions": [
+    "A005315",
+    "A077460",
+    "A078104"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

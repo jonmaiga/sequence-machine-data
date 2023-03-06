@@ -1,0 +1,20 @@
+{
+  "description": "Let R be the polynomial ring GF(2)[x]. Then a(n) = number of distinct products f*g with f,g in R and 1 <= deg(f),deg(g) <= n.",
+  "id": "A073961",
+  "mentions": [
+    "A001037",
+    "A027424",
+    "A086908"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

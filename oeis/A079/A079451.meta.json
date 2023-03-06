@@ -1,0 +1,19 @@
+{
+  "description": "Highest prime dividing the n-th Lucas number (A000032); 0 when no such prime exists.",
+  "id": "A079451",
+  "mentions": [
+    "A000032",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

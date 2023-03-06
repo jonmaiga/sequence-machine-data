@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which the 3x+1 problem takes at least k halving and tripling steps to reach 1.",
+  "id": "A082984",
+  "mentions": [
+    "A006577",
+    "A006666",
+    "A008908"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

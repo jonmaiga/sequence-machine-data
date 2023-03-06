@@ -1,0 +1,29 @@
+{
+  "description": "If A056239(m) = n, then a(n) is the maximum value of A000005(m).",
+  "id": "A088881",
+  "mentions": [
+    "A000005",
+    "A056239",
+    "A088880",
+    "A307699",
+    "A325694",
+    "A325798",
+    "A325828",
+    "A325830",
+    "A325831",
+    "A325832",
+    "A325833",
+    "A325834"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

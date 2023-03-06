@@ -1,0 +1,18 @@
+{
+  "description": "Total number of inequivalent even binary linear codes of length n and any dimension k = 0, 1, ..., n-1, with no column of zeros.",
+  "id": "A091328",
+  "mentions": [
+    "A091327"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

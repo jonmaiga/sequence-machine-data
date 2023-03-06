@@ -1,0 +1,18 @@
+{
+  "description": "n at which A073524(n) sets a new record.",
+  "id": "A073528",
+  "mentions": [
+    "A073524",
+    "A073529"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

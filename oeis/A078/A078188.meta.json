@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; for n > 1 take the digits of a(n-1) one after the other and remove one occurrence of this digit from the digits of m = k*n (k > 0) if possible; a(n) is the smallest multiple m of n which has the least number of remaining digits (counted with multiplicity).",
+  "id": "A078188",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

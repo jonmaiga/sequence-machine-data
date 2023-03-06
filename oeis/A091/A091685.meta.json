@@ -1,0 +1,22 @@
+{
+  "description": "Sieve out 6n+1 and 6n-1.",
+  "id": "A091685",
+  "mentions": [
+    "A007310",
+    "A047229",
+    "A054500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

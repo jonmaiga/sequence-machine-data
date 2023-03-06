@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers prefixed with a '1'.",
+  "id": "A039790",
+  "mentions": [
+    "A000040",
+    "A037278",
+    "A289866"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "dumb",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

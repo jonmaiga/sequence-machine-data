@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers with an odd number of prime factors (counted with multiplicity).",
+  "id": "A046470",
+  "mentions": [
+    "A046337"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:33:09",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

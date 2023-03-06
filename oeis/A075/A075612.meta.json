@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n) = smallest prime number not already used such that concatenation of a(k) and a(n) is composite for all k = 1 to n-1.",
+  "id": "A075612",
+  "mentions": [
+    "A020608",
+    "A075611"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

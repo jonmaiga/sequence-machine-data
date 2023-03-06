@@ -1,0 +1,25 @@
+{
+  "description": "Sequence contains no 3-term arithmetic progression, starting with 1, 28.",
+  "id": "A093681",
+  "mentions": [
+    "A004793",
+    "A007814",
+    "A033157",
+    "A092482",
+    "A093678",
+    "A093679",
+    "A093680",
+    "A093682"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

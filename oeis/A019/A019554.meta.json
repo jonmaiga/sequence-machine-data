@@ -1,0 +1,38 @@
+{
+  "description": "Smallest number whose square is divisible by n.",
+  "id": "A019554",
+  "mentions": [
+    "A000188",
+    "A001221",
+    "A001620",
+    "A007913",
+    "A007947",
+    "A008833",
+    "A015049",
+    "A015052",
+    "A015053",
+    "A019555",
+    "A027748",
+    "A034444",
+    "A053150",
+    "A053164",
+    "A053166",
+    "A082633",
+    "A102631",
+    "A346602"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

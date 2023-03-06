@@ -1,0 +1,22 @@
+{
+  "description": "Square root of b_1*b_2*...*b_t corresponding to smallest values of t in R. L. Graham's sequence (A006255).",
+  "id": "A066401",
+  "mentions": [
+    "A000196",
+    "A006255",
+    "A066400",
+    "A245499",
+    "A245530"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

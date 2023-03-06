@@ -1,0 +1,37 @@
+{
+  "description": "Array of q-factorial numbers n!_q, read by ascending antidiagonals.",
+  "id": "A069777",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A005329",
+    "A015001",
+    "A015002",
+    "A015004",
+    "A015005",
+    "A015006",
+    "A015007",
+    "A015008",
+    "A015009",
+    "A015011",
+    "A069778",
+    "A069779",
+    "A104878",
+    "A156173",
+    "A218503",
+    "A347611"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

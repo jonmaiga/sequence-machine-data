@@ -1,0 +1,19 @@
+{
+  "description": "Powers of sqrt(18) rounded to nearest integer.",
+  "id": "A017959",
+  "mentions": [
+    "A001027",
+    "A010474"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

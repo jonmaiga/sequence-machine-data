@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide the (left) concatenation of all numbers <= k written in base 9 (most significant digit on left).",
+  "id": "A029478",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and k^2 have the same set of digits.",
+  "id": "A029793",
+  "mentions": [
+    "A029795",
+    "A029797",
+    "A030091",
+    "A054038",
+    "A171102",
+    "A178501",
+    "A232659",
+    "A232662"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

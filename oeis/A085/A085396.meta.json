@@ -1,0 +1,21 @@
+{
+  "description": "Numerator and denominator sums of convergents to the Thue-Morse constant, 0.412454033...",
+  "id": "A085396",
+  "mentions": [
+    "A014571",
+    "A014572",
+    "A085394",
+    "A085395"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

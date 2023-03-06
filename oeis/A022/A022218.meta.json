@@ -1,0 +1,17 @@
+{
+  "description": "Gaussian binomial coefficients [ n,11 ] for q = 5.",
+  "id": "A022218",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 11,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

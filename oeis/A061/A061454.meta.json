@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of the continued fraction [1; 2^2, 3^3, ..., n^n].",
+  "id": "A061454",
+  "mentions": [
+    "A061453"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

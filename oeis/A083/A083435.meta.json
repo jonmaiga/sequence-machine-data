@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes with distinct prime signatures that occur naturally. Smallest palindrome with a prime signature of A025487(n), or 0 if no such number exists.",
+  "id": "A083435",
+  "mentions": [
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

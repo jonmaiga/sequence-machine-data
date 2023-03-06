@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, such that T(n,k) equals the k-th term of the convolution of the (n-1)-th diagonal with the k-th row of this triangle.",
+  "id": "A098446",
+  "mentions": [
+    "A091351",
+    "A091352"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

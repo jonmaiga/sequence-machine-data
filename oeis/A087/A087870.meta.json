@@ -1,0 +1,15 @@
+{
+  "description": "Primes of the form (4n+1)^2 + (4m+2)^2 where n=1,2,3.., m=1,2,3..",
+  "id": "A087870",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

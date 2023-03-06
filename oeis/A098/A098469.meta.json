@@ -1,0 +1,20 @@
+{
+  "description": "A sequence related to the even-indexed Catalan numbers.",
+  "id": "A098469",
+  "mentions": [
+    "A048990",
+    "A098465"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

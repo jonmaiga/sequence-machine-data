@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose base-3 representation Sum_{i=0..m} d(i)*3^i has d(i)=1 for m-i odd.",
+  "id": "A033054",
+  "mentions": [
+    "A110654",
+    "A132141"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

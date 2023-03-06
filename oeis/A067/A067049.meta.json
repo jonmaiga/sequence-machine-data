@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,r) = lcm(n,n-1,n-2,...,n-r+1)/lcm(1,2,3,...,r-1,r), 0 <= r < n.",
+  "id": "A067049",
+  "mentions": [
+    "A061297",
+    "A067046",
+    "A067047",
+    "A067048"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

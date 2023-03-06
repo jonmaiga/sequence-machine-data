@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{j=0..floor(n/2)} (-1)^(j+floor(n/2))*S(2j+q), where S(n) are generalized tribonacci numbers (A001644) and q = (1-(-1)^n)/2.",
+  "id": "A074678",
+  "mentions": [
+    "A001644",
+    "A056594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

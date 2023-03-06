@@ -1,0 +1,22 @@
+{
+  "description": "Sum of odd proper distinct prime divisors of n. That is, the sum of odd distinct prime divisors of n that are less than n.",
+  "id": "A091921",
+  "mentions": [
+    "A001227",
+    "A008472",
+    "A091979"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

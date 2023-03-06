@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that prime(n) == -7 (mod n).",
+  "id": "A092049",
+  "mentions": [
+    "A023149",
+    "A045924",
+    "A092044",
+    "A092045",
+    "A092046",
+    "A092047",
+    "A092048",
+    "A092050",
+    "A092051",
+    "A092052"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

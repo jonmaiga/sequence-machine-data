@@ -1,0 +1,18 @@
+{
+  "description": "Primes p with a prime number of digits in all base b with 1 <= b <= p.",
+  "id": "A072885",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

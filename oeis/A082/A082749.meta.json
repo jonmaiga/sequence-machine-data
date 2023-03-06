@@ -1,0 +1,24 @@
+{
+  "description": "Difference between the sum of next prime(n) natural numbers and the sum of next n primes.",
+  "id": "A082749",
+  "mentions": [
+    "A000040",
+    "A006254",
+    "A007468",
+    "A034953",
+    "A054269",
+    "A061802",
+    "A067076"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square root of A030686.",
+  "id": "A030687",
+  "mentions": [
+    "A030686"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:49",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

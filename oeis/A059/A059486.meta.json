@@ -1,0 +1,21 @@
+{
+  "description": "3-enumeration of 2n+1 X 2n+1 vertically symmetric alternating-sign matrices.",
+  "id": "A059486",
+  "mentions": [
+    "A025748",
+    "A074962",
+    "A227379"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

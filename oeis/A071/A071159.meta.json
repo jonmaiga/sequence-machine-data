@@ -1,0 +1,19 @@
+{
+  "description": "Integers whose decimal expansion start with 1, do not contain zeros and each successive digit to the right is at most one greater than the previous digit.",
+  "id": "A071159",
+  "mentions": [
+    "A071153",
+    "A071157"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

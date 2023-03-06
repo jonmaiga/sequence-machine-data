@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in the (2,1)-Pascal triangle A029653 that are different from 1.",
+  "id": "A029656",
+  "mentions": [
+    "A029638",
+    "A029653",
+    "A048601"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "In base ten, we try to get the digits 1,2,3,...,9,0,1,2,3,... in order only using a sequence of increasing primes and each time choosing the smallest prime that will give the desired digit.",
+  "id": "A060399",
+  "mentions": [
+    "A060400",
+    "A060915",
+    "A060916"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

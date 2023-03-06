@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of numbers of partitions of n with m parts which are all odd.",
+  "id": "A097304",
+  "mentions": [
+    "A000009",
+    "A008284",
+    "A072233"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

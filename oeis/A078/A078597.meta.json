@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form p*(p+4)+2 where p and p+4 are primes.",
+  "id": "A078597",
+  "mentions": [
+    "A045637",
+    "A048880",
+    "A049002",
+    "A051779"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

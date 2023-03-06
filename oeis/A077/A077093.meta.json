@@ -1,0 +1,19 @@
+{
+  "description": "Smallest initial values leading to fixed points listed in A077092.",
+  "id": "A077093",
+  "mentions": [
+    "A077090",
+    "A077092",
+    "A077100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

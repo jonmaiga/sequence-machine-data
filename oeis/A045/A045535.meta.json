@@ -1,0 +1,19 @@
+{
+  "description": "Least negative pseudosquare modulo the first n odd primes.",
+  "id": "A045535",
+  "mentions": [
+    "A002189",
+    "A062241"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

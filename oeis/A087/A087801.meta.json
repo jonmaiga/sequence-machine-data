@@ -1,0 +1,24 @@
+{
+  "description": "Greatest common divisor of tau(n)+sigma(n) and tau(n)*sigma(n), where tau = A000005 and sigma = A000203.",
+  "id": "A087801",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007503",
+    "A009191",
+    "A009194",
+    "A009205",
+    "A064840",
+    "A286360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

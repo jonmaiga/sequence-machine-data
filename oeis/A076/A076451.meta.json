@@ -1,0 +1,16 @@
+{
+  "description": "Let w(1)=w(2)=w(3)=1, w(n) = (-1)^floor(n/2)*sign(w(n-1)-w(n-2))*w(n-3), then a(n) = 1+w(n).",
+  "id": "A076451",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

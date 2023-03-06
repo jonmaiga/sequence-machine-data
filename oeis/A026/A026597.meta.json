@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1+x)/(1-x-4*x^2).",
+  "id": "A026597",
+  "mentions": [
+    "A006131",
+    "A006138",
+    "A007482",
+    "A026581",
+    "A026584",
+    "A122950",
+    "A175654",
+    "A175655",
+    "A180168"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

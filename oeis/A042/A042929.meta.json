@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(996).",
+  "id": "A042929",
+  "mentions": [
+    "A040964",
+    "A042928"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:54:06",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

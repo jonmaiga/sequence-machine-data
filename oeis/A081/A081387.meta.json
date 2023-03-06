@@ -1,0 +1,26 @@
+{
+  "description": "Number of non-unitary prime divisors of central binomial coefficient, C(2n,n) = A000984(n), i.e., number of prime factors in C(2n,n) whose exponent is greater than one.",
+  "id": "A081387",
+  "mentions": [
+    "A000984",
+    "A001221",
+    "A034444",
+    "A048105",
+    "A056169",
+    "A056170",
+    "A067434",
+    "A081386",
+    "A081389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

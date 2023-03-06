@@ -1,0 +1,22 @@
+{
+  "description": "(Sum of digits of n written in base 5) modulo 5.",
+  "id": "A053840",
+  "mentions": [
+    "A010060",
+    "A010874",
+    "A053824",
+    "A141803"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "COMPOSE natural numbers with primes.",
+  "id": "A030281",
+  "mentions": [
+    "A000040",
+    "A030017",
+    "A030282",
+    "A340991"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 2, a(n+1) = smallest squarefree number == 1 (mod a(n)).",
+  "id": "A076698",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

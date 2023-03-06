@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that base 5 representation of n begins at s(k), where s=A031251.",
+  "id": "A031252",
+  "mentions": [
+    "A031251"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:43",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

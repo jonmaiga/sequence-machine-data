@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p dividing n#-1, n#, or n#+1, n squarefree.",
+  "id": "A046026",
+  "mentions": [
+    "A002110",
+    "A013929",
+    "A046027"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:51",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

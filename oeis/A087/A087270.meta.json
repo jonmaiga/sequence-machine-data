@@ -1,0 +1,21 @@
+{
+  "description": "Solutions to gcd(x,pi(x)) = gcd(x, A000720(x)) > 1. Numbers x such that x and pi(x) have common divisor larger than one.",
+  "id": "A087270",
+  "mentions": [
+    "A000720",
+    "A007053",
+    "A057809",
+    "A087266",
+    "A087269"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

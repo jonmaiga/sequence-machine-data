@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sums of the odd and even aliquot parts of n both divide n.",
+  "id": "A065125",
+  "mentions": [
+    "A000396",
+    "A139256"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

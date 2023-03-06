@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to represent n as a+b*(c+d*(e+f*(...x+y*(z)...))) in positive integers.",
+  "id": "A084978",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

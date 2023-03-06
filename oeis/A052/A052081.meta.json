@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 is a square whose decimal expansion's digits are grouped together.",
+  "id": "A052081",
+  "mentions": [
+    "A052082",
+    "A052083",
+    "A052084",
+    "A052085",
+    "A052086"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:01",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

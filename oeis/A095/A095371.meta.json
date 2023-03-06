@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct prime factors of record setting repunits (A328899).",
+  "id": "A095371",
+  "mentions": [
+    "A001221",
+    "A002275",
+    "A003020",
+    "A004023",
+    "A067063",
+    "A095370",
+    "A328899"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

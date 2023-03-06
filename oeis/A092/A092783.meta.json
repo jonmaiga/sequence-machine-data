@@ -1,0 +1,29 @@
+{
+  "description": "Ceiling of imaginary parts of zeros of Riemann zeta function.",
+  "id": "A092783",
+  "mentions": [
+    "A002410",
+    "A013629",
+    "A058303",
+    "A065434",
+    "A065452",
+    "A065453",
+    "A192492",
+    "A305741",
+    "A305742",
+    "A305743",
+    "A305744",
+    "A306004"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:16:57",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes between prime(n) and prime(n) + sqrt(prime(n)), where prime(n) is the n-th prime.",
+  "id": "A058188",
+  "mentions": [
+    "A030296"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

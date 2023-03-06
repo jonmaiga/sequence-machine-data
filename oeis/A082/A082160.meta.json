@@ -1,0 +1,21 @@
+{
+  "description": "Deterministic completely defined acyclic automata with 3 inputs and n+1 transient labeled states including a unique state having all transitions to the absorbing state.",
+  "id": "A082160",
+  "mentions": [
+    "A082158",
+    "A082159",
+    "A082172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

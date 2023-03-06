@@ -1,0 +1,20 @@
+{
+  "description": "Squares mentioned in A054017.",
+  "id": "A054018",
+  "mentions": [
+    "A048050",
+    "A054013",
+    "A054017",
+    "A054019"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

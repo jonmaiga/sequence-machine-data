@@ -1,0 +1,26 @@
+{
+  "description": "The minimal number which has multiplicative persistence 8 in base n.",
+  "id": "A064872",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A064867",
+    "A064868",
+    "A064869",
+    "A064870",
+    "A064871"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 13,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

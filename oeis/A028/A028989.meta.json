@@ -1,0 +1,18 @@
+{
+  "description": "Smallest palindromic prime with 2n-1 digits.",
+  "id": "A028989",
+  "mentions": [
+    "A056732"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

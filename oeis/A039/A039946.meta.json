@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Molien series for 8-dimensional complex Clifford group of genus 3 and order 743178240.",
+  "id": "A039946",
+  "mentions": [
+    "A008620",
+    "A008621",
+    "A008718",
+    "A024186",
+    "A027633",
+    "A028288",
+    "A043330",
+    "A051354"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:16:23",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

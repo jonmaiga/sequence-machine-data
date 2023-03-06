@@ -1,0 +1,34 @@
+{
+  "description": "Common residues of binomial(3n,n)/(2n+1) modulo 2: relates ternary trees (A001764) to the infinite Fibonacci word (A003849).",
+  "id": "A085357",
+  "mentions": [
+    "A000256",
+    "A000621",
+    "A000625",
+    "A001764",
+    "A003714",
+    "A003849",
+    "A005940",
+    "A008683",
+    "A008966",
+    "A063524",
+    "A076662",
+    "A085358",
+    "A085359",
+    "A132971",
+    "A227349",
+    "A277010",
+    "A324964"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

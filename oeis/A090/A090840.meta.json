@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime whose product of digits is 5^n.",
+  "id": "A090840",
+  "mentions": [
+    "A088653",
+    "A089298",
+    "A089365",
+    "A090841",
+    "A091465"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

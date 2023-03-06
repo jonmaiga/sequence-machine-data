@@ -1,0 +1,17 @@
+{
+  "description": "Sum_{mu a partition of n} (f^mu/n!)^{-2} where f^mu is the number of standard Young tableaux of shape mu.",
+  "id": "A026845",
+  "mentions": [
+    "A047874"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Smallest side lengths of almost-equilateral Heronian triangles (sides are consecutive positive integers, area is a nonnegative integer).",
+  "id": "A016064",
+  "mentions": [
+    "A000290",
+    "A001075",
+    "A001353",
+    "A003500",
+    "A011945",
+    "A019973",
+    "A072221",
+    "A102341",
+    "A103974",
+    "A103975",
+    "A334277",
+    "A335025"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

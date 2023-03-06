@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest integer m such that Sum_{k=1..m} prime(k) is divisible by n.",
+  "id": "A053050",
+  "mentions": [
+    "A002034",
+    "A007504",
+    "A011772",
+    "A045985",
+    "A111287",
+    "A308749"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

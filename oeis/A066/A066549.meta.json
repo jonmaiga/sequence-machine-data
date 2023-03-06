@@ -1,0 +1,18 @@
+{
+  "description": "Let N = 235711171923293137..., the concatenation of the primes. a(n) is the n-digit number formed from the digits of N starting from the {n(n-1)/2 +1}th digit. Omit any leading zeros.",
+  "id": "A066549",
+  "mentions": [
+    "A066547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

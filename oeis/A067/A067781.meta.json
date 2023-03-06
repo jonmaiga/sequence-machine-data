@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that phi(n) and sigma(n) are simultaneously perfect squares.",
+  "id": "A067781",
+  "mentions": [
+    "A006532",
+    "A011257",
+    "A039770"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows giving coefficients in expansion of n! * Sum_{i=0..n} C(x,i) in descending powers of x.",
+  "id": "A054651",
+  "mentions": [
+    "A054649",
+    "A054654",
+    "A054655",
+    "A190782",
+    "A347987"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

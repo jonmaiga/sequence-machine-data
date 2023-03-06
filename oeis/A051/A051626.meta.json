@@ -1,0 +1,31 @@
+{
+  "description": "Period of decimal representation of 1/n, or 0 if 1/n terminates.",
+  "id": "A051626",
+  "mentions": [
+    "A001913",
+    "A002371",
+    "A003592",
+    "A006883",
+    "A007732",
+    "A036275",
+    "A048595",
+    "A114205",
+    "A114206",
+    "A132726",
+    "A132740",
+    "A132741"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

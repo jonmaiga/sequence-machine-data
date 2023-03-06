@@ -1,0 +1,18 @@
+{
+  "description": "\"Inverse permutation\" to A064537. Limits of the recursion b(i+1)=B_[i](b(i)), where b(0)=n and B_[k](j) = B_[k-1](j) + k, k+1 <= j <= 2k; B_[k](j) = B_[k-1](j) - k, 2k+1 <= j <= 3k; B_[k](j) = B_[k-1](j) otherwise. Set a(n)=0 if b tends to infinity.",
+  "id": "A064791",
+  "mentions": [
+    "A064537"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

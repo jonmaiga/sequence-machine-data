@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for Champernowne constant = 0.01234567891011121314...",
+  "id": "A033435",
+  "mentions": [
+    "A030167",
+    "A033307"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

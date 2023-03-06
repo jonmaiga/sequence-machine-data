@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest prime whose digits include the digits of n as a substring.",
+  "id": "A062584",
+  "mentions": [
+    "A018800",
+    "A060386",
+    "A068164",
+    "A082058"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

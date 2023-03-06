@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/( (1-x)*(1-34*x+x^2) ).",
+  "id": "A029546",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A029547",
+    "A029549",
+    "A075528",
+    "A245031"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Position of A075165(n+1) in A014486.",
+  "id": "A075161",
+  "mentions": [
+    "A014486",
+    "A075162",
+    "A075163",
+    "A075165",
+    "A075166",
+    "A075168"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

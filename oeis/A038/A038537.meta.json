@@ -1,0 +1,25 @@
+{
+  "description": "Primes base 10 that remain primes in eight bases b, 2<=b<=10, when the expansions are interpreted as decimal numbers.",
+  "id": "A038537",
+  "mentions": [
+    "A052026",
+    "A052027",
+    "A052032",
+    "A052033",
+    "A084482",
+    "A236356"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

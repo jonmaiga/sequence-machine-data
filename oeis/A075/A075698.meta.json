@@ -1,0 +1,21 @@
+{
+  "description": "Primes of index m from A075696, a(n) = prime(A075696(n)).",
+  "id": "A075698",
+  "mentions": [
+    "A075696",
+    "A075697"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

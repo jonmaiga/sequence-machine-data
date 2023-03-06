@@ -1,0 +1,16 @@
+{
+  "description": "(p[1]*...*p[n])+(p[n+1]*...*p[2n]) where p[n] is the n-th prime.",
+  "id": "A093433",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

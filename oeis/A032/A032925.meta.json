@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose set of base-4 digits is a subset of {1,2}.",
+  "id": "A032925",
+  "mentions": [
+    "A023705",
+    "A023717",
+    "A053754",
+    "A179888"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:19",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

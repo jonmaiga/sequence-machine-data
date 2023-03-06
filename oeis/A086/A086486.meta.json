@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the distinct prime divisors divides rad(n)=A007947(n).",
+  "id": "A086486",
+  "mentions": [
+    "A007947",
+    "A008472",
+    "A066031",
+    "A086487",
+    "A089352"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Largest squarefree number dividing phi(n).",
+  "id": "A080400",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A007947",
+    "A034380",
+    "A289624"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

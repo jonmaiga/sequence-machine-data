@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number > 1 equal to sum of n-th powers of its base-4 digits, or 0 if no such number exists (written in base 10).",
+  "id": "A033836",
+  "mentions": [
+    "A003321",
+    "A033835",
+    "A033837",
+    "A033838",
+    "A033839",
+    "A033840",
+    "A033841",
+    "A162219",
+    "A162220",
+    "A162221"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

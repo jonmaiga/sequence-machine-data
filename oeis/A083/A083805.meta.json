@@ -1,0 +1,19 @@
+{
+  "description": "n-th partial concatenation of terms of A083804 divided by n.",
+  "id": "A083805",
+  "mentions": [
+    "A083804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

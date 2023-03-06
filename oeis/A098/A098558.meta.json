@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. (1+x)/(1-x).",
+  "id": "A098558",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A008290",
+    "A008518",
+    "A052849",
+    "A128564",
+    "A158471"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Greatest number of distinct digits of n in any base b>=2.",
+  "id": "A037968",
+  "mentions": [
+    "A037914",
+    "A049363",
+    "A246535"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:36:07",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

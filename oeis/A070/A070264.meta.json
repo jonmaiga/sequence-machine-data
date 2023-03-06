@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to that in A026098.",
+  "id": "A070264",
+  "mentions": [
+    "A026098"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

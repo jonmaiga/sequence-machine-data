@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A088190.",
+  "id": "A088191",
+  "mentions": [
+    "A088190",
+    "A088192",
+    "A088193",
+    "A088194",
+    "A088195"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

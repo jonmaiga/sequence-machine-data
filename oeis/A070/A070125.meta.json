@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that [A070080(n), A070081(n), A070082(n)] is an acute isosceles integer triangle with relatively prime side lengths.",
+  "id": "A070125",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070084",
+    "A070085",
+    "A070099",
+    "A070110",
+    "A070115",
+    "A070118"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

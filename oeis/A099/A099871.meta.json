@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 2} (1/log(n)^n).",
+  "id": "A099871",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

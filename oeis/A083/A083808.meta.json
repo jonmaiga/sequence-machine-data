@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime == 1 (mod n-th unary number U(n) = (10^n-1)/9).",
+  "id": "A083808",
+  "mentions": [
+    "A000042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

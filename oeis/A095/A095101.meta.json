@@ -1,0 +1,23 @@
+{
+  "description": "Integers m of the form 4k+3 for which some of the sums Sum_{i=1..u} J(i/m) (with u ranging from 1 to (m-1)) is negative, where J(i/m) is Jacobi symbol of i and m.",
+  "id": "A095101",
+  "mentions": [
+    "A004767",
+    "A095062",
+    "A095091",
+    "A095100",
+    "A095103",
+    "A095275"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

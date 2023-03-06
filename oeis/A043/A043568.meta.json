@@ -1,0 +1,20 @@
+{
+  "description": "Number of runs in base-16 representation of n.",
+  "id": "A043568",
+  "mentions": [
+    "A043543",
+    "A297770",
+    "A297783"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

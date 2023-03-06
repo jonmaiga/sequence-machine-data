@@ -1,0 +1,22 @@
+{
+  "description": "Permutation A069768 applied twice (\"squared\").",
+  "id": "A073291",
+  "mentions": [
+    "A069768",
+    "A073200",
+    "A073290",
+    "A073292",
+    "A073299"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

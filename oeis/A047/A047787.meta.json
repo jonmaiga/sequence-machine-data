@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (-1)*Gamma'(1/3)/Gamma(1/3) where Gamma(x) denotes the Gamma function.",
+  "id": "A047787",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

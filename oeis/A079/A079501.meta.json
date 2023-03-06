@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of the integer n with strictly smallest part in the first position.",
+  "id": "A079501",
+  "mentions": [
+    "A105039",
+    "A168655",
+    "A168656",
+    "A168657"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

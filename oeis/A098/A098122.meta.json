@@ -1,0 +1,18 @@
+{
+  "description": "Let (A,B)=(a(2*n),a(2*n+1)), then (A,B) is (even,odd), gcd(A,B)=1 and A^2 + B^2 = 5^n. Note: a(0)=0.",
+  "id": "A098122",
+  "mentions": [
+    "A006495",
+    "A006496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

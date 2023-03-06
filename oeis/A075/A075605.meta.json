@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k not a palindrome and not divisible by 10 such that k and R(k) (A004086) both are divisible by the n-th prime.",
+  "id": "A075605",
+  "mentions": [
+    "A004086",
+    "A075606"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

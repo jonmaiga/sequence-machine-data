@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(k^4/n).",
+  "id": "A014819",
+  "mentions": [
+    "A014817",
+    "A014818"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:55",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

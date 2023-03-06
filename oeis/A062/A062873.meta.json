@@ -1,0 +1,18 @@
+{
+  "description": "Nearest integer to arithmetic mean of n! and n^n.",
+  "id": "A062873",
+  "mentions": [
+    "A062874"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

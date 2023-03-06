@@ -1,0 +1,18 @@
+{
+  "description": "Let 2^k = smallest power of 2 >= binomial(2n,n); a(n) = 2^k - binomial(2n,n).",
+  "id": "A094780",
+  "mentions": [
+    "A093387",
+    "A094779"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

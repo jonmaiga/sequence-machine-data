@@ -1,0 +1,22 @@
+{
+  "description": "Number of cubefree words of length n on two letters.",
+  "id": "A028445",
+  "mentions": [
+    "A007777",
+    "A082379",
+    "A082380",
+    "A282133",
+    "A286262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

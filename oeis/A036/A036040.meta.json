@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle of multinomial coefficients, read by rows (version 1).",
+  "id": "A036040",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000110",
+    "A007446",
+    "A008277",
+    "A036036",
+    "A036037",
+    "A036038",
+    "A036039",
+    "A060540",
+    "A080575",
+    "A127671",
+    "A129185",
+    "A130561",
+    "A132440",
+    "A134685",
+    "A178866",
+    "A178867",
+    "A263634",
+    "A263916",
+    "A264753"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

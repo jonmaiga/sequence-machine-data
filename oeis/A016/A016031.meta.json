@@ -1,0 +1,30 @@
+{
+  "description": "De Bruijn's sequence: 2^(2^(n-1) - n): number of ways of arranging 2^n bits in circle so all 2^n consecutive strings of length n are distinct.",
+  "id": "A016031",
+  "mentions": [
+    "A000295",
+    "A003465",
+    "A005840",
+    "A006125",
+    "A006126",
+    "A058891",
+    "A306021",
+    "A317794",
+    "A323816",
+    "A323817",
+    "A331691"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

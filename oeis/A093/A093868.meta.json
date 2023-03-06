@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime that differs from a multiple of n by unity.",
+  "id": "A093868",
+  "mentions": [
+    "A025584",
+    "A034694",
+    "A038700",
+    "A093869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimal value of { abs(n-sigma(k)) : k>0 }.",
+  "id": "A072612",
+  "mentions": [
+    "A002191"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

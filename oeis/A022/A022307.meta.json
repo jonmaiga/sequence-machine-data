@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct prime factors of n-th Fibonacci number.",
+  "id": "A022307",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A000045",
+    "A001221",
+    "A038575",
+    "A053028",
+    "A060320",
+    "A060442",
+    "A086597",
+    "A086598"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

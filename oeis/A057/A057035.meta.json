@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n = p + q with n*p*q = primorial number (A002110) (p <= q, p > 0, q > 0).",
+  "id": "A057035",
+  "mentions": [
+    "A002110",
+    "A056600",
+    "A056602"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

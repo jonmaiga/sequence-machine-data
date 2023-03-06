@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of [3, 3, ...] = (3 + sqrt(13))/2.",
+  "id": "A098316",
+  "mentions": [
+    "A000032",
+    "A001622",
+    "A006190",
+    "A006497",
+    "A014176",
+    "A080039",
+    "A085550",
+    "A098317",
+    "A098318",
+    "A100230",
+    "A188640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

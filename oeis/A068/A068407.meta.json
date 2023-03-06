@@ -1,0 +1,19 @@
+{
+  "description": "Automorphic numbers: numbers k such that k^5 ends with k. Also m-morphic numbers for all m > 5 such that m-1 is not divisible by 10 and m == 1 (mod 4).",
+  "id": "A068407",
+  "mentions": [
+    "A003226",
+    "A033819"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

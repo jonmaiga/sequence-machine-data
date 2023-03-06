@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=M(n,k,f(n,k)), 0<=k<=n, n >= 0, array M as in A050144 and f(n,k)=least number t for which M(n,k,t) is not 0.",
+  "id": "A050167",
+  "mentions": [
+    "A050144"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

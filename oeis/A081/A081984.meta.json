@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p-1 is divisible by the digital product ( of nonzero digits) of p.",
+  "id": "A081984",
+  "mentions": [
+    "A081981",
+    "A081982",
+    "A081983",
+    "A081986",
+    "A081987"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

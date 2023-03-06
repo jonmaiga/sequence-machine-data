@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n lexicographically earliest distinct numbers such that the sum of the (n-1) terms other than the r-th term is divisible by r.",
+  "id": "A083796",
+  "mentions": [
+    "A083797",
+    "A083798",
+    "A083799",
+    "A101085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

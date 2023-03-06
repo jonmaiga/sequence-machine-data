@@ -1,0 +1,21 @@
+{
+  "description": "Length of n-th run of identical symbols in A095076 and A095111.",
+  "id": "A095276",
+  "mentions": [
+    "A001622",
+    "A026465",
+    "A095076",
+    "A095111",
+    "A095279"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

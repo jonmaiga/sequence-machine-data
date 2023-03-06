@@ -1,0 +1,17 @@
+{
+  "description": "Smallest initial value for 3x+1 trajectory, divisible by 2^n, such that emerging peak-value exceeds this start-value.",
+  "id": "A095388",
+  "mentions": [
+    "A025586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

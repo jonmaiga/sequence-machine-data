@@ -1,0 +1,19 @@
+{
+  "description": "Consider number of prime divisors of C(n,k), k=0..n; a(n) = multiplicity of maximal value.",
+  "id": "A020733",
+  "mentions": [
+    "A001221",
+    "A048484",
+    "A048486"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

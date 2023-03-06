@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled cyclic subgroups of S_n having order n.",
+  "id": "A074880",
+  "mentions": [
+    "A000010",
+    "A051625",
+    "A074260",
+    "A074351"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

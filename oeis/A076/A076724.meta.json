@@ -1,0 +1,17 @@
+{
+  "description": "Sum {k = 1..n} tau(k) is a prime, where tau is the Ramanujan tau function (A000594).",
+  "id": "A076724",
+  "mentions": [
+    "A000594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that phi(k + 5) | sigma(k) + 5.",
+  "id": "A015871",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

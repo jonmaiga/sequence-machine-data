@@ -1,0 +1,32 @@
+{
+  "description": "Highly factorable numbers: numbers with a record number of proper factorizations.",
+  "id": "A033833",
+  "mentions": [
+    "A001055",
+    "A025487",
+    "A028422",
+    "A033834",
+    "A045778",
+    "A045782",
+    "A045783",
+    "A272691",
+    "A330972",
+    "A330973",
+    "A330976",
+    "A330998",
+    "A331049",
+    "A331050",
+    "A331200"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

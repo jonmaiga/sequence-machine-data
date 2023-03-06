@@ -1,0 +1,19 @@
+{
+  "description": "a[n]=Mod[q(n),PrimePi[q(n)]]=Mod[A001359(n), A000720[A001359(n))] where q(n) is the n-th lesser-twin-prime. A004648 restricted to lesser twins.",
+  "id": "A099644",
+  "mentions": [
+    "A000720",
+    "A001359",
+    "A004648"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

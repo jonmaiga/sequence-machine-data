@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=position of n in A050104.",
+  "id": "A050105",
+  "mentions": [
+    "A050104"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + Sum_{k=0..n-3} a(k) for n >= 2, a(0)=1, a(1)=2.",
+  "id": "A049853",
+  "mentions": [
+    "A070550",
+    "A084534",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

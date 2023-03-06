@@ -1,0 +1,19 @@
+{
+  "description": "Antimutinous numbers: n>1 such that n/p^k < p, where p is the largest prime dividing n and p^k is the highest power of p dividing n.",
+  "id": "A027855",
+  "mentions": [
+    "A006530",
+    "A027854",
+    "A051119"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

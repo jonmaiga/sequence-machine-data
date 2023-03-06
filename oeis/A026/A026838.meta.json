@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct parts, the greatest being even.",
+  "id": "A026838",
+  "mentions": [
+    "A000009",
+    "A026837",
+    "A027187",
+    "A118301",
+    "A118302",
+    "A143062"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

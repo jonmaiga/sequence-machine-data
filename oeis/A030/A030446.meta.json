@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-celled polyknights (polyominoes connected by knight's moves).",
+  "id": "A030446",
+  "mentions": [
+    "A030444",
+    "A030445",
+    "A030447",
+    "A030448"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

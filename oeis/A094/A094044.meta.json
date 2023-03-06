@@ -1,0 +1,20 @@
+{
+  "description": "Alternate prime and nonprime numbers not included earlier such that every concatenation of a pair of terms is a prime: a(2n) is nonprime and a(2n-1) is prime.",
+  "id": "A094044",
+  "mentions": [
+    "A045572",
+    "A088614",
+    "A094045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

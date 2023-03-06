@@ -1,0 +1,19 @@
+{
+  "description": "Let C(n) be the n-th composite number; then a(n) is the smallest number > C(n) and not coprime to C(n).",
+  "id": "A079772",
+  "mentions": [
+    "A002808",
+    "A056608"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

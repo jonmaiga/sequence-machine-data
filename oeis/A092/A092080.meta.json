@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows in which row n lists the partition numbers of the first n positive integers.",
+  "id": "A092080",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A026905",
+    "A092078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

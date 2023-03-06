@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor[ n/R(n) ], where R(n) (A004086) = Digit reversal of n.",
+  "id": "A068159",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

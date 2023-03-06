@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled trees with n nodes and 2-colored internal (non-leaf) nodes.",
+  "id": "A052317",
+  "mentions": [
+    "A004113",
+    "A004114",
+    "A052316"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:39:01",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

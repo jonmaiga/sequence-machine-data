@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows, for 1 <= k <= n: minimal number of knights needed to cover a k X n board.",
+  "id": "A098604",
+  "mentions": [
+    "A006075",
+    "A006076"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

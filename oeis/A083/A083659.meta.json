@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of fraction equal to the continued fraction [p(n); p(n-1),...,5,3,2].",
+  "id": "A083659",
+  "mentions": [
+    "A036247",
+    "A036248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

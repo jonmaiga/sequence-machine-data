@@ -1,0 +1,25 @@
+{
+  "description": "Bisection of A001615.",
+  "id": "A031359",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001615",
+    "A008683",
+    "A159634"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Product of next n odd numbers plus 2 is prime.",
+  "id": "A073693",
+  "mentions": [
+    "A073691",
+    "A073692"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

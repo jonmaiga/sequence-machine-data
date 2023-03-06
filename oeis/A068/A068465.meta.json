@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Gamma(3/4).",
+  "id": "A068465",
+  "mentions": [
+    "A000796",
+    "A002193",
+    "A053004",
+    "A063448",
+    "A068466",
+    "A069998"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

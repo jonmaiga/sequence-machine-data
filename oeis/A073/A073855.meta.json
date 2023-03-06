@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps to reach 0 starting with n and applying the process x ->bigomega(x), where bigomega = A001222.",
+  "id": "A073855",
+  "mentions": [
+    "A001222",
+    "A036430"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

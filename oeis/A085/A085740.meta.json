@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(n)^2 - n^2, where T(n) is a triangular number.",
+  "id": "A085740",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A173963"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

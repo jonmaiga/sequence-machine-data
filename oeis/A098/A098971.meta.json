@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; for n > 0, a(n)=a(floor(n/2))+2*a(floor(n/4)).",
+  "id": "A098971",
+  "mentions": [
+    "A001045",
+    "A007731"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

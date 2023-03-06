@@ -1,0 +1,40 @@
+{
+  "description": "Zumkeller or integer-perfect numbers: numbers n whose divisors can be partitioned into two disjoint sets with equal sum.",
+  "id": "A083207",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002110",
+    "A005101",
+    "A005835",
+    "A023196",
+    "A027750",
+    "A048055",
+    "A083206",
+    "A083208",
+    "A083209",
+    "A083210",
+    "A083211",
+    "A111592",
+    "A118372",
+    "A171641",
+    "A174865",
+    "A175592",
+    "A179527",
+    "A179529",
+    "A180332",
+    "A221054",
+    "A293453"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

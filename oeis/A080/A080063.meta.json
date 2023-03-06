@@ -1,0 +1,28 @@
+{
+  "description": "n mod (spf(n)+1), where spf(n) is the smallest prime dividing n (A020639).",
+  "id": "A080063",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A008588",
+    "A010872",
+    "A010873",
+    "A010875",
+    "A010877",
+    "A010881",
+    "A016933",
+    "A020639",
+    "A080064",
+    "A080065"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

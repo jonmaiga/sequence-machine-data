@@ -1,0 +1,18 @@
+{
+  "description": "Matrix recurrence A[n] = M * A[n-1] with A[0] = [[0,1,1],[1,1,2],[1,2,4]] and M = [[0,1,0],[0,1,0],[1,1,1]], flattened.",
+  "id": "A097864",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:41",
+    "offset": 0,
+    "size": 96,
+    "source": "joeis"
+  }
+}

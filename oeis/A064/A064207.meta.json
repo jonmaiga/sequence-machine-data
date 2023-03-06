@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of sequence A004485 considered as a permutation of the nonnegative integers.",
+  "id": "A064207",
+  "mentions": [
+    "A004485"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

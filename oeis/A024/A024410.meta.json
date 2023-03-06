@@ -1,0 +1,17 @@
+{
+  "description": "Long leg of more than one primitive Pythagorean triangle.",
+  "id": "A024410",
+  "mentions": [
+    "A020883"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

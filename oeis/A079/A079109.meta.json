@@ -1,0 +1,17 @@
+{
+  "description": "Number of zeros in the base 8 form of A077722(n).",
+  "id": "A079109",
+  "mentions": [
+    "A077722"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

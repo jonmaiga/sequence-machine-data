@@ -1,0 +1,24 @@
+{
+  "description": "Primitive abundant numbers (abundant numbers all of whose proper divisors are deficient numbers).",
+  "id": "A071395",
+  "mentions": [
+    "A000396",
+    "A005100",
+    "A005101",
+    "A006038",
+    "A091191",
+    "A275082",
+    "A294927",
+    "A294937"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

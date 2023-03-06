@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the largest prime before A002281(n); repdigits repeating 7.",
+  "id": "A099667",
+  "mentions": [
+    "A002275",
+    "A002281",
+    "A002283",
+    "A003617",
+    "A003618",
+    "A068104",
+    "A096497",
+    "A096498",
+    "A099656",
+    "A099668"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3*(n-2)*(5*n -11).",
+  "id": "A060785",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:01",
+    "offset": 2,
+    "size": 39,
+    "source": "joeis"
+  }
+}

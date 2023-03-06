@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of unsigned triangle A075513.",
+  "id": "A074932",
+  "mentions": [
+    "A072034",
+    "A075513",
+    "A201595"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

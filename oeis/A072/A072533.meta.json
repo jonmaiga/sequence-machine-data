@@ -1,0 +1,18 @@
+{
+  "description": "Least Keith number (or repfigit) with n digits, or 0 if there is none.",
+  "id": "A072533",
+  "mentions": [
+    "A007629"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose consecutive digits differ by 8 or 9.",
+  "id": "A048420",
+  "mentions": [
+    "A048413",
+    "A048419"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:37:25",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, then numbers coprime to all previous terms such that tau(a(n)) = n, where tau(k) = number of divisors of k.",
+  "id": "A086556",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

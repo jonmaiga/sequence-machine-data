@@ -1,0 +1,20 @@
+{
+  "description": "Minimum wind speed in mph for a tornado of Fujita (or Fujita-Pearson) scale F_n.",
+  "id": "A098517",
+  "mentions": [
+    "A097403",
+    "A098516"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

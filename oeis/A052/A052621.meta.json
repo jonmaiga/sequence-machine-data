@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. (2+x+x^2+x^3)/(1-x^4).",
+  "id": "A052621",
+  "mentions": [
+    "A177704"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:32:37",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

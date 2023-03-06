@@ -1,0 +1,21 @@
+{
+  "description": "Length of longest integral ladder that can be moved horizontally around the right angled corner where two hallway corridors of integral widths meet.",
+  "id": "A088896",
+  "mentions": [
+    "A009000",
+    "A009003",
+    "A046083",
+    "A046084"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

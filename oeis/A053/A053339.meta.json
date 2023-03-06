@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree terms of A050530 with 3 prime divisors.",
+  "id": "A053339",
+  "mentions": [
+    "A050530",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

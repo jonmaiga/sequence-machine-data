@@ -1,0 +1,21 @@
+{
+  "description": "Nonprime squarefree numbers n such that n+1 is also squarefree and nonprime, but not n-1 and n+2.",
+  "id": "A073250",
+  "mentions": [
+    "A000469",
+    "A005117",
+    "A073248",
+    "A073249",
+    "A073251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

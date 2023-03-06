@@ -1,0 +1,23 @@
+{
+  "description": "Hyperbinomial transform of the sequence of 1's.",
+  "id": "A088957",
+  "mentions": [
+    "A000169",
+    "A086331",
+    "A088956",
+    "A144289",
+    "A144303",
+    "A203092"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

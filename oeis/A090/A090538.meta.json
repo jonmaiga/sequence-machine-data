@@ -1,0 +1,20 @@
+{
+  "description": "Location of 3 in A090537, or 0 if A090537 is 0.",
+  "id": "A090538",
+  "mentions": [
+    "A090535",
+    "A090536",
+    "A090537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

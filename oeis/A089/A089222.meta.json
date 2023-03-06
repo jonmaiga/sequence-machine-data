@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of seating n people around a table for the second time without anyone sitting next to the same person as they did the first time.",
+  "id": "A089222",
+  "mentions": [
+    "A002464",
+    "A002816",
+    "A078603",
+    "A078630",
+    "A078631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

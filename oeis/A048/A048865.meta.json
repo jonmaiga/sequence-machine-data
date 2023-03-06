@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of primes in the reduced residue system mod n.",
+  "id": "A048865",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221",
+    "A001783",
+    "A010051",
+    "A013939",
+    "A048597",
+    "A070296",
+    "A093614"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

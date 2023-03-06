@@ -1,0 +1,19 @@
+{
+  "description": "Reduced numerators of the raw moments of the distribution of areas for triangles picked at random in a unit square.",
+  "id": "A093158",
+  "mentions": [
+    "A093159"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

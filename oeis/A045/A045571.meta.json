@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are palindromic, divisible by 11 and have an odd number of digits.",
+  "id": "A045571",
+  "mentions": [
+    "A056525",
+    "A083852"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

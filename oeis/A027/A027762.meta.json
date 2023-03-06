@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum_{p prime, p-1 divides 2*n} 1/p.",
+  "id": "A027762",
+  "mentions": [
+    "A002445",
+    "A006954",
+    "A027760",
+    "A027761"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:29",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

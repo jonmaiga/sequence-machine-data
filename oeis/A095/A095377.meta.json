@@ -1,0 +1,23 @@
+{
+  "description": "Values of k such that the total number of 1's in the binary expansions of the first k primes is a multiple of k.",
+  "id": "A095377",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A014499",
+    "A095375"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

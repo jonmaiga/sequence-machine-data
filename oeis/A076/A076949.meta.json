@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of c, the constant such that lim n -> infinity A003095(n)/c^(2^n) = 1.",
+  "id": "A076949",
+  "mentions": [
+    "A003095",
+    "A077496",
+    "A213437",
+    "A258112",
+    "A258113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

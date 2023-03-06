@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients in 1/(1+P(x)), where P(x) is the generating function of the primes.",
+  "id": "A030018",
+  "mentions": [
+    "A000040",
+    "A072508",
+    "A340991"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Greatest common prime divisor of n and sigma_2(n) = A001157(n), or 1 if the two are relatively prime.",
+  "id": "A082063",
+  "mentions": [
+    "A001157",
+    "A006530",
+    "A082061",
+    "A082062",
+    "A082064",
+    "A082065",
+    "A082066",
+    "A082069",
+    "A179930"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

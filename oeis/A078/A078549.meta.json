@@ -1,0 +1,24 @@
+{
+  "description": "Non-balanced numbers in A015771.",
+  "id": "A078549",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A015771",
+    "A020492",
+    "A078539",
+    "A078544",
+    "A078550"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

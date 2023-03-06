@@ -1,0 +1,17 @@
+{
+  "description": "Let v(1)=v(2)=v(3)=1, v(n)=(-1)^n*sign(v(n-1)-v(n-2))*v(n-3), then a(n) =1+v(n).",
+  "id": "A076447",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

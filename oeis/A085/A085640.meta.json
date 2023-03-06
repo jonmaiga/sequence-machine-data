@@ -1,0 +1,18 @@
+{
+  "description": "Resultant of the polynomial x^3-1 and the Chebyshev polynomial of the first kind T_n(x).",
+  "id": "A085640",
+  "mentions": [
+    "A086840"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

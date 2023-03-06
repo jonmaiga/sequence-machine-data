@@ -1,0 +1,15 @@
+{
+  "description": "Average theta series of odd unimodular lattices of dimension 21 (multiplied by 5412941).",
+  "id": "A029822",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

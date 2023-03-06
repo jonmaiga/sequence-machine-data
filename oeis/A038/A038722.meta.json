@@ -1,0 +1,34 @@
+{
+  "description": "Take the sequence of natural numbers (A000027) and reverse successive subsequences of lengths 1,2,3,4,... .",
+  "id": "A038722",
+  "mentions": [
+    "A000027",
+    "A000122",
+    "A000124",
+    "A000217",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A020703",
+    "A056011",
+    "A061579",
+    "A121373",
+    "A132664",
+    "A132665",
+    "A132666",
+    "A132674"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

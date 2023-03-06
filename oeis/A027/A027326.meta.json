@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..m} (k+1) * A026120(n, k), where m=0 for n=0,1; m=n for n >= 2.",
+  "id": "A027326",
+  "mentions": [
+    "A026120"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers p satisfying the following conditions: p is a prime of form 10k+9 and the function f[p,7,10] applied to p is not greater than 5, where f[p,7,10]=10*fractionalpart[n/70]=1*.((n/70)-Floor[n/70]).",
+  "id": "A089724",
+  "mentions": [
+    "A034433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

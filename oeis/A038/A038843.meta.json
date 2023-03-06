@@ -1,0 +1,20 @@
+{
+  "description": "Unitary superperfect numbers: numbers n such that usigma(usigma(n)) = 2*n, where usigma(n) is the sum of unitary divisors of n (A034448).",
+  "id": "A038843",
+  "mentions": [
+    "A019279",
+    "A034448",
+    "A064012"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

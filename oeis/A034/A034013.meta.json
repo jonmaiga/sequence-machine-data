@@ -1,0 +1,21 @@
+{
+  "description": "Values x corresponding to the k in A034012.",
+  "id": "A034013",
+  "mentions": [
+    "A034011",
+    "A034012",
+    "A034014"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

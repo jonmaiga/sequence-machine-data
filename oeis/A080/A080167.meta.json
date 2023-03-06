@@ -1,0 +1,23 @@
+{
+  "description": "Primes beginning with '10' and ending with '01' in binary representation.",
+  "id": "A080167",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A004676",
+    "A030101",
+    "A074832",
+    "A080165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

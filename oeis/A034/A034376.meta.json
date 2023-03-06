@@ -1,0 +1,21 @@
+{
+  "description": "Cubes with all digits even.",
+  "id": "A034376",
+  "mentions": [
+    "A030099",
+    "A030100",
+    "A052004"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

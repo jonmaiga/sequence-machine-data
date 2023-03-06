@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) counts plane partitions of n+1 that can be 'shrunk' in k ways to a plane partition of n by removing 1 element from it. Equivalently, it counts how many partitions of n+1 have k different partitions of n it just covers.",
+  "id": "A098529",
+  "mentions": [
+    "A000219",
+    "A007425",
+    "A090984",
+    "A096574",
+    "A120565"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

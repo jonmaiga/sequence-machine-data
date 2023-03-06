@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = EulerPhi(n^n).",
+  "id": "A064447",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

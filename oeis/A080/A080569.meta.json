@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first number in the first run of at least n successive numbers, all having exactly 3 distinct prime factors.",
+  "id": "A080569",
+  "mentions": [
+    "A048932",
+    "A064708",
+    "A064709",
+    "A185032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

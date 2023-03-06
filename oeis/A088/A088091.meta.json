@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that the smallest palindrome beginning with p with odd number of digits is also a palindrome.",
+  "id": "A088091",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

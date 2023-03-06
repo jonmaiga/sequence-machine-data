@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted trees with 2-colored leaves.",
+  "id": "A029856",
+  "mentions": [
+    "A000081",
+    "A029857",
+    "A036249",
+    "A038049"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

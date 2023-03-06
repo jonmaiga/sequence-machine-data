@@ -1,0 +1,32 @@
+{
+  "description": "Maximal coefficient of Product_{k<=n} (1 + x^k). Number of solutions to +- 1 +- 2 +- 3 +- ... +- n = 0 or 1.",
+  "id": "A025591",
+  "mentions": [
+    "A000009",
+    "A000980",
+    "A039828",
+    "A053632",
+    "A063865",
+    "A063866",
+    "A063867",
+    "A069918",
+    "A083309",
+    "A083527",
+    "A086376",
+    "A160235",
+    "A359319",
+    "A359320"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "A list of equal temperaments (equal divisions of the octave) whose nearest scale steps are closer and closer approximations to the pair of ratios 5/4 and 8/5 which generate two complementary tones of musical harmony, the Major 3rd (5/4) and the Minor 6th (8/5).",
+  "id": "A061918",
+  "mentions": [
+    "A054540",
+    "A060233",
+    "A060525",
+    "A060526",
+    "A060527",
+    "A060528",
+    "A060529",
+    "A061416"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

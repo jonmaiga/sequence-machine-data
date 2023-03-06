@@ -1,0 +1,20 @@
+{
+  "description": "Let u(1)=0, u(2)=1, u(k)=u(k-1)+u(k-2)/(k-2); then a(n)=n!*u(n).",
+  "id": "A086325",
+  "mentions": [
+    "A000166",
+    "A000246",
+    "A000274"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

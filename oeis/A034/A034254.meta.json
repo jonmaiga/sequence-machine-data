@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows giving T(n,k) = number of inequivalent indecomposable linear [ n,k ] binary codes without 0 columns (n >= 2, 1 <= k <= n).",
+  "id": "A034254",
+  "mentions": [
+    "A000012",
+    "A034253",
+    "A034350",
+    "A034351",
+    "A034352",
+    "A034353",
+    "A034354",
+    "A034355",
+    "A069905",
+    "A076836"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{gcd(i,j) | 0 < i <= j < n and i+j = n}.",
+  "id": "A060992",
+  "mentions": [
+    "A234307"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

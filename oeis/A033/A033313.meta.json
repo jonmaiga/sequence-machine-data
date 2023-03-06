@@ -1,0 +1,23 @@
+{
+  "description": "Smallest positive integer x satisfying the Pell equation x^2 - D*y^2 = 1 for nonsquare D and positive y.",
+  "id": "A033313",
+  "mentions": [
+    "A000037",
+    "A000924",
+    "A002350",
+    "A033317",
+    "A077232",
+    "A077233"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

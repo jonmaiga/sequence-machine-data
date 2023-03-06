@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the largest power of 3 dividing k equals 3^omega(k).",
+  "id": "A039700",
+  "mentions": [
+    "A001221",
+    "A023534",
+    "A038500"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:45",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

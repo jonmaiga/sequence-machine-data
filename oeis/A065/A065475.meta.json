@@ -1,0 +1,31 @@
+{
+  "description": "Natural numbers excluding 2.",
+  "id": "A065475",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000203",
+    "A002808",
+    "A003016",
+    "A006005",
+    "A007318",
+    "A008578",
+    "A018252",
+    "A048050",
+    "A065090",
+    "A065091",
+    "A097330"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:37",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

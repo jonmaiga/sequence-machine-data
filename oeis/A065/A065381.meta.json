@@ -1,0 +1,28 @@
+{
+  "description": "Primes not of the form p + 2^k, p prime and k >= 0.",
+  "id": "A065381",
+  "mentions": [
+    "A000040",
+    "A006285",
+    "A010051",
+    "A049084",
+    "A065380",
+    "A078687",
+    "A094076",
+    "A098237",
+    "A102630",
+    "A118958",
+    "A156695"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of primes with odd exponents in the prime power factorization of n!.",
+  "id": "A055460",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001221",
+    "A007913",
+    "A008833",
+    "A050376",
+    "A055204",
+    "A162642",
+    "A241289",
+    "A249016",
+    "A249017",
+    "A348841"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

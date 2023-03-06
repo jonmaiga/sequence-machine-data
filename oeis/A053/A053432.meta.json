@@ -1,0 +1,35 @@
+{
+  "description": "Numbers with digits in alphabetical order (in English).",
+  "id": "A053432",
+  "mentions": [
+    "A053433",
+    "A161390",
+    "A247750",
+    "A247751",
+    "A247752",
+    "A247753",
+    "A247754",
+    "A247755",
+    "A247756",
+    "A247757",
+    "A247758",
+    "A247759",
+    "A247760",
+    "A247761",
+    "A247762",
+    "A247764"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

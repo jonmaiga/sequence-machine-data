@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum-of-digits(A075696(n)).",
+  "id": "A075697",
+  "mentions": [
+    "A007953",
+    "A075696",
+    "A075698"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

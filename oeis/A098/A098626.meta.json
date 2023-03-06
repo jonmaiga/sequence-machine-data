@@ -1,0 +1,24 @@
+{
+  "description": "Consider the family of directed multigraphs enriched by the species of derangements. Sequence gives number of those multigraphs with n labeled loops and arcs.",
+  "id": "A098626",
+  "mentions": [
+    "A000166",
+    "A014507",
+    "A038205",
+    "A098622",
+    "A098624",
+    "A098625",
+    "A098627"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

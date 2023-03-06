@@ -1,0 +1,21 @@
+{
+  "description": "GCD-convolution of squares A000290 with themselves.",
+  "id": "A033457",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A069097"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

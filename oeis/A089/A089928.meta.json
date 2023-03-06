@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2*a(n-1) + 2*a(n-3) + a(n-4), with a(0)=1, a(1)=2, a(3)=4, a(4)=10.",
+  "id": "A089928",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A006498",
+    "A057077",
+    "A079291",
+    "A114620"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

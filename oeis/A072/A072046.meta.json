@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisor of product of divisors of n and product of non-divisors < n.",
+  "id": "A072046",
+  "mentions": [
+    "A007955",
+    "A055067"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nim-product n*(n+1).",
+  "id": "A058734",
+  "mentions": [
+    "A003987",
+    "A006042",
+    "A051775"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Multinomial coefficient n!/ ([n/4]!, [(n+1)/4]!, [(n+2)/4]!, [(n+3)/4]!).",
+  "id": "A022917",
+  "mentions": [
+    "A001405",
+    "A022916"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

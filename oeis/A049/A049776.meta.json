@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array T read by rows: n-th row consists of fixed points, k, of n-th row of array t given by A049773; i.e., t(n, t(n,k)) = t(n,k).",
+  "id": "A049776",
+  "mentions": [
+    "A049773"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:37",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

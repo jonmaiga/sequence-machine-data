@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A085002.",
+  "id": "A085003",
+  "mentions": [
+    "A083035",
+    "A083036",
+    "A083037",
+    "A083038",
+    "A085002",
+    "A085004",
+    "A085005",
+    "A283766"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

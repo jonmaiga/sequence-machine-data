@@ -1,0 +1,19 @@
+{
+  "description": "Primes P of the form P=(j*P(i)#)/2 - 2 such that P+4 is the next prime, where j is odd, 0 < j < P(i+1), P(i) = i-th prime, P(i)# = i-th primorial (A002110).",
+  "id": "A087820",
+  "mentions": [
+    "A002110",
+    "A087821",
+    "A087822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

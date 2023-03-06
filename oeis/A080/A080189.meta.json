@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = k such that f^k(prime(n)) = 2, where f is the mapping of primes > 2 to primes defined by A052248.",
+  "id": "A080189",
+  "mentions": [
+    "A052248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

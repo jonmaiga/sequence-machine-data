@@ -1,0 +1,24 @@
+{
+  "description": "Nonnegative numbers excluding 1.",
+  "id": "A087156",
+  "mentions": [
+    "A000027",
+    "A006589",
+    "A026835",
+    "A063524",
+    "A163300",
+    "A166373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:52:49",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

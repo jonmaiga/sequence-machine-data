@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers whose number of distinct prime factors is positive and even.",
+  "id": "A098905",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

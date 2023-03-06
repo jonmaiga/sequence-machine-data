@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Molien series for 8-dimensional real Clifford group 2^{1+6}.Alt_8.2 of genus 3 and order 5160960.",
+  "id": "A024186",
+  "mentions": [
+    "A008621",
+    "A008718"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:25",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

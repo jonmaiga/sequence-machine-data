@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place non-crossing diagonals in convex (n+4)-gon so as to create no triangles or quadrilaterals.",
+  "id": "A054514",
+  "mentions": [
+    "A003168",
+    "A046736",
+    "A049124",
+    "A054515"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:43:28",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

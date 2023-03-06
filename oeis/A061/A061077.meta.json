@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the products of the digits of the first n odd numbers.",
+  "id": "A061077",
+  "mentions": [
+    "A061076",
+    "A061078"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

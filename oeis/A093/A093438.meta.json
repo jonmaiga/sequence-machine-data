@@ -1,0 +1,17 @@
+{
+  "description": "Least distinct prime p such that p-1 has the prime signature of n, or 0 if no such prime exists.",
+  "id": "A093438",
+  "mentions": [
+    "A093439"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

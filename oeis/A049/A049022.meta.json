@@ -1,0 +1,17 @@
+{
+  "description": "Recurring combinations: a(n) = C(a(n-1),a(n-2)).",
+  "id": "A049022",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

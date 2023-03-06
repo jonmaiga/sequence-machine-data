@@ -1,0 +1,21 @@
+{
+  "description": "Products of split primes associated with A053008.",
+  "id": "A053010",
+  "mentions": [
+    "A053008",
+    "A053009"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:03",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

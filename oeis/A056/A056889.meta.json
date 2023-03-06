@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction for left factorial.",
+  "id": "A056889",
+  "mentions": [
+    "A056890",
+    "A058797"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

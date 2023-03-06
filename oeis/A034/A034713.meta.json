@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet convolution of powers of 2 (2,4,8,...) with themselves.",
+  "id": "A034713",
+  "mentions": [
+    "A000079",
+    "A034733"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:47:54",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

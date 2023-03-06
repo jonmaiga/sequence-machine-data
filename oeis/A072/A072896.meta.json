@@ -1,0 +1,20 @@
+{
+  "description": "5th-order digital invariants: the sum of the 5th powers of the digits of n equals some number k and the sum of the 5th powers of the digits of k equals n.",
+  "id": "A072896",
+  "mentions": [
+    "A072409"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients related to tennis ball problem.",
+  "id": "A079518",
+  "mentions": [
+    "A079513",
+    "A079514",
+    "A079515",
+    "A079516",
+    "A079517",
+    "A079519"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

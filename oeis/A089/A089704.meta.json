@@ -1,0 +1,18 @@
+{
+  "description": "Primes in which the unit place digit is 1 and the k-th most significant digit is prime (2,3,5,7) if k is prime else is composite (4,6,8,9,0).",
+  "id": "A089704",
+  "mentions": [
+    "A089705"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

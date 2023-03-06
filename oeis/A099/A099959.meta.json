@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: Each row is constructed by forming the partial sums of the previous row, reading from the right and at every other row repeating the final term.",
+  "id": "A099959",
+  "mentions": [
+    "A008282",
+    "A099960",
+    "A099961"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

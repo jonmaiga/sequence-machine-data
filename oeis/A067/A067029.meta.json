@@ -1,0 +1,29 @@
+{
+  "description": "Exponent of least prime factor in prime factorization of n, a(1)=0.",
+  "id": "A067029",
+  "mentions": [
+    "A001511",
+    "A007814",
+    "A020639",
+    "A028233",
+    "A028234",
+    "A034684",
+    "A051903",
+    "A071178",
+    "A124010",
+    "A215366",
+    "A247180"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

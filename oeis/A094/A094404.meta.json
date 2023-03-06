@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of low-water marks of mu(n)/n, where mu(n) is A002034.",
+  "id": "A094404",
+  "mentions": [
+    "A002034",
+    "A094371",
+    "A094372",
+    "A094634"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Table by antidiagonals of number of ways of choosing k items from n*k.",
+  "id": "A060539",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000384",
+    "A000984",
+    "A001449",
+    "A004355",
+    "A004368",
+    "A005809",
+    "A005810",
+    "A006566",
+    "A007318",
+    "A014062",
+    "A060538",
+    "A060541"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

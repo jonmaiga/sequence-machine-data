@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the sum of two powers of 2.",
+  "id": "A072823",
+  "mentions": [
+    "A000027",
+    "A048645",
+    "A073267"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Seventh column of (1,5)-Pascal triangle A096940.",
+  "id": "A096944",
+  "mentions": [
+    "A000579",
+    "A096940",
+    "A096943",
+    "A096945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:51",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

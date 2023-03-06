@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 5 is the largest of all prime factors of the numbers between p and the next prime (cf. A052248).",
+  "id": "A080185",
+  "mentions": [
+    "A001359",
+    "A003586",
+    "A051037",
+    "A052248",
+    "A080193"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

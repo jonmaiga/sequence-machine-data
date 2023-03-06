@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to Gamma(n + 1/6)/Gamma(1/6).",
+  "id": "A020036",
+  "mentions": [
+    "A008542",
+    "A020081",
+    "A020126"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:07:12",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

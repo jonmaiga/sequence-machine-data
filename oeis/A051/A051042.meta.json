@@ -1,0 +1,18 @@
+{
+  "description": "Number of ternary cubefree words of length n.",
+  "id": "A051042",
+  "mentions": [
+    "A028445"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

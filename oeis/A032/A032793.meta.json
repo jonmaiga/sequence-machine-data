@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are congruent to {1, 2, 4} mod 5.",
+  "id": "A032793",
+  "mentions": [
+    "A032794",
+    "A032795"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

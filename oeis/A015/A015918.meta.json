@@ -1,0 +1,15 @@
+{
+  "description": "Inverse of 1909th cyclotomic polynomial.",
+  "id": "A015918",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 15:31:33",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

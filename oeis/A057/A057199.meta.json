@@ -1,0 +1,20 @@
+{
+  "description": "The first nontrivial (k>n+2) palindromic prime in both bases n and n+2 or -1 if it does not exist.",
+  "id": "A057199",
+  "mentions": [
+    "A048269",
+    "A083577"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

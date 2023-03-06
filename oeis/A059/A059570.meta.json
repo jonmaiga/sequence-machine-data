@@ -1,0 +1,33 @@
+{
+  "description": "Number of fixed points in all 231-avoiding involutions in S_n.",
+  "id": "A059570",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A001787",
+    "A001792",
+    "A008619",
+    "A027934",
+    "A045623",
+    "A045891",
+    "A059260",
+    "A078008",
+    "A127984",
+    "A128255",
+    "A172481",
+    "A175654",
+    "A225084"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

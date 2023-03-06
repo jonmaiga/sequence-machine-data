@@ -1,0 +1,18 @@
+{
+  "description": "Advancing position of digits of Pi in e.",
+  "id": "A093648",
+  "mentions": [
+    "A090898"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

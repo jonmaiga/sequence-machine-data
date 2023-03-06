@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|5} phi(d)*n^(5/d).",
+  "id": "A054604",
+  "mentions": [
+    "A185651"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

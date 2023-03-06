@@ -1,0 +1,18 @@
+{
+  "description": "Numbers in A064383 that are squarefree.",
+  "id": "A064392",
+  "mentions": [
+    "A064383"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

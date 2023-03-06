@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi + 1/Pi.",
+  "id": "A098801",
+  "mentions": [
+    "A000796",
+    "A049541"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:28:15",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

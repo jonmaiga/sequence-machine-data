@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the sequence starting with prime(n) and having prime sum defined in A071194, or -1 if no such sequence exists.",
+  "id": "A071196",
+  "mentions": [
+    "A000040",
+    "A071194",
+    "A071195",
+    "A071197",
+    "A071198"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

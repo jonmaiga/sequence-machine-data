@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(n) = 27*n^2 + 2 for n>0.",
+  "id": "A010017",
+  "mentions": [
+    "A000408",
+    "A005918",
+    "A206399"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:55",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

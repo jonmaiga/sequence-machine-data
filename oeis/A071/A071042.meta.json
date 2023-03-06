@@ -1,0 +1,21 @@
+{
+  "description": "Number of 0's in n-th row of triangle in A070886.",
+  "id": "A071042",
+  "mentions": [
+    "A001316",
+    "A048967",
+    "A070886",
+    "A071038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

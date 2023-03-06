@@ -1,0 +1,18 @@
+{
+  "description": "Number of invertible (-1,0,1) n X n matrices having (Tij=-Tji; i",
+  "id": "A086243",
+  "mentions": [
+    "A072110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

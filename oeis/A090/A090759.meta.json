@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n which occur at least twice in A001600.",
+  "id": "A090759",
+  "mentions": [
+    "A001600",
+    "A090240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Product{k=1 to n}[S(n,k)], where S(n,k) is a Stirling number of the second kind. (S(n,k) = number of ways of partitioning a set of n elements into k nonempty subsets.)",
+  "id": "A058808",
+  "mentions": [
+    "A001620",
+    "A058807",
+    "A294373"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Write n in binary; a(n) = number of 1's in second block of 1's from right.",
+  "id": "A089310",
+  "mentions": [
+    "A089309",
+    "A089313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

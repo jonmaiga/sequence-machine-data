@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime q of form q=-1+(c+1)*10^w, where c runs through composites not divisible by 3.",
+  "id": "A073928",
+  "mentions": [
+    "A002808",
+    "A055785"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

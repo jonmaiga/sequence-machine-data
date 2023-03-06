@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as sum of a prime and an 3-smooth number.",
+  "id": "A081308",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A010051",
+    "A081309",
+    "A081310",
+    "A081311",
+    "A081312",
+    "A081313"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

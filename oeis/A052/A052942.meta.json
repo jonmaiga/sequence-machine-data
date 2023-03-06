@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1+x)*(1-2*x+2*x^2-2*x^3)).",
+  "id": "A052942",
+  "mentions": [
+    "A128099",
+    "A143453"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

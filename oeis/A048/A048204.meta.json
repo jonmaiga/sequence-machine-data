@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=T(n+1,n), array T given by A048201.",
+  "id": "A048204",
+  "mentions": [
+    "A004978",
+    "A048201"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

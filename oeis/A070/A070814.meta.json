@@ -1,0 +1,29 @@
+{
+  "description": "Solutions to phi(gpf(x)) - gpf(phi(x)) = 14 = c are special multiples of 17, x = 17k, where greatest prime factors of factor k were observed from {2, 3, 5}, i.e., it is smaller than 17. See solutions to other even cases of c (=A070813): A007283 for 0, A070004 for 2, A070815 for 254, A070816 for 65534. Gpf = greatest prime factor.",
+  "id": "A070814",
+  "mentions": [
+    "A000010",
+    "A000215",
+    "A006530",
+    "A007283",
+    "A070002",
+    "A070003",
+    "A070004",
+    "A070777",
+    "A070812",
+    "A070813",
+    "A070815",
+    "A070816"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

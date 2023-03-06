@@ -1,0 +1,18 @@
+{
+  "description": "Boolean XOR of (0,1) versions of Thue-Morse word (A010060) and Fibonacci word (A003849).",
+  "id": "A080887",
+  "mentions": [
+    "A003849",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

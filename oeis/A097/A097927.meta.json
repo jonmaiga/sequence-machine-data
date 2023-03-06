@@ -1,0 +1,18 @@
+{
+  "description": "If a(n-1) is divisible by 2 then a(n) = a(n-1)/2. If a(n-1) is not divisible by 2 then a(n) = 47-(a(n-1)+1)/2; a(0)=1.",
+  "id": "A097927",
+  "mentions": [
+    "A097945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:43",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Least m such that phi(m) = n!.",
+  "id": "A055487",
+  "mentions": [
+    "A000010",
+    "A000142",
+    "A002981",
+    "A055486",
+    "A055488",
+    "A055489",
+    "A055506",
+    "A123476",
+    "A165773",
+    "A165774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

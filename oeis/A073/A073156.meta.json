@@ -1,0 +1,21 @@
+{
+  "description": "Main diagonal sequence of triangle A073153.",
+  "id": "A073156",
+  "mentions": [
+    "A073153",
+    "A073155",
+    "A073157"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:41:58",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

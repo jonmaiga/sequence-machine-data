@@ -1,0 +1,22 @@
+{
+  "description": "Primes of form x^2+xy+3y^2, discriminant -11.",
+  "id": "A056874",
+  "mentions": [
+    "A002346",
+    "A002347",
+    "A028954",
+    "A106856",
+    "A191020"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

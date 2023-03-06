@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of D-analogs of Stirling numbers of first kind.",
+  "id": "A039762",
+  "mentions": [
+    "A039757",
+    "A039758",
+    "A039763"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:03:40",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

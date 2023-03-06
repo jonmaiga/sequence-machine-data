@@ -1,0 +1,21 @@
+{
+  "description": "Least integers that satisfy Sum_{n>=1} 1/a(n)^z = 0, where a(1)=1, a(n+1) > a(n) and z = i*Pi/2.",
+  "id": "A084814",
+  "mentions": [
+    "A084812",
+    "A084813",
+    "A084815",
+    "A084818"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

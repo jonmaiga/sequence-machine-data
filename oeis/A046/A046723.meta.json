@@ -1,0 +1,18 @@
+{
+  "description": "Number of semi-meanders of order n with 4 components.",
+  "id": "A046723",
+  "mentions": [
+    "A000682",
+    "A046726"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 4,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

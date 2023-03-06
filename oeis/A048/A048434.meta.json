@@ -1,0 +1,21 @@
+{
+  "description": "Smallest denominator of fraction using palindromes that approximates 'phi' to at least n digits after the decimal point.",
+  "id": "A048434",
+  "mentions": [
+    "A001622",
+    "A048433"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

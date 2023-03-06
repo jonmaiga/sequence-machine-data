@@ -1,0 +1,24 @@
+{
+  "description": "One half of product of first n+1 Lucas numbers A000032.",
+  "id": "A070825",
+  "mentions": [
+    "A000032",
+    "A003046",
+    "A003266",
+    "A101690",
+    "A135407",
+    "A218490"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

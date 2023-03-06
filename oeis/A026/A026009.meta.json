@@ -1,0 +1,38 @@
+{
+  "description": "Triangular array T read by rows: T(n,0) = 1 for n >= 0; T(1,1) = 1; and for n >= 2, T(n,k) = T(n-1,k-1) + T(n-1,k) for k = 1,2,...,[(n+1)/2]; T(n,n/2 + 1) = T(n-1,n/2) if n is even.",
+  "id": "A026009",
+  "mentions": [
+    "A000217",
+    "A000245",
+    "A026010",
+    "A026012",
+    "A026013",
+    "A026014",
+    "A026015",
+    "A026016",
+    "A026017",
+    "A026018",
+    "A026019",
+    "A026020",
+    "A026021",
+    "A027287",
+    "A027288",
+    "A027289",
+    "A027290",
+    "A027291",
+    "A027292"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:47",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

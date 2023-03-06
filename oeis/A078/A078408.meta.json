@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to partition 2n+1 into distinct positive integers.",
+  "id": "A078408",
+  "mentions": [
+    "A000009",
+    "A005408",
+    "A010815",
+    "A035294",
+    "A078409",
+    "A078410",
+    "A079211"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

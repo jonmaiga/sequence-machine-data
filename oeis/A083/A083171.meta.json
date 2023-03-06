@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the arithmetic mean of the n-th row of triangle A083167.",
+  "id": "A083171",
+  "mentions": [
+    "A083167",
+    "A083168",
+    "A083169",
+    "A083170",
+    "A083172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

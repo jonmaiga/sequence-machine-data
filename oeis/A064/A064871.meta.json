@@ -1,0 +1,26 @@
+{
+  "description": "The minimal number which has multiplicative persistence 7 in base n.",
+  "id": "A064871",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A064867",
+    "A064868",
+    "A064869",
+    "A064870",
+    "A064872"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 9,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

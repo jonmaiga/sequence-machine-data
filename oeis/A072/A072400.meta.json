@@ -1,0 +1,23 @@
+{
+  "description": "(Factors of 4 removed from n) modulo 8.",
+  "id": "A072400",
+  "mentions": [
+    "A000378",
+    "A004215",
+    "A057427",
+    "A065883",
+    "A072401",
+    "A286366"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

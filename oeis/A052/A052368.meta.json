@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that p+7! is also prime.",
+  "id": "A052368",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:37",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

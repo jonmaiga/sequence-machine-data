@@ -1,0 +1,24 @@
+{
+  "description": "Squarefree numbers congruent to 3 mod 4.",
+  "id": "A039957",
+  "mentions": [
+    "A003657",
+    "A039955",
+    "A039956",
+    "A089269",
+    "A185197",
+    "A191483"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

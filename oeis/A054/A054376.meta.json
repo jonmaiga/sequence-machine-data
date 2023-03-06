@@ -1,0 +1,18 @@
+{
+  "description": "Table of resultants for Chebyshev polynomials U_k(x) and U_n(x).",
+  "id": "A054376",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

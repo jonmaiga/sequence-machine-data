@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = gcd(A000055(n), A000055(n+1)).",
+  "id": "A083202",
+  "mentions": [
+    "A000055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

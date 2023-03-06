@@ -1,0 +1,27 @@
+{
+  "description": "Number of prime pairs (p,q), p <= q, such that (p+q)/2 = 2*n.",
+  "id": "A069360",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A010051",
+    "A082467",
+    "A134677",
+    "A134678",
+    "A135146",
+    "A260689"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of the hypotenuse of right triangles with consecutive prime legs.",
+  "id": "A097431",
+  "mentions": [
+    "A069484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "description": "Triangle read by rows: T(n,k) = |s(n,n+1-k)|, where s(n,k) are the signed Stirling numbers of the first kind A008276 (1 <= k <= n; in other words, the unsigned Stirling numbers of the first kind in reverse order).",
+  "id": "A094638",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A000217",
+    "A000914",
+    "A000915",
+    "A000984",
+    "A001147",
+    "A001246",
+    "A001303",
+    "A001701",
+    "A001710",
+    "A001715",
+    "A001720",
+    "A002897",
+    "A006134",
+    "A007559",
+    "A008275",
+    "A008276",
+    "A008277",
+    "A008297",
+    "A008544",
+    "A014137",
+    "A033536",
+    "A053567",
+    "A079727",
+    "A082894",
+    "A084938",
+    "A094639",
+    "A121586",
+    "A124380",
+    "A130534",
+    "A133314",
+    "A143491",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

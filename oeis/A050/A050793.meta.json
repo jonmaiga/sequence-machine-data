@@ -1,0 +1,19 @@
+{
+  "description": "Consider the Diophantine equation x^3 + y^3 = z^3 + 1 (1",
+  "id": "A050793",
+  "mentions": [
+    "A050791",
+    "A050792",
+    "A050794"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

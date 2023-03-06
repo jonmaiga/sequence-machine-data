@@ -1,0 +1,19 @@
+{
+  "description": "Integer part of the conversion from Fahrenheit to Centigrade.",
+  "id": "A085268",
+  "mentions": [
+    "A085259"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 32,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

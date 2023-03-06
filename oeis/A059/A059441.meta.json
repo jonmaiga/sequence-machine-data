@@ -1,0 +1,38 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, 0 <= k <= n-1) giving number of regular labeled graphs with n nodes and degree k, read by rows.",
+  "id": "A059441",
+  "mentions": [
+    "A001147",
+    "A001205",
+    "A002829",
+    "A005815",
+    "A051031",
+    "A058891",
+    "A123023",
+    "A295193",
+    "A319189",
+    "A319190",
+    "A319612",
+    "A319729",
+    "A322635",
+    "A322659",
+    "A322698",
+    "A322704",
+    "A324163",
+    "A333351",
+    "A338978",
+    "A339847"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

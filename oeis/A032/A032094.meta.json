@@ -1,0 +1,26 @@
+{
+  "description": "Number of reversible strings with n-1 beads of 2 colors. 7 beads are black. String is not palindromic.",
+  "id": "A032094",
+  "mentions": [
+    "A000292",
+    "A005995",
+    "A018210",
+    "A031164",
+    "A032091",
+    "A032092",
+    "A032093",
+    "A159916"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:58:51",
+    "offset": 9,
+    "size": 34,
+    "source": "joeis"
+  }
+}

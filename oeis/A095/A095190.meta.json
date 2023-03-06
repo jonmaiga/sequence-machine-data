@@ -1,0 +1,25 @@
+{
+  "description": "Doubled Thue-Morse sequence: the A010060 sequence replacing 0 with 0,0 and 1 with 1,1.",
+  "id": "A095190",
+  "mentions": [
+    "A000120",
+    "A010059",
+    "A010060",
+    "A096273",
+    "A096288",
+    "A096289",
+    "A318921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

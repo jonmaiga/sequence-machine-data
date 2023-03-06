@@ -1,0 +1,19 @@
+{
+  "description": "Sum of next n odd interprimes.",
+  "id": "A075674",
+  "mentions": [
+    "A007468",
+    "A075673",
+    "A075675"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Given the infinite continued fraction (1+i)+((1+i)/(1+i)+((1+i)/((1+i)+...)))), where i is the square root of (-1), this is the denominator of the convergents.",
+  "id": "A093727",
+  "mentions": [
+    "A091806",
+    "A091807",
+    "A091808",
+    "A091809",
+    "A093725",
+    "A093726"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

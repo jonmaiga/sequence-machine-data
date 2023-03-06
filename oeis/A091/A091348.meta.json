@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 24*5^n - 60*4^n + 50*3^n - 15*2^n + 1.",
+  "id": "A091348",
+  "mentions": [
+    "A091344",
+    "A091347"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

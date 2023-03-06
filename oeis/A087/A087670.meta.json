@@ -1,0 +1,18 @@
+{
+  "description": "The first integer in the sequence defined by b(0)=(2n+1)/n and b(k+1)=b(k)*floor(b(k)) for k>=0.",
+  "id": "A087670",
+  "mentions": [
+    "A087666",
+    "A087669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

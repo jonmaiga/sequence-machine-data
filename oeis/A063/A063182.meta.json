@@ -1,0 +1,19 @@
+{
+  "description": "Number of cyclic subgroups of the group S_n X S_n (where S_n is the symmetric group of degree n).",
+  "id": "A063182",
+  "mentions": [
+    "A051625",
+    "A060648",
+    "A063183"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

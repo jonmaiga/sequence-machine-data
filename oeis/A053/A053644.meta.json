@@ -1,0 +1,40 @@
+{
+  "description": "Most significant bit of n, msb(n); largest power of 2 less than or equal to n; write n in binary and change all but the first digit to zero.",
+  "id": "A053644",
+  "mentions": [
+    "A000010",
+    "A000035",
+    "A000523",
+    "A003817",
+    "A030101",
+    "A048678",
+    "A055975",
+    "A062383",
+    "A063915",
+    "A065267",
+    "A065279",
+    "A065291",
+    "A072376",
+    "A073121",
+    "A076877",
+    "A079944",
+    "A088370",
+    "A091940",
+    "A135416",
+    "A160464",
+    "A265705"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

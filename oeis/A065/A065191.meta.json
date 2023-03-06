@@ -1,0 +1,23 @@
+{
+  "description": "Limit of the recursion B_[k] = T[k](B_[k-1]), where B_[1] = (1,2,3,4,5,...) and T[k] is the transformation that permutes the entries k(2i-1) + j and k(2i) + j for all j = 0,..,k-1 and positive integers i.",
+  "id": "A065191",
+  "mentions": [
+    "A065192",
+    "A065193",
+    "A065194",
+    "A065195",
+    "A065196",
+    "A065197"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

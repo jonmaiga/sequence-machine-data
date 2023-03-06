@@ -1,0 +1,19 @@
+{
+  "description": "Let f be a function on rationals p/q (p,q coprime) defined by f(p/q) = abs(p-q)/g(p), where g(p) is the next odd number (starting with p) that we get after iteration of h(n) = n/2 when n is even, 3n-1 when n is odd. Start with f(n/1) and iterate f until it reaches again an integer, which is a(n). If no integer is reached, then a(n)=0.",
+  "id": "A063256",
+  "mentions": [
+    "A062366",
+    "A063257",
+    "A063268"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

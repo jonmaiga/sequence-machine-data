@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A050405.",
+  "id": "A052206",
+  "mentions": [
+    "A050405",
+    "A093644"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:55",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

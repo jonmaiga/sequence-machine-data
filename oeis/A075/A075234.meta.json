@@ -1,0 +1,28 @@
+{
+  "description": "Least k such that k^n is the smallest interprime which is an n-th power.",
+  "id": "A075234",
+  "mentions": [
+    "A024675",
+    "A072568",
+    "A072569",
+    "A075190",
+    "A075191",
+    "A075192",
+    "A075228",
+    "A075229",
+    "A075230",
+    "A075231",
+    "A075232",
+    "A075233"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

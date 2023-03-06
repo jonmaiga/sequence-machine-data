@@ -1,0 +1,18 @@
+{
+  "description": "Product{[n/k + 1/2]: k=1,2,...,n}, where [x + 1/2] denotes the integer nearest to x.",
+  "id": "A075999",
+  "mentions": [
+    "A010786",
+    "A075998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

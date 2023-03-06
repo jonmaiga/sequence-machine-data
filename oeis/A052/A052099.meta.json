@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nonzero square with n distinct digits each occurring exactly n times.",
+  "id": "A052099",
+  "mentions": [
+    "A052070",
+    "A052093",
+    "A052098"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

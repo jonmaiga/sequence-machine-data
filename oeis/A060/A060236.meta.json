@@ -1,0 +1,27 @@
+{
+  "description": "If n mod 3 = 0 then a(n) = a(n/3), otherwise a(n) = n mod 3.",
+  "id": "A060236",
+  "mentions": [
+    "A005148",
+    "A007089",
+    "A026140",
+    "A026179",
+    "A026225",
+    "A030341",
+    "A038502",
+    "A060032",
+    "A080846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:37:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime factors of numbers containing in their decimal representation only the digits 0 and 1 (counted with multiplicity).",
+  "id": "A077808",
+  "mentions": [
+    "A001222",
+    "A007088",
+    "A077807"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

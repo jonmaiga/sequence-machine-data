@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) for n > 1 is the smallest multiple of a(n-1) that begins with n concatenations of n.",
+  "id": "A078398",
+  "mentions": [
+    "A078399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

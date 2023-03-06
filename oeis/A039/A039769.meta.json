@@ -1,0 +1,20 @@
+{
+  "description": "Composite integers k such that gcd(phi(k), k - 1) > 1.",
+  "id": "A039769",
+  "mentions": [
+    "A000010",
+    "A071904",
+    "A181780"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

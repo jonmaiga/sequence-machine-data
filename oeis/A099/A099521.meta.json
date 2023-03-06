@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is such that A099520(a(n))=n.",
+  "id": "A099521",
+  "mentions": [
+    "A099506",
+    "A099507",
+    "A099520"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

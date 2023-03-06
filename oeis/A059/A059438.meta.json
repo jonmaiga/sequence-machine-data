@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) read by rows: T(n,k) is the number of permutations of [1..n] with k components.",
+  "id": "A059438",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A003319",
+    "A055998",
+    "A059439",
+    "A059440",
+    "A084938",
+    "A085771",
+    "A263484",
+    "A308650",
+    "A357078",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

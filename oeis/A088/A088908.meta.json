@@ -1,0 +1,19 @@
+{
+  "description": "Numbers expressible as sum or difference of the squares of two distinct primes.",
+  "id": "A088908",
+  "mentions": [
+    "A001481",
+    "A062316",
+    "A088909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

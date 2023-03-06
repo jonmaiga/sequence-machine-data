@@ -1,0 +1,22 @@
+{
+  "description": "Reading binary expansion from right to left, run lengths strictly decrease.",
+  "id": "A037013",
+  "mentions": [
+    "A037014",
+    "A037015",
+    "A037016"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

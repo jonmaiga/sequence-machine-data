@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers F(k) for k squarefree (A005117).",
+  "id": "A075731",
+  "mentions": [
+    "A000045",
+    "A005117",
+    "A061305"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

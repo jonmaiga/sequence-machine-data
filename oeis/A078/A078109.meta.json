@@ -1,0 +1,20 @@
+{
+  "description": "Let u(1)=u(2)=1, u(3)=2n, u(k) = abs(u(k-1)-u(k-2)-u(k-3)) and M(k)= Max( u(i) : 1<=i<=k), then for any k>=a(n), M(k)=sqrtint(k + A078108(n)) where sqrtint(x) denotes floor(sqrt(x)).",
+  "id": "A078109",
+  "mentions": [
+    "A000196",
+    "A077623",
+    "A078098",
+    "A078108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

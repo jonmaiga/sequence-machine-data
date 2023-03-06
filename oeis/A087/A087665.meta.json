@@ -1,0 +1,19 @@
+{
+  "description": "Consider recurrence b(0) = n/4, b(k) = b(k-1)*floor(b(k-1)); sequence gives first integer reached, or -1 if no integer is ever reached.",
+  "id": "A087665",
+  "mentions": [
+    "A087664",
+    "A087667",
+    "A087668"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 8,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows of number of Catalan paths (nonnegative, starting and ending at 0, step +/-1) of 2n steps with all values less than or equal to k.",
+  "id": "A080935",
+  "mentions": [
+    "A000108",
+    "A079214",
+    "A080934",
+    "A080936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

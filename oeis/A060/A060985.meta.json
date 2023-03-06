@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n) + (largest triangular number <= a(n)).",
+  "id": "A060985",
+  "mentions": [
+    "A057944",
+    "A060984",
+    "A061883",
+    "A061885",
+    "A237889"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

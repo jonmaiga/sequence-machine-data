@@ -1,0 +1,21 @@
+{
+  "description": "Number of closed walks of length 2n at a vertex of the cyclic graph on 10 nodes C_10.",
+  "id": "A095929",
+  "mentions": [
+    "A001622",
+    "A094233",
+    "A199571"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

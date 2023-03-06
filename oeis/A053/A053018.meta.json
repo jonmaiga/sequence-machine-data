@@ -1,0 +1,20 @@
+{
+  "description": "Let Do(n)=A006566(n)=n-th dodecahedral number. Consider all integer triples (i,j,k), j >= k>0, with Do(i)=Do(j)+Do(k), ordered by increasing i; sequence gives j values.",
+  "id": "A053018",
+  "mentions": [
+    "A006566",
+    "A053017",
+    "A053019"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

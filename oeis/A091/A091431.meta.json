@@ -1,0 +1,21 @@
+{
+  "description": "Happy-go-Lucky numbers: numbers that are both Happy (A007770) and Lucky (A000959).",
+  "id": "A091431",
+  "mentions": [
+    "A000959",
+    "A007770",
+    "A091280",
+    "A091432"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

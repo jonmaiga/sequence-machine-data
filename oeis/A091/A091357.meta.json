@@ -1,0 +1,24 @@
+{
+  "description": "Number of planar partitions of n with exactly 3 rows.",
+  "id": "A091357",
+  "mentions": [
+    "A000219",
+    "A000990",
+    "A000991",
+    "A089924",
+    "A091355",
+    "A091356",
+    "A091360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 3,
+    "size": 36,
+    "source": "joeis"
+  }
+}

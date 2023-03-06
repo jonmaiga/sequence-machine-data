@@ -1,0 +1,19 @@
+{
+  "description": "The periodic point counting sequence for the toral automorphism given by the polynomial of (conjectural) smallest Mahler measure. The map is x -> Ax mod 1 for x in [0,1)^10, where A is the companion matrix for the polynomial x^10+x^9-x^7-x^6-x^5-x^4-x^3+x+1.",
+  "id": "A059928",
+  "mentions": [
+    "A060478",
+    "A087612"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

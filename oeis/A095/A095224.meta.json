@@ -1,0 +1,22 @@
+{
+  "description": "Least squarefree Fibonacci number with exactly n prime divisors.",
+  "id": "A095224",
+  "mentions": [
+    "A000045",
+    "A001221",
+    "A022307",
+    "A038575",
+    "A060319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Write the positive even integers on labels in numerical order, forming an infinite sequence L. Consider the succession of digits of L: 2 4 6 8 1 0 1 2 1 4 1 6 1 8 2 0 2 2 2 4 2 6 2 8 3 0 ... (A036211). This sequence gives a derangement of L that produces the same succession of digits, subject to the constraint that the smallest unused label must be used that does not lead to a contradiction.",
+  "id": "A097481",
+  "mentions": [
+    "A005843",
+    "A036211",
+    "A097484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = number of partitions of n into distinct parts <= k, for k=1,2,...n.",
+  "id": "A026840",
+  "mentions": [
+    "A026836",
+    "A079126"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:13",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

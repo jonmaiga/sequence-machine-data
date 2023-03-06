@@ -1,0 +1,20 @@
+{
+  "description": "T(n,[ n/2 ]), where T is the array in A026386.",
+  "id": "A026392",
+  "mentions": [
+    "A026378",
+    "A026386",
+    "A085362"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:36:51",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Generalized Bell numbers B_{3,2}(n).",
+  "id": "A078738",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A008279",
+    "A020556",
+    "A069223",
+    "A078740",
+    "A090437"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

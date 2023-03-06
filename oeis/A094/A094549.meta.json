@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m > n, coprime to n and having as many prime factors as n; a(1)=1.",
+  "id": "A094549",
+  "mentions": [
+    "A001222",
+    "A094548"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

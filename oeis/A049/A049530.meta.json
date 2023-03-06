@@ -1,0 +1,21 @@
+{
+  "description": "pi(n) associated with A049529.",
+  "id": "A049530",
+  "mentions": [
+    "A000720",
+    "A049529"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

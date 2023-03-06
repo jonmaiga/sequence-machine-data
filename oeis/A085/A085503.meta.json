@@ -1,0 +1,18 @@
+{
+  "description": "Sub-triangle of A008292: take every second term of every second row.",
+  "id": "A085503",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

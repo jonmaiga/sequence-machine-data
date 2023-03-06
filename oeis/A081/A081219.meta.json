@@ -1,0 +1,19 @@
+{
+  "description": "One sixtieth the product of primitive Pythagorean triangles' sides whose odd values differ by 2.",
+  "id": "A081219",
+  "mentions": [
+    "A081752"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:58:09",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

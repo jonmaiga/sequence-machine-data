@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the set S(n) = {k: k + reverse(k) = n} is not empty and all elements of S(n) have the same number of digits as n.",
+  "id": "A088169",
+  "mentions": [
+    "A067030",
+    "A088170",
+    "A088171"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

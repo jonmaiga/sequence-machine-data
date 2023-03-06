@@ -1,0 +1,21 @@
+{
+  "description": "Number of rounded n-celled polyominoes.",
+  "id": "A056840",
+  "mentions": [
+    "A000105",
+    "A030222",
+    "A056787",
+    "A056841"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

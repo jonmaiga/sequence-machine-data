@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1 and then group the prime numbers so that the n-th group contains n numbers with a composite sum: (1), (2, 7), (3, 5, 13), (11, 17, 19, 23), (29, 31, 37, 41, 47), (43, 53, 59, 61, 67, 71), ...",
+  "id": "A075639",
+  "mentions": [
+    "A075640",
+    "A075641",
+    "A075642"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

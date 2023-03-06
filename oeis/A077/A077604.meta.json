@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of log(2*Pi)-1-Gamma/2.",
+  "id": "A077604",
+  "mentions": [
+    "A077142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:30",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "oi": 68141,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-02-03",
+      "ix": "contfrac[root(acos(0), 2)]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "2",
+        "root",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-06",
+      "ix": "contfrac[root(asin(1), 2)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "2",
+        "root",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(π/2)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "2",
+        "/",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C069998]^3, 3)",
+      "mt": 50,
+      "px": [
+        "C069998",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C069998]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C069998",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C069998], contfrac[ϕ²])",
+      "mt": 50,
+      "px": [
+        "C069998",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "log2(root(2, 1/contfrac[C069998]))",
+      "mt": 50,
+      "px": [
+        "2",
+        "1",
+        "C069998",
+        "contfrac",
+        "/",
+        "root",
+        "log2"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "-log(1/exp(contfrac[C069998]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "C069998",
+        "contfrac",
+        "exp",
+        "/",
+        "log",
+        "neg"
+      ]
+    }
+  ]
+}

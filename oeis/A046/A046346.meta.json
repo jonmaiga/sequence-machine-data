@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that are divisible by the sum of their prime factors (counted with multiplicity).",
+  "id": "A046346",
+  "mentions": [
+    "A001414",
+    "A036844",
+    "A046347",
+    "A046348",
+    "A071142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

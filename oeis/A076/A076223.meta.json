@@ -1,0 +1,17 @@
+{
+  "description": "Minimum of n-th row of A076221.",
+  "id": "A076223",
+  "mentions": [
+    "A076221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

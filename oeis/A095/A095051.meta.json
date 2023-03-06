@@ -1,0 +1,26 @@
+{
+  "description": "E.g.f.: exp(-x)/eta(x), where eta(x) is the Dedekind eta function.",
+  "id": "A095051",
+  "mentions": [
+    "A000041",
+    "A053529",
+    "A218481",
+    "A266232",
+    "A281425",
+    "A293467",
+    "A294466",
+    "A294467",
+    "A294468"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

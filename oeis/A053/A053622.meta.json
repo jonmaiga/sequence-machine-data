@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round( n/log(n) - pi(n) ).",
+  "id": "A053622",
+  "mentions": [
+    "A000720",
+    "A050499",
+    "A052434",
+    "A052435"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:59",
+    "offset": 2,
+    "size": 71,
+    "source": "joeis"
+  }
+}

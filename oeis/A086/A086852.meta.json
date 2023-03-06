@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of length n with exactly 1 rising or falling succession.",
+  "id": "A086852",
+  "mentions": [
+    "A000130",
+    "A000349",
+    "A001100",
+    "A001267",
+    "A002464",
+    "A086853",
+    "A086854"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

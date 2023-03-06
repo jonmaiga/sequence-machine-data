@@ -1,0 +1,23 @@
+{
+  "description": "Number of neutrons in longest known radioactive decay series ending with Lead 206 (\"uranium series\"), reversed.",
+  "id": "A080537",
+  "mentions": [
+    "A080529",
+    "A080533",
+    "A080538",
+    "A080539",
+    "A080540"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

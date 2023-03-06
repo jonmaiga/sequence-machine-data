@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (number of odd divisors of k) (cf. A001227).",
+  "id": "A060831",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A001620",
+    "A006218",
+    "A168508",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237590",
+    "A237593",
+    "A245092",
+    "A279387",
+    "A286001"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:23",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

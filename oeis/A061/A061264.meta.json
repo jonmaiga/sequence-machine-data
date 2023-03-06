@@ -1,0 +1,20 @@
+{
+  "description": "Number of cyclic permutations of the digits of n which give primes.",
+  "id": "A061264",
+  "mentions": [
+    "A039999",
+    "A046810",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

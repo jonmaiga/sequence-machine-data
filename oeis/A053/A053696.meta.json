@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that can be represented as a string of three or more 1's in a base >= 2.",
+  "id": "A053696",
+  "mentions": [
+    "A085104",
+    "A088323",
+    "A090503",
+    "A108348",
+    "A119598",
+    "A125134"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

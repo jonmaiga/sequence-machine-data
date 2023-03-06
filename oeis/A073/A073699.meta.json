@@ -1,0 +1,15 @@
+{
+  "description": "Floor((Product of composite numbers up to n)/(product of primes up to n)).",
+  "id": "A073699",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

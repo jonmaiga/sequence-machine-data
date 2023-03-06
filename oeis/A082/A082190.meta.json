@@ -1,0 +1,20 @@
+{
+  "description": "Antidiagonal sums of square array A082025.",
+  "id": "A082190",
+  "mentions": [
+    "A082025",
+    "A082187",
+    "A082188",
+    "A082189"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

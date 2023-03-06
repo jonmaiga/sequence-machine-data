@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose decimal representations interpreted in base 11 are not prime.",
+  "id": "A091923",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A090862",
+    "A091924"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

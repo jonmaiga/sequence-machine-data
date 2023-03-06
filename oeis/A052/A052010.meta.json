@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k such that the sum of the digits of n each raised to k-th power is greater than n, or 0 if no such k exists.",
+  "id": "A052010",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:59",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

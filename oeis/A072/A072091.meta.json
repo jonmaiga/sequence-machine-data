@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers induced by the automorphism car_robl_cdr! acting on the parenthesizations encoded by A014486.",
+  "id": "A072091",
+  "mentions": [
+    "A014486",
+    "A057163",
+    "A071655",
+    "A071660",
+    "A072090",
+    "A072092",
+    "A072095"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of disconnected 3 X n binary matrices.",
+  "id": "A054421",
+  "mentions": [
+    "A054417",
+    "A054419",
+    "A054420"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:36:14",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

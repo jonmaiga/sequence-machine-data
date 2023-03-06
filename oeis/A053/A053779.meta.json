@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum of the first k composite numbers is palindromic.",
+  "id": "A053779",
+  "mentions": [
+    "A002113",
+    "A002808",
+    "A053780",
+    "A057959"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

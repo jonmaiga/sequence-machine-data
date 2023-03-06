@@ -1,0 +1,32 @@
+{
+  "description": "Write 1,2,... in a clockwise spiral on a square lattice, writing each digit at a separate lattice point, starting with 1 at the origin and 2 at x=0, y=-1; sequence gives the numbers on the positive x-axis.",
+  "id": "A033952",
+  "mentions": [
+    "A001107",
+    "A002939",
+    "A002943",
+    "A007742",
+    "A033951",
+    "A033953",
+    "A033954",
+    "A033988",
+    "A033989",
+    "A033990",
+    "A033991",
+    "A033996",
+    "A244677"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

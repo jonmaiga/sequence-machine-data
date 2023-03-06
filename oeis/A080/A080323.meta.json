@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = mu(n)^n, where mu is the Moebius function (A008683).",
+  "id": "A080323",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A056912",
+    "A080324"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of (q^5/12)eta(q^3)^5/eta(q) in powers of q.",
+  "id": "A093949",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:07",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

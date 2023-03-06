@@ -1,0 +1,20 @@
+{
+  "description": "Least integer coefficients of A(x), where 1<=a(n)<=5, such that A(x)^(1/5) consists entirely of integer coefficients.",
+  "id": "A083945",
+  "mentions": [
+    "A083946",
+    "A083952",
+    "A083953",
+    "A083954"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

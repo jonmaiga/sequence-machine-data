@@ -1,0 +1,28 @@
+{
+  "description": "Another version of triangular array in A036970: triangle T(n,k), 0<=k<=n, read by rows; given by [0, 1, 2, 4, 6, 9, 12, 16, 20, 25, 30, ...] DELTA [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, ...] where DELTA is the operator defined in A084938.",
+  "id": "A094346",
+  "mentions": [
+    "A000007",
+    "A000182",
+    "A001469",
+    "A002105",
+    "A005440",
+    "A005990",
+    "A036970",
+    "A083061",
+    "A084938",
+    "A094665"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

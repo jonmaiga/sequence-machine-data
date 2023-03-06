@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime initiating consecutive prime difference pattern consisting of n increasing consecutive powers of 2 started with 2.",
+  "id": "A079014",
+  "mentions": [
+    "A079011",
+    "A079012",
+    "A079013",
+    "A090807"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

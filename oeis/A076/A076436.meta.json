@@ -1,0 +1,22 @@
+{
+  "description": "Square board sizes for which the lights-out problem has a unique solution (counting solutions differing only by rotation and reflection as distinct).",
+  "id": "A076436",
+  "mentions": [
+    "A075462",
+    "A076437",
+    "A117870",
+    "A117872",
+    "A159257"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

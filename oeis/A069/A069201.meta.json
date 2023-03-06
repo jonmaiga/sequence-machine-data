@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(k)^2 * 2^omega(k) where omega(k) is the number of distinct primes in the factorization of k.",
+  "id": "A069201",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A008966",
+    "A034444",
+    "A065473",
+    "A074823",
+    "A347149"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

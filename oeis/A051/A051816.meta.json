@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-digit numbers with nonzero multiplicative digital root 5.",
+  "id": "A051816",
+  "mentions": [
+    "A051802",
+    "A051807",
+    "A051825"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

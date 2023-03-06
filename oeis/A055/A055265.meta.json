@@ -1,0 +1,43 @@
+{
+  "description": "a(n) is the smallest positive integer not already in the sequence such that a(n)+a(n-1) is prime, starting with a(1)=1.",
+  "id": "A055265",
+  "mentions": [
+    "A010051",
+    "A036440",
+    "A051237",
+    "A051239",
+    "A055266",
+    "A070942",
+    "A073659",
+    "A076990",
+    "A086527",
+    "A088643",
+    "A117922",
+    "A117923",
+    "A117925",
+    "A128280",
+    "A243625",
+    "A253074",
+    "A282695",
+    "A329333",
+    "A329405",
+    "A329416",
+    "A329449",
+    "A329456",
+    "A329563",
+    "A329581"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

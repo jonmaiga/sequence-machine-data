@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with no prime factors of form 4*k+3.",
+  "id": "A072437",
+  "mentions": [
+    "A001842",
+    "A002144",
+    "A002145",
+    "A004144",
+    "A005091",
+    "A072436",
+    "A097706",
+    "A187811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

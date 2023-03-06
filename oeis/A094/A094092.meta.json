@@ -1,0 +1,18 @@
+{
+  "description": "Floor( (sqrt n)^(sqrt n) ).",
+  "id": "A094092",
+  "mentions": [
+    "A094054",
+    "A094093"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:09:13",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

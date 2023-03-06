@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of repdigits of A002277.",
+  "id": "A099670",
+  "mentions": [
+    "A002275",
+    "A002277",
+    "A002283",
+    "A057932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

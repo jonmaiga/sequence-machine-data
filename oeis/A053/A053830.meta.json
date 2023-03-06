@@ -1,0 +1,32 @@
+{
+  "description": "Sum of digits of (n written in base 9).",
+  "id": "A053830",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A031087",
+    "A053735",
+    "A053737",
+    "A053824",
+    "A053828",
+    "A054898",
+    "A138530",
+    "A173529",
+    "A231684",
+    "A231685",
+    "A231686",
+    "A231687"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

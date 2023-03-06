@@ -1,0 +1,16 @@
+{
+  "description": "In the following triangular array the n-th row contains n primes (wherever possible) with digit sum n. Sequence contains the leading diagonal with a zero if no number exists.",
+  "id": "A082258",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

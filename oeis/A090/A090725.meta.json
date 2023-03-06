@@ -1,0 +1,18 @@
+{
+  "description": "Primes whose representation in base 16 has no alphabetic characters.",
+  "id": "A090725",
+  "mentions": [
+    "A102489"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

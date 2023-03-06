@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 15A for Monster.",
+  "id": "A058508",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A134783",
+    "A153765"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:28:57",
+    "offset": -1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

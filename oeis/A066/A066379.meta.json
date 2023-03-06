@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the first n numbers m such that floor(log(m)) divides m.",
+  "id": "A066379",
+  "mentions": [
+    "A066378"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

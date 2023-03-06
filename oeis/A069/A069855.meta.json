@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the root of x*tan(x)=1.",
+  "id": "A069855",
+  "mentions": [
+    "A009399",
+    "A085984",
+    "A346062"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

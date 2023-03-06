@@ -1,0 +1,21 @@
+{
+  "description": "n appears A070939(n) times.",
+  "id": "A030530",
+  "mentions": [
+    "A030190",
+    "A070939",
+    "A083651",
+    "A083652"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

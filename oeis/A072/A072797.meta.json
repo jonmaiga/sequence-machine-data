@@ -1,0 +1,24 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by Catalan Automorphism *A072797 acting on the parenthesizations encoded by A014486.",
+  "id": "A072797",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057163",
+    "A072796",
+    "A073190",
+    "A073191",
+    "A089840"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

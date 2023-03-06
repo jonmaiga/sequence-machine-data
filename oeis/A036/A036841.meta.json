@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number k such that floor[(the number of digits in k!) / k] is greater than any j < k.",
+  "id": "A036841",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

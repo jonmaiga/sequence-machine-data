@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices over GF(3) of order dividing 9, i.e., the number of solutions to X^9=I in GL(n,3)).",
+  "id": "A053854",
+  "mentions": [
+    "A053764",
+    "A053774"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:12:09",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

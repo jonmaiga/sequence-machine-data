@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 + 3x + 5x^2 + 7x^3 + ...) / (1 - 2x + 3x^2 - 4x^3 + ...).",
+  "id": "A086570",
+  "mentions": [
+    "A017113",
+    "A113128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:41:19",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

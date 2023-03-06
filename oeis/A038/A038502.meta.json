@@ -1,0 +1,30 @@
+{
+  "description": "Remove 3's from n.",
+  "id": "A038502",
+  "mentions": [
+    "A000265",
+    "A004151",
+    "A007949",
+    "A008292",
+    "A038500",
+    "A065330",
+    "A065883",
+    "A132739",
+    "A242603",
+    "A244414",
+    "A306367"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

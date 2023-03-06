@@ -1,0 +1,22 @@
+{
+  "description": "Consider recurrence b(0) = (2n+1)/2, b(n) = b(n-1)*ceiling(b(n-1)); sequence gives first integer reached.",
+  "id": "A081853",
+  "mentions": [
+    "A001511",
+    "A073524",
+    "A074078",
+    "A081849",
+    "A081854"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

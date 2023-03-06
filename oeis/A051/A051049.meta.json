@@ -1,0 +1,29 @@
+{
+  "description": "Number of moves needed to solve an (n+1)-ring baguenaudier if two simultaneous moves of the two end rings are counted as one.",
+  "id": "A051049",
+  "mentions": [
+    "A000069",
+    "A000079",
+    "A000225",
+    "A000975",
+    "A001045",
+    "A001969",
+    "A026147",
+    "A062510",
+    "A131086",
+    "A135221",
+    "A166692"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

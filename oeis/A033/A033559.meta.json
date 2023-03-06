@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (q - p)/2, where p is the largest prime < n and q is the smallest prime > n.",
+  "id": "A033559",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:31",
+    "offset": 4,
+    "size": 97,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "High-temperature coefficients for internal energy for spin-1/2 Ising model on b.c.c. lattice.",
+  "id": "A047711",
+  "mentions": [
+    "A001406",
+    "A010571",
+    "A047712"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

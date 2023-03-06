@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) defined by: A(x)^9 consists entirely of integer coefficients between 1 and 9 (A083949); A(x) is the unique power series solution with A(0)=1.",
+  "id": "A084209",
+  "mentions": [
+    "A083949",
+    "A084202",
+    "A084208",
+    "A084210",
+    "A084212"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Product of next 2 primes after n.",
+  "id": "A030661",
+  "mentions": [
+    "A000040",
+    "A101300",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

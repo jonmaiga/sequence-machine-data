@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k)/k >= sigma(m)/m for all m <= k.",
+  "id": "A077006",
+  "mentions": [
+    "A004394"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

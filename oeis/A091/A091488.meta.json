@@ -1,0 +1,20 @@
+{
+  "description": "Number of asymmetric rooted 2,3 cacti (triangular cacti with bridges).",
+  "id": "A091488",
+  "mentions": [
+    "A091486",
+    "A091489"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

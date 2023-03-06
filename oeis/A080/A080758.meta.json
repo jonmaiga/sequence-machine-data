@@ -1,0 +1,15 @@
+{
+  "description": "Number of steps needed to reach a prime starting with n and iterating x-->floor(3x/2).",
+  "id": "A080758",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

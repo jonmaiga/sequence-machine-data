@@ -1,0 +1,24 @@
+{
+  "description": "Number of 2 X 2 symmetric singular matrices with entries from {0,...,n}.",
+  "id": "A064368",
+  "mentions": [
+    "A000010",
+    "A000188",
+    "A039623",
+    "A059306",
+    "A059976",
+    "A062801",
+    "A064276"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

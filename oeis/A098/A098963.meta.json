@@ -1,0 +1,19 @@
+{
+  "description": "Position of the smallest n-digit prime in the decimal expansion of e.",
+  "id": "A098963",
+  "mentions": [
+    "A001113",
+    "A003617"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

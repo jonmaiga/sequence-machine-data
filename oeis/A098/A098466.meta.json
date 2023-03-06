@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that N*2^k - 1 is prime where N = 9999999999999999999999988888888888888888887777777777777777766666666666665555555555544444443333322211.",
+  "id": "A098466",
+  "mentions": [
+    "A098467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

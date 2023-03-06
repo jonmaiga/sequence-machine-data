@@ -1,0 +1,25 @@
+{
+  "description": "Number of self-conjugate 5-core partitions of n.",
+  "id": "A053694",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A122190"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:47",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

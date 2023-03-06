@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(arcsin(x)-arctanh(x)).",
+  "id": "A013430",
+  "mentions": [
+    "A006228",
+    "A013170"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:17:17",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

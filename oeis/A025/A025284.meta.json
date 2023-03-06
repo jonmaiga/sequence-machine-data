@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in exactly 1 way.",
+  "id": "A025284",
+  "mentions": [
+    "A000404",
+    "A001481",
+    "A007692",
+    "A018825",
+    "A025426",
+    "A081324",
+    "A125022",
+    "A243148"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

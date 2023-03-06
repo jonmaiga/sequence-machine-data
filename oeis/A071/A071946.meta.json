@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows giving number of underdiagonal lattice paths from (0,0) to (n,k) using only steps R = (1,0), V = (0,1) and D = (3,1).",
+  "id": "A071946",
+  "mentions": [
+    "A071943",
+    "A071944",
+    "A071945",
+    "A071969",
+    "A108076",
+    "A119254"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

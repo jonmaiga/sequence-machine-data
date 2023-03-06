@@ -1,0 +1,20 @@
+{
+  "description": "Series ratios converge alternately to sqrt(2) and 1+sqrt(1/2).",
+  "id": "A082766",
+  "mentions": [
+    "A001333",
+    "A052542",
+    "A119016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

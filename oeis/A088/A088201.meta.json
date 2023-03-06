@@ -1,0 +1,22 @@
+{
+  "description": "Distance p_n-LQnR(p_n) (A088198) where the difference sequence (A088197) of LQnR(p_n) (A088196) is <= 0.",
+  "id": "A088201",
+  "mentions": [
+    "A088195",
+    "A088196",
+    "A088197",
+    "A088198",
+    "A088199",
+    "A088200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

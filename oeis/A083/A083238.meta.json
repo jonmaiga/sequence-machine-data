@@ -1,0 +1,20 @@
+{
+  "description": "First order recursion: a(0)=1; a(n) = sigma(1,n) - a(n-1).",
+  "id": "A083238",
+  "mentions": [
+    "A000203",
+    "A083236",
+    "A083237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

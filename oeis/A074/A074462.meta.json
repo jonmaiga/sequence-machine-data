@@ -1,0 +1,25 @@
+{
+  "description": "Average digit (rounded up) in the decimal expansion of prime(n).",
+  "id": "A074462",
+  "mentions": [
+    "A000040",
+    "A004427",
+    "A007605",
+    "A073342",
+    "A074461",
+    "A097944"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:49",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

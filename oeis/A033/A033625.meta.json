@@ -1,0 +1,19 @@
+{
+  "description": "Primes and gaps for the first 10 increasing consecutive gaps.",
+  "id": "A033625",
+  "mentions": [
+    "A158939"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

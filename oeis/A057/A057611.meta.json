@@ -1,0 +1,20 @@
+{
+  "description": "Let m = 3, 5, 7, ..., k = 0, 1, 2, 3, ..., z = (m+1)/2, 0 < j <= m. Let n_j be a prime number. Sequence gives T(m,k) = Table[m,k] = number of solutions to Sum_{d=1,2, ..., (z+k)}(n_j)_d = Sum_{d=1,2, ..., (z-k-1)}(n_j)_d = primorial number (A002110).",
+  "id": "A057611",
+  "mentions": [
+    "A002110",
+    "A022894"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

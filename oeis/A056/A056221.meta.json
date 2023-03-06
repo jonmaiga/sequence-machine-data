@@ -1,0 +1,21 @@
+{
+  "description": "Image of primes (A000040) under \"little Hankel\" transform that sends [c_0, c_1, ...] to [d_0, d_1, ...] where d_n = c_n^2 - c_{n+1}*c_{n-1}.",
+  "id": "A056221",
+  "mentions": [
+    "A000040",
+    "A046868",
+    "A233671",
+    "A342567"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:31:47",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

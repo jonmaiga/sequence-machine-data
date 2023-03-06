@@ -1,0 +1,20 @@
+{
+  "description": "Smallest primes such that the subsequent terms of consecutive prime differences[A001223] modulo 6 [A054763] displays repeatedly n times a {0,2,4} pattern of remainders of differences.",
+  "id": "A084299",
+  "mentions": [
+    "A001223",
+    "A016045",
+    "A054763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

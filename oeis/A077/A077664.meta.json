@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which the n-th row contains n smallest numbers greater than n and coprime to n.",
+  "id": "A077664",
+  "mentions": [
+    "A077581",
+    "A077665",
+    "A077666",
+    "A260895",
+    "A260910"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

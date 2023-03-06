@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*a(n-1) + 11*a(n-2), a(0) = 0, a(1) = 1.",
+  "id": "A015520",
+  "mentions": [
+    "A090042"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

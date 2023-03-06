@@ -1,0 +1,19 @@
+{
+  "description": "Greatest m such that Product_{k=1..n-1} (1 - k/m) <= 1/2.",
+  "id": "A072829",
+  "mentions": [
+    "A033810",
+    "A064619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither squares nor cubes.",
+  "id": "A094784",
+  "mentions": [
+    "A000037",
+    "A001014",
+    "A004709",
+    "A005117",
+    "A007412",
+    "A010052",
+    "A010057"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

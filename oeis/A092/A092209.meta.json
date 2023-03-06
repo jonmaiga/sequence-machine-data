@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number k such that k, k+2, k+4, ..., k+2n are semiprimes.",
+  "id": "A092209",
+  "mentions": [
+    "A001358",
+    "A056809",
+    "A082919",
+    "A092125",
+    "A092126",
+    "A092127",
+    "A092128",
+    "A092129",
+    "A092207"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

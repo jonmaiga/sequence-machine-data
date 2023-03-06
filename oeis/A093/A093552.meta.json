@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number m such that m-k is product of k+1 primes for k=0,1,2,...,n.",
+  "id": "A093552",
+  "mentions": [
+    "A072664",
+    "A072875",
+    "A086560"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime factor of p(n), the n-th partition number A000041(n) (with a(0) = a(1) = 1 by convention).",
+  "id": "A071963",
+  "mentions": [
+    "A000041",
+    "A006530",
+    "A087173",
+    "A192885"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

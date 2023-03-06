@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) is next smallest cube ending with a(n), initial term is 27.",
+  "id": "A050650",
+  "mentions": [
+    "A048567",
+    "A050644",
+    "A050651"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

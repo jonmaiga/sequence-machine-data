@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with digits nondecreasing and their reciprocals sum to 1/(positive integer).",
+  "id": "A045910",
+  "mentions": [
+    "A009994",
+    "A037264",
+    "A214949"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

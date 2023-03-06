@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) = numerator of fraction in k-th term of n-th row of variant of Farey series.",
+  "id": "A049455",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A002487",
+    "A006842",
+    "A006843",
+    "A007051",
+    "A007305",
+    "A007306",
+    "A049456",
+    "A070878",
+    "A070879",
+    "A293165"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

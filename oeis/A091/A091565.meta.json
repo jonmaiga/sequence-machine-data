@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1 - x - sqrt(1 - 2*x + x^2 - 8*x^3)) / (4*x^2) in powers of x.",
+  "id": "A091565",
+  "mentions": [
+    "A025249"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:34",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

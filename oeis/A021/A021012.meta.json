@@ -1,0 +1,30 @@
+{
+  "description": "Triangle of coefficients in expansion of x^n in terms of Laguerre polynomials L_n(x).",
+  "id": "A021012",
+  "mentions": [
+    "A000142",
+    "A000165",
+    "A001563",
+    "A001804",
+    "A001805",
+    "A001806",
+    "A001807",
+    "A007318",
+    "A084938",
+    "A136572"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:37:10",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

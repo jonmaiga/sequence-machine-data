@@ -1,0 +1,20 @@
+{
+  "description": "Function A062402(x) = sigma(phi(x)) is iterated with initial value=n. a(n) is the length of cycle into which the trajectory merges.",
+  "id": "A096993",
+  "mentions": [
+    "A062402",
+    "A095955",
+    "A096864",
+    "A096866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

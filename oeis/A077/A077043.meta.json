@@ -1,0 +1,31 @@
+{
+  "description": "\"Three-quarter squares\": a(n) = n^2 - A002620(n).",
+  "id": "A077043",
+  "mentions": [
+    "A000217",
+    "A001651",
+    "A002620",
+    "A003215",
+    "A005448",
+    "A019298",
+    "A033428",
+    "A077042",
+    "A084684",
+    "A141531",
+    "A195040",
+    "A331952"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

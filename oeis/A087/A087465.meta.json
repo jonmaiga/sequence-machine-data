@@ -1,0 +1,24 @@
+{
+  "description": "Rank array R of 3/2 read by antidiagonals; this array is the dispersion of the complement of the sequence given by r(n) = r(n-1) + 1 + floor(3n/2) for n>=1, with r(0) = 1; that is, A077043(n+1).",
+  "id": "A087465",
+  "mentions": [
+    "A007780",
+    "A036561",
+    "A077043",
+    "A087466",
+    "A087468",
+    "A087483"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

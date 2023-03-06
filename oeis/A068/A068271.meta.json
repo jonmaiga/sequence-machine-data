@@ -1,0 +1,23 @@
+{
+  "description": "1/4 the number of colorings of an n X n rhombic hexagonal array with 4 colors.",
+  "id": "A068271",
+  "mentions": [
+    "A000332",
+    "A002417",
+    "A027441",
+    "A068239",
+    "A068305",
+    "A212162",
+    "A212163"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

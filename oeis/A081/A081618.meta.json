@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (product of first n primes)+1 is divisible by the (n+1)-th prime. Also n such that A075306(n)-1 is equal to A002110(n). Positions of 1 in A081617.",
+  "id": "A081618",
+  "mentions": [
+    "A002110",
+    "A066735",
+    "A075306",
+    "A081617"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

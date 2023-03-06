@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (Fibonacci(2*n)-(-1)^n*Fibonacci(n))/2.",
+  "id": "A049602",
+  "mentions": [
+    "A000045",
+    "A049600",
+    "A049601",
+    "A192232",
+    "A192352"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:44",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

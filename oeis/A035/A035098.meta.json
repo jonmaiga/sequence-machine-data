@@ -1,0 +1,24 @@
+{
+  "description": "Near-Bell numbers: partitions of an n-multiset with multiplicities 1, 1, 1, ..., 1, 2.",
+  "id": "A035098",
+  "mentions": [
+    "A000070",
+    "A000110",
+    "A059606",
+    "A087648",
+    "A241500",
+    "A322765",
+    "A346426"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

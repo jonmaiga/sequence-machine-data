@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured numbers of Vassiliev invariants of knots.",
+  "id": "A014596",
+  "mentions": [
+    "A007293",
+    "A014595"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that C(k,3) = C(x,3) + C(y,3) is solvable.",
+  "id": "A010330",
+  "mentions": [
+    "A000292",
+    "A002311",
+    "A034404"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

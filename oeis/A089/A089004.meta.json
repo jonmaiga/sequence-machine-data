@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of an n-element set that have at least one odd block.",
+  "id": "A089004",
+  "mentions": [
+    "A000110",
+    "A003724",
+    "A005046",
+    "A086543",
+    "A087137"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

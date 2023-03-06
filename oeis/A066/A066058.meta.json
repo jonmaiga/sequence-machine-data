@@ -1,0 +1,24 @@
+{
+  "description": "In base 2: smallest integer which requires n 'Reverse and Add' steps to reach a palindrome.",
+  "id": "A066058",
+  "mentions": [
+    "A006995",
+    "A023109",
+    "A033865",
+    "A057148",
+    "A062128",
+    "A062130",
+    "A066057"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

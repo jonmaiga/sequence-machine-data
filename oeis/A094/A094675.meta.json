@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of polynomial in x multiplying cosh(x) in the modified spherical Bessel function of the first kind i_n(x).",
+  "id": "A094675",
+  "mentions": [
+    "A094674"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

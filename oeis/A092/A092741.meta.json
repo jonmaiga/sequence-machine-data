@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] in which the length of the longest initial segment avoiding both the 132- and the 321-pattern is equal to k.",
+  "id": "A092741",
+  "mentions": [
+    "A000124",
+    "A000142",
+    "A002301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

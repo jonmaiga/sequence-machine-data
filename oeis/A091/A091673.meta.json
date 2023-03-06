@@ -1,0 +1,22 @@
+{
+  "description": "Numerator Q of probability P = Q(n)/365^(n-1) that exactly two out of n people share the same birthday.",
+  "id": "A091673",
+  "mentions": [
+    "A014088",
+    "A091674",
+    "A091715",
+    "A225852"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

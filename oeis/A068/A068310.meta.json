@@ -1,0 +1,27 @@
+{
+  "description": "n^2 - 1 divided by its largest square divisor.",
+  "id": "A068310",
+  "mentions": [
+    "A002350",
+    "A005563",
+    "A007913",
+    "A008833",
+    "A027746",
+    "A033314",
+    "A067872",
+    "A175607"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

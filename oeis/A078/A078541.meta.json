@@ -1,0 +1,23 @@
+{
+  "description": "Refactorable numbers x, such that quotient x/A000005(x) equals a power of 2.",
+  "id": "A078541",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036763",
+    "A051278",
+    "A051279",
+    "A051280"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: row n lists number of ordered partitions into k parts of partitions of n.",
+  "id": "A060642",
+  "mentions": [
+    "A000041",
+    "A010815",
+    "A048574",
+    "A055887",
+    "A055888",
+    "A097805",
+    "A144064",
+    "A261719",
+    "A326346",
+    "A340987",
+    "A341221",
+    "A341222",
+    "A341223",
+    "A341225",
+    "A341226",
+    "A341227",
+    "A341228",
+    "A341236",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

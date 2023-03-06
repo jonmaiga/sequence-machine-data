@@ -1,0 +1,17 @@
+{
+  "description": "(1/p)*abs(p*(p^(p-1)-1)*B(p-1)-1) when p runs through the primes and B(k) denotes the k-th Bernoulli's number.",
+  "id": "A098375",
+  "mentions": [
+    "A089655"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

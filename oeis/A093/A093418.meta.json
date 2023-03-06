@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of -3*n + 2*(1+n)*HarmonicNumber(n).",
+  "id": "A093418",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A063090",
+    "A093412",
+    "A093419",
+    "A096620",
+    "A115107",
+    "A288964"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

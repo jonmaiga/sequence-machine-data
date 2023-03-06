@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-element intersecting families (with not necessarily distinct sets) of an n-element set.",
+  "id": "A052389",
+  "mentions": [
+    "A051181",
+    "A053154",
+    "A053155"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes in arithmetic progression starting with 5 and with d=2n.",
+  "id": "A088421",
+  "mentions": [
+    "A088420",
+    "A088422",
+    "A088423",
+    "A088424",
+    "A088425",
+    "A088426",
+    "A088427",
+    "A088428",
+    "A088429"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

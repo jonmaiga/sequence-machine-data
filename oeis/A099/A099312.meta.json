@@ -1,0 +1,22 @@
+{
+  "description": "Exponent of greatest power of 2 dividing the n-th minimal number.",
+  "id": "A099312",
+  "mentions": [
+    "A007416",
+    "A007814",
+    "A099311",
+    "A099314",
+    "A099316"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that in their binary representation not all numbers from 1 to n are contained in n!.",
+  "id": "A093711",
+  "mentions": [
+    "A000142",
+    "A007088",
+    "A036603",
+    "A092601",
+    "A093685",
+    "A093710"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

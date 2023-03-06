@@ -1,0 +1,18 @@
+{
+  "description": "Array T read by diagonals: T(i,j) = number of pairs (h,k) with h^2+k^2 <= i^2+j^2, h>=0, k >= 0.",
+  "id": "A048149",
+  "mentions": [
+    "A000603"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:55:19",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "McKay-Thompson series of class 18b for the Monster group.",
+  "id": "A058537",
+  "mentions": [
+    "A007191",
+    "A030197",
+    "A058092",
+    "A258941"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

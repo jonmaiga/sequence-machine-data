@@ -1,0 +1,21 @@
+{
+  "description": "Deeply composite numbers: numbers n where sigma_k(n) increases to a record for all sufficiently low (i.e., negative) values of k.",
+  "id": "A095848",
+  "mentions": [
+    "A003418",
+    "A004394",
+    "A051451",
+    "A095849"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

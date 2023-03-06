@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(n^n*log(n)).",
+  "id": "A094940",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:18:38",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

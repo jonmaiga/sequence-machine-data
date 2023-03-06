@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the ninth (of 10) decimal selvage number; the n-th digit of a decimal selvage number, x, is equal to the tenths digit of n*x.",
+  "id": "A071876",
+  "mentions": [
+    "A071789",
+    "A071790",
+    "A071791",
+    "A071792",
+    "A071873",
+    "A071874",
+    "A071875",
+    "A071877"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

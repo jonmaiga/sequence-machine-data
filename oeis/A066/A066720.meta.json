@@ -1,0 +1,28 @@
+{
+  "description": "The greedy rational packing sequence: a(1) = 1; for n > 1, a(n) is smallest number such that the ratios a(i)/a(j) for 1 <= i < j <= n are all distinct.",
+  "id": "A066720",
+  "mentions": [
+    "A005282",
+    "A011185",
+    "A066657",
+    "A066658",
+    "A066721",
+    "A066724",
+    "A066775",
+    "A066848",
+    "A066849",
+    "A079850",
+    "A079852"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

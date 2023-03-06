@@ -1,0 +1,27 @@
+{
+  "description": "Number of conjugacy classes of subgroups of index 3 in free group of rank n.",
+  "id": "A057009",
+  "mentions": [
+    "A001047",
+    "A057004",
+    "A057005",
+    "A057006",
+    "A057007",
+    "A057008",
+    "A057010",
+    "A057011",
+    "A057012",
+    "A057013"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:41:22",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

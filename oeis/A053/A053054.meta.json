@@ -1,0 +1,20 @@
+{
+  "description": "Append n-th palindromic prime to previous term, reverse alternate terms.",
+  "id": "A053054",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:07:41",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

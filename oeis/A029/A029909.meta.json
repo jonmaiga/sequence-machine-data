@@ -1,0 +1,17 @@
+{
+  "description": "Starting with n (but omitting the primes), repeatedly sum prime factors (counted with multiplicity) until reaching a limit.",
+  "id": "A029909",
+  "mentions": [
+    "A029908"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

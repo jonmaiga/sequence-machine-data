@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = n!*4^n/2.",
+  "id": "A051711",
+  "mentions": [
+    "A001662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

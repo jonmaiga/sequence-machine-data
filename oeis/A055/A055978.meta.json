@@ -1,0 +1,19 @@
+{
+  "description": "A sequence related to Ramanujan's tau function.",
+  "id": "A055978",
+  "mentions": [
+    "A000594",
+    "A003784"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 4,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of orderings of the subsets of a set with n elements that are compatible with the subsets' sizes; i.e., if A, B are two subsets with A <= B then Card(A) <= Card(B).",
+  "id": "A051459",
+  "mentions": [
+    "A000722",
+    "A001142",
+    "A022914",
+    "A294648"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

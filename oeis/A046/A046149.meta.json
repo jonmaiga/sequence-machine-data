@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit number with maximal multiplicative persistence A014553.",
+  "id": "A046149",
+  "mentions": [
+    "A014553",
+    "A046148",
+    "A046150"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:14:43",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

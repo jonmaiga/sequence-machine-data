@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sine of 25 degrees.",
+  "id": "A019834",
+  "mentions": [
+    "A019814",
+    "A019829",
+    "A019879",
+    "A019894"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:51",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

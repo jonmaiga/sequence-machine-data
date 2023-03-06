@@ -1,0 +1,18 @@
+{
+  "description": "r(n), where exists one-parameter family of strategic partitions (k+p(n)+q(n), k+q(n), r(n)) for k = 0,1,2,... in Chomp.",
+  "id": "A029905",
+  "mentions": [
+    "A029899",
+    "A029902"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:47",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

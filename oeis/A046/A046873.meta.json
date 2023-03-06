@@ -1,0 +1,22 @@
+{
+  "description": "Number of total orders extending inclusion on P({1,...,n}).",
+  "id": "A046873",
+  "mentions": [
+    "A000372",
+    "A001206",
+    "A051459",
+    "A114717",
+    "A118077"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

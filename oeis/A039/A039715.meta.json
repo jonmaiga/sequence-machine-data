@@ -1,0 +1,24 @@
+{
+  "description": "Primes modulo 17.",
+  "id": "A039715",
+  "mentions": [
+    "A007652",
+    "A038194",
+    "A039701",
+    "A039706",
+    "A039709",
+    "A039714"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

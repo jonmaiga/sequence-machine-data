@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 9090...9091 (with k-1 copies of 90 and one copy of 91) is prime.",
+  "id": "A054416",
+  "mentions": [
+    "A001562"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

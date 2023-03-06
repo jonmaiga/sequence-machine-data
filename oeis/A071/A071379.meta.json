@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (1/e) * Sum_{k>=0} ((k+4)!/k!)^(n-1)/k!.",
+  "id": "A071379",
+  "mentions": [
+    "A000110",
+    "A008279",
+    "A020556",
+    "A069223",
+    "A090210",
+    "A283153"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

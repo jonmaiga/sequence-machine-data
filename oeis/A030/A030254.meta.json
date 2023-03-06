@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic groupoids with 1 idempotent and a nontrivial symmetry.",
+  "id": "A030254",
+  "mentions": [
+    "A030253",
+    "A030271",
+    "A038020"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

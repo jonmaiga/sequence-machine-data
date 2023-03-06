@@ -1,0 +1,21 @@
+{
+  "description": "Nim function for Take-a-Fibonacci-Game (a subtraction game).",
+  "id": "A014588",
+  "mentions": [
+    "A001581",
+    "A014586",
+    "A014589",
+    "A019307",
+    "A120904"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

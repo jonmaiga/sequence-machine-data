@@ -1,0 +1,18 @@
+{
+  "description": "Values of k such that there exists a binomial coefficient C(n,k) where C(n,k)-1 and C(n,k)+1 are twin primes and 2<=k<=floor(n/2).",
+  "id": "A051771",
+  "mentions": [
+    "A051735",
+    "A051770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

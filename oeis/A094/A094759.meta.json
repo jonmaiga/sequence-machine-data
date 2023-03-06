@@ -1,0 +1,25 @@
+{
+  "description": "Least k <= n such that n*sigma(k) = k*sigma(n), where sigma(n) is the sum of divisors of n (A000203).",
+  "id": "A094759",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005820",
+    "A050972",
+    "A050973",
+    "A094757",
+    "A094758",
+    "A095301",
+    "A326200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

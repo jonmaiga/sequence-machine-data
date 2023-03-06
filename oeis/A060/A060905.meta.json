@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(x*exp(x) + 1/2*x^2*exp(x)^2).",
+  "id": "A060905",
+  "mentions": [
+    "A000949",
+    "A000951",
+    "A060913",
+    "A245501"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

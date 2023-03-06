@@ -1,0 +1,17 @@
+{
+  "description": "Let L(n) = n-th lucky number. Then a(1)=0; a(n) is largest number m such that all divisors of L(n)^m are lucky numbers.",
+  "id": "A043754",
+  "mentions": [
+    "A000959"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

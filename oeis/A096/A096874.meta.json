@@ -1,0 +1,18 @@
+{
+  "description": "Matrix inverse of triangle A096651; transforms n-dimensional partitions into (n-1)-dimensional partitions.",
+  "id": "A096874",
+  "mentions": [
+    "A096651"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

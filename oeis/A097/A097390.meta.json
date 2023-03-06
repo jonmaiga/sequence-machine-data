@@ -1,0 +1,23 @@
+{
+  "description": "Values of ordinal numbers in the following true sentence: \"This sentence contains the twentieth, eighth, ninth, nineteenth ... letters of the English alphabet, in order.\".",
+  "id": "A097390",
+  "mentions": [
+    "A005224",
+    "A096828",
+    "A096829",
+    "A097389",
+    "A097395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

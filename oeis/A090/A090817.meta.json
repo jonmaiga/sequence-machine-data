@@ -1,0 +1,15 @@
+{
+  "description": "a(n)=numerator(B(2*prime(n))) where prime(n)=n-th prime and B(k) denotes the k-th Bernoulli number.",
+  "id": "A090817",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

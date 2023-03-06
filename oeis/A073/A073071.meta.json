@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k! > prime(1)*prime(2)*...*prime(n) where prime(n) is the n-th prime.",
+  "id": "A073071",
+  "mentions": [
+    "A002110",
+    "A048964",
+    "A135667"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

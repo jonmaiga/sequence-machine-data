@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) = smallest palindrome which is a nontrivial multiple of n palindromes (repetitions allowed).",
+  "id": "A071277",
+  "mentions": [
+    "A071276"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

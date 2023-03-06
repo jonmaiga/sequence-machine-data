@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,d) (listed row-wise: T(1,1)=1, T(2,1)=1, T(2,2)=1, T(3,1)=2, T(3,2)=0, T(3,3)=1, ...) giving the number of n-edge general plane trees with root degree d that are fixed by Catalan Automorphisms A057511/A057512 (Deep rotation of general parenthesizations/plane trees).",
+  "id": "A079217",
+  "mentions": [
+    "A002262",
+    "A003056",
+    "A057511",
+    "A057512",
+    "A057546",
+    "A079216",
+    "A079218",
+    "A079219",
+    "A079220",
+    "A079221",
+    "A079222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

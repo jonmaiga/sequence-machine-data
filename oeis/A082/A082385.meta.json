@@ -1,0 +1,21 @@
+{
+  "description": "For each n append T(n), T(T(n)), T^3(n), ..., T^r(n), where T(n) = A055012(n) and r is the smallest integer such that T^r(n) is one of the following numbers: 1, 55, 136, 153, 160, 370, 371, 407, 919.",
+  "id": "A082385",
+  "mentions": [
+    "A046156",
+    "A046157",
+    "A055012"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Least prime p such that p+2n is also prime.",
+  "id": "A020483",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A020484",
+    "A054906",
+    "A087711",
+    "A101042",
+    "A101043",
+    "A101044",
+    "A101045",
+    "A101046",
+    "A237055",
+    "A239392"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

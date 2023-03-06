@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered ways of writing n as a sum of 4 squares of natural numbers.",
+  "id": "A014110",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of 3 positive cubes, including repetitions.",
+  "id": "A024981",
+  "mentions": [
+    "A003072",
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:39",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

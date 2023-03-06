@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor( sqrt(2) * (3/2)^n ).",
+  "id": "A033320",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

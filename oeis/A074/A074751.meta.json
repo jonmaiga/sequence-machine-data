@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of the anti-divisors of n (excluding 1) = sum of proper divisors (or aliquot parts) of n.",
+  "id": "A074751",
+  "mentions": [
+    "A001065",
+    "A066272",
+    "A066417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

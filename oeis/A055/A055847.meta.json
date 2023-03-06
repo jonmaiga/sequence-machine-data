@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=1, a(1)=6, a(n)=49*8^(n-2) if n>=2.",
+  "id": "A055847",
+  "mentions": [
+    "A001018",
+    "A055274",
+    "A201780"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:04:14",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

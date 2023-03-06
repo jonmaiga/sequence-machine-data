@@ -1,0 +1,19 @@
+{
+  "description": "Group the natural numbers so that the n-th group contains n numbers, the k-th number in a group is a multiple of k and the sum of the group is prime: (2), (1, 4), (3, 8, 6), (5, 10, 12, 16), (7, 14, 9, 24, 25), ...",
+  "id": "A076077",
+  "mentions": [
+    "A076074",
+    "A076075",
+    "A076076"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

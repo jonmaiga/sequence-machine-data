@@ -1,0 +1,18 @@
+{
+  "description": "Minimal norm of n-dimensional, strictly odd, unimodular lattice.",
+  "id": "A028950",
+  "mentions": [
+    "A005136"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

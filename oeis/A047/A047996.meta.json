@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the (n,k)-th circular binomial coefficient, where 0 <= k <= n.",
+  "id": "A047996",
+  "mentions": [
+    "A000011",
+    "A000012",
+    "A000031",
+    "A000108",
+    "A003239",
+    "A003322",
+    "A004526",
+    "A007997",
+    "A008610",
+    "A008646",
+    "A032191",
+    "A032197",
+    "A037306",
+    "A051168",
+    "A052307",
+    "A052311",
+    "A052313",
+    "A054534",
+    "A054535",
+    "A241926",
+    "A245558",
+    "A245559"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:36:49",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

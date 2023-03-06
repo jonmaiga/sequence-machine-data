@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 26^k - 25^k is prime or a strong pseudoprime.",
+  "id": "A062592",
+  "mentions": [
+    "A000043",
+    "A057468",
+    "A059801",
+    "A059802",
+    "A062572",
+    "A062589",
+    "A062593",
+    "A062666",
+    "A214655",
+    "A214658"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

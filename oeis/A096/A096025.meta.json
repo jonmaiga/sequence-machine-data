@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that (n+j) mod (2+j) = 1 for j from 0 to 6 and (n+7) mod 9 <> 1.",
+  "id": "A096025",
+  "mentions": [
+    "A007310",
+    "A017629",
+    "A096022",
+    "A096023",
+    "A096024",
+    "A096026",
+    "A096027"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:41",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

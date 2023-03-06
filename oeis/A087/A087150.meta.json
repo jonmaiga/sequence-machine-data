@@ -1,0 +1,18 @@
+{
+  "description": "Monotonically increasing sequence of least positive integers, a(1)=1, such that the self-convolution produces all squares.",
+  "id": "A087150",
+  "mentions": [
+    "A087151"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

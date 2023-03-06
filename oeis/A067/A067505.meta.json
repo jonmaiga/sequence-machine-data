@@ -1,0 +1,30 @@
+{
+  "description": "Powers of 8 with digit sum also a power of 8.",
+  "id": "A067505",
+  "mentions": [
+    "A067499",
+    "A067500",
+    "A067501",
+    "A067502",
+    "A067503",
+    "A067504",
+    "A067506",
+    "A067507",
+    "A067508",
+    "A067509",
+    "A067510",
+    "A067511"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of b(n)-b(n+1), where b(n) = n/((n+1)(n+2)) = A026741/A045896.",
+  "id": "A051712",
+  "mentions": [
+    "A026741",
+    "A045896",
+    "A051713",
+    "A051714",
+    "A051715"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,m) = Nim-sum (or XOR) of n and m, read by rows, 0<=m<=n.",
+  "id": "A051933",
+  "mentions": [
+    "A002262",
+    "A003987",
+    "A051910",
+    "A080098",
+    "A080099",
+    "A102037",
+    "A224915",
+    "A265705"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "hear",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:47",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

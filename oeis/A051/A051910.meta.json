@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,m) = Nim-product of n and m, read by rows, 0<=m<=n.",
+  "id": "A051910",
+  "mentions": [
+    "A003987",
+    "A051775",
+    "A051776",
+    "A051911"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:39",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

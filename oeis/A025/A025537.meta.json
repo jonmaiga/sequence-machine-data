@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/s(1) + 1/s(2) + ... + 1/s(n+1)) * LCM{1, 2, ..., n}, where s(k) = LCM{1,2,...,k}/k = A002944(k).",
+  "id": "A025537",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A025527"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:32:17",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

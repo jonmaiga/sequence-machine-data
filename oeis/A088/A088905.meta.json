@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m having exactly one representation m = x^i + x^j with 1",
+  "id": "A088905",
+  "mentions": [
+    "A088904"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

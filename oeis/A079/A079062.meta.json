@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; for n>1, a(n) = smallest prime p such that p - a(n-1) = a^b for some positive integers a,b > 1.",
+  "id": "A079062",
+  "mentions": [
+    "A000040",
+    "A075802"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

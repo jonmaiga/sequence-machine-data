@@ -1,0 +1,20 @@
+{
+  "description": "Write n in ternary, sort digits into increasing order.",
+  "id": "A038574",
+  "mentions": [
+    "A004185",
+    "A038573"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

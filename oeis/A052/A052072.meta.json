@@ -1,0 +1,25 @@
+{
+  "description": "Smallest cubes whose digits occur with the same frequency n.",
+  "id": "A052072",
+  "mentions": [
+    "A052047",
+    "A052048",
+    "A052051",
+    "A052052",
+    "A052070",
+    "A052071"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers whose sum of aliquot divisors as well as product of aliquot divisors is a perfect square.",
+  "id": "A064116",
+  "mentions": [
+    "A048699"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

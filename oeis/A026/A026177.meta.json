@@ -1,0 +1,29 @@
+{
+  "description": "For n >= 2, let h=floor(n/2), L=n-h, R=n+h; then a(R)=n if n odd or a(L) already defined, otherwise a(L)=n.",
+  "id": "A026177",
+  "mentions": [
+    "A026136",
+    "A026142",
+    "A026178",
+    "A026179",
+    "A026180",
+    "A026214",
+    "A026215",
+    "A026216",
+    "A026220",
+    "A026225",
+    "A060236",
+    "A137893"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

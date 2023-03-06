@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = p-1 if n=p, p if n=p^e and e<>1, 1 otherwise; p a prime.",
+  "id": "A072211",
+  "mentions": [
+    "A000010",
+    "A217863"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

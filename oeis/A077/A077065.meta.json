@@ -1,0 +1,29 @@
+{
+  "description": "Semiprimes of form prime - 1.",
+  "id": "A077065",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001358",
+    "A005384",
+    "A005385",
+    "A006093",
+    "A010051",
+    "A023900",
+    "A064911",
+    "A077068",
+    "A194593",
+    "A232342"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:51",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

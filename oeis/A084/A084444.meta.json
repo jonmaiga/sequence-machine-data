@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be written as 1+p+p^k, p prime and k>1.",
+  "id": "A084444",
+  "mentions": [
+    "A084440",
+    "A084441"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

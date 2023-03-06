@@ -1,0 +1,21 @@
+{
+  "description": "Engel expansion of log(1/gamma) (where gamma is the Euler-Mascheroni constant A001620) = 0.549539...",
+  "id": "A059192",
+  "mentions": [
+    "A001620",
+    "A002389",
+    "A006784"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

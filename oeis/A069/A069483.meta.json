@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of prime(n+1)^2 - prime(n)^2.",
+  "id": "A069483",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A069482",
+    "A069485"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

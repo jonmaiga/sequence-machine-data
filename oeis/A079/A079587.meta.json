@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction expansion of sum(k>=1,1/F(k)) where F(k) is the k-th Fibonacci number A000045(k).",
+  "id": "A079587",
+  "mentions": [
+    "A000045",
+    "A079586",
+    "A153386",
+    "A153387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

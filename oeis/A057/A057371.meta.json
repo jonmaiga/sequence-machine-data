@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that can be expressed as k = w+x = y*z with w*x = k*(y+z) where w, x, y, and z are all positive integers.",
+  "id": "A057371",
+  "mentions": [
+    "A001694",
+    "A057369",
+    "A057370",
+    "A057372",
+    "A057373",
+    "A057421"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

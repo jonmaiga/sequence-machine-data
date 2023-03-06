@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5-unbalanced strings of length n (=2^n-A027560(n)).",
+  "id": "A027562",
+  "mentions": [
+    "A027560"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:08:51",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of intercalates in a Latin square of order n.",
+  "id": "A092237",
+  "mentions": [
+    "A090741",
+    "A091323"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

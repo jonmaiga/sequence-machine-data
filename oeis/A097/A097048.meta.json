@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least denominator Y of the proper fractions X/Y which need n or more terms as an Egyptian fraction.",
+  "id": "A097048",
+  "mentions": [
+    "A097049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

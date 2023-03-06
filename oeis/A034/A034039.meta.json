@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are primitively but not imprimitively represented by (x^2+xy+2y^2, x>=0, y>=0).",
+  "id": "A034039",
+  "mentions": [
+    "A034035",
+    "A034042"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:29",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

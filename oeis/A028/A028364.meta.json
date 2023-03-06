@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,m) = Sum_{k=0..m} Catalan(n-k)*Catalan(k).",
+  "id": "A028364",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A008315",
+    "A009766",
+    "A028376",
+    "A028377",
+    "A028378",
+    "A033184",
+    "A039598",
+    "A039599",
+    "A067323",
+    "A201205"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

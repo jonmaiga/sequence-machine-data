@@ -1,0 +1,20 @@
+{
+  "description": "1+n+n^s is a prime, s=10.",
+  "id": "A075719",
+  "mentions": [
+    "A002384",
+    "A075718",
+    "A075720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

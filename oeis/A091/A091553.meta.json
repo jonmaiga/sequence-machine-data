@@ -1,0 +1,22 @@
+{
+  "description": "Third column (k=6) sequence of array A090214 ((4,4)-Stirling2) divided by 72.",
+  "id": "A091553",
+  "mentions": [
+    "A008279",
+    "A078740",
+    "A089518",
+    "A090214"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

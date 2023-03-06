@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer solutions to the equation 2x^2+y^2+32z^2=m for an odd number m=2n-1.",
+  "id": "A072069",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003273",
+    "A006991",
+    "A010054",
+    "A072068",
+    "A072070",
+    "A072071",
+    "A080918",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

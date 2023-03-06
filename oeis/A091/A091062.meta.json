@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n matrices over symbol set {1,2,3,4,5} equivalent under any permutation of row, columns or the symbol set.",
+  "id": "A091062",
+  "mentions": [
+    "A091057",
+    "A091061",
+    "A242095"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

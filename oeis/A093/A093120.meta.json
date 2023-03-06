@@ -1,0 +1,18 @@
+{
+  "description": "Number of convex polyominoes with an n+1 X n+1 minimal bounding square.",
+  "id": "A093120",
+  "mentions": [
+    "A093118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

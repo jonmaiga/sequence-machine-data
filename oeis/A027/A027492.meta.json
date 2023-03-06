@@ -1,0 +1,18 @@
+{
+  "description": "First column of Triangle A027479, constructed from the Stirling numbers of the first kind.",
+  "id": "A027492",
+  "mentions": [
+    "A027479"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:36:05",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

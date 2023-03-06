@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of row 4 of table described in A051714/A051715.",
+  "id": "A051723",
+  "mentions": [
+    "A051714",
+    "A051715",
+    "A051722"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:55",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

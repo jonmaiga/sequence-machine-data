@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 - sqrt((1-2*x)*(1-6*x)))/(2*x*(2-3*x)).",
+  "id": "A033543",
+  "mentions": [
+    "A033321",
+    "A052179",
+    "A124575"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

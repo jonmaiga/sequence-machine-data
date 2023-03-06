@@ -1,0 +1,17 @@
+{
+  "description": "A065560(n) + n - prime(n).",
+  "id": "A081725",
+  "mentions": [
+    "A065560"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

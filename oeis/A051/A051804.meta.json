@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with nonzero multiplicative digital root 2.",
+  "id": "A051804",
+  "mentions": [
+    "A051802"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:31",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

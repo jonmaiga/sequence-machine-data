@@ -1,0 +1,24 @@
+{
+  "description": "Square of primes of the form 4k+1 (A002144).",
+  "id": "A080109",
+  "mentions": [
+    "A002144",
+    "A070079",
+    "A070151",
+    "A080175",
+    "A088539",
+    "A243380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of isomorphism classes of non-associative non-commutative closed binary operations on a set of order n, listed by class size.",
+  "id": "A079194",
+  "mentions": [
+    "A027423",
+    "A079171",
+    "A079192",
+    "A079193",
+    "A079197",
+    "A079200",
+    "A079201",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

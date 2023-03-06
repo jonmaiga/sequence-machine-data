@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(2n) = smallest composite number > (2n-1)-th partial sum of the sequence itself and a(2n+1) = smallest prime > 2n-th partial sum of the sequence.",
+  "id": "A076975",
+  "mentions": [
+    "A076974"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

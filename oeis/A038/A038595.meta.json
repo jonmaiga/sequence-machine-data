@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and n-1 are differences between 2 positive cubes in at least one way.",
+  "id": "A038595",
+  "mentions": [
+    "A038593",
+    "A038594",
+    "A038598"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

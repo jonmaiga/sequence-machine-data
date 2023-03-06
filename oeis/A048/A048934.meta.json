@@ -1,0 +1,20 @@
+{
+  "description": "Largest factor i of any factorization used in the definition of A014575(n).",
+  "id": "A048934",
+  "mentions": [
+    "A014575",
+    "A048933",
+    "A048939"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

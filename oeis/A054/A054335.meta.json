@@ -1,0 +1,49 @@
+{
+  "description": "A convolution triangle of numbers based on A000984 (central binomial coefficients of even order).",
+  "id": "A054335",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A002457",
+    "A002697",
+    "A002802",
+    "A020918",
+    "A020920",
+    "A020922",
+    "A020924",
+    "A020926",
+    "A020928",
+    "A020930",
+    "A020932",
+    "A026671",
+    "A035324",
+    "A038845",
+    "A038846",
+    "A040075",
+    "A045543",
+    "A053121",
+    "A054336",
+    "A054337",
+    "A054338",
+    "A054339",
+    "A054340",
+    "A098615",
+    "A206022",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:18:19",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Record numbers of iterations reached in A050412.",
+  "id": "A052340",
+  "mentions": [
+    "A050412",
+    "A051914",
+    "A052333",
+    "A052334",
+    "A052339"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

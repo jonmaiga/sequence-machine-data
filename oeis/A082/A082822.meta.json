@@ -1,0 +1,21 @@
+{
+  "description": "Triangle (with distinct entries) read by rows in which row n contains n numbers whose product == 1 (mod n).",
+  "id": "A082822",
+  "mentions": [
+    "A082823",
+    "A082824",
+    "A082825",
+    "A082826"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into parts 8k+1 or 8k+3.",
+  "id": "A035449",
+  "mentions": [
+    "A035679"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

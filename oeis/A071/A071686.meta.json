@@ -1,0 +1,24 @@
+{
+  "description": "Smallest solution to gcd(x, Rev(x)) = 2^n.",
+  "id": "A071686",
+  "mentions": [
+    "A004086",
+    "A055483",
+    "A069554",
+    "A072005",
+    "A072021",
+    "A072050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

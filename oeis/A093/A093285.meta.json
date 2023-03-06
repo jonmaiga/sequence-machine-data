@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 85.",
+  "id": "A093285",
+  "mentions": [
+    "A093211",
+    "A093212",
+    "A093299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:27:59",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x/((1 + x^2)*(1 - 4*x + x^2)).",
+  "id": "A099486",
+  "mentions": [
+    "A099487",
+    "A099488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:39:33",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

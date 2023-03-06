@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that, in the binary expansion of n, reading from right to left, the number of 1's never exceeds the number of 0's.",
+  "id": "A036990",
+  "mentions": [
+    "A014486",
+    "A030308",
+    "A036988",
+    "A036989",
+    "A036991",
+    "A036992",
+    "A061854",
+    "A095775",
+    "A125086"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

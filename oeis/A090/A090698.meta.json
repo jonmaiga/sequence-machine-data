@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 2*n^2+1.",
+  "id": "A090698",
+  "mentions": [
+    "A000040",
+    "A058331",
+    "A089001",
+    "A089008",
+    "A090612"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:27",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

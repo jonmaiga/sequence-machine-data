@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways n can be written as a sum of a square of a prime and a cube of a prime.",
+  "id": "A045701",
+  "mentions": [
+    "A045699",
+    "A045700",
+    "A196752",
+    "A196753"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

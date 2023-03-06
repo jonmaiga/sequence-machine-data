@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes that yield a prime when sandwiched between two 9's.",
+  "id": "A088272",
+  "mentions": [
+    "A088269",
+    "A088270",
+    "A088271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

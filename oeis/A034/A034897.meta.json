@@ -1,0 +1,21 @@
+{
+  "description": "Hyperperfect numbers: x such that x = 1 + k*(sigma(x)-x-1) for some k > 0.",
+  "id": "A034897",
+  "mentions": [
+    "A000396",
+    "A007592",
+    "A019279",
+    "A034898"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

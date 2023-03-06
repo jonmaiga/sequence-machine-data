@@ -1,0 +1,20 @@
+{
+  "description": "Sigma of the least numbers k for which sigma is divisible by k (where sigma is the sum of the divisors of k, A000203(k)).",
+  "id": "A085961",
+  "mentions": [
+    "A000203",
+    "A066678",
+    "A070982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, continue by multiplying by the smallest composite number and then dividing by the smallest prime not used earlier and taking the integer part at every step.",
+  "id": "A077015",
+  "mentions": [
+    "A077016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "If n = 2*m then a(n) = binomial(3*m, m)/(2*m+1), if n=2*m+1 then a(n) = binomial(3*m+1, m+1)/(2*m+1).",
+  "id": "A047749",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A006013",
+    "A059492",
+    "A245898"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

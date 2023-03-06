@@ -1,0 +1,19 @@
+{
+  "description": "Sum of diagonal elements and those below it for a square matrix of integers, starting with 1.",
+  "id": "A066804",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:15",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

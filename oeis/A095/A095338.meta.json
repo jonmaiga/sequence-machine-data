@@ -1,0 +1,19 @@
+{
+  "description": "Total number of leaves in the labeled graphs of order n.",
+  "id": "A095338",
+  "mentions": [
+    "A182166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

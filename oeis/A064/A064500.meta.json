@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number with n decimal digits such that the product of its digits equals n * the sum of its digits, or 0 if impossible.",
+  "id": "A064500",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers i=1,2,...,n such that (n,i) has Property F3*, i.e., i and n are consecutive terms of a sequence b(k) satisfying b(1)=1, b(n) = (b(n-1) OR 2*b(n-1)) + b(n-2), where the OR is taken bitwise.",
+  "id": "A067150",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A048888",
+    "A067148",
+    "A079500"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number with exactly n distinct prime factors such that in binary representation the divisors >1 form a prefix code.",
+  "id": "A090335",
+  "mentions": [
+    "A001221",
+    "A088862",
+    "A090330",
+    "A090332"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

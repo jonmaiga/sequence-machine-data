@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers <= n with no prime factor > log(n).",
+  "id": "A096300",
+  "mentions": [
+    "A000012",
+    "A070939",
+    "A071520",
+    "A071521",
+    "A071604"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

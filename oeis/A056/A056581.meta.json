@@ -1,0 +1,26 @@
+{
+  "description": "Nearest integer to 1/(A056580(n) - exp(sqrt(n)*Pi)).",
+  "id": "A056581",
+  "mentions": [
+    "A003173",
+    "A019296",
+    "A019297",
+    "A035484",
+    "A056580",
+    "A058292",
+    "A060456",
+    "A069014",
+    "A138851"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:45",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

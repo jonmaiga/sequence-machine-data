@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers where the sequence of largest quadratic residues modulo the primes (A088190) is non-monotonic.",
+  "id": "A088193",
+  "mentions": [
+    "A088190",
+    "A088191",
+    "A088192",
+    "A088194",
+    "A088195"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

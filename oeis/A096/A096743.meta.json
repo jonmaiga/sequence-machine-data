@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of a(n)/2^A005187(n-1), the n-th row sums of A096651^(3/2), with a(0)=1.",
+  "id": "A096743",
+  "mentions": [
+    "A005187",
+    "A096651",
+    "A096742"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Chebyshev polynomials S(n,531) + S(n-1,531) with Diophantine property.",
+  "id": "A098258",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A098257",
+    "A098259"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

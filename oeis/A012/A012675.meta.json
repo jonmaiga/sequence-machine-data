@@ -1,0 +1,15 @@
+{
+  "description": "sech(tanh(x)*tan(x))=1-12/4!*x^4+2128/8!*x^8+3482688/12!*x^12...",
+  "id": "A012675",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:07:15",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

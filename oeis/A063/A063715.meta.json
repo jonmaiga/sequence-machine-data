@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions (r,u,s,t) in positive integers to the system of equations 1/r + 1/u = 1/n, 1/s + 1/t = 1/u.",
+  "id": "A063715",
+  "mentions": [
+    "A000005",
+    "A004194",
+    "A048691",
+    "A063520",
+    "A063716"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

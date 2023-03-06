@@ -1,0 +1,26 @@
+{
+  "description": "Additive persistence: number of summations of digits needed to obtain a single digit (the additive digital root).",
+  "id": "A031286",
+  "mentions": [
+    "A006050",
+    "A010888",
+    "A031346",
+    "A031347",
+    "A045646",
+    "A304366",
+    "A304367",
+    "A304368",
+    "A304373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

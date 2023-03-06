@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of the n X n matrix whose element (i,j) equals sigma(|i-j|) where sigma(n) is the sum of divisors of n and sigma(0) = 0.",
+  "id": "A085511",
+  "mentions": [
+    "A000203",
+    "A071084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

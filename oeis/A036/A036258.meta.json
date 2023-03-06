@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent strings of n digits, when 2 strings are equivalent if turning 1 upside down gives the other.",
+  "id": "A036258",
+  "mentions": [
+    "A036255",
+    "A036257"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

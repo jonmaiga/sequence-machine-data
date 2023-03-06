@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x(1-4x)/((1-2x)(1-8x^2)).",
+  "id": "A098656",
+  "mentions": [
+    "A094024",
+    "A098655",
+    "A098657"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:46:24",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

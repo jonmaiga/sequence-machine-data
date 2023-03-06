@@ -1,0 +1,22 @@
+{
+  "description": "Inconsummate numbers in base 4: no number is this multiple of the sum of its digits (in base 4).",
+  "id": "A058900",
+  "mentions": [
+    "A003635",
+    "A052491",
+    "A058898",
+    "A058906",
+    "A058907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

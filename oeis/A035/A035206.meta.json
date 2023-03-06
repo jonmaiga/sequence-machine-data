@@ -1,0 +1,27 @@
+{
+  "description": "Number of multisets associated with least integer of each prime signature.",
+  "id": "A035206",
+  "mentions": [
+    "A000041",
+    "A001700",
+    "A036038",
+    "A036043",
+    "A048996",
+    "A049009",
+    "A103371",
+    "A117506"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

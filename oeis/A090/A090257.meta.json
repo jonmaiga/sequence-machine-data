@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, then least square such that every partial concatenation is a prime.",
+  "id": "A090257",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

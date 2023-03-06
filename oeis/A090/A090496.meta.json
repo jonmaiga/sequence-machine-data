@@ -1,0 +1,23 @@
+{
+  "description": "Ratio of numerator(Bernoulli(2*n)/(2*n)) to numerator(Bernoulli(2*n)/(2*n*(2*n-1))) for n's for which they are different.",
+  "id": "A090496",
+  "mentions": [
+    "A000928",
+    "A001067",
+    "A026352",
+    "A046968",
+    "A090495",
+    "A092291"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

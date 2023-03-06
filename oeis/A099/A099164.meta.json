@@ -1,0 +1,21 @@
+{
+  "description": "(L(n+2)+2*3^n)/5.",
+  "id": "A099164",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A099163"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:49:54",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

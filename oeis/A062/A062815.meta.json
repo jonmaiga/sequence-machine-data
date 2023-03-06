@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=1..n} i^(i+1).",
+  "id": "A062815",
+  "mentions": [
+    "A007778",
+    "A226065",
+    "A226140"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

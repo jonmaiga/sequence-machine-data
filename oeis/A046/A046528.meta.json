@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are a product of distinct Mersenne primes (elements of A000668).",
+  "id": "A046528",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A051281",
+    "A056652",
+    "A078426",
+    "A094502",
+    "A306204"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

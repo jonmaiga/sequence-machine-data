@@ -1,0 +1,19 @@
+{
+  "description": "Sum of three solutions of the Diophantine equation x^2 - y^2 = z^3.",
+  "id": "A085409",
+  "mentions": [
+    "A085377"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:03",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

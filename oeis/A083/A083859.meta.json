@@ -1,0 +1,21 @@
+{
+  "description": "Main diagonal of generalized Fibonacci array A083856.",
+  "id": "A083859",
+  "mentions": [
+    "A083856",
+    "A083860",
+    "A193376"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

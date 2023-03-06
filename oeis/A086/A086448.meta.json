@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the least integer of the form [prime(n+1)+prime(n+2)+...+prime(n+k)]/prime(n).",
+  "id": "A086448",
+  "mentions": [
+    "A055233",
+    "A055514",
+    "A086447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

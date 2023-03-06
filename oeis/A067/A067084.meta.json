@@ -1,0 +1,16 @@
+{
+  "description": "Number of digits in n^{(n-1)!}.",
+  "id": "A067084",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 10,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

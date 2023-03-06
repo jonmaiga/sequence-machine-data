@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: GCDs of entries in A010940.",
+  "id": "A079341",
+  "mentions": [
+    "A010940",
+    "A079342"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

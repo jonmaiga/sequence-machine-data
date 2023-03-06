@@ -1,0 +1,15 @@
+{
+  "description": "Number of walks of length n on the upper-right part of the hexagonal lattice.",
+  "id": "A057647",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

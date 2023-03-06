@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime associated with A053095(n), or zero if no such prime exists.",
+  "id": "A053160",
+  "mentions": [
+    "A053095",
+    "A053161"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

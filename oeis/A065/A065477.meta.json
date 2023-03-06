@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of constant 5 * Pi^2 * A065476 / 48.",
+  "id": "A065477",
+  "mentions": [
+    "A001692",
+    "A065476",
+    "A078088"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

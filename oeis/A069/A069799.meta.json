@@ -1,0 +1,34 @@
+{
+  "description": "The number obtained by reversing the sequence of nonzero exponents in the prime factorization of n with respect to distinct primes present, as ordered by their indices.",
+  "id": "A069799",
+  "mentions": [
+    "A000027",
+    "A001221",
+    "A027748",
+    "A059404",
+    "A105119",
+    "A112798",
+    "A122111",
+    "A124010",
+    "A137502",
+    "A153212",
+    "A225891",
+    "A241916",
+    "A242414",
+    "A242415",
+    "A242416",
+    "A242418",
+    "A242419"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

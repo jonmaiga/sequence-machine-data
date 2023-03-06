@@ -1,0 +1,19 @@
+{
+  "description": "Signed super-Catalan or little Schroeder numbers.",
+  "id": "A080243",
+  "mentions": [
+    "A001003",
+    "A080245"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

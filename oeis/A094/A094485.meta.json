@@ -1,0 +1,24 @@
+{
+  "description": "T(n, k) = Stirling1(n+1, k) - Stirling1(n, k-1), for 1 <= k <= n. Triangle read by rows.",
+  "id": "A094485",
+  "mentions": [
+    "A000142",
+    "A019538",
+    "A028246",
+    "A052881",
+    "A163626"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

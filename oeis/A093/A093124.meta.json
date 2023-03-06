@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i=n-k..n} sigma(i) which is not less than a(n-1) and obtained with the least k.",
+  "id": "A093124",
+  "mentions": [
+    "A000203",
+    "A093125"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

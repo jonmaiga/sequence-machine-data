@@ -1,0 +1,27 @@
+{
+  "description": "State of one-dimensional cellular automaton 'sigma' (Rule 150): 000,001,010,011,100,101,110,111 -> 0,1,1,0,1,0,0,1 at generation n, converted to a decimal number.",
+  "id": "A038184",
+  "mentions": [
+    "A001317",
+    "A006977",
+    "A006978",
+    "A027907",
+    "A038183",
+    "A038185",
+    "A048710",
+    "A048720",
+    "A071036",
+    "A071053",
+    "A118110"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

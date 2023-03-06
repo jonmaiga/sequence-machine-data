@@ -1,0 +1,21 @@
+{
+  "description": "A generalized Thue-Morse sequence.",
+  "id": "A051329",
+  "mentions": [
+    "A001285",
+    "A010060",
+    "A053735"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

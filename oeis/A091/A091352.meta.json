@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A091351, in which the k-th column lists the row sums of the k-th power of A091351 (when considered as a lower triangular matrix).",
+  "id": "A091352",
+  "mentions": [
+    "A091351",
+    "A091353",
+    "A091354",
+    "A125781",
+    "A127420"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

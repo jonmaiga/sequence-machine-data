@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the k-th prime = -1 (mod n), 1 <= k <= n.",
+  "id": "A093870",
+  "mentions": [
+    "A038700",
+    "A077316",
+    "A093871"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

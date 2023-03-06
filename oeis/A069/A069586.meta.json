@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime power p^k (k>=2) such that there is a difference of exactly n between p^k and some other prime power q^l (l >= 2); or 0 if no such q^l exists.",
+  "id": "A069586",
+  "mentions": [
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

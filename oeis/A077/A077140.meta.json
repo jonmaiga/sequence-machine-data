@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1 and then add n to the previous term if n is coprime to the previous term, otherwise subtract n from the previous term. a(1) = 1 and a(n) = a(n-1) + n if gcd(n, a(n-1)) = 1, otherwise a(n) = a(n-1) - n.",
+  "id": "A077140",
+  "mentions": [
+    "A000120",
+    "A003815",
+    "A077141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:53",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,d) is the number of distinct properly d-dimensional polyominoes (or polycubes) with n cells (n >= 1, d >= 0).",
+  "id": "A049430",
+  "mentions": [
+    "A000055",
+    "A005519",
+    "A006765",
+    "A006766",
+    "A006767",
+    "A006768",
+    "A036364",
+    "A049429",
+    "A195738",
+    "A195739",
+    "A330891",
+    "A355053"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

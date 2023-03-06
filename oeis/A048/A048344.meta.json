@@ -1,0 +1,22 @@
+{
+  "description": "a(n) * a(n)_reversed is a palindrome (and a(n) is not palindromic).",
+  "id": "A048344",
+  "mentions": [
+    "A004086",
+    "A029742",
+    "A048343",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

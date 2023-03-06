@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1-4*x)^(11/2).",
+  "id": "A020923",
+  "mentions": [
+    "A001622",
+    "A002420",
+    "A002421",
+    "A002422",
+    "A002423",
+    "A002424"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

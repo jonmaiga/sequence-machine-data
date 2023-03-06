@@ -1,0 +1,15 @@
+{
+  "description": "Origin numbers: integers unreachable by Bergerson's Alpha construction (see the Ross Eckler link).",
+  "id": "A068196",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of rods required to make a 3-D cube of side length n.",
+  "id": "A059986",
+  "mentions": [
+    "A000217",
+    "A045945",
+    "A117227"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:37",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "n-1 minus exponent of 2 in n, a(0) = 0.",
+  "id": "A093049",
+  "mentions": [
+    "A001761",
+    "A002105",
+    "A002682",
+    "A003707",
+    "A006963",
+    "A007814",
+    "A011859",
+    "A036770",
+    "A059837",
+    "A084623",
+    "A093048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

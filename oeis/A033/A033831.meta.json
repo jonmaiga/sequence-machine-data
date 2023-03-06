@@ -1,0 +1,17 @@
+{
+  "description": "Number of numbers d dividing n such that d >= 3 and 1 <= n/d <= d-2.",
+  "id": "A033831",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

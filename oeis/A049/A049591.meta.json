@@ -1,0 +1,19 @@
+{
+  "description": "Odd primes p such that p+2 is composite.",
+  "id": "A049591",
+  "mentions": [
+    "A000005",
+    "A067774",
+    "A105399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:39:31",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

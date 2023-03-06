@@ -1,0 +1,19 @@
+{
+  "description": "(1+e)-harmonic numbers: harmonic mean of (1+e)-divisors is an integer.",
+  "id": "A053783",
+  "mentions": [
+    "A001599",
+    "A049599",
+    "A051378"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

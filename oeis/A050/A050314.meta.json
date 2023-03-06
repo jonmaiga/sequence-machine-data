@@ -1,0 +1,25 @@
+{
+  "description": "Triangle: a(n,k) = number of partitions of n whose xor-sum is k.",
+  "id": "A050314",
+  "mentions": [
+    "A000041",
+    "A048833",
+    "A050315",
+    "A050316",
+    "A307431",
+    "A307432"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

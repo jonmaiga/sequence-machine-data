@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-1 and p+1 are both divisible by fourth powers.",
+  "id": "A086709",
+  "mentions": [
+    "A046101",
+    "A075432",
+    "A086708",
+    "A089212"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

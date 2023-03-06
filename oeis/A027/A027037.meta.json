@@ -1,0 +1,18 @@
+{
+  "description": "Diagonal sum of left-justified array T given by A027023.",
+  "id": "A027037",
+  "mentions": [
+    "A027023"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

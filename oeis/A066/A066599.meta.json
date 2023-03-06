@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest number which can be expressed as the product of a number and its reversal in exactly n different ways.",
+  "id": "A066599",
+  "mentions": [
+    "A066531"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

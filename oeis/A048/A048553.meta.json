@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) is next smallest prime beginning with a(n), initial prime is 11.",
+  "id": "A048553",
+  "mentions": [
+    "A048549",
+    "A048556",
+    "A261199",
+    "A261201",
+    "A261269",
+    "A261270"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

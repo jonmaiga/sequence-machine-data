@@ -1,0 +1,36 @@
+{
+  "description": "Coefficients of the '3rd-order' mock theta function psi(q)",
+  "id": "A053251",
+  "mentions": [
+    "A000025",
+    "A003475",
+    "A035363",
+    "A035457",
+    "A053250",
+    "A053252",
+    "A053253",
+    "A053254",
+    "A053255",
+    "A122129",
+    "A122130",
+    "A122134",
+    "A122135",
+    "A239327",
+    "A351003",
+    "A351005",
+    "A351006",
+    "A351007"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

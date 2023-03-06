@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime as sum of distinct divisors of n.",
+  "id": "A085379",
+  "mentions": [
+    "A000203",
+    "A023194",
+    "A062700",
+    "A070801",
+    "A085380",
+    "A085381"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

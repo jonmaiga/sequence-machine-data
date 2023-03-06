@@ -1,0 +1,16 @@
+{
+  "description": "n^3 + n-th prime.",
+  "id": "A089620",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:02:05",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

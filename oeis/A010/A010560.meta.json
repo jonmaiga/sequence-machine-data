@@ -1,0 +1,15 @@
+{
+  "description": "Second correlation moment for 4-d b.c.c. lattice.",
+  "id": "A010560",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

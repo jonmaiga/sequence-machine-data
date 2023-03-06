@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of (1-x)^floor(n/2)(1+x)^ceiling(n/2).",
+  "id": "A051160",
+  "mentions": [
+    "A007318",
+    "A051159",
+    "A084938",
+    "A130706"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:13",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

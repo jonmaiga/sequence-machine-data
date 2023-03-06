@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n*R(n) is a palindrome, where R(n) (A004086) = digit reversal.",
+  "id": "A062936",
+  "mentions": [
+    "A004086",
+    "A048343",
+    "A048344"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

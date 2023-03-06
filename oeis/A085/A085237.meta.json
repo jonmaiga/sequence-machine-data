@@ -1,0 +1,21 @@
+{
+  "description": "Nondecreasing gaps between primes.",
+  "id": "A085237",
+  "mentions": [
+    "A002386",
+    "A005250",
+    "A005669",
+    "A053686",
+    "A348178"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

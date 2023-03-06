@@ -1,0 +1,18 @@
+{
+  "description": "Ratios of successive terms of A080984.",
+  "id": "A080986",
+  "mentions": [
+    "A080581",
+    "A080984"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

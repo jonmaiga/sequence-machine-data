@@ -1,0 +1,17 @@
+{
+  "description": "Position of first appearance of n in A054073.",
+  "id": "A054075",
+  "mentions": [
+    "A054073"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:51",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

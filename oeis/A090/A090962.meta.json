@@ -1,0 +1,17 @@
+{
+  "description": "Least multiple of n such that the n-th partial sum is an n-th power with the condition that a(n+1) exists.",
+  "id": "A090962",
+  "mentions": [
+    "A090963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

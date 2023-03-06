@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) (0 <= k <= n) giving number of chains of length k in partially ordered set formed from subsets of n-set by inclusion.",
+  "id": "A038719",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A001047",
+    "A007047",
+    "A019538",
+    "A028246",
+    "A038720",
+    "A038721",
+    "A131689",
+    "A143494"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

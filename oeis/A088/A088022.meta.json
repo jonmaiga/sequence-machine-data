@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(sum_{k>=0} k^n /(k!)^3); related to generalized Bell numbers.",
+  "id": "A088022",
+  "mentions": [
+    "A000996",
+    "A000997",
+    "A000998",
+    "A086880"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

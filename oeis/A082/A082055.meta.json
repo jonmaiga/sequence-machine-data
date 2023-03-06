@@ -1,0 +1,23 @@
+{
+  "description": "Product of common prime-divisors (without multiplicity) of sigma(n) and phi(n).",
+  "id": "A082055",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A007947",
+    "A009223",
+    "A081396",
+    "A082054"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

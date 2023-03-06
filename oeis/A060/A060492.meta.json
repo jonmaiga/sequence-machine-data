@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) of k-block ordered tricoverings of an unlabeled n-set (n >= 3, k = 4..2n).",
+  "id": "A060492",
+  "mentions": [
+    "A059443",
+    "A059530",
+    "A060052",
+    "A060092",
+    "A060487",
+    "A060488",
+    "A060489",
+    "A060490",
+    "A060491",
+    "A331571"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 3,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

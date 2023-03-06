@@ -1,0 +1,19 @@
+{
+  "description": "Greater of a,b where n^2 = a^3 + b^3; a,b>0 and gcd(a,b)=1. The lesser of a,b is the corresponding term in A099532 and n, which is used to order this sequence, is the corresponding term in A099426.",
+  "id": "A099533",
+  "mentions": [
+    "A099426",
+    "A099532",
+    "A282639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

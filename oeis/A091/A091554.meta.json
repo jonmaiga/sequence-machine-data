@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that k = 2p is the smallest positive solution to the equation sigma(p+k) = sigma(p) + sigma(k).",
+  "id": "A091554",
+  "mentions": [
+    "A066435"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of cycles in range [A014137(n-1)..A014138(n-1)] of permutation A071663.",
+  "id": "A079441",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057507",
+    "A071663",
+    "A071664",
+    "A073201",
+    "A079437",
+    "A079442",
+    "A079443",
+    "A089408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

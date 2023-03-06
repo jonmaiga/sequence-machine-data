@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n) * k(n), where k(n) is the number of elements of {a(j)}, 1<=j<=n, which are <= n.",
+  "id": "A094590",
+  "mentions": [
+    "A094589"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

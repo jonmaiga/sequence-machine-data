@@ -1,0 +1,15 @@
+{
+  "description": "Spin-spin correlation function for D_4 lattice.",
+  "id": "A010565",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

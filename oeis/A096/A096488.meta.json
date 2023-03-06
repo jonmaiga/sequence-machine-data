@@ -1,0 +1,20 @@
+{
+  "description": "Number of different terms in a period of continued fraction for square root of n-th repunit.",
+  "id": "A096488",
+  "mentions": [
+    "A002275",
+    "A096485",
+    "A096487"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

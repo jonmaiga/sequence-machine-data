@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms in longest arithmetic progression of consecutive primes starting at n-th prime (conjectured to be unbounded).",
+  "id": "A031217",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

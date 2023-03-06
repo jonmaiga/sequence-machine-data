@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes n such that n and n^2 have same digit sum.",
+  "id": "A058852",
+  "mentions": [
+    "A002113",
+    "A007953",
+    "A058369",
+    "A058370"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

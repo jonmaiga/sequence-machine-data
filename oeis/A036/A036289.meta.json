@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n*2^n.",
+  "id": "A036289",
+  "mentions": [
+    "A000079",
+    "A001787",
+    "A002064",
+    "A003261",
+    "A005843",
+    "A036799",
+    "A085454",
+    "A096195",
+    "A097064"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

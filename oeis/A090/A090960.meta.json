@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with 1, least multiple of n such that every partial sum is a perfect cube.",
+  "id": "A090960",
+  "mentions": [
+    "A090961"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

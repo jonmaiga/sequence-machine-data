@@ -1,0 +1,19 @@
+{
+  "description": "Primes q of form q=p^w+2 where p is odd prime, w>=2.",
+  "id": "A053703",
+  "mentions": [
+    "A025475",
+    "A053702"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

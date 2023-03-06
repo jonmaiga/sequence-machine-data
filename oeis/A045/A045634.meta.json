@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways in which n can be partitioned as a sum of a square and cube.",
+  "id": "A045634",
+  "mentions": [
+    "A022549",
+    "A022550",
+    "A060861",
+    "A135910",
+    "A135911",
+    "A135912",
+    "A179509"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

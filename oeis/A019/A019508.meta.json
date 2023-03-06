@@ -1,0 +1,15 @@
+{
+  "description": "X^m=X rings without normal forms: integers m > 1 for which there exist a prime p and integers a,b > 0 such that both p^a-1 and p^b-1 divide m-1 but p^lcm(a,b)-1 does not divide m-1.",
+  "id": "A019508",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:09",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to break {1,2,3,...n} into sets with equal sums.",
+  "id": "A035470",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A038041",
+    "A112956",
+    "A164977",
+    "A164978",
+    "A275714",
+    "A275780",
+    "A275781",
+    "A321455",
+    "A326512",
+    "A326513",
+    "A326518",
+    "A326534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

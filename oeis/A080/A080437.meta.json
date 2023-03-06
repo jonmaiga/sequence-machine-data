@@ -1,0 +1,18 @@
+{
+  "description": "For n < 5, a(n) = n-th prime. For n >= 5, let m = n-th prime. If m is a k-digit prime then a(n) = smallest prime obtained by inserting at least one digit between every pair of digits of m. There are (k-1) places where digit insertion takes place and a(n) contains at least 2k-1 digits.",
+  "id": "A080437",
+  "mentions": [
+    "A080436"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

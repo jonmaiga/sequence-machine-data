@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(e*(n-1)*(n-1)!)).",
+  "id": "A036918",
+  "mentions": [
+    "A000522",
+    "A001339",
+    "A038155",
+    "A073531",
+    "A073532"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:53:14",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

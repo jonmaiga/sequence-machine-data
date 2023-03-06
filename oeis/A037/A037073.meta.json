@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (6*k)^2 is the sum of a twin prime pair.",
+  "id": "A037073",
+  "mentions": [
+    "A000290",
+    "A001359",
+    "A006512",
+    "A152786"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

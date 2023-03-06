@@ -1,0 +1,22 @@
+{
+  "description": "Row 0 of the order array of 3/2, i.e., row 0 of the transposable dispersion in A087465.",
+  "id": "A087483",
+  "mentions": [
+    "A000212",
+    "A053799",
+    "A087465",
+    "A087468",
+    "A192735"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

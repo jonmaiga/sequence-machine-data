@@ -1,0 +1,23 @@
+{
+  "description": "Fifth column (k=4) of triangle A084938.",
+  "id": "A090319",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A003149",
+    "A084938",
+    "A090595"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

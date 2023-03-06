@@ -1,0 +1,22 @@
+{
+  "description": "#{(i,j): mu(i)*mu(j) = 0, 1<=i,j<=n}, where mu=A008683 (Moebius function).",
+  "id": "A081239",
+  "mentions": [
+    "A008683",
+    "A013928",
+    "A057627",
+    "A081238",
+    "A081240"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:37",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

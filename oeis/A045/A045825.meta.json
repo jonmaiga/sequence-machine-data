@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A004017(n)/2.",
+  "id": "A045825",
+  "mentions": [
+    "A004017"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:26:09",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

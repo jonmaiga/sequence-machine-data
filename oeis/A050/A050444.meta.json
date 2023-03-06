@@ -1,0 +1,21 @@
+{
+  "description": "Primes setting records for earliest alphabetical position in American English.",
+  "id": "A050444",
+  "mentions": [
+    "A050445"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

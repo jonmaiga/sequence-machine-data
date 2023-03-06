@@ -1,0 +1,18 @@
+{
+  "description": "Least palindromic prime with 2n+1 central 0's.",
+  "id": "A082521",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

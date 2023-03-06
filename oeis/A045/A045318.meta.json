@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that x^8 = 3 has no solution mod p.",
+  "id": "A045318",
+  "mentions": [
+    "A000040",
+    "A045317",
+    "A301916",
+    "A320481"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

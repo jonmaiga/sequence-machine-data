@@ -1,0 +1,22 @@
+{
+  "description": "Same numbers of distinct prime factors of forms 4*k+1 and 4*k+3.",
+  "id": "A078613",
+  "mentions": [
+    "A001221",
+    "A005089",
+    "A005091",
+    "A072202",
+    "A221264",
+    "A221265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

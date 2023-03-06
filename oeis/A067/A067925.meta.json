@@ -1,0 +1,19 @@
+{
+  "description": "Consider a room of size r X s where rs = 2n and 1 <= r, 1 <= s; count ways to arrange n Tatami mats in room; a(n) = total number of ways for all choices of r and s. Two arrangements are distinguished if one is a rotation or reflection of the other.",
+  "id": "A067925",
+  "mentions": [
+    "A052270",
+    "A068920"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

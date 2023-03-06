@@ -1,0 +1,20 @@
+{
+  "description": "Sums of rows of triangle in A077389.",
+  "id": "A077388",
+  "mentions": [
+    "A054892",
+    "A077389",
+    "A082638",
+    "A122820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

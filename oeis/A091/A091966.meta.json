@@ -1,0 +1,19 @@
+{
+  "description": "Let f(x)=|log x|, f^k(x)=f(f^(k-1)(x))=f iterated k times at x; a(n) = least k such that f^k(n) <= 1/n.",
+  "id": "A091966",
+  "mentions": [
+    "A093079",
+    "A093080",
+    "A093081"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

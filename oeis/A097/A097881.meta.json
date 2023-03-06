@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum from 1 to infinity of fraction sequence with numerator triangular numbers and denominator sum of prime cubes.",
+  "id": "A097881",
+  "mentions": [
+    "A000217",
+    "A098999"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+2x+3x^2+6x^3)/((1+x)(1-x)^2).",
+  "id": "A092899",
+  "mentions": [
+    "A001045",
+    "A078008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:20:17",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

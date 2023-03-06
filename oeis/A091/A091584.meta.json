@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of the n-th decimal palindrome into decimal palindromes.",
+  "id": "A091584",
+  "mentions": [
+    "A002113",
+    "A046486",
+    "A046488",
+    "A046497",
+    "A046498",
+    "A046499",
+    "A091580",
+    "A091582"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

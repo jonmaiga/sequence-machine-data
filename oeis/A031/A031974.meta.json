@@ -1,0 +1,22 @@
+{
+  "description": "1 repeated prime(n) times.",
+  "id": "A031974",
+  "mentions": [
+    "A000040",
+    "A000042",
+    "A004022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

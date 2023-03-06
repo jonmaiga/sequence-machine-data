@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(n-1)*(9*n-16)+9.",
+  "id": "A048502",
+  "mentions": [
+    "A000079",
+    "A017185",
+    "A048494"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

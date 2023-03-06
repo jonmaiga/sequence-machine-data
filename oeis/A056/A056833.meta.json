@@ -1,0 +1,17 @@
+{
+  "description": "Nearest integer to n^2/7.",
+  "id": "A056833",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:25",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

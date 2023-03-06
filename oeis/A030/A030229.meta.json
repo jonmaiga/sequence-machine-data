@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that are the product of an even number of distinct primes.",
+  "id": "A030229",
+  "mentions": [
+    "A000379",
+    "A005117",
+    "A006094",
+    "A006881",
+    "A008683",
+    "A028260",
+    "A030059",
+    "A059897",
+    "A100484",
+    "A104141",
+    "A151797",
+    "A220968",
+    "A220969",
+    "A245630"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:05",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = b(n) + d(n), where b(n) = (n-th Lucas number > 3) and d(n) = (n-th number that is 1 or is not a Lucas number).",
+  "id": "A023497",
+  "mentions": [
+    "A000032",
+    "A090946"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:28:24",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

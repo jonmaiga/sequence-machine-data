@@ -1,0 +1,17 @@
+{
+  "description": "Number of intersection points of diagonals of an n-gon in general position, plus number of vertices.",
+  "id": "A014626",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

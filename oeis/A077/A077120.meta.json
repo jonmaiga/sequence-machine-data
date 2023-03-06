@@ -1,0 +1,19 @@
+{
+  "description": "n^3 times nearest integer square to n^3.",
+  "id": "A077120",
+  "mentions": [
+    "A000578",
+    "A077118"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

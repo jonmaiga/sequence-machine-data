@@ -1,0 +1,23 @@
+{
+  "description": "Let the decimal expansion of n be abcd...; then a(n) = (a*bcd... + b*acd... + c*abd... + d*abc... + ...) + (ab*cd... + bc*ad... + cd*ab... + ...) + ... . That is, a(n) = sum over all the digit strings of the product (number obtained by deleting a digit string) * (deleted digit string).",
+  "id": "A088117",
+  "mentions": [
+    "A007954",
+    "A035930",
+    "A088116",
+    "A171765",
+    "A257850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

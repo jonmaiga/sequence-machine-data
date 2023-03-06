@@ -1,0 +1,26 @@
+{
+  "description": "RATS: Reverse Add Then Sort the digits applied to previous term, starting with 3.",
+  "id": "A066710",
+  "mentions": [
+    "A004000",
+    "A036839",
+    "A066711",
+    "A114611",
+    "A114614",
+    "A209878",
+    "A209879",
+    "A209880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:13",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Table by antidiagonals of Mahonian numbers T(n,k): permutations of n letters with k inversions.",
+  "id": "A060701",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000096",
+    "A000707",
+    "A001892",
+    "A001893",
+    "A001894",
+    "A005283",
+    "A005284",
+    "A005285",
+    "A005286",
+    "A005287",
+    "A005288",
+    "A008302"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

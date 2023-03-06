@@ -1,0 +1,19 @@
+{
+  "description": "Haupt-exponents of 3 modulo integers relatively prime to 3.",
+  "id": "A050975",
+  "mentions": [
+    "A001651",
+    "A002326",
+    "A002329"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:39",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Convert n from degrees Fahrenheit to Centigrade (or Celsius).",
+  "id": "A029926",
+  "mentions": [
+    "A029925"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:49",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

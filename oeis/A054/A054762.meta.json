@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is a cube mod a(i) for all i < n.",
+  "id": "A054762",
+  "mentions": [
+    "A034793"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

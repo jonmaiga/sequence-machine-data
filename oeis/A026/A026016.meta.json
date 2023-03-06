@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = binomial(2*n-1, n) - binomial(2*n-1, n+3).",
+  "id": "A026016",
+  "mentions": [
+    "A000108",
+    "A026009"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

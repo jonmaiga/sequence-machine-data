@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of unique normalized cusp form Delta_22 of weight 22 for full modular group.",
+  "id": "A037946",
+  "mentions": [
+    "A000594",
+    "A004009",
+    "A013969",
+    "A013973",
+    "A290181"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

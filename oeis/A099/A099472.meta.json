@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that binomial(n,m) cannot be represented as the sum of three squares for any 0 <= m <= n.",
+  "id": "A099472",
+  "mentions": [
+    "A004215",
+    "A099473"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

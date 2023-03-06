@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{i=0..2*A053645(n)} (C(2*A053645(n),i) mod 2)*A000045(n-i) [where C(r,c) is the binomial coefficient (A007318) and A000045(n) is the n-th Fibonacci number).].",
+  "id": "A075149",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A050614",
+    "A053645"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

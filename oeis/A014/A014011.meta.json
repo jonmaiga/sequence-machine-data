@@ -1,0 +1,21 @@
+{
+  "description": "Defined by a chi-inequality greedy algorithm.",
+  "id": "A014011",
+  "mentions": [
+    "A051741",
+    "A051742",
+    "A226390"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

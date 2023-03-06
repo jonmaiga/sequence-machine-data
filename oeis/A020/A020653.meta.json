@@ -1,0 +1,22 @@
+{
+  "description": "Denominators in a certain bijection from positive integers to positive rationals.",
+  "id": "A020653",
+  "mentions": [
+    "A020652",
+    "A038566",
+    "A038569"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "core",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

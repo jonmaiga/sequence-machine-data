@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array D(n, r) = number of disconnected r-regular graphs with n nodes, 0 <= r < n.",
+  "id": "A068933",
+  "mentions": [
+    "A051031",
+    "A068932",
+    "A068934"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime factor of 3-smooth numbers, with a(1)=1.",
+  "id": "A086410",
+  "mentions": [
+    "A003586",
+    "A006899",
+    "A020639",
+    "A033845",
+    "A086411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n is an exponent of the Weyl group W(E_8), 0 otherwise.",
+  "id": "A089010",
+  "mentions": [
+    "A005776",
+    "A089011"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

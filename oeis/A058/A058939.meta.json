@@ -1,0 +1,17 @@
+{
+  "description": "The elliptic divisibility sequence associated to the rational point of smallest known global height for rational elliptic curves: the curve is [ 0,0,0,-412,3316 ] and the point is [ -18,70 ].",
+  "id": "A058939",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

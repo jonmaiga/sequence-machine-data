@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = s(1)*s(2)*...*s(n)*(1/s(1) - 1/s(2) + ... + c/s(n)), where s(1) = 1, s(k) = p(k-1) for k >= 2 and c = (-1)^(n+1).",
+  "id": "A024529",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:01:52",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

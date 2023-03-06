@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p divides the (right) concatenation of all numbers from 1 to p written in base 10 (most significant digit on left).",
+  "id": "A072712",
+  "mentions": [
+    "A029447",
+    "A029455",
+    "A029542",
+    "A061931",
+    "A061978"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

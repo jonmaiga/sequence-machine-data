@@ -1,0 +1,20 @@
+{
+  "description": "Numerical distance between m-th and (n+m)-th circles in a loxodromic sequence of circles in which each 4 consecutive circles touch.",
+  "id": "A045821",
+  "mentions": [
+    "A027674",
+    "A318605"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

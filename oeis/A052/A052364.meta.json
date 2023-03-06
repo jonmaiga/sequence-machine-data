@@ -1,0 +1,18 @@
+{
+  "description": "Size of range of occurrences of digits in decimal expansion of Pi.",
+  "id": "A052364",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:31",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

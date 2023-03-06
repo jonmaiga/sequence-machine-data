@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Golomb-Dickman constant.",
+  "id": "A084945",
+  "mentions": [
+    "A174974",
+    "A174975",
+    "A225336"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n into an even number of parts, the greatest being 3; also, a(n+5) = number of partitions of n+2 into an odd number of parts, each <= 3.",
+  "id": "A026927",
+  "mentions": [
+    "A026921",
+    "A026923",
+    "A069905",
+    "A309683",
+    "A309684",
+    "A309685",
+    "A309686",
+    "A309687",
+    "A309688",
+    "A309689",
+    "A309690",
+    "A309692",
+    "A309694"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:13",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

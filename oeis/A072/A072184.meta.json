@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which the prime circle problem has a slightly more complex solution than given in A072676. Complement of A072676.",
+  "id": "A072184",
+  "mentions": [
+    "A051252",
+    "A072676"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

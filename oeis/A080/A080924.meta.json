@@ -1,0 +1,24 @@
+{
+  "description": "Jacobsthal gap sequence.",
+  "id": "A080924",
+  "mentions": [
+    "A001045",
+    "A002450",
+    "A080925",
+    "A080926",
+    "A080927",
+    "A111317"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:08:12",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=2; for n>1, a(n) is smallest squarefree number (greater than 1) not occurring earlier such that a(n) + a(n-1) is a square.",
+  "id": "A076043",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "n-th root of the n-th partial sum of A093355.",
+  "id": "A093927",
+  "mentions": [
+    "A093355",
+    "A093928"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

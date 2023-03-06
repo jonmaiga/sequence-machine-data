@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-2x-sqrt(1-4x+4x^2-4x^3))/(2x^2).",
+  "id": "A091561",
+  "mentions": [
+    "A025247",
+    "A025265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:41:11",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

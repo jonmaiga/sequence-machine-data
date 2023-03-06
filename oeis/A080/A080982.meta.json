@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that the k-th triangular number has n^2 as divisor.",
+  "id": "A080982",
+  "mentions": [
+    "A000217",
+    "A011772",
+    "A080983"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

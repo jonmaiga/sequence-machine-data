@@ -1,0 +1,19 @@
+{
+  "description": "Number of Dyck paths of semilength n+4, having exactly two long ascents (i.e., ascents of length at least two).",
+  "id": "A091135",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of A001157: a(n) = sigma_2(2n-1).",
+  "id": "A099978",
+  "mentions": [
+    "A001157",
+    "A099979"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

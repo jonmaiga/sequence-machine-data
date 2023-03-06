@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets of {1,.., n} containing exactly two squares.",
+  "id": "A089890",
+  "mentions": [
+    "A000196",
+    "A000217",
+    "A089886",
+    "A089887",
+    "A089889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

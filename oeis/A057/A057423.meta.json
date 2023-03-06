@@ -1,0 +1,17 @@
+{
+  "description": "Diagonally symmetric n-celled polyominoes with 1 hole.",
+  "id": "A057423",
+  "mentions": [
+    "A056881"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 7,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

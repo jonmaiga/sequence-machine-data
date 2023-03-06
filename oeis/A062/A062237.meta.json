@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers k which are (sum of digits of k) concatenated with (product of digits of k).",
+  "id": "A062237",
+  "mentions": [
+    "A038364",
+    "A038369",
+    "A066282"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

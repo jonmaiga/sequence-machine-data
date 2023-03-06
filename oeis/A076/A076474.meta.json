@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the slowest decreasing sequence of unit fractions whose partial sums have a prime numerator.",
+  "id": "A076474",
+  "mentions": [
+    "A076475",
+    "A127515",
+    "A134411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

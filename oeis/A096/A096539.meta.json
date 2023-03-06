@@ -1,0 +1,19 @@
+{
+  "description": "Delete first column (index 0) and all rows having nonprime index of triangle T(p,k) defined in A034807 (coefficients of Lucas polynomials). Sequence gives resulting sub-triangle read by rows.",
+  "id": "A096539",
+  "mentions": [
+    "A034807",
+    "A160909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

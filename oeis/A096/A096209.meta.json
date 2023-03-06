@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 10 followed by 9's only.",
+  "id": "A096209",
+  "mentions": [
+    "A111391",
+    "A113628",
+    "A113629",
+    "A113630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with the property that if m is formed from n by dropping any number (possibly zero) of initial or final digits then there is a prime ending with m.",
+  "id": "A065520",
+  "mentions": [
+    "A004022",
+    "A004023"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

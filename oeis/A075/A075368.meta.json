@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer value of lcm(n+1, n+2, ..., n+k) (for k >= 0) divided by the product of all the primes up to n.",
+  "id": "A075368",
+  "mentions": [
+    "A034386",
+    "A075365",
+    "A075366",
+    "A075367"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

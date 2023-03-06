@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 0, 0 <= k <= n) = number of partitions of n into exactly k powers of 2.",
+  "id": "A089052",
+  "mentions": [
+    "A018819",
+    "A036987",
+    "A075897",
+    "A089049",
+    "A089050",
+    "A089051",
+    "A089053",
+    "A319922"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

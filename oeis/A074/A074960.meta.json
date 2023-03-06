@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for arithmetic-geometric mean (AGM) of first two odd primes 3 and 5.",
+  "id": "A074960",
+  "mentions": [
+    "A074959"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Natural two base element sequence based on Pi and e and a prime sequence.",
+  "id": "A088588",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

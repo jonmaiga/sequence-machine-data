@@ -1,0 +1,21 @@
+{
+  "description": "Degrees of irreducible representations of symmetric group S_14.",
+  "id": "A059796",
+  "mentions": [
+    "A003869",
+    "A003875",
+    "A003877"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

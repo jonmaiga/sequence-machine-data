@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} Stirling2(n-k,k) * 2^k.",
+  "id": "A097341",
+  "mentions": [
+    "A024427",
+    "A097342",
+    "A119429",
+    "A119430",
+    "A171367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

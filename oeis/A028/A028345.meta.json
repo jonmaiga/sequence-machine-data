@@ -1,0 +1,16 @@
+{
+  "description": "Molien series for complete weight enumerator of self-dual code over GF(5) containing all-1's vector.",
+  "id": "A028345",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:51",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

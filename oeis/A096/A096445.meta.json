@@ -1,0 +1,19 @@
+{
+  "description": "Number of reduced primitive positive definite binary quadratic forms of determinant n^2.",
+  "id": "A096445",
+  "mentions": [
+    "A006374",
+    "A096446"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

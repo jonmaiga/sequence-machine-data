@@ -1,0 +1,20 @@
+{
+  "description": "a(n) =floor[X/Y] where X= concatenation of first n even numbers in decreasing order and Y = that of first n odd numbers in increasing order.",
+  "id": "A067118",
+  "mentions": [
+    "A067112",
+    "A067117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

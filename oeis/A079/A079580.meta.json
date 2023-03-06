@@ -1,0 +1,16 @@
+{
+  "description": "a(n)= Sum_{d divides n} a(abs(n/d-d)).",
+  "id": "A079580",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

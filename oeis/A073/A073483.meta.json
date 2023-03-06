@@ -1,0 +1,26 @@
+{
+  "description": "For the n-th squarefree number: the product of all primes greater than its smallest factor and less than its largest factor and not dividing it.",
+  "id": "A073483",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A006094",
+    "A073481",
+    "A073482",
+    "A073484",
+    "A117214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

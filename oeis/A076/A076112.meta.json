@@ -1,0 +1,23 @@
+{
+  "description": "Triangle (read by rows) in which the n-th row contains first n terms of n geometric progression with first term 1 and common ratio (n-1).",
+  "id": "A076112",
+  "mentions": [
+    "A000169",
+    "A002024",
+    "A002260",
+    "A076113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

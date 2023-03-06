@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of second pentagonal numbers with even index (A049453).",
+  "id": "A051895",
+  "mentions": [
+    "A002492",
+    "A016061",
+    "A017605",
+    "A049453"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:25",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

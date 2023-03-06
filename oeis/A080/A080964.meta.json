@@ -1,0 +1,21 @@
+{
+  "description": "Euler transform of period-16 sequence [2,-3,2,1,2,-3,2,-6,2,-3,2,1,2,-3,2,-3,...].",
+  "id": "A080964",
+  "mentions": [
+    "A072070",
+    "A072071",
+    "A080965",
+    "A080966"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

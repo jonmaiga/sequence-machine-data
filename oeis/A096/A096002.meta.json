@@ -1,0 +1,18 @@
+{
+  "description": "Let {b(n)} = A095996; then a(n) = number of terms {b(1),b(2),...,b(n-1)} which are coprime to n.",
+  "id": "A096002",
+  "mentions": [
+    "A095996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

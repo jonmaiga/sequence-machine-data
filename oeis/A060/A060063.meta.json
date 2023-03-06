@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of coefficients of certain polynomials used for G.f.s of columns of triangle A060058.",
+  "id": "A060063",
+  "mentions": [
+    "A000364",
+    "A001818",
+    "A052502",
+    "A060058",
+    "A091742",
+    "A091743",
+    "A091744",
+    "A091745"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct primes dividing phi(n).",
+  "id": "A055734",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A073918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:28:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest unhappy number that takes n steps to reach any of the unhappy cycle (4, 16, 37, 58, 89, 145, 42, 20) under iteration of sum of squares of digits map.",
+  "id": "A094406",
+  "mentions": [
+    "A001273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

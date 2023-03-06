@@ -1,0 +1,25 @@
+{
+  "description": "Sum of first n composite numbers.",
+  "id": "A053767",
+  "mentions": [
+    "A000217",
+    "A002808",
+    "A023539",
+    "A034387",
+    "A036691",
+    "A051349",
+    "A141092",
+    "A196415"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

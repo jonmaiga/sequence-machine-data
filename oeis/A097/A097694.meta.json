@@ -1,0 +1,24 @@
+{
+  "description": "Largest achievable determinant of a 4 X 4 matrix whose elements are 16 distinct nonnegative integers chosen from the range 0...n.",
+  "id": "A097694",
+  "mentions": [
+    "A085000",
+    "A097399",
+    "A097401",
+    "A097693",
+    "A097695",
+    "A097696"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 15,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

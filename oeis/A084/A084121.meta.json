@@ -1,0 +1,19 @@
+{
+  "description": "Primes p_n such that n*p_n is a palindrome.",
+  "id": "A084121",
+  "mentions": [
+    "A084122",
+    "A084123"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

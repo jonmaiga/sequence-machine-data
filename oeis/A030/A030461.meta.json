@@ -1,0 +1,24 @@
+{
+  "description": "Primes that are concatenations of two consecutive primes.",
+  "id": "A030461",
+  "mentions": [
+    "A000720",
+    "A030459",
+    "A030460",
+    "A045533",
+    "A185934",
+    "A185935"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:01",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

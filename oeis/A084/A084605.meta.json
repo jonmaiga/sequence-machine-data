@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: 1/(1-2x-15x^2)^(1/2); also, a(n) is the central coefficient of (1+x+4x^2)^n.",
+  "id": "A084605",
+  "mentions": [
+    "A002426",
+    "A027907",
+    "A084600",
+    "A084604",
+    "A084606",
+    "A084615",
+    "A091147",
+    "A322240"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

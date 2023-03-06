@@ -1,0 +1,20 @@
+{
+  "description": "\"INVERT\" transform of squares A000290.",
+  "id": "A033453",
+  "mentions": [
+    "A000290",
+    "A105495"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

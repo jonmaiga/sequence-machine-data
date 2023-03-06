@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n such that all prime factors of n are a substring of n.",
+  "id": "A050694",
+  "mentions": [
+    "A035140",
+    "A050695",
+    "A050696",
+    "A050697"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

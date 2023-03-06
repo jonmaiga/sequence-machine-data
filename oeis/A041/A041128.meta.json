@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(73).",
+  "id": "A041128",
+  "mentions": [
+    "A010525",
+    "A041129"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:06:41",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n of the form 2^i*3^j, i and j >= 1.",
+  "id": "A033845",
+  "mentions": [
+    "A000041",
+    "A000423",
+    "A000700",
+    "A001615",
+    "A003586",
+    "A006899",
+    "A008683",
+    "A051037",
+    "A086410",
+    "A086411",
+    "A143201",
+    "A191475",
+    "A191476",
+    "A256617"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

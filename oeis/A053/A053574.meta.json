@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of 2 in phi(n) where phi(n) = A000010(n).",
+  "id": "A053574",
+  "mentions": [
+    "A000010",
+    "A007814",
+    "A053575",
+    "A286572"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array T read by antidiagonals, where T(m,n) = number of compositions of n into parts <= m.",
+  "id": "A048887",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A048004",
+    "A092921",
+    "A126198"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi^(Pi^Pi).",
+  "id": "A073234",
+  "mentions": [
+    "A000796",
+    "A073233",
+    "A073235",
+    "A073236",
+    "A073241",
+    "A202955"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 19,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

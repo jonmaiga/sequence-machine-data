@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime factor of Googol + n which exceeds 16.",
+  "id": "A076848",
+  "mentions": [
+    "A066298",
+    "A072288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

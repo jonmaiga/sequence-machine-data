@@ -1,0 +1,16 @@
+{
+  "description": "arcsin(tan(x)*tan(x))=2/2!*x^2+16/4!*x^4+392/6!*x^6+21376/8!*x^8...",
+  "id": "A012388",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:52:28",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

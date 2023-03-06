@@ -1,0 +1,20 @@
+{
+  "description": "Minimal 2^n safe-primes: a(n) = 2^n*A051886(n) + 1 (a prime number).",
+  "id": "A051900",
+  "mentions": [
+    "A005385",
+    "A006530",
+    "A051886",
+    "A074781"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:10:28",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

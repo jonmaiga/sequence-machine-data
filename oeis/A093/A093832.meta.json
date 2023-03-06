@@ -1,0 +1,18 @@
+{
+  "description": "Values of r such that N(r)/r^2 > Pi, where N(r) is the number of integer lattice points (x,y) inside a circle of radius r.",
+  "id": "A093832",
+  "mentions": [
+    "A000328",
+    "A093837"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-th power beginning with the reverse concatenation of first n natural numbers.",
+  "id": "A077733",
+  "mentions": [
+    "A077734"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

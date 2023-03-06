@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: x^3/(1 - 2*x + x^3 - x^4). Recurrence: a(n) = 2*a(n-1) - a(n-3) + a(n-4).",
+  "id": "A059633",
+  "mentions": [
+    "A049856"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:23:41",
+    "offset": 3,
+    "size": 32,
+    "source": "joeis"
+  }
+}

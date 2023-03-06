@@ -1,0 +1,23 @@
+{
+  "description": "Number of primitive (period n) n-bead necklace structures using exactly two different colored beads.",
+  "id": "A056303",
+  "mentions": [
+    "A000007",
+    "A000048",
+    "A001037",
+    "A056295",
+    "A056391",
+    "A107424"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:48:02",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n is equal to the number of 1's in all numbers <= n written in base 8.",
+  "id": "A014885",
+  "mentions": [
+    "A014778"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

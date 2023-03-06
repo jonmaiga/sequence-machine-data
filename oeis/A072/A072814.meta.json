@@ -1,0 +1,18 @@
+{
+  "description": "Smallest exponents of perfect powers: A001597(n)=A072813(n)^a(n).",
+  "id": "A072814",
+  "mentions": [
+    "A001597",
+    "A072813"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A set of 25 consecutive primes that form a 5 X 5 magic square with the (non-minimal) magic constant 1703.",
+  "id": "A073522",
+  "mentions": [
+    "A073519",
+    "A073520",
+    "A073521",
+    "A073523",
+    "A320873"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

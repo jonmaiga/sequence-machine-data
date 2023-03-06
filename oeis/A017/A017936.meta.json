@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number whose square has n digits.",
+  "id": "A017936",
+  "mentions": [
+    "A061432",
+    "A061436"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

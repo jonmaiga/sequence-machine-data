@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that divide 4^k + 2^k or 8^k + 4^k.",
+  "id": "A045577",
+  "mentions": [
+    "A063481",
+    "A161168"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

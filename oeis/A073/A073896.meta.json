@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n) = a(n-1) + k where k is smallest prime or composite number not used earlier according as a(n-1) is nonprime or prime.",
+  "id": "A073896",
+  "mentions": [
+    "A073895"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

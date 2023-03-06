@@ -1,0 +1,22 @@
+{
+  "description": "The left budding sequence: # of i such that 0",
+  "id": "A019587",
+  "mentions": [
+    "A019588",
+    "A193738",
+    "A194733"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:59",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

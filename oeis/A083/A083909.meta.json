@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 10^(m-k)*(10^(m+k+1)-10^k), m, k >= 0.",
+  "id": "A083909",
+  "mentions": [
+    "A006516",
+    "A079598"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

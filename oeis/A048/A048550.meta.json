@@ -1,0 +1,19 @@
+{
+  "description": "p(n+1) is next smallest prime beginning with p(n), initial prime is 3.",
+  "id": "A048550",
+  "mentions": [
+    "A048549",
+    "A048556"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:22:37",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

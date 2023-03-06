@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{2 <= p <= n, p prime} p^2.",
+  "id": "A081738",
+  "mentions": [
+    "A024450",
+    "A024525",
+    "A133391"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

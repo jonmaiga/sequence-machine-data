@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number at distance n from nearest prime.",
+  "id": "A051652",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046929",
+    "A046931",
+    "A051650",
+    "A051697",
+    "A051700",
+    "A051702",
+    "A051728",
+    "A051730"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

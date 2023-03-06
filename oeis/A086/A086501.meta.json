@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-commuting permutations: number of ordered pairs g, h in Symm(n) such that gh <> hg, i.e., the subgroup is non-Abelian.",
+  "id": "A086501",
+  "mentions": [
+    "A000041",
+    "A053529"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

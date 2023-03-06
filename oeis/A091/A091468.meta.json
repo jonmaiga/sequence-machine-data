@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled alternating octupi with n black nodes and n white nodes.",
+  "id": "A091468",
+  "mentions": [
+    "A003239",
+    "A091467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

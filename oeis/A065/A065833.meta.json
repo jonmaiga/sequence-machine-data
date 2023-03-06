@@ -1,0 +1,22 @@
+{
+  "description": "Ternary digits found in decimal expansion of Pi.",
+  "id": "A065833",
+  "mentions": [
+    "A000796",
+    "A011545",
+    "A011546",
+    "A065828",
+    "A065840"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of cubes of the first n primes.",
+  "id": "A098999",
+  "mentions": [
+    "A007504",
+    "A030078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

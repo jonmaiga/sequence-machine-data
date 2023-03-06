@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes of form 4k+3 between n^2 and (n+1)^2.",
+  "id": "A077767",
+  "mentions": [
+    "A002145",
+    "A014085",
+    "A077766"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

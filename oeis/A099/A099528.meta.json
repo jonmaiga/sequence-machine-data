@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A099527, so that a(n) = Sum_{k=0..n} coefficient of z^k in (2 + 3*z + z^2)^(n-[k/2]), where [k/2] is the integer floor of k/2.",
+  "id": "A099528",
+  "mentions": [
+    "A099527"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:32:12",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

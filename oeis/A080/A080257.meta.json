@@ -1,0 +1,43 @@
+{
+  "description": "Numbers having at least two distinct or a total of at least three prime factors.",
+  "id": "A080257",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000430",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A006881",
+    "A020639",
+    "A024619",
+    "A030078",
+    "A033942",
+    "A050997",
+    "A060687",
+    "A068993",
+    "A080256",
+    "A084110",
+    "A084114",
+    "A088377",
+    "A088381",
+    "A088383",
+    "A118914",
+    "A211110",
+    "A323014",
+    "A323023",
+    "A325249",
+    "A325264"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

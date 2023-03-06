@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct parts with odd number of even parts.",
+  "id": "A096792",
+  "mentions": [
+    "A000009",
+    "A010815",
+    "A067659",
+    "A067661",
+    "A096791"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

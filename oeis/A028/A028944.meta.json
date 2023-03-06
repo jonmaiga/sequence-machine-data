@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of x-coordinate of (2n+1)*P where P is the generator for rational points on the curve y^2 + y = x^3 - x.",
+  "id": "A028944",
+  "mentions": [
+    "A028940",
+    "A028945"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

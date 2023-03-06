@@ -1,0 +1,18 @@
+{
+  "description": "Square root of smallest square starting with a string of n 9's.",
+  "id": "A034994",
+  "mentions": [
+    "A034995"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

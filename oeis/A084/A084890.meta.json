@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = arithmetic derivative of n*k, 1<=k<=n.",
+  "id": "A084890",
+  "mentions": [
+    "A003415",
+    "A068719",
+    "A068720",
+    "A084884",
+    "A084885",
+    "A084886",
+    "A084887"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

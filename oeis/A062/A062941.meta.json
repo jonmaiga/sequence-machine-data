@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit cubes (0 is included as a single-digit number).",
+  "id": "A062941",
+  "mentions": [
+    "A062940",
+    "A216653"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

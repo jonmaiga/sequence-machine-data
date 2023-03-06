@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k! is divisible by the square of (f+d)!^2 for d = 0, 1 and 2 (and possibly larger d), where f = floor(k/2).",
+  "id": "A056068",
+  "mentions": [
+    "A056038",
+    "A056044",
+    "A056067"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

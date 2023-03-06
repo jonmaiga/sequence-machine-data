@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number whose n-th power begins with concatenation of first n numbers; n-th root of A068121.",
+  "id": "A068122",
+  "mentions": [
+    "A068121"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

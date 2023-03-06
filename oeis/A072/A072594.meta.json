@@ -1,0 +1,23 @@
+{
+  "description": "In prime factorization of n replace multiplication with bitwise logical 'xor'.",
+  "id": "A072594",
+  "mentions": [
+    "A027746",
+    "A072591",
+    "A072593",
+    "A072595",
+    "A127812",
+    "A178910"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

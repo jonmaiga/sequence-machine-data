@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-digit positive integers with all digits distinct.",
+  "id": "A073531",
+  "mentions": [
+    "A010784",
+    "A073532"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:13",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

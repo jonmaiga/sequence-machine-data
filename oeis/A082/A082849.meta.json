@@ -1,0 +1,21 @@
+{
+  "description": "Product of cototient values of consecutive integers.",
+  "id": "A082849",
+  "mentions": [
+    "A051953",
+    "A065474",
+    "A083538",
+    "A083555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

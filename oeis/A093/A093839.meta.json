@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the n-th partial sum and n-th partial product are divisible by n.",
+  "id": "A093839",
+  "mentions": [
+    "A093840",
+    "A093841",
+    "A093842",
+    "A093843"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

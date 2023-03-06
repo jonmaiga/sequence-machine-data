@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of binary n-tuples u having exactly k grandchildren, where a grandchild is a vector obtained by deleting any two coordinates of u (n >= 3, 1<=k<=2^(n-2)).",
+  "id": "A057606",
+  "mentions": [
+    "A057607"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 3,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

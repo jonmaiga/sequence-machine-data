@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, then smallest square not included earlier such that every partial sum is a prime.",
+  "id": "A073852",
+  "mentions": [
+    "A073854"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

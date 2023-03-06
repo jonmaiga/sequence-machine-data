@@ -1,0 +1,17 @@
+{
+  "description": "Position of n-th 1 in A030401.",
+  "id": "A030403",
+  "mentions": [
+    "A030401"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:43",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

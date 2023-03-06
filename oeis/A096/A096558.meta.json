@@ -1,0 +1,20 @@
+{
+  "description": "Output of the linear congruential pseudo-random number generator rand() used in Microsoft's Visual C++.",
+  "id": "A096558",
+  "mentions": [
+    "A096550",
+    "A096557",
+    "A096561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

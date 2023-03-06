@@ -1,0 +1,27 @@
+{
+  "description": "Start of n successive numbers divisible by n-th powers.",
+  "id": "A088080",
+  "mentions": [
+    "A045882",
+    "A271443",
+    "A330480",
+    "A330481",
+    "A330482",
+    "A330483",
+    "A330484",
+    "A330485",
+    "A330486"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

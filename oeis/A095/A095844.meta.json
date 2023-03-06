@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the integral of the n-th power of the Cantor function.",
+  "id": "A095844",
+  "mentions": [
+    "A095845"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

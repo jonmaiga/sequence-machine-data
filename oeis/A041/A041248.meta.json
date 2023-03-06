@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(136).",
+  "id": "A041248",
+  "mentions": [
+    "A041249"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:45:15",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

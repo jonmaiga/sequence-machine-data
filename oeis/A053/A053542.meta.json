@@ -1,0 +1,19 @@
+{
+  "description": "Distance from n-th composite number (A002808) to next prime.",
+  "id": "A053542",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:37",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

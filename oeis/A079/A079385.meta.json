@@ -1,0 +1,22 @@
+{
+  "description": "Records in A079384.",
+  "id": "A079385",
+  "mentions": [
+    "A079366",
+    "A079367",
+    "A079368",
+    "A079384",
+    "A079386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes whose sum of anti-divisors is palindromic.",
+  "id": "A073956",
+  "mentions": [
+    "A002113",
+    "A066272",
+    "A066417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

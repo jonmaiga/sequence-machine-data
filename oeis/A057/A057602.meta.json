@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2, a(n+1) is the smallest integer > a(n) such that the smallest prime factor of a(n+1) is the largest prime factor of a(n).",
+  "id": "A057602",
+  "mentions": [
+    "A000040",
+    "A033476"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

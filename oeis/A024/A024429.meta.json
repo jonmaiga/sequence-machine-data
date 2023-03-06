@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. sinh(exp(x)-1).",
+  "id": "A024429",
+  "mentions": [
+    "A000110",
+    "A000587",
+    "A024430",
+    "A121867",
+    "A121868"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

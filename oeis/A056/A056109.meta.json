@@ -1,0 +1,26 @@
+{
+  "description": "Fifth spoke of a hexagonal spiral.",
+  "id": "A056109",
+  "mentions": [
+    "A003215",
+    "A008810",
+    "A054552",
+    "A056105",
+    "A056106",
+    "A056107",
+    "A056108",
+    "A122430"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:30:45",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

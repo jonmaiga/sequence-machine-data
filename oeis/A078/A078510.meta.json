@@ -1,0 +1,27 @@
+{
+  "description": "Spiro-Fibonacci numbers, a(n) = sum of two previous terms that are nearest when terms arranged in a spiral.",
+  "id": "A078510",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A033951",
+    "A063826",
+    "A265359",
+    "A265370",
+    "A265404",
+    "A265407",
+    "A265408",
+    "A265409"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

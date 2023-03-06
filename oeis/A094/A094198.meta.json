@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways that n boxes with distinct sizes can contain each other under the condition that each box may contain at most three (themselves possibly nested) boxes. Each box is assumed to be large enough to contain any three smaller boxes.",
+  "id": "A094198",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A000772"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

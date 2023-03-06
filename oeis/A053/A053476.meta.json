@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that when A051953 is applied n times to m the result is neither a power of 2 nor 0.",
+  "id": "A053476",
+  "mentions": [
+    "A000005",
+    "A049117",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of terms in A093019 with value 4.",
+  "id": "A093024",
+  "mentions": [
+    "A093017",
+    "A093019",
+    "A093029"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

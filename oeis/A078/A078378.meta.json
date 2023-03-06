@@ -1,0 +1,20 @@
+{
+  "description": "Total number of prime factors of numbers which can be written as sum of a positive square and a positive cube.",
+  "id": "A078378",
+  "mentions": [
+    "A001222",
+    "A055394",
+    "A078377",
+    "A078379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

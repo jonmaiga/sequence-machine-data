@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose sum of proper divisors (A001065(k)) exceeds that of all smaller numbers.",
+  "id": "A034090",
+  "mentions": [
+    "A001065",
+    "A002093",
+    "A034091",
+    "A034287",
+    "A034288"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the total number of 1's in the binary expansions of all their divisors.",
+  "id": "A093705",
+  "mentions": [
+    "A058891",
+    "A093653"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

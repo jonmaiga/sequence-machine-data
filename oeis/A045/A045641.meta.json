@@ -1,0 +1,16 @@
+{
+  "description": "Palindromic and divisible by 6.",
+  "id": "A045641",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:29",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

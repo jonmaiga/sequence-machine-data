@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers that do not divide 2^k + 1 for any k >= 1.",
+  "id": "A014659",
+  "mentions": [
+    "A002326",
+    "A003558",
+    "A014657",
+    "A179480",
+    "A201908",
+    "A332433"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:17",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

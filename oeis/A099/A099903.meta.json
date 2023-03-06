@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all matrix elements of n X n matrix M(i,j) = i^3+j^3, (i,j = 1..n). a(n) = n^3*(n+1)^2/2.",
+  "id": "A099903",
+  "mentions": [
+    "A019584",
+    "A098077",
+    "A099904"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:59",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

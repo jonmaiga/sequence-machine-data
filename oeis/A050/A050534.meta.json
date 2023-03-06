@@ -1,0 +1,37 @@
+{
+  "description": "Tritriangular numbers: a(n) = binomial(binomial(n,2),2) = n*(n+1)*(n-1)*(n-2)/8.",
+  "id": "A050534",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A001296",
+    "A001498",
+    "A002411",
+    "A002817",
+    "A006528",
+    "A027480",
+    "A033487",
+    "A034827",
+    "A052762",
+    "A107394",
+    "A210569",
+    "A241765",
+    "A293496",
+    "A325006",
+    "A337409"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

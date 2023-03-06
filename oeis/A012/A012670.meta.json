@@ -1,0 +1,18 @@
+{
+  "description": "arctan(tanh(x)*tan(x))=2/2!*x^2-128/6!*x^6+253952/10!*x^10...",
+  "id": "A012670",
+  "mentions": [
+    "A090681"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:10:51",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

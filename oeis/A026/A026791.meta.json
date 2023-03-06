@@ -1,0 +1,50 @@
+{
+  "description": "Triangle in which n-th row lists juxtaposed lexicographically ordered partitions of n; e.g., the partitions of 3 (1+1+1,1+2,3) appear as 1,1,1,1,2,3 in row 3.",
+  "id": "A026791",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A026792",
+    "A036036",
+    "A036037",
+    "A036042",
+    "A049085",
+    "A080576",
+    "A080577",
+    "A103921",
+    "A112798",
+    "A115623",
+    "A125106",
+    "A129129",
+    "A139100",
+    "A181087",
+    "A181317",
+    "A182937",
+    "A193073",
+    "A193173",
+    "A194546",
+    "A196931",
+    "A211992",
+    "A228100",
+    "A228369",
+    "A228531",
+    "A240837",
+    "A242628",
+    "A331581",
+    "A334435",
+    "A334437",
+    "A334439",
+    "A334442"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

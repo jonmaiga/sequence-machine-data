@@ -1,0 +1,19 @@
+{
+  "description": "Largest n-digit prime in which the unit place digit is 1 and the k-th most significant digit is prime (2,3,5,7) if k is prime else is composite (4,6,8,9,0).",
+  "id": "A089706",
+  "mentions": [
+    "A089704",
+    "A089705"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

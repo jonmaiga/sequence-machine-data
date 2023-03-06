@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A077110(n) - n^2.",
+  "id": "A077111",
+  "mentions": [
+    "A000290",
+    "A070923",
+    "A075847",
+    "A077110",
+    "A077119"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

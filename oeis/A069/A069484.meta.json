@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = prime(n+1)^2 + prime(n)^2.",
+  "id": "A069484",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A048851",
+    "A069482",
+    "A069485",
+    "A069486",
+    "A069487",
+    "A075892"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

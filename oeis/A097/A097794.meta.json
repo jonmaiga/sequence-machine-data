@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that the absolute value of k^n-n is prime or zero if no such k exists.",
+  "id": "A097794",
+  "mentions": [
+    "A072883",
+    "A097764"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

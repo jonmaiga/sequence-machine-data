@@ -1,0 +1,17 @@
+{
+  "description": "Consider the triangle in which n-th row contains the smallest set of n consecutive numbers such that every prime among first n primes divides at least one distinct number in the row (irrespective of order). Sequence gives the first column.",
+  "id": "A083129",
+  "mentions": [
+    "A083130"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

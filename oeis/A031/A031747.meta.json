@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 69.",
+  "id": "A031747",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

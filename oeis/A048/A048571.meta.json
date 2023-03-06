@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of distinct prime factors of C(n,k).",
+  "id": "A048571",
+  "mentions": [
+    "A001221",
+    "A007318",
+    "A048273",
+    "A132896"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:46:55",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

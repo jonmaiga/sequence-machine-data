@@ -1,0 +1,26 @@
+{
+  "description": "Perfect powers m^k where k >= 6.",
+  "id": "A076470",
+  "mentions": [
+    "A001597",
+    "A002117",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A069493",
+    "A076467",
+    "A076468",
+    "A076469"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

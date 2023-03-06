@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) of number of digraphs with a source and a sink on n labeled nodes and k arcs, k=0,1,..,n*(n-1).",
+  "id": "A057271",
+  "mentions": [
+    "A049524",
+    "A057272",
+    "A057273",
+    "A057274",
+    "A057275",
+    "A057278",
+    "A062735",
+    "A350791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

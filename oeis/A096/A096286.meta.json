@@ -1,0 +1,15 @@
+{
+  "description": "Number of strongly balanced binary sequences of length 4n.",
+  "id": "A096286",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:53",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

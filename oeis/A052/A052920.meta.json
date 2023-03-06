@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-3) + a(n-5) with initial values 1,0,0,1,0.",
+  "id": "A052920",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:16:51",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

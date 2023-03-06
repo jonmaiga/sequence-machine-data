@@ -1,0 +1,22 @@
+{
+  "description": "Distinct values of sequence obtained when LCM is applied to initial segments of sequence A024619 union {1}.",
+  "id": "A056836",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A024619",
+    "A025487",
+    "A051451",
+    "A056835"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

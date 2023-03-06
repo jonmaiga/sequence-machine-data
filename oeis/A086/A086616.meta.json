@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of the large Schroeder numbers (A006318).",
+  "id": "A086616",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A006318",
+    "A086614",
+    "A086615",
+    "A136577"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

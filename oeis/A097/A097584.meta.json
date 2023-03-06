@@ -1,0 +1,20 @@
+{
+  "description": "Number of well-rounded minimal classes of lattices in dimension n.",
+  "id": "A097584",
+  "mentions": [
+    "A037075",
+    "A065536"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

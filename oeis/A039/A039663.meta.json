@@ -1,0 +1,17 @@
+{
+  "description": "Usual continued fraction for Trott's constant (not permitting internal 0's).",
+  "id": "A039663",
+  "mentions": [
+    "A039662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

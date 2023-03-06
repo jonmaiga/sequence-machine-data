@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected numbers (A029827) in the interval [2^(n-1)+1, 2^n].",
+  "id": "A036381",
+  "mentions": [
+    "A029827",
+    "A029837",
+    "A036378",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

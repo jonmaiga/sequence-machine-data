@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that j mod phi(j) < k mod phi(k) for any j < k.",
+  "id": "A071526",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

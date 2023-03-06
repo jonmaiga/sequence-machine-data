@@ -1,0 +1,25 @@
+{
+  "description": "Table T(n,k) = max{n,k} read by antidiagonals (n >= 1, k >= 1).",
+  "id": "A051125",
+  "mentions": [
+    "A003056",
+    "A003983",
+    "A003984",
+    "A004197",
+    "A006578"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:01",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

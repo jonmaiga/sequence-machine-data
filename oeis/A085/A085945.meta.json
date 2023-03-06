@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of {1,2,...,n} with relatively prime elements.",
+  "id": "A085945",
+  "mentions": [
+    "A000740",
+    "A109511",
+    "A143327",
+    "A143446"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

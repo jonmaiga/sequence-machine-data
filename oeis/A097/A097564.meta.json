@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (a(n-1) mod 2)*a(n-1) + a(n-2) with a(0)=0, a(1)=1.",
+  "id": "A097564",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A052542"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

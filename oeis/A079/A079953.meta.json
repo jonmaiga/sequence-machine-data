@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p such that prime(n) mod 2*p = prime(n).",
+  "id": "A079953",
+  "mentions": [
+    "A000040",
+    "A039734",
+    "A049084",
+    "A079950",
+    "A079952"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

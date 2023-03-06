@@ -1,0 +1,22 @@
+{
+  "description": "Convolution triangle A059594 with extra first column.",
+  "id": "A060086",
+  "mentions": [
+    "A059594",
+    "A084938",
+    "A181301"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:45",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

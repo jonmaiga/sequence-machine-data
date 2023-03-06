@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected functions of n points with no fixed points and with no symmetries.",
+  "id": "A032177",
+  "mentions": [
+    "A002862",
+    "A004111",
+    "A032175"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

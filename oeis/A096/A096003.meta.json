@@ -1,0 +1,19 @@
+{
+  "description": "Smallest semiprime (A001358) which is at the end of an arithmetic progression of n semiprimes.",
+  "id": "A096003",
+  "mentions": [
+    "A001358",
+    "A005115",
+    "A097824"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

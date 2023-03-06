@@ -1,0 +1,19 @@
+{
+  "description": "Sum of digits of prime(n) raised to its digits' powers is prime.",
+  "id": "A046440",
+  "mentions": [
+    "A046431",
+    "A046439"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:32:53",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

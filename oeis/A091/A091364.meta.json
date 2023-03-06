@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * n^4.",
+  "id": "A091364",
+  "mentions": [
+    "A001563",
+    "A002775",
+    "A091363",
+    "A163931"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:47:10",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of primitive (aperiodic) step shifted (decimated) sequences using a maximum of five different symbols.",
+  "id": "A056384",
+  "mentions": [
+    "A056371",
+    "A056374",
+    "A056391"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:40:02",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

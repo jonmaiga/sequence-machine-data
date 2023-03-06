@@ -1,0 +1,32 @@
+{
+  "description": "Number of ternary irreducible monic polynomials of degree n; dimensions of free Lie algebras.",
+  "id": "A027376",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A001692",
+    "A001693",
+    "A001867",
+    "A027375",
+    "A027377",
+    "A046209",
+    "A046211",
+    "A054718",
+    "A065418",
+    "A074650",
+    "A102660"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

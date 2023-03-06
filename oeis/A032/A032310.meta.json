@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to partition n labeled elements into sets of odd sizes, with all sizes different.",
+  "id": "A032310",
+  "mentions": [
+    "A003724"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps to fixed point of \"k -> k/2 or (k-1)/2 until result is prime\", starting with prime(n)-1.",
+  "id": "A039642",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A039634",
+    "A039636",
+    "A039638",
+    "A039644",
+    "A039645"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

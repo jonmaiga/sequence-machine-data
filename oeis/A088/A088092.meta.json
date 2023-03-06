@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes p such that if each digit d is replaced by 10-d then the resulting palindrome is also a prime.",
+  "id": "A088092",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

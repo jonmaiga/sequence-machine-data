@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into an even number of parts, the least being 3; also, a(n+3) = number of partitions of n into an odd number of parts, each >=3.",
+  "id": "A027195",
+  "mentions": [
+    "A026796",
+    "A027189"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

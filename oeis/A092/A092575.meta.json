@@ -1,0 +1,20 @@
+{
+  "description": "Number of representations of n of the form x^2 + 3y^2 with (x,y)=1.",
+  "id": "A092575",
+  "mentions": [
+    "A002476",
+    "A092572",
+    "A092573",
+    "A092574"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

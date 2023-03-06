@@ -1,0 +1,15 @@
+{
+  "description": "Least positive integer k for which 9^n divides k!.",
+  "id": "A020648",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:27",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

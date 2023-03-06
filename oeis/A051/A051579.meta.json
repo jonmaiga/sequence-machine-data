@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (2*n+5)!!/5!!, related to A001147 (odd double factorials).",
+  "id": "A051579",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A002866",
+    "A051577",
+    "A051578",
+    "A051580",
+    "A051581",
+    "A051582",
+    "A051583",
+    "A178647"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

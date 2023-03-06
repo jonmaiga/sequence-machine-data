@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number j such that if x >= j there are at least n primes between x and 2x exclusively.",
+  "id": "A084140",
+  "mentions": [
+    "A060715",
+    "A060756",
+    "A084138",
+    "A084139",
+    "A084141",
+    "A084142",
+    "A104272",
+    "A108954",
+    "A168421",
+    "A168425"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

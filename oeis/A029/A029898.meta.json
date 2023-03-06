@@ -1,0 +1,22 @@
+{
+  "description": "Pitoun's sequence: a(n+1) is digital root of a(0) + ... + a(n).",
+  "id": "A029898",
+  "mentions": [
+    "A007612",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

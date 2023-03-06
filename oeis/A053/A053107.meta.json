@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1/(1-8*x)^8.",
+  "id": "A053107",
+  "mentions": [
+    "A036226",
+    "A081138",
+    "A140406",
+    "A140802",
+    "A141054",
+    "A173155",
+    "A175210"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

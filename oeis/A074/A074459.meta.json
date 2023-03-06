@@ -1,0 +1,23 @@
+{
+  "description": "Number of segments which change from display of a number n to the next number n+1 on a 7-segment display: version where '6', '7', '9' use 6, 4, resp. 5 segments.",
+  "id": "A074459",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A063720",
+    "A074458",
+    "A277116"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:49",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

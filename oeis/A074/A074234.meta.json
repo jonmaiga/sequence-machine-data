@@ -1,0 +1,15 @@
+{
+  "description": "Number of nodes of integer unit lattice covered by integer right triangles.",
+  "id": "A074234",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

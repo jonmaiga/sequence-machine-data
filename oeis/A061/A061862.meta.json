@@ -1,0 +1,27 @@
+{
+  "description": "Powerful numbers (2a): a sum of nonnegative powers of its digits.",
+  "id": "A061862",
+  "mentions": [
+    "A001694",
+    "A003321",
+    "A005188",
+    "A005934",
+    "A007532",
+    "A014576",
+    "A023052",
+    "A046074",
+    "A134703"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

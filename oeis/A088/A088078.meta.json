@@ -1,0 +1,18 @@
+{
+  "description": "Leading column of triangle defined in A088079.",
+  "id": "A088078",
+  "mentions": [
+    "A088079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

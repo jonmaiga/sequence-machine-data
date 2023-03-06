@@ -1,0 +1,23 @@
+{
+  "description": "Number of n X n (real) {0,1}-matrices having determinant A003432(n).",
+  "id": "A051752",
+  "mentions": [
+    "A003432",
+    "A046747",
+    "A086264",
+    "A089478",
+    "A188895"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

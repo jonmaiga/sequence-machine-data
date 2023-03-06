@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of natural numbers by choosing alternately even and odd numbers such that every partial sum a(1)+...+a(n) is composite.",
+  "id": "A075566",
+  "mentions": [
+    "A075567"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

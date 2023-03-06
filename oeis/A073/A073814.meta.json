@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number k such that A073813(k) = prime(n).",
+  "id": "A073814",
+  "mentions": [
+    "A002808",
+    "A045763",
+    "A073759",
+    "A073813",
+    "A120389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

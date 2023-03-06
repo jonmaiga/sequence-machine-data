@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of E.g.f.: tanh(tanh(x)+log(x+1))=2*x-1/2!*x^2-16/3!*x^3+42/4!*x^4+492/5!*x^5...",
+  "id": "A013125",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

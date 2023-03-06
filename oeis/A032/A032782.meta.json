@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k(k+1)(k+2)...(k+9) / (k+(k+1)+(k+2)+...+(k+9)) is an integer.",
+  "id": "A032782",
+  "mentions": [
+    "A032781",
+    "A032783"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

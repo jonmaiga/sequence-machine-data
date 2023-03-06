@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the start of the first arithmetic progression with common difference n of n numbers with the same prime signature.",
+  "id": "A087306",
+  "mentions": [
+    "A087307",
+    "A114656"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

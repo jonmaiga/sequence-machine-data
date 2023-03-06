@@ -1,0 +1,23 @@
+{
+  "description": "Number of letters in the n-th decimal digit of Pi (in English).",
+  "id": "A052384",
+  "mentions": [
+    "A000796",
+    "A005589",
+    "A107488"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:49",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

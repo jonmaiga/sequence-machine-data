@@ -1,0 +1,17 @@
+{
+  "description": "Number of points in N^n of norm <= 8.",
+  "id": "A055423",
+  "mentions": [
+    "A302998"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes equal to a product of twin primes minus 1 divided by 2.",
+  "id": "A086870",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A103533",
+    "A120876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

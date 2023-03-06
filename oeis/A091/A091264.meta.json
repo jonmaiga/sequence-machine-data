@@ -1,0 +1,31 @@
+{
+  "description": "Matrix defined by a(n,k) = 2^n + (k-1), read by antidiagonals.",
+  "id": "A091264",
+  "mentions": [
+    "A000027",
+    "A000051",
+    "A000079",
+    "A000225",
+    "A001477",
+    "A005126",
+    "A006127",
+    "A052548",
+    "A052944",
+    "A052968",
+    "A062709",
+    "A083706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

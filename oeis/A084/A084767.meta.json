@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct prime-factors of {2*n-p: 2",
+  "id": "A084767",
+  "mentions": [
+    "A084766"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

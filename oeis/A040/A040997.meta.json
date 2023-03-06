@@ -1,0 +1,27 @@
+{
+  "description": "Absolute value of first digit of n minus sum of other digits of n.",
+  "id": "A040997",
+  "mentions": [
+    "A000030",
+    "A007953",
+    "A037904",
+    "A040114",
+    "A040115",
+    "A040163",
+    "A055017",
+    "A217657"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

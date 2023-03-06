@@ -1,0 +1,19 @@
+{
+  "description": "Two-bell analog of A028355.",
+  "id": "A028359",
+  "mentions": [
+    "A000034",
+    "A028355"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

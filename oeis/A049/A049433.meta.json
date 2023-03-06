@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n!-(n-1)!-1 is prime.",
+  "id": "A049433",
+  "mentions": [
+    "A001272",
+    "A002981",
+    "A002982",
+    "A049432",
+    "A049985"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

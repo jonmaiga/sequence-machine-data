@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic primes of the form 'primemirp' resulting from A054217.",
+  "id": "A054218",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A006567",
+    "A048054",
+    "A054217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:16:55",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

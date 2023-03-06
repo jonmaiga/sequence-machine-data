@@ -1,0 +1,15 @@
+{
+  "description": "Number of staircase polygons of perimeter 2n with 3 (staircase polygon) holes on square lattice (not allowing rotations).",
+  "id": "A057412",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 16,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

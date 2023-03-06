@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum{T(i,j)}, 0<=j<=i, 0<=i<=2n, T given by A026568.",
+  "id": "A026583",
+  "mentions": [
+    "A006131",
+    "A026568",
+    "A026581"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:10:39",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

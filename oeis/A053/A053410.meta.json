@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0, a(2) = 16, a(2n+1) = 10*a(2n) - a(2n-1), a(2n) = 10*a(2n-1) - a(2n-2) + 16.",
+  "id": "A053410",
+  "mentions": [
+    "A001078"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

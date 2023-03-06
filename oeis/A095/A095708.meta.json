@@ -1,0 +1,20 @@
+{
+  "description": "Tau-functions of the q-discrete Painlevé I equation, f(n+1) = (A*q^n*f(n) + B)/(f(n)^2*f(n-1)), for q=2 and A=B=1, with f(n) = a(n+1)*a(n-1)/a(n)^2.",
+  "id": "A095708",
+  "mentions": [
+    "A006720",
+    "A014125"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": -2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

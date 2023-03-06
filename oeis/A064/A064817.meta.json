@@ -1,0 +1,23 @@
+{
+  "description": "Maximal number of squares among the n-1 numbers p_i + p_{i+1}, 1 <= i <= n-1, where (p_1, ..., p_n) is any permutation of (1, ..., n).",
+  "id": "A064817",
+  "mentions": [
+    "A035106",
+    "A064764",
+    "A064796",
+    "A064797",
+    "A071983",
+    "A071984"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

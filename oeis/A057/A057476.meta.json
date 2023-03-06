@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that x^k + x^6 + 1 is irreducible over GF(2).",
+  "id": "A057476",
+  "mentions": [
+    "A002475"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

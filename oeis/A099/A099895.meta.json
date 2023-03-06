@@ -1,0 +1,20 @@
+{
+  "description": "XOR BINOMIAL transform of A000069 (Odious numbers).",
+  "id": "A099895",
+  "mentions": [
+    "A000069",
+    "A099884",
+    "A099896"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

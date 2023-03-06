@@ -1,0 +1,20 @@
+{
+  "description": "A014486-indices of the trees whose interior zigzag-tree (Stanley's c) is not branch-reduced (in the sense defined by Donaghey).",
+  "id": "A080970",
+  "mentions": [
+    "A014486",
+    "A080300",
+    "A080971",
+    "A080980"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

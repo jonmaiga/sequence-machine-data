@@ -1,0 +1,28 @@
+{
+  "description": "Number of \"long curves\", i.e., topological types of smooth embeddings of the oriented real line into the oriented plane that coincide with the standard immersion x -> (x,0) in the neighborhood of -infinity and +infinity.",
+  "id": "A054993",
+  "mentions": [
+    "A002863",
+    "A008980",
+    "A008981",
+    "A008982",
+    "A008983",
+    "A008984",
+    "A008985",
+    "A062038",
+    "A067640",
+    "A067647",
+    "A067648"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

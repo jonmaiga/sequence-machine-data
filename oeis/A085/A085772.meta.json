@@ -1,0 +1,18 @@
+{
+  "description": "(n / sum of digits of n) is a semiprime.",
+  "id": "A085772",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

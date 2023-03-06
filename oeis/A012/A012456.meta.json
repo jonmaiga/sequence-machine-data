@@ -1,0 +1,15 @@
+{
+  "description": "exp((arctan(x))^2)=1+2/2!*x^2-4/4!*x^4+8/6!*x^6+912/8!*x^8...",
+  "id": "A012456",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:31:23",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

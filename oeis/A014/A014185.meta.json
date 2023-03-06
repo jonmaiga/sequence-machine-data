@@ -1,0 +1,16 @@
+{
+  "description": "Volume of (the dilation by 2) of the Relaxed Boolean Quadric polytope of order n.",
+  "id": "A014185",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:52:57",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

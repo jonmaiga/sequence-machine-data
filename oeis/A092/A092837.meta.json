@@ -1,0 +1,18 @@
+{
+  "description": "Indices of terms in the series for sec(x) that have prime numerators.",
+  "id": "A092837",
+  "mentions": [
+    "A092838"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

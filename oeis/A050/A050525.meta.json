@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form 11*2^n-1.",
+  "id": "A050525",
+  "mentions": [
+    "A001772"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

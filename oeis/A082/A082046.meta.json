@@ -1,0 +1,29 @@
+{
+  "description": "Square array, A(n, k) = (k*n)^2 + 3*k*n + 1, read by antidiagonals.",
+  "id": "A082046",
+  "mentions": [
+    "A000012",
+    "A028387",
+    "A057721",
+    "A069131",
+    "A072025",
+    "A082039",
+    "A082043",
+    "A082047",
+    "A082105",
+    "A082108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

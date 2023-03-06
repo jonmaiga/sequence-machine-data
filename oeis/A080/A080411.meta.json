@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number which results when the Boustrophedon transform of the continued fraction of gamma (A080410) is interpreted as a continued fraction.",
+  "id": "A080411",
+  "mentions": [
+    "A080410"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

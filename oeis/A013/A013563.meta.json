@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f. arctan(log(x+1)/exp(x)).",
+  "id": "A013563",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Exponents n such that 1-A065395(2^n) is a power of 2, where A065395(n) = sigma(phi(n)) - phi(sigma(n)).",
+  "id": "A092591",
+  "mentions": [
+    "A000010",
+    "A000043",
+    "A000203",
+    "A065395",
+    "A092584",
+    "A092590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

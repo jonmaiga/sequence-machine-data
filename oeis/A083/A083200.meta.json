@@ -1,0 +1,21 @@
+{
+  "description": "Polynexus numbers of order 7.",
+  "id": "A083200",
+  "mentions": [
+    "A079547",
+    "A088889",
+    "A088894"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:37",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is twice the smallest k such that A051686(k) = prime(n).",
+  "id": "A051692",
+  "mentions": [
+    "A005384",
+    "A051644",
+    "A051654",
+    "A051686",
+    "A051860",
+    "A051861"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

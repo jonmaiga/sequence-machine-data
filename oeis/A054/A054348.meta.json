@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array whose rows are successive generations of the variant of the Kolakoski sequence described in A042942.",
+  "id": "A054348",
+  "mentions": [
+    "A000002",
+    "A042942",
+    "A054349",
+    "A054350",
+    "A054351"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:18:37",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

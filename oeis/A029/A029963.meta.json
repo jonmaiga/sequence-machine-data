@@ -1,0 +1,29 @@
+{
+  "description": "Palindromic in bases 6 and 10.",
+  "id": "A029963",
+  "mentions": [
+    "A007632",
+    "A007633",
+    "A029804",
+    "A029961",
+    "A029962",
+    "A029964",
+    "A029965",
+    "A029966",
+    "A029967",
+    "A029968",
+    "A029969",
+    "A029970"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

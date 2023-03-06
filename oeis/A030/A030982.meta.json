@@ -1,0 +1,20 @@
+{
+  "description": "Number of noncrossing nonplanted bushes with n nodes, i.e., rooted noncrossing trees with n nodes and no nodes of degree 1.",
+  "id": "A030982",
+  "mentions": [
+    "A030980",
+    "A030981"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

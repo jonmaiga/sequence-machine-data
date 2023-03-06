@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 2, a(2) = 3; for n > 0, a(n+2) is the smallest prime chosen so that (a(n+2) - a(n+1))/(a(n+1) - a(n)) is an integer.",
+  "id": "A084736",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

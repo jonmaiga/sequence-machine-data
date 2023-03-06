@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T of all positive differences of distinct Fibonacci numbers; also, triangle of all sums of consecutive distinct Fibonacci numbers.",
+  "id": "A094585",
+  "mentions": [
+    "A000045",
+    "A094584",
+    "A094586",
+    "A193842",
+    "A193999"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

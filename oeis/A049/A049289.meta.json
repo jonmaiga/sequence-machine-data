@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic self-complementary circulant graphs (Cayley graphs for the cyclic group) of order 4n+1.",
+  "id": "A049289",
+  "mentions": [
+    "A049287",
+    "A049288",
+    "A049297"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = 2^(k-1)*(k + 2*n) - n + 1, array read by descending antidiagonals.",
+  "id": "A047858",
+  "mentions": [
+    "A001792",
+    "A005183"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:03",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

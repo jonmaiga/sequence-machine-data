@@ -1,0 +1,21 @@
+{
+  "description": "Related to Rogers-Ramanujan Identities.",
+  "id": "A035409",
+  "mentions": [
+    "A003106",
+    "A035406",
+    "A035407",
+    "A035408",
+    "A035410"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions in both Pi and e indicate a common digit.",
+  "id": "A052055",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A257492",
+    "A257494"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 + (binomial(2n,n) mod n).",
+  "id": "A059289",
+  "mentions": [
+    "A053214",
+    "A059288"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

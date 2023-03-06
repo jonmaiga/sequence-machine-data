@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n^3 into distinct cubes.",
+  "id": "A030272",
+  "mentions": [
+    "A000009",
+    "A003108",
+    "A033461",
+    "A259792",
+    "A279329"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

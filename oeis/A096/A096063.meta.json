@@ -1,0 +1,16 @@
+{
+  "description": "Beginning with the sequence S(1)={1} form, in succession, the sequence S(n) for n=2,3,4,... by inserting the n smallest multiples of n that have not been used previously, in order of increasing size, n-1 of them between the final n terms of S(n-1) and the final multiple after the last term of S(n-1). {a(n)} is the limit of this process as n -> inf.",
+  "id": "A096063",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

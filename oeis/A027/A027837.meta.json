@@ -1,0 +1,23 @@
+{
+  "description": "Number of subgroups of index n in free group of rank 3.",
+  "id": "A027837",
+  "mentions": [
+    "A001044",
+    "A003319",
+    "A049290",
+    "A049295"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

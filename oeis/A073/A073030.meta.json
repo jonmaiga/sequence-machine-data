@@ -1,0 +1,18 @@
+{
+  "description": "Sum_{k=1..n, gcd(n,k) = 1} 10^(k-1).",
+  "id": "A073030",
+  "mentions": [
+    "A054431",
+    "A054432"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

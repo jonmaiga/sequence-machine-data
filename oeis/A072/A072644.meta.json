@@ -1,0 +1,27 @@
+{
+  "description": "Size of the parenthesizations obtained with the global ranking/unranking scheme A072634-A072637.",
+  "id": "A072644",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A029837",
+    "A071673",
+    "A072634",
+    "A072635",
+    "A072637",
+    "A072639",
+    "A072643",
+    "A072645",
+    "A072660"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

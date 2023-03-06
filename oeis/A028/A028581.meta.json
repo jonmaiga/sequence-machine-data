@@ -1,0 +1,21 @@
+{
+  "description": "Quotients associated with A024011.",
+  "id": "A028581",
+  "mentions": [
+    "A007506",
+    "A024011",
+    "A028582"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

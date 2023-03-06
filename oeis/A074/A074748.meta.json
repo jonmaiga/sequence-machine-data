@@ -1,0 +1,17 @@
+{
+  "description": "Numbers for which the differences between consecutive anti-divisors (ordered by size) are not distinct.",
+  "id": "A074748",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of eta(q)^2 * eta(q^2) * eta(q^4) * eta(q^8)^2 in powers of q.",
+  "id": "A030207",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002479",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A121373",
+    "A128712",
+    "A128713"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

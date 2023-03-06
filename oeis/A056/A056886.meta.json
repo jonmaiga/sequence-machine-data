@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of the n X n Hankel matrix whose entries are s_2 (i+j), 0 <= i, j < n, where s_2 is the sum of the base-2 bits.",
+  "id": "A056886",
+  "mentions": [
+    "A000120"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

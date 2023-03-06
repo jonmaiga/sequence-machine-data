@@ -1,0 +1,18 @@
+{
+  "description": "Rad(n)+n/rad(n), where rad(n) is the squarefree kernel of n = A007947(n).",
+  "id": "A076332",
+  "mentions": [
+    "A003557",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

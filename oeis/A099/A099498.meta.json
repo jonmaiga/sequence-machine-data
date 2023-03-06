@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes of the form A007925(n) = n^(n+1)-(n+1)^n.",
+  "id": "A099498",
+  "mentions": [
+    "A007925",
+    "A072179",
+    "A099497",
+    "A099499"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

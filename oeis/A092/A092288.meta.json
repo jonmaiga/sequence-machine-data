@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = count of parts k in all plane partitions of n.",
+  "id": "A092288",
+  "mentions": [
+    "A000219",
+    "A066633",
+    "A090539",
+    "A091298",
+    "A091360",
+    "A319648"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

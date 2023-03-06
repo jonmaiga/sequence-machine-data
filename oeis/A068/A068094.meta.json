@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-digit triangular numbers.",
+  "id": "A068094",
+  "mentions": [
+    "A068092",
+    "A068093",
+    "A095863",
+    "A095864",
+    "A095865",
+    "A095866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

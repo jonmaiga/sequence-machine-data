@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T[n,m] = number of plane partitions of n whose 3-dimensional Ferrers plot just fits inside an m X m X m box, i.e., with Max[parts, rows, columns] = m.",
+  "id": "A096597",
+  "mentions": [
+    "A000219",
+    "A089924",
+    "A091298",
+    "A091360",
+    "A096272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

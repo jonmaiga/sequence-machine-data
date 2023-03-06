@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms in n-th group in A075352.",
+  "id": "A075355",
+  "mentions": [
+    "A008619",
+    "A075352",
+    "A075353",
+    "A075354",
+    "A075356"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

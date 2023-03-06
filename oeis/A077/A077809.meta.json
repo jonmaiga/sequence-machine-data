@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of numbers containing in their decimal representation only the digits 0 and 1.",
+  "id": "A077809",
+  "mentions": [
+    "A000005",
+    "A007088",
+    "A077810"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

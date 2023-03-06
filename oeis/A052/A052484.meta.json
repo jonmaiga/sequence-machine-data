@@ -1,0 +1,20 @@
+{
+  "description": "Let P = all numbers that can be obtained by permuting the digits of n and possibly adding or omitting zeros; a(n) = |n-q| where q in P is the closest number to n different from n (a(n)=0 if no such q exists).",
+  "id": "A052484",
+  "mentions": [
+    "A052500",
+    "A052999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:04:27",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

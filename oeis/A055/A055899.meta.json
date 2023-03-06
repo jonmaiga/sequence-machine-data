@@ -1,0 +1,24 @@
+{
+  "description": "Column 3 of triangle A055898.",
+  "id": "A055899",
+  "mentions": [
+    "A055898",
+    "A055900",
+    "A055901",
+    "A055902",
+    "A055903",
+    "A055904"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:29:35",
+    "offset": 3,
+    "size": 32,
+    "source": "joeis"
+  }
+}

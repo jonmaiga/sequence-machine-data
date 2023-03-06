@@ -1,0 +1,21 @@
+{
+  "description": "Dying rabbits: a(n) = a(n-1) + a(n-2) - a(n-5).",
+  "id": "A023435",
+  "mentions": [
+    "A013979",
+    "A035317",
+    "A077864",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

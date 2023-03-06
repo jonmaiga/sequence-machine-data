@@ -1,0 +1,19 @@
+{
+  "description": "Start of 10 consecutive composite numbers.",
+  "id": "A076150",
+  "mentions": [
+    "A007530",
+    "A076192",
+    "A267299"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

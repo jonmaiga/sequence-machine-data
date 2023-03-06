@@ -1,0 +1,18 @@
+{
+  "description": "Convolution of the prime numbers with phi(n).",
+  "id": "A086734",
+  "mentions": [
+    "A000010",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

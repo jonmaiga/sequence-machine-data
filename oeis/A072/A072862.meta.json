@@ -1,0 +1,20 @@
+{
+  "description": "The smallest k>1 such that k divides sigma(k*n) is equal to 6.",
+  "id": "A072862",
+  "mentions": [
+    "A049605",
+    "A074384"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

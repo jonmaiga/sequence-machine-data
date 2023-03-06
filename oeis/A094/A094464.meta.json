@@ -1,0 +1,21 @@
+{
+  "description": "Least initial value for a Euclid/Mullin sequence whose 3rd term (= least prime divisor of 1+2p) equals the n-th prime. prime(1)=2 is never a third term, so offset=2.",
+  "id": "A094464",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051334",
+    "A094460"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

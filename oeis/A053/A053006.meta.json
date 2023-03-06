@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m for which there exist d(1),...,d(m), each in {0,1}, such that Sum_{i=1..m-k} d(i)*d(i+k) is odd for all k=0,...,m-1.",
+  "id": "A053006",
+  "mentions": [
+    "A000265",
+    "A036259"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

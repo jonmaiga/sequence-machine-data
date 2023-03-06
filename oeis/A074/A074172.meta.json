@@ -1,0 +1,22 @@
+{
+  "description": "Smaller of two consecutive numbers of the form p^2*q where p and q are primes.",
+  "id": "A074172",
+  "mentions": [
+    "A054753",
+    "A074173",
+    "A074174",
+    "A141621",
+    "A178032",
+    "A308683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

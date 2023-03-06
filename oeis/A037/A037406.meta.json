@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that every base-8 digit of k is a base-10 digit of k.",
+  "id": "A037406",
+  "mentions": [
+    "A037405",
+    "A037442"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

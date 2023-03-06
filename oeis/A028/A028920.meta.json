@@ -1,0 +1,25 @@
+{
+  "description": "Pit harvesting sequence for winning solitaire Tchoukaillon (or Mancala).",
+  "id": "A028920",
+  "mentions": [
+    "A002260",
+    "A002491",
+    "A007952",
+    "A028931",
+    "A028932",
+    "A028933",
+    "A104706",
+    "A130747"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:39",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

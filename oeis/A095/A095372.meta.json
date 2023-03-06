@@ -1,0 +1,29 @@
+{
+  "description": "1+integers repeating \"90\" decimal digit pattern:.",
+  "id": "A095372",
+  "mentions": [
+    "A001562",
+    "A002275",
+    "A015585",
+    "A054416",
+    "A095371",
+    "A097209",
+    "A100047",
+    "A152577",
+    "A329914",
+    "A329915"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:40:39",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

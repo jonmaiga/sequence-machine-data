@@ -1,0 +1,17 @@
+{
+  "description": "Arithmetic mean of largest subset of {A063676(1), ......., A063676(n-1)} such that a(n) is an integer and a(n) is maximal.",
+  "id": "A063678",
+  "mentions": [
+    "A063676"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

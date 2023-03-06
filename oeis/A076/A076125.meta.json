@@ -1,0 +1,18 @@
+{
+  "description": "Define r(k) as follows: r(1)=n, r(k+1) = r(k) +(-1)^k*sign(r(k)-k)*k; then abs(r(k)) = n for at least one k>1 (there could be 2 values for k > 1). Sequence gives the smallest value of k > 1 such that abs(r(k)) = n.",
+  "id": "A076125",
+  "mentions": [
+    "A005132"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

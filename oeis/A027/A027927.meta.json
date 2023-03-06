@@ -1,0 +1,26 @@
+{
+  "description": "Number of plane regions after drawing (in general position) a convex n-gon and all its diagonals.",
+  "id": "A027927",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A004006",
+    "A006522",
+    "A027926",
+    "A152948",
+    "A152950",
+    "A228074"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:39",
+    "offset": 2,
+    "size": 46,
+    "source": "joeis"
+  }
+}

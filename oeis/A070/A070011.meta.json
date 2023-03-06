@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that number of prime factors divided by the number of distinct prime factors is not an integer.",
+  "id": "A070011",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A067340",
+    "A070012",
+    "A084679"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

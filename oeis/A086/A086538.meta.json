@@ -1,0 +1,17 @@
+{
+  "description": "n-th partial sum of A086537.",
+  "id": "A086538",
+  "mentions": [
+    "A086537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

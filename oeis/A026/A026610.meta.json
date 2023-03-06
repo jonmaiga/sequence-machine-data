@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of 1's between n-th 2 and (n+1)st 2 in A026600.",
+  "id": "A026610",
+  "mentions": [
+    "A026600",
+    "A026609"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

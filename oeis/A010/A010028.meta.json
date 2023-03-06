@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is one-half the number of permutations of length n with exactly n-k rising or falling successions, for n >= 1, 1 <= k <= n. T(1,1) = 1 by convention.",
+  "id": "A010028",
+  "mentions": [
+    "A000130",
+    "A000349",
+    "A001100",
+    "A001266",
+    "A001267",
+    "A001268",
+    "A001710",
+    "A002464",
+    "A086856"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

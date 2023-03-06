@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows in which the n-th row begins with n and contains tau(n) numbers. The r-th term from right is the largest number < n with r divisors, for 1<= r <= tau(n).",
+  "id": "A079786",
+  "mentions": [
+    "A079787"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

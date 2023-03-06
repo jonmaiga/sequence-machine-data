@@ -1,0 +1,19 @@
+{
+  "description": "Largest composite number formed by permuting the digits of n, or 0 if no such number exists.",
+  "id": "A075083",
+  "mentions": [
+    "A047814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

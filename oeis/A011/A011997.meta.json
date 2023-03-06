@@ -1,0 +1,16 @@
+{
+  "description": "Number of (n,3,7) difference families over Z_n.",
+  "id": "A011997",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 7,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irreducible trinomials: numbers n such that x^n + x^k + 1 is an irreducible polynomial (mod 2) for some k with 0 < k < n.",
+  "id": "A073571",
+  "mentions": [
+    "A001153",
+    "A057486",
+    "A057646",
+    "A057774",
+    "A073726"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

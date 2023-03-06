@@ -1,0 +1,18 @@
+{
+  "description": "Values of k associated with A060380.",
+  "id": "A060393",
+  "mentions": [
+    "A060380"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

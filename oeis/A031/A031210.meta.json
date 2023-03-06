@@ -1,0 +1,16 @@
+{
+  "description": "Numbers having period-92 7-digitized sequences.",
+  "id": "A031210",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:39",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations p of {1,2,...,n} such that |p(i)-i| != 1 for all i.",
+  "id": "A078480",
+  "mentions": [
+    "A000179",
+    "A000271",
+    "A306512",
+    "A320582"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

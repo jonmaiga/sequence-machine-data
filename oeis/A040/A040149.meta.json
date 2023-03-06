@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that x^4 = 21 has a solution mod p.",
+  "id": "A040149",
+  "mentions": [
+    "A040150"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

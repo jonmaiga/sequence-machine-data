@@ -1,0 +1,28 @@
+{
+  "description": "Initial term of sequence An.",
+  "id": "A031214",
+  "mentions": [
+    "A000001",
+    "A000002",
+    "A000003",
+    "A000004",
+    "A000005",
+    "A039928",
+    "A051070",
+    "A091967",
+    "A102288",
+    "A107357"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "dumb",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

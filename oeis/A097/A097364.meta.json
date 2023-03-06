@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows, 0 <= k < n: T(n,k) = number of partitions of n such that the differences between greatest and smallest parts are k.",
+  "id": "A097364",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000217",
+    "A008805",
+    "A049820",
+    "A116685",
+    "A117989",
+    "A128508",
+    "A218567",
+    "A218568",
+    "A218569",
+    "A218570",
+    "A218571",
+    "A218572",
+    "A218573"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

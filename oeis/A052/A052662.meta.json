@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. (1-x^2)/(1-2x-x^2+x^3).",
+  "id": "A052662",
+  "mentions": [
+    "A052534"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:05:03",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

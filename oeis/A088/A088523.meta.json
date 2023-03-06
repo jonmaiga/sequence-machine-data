@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) = (a(n-1) + prime(n)) mod n.",
+  "id": "A088523",
+  "mentions": [
+    "A006257",
+    "A088521",
+    "A088522"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

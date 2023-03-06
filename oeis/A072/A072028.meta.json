@@ -1,0 +1,25 @@
+{
+  "description": "Swap twin prime pairs of form (4*k+1,4*k+3) in prime factorization of n.",
+  "id": "A072028",
+  "mentions": [
+    "A061898",
+    "A064505",
+    "A071695",
+    "A071696",
+    "A072026",
+    "A072027",
+    "A072029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

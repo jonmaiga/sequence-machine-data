@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of n-th prime and its reverse.",
+  "id": "A067087",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:17",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of prime pairs (p,q) with p^2 + q^2 <= n^2.",
+  "id": "A097689",
+  "mentions": [
+    "A000720",
+    "A001182"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

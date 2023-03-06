@@ -1,0 +1,21 @@
+{
+  "description": "Smaller factor of the n-th semiprime of the form (m!)^2 + 1.",
+  "id": "A083341",
+  "mentions": [
+    "A020549",
+    "A083340",
+    "A282706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

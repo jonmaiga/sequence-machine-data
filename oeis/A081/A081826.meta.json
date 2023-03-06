@@ -1,0 +1,17 @@
+{
+  "description": "Tau-electron mass ratio.",
+  "id": "A081826",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

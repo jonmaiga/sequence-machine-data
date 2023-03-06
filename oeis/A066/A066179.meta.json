@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (p-1)/2 and (p-3)/4 are also prime.",
+  "id": "A066179",
+  "mentions": [
+    "A000040",
+    "A005385",
+    "A065966"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "cosh(arcsin(arcsin(x)))=1+1/2!*x^2+9/4!*x^4+249/6!*x^6+14129/8!*x^8...",
+  "id": "A012072",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:33:07",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

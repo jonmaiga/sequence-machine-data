@@ -1,0 +1,19 @@
+{
+  "description": "Difference between n-th composite number and its smallest prime divisor.",
+  "id": "A085271",
+  "mentions": [
+    "A002808",
+    "A085273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

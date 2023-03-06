@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which n-th row gives trajectory of n under the map x -> x/2 if x is even, x -> x-1 if x is odd, stopping when we reach 1.",
+  "id": "A082404",
+  "mentions": [
+    "A029578",
+    "A056792",
+    "A080825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

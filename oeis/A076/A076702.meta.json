@@ -1,0 +1,21 @@
+{
+  "description": "Distinct-digit prime powers of prime numbers.",
+  "id": "A076702",
+  "mentions": [
+    "A053810",
+    "A075308"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

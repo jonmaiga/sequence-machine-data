@@ -1,0 +1,18 @@
+{
+  "description": "Minimum digit out of both prime factors of the numbers in A046376.",
+  "id": "A084189",
+  "mentions": [
+    "A046376"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

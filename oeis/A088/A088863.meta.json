@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime factors of n-th Mersenne number M(p_n).",
+  "id": "A088863",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A001222",
+    "A001348",
+    "A003260",
+    "A046051",
+    "A046932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

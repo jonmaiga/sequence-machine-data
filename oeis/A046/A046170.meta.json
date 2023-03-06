@@ -1,0 +1,20 @@
+{
+  "description": "Number of self-avoiding walks on a 2-D lattice of length n which start at the origin, take first step in the {+1,0} direction and whose vertices are always nonnegative in x and y.",
+  "id": "A046170",
+  "mentions": [
+    "A038373",
+    "A046171"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

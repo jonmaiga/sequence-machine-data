@@ -1,0 +1,22 @@
+{
+  "description": "Number of lattice paths in the lattice [0..2n] X [0..2n] X [0..2n] which do not pass through the point (n,n,n). Number of paths through a lattice containing a \"hole\".",
+  "id": "A071800",
+  "mentions": [
+    "A006480",
+    "A071801",
+    "A071803"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

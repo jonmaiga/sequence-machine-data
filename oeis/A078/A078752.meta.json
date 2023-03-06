@@ -1,0 +1,17 @@
+{
+  "description": "Least m>n such that phi(m) >= 2*phi(n), where phi is Euler's totient function (A000010).",
+  "id": "A078752",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Difference between prime(n)^2 and the next prime.",
+  "id": "A091666",
+  "mentions": [
+    "A001223",
+    "A001248",
+    "A054271",
+    "A062772",
+    "A133517",
+    "A133518",
+    "A133519",
+    "A133520",
+    "A133521",
+    "A133522"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

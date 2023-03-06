@@ -1,0 +1,29 @@
+{
+  "description": "Denominator of the quotient sigma(7n)/sigma(n).",
+  "id": "A088842",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A038712",
+    "A080278",
+    "A088837",
+    "A088838",
+    "A088839",
+    "A088840",
+    "A088841",
+    "A283078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

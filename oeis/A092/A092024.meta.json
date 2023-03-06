@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number m such that m has n distinct prime divisors and if p is a prime divisor of m then p*m +1 is prime.",
+  "id": "A092024",
+  "mentions": [
+    "A092023",
+    "A112723",
+    "A112724"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

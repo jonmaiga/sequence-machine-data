@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of Taylor series expansion of 3*sin(2*x)/(2*(2+cos(2*x))) (with 0's omitted).",
+  "id": "A091197",
+  "mentions": [
+    "A091198"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

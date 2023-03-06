@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n where phi(n) + sigma(n) increases.",
+  "id": "A015702",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A018892",
+    "A018894",
+    "A065387"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

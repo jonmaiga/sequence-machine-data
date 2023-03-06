@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes k such that k+1 is also a semiprime.",
+  "id": "A070552",
+  "mentions": [
+    "A001358",
+    "A007674",
+    "A039832",
+    "A064911",
+    "A100484",
+    "A109373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

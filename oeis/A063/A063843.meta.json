@@ -1,0 +1,30 @@
+{
+  "description": "Number of n-multigraphs on 5 nodes.",
+  "id": "A063843",
+  "mentions": [
+    "A000389",
+    "A063841",
+    "A063842",
+    "A327084",
+    "A331350",
+    "A331352",
+    "A331353",
+    "A331355",
+    "A331359",
+    "A337884",
+    "A338953",
+    "A338965"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:31:21",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

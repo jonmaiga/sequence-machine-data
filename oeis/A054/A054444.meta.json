@@ -1,0 +1,23 @@
+{
+  "description": "Even-indexed terms of A001629(n), n >= 2, (Fibonacci convolution).",
+  "id": "A054444",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A001870",
+    "A060920",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

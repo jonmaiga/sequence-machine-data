@@ -1,0 +1,23 @@
+{
+  "description": "Values k of pairs (j,k) that generate A088319(n).",
+  "id": "A088516",
+  "mentions": [
+    "A088319",
+    "A088515",
+    "A088546",
+    "A089545",
+    "A089552",
+    "A089554",
+    "A089558"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

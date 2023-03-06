@@ -1,0 +1,26 @@
+{
+  "description": "Highest minimal Hamming distance of any Type 4^H+ Hermitian additive self-dual code over GF(4) of length n.",
+  "id": "A016729",
+  "mentions": [
+    "A066016",
+    "A105674",
+    "A105675",
+    "A105676",
+    "A105677",
+    "A105678",
+    "A105681",
+    "A105682",
+    "A105687"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

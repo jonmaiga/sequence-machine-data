@@ -1,0 +1,23 @@
+{
+  "description": "The leading digits in the terms in A067103 converge; dividing by a suitable power of 10 they converge to the number shown below; sequence gives continued fraction for this number.",
+  "id": "A066700",
+  "mentions": [
+    "A007908",
+    "A019522",
+    "A030167",
+    "A067103"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 186,
+    "source": "oeis-entry"
+  }
+}

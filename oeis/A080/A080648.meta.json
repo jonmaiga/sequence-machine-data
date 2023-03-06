@@ -1,0 +1,19 @@
+{
+  "description": "Sum of prime factors of Fibonacci(n).",
+  "id": "A080648",
+  "mentions": [
+    "A000045",
+    "A008472",
+    "A060442"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

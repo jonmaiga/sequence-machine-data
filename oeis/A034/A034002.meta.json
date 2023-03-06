@@ -1,0 +1,22 @@
+{
+  "description": "A005150 expanded into single digits.",
+  "id": "A034002",
+  "mentions": [
+    "A005150",
+    "A005341",
+    "A088203",
+    "A220424"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:23",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Experimental values for number of equal circles that are packed into a square for which the density of the packing is strictly increasing.",
+  "id": "A051657",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of representations of n by the quadratic form x^2 + xy + y^2 with 0 <= x <= y.",
+  "id": "A088534",
+  "mentions": [
+    "A000196",
+    "A002324",
+    "A003136",
+    "A004016",
+    "A034020",
+    "A118886",
+    "A145377",
+    "A198772",
+    "A198773",
+    "A198774",
+    "A198775",
+    "A198799",
+    "A215622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

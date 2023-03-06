@@ -1,0 +1,15 @@
+{
+  "description": "Primes (k) such that prime(k)*prime(k+1) + 1 or prime(k)*prime(k+1)- 1 is divisible by prime(k+2).",
+  "id": "A077007",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

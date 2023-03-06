@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 2, least number not occurring earlier that divides the sum of all previous terms.",
+  "id": "A094339",
+  "mentions": [
+    "A094340",
+    "A094341"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The delta sequence p(i)-i for the \"Greedy Queens\" permutation A065188. Each queen at file n is situated at rank n+a(n).",
+  "id": "A065185",
+  "mentions": [
+    "A065188"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

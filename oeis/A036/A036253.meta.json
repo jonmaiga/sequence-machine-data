@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of fraction equal to the continued fraction [ 3, 1, 4, 1, 5... ] (first n digits of Pi).",
+  "id": "A036253",
+  "mentions": [
+    "A036254"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

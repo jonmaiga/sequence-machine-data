@@ -1,0 +1,20 @@
+{
+  "description": "Periodic points under the map A053392 that adds consecutive pairs of digits and concatenates them.",
+  "id": "A053393",
+  "mentions": [
+    "A053392"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of rows of A047884. Young Tableaux by height.",
+  "id": "A049400",
+  "mentions": [
+    "A000085",
+    "A007578",
+    "A007579",
+    "A007580",
+    "A047884",
+    "A049401",
+    "A293128"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

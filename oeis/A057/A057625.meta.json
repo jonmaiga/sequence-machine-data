@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n! * sum 1/k! where the sum is over all positive integers k that divide n.",
+  "id": "A057625",
+  "mentions": [
+    "A000005",
+    "A000262",
+    "A005225",
+    "A038041",
+    "A038048",
+    "A061095",
+    "A066387",
+    "A121860",
+    "A209903",
+    "A236696",
+    "A320444"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

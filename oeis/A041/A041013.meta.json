@@ -1,0 +1,19 @@
+{
+  "description": "Reverse or double: if reverse of a(n) > a(n), then a(n+1) = a(n) reversed, otherwise a(n+1) = 2*a(n).",
+  "id": "A041013",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Variance of time for a random walk starting at 0 to reach one of the boundaries at +n or -n for the first time.",
+  "id": "A072819",
+  "mentions": [
+    "A000290",
+    "A001079",
+    "A002415",
+    "A008911",
+    "A069971",
+    "A072818"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

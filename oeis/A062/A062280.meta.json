@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n) = smallest multiple of n-th prime (n>1) with all odd digits.",
+  "id": "A062280",
+  "mentions": [
+    "A062281"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "For x > 0 let f(x) = x/2 if x is even, f(x) = (3*x+1)/2 if x is odd (3x+1 or Collatz problem). Sequence gives numbers such that k-1 applications of f lead to k for some k > 0.",
+  "id": "A066861",
+  "mentions": [
+    "A014682",
+    "A258769"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

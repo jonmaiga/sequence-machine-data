@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of n numbers mentioned in A075618, divided by n.",
+  "id": "A075619",
+  "mentions": [
+    "A075618",
+    "A083195"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

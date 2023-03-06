@@ -1,0 +1,19 @@
+{
+  "description": "First term in the continued fraction expansion of StieltjesGamma[n].",
+  "id": "A066035",
+  "mentions": [
+    "A002852",
+    "A066034",
+    "A066036"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

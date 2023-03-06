@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, 0<=k<=n) giving number of preferential arrangements of n things beginning with k (transposed, then read by rows).",
+  "id": "A054255",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A002050",
+    "A002051",
+    "A008277",
+    "A028246"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:03:19",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

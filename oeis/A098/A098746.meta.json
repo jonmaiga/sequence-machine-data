@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [1..n] which avoid 4231 and 42513.",
+  "id": "A098746",
+  "mentions": [
+    "A001764"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors in the factorial of the n-th prime, counted with multiplicity.",
+  "id": "A080084",
+  "mentions": [
+    "A080085",
+    "A080086",
+    "A080087"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(n-1) + sum of decimal digits of 2^n.",
+  "id": "A071122",
+  "mentions": [
+    "A000788",
+    "A037123",
+    "A051351",
+    "A071121",
+    "A071317"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

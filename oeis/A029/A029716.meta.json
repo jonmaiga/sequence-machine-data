@@ -1,0 +1,32 @@
+{
+  "description": "Partial sums of Kempner numbers A002034.",
+  "id": "A029716",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A002034",
+    "A006530",
+    "A007672",
+    "A046022",
+    "A057109",
+    "A064759",
+    "A094371",
+    "A094372",
+    "A094404",
+    "A122378",
+    "A122379",
+    "A122416",
+    "A122417"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

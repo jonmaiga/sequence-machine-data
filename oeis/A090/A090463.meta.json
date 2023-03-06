@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of maximum imaginary value at which the Pochhammer limit lim_{k->Infinity} Product_{i=0..k}(z + i/k) converges.",
+  "id": "A090463",
+  "mentions": [
+    "A090462"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

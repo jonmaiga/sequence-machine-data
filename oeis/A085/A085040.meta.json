@@ -1,0 +1,17 @@
+{
+  "description": "Squares arising in A085039. n-th partial sum of A085039.",
+  "id": "A085040",
+  "mentions": [
+    "A085039"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

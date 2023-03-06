@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to the equation p_i = (1+mod(i,2))*p_{i-1} +- p_{i-2} +- p_{i-3} +- ... +- 2 +- 1, where p_i is the i-th prime number (where p_1 = 2 and the \"zeroth prime\" p_0 is defined to be 1).",
+  "id": "A059871",
+  "mentions": [
+    "A022894",
+    "A059872",
+    "A059873",
+    "A059875",
+    "A059876",
+    "A083309"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

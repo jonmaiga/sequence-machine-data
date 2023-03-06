@@ -1,0 +1,37 @@
+{
+  "description": "Numbers m whose k-th arithmetic derivative is zero for some k. Complement of A099309.",
+  "id": "A099308",
+  "mentions": [
+    "A003415",
+    "A099307",
+    "A099309",
+    "A256750",
+    "A276086",
+    "A327969",
+    "A328116",
+    "A328308",
+    "A328309",
+    "A341999",
+    "A351072",
+    "A351078",
+    "A351079",
+    "A351088",
+    "A351255",
+    "A351257",
+    "A351259",
+    "A351261",
+    "A359544",
+    "A359545"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

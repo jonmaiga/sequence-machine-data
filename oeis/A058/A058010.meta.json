@@ -1,0 +1,26 @@
+{
+  "description": "The main diagonal of N. Fernandez's Order of Primeness array.",
+  "id": "A058010",
+  "mentions": [
+    "A006450",
+    "A007097",
+    "A049077",
+    "A049081",
+    "A057450",
+    "A057453",
+    "A057456",
+    "A057457",
+    "A236542"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

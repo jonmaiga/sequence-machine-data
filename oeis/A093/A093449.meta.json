@@ -1,0 +1,20 @@
+{
+  "description": "Least number with n distinct prime divisors arising as the product of two or more consecutive integers.",
+  "id": "A093449",
+  "mentions": [
+    "A002110",
+    "A045619",
+    "A093450"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

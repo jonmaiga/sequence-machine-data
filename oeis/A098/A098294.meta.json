@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = ceiling(n*log_2(3/2)).",
+  "id": "A098294",
+  "mentions": [
+    "A001047",
+    "A005378",
+    "A020857",
+    "A020914",
+    "A098295",
+    "A122437",
+    "A227048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:29",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

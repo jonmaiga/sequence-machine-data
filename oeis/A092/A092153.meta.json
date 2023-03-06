@@ -1,0 +1,17 @@
+{
+  "description": "1/24 * (A018188(n)-11).",
+  "id": "A092153",
+  "mentions": [
+    "A018188"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

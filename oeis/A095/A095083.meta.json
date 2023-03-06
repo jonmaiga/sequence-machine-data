@@ -1,0 +1,22 @@
+{
+  "description": "Fibodious primes, i.e., primes p whose Zeckendorf-expansion A014417(p) contains an odd number of 1-fibits.",
+  "id": "A095083",
+  "mentions": [
+    "A000040",
+    "A014417",
+    "A020899",
+    "A095062",
+    "A095063",
+    "A095084"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

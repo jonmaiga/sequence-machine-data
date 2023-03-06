@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose binary expansion is a decimal prime.",
+  "id": "A036952",
+  "mentions": [
+    "A007088",
+    "A020449",
+    "A036953",
+    "A036964",
+    "A065720",
+    "A100051",
+    "A156059"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

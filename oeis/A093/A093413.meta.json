@@ -1,0 +1,21 @@
+{
+  "description": "Largest number in row n of A093412.",
+  "id": "A093413",
+  "mentions": [
+    "A093412",
+    "A093414",
+    "A093415"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

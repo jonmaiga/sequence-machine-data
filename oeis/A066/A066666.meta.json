@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of area cut out by a rotating Reuleaux triangle.",
+  "id": "A066666",
+  "mentions": [
+    "A060708",
+    "A060709"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:13",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Index of 5^n within sequence of numbers of form 4^i*5^j.",
+  "id": "A025706",
+  "mentions": [
+    "A025730"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

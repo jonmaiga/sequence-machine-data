@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+x)^2/((1-x)*(1-10*x^2)).",
+  "id": "A094627",
+  "mentions": [
+    "A011557",
+    "A094626"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:07:33",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

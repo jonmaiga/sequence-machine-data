@@ -1,0 +1,20 @@
+{
+  "description": "Product of all primes contained as binary substrings in binary representation of n.",
+  "id": "A078828",
+  "mentions": [
+    "A007088",
+    "A078822",
+    "A078827"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array x AND NOT y, read by rising antidiagonals.",
+  "id": "A099026",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A003985",
+    "A003986",
+    "A003987",
+    "A052928",
+    "A059841",
+    "A099027"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

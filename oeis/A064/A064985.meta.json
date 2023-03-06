@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into factorial parts ( 0! allowed ).",
+  "id": "A064985",
+  "mentions": [
+    "A064986"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

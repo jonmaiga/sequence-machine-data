@@ -1,0 +1,18 @@
+{
+  "description": "Base-9 palindromes that start with 2.",
+  "id": "A043029",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:57",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, such that the initial terms of the binomial transform of the n-th row forms the n-th row of triangle A059438 transposed (permutations of [1..n] with k components).",
+  "id": "A091063",
+  "mentions": [
+    "A003319",
+    "A059438",
+    "A075834"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

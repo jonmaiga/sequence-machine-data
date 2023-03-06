@@ -1,0 +1,28 @@
+{
+  "description": "Bigomega of the n-th Catalan number: a(n) = A001222(A000108(n)).",
+  "id": "A081399",
+  "mentions": [
+    "A000108",
+    "A001222",
+    "A022559",
+    "A023816",
+    "A048621",
+    "A080405",
+    "A081405",
+    "A120626",
+    "A137686",
+    "A137687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

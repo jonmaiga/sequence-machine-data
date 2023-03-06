@@ -1,0 +1,16 @@
+{
+  "description": "Number of numbers that differ from n in decimal representation by exactly one edit-operation: deletion, insertion, or substitution.",
+  "id": "A080910",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For n such that all numbers between the largest prime preceding n! and the smallest prime following n! + n are composite (see A088331), sequence is number of such consecutive composite numbers.",
+  "id": "A088315",
+  "mentions": [
+    "A088331"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

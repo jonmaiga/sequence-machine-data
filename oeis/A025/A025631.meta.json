@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of form 7^i*9^j, with i, j >= 0.",
+  "id": "A025631",
+  "mentions": [
+    "A003594"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

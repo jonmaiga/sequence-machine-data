@@ -1,0 +1,18 @@
+{
+  "description": "Solutions x to equation floor(x*r*floor(x/r)) = floor(x/r*floor(x*r)) when r=sqrt(3).",
+  "id": "A090893",
+  "mentions": [
+    "A001519"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

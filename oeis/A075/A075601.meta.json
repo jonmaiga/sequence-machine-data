@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 13 and then the smallest prime that is obtained by placing digits on both sides of the previous term. Or smallest prime that encompasses a(n-1).",
+  "id": "A075601",
+  "mentions": [
+    "A075595",
+    "A075596",
+    "A075597",
+    "A075598",
+    "A075599",
+    "A075600",
+    "A075602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

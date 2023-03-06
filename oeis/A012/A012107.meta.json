@@ -1,0 +1,16 @@
+{
+  "description": "arctanh(arcsin(sinh(x)))=x+4/3!*x^3+84/5!*x^5+4432/7!*x^7+432144/9!*x^9...",
+  "id": "A012107",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:59:25",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

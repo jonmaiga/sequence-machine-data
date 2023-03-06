@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of completely replicable function 50a with a(0) = 1.",
+  "id": "A034320",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007242",
+    "A010054",
+    "A010815",
+    "A034321",
+    "A058703",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:12:23",
+    "offset": -1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

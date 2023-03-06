@@ -1,0 +1,25 @@
+{
+  "description": "Squares of A052918(n-1) (generalized Fibonacci).",
+  "id": "A099365",
+  "mentions": [
+    "A007598",
+    "A052918",
+    "A079291",
+    "A090248",
+    "A092936",
+    "A099279",
+    "A099366"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

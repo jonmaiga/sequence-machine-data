@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f.: 1/(1-2x-x^3).",
+  "id": "A052599",
+  "mentions": [
+    "A008998"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:00:46",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

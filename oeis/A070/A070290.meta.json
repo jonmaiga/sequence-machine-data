@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm(8,n)/gcd(8,n).",
+  "id": "A070290",
+  "mentions": [
+    "A070291",
+    "A070292",
+    "A070293",
+    "A109011",
+    "A109049"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:17",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

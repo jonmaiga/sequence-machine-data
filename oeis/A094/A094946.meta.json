@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is 10110(3 1's)0...0(n 1's).",
+  "id": "A094946",
+  "mentions": [
+    "A023532",
+    "A094945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

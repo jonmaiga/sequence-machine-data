@@ -1,0 +1,17 @@
+{
+  "description": "Number of independent sets of nodes in C_4 X C_n (n > 2).",
+  "id": "A050402",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

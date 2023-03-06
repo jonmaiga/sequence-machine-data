@@ -1,0 +1,20 @@
+{
+  "description": "n - floor ( ( 4*n + 1 )^(1/2) ).",
+  "id": "A076874",
+  "mentions": [
+    "A001411",
+    "A077483",
+    "A077484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:41",
+    "offset": 3,
+    "size": 74,
+    "source": "joeis"
+  }
+}

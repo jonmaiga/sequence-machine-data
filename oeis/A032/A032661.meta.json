@@ -1,0 +1,21 @@
+{
+  "description": "Lucky numbers that are the smallest decimal concatenations of n with n + (0,1,2,3,...).",
+  "id": "A032661",
+  "mentions": [
+    "A000959",
+    "A032650",
+    "A032659",
+    "A032660"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:43:45",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

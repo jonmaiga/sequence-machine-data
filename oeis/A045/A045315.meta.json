@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that x^8 = 2 has a solution mod p.",
+  "id": "A045315",
+  "mentions": [
+    "A000040",
+    "A001132",
+    "A040028",
+    "A040098",
+    "A045316"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

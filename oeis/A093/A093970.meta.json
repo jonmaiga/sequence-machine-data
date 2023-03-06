@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets A of {1..n} such that there are no solutions to a+b+c=d for a,b,c,d in A.",
+  "id": "A093970",
+  "mentions": [
+    "A007865"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n)*prime(n-1) + 1.",
+  "id": "A023523",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A286623",
+    "A328464"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:39",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

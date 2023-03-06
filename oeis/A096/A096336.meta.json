@@ -1,0 +1,19 @@
+{
+  "description": "Spin(2n+1) and Spin(2n+2) have torsion index 2^a(n).",
+  "id": "A096336",
+  "mentions": [
+    "A169869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

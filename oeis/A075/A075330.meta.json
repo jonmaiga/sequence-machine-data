@@ -1,0 +1,19 @@
+{
+  "description": "Second members of pairs in A075329.",
+  "id": "A075330",
+  "mentions": [
+    "A075329",
+    "A075331",
+    "A075332"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

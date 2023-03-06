@@ -1,0 +1,19 @@
+{
+  "description": "Exponential reversion of Moebius function A008683.",
+  "id": "A050386",
+  "mentions": [
+    "A008683",
+    "A050385"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:31:34",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

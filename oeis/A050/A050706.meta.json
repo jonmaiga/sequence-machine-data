@@ -1,0 +1,23 @@
+{
+  "description": "Composites c that reach a prime after 2 iterations of c-> c+sum of prime factors of c.",
+  "id": "A050706",
+  "mentions": [
+    "A050703",
+    "A050704",
+    "A050705",
+    "A050707",
+    "A050708",
+    "A050709",
+    "A050710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:45",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

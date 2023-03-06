@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that tau(p-1)+tau(p+1) is larger than for any previous term. (Smallest prime sandwiched between more composite numbers.)",
+  "id": "A090481",
+  "mentions": [
+    "A000005",
+    "A090482"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

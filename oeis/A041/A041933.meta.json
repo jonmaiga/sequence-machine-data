@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(489).",
+  "id": "A041933",
+  "mentions": [
+    "A041932"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:46:29",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

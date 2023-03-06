@@ -1,0 +1,19 @@
+{
+  "description": "Near twin primes of order 12: twin primes p,p+2 such that p+12 and p+14 are primes.",
+  "id": "A079292",
+  "mentions": [
+    "A007530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

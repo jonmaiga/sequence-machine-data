@@ -1,0 +1,30 @@
+{
+  "description": "Triangle a(n,k) of bipartite partitions of n objects into parts >1, k of which are black.",
+  "id": "A060244",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A005380",
+    "A024786",
+    "A054225",
+    "A060285",
+    "A291553",
+    "A291589",
+    "A291590",
+    "A291596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

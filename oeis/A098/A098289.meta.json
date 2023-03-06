@@ -1,0 +1,19 @@
+{
+  "description": "Let a(1)=0. Then a(i+1)=position of first occurrence of a(i) in decimal expansion of log 2.",
+  "id": "A098289",
+  "mentions": [
+    "A097614",
+    "A098266"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 0 if n is a squarefree number, otherwise the distance between the two nearest squarefree numbers around n: A067535(n)-A070321(n).",
+  "id": "A076260",
+  "mentions": [
+    "A005117",
+    "A020753",
+    "A020754",
+    "A067535",
+    "A070321",
+    "A076259",
+    "A080733"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

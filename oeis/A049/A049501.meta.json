@@ -1,0 +1,22 @@
+{
+  "description": "Major index of n, first definition.",
+  "id": "A049501",
+  "mentions": [
+    "A049502"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

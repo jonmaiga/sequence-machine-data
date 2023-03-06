@@ -1,0 +1,30 @@
+{
+  "description": "Enneagorials: n-th polygorial for k=9.",
+  "id": "A084942",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000680",
+    "A001044",
+    "A006472",
+    "A084939",
+    "A084940",
+    "A084941",
+    "A084943",
+    "A084944",
+    "A084947",
+    "A085356"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:07:01",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

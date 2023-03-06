@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which can be expressed as the sum of two distinct primes in exactly six ways.",
+  "id": "A080862",
+  "mentions": [
+    "A077914",
+    "A077969",
+    "A078299",
+    "A080854",
+    "A117929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

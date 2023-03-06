@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of number with continued fraction expansion 0, 2, 4, 8, 16, ... (0 and positive powers of 2).",
+  "id": "A096641",
+  "mentions": [
+    "A155559",
+    "A214070",
+    "A275614"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

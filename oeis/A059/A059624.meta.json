@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (3+10*x+3*x^2)/(1-x)^12.",
+  "id": "A059624",
+  "mentions": [
+    "A038166"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:09",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

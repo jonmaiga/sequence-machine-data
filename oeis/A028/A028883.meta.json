@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form n^2 - 7.",
+  "id": "A028883",
+  "mentions": [
+    "A028881"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:39",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

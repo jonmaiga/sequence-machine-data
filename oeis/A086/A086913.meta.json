@@ -1,0 +1,17 @@
+{
+  "description": "a[n] =Prime[a[n-2]]+Abs[Prime[n]-a[n-2]]",
+  "id": "A086913",
+  "mentions": [
+    "A005229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

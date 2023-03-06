@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * [x^n] W(-x)*(W(-x) + 2)/(W(-x) + 1), where W denotes Lambert's W function.",
+  "id": "A061302",
+  "mentions": [
+    "A055541",
+    "A061250"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

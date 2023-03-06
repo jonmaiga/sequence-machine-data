@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted 2-dimensional polyominoes with n octagonal cells, with no symmetries removed.",
+  "id": "A094169",
+  "mentions": [
+    "A094166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

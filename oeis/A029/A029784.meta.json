@@ -1,0 +1,23 @@
+{
+  "description": "Squares such that digits of sqrt(n) are not present in n.",
+  "id": "A029784",
+  "mentions": [
+    "A029783",
+    "A029785",
+    "A029786",
+    "A111116",
+    "A113316"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

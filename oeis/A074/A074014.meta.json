@@ -1,0 +1,26 @@
+{
+  "description": "Number of elements of GF(7^n) with trace 0 and subtrace 0.",
+  "id": "A074014",
+  "mentions": [
+    "A074015",
+    "A074016",
+    "A074017",
+    "A074018",
+    "A074019",
+    "A074020",
+    "A074021",
+    "A074022",
+    "A074023"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Floor[ prime(n)^{prime(n)/n}], prime(n) = A000040(n).",
+  "id": "A093862",
+  "mentions": [
+    "A000040",
+    "A093861"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

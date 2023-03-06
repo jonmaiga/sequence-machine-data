@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0. For n > 0, smallest non-palindromic number k such that the smallest palindrome in the Reverse and Add! trajectory of k is reached after exactly n iterations.",
+  "id": "A023109",
+  "mentions": [
+    "A006960",
+    "A015994",
+    "A033665"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

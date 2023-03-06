@@ -1,0 +1,17 @@
+{
+  "description": "Number of quaternary codes (not necessarily linear) of length n with 13 words.",
+  "id": "A034250",
+  "mentions": [
+    "A034188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

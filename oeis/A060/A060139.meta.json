@@ -1,0 +1,19 @@
+{
+  "description": "Ordered set S defined by these rules: 0 and 1 are in S and if x is a nonzero number in S, then 3x-1 and 9x are in S.",
+  "id": "A060139",
+  "mentions": [
+    "A003849",
+    "A060138",
+    "A060142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

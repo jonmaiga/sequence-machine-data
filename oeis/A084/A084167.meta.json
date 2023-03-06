@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k in A002313 such that the count of primitive roots of k (A084168) are also in sequence A002313, where A002313 is the list of primes p having a unique representation as the sum of two squares, p = x^2 + y^2.",
+  "id": "A084167",
+  "mentions": [
+    "A002313",
+    "A084168"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

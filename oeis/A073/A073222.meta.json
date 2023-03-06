@@ -1,0 +1,19 @@
+{
+  "description": "A073214/2.",
+  "id": "A073222",
+  "mentions": [
+    "A073214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:47:48",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertex-transitive graphs of valency 8 with n nodes.",
+  "id": "A023643",
+  "mentions": [
+    "A319367"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 9,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

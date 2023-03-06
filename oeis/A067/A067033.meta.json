@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k such that A067030(n) = k + reverse(k).",
+  "id": "A067033",
+  "mentions": [
+    "A033865",
+    "A067030",
+    "A067031",
+    "A067032",
+    "A067034"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

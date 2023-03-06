@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that for every prime divisor p of k, p-1 divides k-1.",
+  "id": "A087441",
+  "mentions": [
+    "A000961",
+    "A087442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions of sevens (ground states) in A084451.",
+  "id": "A084449",
+  "mentions": [
+    "A084451",
+    "A084465",
+    "A084507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

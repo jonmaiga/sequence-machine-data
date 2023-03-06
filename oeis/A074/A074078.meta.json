@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps to reach an integer starting with s = n/3 and iterating the map x -> s*ceiling(x).",
+  "id": "A074078",
+  "mentions": [
+    "A072340",
+    "A074090",
+    "A074091",
+    "A074096",
+    "A074097",
+    "A074098",
+    "A081852"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

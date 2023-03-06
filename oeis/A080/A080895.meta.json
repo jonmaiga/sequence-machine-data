@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of the exponential series exp( x R(x) ) = exp((1 + x - sqrt(1 - 2 x - 3x^2))/(2(1 + x))), where R(x) is the ordinary generating series of the Riordan numbers A005043.",
+  "id": "A080895",
+  "mentions": [
+    "A005043"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:15:03",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

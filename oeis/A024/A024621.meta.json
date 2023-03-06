@@ -1,0 +1,18 @@
+{
+  "description": "Positions of nonprimes among the powers of primes (A000961).",
+  "id": "A024621",
+  "mentions": [
+    "A000961",
+    "A024620"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose set of base 14 digits is {0,1}.",
+  "id": "A033050",
+  "mentions": [
+    "A000695",
+    "A005836",
+    "A030308",
+    "A033042",
+    "A033052",
+    "A097260",
+    "A104257"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:21",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

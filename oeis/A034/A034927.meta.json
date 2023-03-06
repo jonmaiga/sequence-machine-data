@@ -1,0 +1,19 @@
+{
+  "description": "Number of letters in \"What is the next number in this sequence?\".",
+  "id": "A034927",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "dumb",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

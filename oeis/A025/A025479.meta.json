@@ -1,0 +1,23 @@
+{
+  "description": "Largest exponents of perfect powers (A001597).",
+  "id": "A025479",
+  "mentions": [
+    "A001597",
+    "A025478",
+    "A052409",
+    "A124010",
+    "A322969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

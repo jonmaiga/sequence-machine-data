@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that binomial(n,floor(n/2)) has no non-unitary square divisors: all of their square divisors are unitary ones.",
+  "id": "A056651",
+  "mentions": [
+    "A046098",
+    "A056175",
+    "A110495"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

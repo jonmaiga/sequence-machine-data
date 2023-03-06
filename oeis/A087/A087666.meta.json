@@ -1,0 +1,23 @@
+{
+  "description": "Consider recurrence b(0) = n/3, b(k+1) = b(k)*floor(b(k)); a(n) is the least k such that b(k) is an integer, or -1 if no integer is ever reached.",
+  "id": "A087666",
+  "mentions": [
+    "A057016",
+    "A083863",
+    "A086336",
+    "A087663",
+    "A087710",
+    "A088706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 6,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

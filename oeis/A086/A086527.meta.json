@@ -1,0 +1,20 @@
+{
+  "description": "Primes arising in A055265.",
+  "id": "A086527",
+  "mentions": [
+    "A055265",
+    "A086526",
+    "A282700"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

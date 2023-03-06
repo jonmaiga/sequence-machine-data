@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k and 10*k are both triangular numbers.",
+  "id": "A068085",
+  "mentions": [
+    "A075528",
+    "A076139",
+    "A077260",
+    "A077289",
+    "A077399",
+    "A336624",
+    "A341893",
+    "A341895"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

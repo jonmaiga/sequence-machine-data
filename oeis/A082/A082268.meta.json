@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains the numbers coprime to n that are made of nonzero digits and having a digit sum of n. An empty row is represented by a 0.",
+  "id": "A082268",
+  "mentions": [
+    "A082269"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

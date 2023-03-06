@@ -1,0 +1,19 @@
+{
+  "description": "Primes with 10 as smallest positive primitive root.",
+  "id": "A061323",
+  "mentions": [
+    "A001126",
+    "A001913",
+    "A001918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:08:07",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

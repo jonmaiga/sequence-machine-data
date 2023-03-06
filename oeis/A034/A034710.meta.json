@@ -1,0 +1,29 @@
+{
+  "description": "Positive numbers for which the sum of digits equals the product of digits.",
+  "id": "A034710",
+  "mentions": [
+    "A002473",
+    "A007953",
+    "A007954",
+    "A052382",
+    "A061672",
+    "A066306",
+    "A066307",
+    "A248794",
+    "A249334",
+    "A249335"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

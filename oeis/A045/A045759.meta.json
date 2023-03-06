@@ -1,0 +1,19 @@
+{
+  "description": "Maris-McGwire numbers: numbers k such that f(k) = f(k+1), where f(k) = sum of digits of k + sum of digits of prime factors of k (including multiplicities).",
+  "id": "A045759",
+  "mentions": [
+    "A006145",
+    "A039945"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

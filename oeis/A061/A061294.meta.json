@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor( n^Pi ).",
+  "id": "A061294",
+  "mentions": [
+    "A001672"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:11",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

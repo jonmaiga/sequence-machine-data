@@ -1,0 +1,19 @@
+{
+  "description": "J_n(n), where J is the Jordan function, J_n(n) = n^n product{p|n}(1 - 1/p^n), the product is over the distinct primes, p, dividing n.",
+  "id": "A067858",
+  "mentions": [
+    "A059379",
+    "A059380"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

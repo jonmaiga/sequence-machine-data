@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 3p + 4 is also prime.",
+  "id": "A023209",
+  "mentions": [
+    "A258261"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:17:05",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "For p = prime(n), a(n) is the smallest k such that p*(1 + 2 Ord(4,p) k) is a base-2 pseudoprime.",
+  "id": "A086001",
+  "mentions": [
+    "A001567",
+    "A082654",
+    "A085012",
+    "A085999",
+    "A086000"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

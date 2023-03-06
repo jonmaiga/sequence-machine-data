@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{0<=j<=i<=n} A027144(i, j).",
+  "id": "A027153",
+  "mentions": [
+    "A027144",
+    "A027151"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:58:30",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

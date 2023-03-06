@@ -1,0 +1,18 @@
+{
+  "description": "Numbers written in base 4 whose digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3.",
+  "id": "A037596",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:23:59",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

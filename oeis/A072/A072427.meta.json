@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which there is a unique k such that n = k + reverse(k).",
+  "id": "A072427",
+  "mentions": [
+    "A067030",
+    "A068065",
+    "A071914",
+    "A072040",
+    "A072041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

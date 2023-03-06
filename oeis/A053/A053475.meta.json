@@ -1,0 +1,23 @@
+{
+  "description": "1 + the number of iterations of A051953 (Euler-cototient) function needed to reach 0, starting at n.",
+  "id": "A053475",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A036459",
+    "A049108",
+    "A051953",
+    "A076640"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Trott's second constant: decimal expansion is same as terms in its non-simple continued fraction read serially.",
+  "id": "A091694",
+  "mentions": [
+    "A039662",
+    "A113307"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "(9^n-8^n-7^n-6^n+4*5^n)/2.",
+  "id": "A081682",
+  "mentions": [
+    "A081681",
+    "A081683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:26:01",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

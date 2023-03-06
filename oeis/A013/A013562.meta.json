@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. arcsin(log(x+1)/exp(x)).",
+  "id": "A013562",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "s(3n-2), s=A054086; also a bisection of A003511.",
+  "id": "A054087",
+  "mentions": [
+    "A003511",
+    "A054086"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:41",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

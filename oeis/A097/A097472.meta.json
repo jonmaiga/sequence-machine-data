@@ -1,0 +1,23 @@
+{
+  "description": "Number of different candle trees having a total of m edges.",
+  "id": "A097472",
+  "mentions": [
+    "A060945",
+    "A077930",
+    "A218836",
+    "A238241"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:58:03",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

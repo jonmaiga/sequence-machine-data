@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of 1/Product_{ n >= 2, n not of the form 2^k-1 } (1+x^n).",
+  "id": "A078659",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

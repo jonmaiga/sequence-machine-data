@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi/sinh(Pi).",
+  "id": "A090986",
+  "mentions": [
+    "A112407",
+    "A144663",
+    "A144669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

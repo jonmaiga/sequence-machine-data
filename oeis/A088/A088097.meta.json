@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 3, a(n) > 1 is the smallest number == 1 mod (a(n-1)) such that every concatenation is prime.",
+  "id": "A088097",
+  "mentions": [
+    "A088098"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

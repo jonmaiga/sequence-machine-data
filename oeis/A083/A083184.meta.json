@@ -1,0 +1,20 @@
+{
+  "description": "Smallest palindromic prime having a sum of digits = prime(n), or 0 if no such number exists.",
+  "id": "A083184",
+  "mentions": [
+    "A000040",
+    "A082806",
+    "A083183"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

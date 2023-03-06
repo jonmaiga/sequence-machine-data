@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of rational approximation to Pi/4 from Machins's formula.",
+  "id": "A096954",
+  "mentions": [
+    "A003881",
+    "A096955"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

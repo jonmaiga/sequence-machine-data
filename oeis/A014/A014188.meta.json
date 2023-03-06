@@ -1,0 +1,19 @@
+{
+  "description": "Fourth powers of palindromes.",
+  "id": "A014188",
+  "mentions": [
+    "A002113",
+    "A014186"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:41",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

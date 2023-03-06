@@ -1,0 +1,29 @@
+{
+  "description": "Number of Fibonacci numbers that are divisors of the n-th Fibonacci number.",
+  "id": "A076984",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A001605",
+    "A023645",
+    "A059841",
+    "A063375",
+    "A066660",
+    "A068499",
+    "A076985",
+    "A099774",
+    "A105800",
+    "A105802"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

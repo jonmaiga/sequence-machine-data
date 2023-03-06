@@ -1,0 +1,18 @@
+{
+  "description": "Integers which have more than one coprime factorization into nonprime powers which sum to the same number.",
+  "id": "A072940",
+  "mentions": [
+    "A069064"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

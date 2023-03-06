@@ -1,0 +1,15 @@
+{
+  "description": "The next smallest pair of numbers is taken so that a(2n-1)/a(2n) converges to sqrt(2).",
+  "id": "A065375",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

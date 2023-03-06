@@ -1,0 +1,17 @@
+{
+  "description": "Maximal coefficient (in absolute value) of the minimal polynomial P with integer coefficients such that P(sin(Pi/n)) = 0.",
+  "id": "A081797",
+  "mentions": [
+    "A055034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the depth of the prime tree formed when 4p +- 3 is applied to the n-th prime and repeatedly to any primes generated from the n-th prime via this process.",
+  "id": "A086320",
+  "mentions": [
+    "A086319"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

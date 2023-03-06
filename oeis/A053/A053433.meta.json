@@ -1,0 +1,37 @@
+{
+  "description": "Numbers with distinct digits in alphabetical order (in English).",
+  "id": "A053433",
+  "mentions": [
+    "A053432",
+    "A247800",
+    "A247801",
+    "A247802",
+    "A247803",
+    "A247804",
+    "A247805",
+    "A247806",
+    "A247807",
+    "A247808",
+    "A247809",
+    "A247810",
+    "A247811",
+    "A247812",
+    "A247813",
+    "A247814"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "(Sum(m^(p-1),m=1..p-1)+1)/p as p runs through the primes.",
+  "id": "A055030",
+  "mentions": [
+    "A000040",
+    "A055023",
+    "A055031",
+    "A055032",
+    "A201560",
+    "A204187",
+    "A219550",
+    "A225578",
+    "A294507"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

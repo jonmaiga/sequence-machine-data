@@ -1,0 +1,21 @@
+{
+  "description": "Primes which have no representation p + k*(k+1) / 2, with p prime and k > 0: A000040-Complement of A065396.",
+  "id": "A065397",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A065377",
+    "A065396"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 16d for the Monster group.",
+  "id": "A082304",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001936",
+    "A010054",
+    "A010815",
+    "A029839",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:01",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

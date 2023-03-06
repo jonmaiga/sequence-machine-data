@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=1; for n>0, a(n)=2*a(floor(n/2))+3*a(floor(n/3)).",
+  "id": "A098972",
+  "mentions": [
+    "A003586",
+    "A007731",
+    "A065333"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Euler transform of Pascal's triangle A007318.",
+  "id": "A055375",
+  "mentions": [
+    "A000041",
+    "A007318",
+    "A014153",
+    "A034899",
+    "A209406",
+    "A360626",
+    "A360634"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

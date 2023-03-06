@@ -1,0 +1,19 @@
+{
+  "description": "Sequence A037183(k) arranged in increasing order. Sequence gives k values.",
+  "id": "A065708",
+  "mentions": [
+    "A037183",
+    "A065531"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

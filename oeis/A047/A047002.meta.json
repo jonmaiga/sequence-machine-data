@@ -1,0 +1,18 @@
+{
+  "description": "T(n,n), array T given by A047000.",
+  "id": "A047002",
+  "mentions": [
+    "A047000",
+    "A278398"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

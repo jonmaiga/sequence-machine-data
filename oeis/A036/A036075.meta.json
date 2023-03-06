@@ -1,0 +1,28 @@
+{
+  "description": "The number of partitions of {1..5n} that are invariant under a permutation consisting of n 5-cycles.",
+  "id": "A036075",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A001861",
+    "A002872",
+    "A002874",
+    "A002875",
+    "A036074",
+    "A036077",
+    "A141003",
+    "A141004",
+    "A162663"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

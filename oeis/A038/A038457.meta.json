@@ -1,0 +1,21 @@
+{
+  "description": "|First digit-last digit| for triangular numbers.",
+  "id": "A038457",
+  "mentions": [
+    "A000217",
+    "A040163"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:35",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

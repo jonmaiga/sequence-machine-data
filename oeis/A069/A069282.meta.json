@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that phi(reversal(n)) = reversal(phi(n)). Ignore leading 0's.",
+  "id": "A069282",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n in which the product of parts is a power of n.",
+  "id": "A067554",
+  "mentions": [
+    "A000041",
+    "A001055"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

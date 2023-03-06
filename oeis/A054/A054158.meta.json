@@ -1,0 +1,17 @@
+{
+  "description": "Inverse Moebius transform of A001371 (starting at term 0).",
+  "id": "A054158",
+  "mentions": [
+    "A001371"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:51:39",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

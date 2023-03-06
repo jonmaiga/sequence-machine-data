@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of A074639(n)/A000010(n).",
+  "id": "A074642",
+  "mentions": [
+    "A000010",
+    "A074639",
+    "A074643"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

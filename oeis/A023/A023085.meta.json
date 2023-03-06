@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and 8*k are anagrams in base 9 (written in base 9).",
+  "id": "A023085",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:51:36",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

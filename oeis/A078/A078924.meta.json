@@ -1,0 +1,17 @@
+{
+  "description": "Array of coefficients of characteristic polynomials of M_n, the n X n matrix with entries m_(i,j) = i mod j.",
+  "id": "A078924",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

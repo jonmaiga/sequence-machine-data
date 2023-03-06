@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 10*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 10.",
+  "id": "A087799",
+  "mentions": [
+    "A000122",
+    "A003499",
+    "A003500",
+    "A005248",
+    "A006242",
+    "A036336",
+    "A086927",
+    "A135927",
+    "A153415",
+    "A174500",
+    "A174503"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

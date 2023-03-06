@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form 4*p^2 + 1, p prime.",
+  "id": "A052292",
+  "mentions": [
+    "A052291"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

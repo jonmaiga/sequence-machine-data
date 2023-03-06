@@ -1,0 +1,18 @@
+{
+  "description": "Least nonnegative integer not already in the sequence such that the frequency of digits in the entire sequence is as close to a uniform distribution as possible. A difference in frequency of at most 1 across all digits is allowed, and that difference must always be in favor of digits closer to 0.",
+  "id": "A095205",
+  "mentions": [
+    "A095204"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

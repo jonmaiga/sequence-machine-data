@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with the property that nextprime(p) is a substring of p^2.",
+  "id": "A052073",
+  "mentions": [
+    "A052074",
+    "A052075",
+    "A052076"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

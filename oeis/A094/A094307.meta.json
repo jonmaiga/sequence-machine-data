@@ -1,0 +1,20 @@
+{
+  "description": "The k-th term of the n-th row of the following triangle is the least common multiple of all numbers from 1 to n except k. Sequence contains the triangle by rows.",
+  "id": "A094307",
+  "mentions": [
+    "A003418",
+    "A094308"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

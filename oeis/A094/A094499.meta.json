@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime factor of 2^(2^n)+3^(2^n), i.e., exponents are powers of 2.",
+  "id": "A094499",
+  "mentions": [
+    "A050244",
+    "A294132"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

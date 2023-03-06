@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: row n gives the number of orbits of the group GA(n) acting on binary vectors of length 2^n and weight k, for n >= 0, 0 <= k <= 2^n.",
+  "id": "A098744",
+  "mentions": [
+    "A000214"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

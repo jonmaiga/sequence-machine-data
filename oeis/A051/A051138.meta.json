@@ -1,0 +1,23 @@
+{
+  "description": "Divisibility sequence associated with elliptic curve y^2 + y = x^3 - x and point (1, 0).",
+  "id": "A051138",
+  "mentions": [
+    "A006720",
+    "A006769",
+    "A028937",
+    "A028939"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

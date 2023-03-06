@@ -1,0 +1,21 @@
+{
+  "description": "Number of (s(0), s(1), ..., s(2n)) such that 0 < s(i) < 8 and |s(i) - s(i-1)| = 1 for i = 1,2,...,2n, s(0) = 1, s(2n) = 3.",
+  "id": "A094803",
+  "mentions": [
+    "A006012",
+    "A024175",
+    "A030436"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

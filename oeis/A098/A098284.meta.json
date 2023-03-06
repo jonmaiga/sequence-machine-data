@@ -1,0 +1,21 @@
+{
+  "description": "Minimal triangular arrangement of natural numbers such that each number has only coprime neighbors.",
+  "id": "A098284",
+  "mentions": [
+    "A082196",
+    "A098285",
+    "A098286"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irreducible Euler sums of weight 8 and depth 10+2n.",
+  "id": "A031164",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A032094",
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:21",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

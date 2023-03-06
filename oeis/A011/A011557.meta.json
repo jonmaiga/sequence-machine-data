@@ -1,0 +1,29 @@
+{
+  "description": "Powers of 10: a(n) = 10^n.",
+  "id": "A011557",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A000400",
+    "A007953",
+    "A008776",
+    "A159991",
+    "A178500",
+    "A178501",
+    "A242614",
+    "A329332"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

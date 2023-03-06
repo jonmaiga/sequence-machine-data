@@ -1,0 +1,15 @@
+{
+  "description": "|sin(n)| < |sin(n+1)|.",
+  "id": "A026315",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:55",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

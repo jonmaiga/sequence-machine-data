@@ -1,0 +1,19 @@
+{
+  "description": "a(4n) = 4n, otherwise a(n) = 1.",
+  "id": "A088440",
+  "mentions": [
+    "A088140"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

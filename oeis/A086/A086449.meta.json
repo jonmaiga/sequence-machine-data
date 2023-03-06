@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1, a(2n+1) = a(n), a(2n) = a(n) + a(n-1) + ... + a(n-2^m) + ... where a(n) = 0 for n < 0.",
+  "id": "A086449",
+  "mentions": [
+    "A002487",
+    "A086450",
+    "A174980"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

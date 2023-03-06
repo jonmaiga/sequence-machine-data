@@ -1,0 +1,19 @@
+{
+  "description": "Associated with a chi-inequality greedy algorithm.",
+  "id": "A051741",
+  "mentions": [
+    "A014011",
+    "A051742"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:11",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Odd values of n > 1 for which there are n-hyperperfect numbers.",
+  "id": "A038536",
+  "mentions": [
+    "A007592"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

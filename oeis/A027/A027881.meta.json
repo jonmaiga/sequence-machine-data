@@ -1,0 +1,17 @@
+{
+  "description": "a(i)=a(i-1)+a(j_1)*a(j_2) {where j_1+j_2=i-1, j_1 <= q j_2} + a(j_1)*a(j_2)*a(j_3) {where j_1+j_2+j_3=i-1, j_1 <= q j_2 <= q j_3} +...+ a(1)^{i-1}.",
+  "id": "A027881",
+  "mentions": [
+    "A093637"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

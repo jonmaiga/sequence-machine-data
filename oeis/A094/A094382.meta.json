@@ -1,0 +1,18 @@
+{
+  "description": "Number of quadruples (p, p+d, p+2*d, p+3*d) of primes with d>0 and p+3*d<=n.",
+  "id": "A094382",
+  "mentions": [
+    "A093354",
+    "A094383"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

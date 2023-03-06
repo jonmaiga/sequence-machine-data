@@ -1,0 +1,20 @@
+{
+  "description": "A005156(n)*A059488(n)^2.",
+  "id": "A059493",
+  "mentions": [
+    "A005156",
+    "A059488",
+    "A107445"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

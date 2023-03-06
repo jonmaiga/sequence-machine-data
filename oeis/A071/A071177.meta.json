@@ -1,0 +1,20 @@
+{
+  "description": "Square-root of concatenation n'k, where k is minimal with n'k square (decimal notation).",
+  "id": "A071177",
+  "mentions": [
+    "A000196",
+    "A071176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Limit number of (m-n)-almost-primes in range [2^m..2^{m+1}-1].",
+  "id": "A092097",
+  "mentions": [
+    "A001222",
+    "A026356",
+    "A052130",
+    "A120033",
+    "A120043"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

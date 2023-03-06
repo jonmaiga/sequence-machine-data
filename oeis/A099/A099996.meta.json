@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm{1, 2, ..., 2*n}.",
+  "id": "A099996",
+  "mentions": [
+    "A003418",
+    "A051173",
+    "A076100",
+    "A093880"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

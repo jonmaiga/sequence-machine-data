@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n-k)^2, n>=1, 1<=k<=n.",
+  "id": "A095831",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A055461"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

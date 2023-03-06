@@ -1,0 +1,26 @@
+{
+  "description": "Denominators in the Taylor series for arccosh(x) - log(2*x).",
+  "id": "A052469",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A001790",
+    "A002595",
+    "A046161",
+    "A052468",
+    "A162442"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

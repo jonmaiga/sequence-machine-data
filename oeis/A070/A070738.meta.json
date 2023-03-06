@@ -1,0 +1,16 @@
+{
+  "description": "Nonprimes n such that n^2 reduced modulo phi(n) = phi(n)^2 reduced modulo n.",
+  "id": "A070738",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

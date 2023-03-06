@@ -1,0 +1,19 @@
+{
+  "description": "First order recursion: a(0)=2; a(n) = prime(n) - a(n-1).",
+  "id": "A083236",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

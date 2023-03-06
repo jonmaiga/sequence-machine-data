@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n,k) read by antidiagonals, where row n is the increasing sequence of numbers k for which the simple continued fraction of sqrt(k) has period n.",
+  "id": "A091449",
+  "mentions": [
+    "A002522",
+    "A013642",
+    "A091450",
+    "A091451",
+    "A091453"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

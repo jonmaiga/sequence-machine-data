@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n with a part dividing all the other parts.",
+  "id": "A083710",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000070",
+    "A001792",
+    "A006128",
+    "A015723",
+    "A018783",
+    "A018818",
+    "A033630",
+    "A051731",
+    "A083711",
+    "A097986",
+    "A098965",
+    "A130689",
+    "A130714",
+    "A137587",
+    "A167865",
+    "A264401",
+    "A338470",
+    "A339563",
+    "A342193",
+    "A343340",
+    "A343341",
+    "A343345",
+    "A343378"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

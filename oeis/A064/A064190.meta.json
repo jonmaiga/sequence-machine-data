@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) generalizing the tangent numbers.",
+  "id": "A064190",
+  "mentions": [
+    "A000182",
+    "A000364"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Binomial transform of (Pell(-n)+Pell(n))/2.",
+  "id": "A094038",
+  "mentions": [
+    "A000129",
+    "A007070",
+    "A051450",
+    "A088013",
+    "A094039"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:55:53",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

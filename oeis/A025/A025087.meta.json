@@ -1,0 +1,17 @@
+{
+  "description": "s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Fibonacci numbers), t = A014306.",
+  "id": "A025087",
+  "mentions": [
+    "A014306"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:25:05",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

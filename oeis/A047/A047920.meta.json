@@ -1,0 +1,40 @@
+{
+  "description": "Triangular array formed from successive differences of factorial numbers.",
+  "id": "A047920",
+  "mentions": [
+    "A000142",
+    "A000153",
+    "A000166",
+    "A000255",
+    "A000261",
+    "A001563",
+    "A001564",
+    "A001909",
+    "A001910",
+    "A002467",
+    "A002775",
+    "A033815",
+    "A047922",
+    "A055790",
+    "A060475",
+    "A068106",
+    "A134830",
+    "A155521",
+    "A176732",
+    "A176733"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

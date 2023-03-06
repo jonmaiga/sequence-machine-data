@@ -1,0 +1,29 @@
+{
+  "description": "Smallest number at distance 2n+1 from nearest prime.",
+  "id": "A051729",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046929",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051702",
+    "A051728",
+    "A051730"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:09",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

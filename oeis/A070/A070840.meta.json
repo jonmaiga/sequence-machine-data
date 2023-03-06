@@ -1,0 +1,21 @@
+{
+  "description": "Repdigits (A010785) ordered by sum of digits (A007953).",
+  "id": "A070840",
+  "mentions": [
+    "A002275",
+    "A007953",
+    "A010785",
+    "A070841"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

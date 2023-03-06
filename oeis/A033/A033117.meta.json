@@ -1,0 +1,20 @@
+{
+  "description": "Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 1,0.",
+  "id": "A033117",
+  "mentions": [
+    "A015552"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a_{k+1} = 6*a_k + 11*a_{k-1} - 19*a_{k-2} - 4*a_{k-3} + a_{k-4}, a_1=1, a_2=2, a_3=19, a_4=118, a_5=875.",
+  "id": "A055518",
+  "mentions": [
+    "A054894",
+    "A055519"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

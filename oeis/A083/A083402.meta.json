@@ -1,0 +1,21 @@
+{
+  "description": "Let A_n be the upper triangular matrix in the group GL(n,2) that has zero entries below the main diagonal and 1 elsewhere; a(n) is the size of the conjugacy class of this matrix in GL(n,2).",
+  "id": "A083402",
+  "mentions": [
+    "A002884",
+    "A062383",
+    "A070731",
+    "A082877"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

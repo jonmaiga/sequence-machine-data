@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A026905; the convolution of the natural numbers with the partition function.",
+  "id": "A085360",
+  "mentions": [
+    "A026905",
+    "A086716"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:05:16",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

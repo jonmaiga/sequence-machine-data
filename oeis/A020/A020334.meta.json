@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose base-6 representation is the juxtaposition of two identical strings.",
+  "id": "A020334",
+  "mentions": [
+    "A020330",
+    "A020331",
+    "A020332",
+    "A020333",
+    "A020335",
+    "A020336",
+    "A020337",
+    "A020338"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

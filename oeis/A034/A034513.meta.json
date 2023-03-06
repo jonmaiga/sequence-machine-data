@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1^n + 3^n + 9^n.",
+  "id": "A034513",
+  "mentions": [
+    "A001550",
+    "A001576",
+    "A001579",
+    "A074501",
+    "A074580"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

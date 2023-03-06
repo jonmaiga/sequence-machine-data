@@ -1,0 +1,29 @@
+{
+  "description": "Number of prime factors of 6^n - 1 (counted with multiplicity).",
+  "id": "A057955",
+  "mentions": [
+    "A001222",
+    "A024062",
+    "A046051",
+    "A057951",
+    "A057952",
+    "A057953",
+    "A057954",
+    "A057956",
+    "A057957",
+    "A057958",
+    "A085031",
+    "A274907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

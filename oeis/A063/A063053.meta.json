@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of 'Reverse and Add!' operations that have to be applied to the n-th term of A063052 in order to obtain a term in the trajectory of 879.",
+  "id": "A063053",
+  "mentions": [
+    "A023108",
+    "A033865",
+    "A063051",
+    "A063052"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

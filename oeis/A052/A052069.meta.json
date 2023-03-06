@@ -1,0 +1,25 @@
+{
+  "description": "a(n)^2 is the smallest square whose digits occur with the same frequency n.",
+  "id": "A052069",
+  "mentions": [
+    "A045540",
+    "A052046",
+    "A052049",
+    "A052050",
+    "A052070",
+    "A052071"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

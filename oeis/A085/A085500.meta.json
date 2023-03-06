@@ -1,0 +1,26 @@
+{
+  "description": "Indices of primes where nondecreasing gaps occur.",
+  "id": "A085500",
+  "mentions": [
+    "A000720",
+    "A005250",
+    "A005669",
+    "A085237",
+    "A134266",
+    "A182514",
+    "A205827",
+    "A214935",
+    "A241540"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Primes forming a 3 X 3 magic square with prime entries and minimal constant 177 = A164843(3).",
+  "id": "A024351",
+  "mentions": [
+    "A073350",
+    "A073473",
+    "A073502",
+    "A073519",
+    "A073520",
+    "A164843",
+    "A268790",
+    "A270305",
+    "A320872"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

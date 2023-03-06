@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: (1/(1-x^3))*exp( 3*sum_{i>=0} x^(3*i+1)/(3*i+1) ) for an order-3 linear recurrence with varying coefficients.",
+  "id": "A097677",
+  "mentions": [
+    "A001620",
+    "A097663",
+    "A097678",
+    "A097679",
+    "A097682"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

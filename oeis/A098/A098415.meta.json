@@ -1,0 +1,23 @@
+{
+  "description": "Greatest members r of prime triples (p,q,r) with p",
+  "id": "A098415",
+  "mentions": [
+    "A007529",
+    "A098412",
+    "A098413",
+    "A098414",
+    "A098416",
+    "A098417",
+    "A098424"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:33",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

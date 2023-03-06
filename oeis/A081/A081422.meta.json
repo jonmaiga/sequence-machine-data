@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows in which row n consists of the first n+1 n-gonal numbers.",
+  "id": "A081422",
+  "mentions": [
+    "A000578",
+    "A001093",
+    "A002411",
+    "A002414",
+    "A006000",
+    "A006003",
+    "A053698",
+    "A060354",
+    "A064808",
+    "A069778",
+    "A081423",
+    "A081435",
+    "A081436",
+    "A081437",
+    "A081438",
+    "A081441"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

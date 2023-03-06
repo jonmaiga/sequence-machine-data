@@ -1,0 +1,20 @@
+{
+  "description": "Squares with digital root 7.",
+  "id": "A061101",
+  "mentions": [
+    "A056991"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:02:21",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

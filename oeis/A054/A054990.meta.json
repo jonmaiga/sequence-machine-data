@@ -1,0 +1,27 @@
+{
+  "description": "Number of prime divisors of n! + 1 (counted with multiplicity).",
+  "id": "A054990",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A038507",
+    "A054988",
+    "A054989",
+    "A054991",
+    "A054992",
+    "A060250",
+    "A066856",
+    "A084846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

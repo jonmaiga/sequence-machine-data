@@ -1,0 +1,17 @@
+{
+  "description": "Primes arising in A085042: a(n) = the n-th partial sum of A085042.",
+  "id": "A085043",
+  "mentions": [
+    "A085042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

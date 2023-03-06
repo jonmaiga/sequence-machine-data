@@ -1,0 +1,21 @@
+{
+  "description": "Integer quotients of partial sum of first n composite and n (see A053781).",
+  "id": "A073263",
+  "mentions": [
+    "A002808",
+    "A053781",
+    "A073255",
+    "A073262"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

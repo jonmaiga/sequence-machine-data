@@ -1,0 +1,20 @@
+{
+  "description": "a(n) can be expressed as the difference of the squares of consecutive primes in just four distinct ways.",
+  "id": "A091878",
+  "mentions": [
+    "A078667",
+    "A090783",
+    "A090784",
+    "A090785"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

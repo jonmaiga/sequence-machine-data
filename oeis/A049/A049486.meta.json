@@ -1,0 +1,21 @@
+{
+  "description": "Maximum length of non-crossing path on n X n square lattice.",
+  "id": "A049486",
+  "mentions": [
+    "A049487"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:49",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

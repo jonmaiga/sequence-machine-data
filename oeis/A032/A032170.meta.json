@@ -1,0 +1,30 @@
+{
+  "description": "\"CHK\" (necklace, identity, unlabeled) transform of 1, 2, 3, 4, ...",
+  "id": "A032170",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A001906",
+    "A004146",
+    "A005248",
+    "A032164",
+    "A032165",
+    "A032166",
+    "A032167",
+    "A032198",
+    "A072337",
+    "A108529",
+    "A113788"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

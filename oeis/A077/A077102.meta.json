@@ -1,0 +1,22 @@
+{
+  "description": "Smallest m such that GCD[a+b,a-b]=n, where a=sigma[n],b=phi[n].",
+  "id": "A077102",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051612",
+    "A065387",
+    "A077099"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

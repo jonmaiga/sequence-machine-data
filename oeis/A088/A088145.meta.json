@@ -1,0 +1,20 @@
+{
+  "description": "Let p = prime(n); then a(n) = (Sum(primitive roots of p) - moebius(p-1))/p.",
+  "id": "A088145",
+  "mentions": [
+    "A008683",
+    "A060749",
+    "A123475",
+    "A222009"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

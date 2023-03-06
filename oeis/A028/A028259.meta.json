@@ -1,0 +1,22 @@
+{
+  "description": "Engel expansion of the golden ratio, (1 + sqrt(5))/2 = 1.61803... .",
+  "id": "A028259",
+  "mentions": [
+    "A001622",
+    "A006784",
+    "A220398"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

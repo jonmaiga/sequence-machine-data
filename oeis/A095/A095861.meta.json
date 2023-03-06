@@ -1,0 +1,23 @@
+{
+  "description": "Number of primitive Pythagorean triangles of form (X,Y,Y+1) with hypotenuse Y+1 less than or equal to n.",
+  "id": "A095861",
+  "mentions": [
+    "A000217",
+    "A001844",
+    "A005408",
+    "A008586",
+    "A046092"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

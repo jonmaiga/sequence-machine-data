@@ -1,0 +1,20 @@
+{
+  "description": "Position of 5^n among the powers of primes (A000961).",
+  "id": "A025471",
+  "mentions": [
+    "A000351",
+    "A000961",
+    "A065515"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

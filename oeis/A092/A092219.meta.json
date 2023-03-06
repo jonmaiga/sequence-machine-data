@@ -1,0 +1,19 @@
+{
+  "description": "Least even k such that the Euler number E(k) is divisible by prime(n), or 0 if there is no k.",
+  "id": "A092219",
+  "mentions": [
+    "A000364",
+    "A092217",
+    "A092218"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

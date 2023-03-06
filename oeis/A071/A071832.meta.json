@@ -1,0 +1,22 @@
+{
+  "description": "Frequency ratios for notes of C-major scale starting at c = 1 (denominators).",
+  "id": "A071832",
+  "mentions": [
+    "A071831",
+    "A071833"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

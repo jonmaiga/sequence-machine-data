@@ -1,0 +1,22 @@
+{
+  "description": "m for which p(m) is the least prime dividing #p(n) + 1, i.e., primorial n-th prime augmented by 1 (A005234).",
+  "id": "A068488",
+  "mentions": [
+    "A005234",
+    "A051342",
+    "A068489"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

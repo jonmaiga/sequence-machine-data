@@ -1,0 +1,16 @@
+{
+  "description": "Initialized continued fraction for sqrt(n-th nonsquare) has period (1,a(n)).",
+  "id": "A013659",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

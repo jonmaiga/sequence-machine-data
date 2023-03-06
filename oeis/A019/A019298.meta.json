@@ -1,0 +1,33 @@
+{
+  "description": "Number of balls in pyramid with base either a regular hexagon or a hexagon with alternate sides differing by 1 (balls in hexagonal pyramid of height n taken from hexagonal close-packing).",
+  "id": "A019298",
+  "mentions": [
+    "A001318",
+    "A002717",
+    "A002721",
+    "A006325",
+    "A053493",
+    "A061927",
+    "A077043",
+    "A220075",
+    "A244497",
+    "A244873",
+    "A244879",
+    "A244880",
+    "A289992",
+    "A292281"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:00:43",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of sets of cycle graphs of 2n nodes where the 2-colored edges alternate colors.",
+  "id": "A054479",
+  "mentions": [
+    "A001147",
+    "A001818",
+    "A006712",
+    "A053871",
+    "A130915"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

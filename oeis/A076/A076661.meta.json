@@ -1,0 +1,17 @@
+{
+  "description": "Index of first term of the harmonic sequence having the same denominator as the partial harmonic sequence beginning with 1/n.",
+  "id": "A076661",
+  "mentions": [
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

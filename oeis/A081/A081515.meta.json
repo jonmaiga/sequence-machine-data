@@ -1,0 +1,18 @@
+{
+  "description": "Sum of terms in n-th row of A081517.",
+  "id": "A081515",
+  "mentions": [
+    "A081516",
+    "A081517"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, consisting of distinct positive integers such that the absolute difference of (horizontally or vertically) adjacent numbers is a (least possible) distinct prime.",
+  "id": "A093899",
+  "mentions": [
+    "A093900",
+    "A093901",
+    "A093902"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

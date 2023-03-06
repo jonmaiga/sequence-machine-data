@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, a(n) = the smallest composite multiple of n such that every partial sum is prime.",
+  "id": "A073669",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

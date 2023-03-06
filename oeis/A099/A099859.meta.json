@@ -1,0 +1,20 @@
+{
+  "description": "A Chebyshev transform of A006053 related to the knot 7_1.",
+  "id": "A099859",
+  "mentions": [
+    "A006053",
+    "A099860"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:57",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

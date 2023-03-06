@@ -1,0 +1,23 @@
+{
+  "description": "Number of 8n-dimensional even unimodular lattice (or quadratic forms).",
+  "id": "A054909",
+  "mentions": [
+    "A005134",
+    "A054907",
+    "A054908",
+    "A054911",
+    "A241121"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

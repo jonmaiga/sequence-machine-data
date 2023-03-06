@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) is the number of levels in the \"stacked\" prime number factorization of n (prime number factorization of the exponents if necessary and so on ...).",
+  "id": "A096309",
+  "mentions": [
+    "A087049",
+    "A185102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

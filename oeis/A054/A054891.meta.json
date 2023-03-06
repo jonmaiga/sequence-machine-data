@@ -1,0 +1,19 @@
+{
+  "description": "Cusp form of weight 13/2 associated to the unique cusp form of weight 12 under Shimura correspondence.",
+  "id": "A054891",
+  "mentions": [
+    "A000594",
+    "A192732"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

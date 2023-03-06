@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A(A(x)) = x*(1+2*x)^2.",
+  "id": "A097090",
+  "mentions": [
+    "A107099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

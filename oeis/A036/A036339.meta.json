@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of prime p and nextprime(p) is prime -> cycles of 2 steps possible.",
+  "id": "A036339",
+  "mentions": [
+    "A030459",
+    "A034592",
+    "A036340",
+    "A036341"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

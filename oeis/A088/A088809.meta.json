@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of {1, ..., n} that are not sum-free.",
+  "id": "A088809",
+  "mentions": [
+    "A000079",
+    "A085489",
+    "A088808"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

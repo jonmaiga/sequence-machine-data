@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=0..n} binomial(i,floor(i/2)).",
+  "id": "A036256",
+  "mentions": [
+    "A001405",
+    "A145972"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

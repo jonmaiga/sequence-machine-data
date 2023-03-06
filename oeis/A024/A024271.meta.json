@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. tan(x)*tan(sin(x))/2, even powers only.",
+  "id": "A024271",
+  "mentions": [
+    "A009748"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:56:35",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

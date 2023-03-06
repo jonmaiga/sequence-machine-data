@@ -1,0 +1,17 @@
+{
+  "description": "Sequence A002313 is the sequence of primes p = a*a + b*b, starting 2,5,13,17,..., members p > 2 have p = 1 mod 4. In analogy to the definition of primorial primes use the primes of sequence A002313 to build the product, written here as cp#353+1 or cp#1609-1. If cp#n+1 or cp#n-1 is prime, then n is in the sequence. Using +1 or -1 to define the type of prime cp#n+-1 we get the sequence 1,1,1,1,-1,1,...",
+  "id": "A094249",
+  "mentions": [
+    "A002313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(17).",
+  "id": "A041025",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001076",
+    "A005668",
+    "A006190",
+    "A040012",
+    "A041024",
+    "A049310",
+    "A052918",
+    "A053120",
+    "A054413",
+    "A078988",
+    "A243399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

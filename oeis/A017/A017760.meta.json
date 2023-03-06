@@ -1,0 +1,22 @@
+{
+  "description": "Binomial coefficients C(n,96).",
+  "id": "A017760",
+  "mentions": [
+    "A001787",
+    "A017761",
+    "A017762",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 96,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1-x)^2/(1 - 4*x + 3*x^2 - x^3).",
+  "id": "A052544",
+  "mentions": [
+    "A000930",
+    "A001519",
+    "A052529",
+    "A065941",
+    "A124820",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

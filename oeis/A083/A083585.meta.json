@@ -1,0 +1,19 @@
+{
+  "description": "(8*5^n - 5*2^n)/3.",
+  "id": "A083585",
+  "mentions": [
+    "A083854"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:48:23",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

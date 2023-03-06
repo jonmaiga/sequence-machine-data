@@ -1,0 +1,24 @@
+{
+  "description": "Number of isomorphism classes of non-anti-associative closed binary operations on a set of order n, listed by class size.",
+  "id": "A079178",
+  "mentions": [
+    "A027423",
+    "A079171",
+    "A079176",
+    "A079177",
+    "A079179",
+    "A079181",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

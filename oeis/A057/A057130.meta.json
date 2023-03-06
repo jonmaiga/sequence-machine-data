@@ -1,0 +1,28 @@
+{
+  "description": "Product of first n primes of form 6k-1.",
+  "id": "A057130",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A002476",
+    "A006278",
+    "A007528",
+    "A008543",
+    "A057131",
+    "A074040",
+    "A078586",
+    "A121940"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:16:29",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

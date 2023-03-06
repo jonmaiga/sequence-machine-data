@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that tau(x)/tau(x-1) is an integer, where tau() is the number of divisors function.",
+  "id": "A086552",
+  "mentions": [
+    "A057922",
+    "A086550",
+    "A086551"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

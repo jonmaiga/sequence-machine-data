@@ -1,0 +1,20 @@
+{
+  "description": "Smallest value of x such that M(x) = -n, where M(x) is Mertens's function A002321.",
+  "id": "A051401",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A051400",
+    "A051402"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

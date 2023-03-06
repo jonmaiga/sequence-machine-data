@@ -1,0 +1,27 @@
+{
+  "description": "Pseudo-random numbers: a (very weak) pseudo-random number generator from the second edition of the C book.",
+  "id": "A061364",
+  "mentions": [
+    "A096558",
+    "A221555",
+    "A221556",
+    "A221557",
+    "A221558",
+    "A221559",
+    "A221560",
+    "A221561",
+    "A221562",
+    "A260083"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

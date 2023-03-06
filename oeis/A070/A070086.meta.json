@@ -1,0 +1,28 @@
+{
+  "description": "Areas of integer triangles [A070080(n), A070081(n), A070082(n)], rounded values.",
+  "id": "A070086",
+  "mentions": [
+    "A046131",
+    "A051516",
+    "A055595",
+    "A069594",
+    "A069596",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070083",
+    "A070142",
+    "A070149"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

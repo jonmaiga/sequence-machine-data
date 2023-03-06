@@ -1,0 +1,31 @@
+{
+  "description": "Highest power of two that divides the sum of divisors of n.",
+  "id": "A082903",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000265",
+    "A000593",
+    "A001157",
+    "A001158",
+    "A006519",
+    "A007814",
+    "A028982",
+    "A082902",
+    "A161942",
+    "A286357",
+    "A336937"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

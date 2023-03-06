@@ -1,0 +1,23 @@
+{
+  "description": "Remainder when 2nd order composite cc[n]=A050435[n] is divided by n.",
+  "id": "A076237",
+  "mentions": [
+    "A002808",
+    "A050435",
+    "A050439",
+    "A065860",
+    "A076236",
+    "A076239"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

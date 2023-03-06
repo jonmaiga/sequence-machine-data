@@ -1,0 +1,18 @@
+{
+  "description": "The sequence S(n,-3,1,1), where S(r,k,t,q) is defined by Sum(0<=j<=r){combin(r+q,j)^t*B(j,k)} and B(j,k) is the j-th k-poly-Bernoulli number.",
+  "id": "A068518",
+  "mentions": [
+    "A016269"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

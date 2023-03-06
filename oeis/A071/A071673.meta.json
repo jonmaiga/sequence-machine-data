@@ -1,0 +1,37 @@
+{
+  "description": "Sequence a(n) obtained by setting a(0) = 0; then reading the table T(x,y)=a(x)+a(y)+1 in antidiagonal fashion.",
+  "id": "A071673",
+  "mentions": [
+    "A000108",
+    "A002260",
+    "A002262",
+    "A004736",
+    "A025581",
+    "A071651",
+    "A071654",
+    "A071671",
+    "A071672",
+    "A071674",
+    "A072638",
+    "A072643",
+    "A072644",
+    "A072645",
+    "A072660",
+    "A072768",
+    "A072789",
+    "A075167"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

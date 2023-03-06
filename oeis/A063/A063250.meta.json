@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary right-rotations (iterations of A038572) to reach fixed point.",
+  "id": "A063250",
+  "mentions": [
+    "A036987",
+    "A038572",
+    "A048881"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

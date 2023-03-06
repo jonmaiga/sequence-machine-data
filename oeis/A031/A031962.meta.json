@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with exactly three distinct base-10 digits.",
+  "id": "A031962",
+  "mentions": [
+    "A031956",
+    "A031957",
+    "A031958",
+    "A031959",
+    "A031960",
+    "A031961"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

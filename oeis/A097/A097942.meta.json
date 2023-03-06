@@ -1,0 +1,27 @@
+{
+  "description": "Highly totient numbers: each number k on this list has more solutions to the equation phi(x) = k than any preceding k (where phi is Euler's totient function, A000010).",
+  "id": "A097942",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A004653",
+    "A005277",
+    "A007374",
+    "A014197",
+    "A014573",
+    "A058277",
+    "A105207",
+    "A105208",
+    "A131934"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

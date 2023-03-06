@@ -1,0 +1,26 @@
+{
+  "description": "Nonprimes whose average of divisors is an integer.",
+  "id": "A023883",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000203",
+    "A001748",
+    "A002145",
+    "A002476",
+    "A003601",
+    "A007528",
+    "A018252",
+    "A030078"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

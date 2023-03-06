@@ -1,0 +1,22 @@
+{
+  "description": "Starting index of a record-breaking string of consecutive equal digits in the decimal expansion of Pi.",
+  "id": "A084073",
+  "mentions": [
+    "A049522",
+    "A049523",
+    "A049534",
+    "A082586"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

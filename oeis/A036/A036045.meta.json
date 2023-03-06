@@ -1,0 +1,28 @@
+{
+  "description": "Sum of distances between dual pairs of partitions of n for the canonical order.",
+  "id": "A036045",
+  "mentions": [
+    "A036046",
+    "A036047",
+    "A036048",
+    "A036049",
+    "A036050",
+    "A036051",
+    "A036052",
+    "A036053",
+    "A036054",
+    "A036055",
+    "A036056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

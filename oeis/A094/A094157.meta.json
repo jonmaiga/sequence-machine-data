@@ -1,0 +1,18 @@
+{
+  "description": "Bisection of A000940.",
+  "id": "A094157",
+  "mentions": [
+    "A000940",
+    "A094156"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:18:23",
+    "offset": 2,
+    "size": 16,
+    "source": "joeis"
+  }
+}

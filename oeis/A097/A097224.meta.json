@@ -1,0 +1,19 @@
+{
+  "description": "Nondecreasing subsequence of A020481.",
+  "id": "A097224",
+  "mentions": [
+    "A020481",
+    "A025019",
+    "A051610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

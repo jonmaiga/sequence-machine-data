@@ -1,0 +1,37 @@
+{
+  "description": "Sum of distinct powers of 20; i.e., numbers with digits in {0,1} base 20; i.e., write n in base 2 and read as if written in base 20.",
+  "id": "A063012",
+  "mentions": [
+    "A000695",
+    "A001477",
+    "A005836",
+    "A007088",
+    "A009964",
+    "A030308",
+    "A033042",
+    "A033043",
+    "A033044",
+    "A033045",
+    "A033046",
+    "A033047",
+    "A033048",
+    "A033049",
+    "A033050",
+    "A033051",
+    "A033052",
+    "A063013"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:18:59",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

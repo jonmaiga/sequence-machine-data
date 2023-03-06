@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-4 and base-5 expansions have the same digit sum.",
+  "id": "A037316",
+  "mentions": [
+    "A053737",
+    "A053824"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

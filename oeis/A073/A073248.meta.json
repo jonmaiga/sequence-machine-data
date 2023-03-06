@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers k such that k+1 is also squarefree, but k-1 and k+2 are not.",
+  "id": "A073248",
+  "mentions": [
+    "A005117",
+    "A007675",
+    "A073247",
+    "A073250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

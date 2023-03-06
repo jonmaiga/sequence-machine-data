@@ -1,0 +1,21 @@
+{
+  "description": "Multiples of 11 having only even digits.",
+  "id": "A061832",
+  "mentions": [
+    "A061829",
+    "A061830",
+    "A061831"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

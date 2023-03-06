@@ -1,0 +1,18 @@
+{
+  "description": "Primes p giving prime quadruples (30p+11, 30p+13, 30p+17, 30p+19).",
+  "id": "A087771",
+  "mentions": [
+    "A014561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

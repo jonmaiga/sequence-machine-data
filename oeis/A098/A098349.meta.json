@@ -1,0 +1,20 @@
+{
+  "description": "Sum of ordered factorizations over hook-type prime signatures. (Row sums of A098348).",
+  "id": "A098349",
+  "mentions": [
+    "A035341",
+    "A095705",
+    "A098348"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

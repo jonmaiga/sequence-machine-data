@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k), read by rows, formed by setting all entries in the zeroth column ((n,0) entries) and the main diagonal ((n,n) entries) to powers of 2 with all other entries formed by the recursion T(n,k) = T(n-1,k) + T(n,k-1).",
+  "id": "A096466",
+  "mentions": [
+    "A000918",
+    "A082590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

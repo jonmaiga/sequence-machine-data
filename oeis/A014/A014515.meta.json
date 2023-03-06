@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of 506th cyclotomic polynomial.",
+  "id": "A014515",
+  "mentions": [
+    "A000010",
+    "A240328",
+    "A240467"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:51",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

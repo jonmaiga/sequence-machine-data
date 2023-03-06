@@ -1,0 +1,19 @@
+{
+  "description": "Minimal value w such that A051953(w) = w - phi(w) is prime and w has n prime divisors.",
+  "id": "A051999",
+  "mentions": [
+    "A050530",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

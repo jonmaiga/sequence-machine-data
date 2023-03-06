@@ -1,0 +1,26 @@
+{
+  "description": "Number of points of L1 norm 3 in cubic lattice Z^n.",
+  "id": "A035597",
+  "mentions": [
+    "A001105",
+    "A001844",
+    "A001845",
+    "A005900",
+    "A069894",
+    "A084570",
+    "A097869"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

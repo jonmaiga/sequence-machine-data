@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the sum of the cubes of the digits of p is prime.",
+  "id": "A091366",
+  "mentions": [
+    "A046704",
+    "A052034",
+    "A091365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

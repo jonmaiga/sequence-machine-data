@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements of order 4 in GL(n,2).",
+  "id": "A053875",
+  "mentions": [
+    "A053718",
+    "A053722"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:12:01",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

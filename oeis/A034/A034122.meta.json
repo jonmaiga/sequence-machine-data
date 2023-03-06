@@ -1,0 +1,19 @@
+{
+  "description": "Fractional part of cube root of a(n) starts with digit 6.",
+  "id": "A034122",
+  "mentions": [
+    "A034132"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:10:43",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

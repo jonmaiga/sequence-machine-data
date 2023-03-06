@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms from the decimal expansion of Pi (A000796) which include every combination of n digits as consecutive subsequences.",
+  "id": "A080597",
+  "mentions": [
+    "A000796",
+    "A032510",
+    "A036903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

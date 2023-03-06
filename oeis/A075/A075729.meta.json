@@ -1,0 +1,25 @@
+{
+  "description": "Number of different hierarchical orderings that can be formed from n labeled elements: these are divided into groups and the elements in each group are then arranged in a \"preferential arrangement\" or \"weak order\" as in A000670.",
+  "id": "A075729",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A000670",
+    "A000798",
+    "A075744",
+    "A075900",
+    "A079641"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

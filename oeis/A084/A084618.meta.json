@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of circles of area 1 that can be packed in a circle of area n.",
+  "id": "A084618",
+  "mentions": [
+    "A023393",
+    "A084616",
+    "A084644"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

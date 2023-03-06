@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of (0,1) matrices of size n X n whose determinants are k, where -L <= k <= +L and L = A003432(n).",
+  "id": "A094813",
+  "mentions": [
+    "A003432",
+    "A003433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

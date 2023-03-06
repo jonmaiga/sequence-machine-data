@@ -1,0 +1,29 @@
+{
+  "description": "Number of different products of partitions of n; number of partitions of n into prime parts (1 included); number of distinct orders of Abelian subgroups of symmetric group S_n.",
+  "id": "A034891",
+  "mentions": [
+    "A000041",
+    "A000607",
+    "A000792",
+    "A000793",
+    "A008578",
+    "A009490",
+    "A074372",
+    "A140436",
+    "A212721",
+    "A353188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

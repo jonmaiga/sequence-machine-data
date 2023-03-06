@@ -1,0 +1,23 @@
+{
+  "description": "Average digit (rounded to the nearest integer) in the decimal expansion of n-th prime.",
+  "id": "A073342",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A074462",
+    "A097944"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

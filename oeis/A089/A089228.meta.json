@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 1 + Sum_{k=1..n} prime(k) is prime.",
+  "id": "A089228",
+  "mentions": [
+    "A008578",
+    "A013916",
+    "A014284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

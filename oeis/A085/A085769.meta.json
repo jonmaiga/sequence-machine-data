@@ -1,0 +1,16 @@
+{
+  "description": "Total number of zeros in the decimal expansions of 2^n and 5^n.",
+  "id": "A085769",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

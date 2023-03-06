@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of parts possible in a factorization of n; a(1) = 1, and for n > 1, a(n) = A001222(n) = bigomega(n).",
+  "id": "A086436",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:37:25",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

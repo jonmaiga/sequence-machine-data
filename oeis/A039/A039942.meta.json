@@ -1,0 +1,17 @@
+{
+  "description": "Number of points needed to display n on the LCD (liquid-crystal display) of a TI-83 calculator.",
+  "id": "A039942",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

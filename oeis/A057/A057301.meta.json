@@ -1,0 +1,18 @@
+{
+  "description": "Binary counter with bit positions permuted in increasing length cycles: 0;2,1;5,3,4;9,6,7,8,...",
+  "id": "A057301",
+  "mentions": [
+    "A057300"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

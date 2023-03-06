@@ -1,0 +1,18 @@
+{
+  "description": "Winner of n-th Littlewood Frog Race.",
+  "id": "A038025",
+  "mentions": [
+    "A038026",
+    "A038029"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:36:23",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that prime(k) == 10 (mod k).",
+  "id": "A023152",
+  "mentions": [
+    "A023143",
+    "A023144",
+    "A023145",
+    "A023146",
+    "A023147",
+    "A023148",
+    "A023149",
+    "A023150",
+    "A023151",
+    "A092052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

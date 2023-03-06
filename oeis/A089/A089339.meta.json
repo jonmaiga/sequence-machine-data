@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes beginning with n and of the form n concatenated with p where p takes all the prime values less than n.",
+  "id": "A089339",
+  "mentions": [
+    "A089340"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

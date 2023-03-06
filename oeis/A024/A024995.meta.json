@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that k has more periodic partitions than does any j less than k (cf. A024994).",
+  "id": "A024995",
+  "mentions": [
+    "A024994"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:13",
+    "offset": 2,
+    "size": 59,
+    "source": "joeis"
+  }
+}

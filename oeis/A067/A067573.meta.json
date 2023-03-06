@@ -1,0 +1,15 @@
+{
+  "description": "Numbers such that Sigma(Phi(k))/Sigma(k) > Sigma(Phi(j))/Sigma(j) for all k > j.",
+  "id": "A067573",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

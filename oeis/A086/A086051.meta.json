@@ -1,0 +1,19 @@
+{
+  "description": "Nontrivial numbers which are prime, contain no zero digits and yield another prime when their digits are sorted in ascending order.",
+  "id": "A086051",
+  "mentions": [
+    "A003459",
+    "A086402"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=least positive integer not a(k)+Floor(a(k)/2) for k",
+  "id": "A072756",
+  "mentions": [
+    "A072757",
+    "A072758",
+    "A072759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

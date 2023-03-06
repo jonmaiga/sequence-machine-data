@@ -1,0 +1,17 @@
+{
+  "description": "s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (natural numbers), t = A001950 (upper Wythoff sequence).",
+  "id": "A024864",
+  "mentions": [
+    "A001950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:45",
+    "offset": 2,
+    "size": 46,
+    "source": "joeis"
+  }
+}

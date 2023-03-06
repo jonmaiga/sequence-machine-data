@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest permutation of the positive integers such that for n >= 2, |a(n)-n| = [(a(n)+1)/2].",
+  "id": "A026142",
+  "mentions": [
+    "A026136",
+    "A026224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

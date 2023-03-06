@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct primes dividing 2n (i.e., omega(2n)).",
+  "id": "A099812",
+  "mentions": [
+    "A001221",
+    "A092523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

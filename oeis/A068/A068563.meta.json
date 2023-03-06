@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 2^n == 4^n (mod n).",
+  "id": "A068563",
+  "mentions": [
+    "A000265",
+    "A002322",
+    "A002326",
+    "A007733",
+    "A124240",
+    "A124241"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of pairing the even squares of the numbers 1 to n with the odd squares of the numbers n+1 to 2n such that each pair sums to a prime. a(1) is defined to be 1.",
+  "id": "A077764",
+  "mentions": [
+    "A077762",
+    "A077763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

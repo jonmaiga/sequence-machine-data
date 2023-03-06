@@ -1,0 +1,18 @@
+{
+  "description": "LCM of the first n numbers of the form p^q, where p and q are 1 or prime.",
+  "id": "A090951",
+  "mentions": [
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = curling number of (b(1),...,b(n-1)), where b() = Fibonacci word A003849 (with offset changed to 1).",
+  "id": "A094916",
+  "mentions": [
+    "A003849",
+    "A090822",
+    "A093914",
+    "A093921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

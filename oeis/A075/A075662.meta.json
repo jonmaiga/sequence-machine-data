@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A063574.",
+  "id": "A075662",
+  "mentions": [
+    "A063574",
+    "A075663"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

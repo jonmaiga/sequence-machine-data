@@ -1,0 +1,22 @@
+{
+  "description": "First differences of sequence of consecutive prime powers (A000961).",
+  "id": "A057820",
+  "mentions": [
+    "A000961",
+    "A001223",
+    "A006549",
+    "A036616",
+    "A070198"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

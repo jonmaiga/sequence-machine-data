@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with a single 0 in their base 4 expansion.",
+  "id": "A023706",
+  "mentions": [
+    "A023705"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

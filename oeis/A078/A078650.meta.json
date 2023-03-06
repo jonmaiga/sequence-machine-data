@@ -1,0 +1,18 @@
+{
+  "description": "2-A000002(n) where A000002 is the Kolakoski sequence.",
+  "id": "A078650",
+  "mentions": [
+    "A000002",
+    "A049705"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

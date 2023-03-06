@@ -1,0 +1,21 @@
+{
+  "description": "First position of n in continued fraction for Khinchin's constant.",
+  "id": "A054781",
+  "mentions": [
+    "A002211",
+    "A054866",
+    "A054870",
+    "A224851"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

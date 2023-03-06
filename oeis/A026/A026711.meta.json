@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = T(n,0) + T(n,1) + ... + T(n,[ n/2 ]), T given by A026703.",
+  "id": "A026711",
+  "mentions": [
+    "A026703"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:28:39",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

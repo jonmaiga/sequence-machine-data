@@ -1,0 +1,18 @@
+{
+  "description": "Squares composed of digits {1,5,6}.",
+  "id": "A053903",
+  "mentions": [
+    "A053902"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:13:05",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

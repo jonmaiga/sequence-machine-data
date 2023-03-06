@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose base-14 representation has an even number of runs.",
+  "id": "A043703",
+  "mentions": [
+    "A043692",
+    "A043693",
+    "A043694",
+    "A043695",
+    "A043696",
+    "A043697",
+    "A043698",
+    "A043700",
+    "A043701",
+    "A043702",
+    "A043704",
+    "A043705",
+    "A043717",
+    "A299174"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

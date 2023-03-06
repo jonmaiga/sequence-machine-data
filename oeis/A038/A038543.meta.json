@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that Ramanujan function tau(p) is divisible by 13.",
+  "id": "A038543",
+  "mentions": [
+    "A038542",
+    "A076847"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

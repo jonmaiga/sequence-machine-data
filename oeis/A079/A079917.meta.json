@@ -1,0 +1,19 @@
+{
+  "description": "Solution to the Dancing School Problem with 12 girls and n+12 boys: f(12,n).",
+  "id": "A079917",
+  "mentions": [
+    "A079908",
+    "A079928"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:25",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

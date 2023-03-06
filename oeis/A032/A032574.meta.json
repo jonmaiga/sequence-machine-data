@@ -1,0 +1,19 @@
+{
+  "description": "Quotient of 'base-21' division described in A032573.",
+  "id": "A032574",
+  "mentions": [
+    "A032563",
+    "A032573"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

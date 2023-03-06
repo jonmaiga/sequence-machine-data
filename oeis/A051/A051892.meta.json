@@ -1,0 +1,20 @@
+{
+  "description": "Values of e, the lesser key or generating number for Pythagorean triangles in which S (the odd short leg) and U (the hypotenuse) are twin primes.",
+  "id": "A051892",
+  "mentions": [
+    "A051642",
+    "A051858",
+    "A051859",
+    "A051891"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:45",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

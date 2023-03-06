@@ -1,0 +1,17 @@
+{
+  "description": "Let G be an n-node graph with valencies d_1 .. d_n say; let m = (d_1 + ... + d_n)/n and s = n*Sum( (d_i-m)^2 ) be the scaled degree variance; a(n) gives number of different values taken by s.",
+  "id": "A038193",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

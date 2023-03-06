@@ -1,0 +1,25 @@
+{
+  "description": "Number of orbits of the wreath product of S_n with S_n on n X n matrices over {0,1,2,3}.",
+  "id": "A099122",
+  "mentions": [
+    "A099121",
+    "A099123",
+    "A099124",
+    "A099125",
+    "A099126",
+    "A099127",
+    "A099128",
+    "A331436"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

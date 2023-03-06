@@ -1,0 +1,20 @@
+{
+  "description": "Base-2 digital convolution sequence.",
+  "id": "A033922",
+  "mentions": [
+    "A014221",
+    "A033639",
+    "A206774"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least x = a(n) such that sum of common prime divisors (without multiplicity) of sigma(x) and phi(x) equals n, or 0 if such number (apparently) does not exist.",
+  "id": "A082056",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A082054",
+    "A082055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

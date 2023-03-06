@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k not ending in 0 such that for some base b, k_b is the reverse of k_10 (where k_b denotes k written in base b).",
+  "id": "A034294",
+  "mentions": [
+    "A307498",
+    "A308493"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of harmonic numbers when these numerators are divisible by squares of primes >= 5 in the case of Wolstenholme's Theorem.",
+  "id": "A076637",
+  "mentions": [
+    "A001008",
+    "A061002",
+    "A076638",
+    "A322434"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

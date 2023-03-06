@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that all the following properties hold: (i) n*reverse(n) is a square; (ii) n != reverse(n); (iii) n and reverse(n) are not both squares; and (iv) n and reverse(n) have the same number of digits.",
+  "id": "A082994",
+  "mentions": [
+    "A002113",
+    "A004086",
+    "A035090",
+    "A062917",
+    "A070760",
+    "A322835"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

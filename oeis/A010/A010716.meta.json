@@ -1,0 +1,21 @@
+{
+  "description": "Constant sequence: the all 5's sequence.",
+  "id": "A010716",
+  "mentions": [
+    "A000012",
+    "A084962"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:06:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

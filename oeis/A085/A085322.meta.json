@@ -1,0 +1,20 @@
+{
+  "description": "Terms m of A003337 such that m+1 is also in A003337. I.e., smaller one of two consecutive numbers, both equal to a sum of three 4th powers.",
+  "id": "A085322",
+  "mentions": [
+    "A003327",
+    "A003337",
+    "A003399",
+    "A085321"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

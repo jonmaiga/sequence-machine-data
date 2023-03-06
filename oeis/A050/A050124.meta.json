@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) = floor(a(n-1)/5) if this is not among 0,a(1),...,a(n-1); otherwise a(n) = 2*a(n-1).",
+  "id": "A050124",
+  "mentions": [
+    "A050000"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,0)=1, T(n,n)=1, T(n, k) = 2*(n-k)*T(n-1, k-1) + 2*k*T(n-1, k).",
+  "id": "A099759",
+  "mentions": [
+    "A060187",
+    "A099760"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

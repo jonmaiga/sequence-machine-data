@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form n.0.n+1, where '.' represents concatenation. Or, primes of form 10^(k+1)*n + n + 1, where k is the number of digits in n.",
+  "id": "A096525",
+  "mentions": [
+    "A096524"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

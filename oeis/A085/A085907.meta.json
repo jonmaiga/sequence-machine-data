@@ -1,0 +1,16 @@
+{
+  "description": "Highly composite numbers using digits 2,3,5 and 7 only. Numbers using prime digits and having prime divisors < 10.",
+  "id": "A085907",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

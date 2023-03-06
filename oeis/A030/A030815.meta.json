@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(exp(14/23) * n!).",
+  "id": "A030815",
+  "mentions": [
+    "A021027"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:47:52",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3^n - 2*n - 1.",
+  "id": "A061981",
+  "mentions": [
+    "A000340",
+    "A061980",
+    "A186948"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:29:54",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

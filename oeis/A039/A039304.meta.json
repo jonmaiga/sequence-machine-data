@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct quadratic residues mod 7^n.",
+  "id": "A039304",
+  "mentions": [
+    "A000224",
+    "A000420"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

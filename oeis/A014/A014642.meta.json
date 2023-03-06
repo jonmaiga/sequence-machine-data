@@ -1,0 +1,26 @@
+{
+  "description": "Even octagonal numbers: a(n) = 4*n*(3*n-1).",
+  "id": "A014642",
+  "mentions": [
+    "A000326",
+    "A000567",
+    "A001082",
+    "A014641",
+    "A014793",
+    "A014794",
+    "A033579",
+    "A049450"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:05",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

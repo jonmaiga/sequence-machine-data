@@ -1,0 +1,21 @@
+{
+  "description": "Take unbounded lunar divisors of n as defined in A087029, add them using lunar addition. See A087083 for their conventional sum.",
+  "id": "A087416",
+  "mentions": [
+    "A087029",
+    "A087061",
+    "A087083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

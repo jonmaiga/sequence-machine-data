@@ -1,0 +1,15 @@
+{
+  "description": "Neither == 0 (mod 4) nor a power of 3.",
+  "id": "A014528",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:51",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

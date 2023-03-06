@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of Jacobi theta function (3theta_3(q^9)-theta_3(q))/2.",
+  "id": "A089807",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002448",
+    "A010054",
+    "A010815",
+    "A080910",
+    "A080995",
+    "A089801",
+    "A089802",
+    "A089810",
+    "A089812",
+    "A106459",
+    "A121373",
+    "A133985",
+    "A133988"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

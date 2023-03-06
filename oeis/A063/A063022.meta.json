@@ -1,0 +1,20 @@
+{
+  "description": "Reversion of y - y^2 - y^3 - y^5.",
+  "id": "A063022",
+  "mentions": [
+    "A063019",
+    "A063023"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

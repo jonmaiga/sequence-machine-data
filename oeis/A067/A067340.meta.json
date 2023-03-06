@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (number of distinct prime factors of k) divides (number of prime factors of k).",
+  "id": "A067340",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A245080"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

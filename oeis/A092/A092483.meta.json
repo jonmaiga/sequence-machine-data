@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the floor of the average of the 1st moment of all previous entries.",
+  "id": "A092483",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

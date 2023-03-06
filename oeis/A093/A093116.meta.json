@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n^2 into squares not less than n.",
+  "id": "A093116",
+  "mentions": [
+    "A001156",
+    "A037444",
+    "A072213",
+    "A078134",
+    "A092362",
+    "A093115",
+    "A161408"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

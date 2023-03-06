@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n and its reversal are both multiples of 14.",
+  "id": "A062904",
+  "mentions": [
+    "A062903",
+    "A062905",
+    "A062906",
+    "A062907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

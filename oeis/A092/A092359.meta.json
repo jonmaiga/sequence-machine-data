@@ -1,0 +1,25 @@
+{
+  "description": "Let R_{k}(m) = the digit reversal of m in base k (R_{k}(m) is written in base 10). a(n) is the smallest y such that there are exactly n bases {k} (k >= 2 and (x < y)) solutions of the equation: R_{k}(x) = y and R_{k}(y) = x.",
+  "id": "A092359",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A030108",
+    "A037183",
+    "A056960",
+    "A056963",
+    "A091974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

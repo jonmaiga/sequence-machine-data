@@ -1,0 +1,22 @@
+{
+  "description": "Auxiliary sequence for calculation of number of even permutations of degree n and order exactly 2.",
+  "id": "A051684",
+  "mentions": [
+    "A001189",
+    "A001464",
+    "A001465",
+    "A048099",
+    "A051685"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:59:35",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

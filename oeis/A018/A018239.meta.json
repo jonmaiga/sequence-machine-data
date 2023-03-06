@@ -1,0 +1,22 @@
+{
+  "description": "Primorial primes: primes of the form 1 + product of first k primes, for some k.",
+  "id": "A018239",
+  "mentions": [
+    "A002110",
+    "A005234",
+    "A006862",
+    "A014545"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

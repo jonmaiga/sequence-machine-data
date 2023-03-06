@@ -1,0 +1,19 @@
+{
+  "description": "Least positive n-th power that is the sum of n consecutive integers, or 0 if no such n-th power exists.",
+  "id": "A076108",
+  "mentions": [
+    "A076107",
+    "A076109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

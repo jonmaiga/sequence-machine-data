@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes that are the sum of two shorter palindromes.",
+  "id": "A062696",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

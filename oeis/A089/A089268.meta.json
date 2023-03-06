@@ -1,0 +1,20 @@
+{
+  "description": "Odd semiprimes m such that m-2 is composite.",
+  "id": "A089268",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A062721",
+    "A087942"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

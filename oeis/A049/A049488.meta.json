@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p+16 is prime.",
+  "id": "A049488",
+  "mentions": [
+    "A001359",
+    "A023200",
+    "A023202"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

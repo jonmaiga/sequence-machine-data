@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = phi(sigma(n) - phi(n)), where phi is Euler's totient function and sigma is the sum of divisors function, with a(1) = 0.",
+  "id": "A077088",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051612",
+    "A065387",
+    "A077090",
+    "A077100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

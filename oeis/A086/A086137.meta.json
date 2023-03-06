@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes between p and p+8 if p is prime, i.e., number of primes between 8+A023202(n) and A023202(n).",
+  "id": "A086137",
+  "mentions": [
+    "A023202",
+    "A023302",
+    "A046133",
+    "A048136",
+    "A052165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

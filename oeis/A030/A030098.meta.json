@@ -1,0 +1,21 @@
+{
+  "description": "Squares whose digits are all even.",
+  "id": "A030098",
+  "mentions": [
+    "A016754",
+    "A030097",
+    "A075787"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

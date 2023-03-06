@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime factors of Fermat number F(n).",
+  "id": "A046052",
+  "mentions": [
+    "A000215",
+    "A001222",
+    "A023394",
+    "A229850",
+    "A275377",
+    "A275379"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

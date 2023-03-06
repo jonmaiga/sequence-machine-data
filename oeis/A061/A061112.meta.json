@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum number of divisors for any composite between prime(n) and prime(n+1).",
+  "id": "A061112",
+  "mentions": [
+    "A000005",
+    "A061117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 2,
+    "size": 96,
+    "source": "joeis"
+  }
+}

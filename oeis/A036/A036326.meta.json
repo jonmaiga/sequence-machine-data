@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n such that juxtaposition of prime factors of n has length 2.",
+  "id": "A036326",
+  "mentions": [
+    "A036327",
+    "A036334",
+    "A046368"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fifth column (m=4) of triangle A090441.",
+  "id": "A090444",
+  "mentions": [
+    "A000178",
+    "A090441"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:01:39",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

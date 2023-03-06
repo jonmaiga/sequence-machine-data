@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4 X n binary matrices such that any 2 rows have a common 1, up to column permutations.",
+  "id": "A052388",
+  "mentions": [
+    "A051587",
+    "A051588",
+    "A051589"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:49",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

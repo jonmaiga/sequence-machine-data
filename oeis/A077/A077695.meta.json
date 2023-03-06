@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = triangular number pertaining to the number f(n) obtained by concatenating n n times.",
+  "id": "A077695",
+  "mentions": [
+    "A000461",
+    "A077692",
+    "A077693",
+    "A077694"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n whose abundance is 8: sigma(n) - 2n = 8.",
+  "id": "A088833",
+  "mentions": [
+    "A033880",
+    "A045668",
+    "A045669",
+    "A045770",
+    "A059610",
+    "A088831",
+    "A088832",
+    "A125247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximum of A073830(k) for k between A001359(n) and A001359(n+1).",
+  "id": "A073831",
+  "mentions": [
+    "A001359",
+    "A037074",
+    "A073830",
+    "A073832"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

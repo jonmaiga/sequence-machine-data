@@ -1,0 +1,22 @@
+{
+  "description": "Signature-permutation of the inverse of Deutsch's 1998 bijection on Dyck paths.",
+  "id": "A057504",
+  "mentions": [
+    "A057502",
+    "A057503",
+    "A057515",
+    "A080237",
+    "A089408",
+    "A122286"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

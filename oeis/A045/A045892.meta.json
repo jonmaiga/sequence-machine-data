@@ -1,0 +1,17 @@
+{
+  "description": "Solutions s to the equation 1=s*prime(n)+t*prime(n+1) with |s| as small as possible.",
+  "id": "A045892",
+  "mentions": [
+    "A045893"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:05",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of successive odd nonprimes (A014076).",
+  "id": "A047846",
+  "mentions": [
+    "A014076",
+    "A160522",
+    "A196277"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

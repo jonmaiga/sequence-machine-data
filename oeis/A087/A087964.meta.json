@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least prime p such that exponent of highest power of 2 dividing 3p+1 equals n.",
+  "id": "A087964",
+  "mentions": [
+    "A000040",
+    "A007814",
+    "A087230",
+    "A087272",
+    "A087273",
+    "A087274",
+    "A087963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

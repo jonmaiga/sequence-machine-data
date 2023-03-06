@@ -1,0 +1,15 @@
+{
+  "description": "Let u(1)=u(2)=u(3)=1, u(n+3)=(n*u(n)+(n+1)*u(n+1)+(n+2)*u(n+2))/(n+3); sequence gives values of n such that u(n) is an integer.",
+  "id": "A075770",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

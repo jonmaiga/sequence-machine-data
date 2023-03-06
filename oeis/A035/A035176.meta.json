@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} Kronecker(-14, d).",
+  "id": "A035176",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

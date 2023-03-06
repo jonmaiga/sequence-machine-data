@@ -1,0 +1,32 @@
+{
+  "description": "Number of multigraphs on n labeled edges (with loops). Also number of genetically distinct states amongst n individuals.",
+  "id": "A020555",
+  "mentions": [
+    "A000110",
+    "A001055",
+    "A002110",
+    "A007716",
+    "A007717",
+    "A014500",
+    "A014501",
+    "A020554",
+    "A038205",
+    "A094574",
+    "A219727",
+    "A316974",
+    "A322764",
+    "A322765",
+    "A346500"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

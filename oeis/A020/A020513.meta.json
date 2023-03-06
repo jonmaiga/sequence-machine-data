@@ -1,0 +1,18 @@
+{
+  "description": "Cyclotomic polynomials evaluated at x=-1.",
+  "id": "A020513",
+  "mentions": [
+    "A138929"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

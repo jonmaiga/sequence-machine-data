@@ -1,0 +1,18 @@
+{
+  "description": "Even elements to right of central elements in 3-Pascal triangle A028262.",
+  "id": "A028273",
+  "mentions": [
+    "A028262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:45",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

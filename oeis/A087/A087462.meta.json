@@ -1,0 +1,25 @@
+{
+  "description": "Generalized mod 3 multiplicative Jacobsthal sequence.",
+  "id": "A087462",
+  "mentions": [
+    "A001018",
+    "A001045",
+    "A078008",
+    "A082311",
+    "A082365",
+    "A087463",
+    "A087464"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

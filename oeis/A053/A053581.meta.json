@@ -1,0 +1,23 @@
+{
+  "description": "First differences of the Poly-Bernoulli numbers B_n^(k) with k=-2 (A027649).",
+  "id": "A053581",
+  "mentions": [
+    "A000975",
+    "A001045",
+    "A001047",
+    "A027649",
+    "A038573"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

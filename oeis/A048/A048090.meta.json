@@ -1,0 +1,15 @@
+{
+  "description": "Number of nonempty subsets of {1,2,...,n} in which exactly 4/5 of the elements are <= (n+3)/3.",
+  "id": "A048090",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:26:16",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

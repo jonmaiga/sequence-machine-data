@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A005887(n) / 2.",
+  "id": "A045826",
+  "mentions": [
+    "A005875",
+    "A005887"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

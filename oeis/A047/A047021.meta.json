@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=0..n} T(i,n-i) where T is given by A047020.",
+  "id": "A047021",
+  "mentions": [
+    "A047020"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:17:33",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

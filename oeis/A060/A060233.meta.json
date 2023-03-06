@@ -1,0 +1,25 @@
+{
+  "description": "A list of equal temperaments (equal divisions of the octave) whose nearest scale steps are closer and closer approximations to six complementary pairs of ratios which generate simple musical tones (scale steps): 8/7 and 7/4, 6/5 and 5/3, 16/13 and 13/8, 5/4 and 8/5, 4/3 and 3/2 and 11/8 and 16/11.",
+  "id": "A060233",
+  "mentions": [
+    "A000045",
+    "A001149",
+    "A054540",
+    "A060525",
+    "A060526",
+    "A060527",
+    "A060528",
+    "A060529"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

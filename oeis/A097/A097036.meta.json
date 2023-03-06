@@ -1,0 +1,22 @@
+{
+  "description": "Initial values for iteration of A063919[x] function such that iteration ends in a 3-cycle.",
+  "id": "A097036",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A063991",
+    "A097024",
+    "A097030",
+    "A097037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

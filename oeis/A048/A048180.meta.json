@@ -1,0 +1,18 @@
+{
+  "description": "Number of graphs with n nodes and n+2 edges.",
+  "id": "A048180",
+  "mentions": [
+    "A008406"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 4,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent optimal linear codes of length 2n over GF(4).",
+  "id": "A082959",
+  "mentions": [
+    "A082960",
+    "A082961"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

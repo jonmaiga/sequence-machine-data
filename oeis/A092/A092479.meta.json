@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the number of numbers <= 2^n having exactly k prime factors (with repetitions), 0<=k<=n, triangle read by rows.",
+  "id": "A092479",
+  "mentions": [
+    "A001222",
+    "A007053"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

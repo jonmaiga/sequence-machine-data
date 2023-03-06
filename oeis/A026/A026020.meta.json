@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(4n, n) - binomial(4n, n - 3).",
+  "id": "A026020",
+  "mentions": [
+    "A002293",
+    "A004333",
+    "A005810",
+    "A026009",
+    "A026012",
+    "A026016"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

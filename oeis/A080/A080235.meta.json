@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms in the continued fraction for (Pi truncated to n decimal digits).",
+  "id": "A080235",
+  "mentions": [
+    "A065019"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

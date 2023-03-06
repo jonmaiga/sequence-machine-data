@@ -1,0 +1,18 @@
+{
+  "description": "Consider Fibonacci-type sequences b(0)=X, b(1)=Y, b(k)=b(k-1)+b(k-2) mod n; all are periodic; sequence gives number of distinct periods.",
+  "id": "A015134",
+  "mentions": [
+    "A015135",
+    "A106306"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

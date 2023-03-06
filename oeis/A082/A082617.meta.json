@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, then squarefree palindromes such that a(n+1) = p*a(n) where p is a prime not dividing any previous term.",
+  "id": "A082617",
+  "mentions": [
+    "A082618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

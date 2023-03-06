@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers in the triangle of Eulerian numbers.",
+  "id": "A014459",
+  "mentions": [
+    "A008292",
+    "A014450"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

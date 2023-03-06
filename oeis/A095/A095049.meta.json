@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct digits needed to write in decimal representation all positive non-divisors of n that are less than n.",
+  "id": "A095049",
+  "mentions": [
+    "A043537",
+    "A095048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:47",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

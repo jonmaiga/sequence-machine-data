@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways n is expressible as the least common multiple of a nonempty set of positive integers not containing either 1 or n.",
+  "id": "A076413",
+  "mentions": [
+    "A000005",
+    "A076078"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

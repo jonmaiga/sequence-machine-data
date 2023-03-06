@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the equation phi(x) = 4p has a solution, where phi is the totient function.",
+  "id": "A087634",
+  "mentions": [
+    "A005384",
+    "A023212",
+    "A043297"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

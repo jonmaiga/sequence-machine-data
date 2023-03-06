@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci sequence in base 2 of the alternate number system.",
+  "id": "A085652",
+  "mentions": [
+    "A000045",
+    "A007931",
+    "A214679"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

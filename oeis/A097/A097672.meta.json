@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the constant 6*exp(psi(5/6) + EulerGamma), where EulerGamma is the Euler-Mascheroni constant (A001620) and psi(x) is the digamma function.",
+  "id": "A097672",
+  "mentions": [
+    "A001620",
+    "A097663",
+    "A097671",
+    "A097673",
+    "A097676",
+    "A097679",
+    "A097681"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:19",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n+2) = a(n+1) + a(n) - [(2*n)+1] where a(0)=7, a(1)=11.",
+  "id": "A088981",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:28:52",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "n! times sum of Farey fractions of order n.",
+  "id": "A093593",
+  "mentions": [
+    "A002088",
+    "A092824",
+    "A093594"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

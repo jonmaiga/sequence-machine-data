@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected chord diagrams of degree n.",
+  "id": "A018225",
+  "mentions": [
+    "A007769",
+    "A317184"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:59",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

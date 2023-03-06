@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step self-avoiding paths on quadrant grid starting at quadrant origin.",
+  "id": "A038373",
+  "mentions": [
+    "A001411",
+    "A034010",
+    "A046170"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

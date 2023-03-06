@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-x)^(1/(x-1)).",
+  "id": "A087761",
+  "mentions": [
+    "A000248",
+    "A005727"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

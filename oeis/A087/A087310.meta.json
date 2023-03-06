@@ -1,0 +1,21 @@
+{
+  "description": "Common differences of arithmetic progressions in A086786.",
+  "id": "A087310",
+  "mentions": [
+    "A086786",
+    "A087308",
+    "A087309"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

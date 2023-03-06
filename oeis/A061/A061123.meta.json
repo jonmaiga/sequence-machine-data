@@ -1,0 +1,29 @@
+{
+  "description": "Number of degree-n permutations of order exactly 9.",
+  "id": "A061123",
+  "mentions": [
+    "A000085",
+    "A001189",
+    "A001470",
+    "A001471",
+    "A001472",
+    "A001473",
+    "A052501",
+    "A053496",
+    "A053505",
+    "A061121",
+    "A061128"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:53:54",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

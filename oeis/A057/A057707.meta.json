@@ -1,0 +1,19 @@
+{
+  "description": "Number of poly-octagon squares: a(n) = number of 'polyominoes' that can be formed by n octagons and n squares (of perimeter 8m and 4m respectively) not counting rotations or reflections such that the resulting objects will fit on the plane that is uniformly tiled by the same size octagons and squares.",
+  "id": "A057707",
+  "mentions": [
+    "A343577"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Squares such that (1) each digit is a square, (2) the sum of squares of the digits is a square.",
+  "id": "A061272",
+  "mentions": [
+    "A053057",
+    "A053059",
+    "A061090",
+    "A061267",
+    "A061268",
+    "A061269",
+    "A061270"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

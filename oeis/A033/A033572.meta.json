@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (2*n+1)*(7*n+1).",
+  "id": "A033572",
+  "mentions": [
+    "A001106",
+    "A118277",
+    "A195019",
+    "A195020"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:31",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

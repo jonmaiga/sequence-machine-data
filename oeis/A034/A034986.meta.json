@@ -1,0 +1,18 @@
+{
+  "description": "a(n)^2 is smallest square number starting with a string of n 5's.",
+  "id": "A034986",
+  "mentions": [
+    "A034987"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:55:28",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

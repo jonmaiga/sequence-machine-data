@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n) + 1 is prime.",
+  "id": "A065512",
+  "mentions": [
+    "A000203",
+    "A088580",
+    "A258430"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

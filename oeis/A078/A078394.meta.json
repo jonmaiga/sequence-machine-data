@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that reverse(A004154(n)) + 1 is prime.",
+  "id": "A078394",
+  "mentions": [
+    "A004154",
+    "A078203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

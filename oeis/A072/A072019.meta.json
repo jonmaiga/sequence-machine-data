@@ -1,0 +1,20 @@
+{
+  "description": "Generalized Bell numbers B_{5,2}.",
+  "id": "A072019",
+  "mentions": [
+    "A008279",
+    "A072020",
+    "A091534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

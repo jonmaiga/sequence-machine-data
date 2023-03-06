@@ -1,0 +1,19 @@
+{
+  "description": "Smallest triangular numbers with possible initial (least significant) digits.",
+  "id": "A068126",
+  "mentions": [
+    "A068125"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

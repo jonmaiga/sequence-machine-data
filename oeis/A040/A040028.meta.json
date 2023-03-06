@@ -1,0 +1,30 @@
+{
+  "description": "Primes p such that x^3 = 2 has a solution mod p.",
+  "id": "A040028",
+  "mentions": [
+    "A000040",
+    "A001132",
+    "A003627",
+    "A014572",
+    "A014752",
+    "A038873",
+    "A040034",
+    "A040098",
+    "A040159",
+    "A040992",
+    "A042966",
+    "A097142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

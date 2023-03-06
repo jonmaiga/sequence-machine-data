@@ -1,0 +1,26 @@
+{
+  "description": "Ratio of totient to Carmichael's lambda function is 2.",
+  "id": "A062373",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A033948",
+    "A034380",
+    "A062374",
+    "A062375",
+    "A062376",
+    "A062377"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The iterative cycle: n -> sum of digits of n^2 has only four distinct elements.",
+  "id": "A061907",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A061903",
+    "A061910"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

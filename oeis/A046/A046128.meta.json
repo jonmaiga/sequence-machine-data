@@ -1,0 +1,19 @@
+{
+  "description": "Smallest side a of scalene integer Heronian triangles sorted by increasing c and b.",
+  "id": "A046128",
+  "mentions": [
+    "A046129",
+    "A046130",
+    "A046131"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

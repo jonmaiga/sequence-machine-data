@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m = a(n) > a(n-1) such that there exists a smallest integer k > 1 such that k!/(k+1)^m is an integer.",
+  "id": "A061770",
+  "mentions": [
+    "A061768"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Stern's diatomic array read by rows (version 2).",
+  "id": "A070878",
+  "mentions": [
+    "A007051",
+    "A049455",
+    "A049456",
+    "A070879",
+    "A293160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

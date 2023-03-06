@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,m) = (3*n+3*m-2)*(n+1-m)/2 read by rows.",
+  "id": "A096037",
+  "mentions": [
+    "A002411",
+    "A005449",
+    "A011379",
+    "A016768",
+    "A024212",
+    "A094930",
+    "A095794",
+    "A096038"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:41",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

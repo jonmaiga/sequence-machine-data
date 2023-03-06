@@ -1,0 +1,23 @@
+{
+  "description": "Graded dimension of the cohomology ring of the moduli space of n-pointed curves of genus 0 satisfying the associativity equations of physics (also known as the WDVV equations).",
+  "id": "A074060",
+  "mentions": [
+    "A002662",
+    "A049444",
+    "A074059",
+    "A134685",
+    "A143491"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest x such that remainder Mod[A065855(x), A000720(x)]=n.",
+  "id": "A073437",
+  "mentions": [
+    "A000720",
+    "A065855",
+    "A073435",
+    "A073436"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

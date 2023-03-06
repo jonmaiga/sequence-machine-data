@@ -1,0 +1,18 @@
+{
+  "description": "Least squarefree number > n that is coprime to n.",
+  "id": "A079114",
+  "mentions": [
+    "A005117",
+    "A079115"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

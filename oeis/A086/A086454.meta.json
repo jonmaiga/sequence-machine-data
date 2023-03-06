@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of prime powers: tau(p^e).",
+  "id": "A086454",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A025474",
+    "A086455"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:37:27",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

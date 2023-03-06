@@ -1,0 +1,26 @@
+{
+  "description": "Start of a string of exactly 1 consecutive (but disjoint) pair of twin primes.",
+  "id": "A035789",
+  "mentions": [
+    "A035790",
+    "A035791",
+    "A035792",
+    "A035793",
+    "A035794",
+    "A035795",
+    "A069453",
+    "A069455",
+    "A087641"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

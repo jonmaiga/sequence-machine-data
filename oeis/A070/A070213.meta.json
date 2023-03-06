@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that a(n)=n*a(n-1)+1 with a(1)=0 is prime.",
+  "id": "A070213",
+  "mentions": [
+    "A056542"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

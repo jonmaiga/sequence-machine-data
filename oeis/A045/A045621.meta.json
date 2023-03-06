@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^n - binomial(n, floor(n/2)).",
+  "id": "A045621",
+  "mentions": [
+    "A000108",
+    "A000346",
+    "A001405",
+    "A054336",
+    "A068551",
+    "A127630"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:40:27",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

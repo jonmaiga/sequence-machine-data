@@ -1,0 +1,16 @@
+{
+  "description": "a(n)=Sum{d(i)*8^i: i=0,1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.",
+  "id": "A037471",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:41",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

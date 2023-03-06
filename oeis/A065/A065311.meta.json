@@ -1,0 +1,22 @@
+{
+  "description": "Primes which occur exactly twice in the sequence of a(n) = prime(n) - prime(n - pi(n)) = A065308(n).",
+  "id": "A065311",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A054546",
+    "A065308",
+    "A065309",
+    "A065310"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Stirling2 triangle with scaled diagonals (powers of 10).",
+  "id": "A075505",
+  "mentions": [
+    "A039692",
+    "A075504",
+    "A075509",
+    "A075513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:06:05",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

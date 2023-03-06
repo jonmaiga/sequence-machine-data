@@ -1,0 +1,31 @@
+{
+  "description": "Number of ordered pairs (x,y) of positive integers such that x^2 + y^2 = n.",
+  "id": "A063725",
+  "mentions": [
+    "A000007",
+    "A000122",
+    "A000161",
+    "A000290",
+    "A000404",
+    "A004018",
+    "A004431",
+    "A010052",
+    "A018825",
+    "A025426",
+    "A063691",
+    "A063730",
+    "A081324",
+    "A337165"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

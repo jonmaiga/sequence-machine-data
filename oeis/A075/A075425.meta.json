@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to reach 1 starting with n and iterating the map n ->rad(n)-1, where rad(n) is the squarefree kernel of n (A007947).",
+  "id": "A075425",
+  "mentions": [
+    "A007947",
+    "A075423"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

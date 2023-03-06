@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = OR(k AND (n-k): 0<=k<=n), AND and OR bitwise.",
+  "id": "A086099",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A003817",
+    "A007088",
+    "A062383",
+    "A086100",
+    "A142149",
+    "A142150",
+    "A142151"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

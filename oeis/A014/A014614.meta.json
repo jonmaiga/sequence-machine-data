@@ -1,0 +1,40 @@
+{
+  "description": "Numbers that are products of 5 primes (or 5-almost primes, a generalization of semiprimes).",
+  "id": "A014614",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A014612",
+    "A014613",
+    "A046304",
+    "A046306",
+    "A046308",
+    "A046310",
+    "A046312",
+    "A046314",
+    "A069272",
+    "A069273",
+    "A069274",
+    "A069275",
+    "A069276",
+    "A069277",
+    "A069278",
+    "A069279",
+    "A069280",
+    "A069281",
+    "A078840",
+    "A114453"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

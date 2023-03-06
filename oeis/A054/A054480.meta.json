@@ -1,0 +1,20 @@
+{
+  "description": "Number of different positive braids with n crossings of 4 strands.",
+  "id": "A054480",
+  "mentions": [
+    "A000071",
+    "A054761"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:33:57",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

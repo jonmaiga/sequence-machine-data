@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest gcd of two interior numbers on row n of Pascal's triangle (\"interior\" means that the 1's at the ends of the rows are excluded).",
+  "id": "A091963",
+  "mentions": [
+    "A014410"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

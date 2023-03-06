@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n that do not contain 9 as a part.",
+  "id": "A027343",
+  "mentions": [
+    "A000041",
+    "A027336",
+    "A027337",
+    "A027344",
+    "A175788"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:56:17",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

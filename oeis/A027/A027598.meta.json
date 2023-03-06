@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the set of prime divisors of k is equal to the set of prime divisors of sigma(k).",
+  "id": "A027598",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A055744",
+    "A081377",
+    "A105402",
+    "A110751",
+    "A110819",
+    "A175200"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

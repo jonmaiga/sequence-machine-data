@@ -1,0 +1,29 @@
+{
+  "description": "Catalan numbers with even index (A000108(2*n), n >= 0): a(n) = binomial(4*n, 2*n)/(2*n+1).",
+  "id": "A048990",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A024492",
+    "A065097",
+    "A099250",
+    "A187357",
+    "A187358",
+    "A187359",
+    "A228411",
+    "A276483"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

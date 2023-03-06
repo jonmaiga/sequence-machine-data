@@ -1,0 +1,33 @@
+{
+  "description": "Numbers divisible by their last digit.",
+  "id": "A034709",
+  "mentions": [
+    "A007602",
+    "A010879",
+    "A017281",
+    "A017293",
+    "A017329",
+    "A034838",
+    "A139222",
+    "A139245",
+    "A139249",
+    "A139264",
+    "A139279",
+    "A139280",
+    "A341431",
+    "A341432"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

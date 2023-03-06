@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = prime(7*n - 5).",
+  "id": "A031907",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

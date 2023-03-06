@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with 2, smallest primes such that a(k)-a(k-1) is a distinct power of 2.",
+  "id": "A087356",
+  "mentions": [
+    "A087357"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

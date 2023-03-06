@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that F_n(x) and F_n(1-x) have a common factor mod 2, with F_n(x) = U(n-1,x/2) the monic Chebyshev polynomials of second kind; this lists only the primitive elements of the set.",
+  "id": "A094425",
+  "mentions": [
+    "A076436",
+    "A093614"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

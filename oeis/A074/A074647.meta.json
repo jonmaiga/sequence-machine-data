@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A074639(k) and A000010(k) are coprime.",
+  "id": "A074647",
+  "mentions": [
+    "A000010",
+    "A074639"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

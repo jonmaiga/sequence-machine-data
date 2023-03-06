@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of k-covers of a labeled n-set, k=1..2^n-1.",
+  "id": "A055154",
+  "mentions": [
+    "A003465",
+    "A029858",
+    "A054780",
+    "A055621",
+    "A095152",
+    "A095155"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = M(n!), the value of Mertens's function at the n-th factorial.",
+  "id": "A087989",
+  "mentions": [
+    "A000142",
+    "A002321",
+    "A084237",
+    "A087987"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

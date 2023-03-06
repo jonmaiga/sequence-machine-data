@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations containing exactly one occurrence of the pattern #, with # one of {1-23, 3-21, 12-3, 32-1}.",
+  "id": "A092923",
+  "mentions": [
+    "A000110",
+    "A260665"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

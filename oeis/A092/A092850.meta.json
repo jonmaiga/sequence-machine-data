@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes between A092800(n) and 10^n.",
+  "id": "A092850",
+  "mentions": [
+    "A006880",
+    "A046731",
+    "A092800",
+    "A092849",
+    "A092851"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

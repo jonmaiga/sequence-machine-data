@@ -1,0 +1,19 @@
+{
+  "description": "Sum of terms in simple continued fraction for Sum_{k=0..n} 1/k!.",
+  "id": "A058299",
+  "mentions": [
+    "A069880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

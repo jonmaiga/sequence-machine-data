@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number which requires n iterations to reach 1 in the juggler sequence problem.",
+  "id": "A094670",
+  "mentions": [
+    "A007320",
+    "A094679",
+    "A094698"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

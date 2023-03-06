@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = smallest number k such that both k-n and k+n are primes.",
+  "id": "A087711",
+  "mentions": [
+    "A020483",
+    "A082467",
+    "A087678",
+    "A087679",
+    "A087680",
+    "A087681",
+    "A087682",
+    "A087683",
+    "A087695",
+    "A087696",
+    "A087697",
+    "A137169",
+    "A244446",
+    "A244447",
+    "A244448"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let 1, 2, 3, 4 represent moves to the right, down, left and up; this sequence describes the movements in the clockwise square spiral (a.k.a. Ulam Spiral).",
+  "id": "A063826",
+  "mentions": [
+    "A000267",
+    "A174344"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

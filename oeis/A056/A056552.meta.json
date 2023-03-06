@@ -1,0 +1,29 @@
+{
+  "description": "Powerfree kernel of cubefree part of n.",
+  "id": "A056552",
+  "mentions": [
+    "A000189",
+    "A000578",
+    "A007947",
+    "A008834",
+    "A013664",
+    "A019555",
+    "A048798",
+    "A050985",
+    "A053149",
+    "A053150",
+    "A056551"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

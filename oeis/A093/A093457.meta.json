@@ -1,0 +1,18 @@
+{
+  "description": "Product of primes in the range [T(n-1} + 1, T(n - 1) + n], where T(n) is the n-th triangular number.",
+  "id": "A093457",
+  "mentions": [
+    "A093455",
+    "A093456"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

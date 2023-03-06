@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (11^n + 1)/2.",
+  "id": "A034659",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:49:37",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

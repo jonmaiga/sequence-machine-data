@@ -1,0 +1,18 @@
+{
+  "description": "G.f. for Moebius transform is x * (1 + x) / (1 + x^4).",
+  "id": "A027414",
+  "mentions": [
+    "A033761"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:34:09",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

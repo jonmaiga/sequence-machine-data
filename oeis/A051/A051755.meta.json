@@ -1,0 +1,24 @@
+{
+  "description": "Consider problem of placing N queens on an n X n board so that each queen attacks precisely 2 others. Sequence gives maximal number of queens.",
+  "id": "A051755",
+  "mentions": [
+    "A019654",
+    "A051567",
+    "A051571",
+    "A051754",
+    "A051759"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:13",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in the simple continued fraction expansion of Sum_{k=0..n}(-1)^k/(2k+1), the Leibniz-Gregory series for Pi/4.",
+  "id": "A070154",
+  "mentions": [
+    "A003881",
+    "A007509",
+    "A055573",
+    "A069880",
+    "A069887"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

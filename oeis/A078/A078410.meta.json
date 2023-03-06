@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to partition 4*n+3 into distinct positive integers.",
+  "id": "A078410",
+  "mentions": [
+    "A000009",
+    "A035294",
+    "A078408",
+    "A078409",
+    "A079211"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

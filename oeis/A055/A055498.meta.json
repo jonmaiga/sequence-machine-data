@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=0, a(1)=1, a(n) = smallest prime >= a(n-1) + a(n-2).",
+  "id": "A055498",
+  "mentions": [
+    "A007918",
+    "A055499",
+    "A055502",
+    "A073021",
+    "A073022"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

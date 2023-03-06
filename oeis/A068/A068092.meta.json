@@ -1,0 +1,28 @@
+{
+  "description": "Index of smallest triangular number with n digits.",
+  "id": "A068092",
+  "mentions": [
+    "A002024",
+    "A002193",
+    "A010476",
+    "A068093",
+    "A068094",
+    "A095863",
+    "A095864",
+    "A095865",
+    "A095866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

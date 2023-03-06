@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of distinct prime factors in binomial coefficients C(n,k) for k = 0,...,n.",
+  "id": "A048273",
+  "mentions": [
+    "A001221",
+    "A001405",
+    "A034973",
+    "A048571"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

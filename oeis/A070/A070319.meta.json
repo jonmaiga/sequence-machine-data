@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Max_{k=1..n} tau(k) where tau(x)=A000005(x) is the number of divisors of x.",
+  "id": "A070319",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A068509",
+    "A261100",
+    "A261104"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n == 3 (mod 8) such that there is only one solution to i^2+j^2+k^2=n, i >= j >= k >= 0.",
+  "id": "A085616",
+  "mentions": [
+    "A086719"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Centered cube numbers: (n+1)^13+n^13.",
+  "id": "A036091",
+  "mentions": [
+    "A036085",
+    "A036087",
+    "A036088",
+    "A036089",
+    "A036090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

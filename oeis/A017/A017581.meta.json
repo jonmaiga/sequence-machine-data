@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 12*n + 5.",
+  "id": "A017581",
+  "mentions": [
+    "A008594",
+    "A016789",
+    "A016813",
+    "A017533",
+    "A017545",
+    "A017593",
+    "A089911"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:27",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

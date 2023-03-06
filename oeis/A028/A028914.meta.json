@@ -1,0 +1,18 @@
+{
+  "description": "Divide A028913 by 2.",
+  "id": "A028914",
+  "mentions": [
+    "A007952",
+    "A028913"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:55",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

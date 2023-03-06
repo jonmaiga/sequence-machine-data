@@ -1,0 +1,25 @@
+{
+  "description": "Kimberling's expulsion array read by antidiagonals.",
+  "id": "A035486",
+  "mentions": [
+    "A006852",
+    "A007063",
+    "A035505",
+    "A038807",
+    "A175312"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

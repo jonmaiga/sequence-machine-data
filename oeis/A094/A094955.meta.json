@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of array A094954.",
+  "id": "A094955",
+  "mentions": [
+    "A094954"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

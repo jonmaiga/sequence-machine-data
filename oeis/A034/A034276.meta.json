@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime that generates a prime pyramid of height n.",
+  "id": "A034276",
+  "mentions": [
+    "A047076",
+    "A052091",
+    "A052092",
+    "A052205",
+    "A053600",
+    "A256957"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

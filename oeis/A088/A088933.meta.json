@@ -1,0 +1,18 @@
+{
+  "description": "Number of generalized Moore graphs on n nodes.",
+  "id": "A088933",
+  "mentions": [
+    "A005007"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

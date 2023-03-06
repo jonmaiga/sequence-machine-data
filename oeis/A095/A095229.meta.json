@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) = n multiplied by the concatenation of all previous terms.",
+  "id": "A095229",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

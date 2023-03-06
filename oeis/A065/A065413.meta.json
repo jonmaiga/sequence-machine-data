@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive solutions to \"numbers that are n times their number of binary 1's\".",
+  "id": "A065413",
+  "mentions": [
+    "A000120",
+    "A037478",
+    "A058898",
+    "A272797"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

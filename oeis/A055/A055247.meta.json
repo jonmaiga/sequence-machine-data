@@ -1,0 +1,20 @@
+{
+  "description": "Related to A055246 and A005836. Used for boundaries of open intervals which have to be erased in the Cantor middle third set construction.",
+  "id": "A055247",
+  "mentions": [
+    "A005836",
+    "A055246"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:53",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows, giving coefficients of polynomials arising as numerators of certain Hilbert series.",
+  "id": "A013630",
+  "mentions": [
+    "A012249"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

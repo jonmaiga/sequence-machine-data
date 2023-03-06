@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that m(n!) = 2, where m(n) = mu(n) + mu(n+1) + mu(n+2).",
+  "id": "A063684",
+  "mentions": [
+    "A008683",
+    "A063838",
+    "A084846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

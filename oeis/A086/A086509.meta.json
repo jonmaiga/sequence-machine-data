@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that p=n^2+2, p+2, p+6, p+8 and p+12 are five consecutive primes.",
+  "id": "A086509",
+  "mentions": [
+    "A086220",
+    "A086380",
+    "A086381"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

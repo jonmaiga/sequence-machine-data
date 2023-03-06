@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that |sin(k)*sin(k+2)| < (sin(k+1))^2.",
+  "id": "A026313",
+  "mentions": [
+    "A117672"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:55",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

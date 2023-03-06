@@ -1,0 +1,22 @@
+{
+  "description": "Self-convolution of A073739; odd-indexed terms are twice the odd primes.",
+  "id": "A073740",
+  "mentions": [
+    "A036467",
+    "A073739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

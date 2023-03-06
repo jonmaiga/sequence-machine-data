@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that 2^n - 1 is divisible by a square > 1.",
+  "id": "A049094",
+  "mentions": [
+    "A001220",
+    "A001348",
+    "A002326",
+    "A014491",
+    "A049093",
+    "A049095",
+    "A049096",
+    "A237043",
+    "A282242",
+    "A282243"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

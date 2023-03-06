@@ -1,0 +1,23 @@
+{
+  "description": "The \"semi-Fibonacci numbers\": a(n) = A030067(2n - 1), where A030067 is the semi-Fibonacci sequence.",
+  "id": "A030068",
+  "mentions": [
+    "A030067",
+    "A060037",
+    "A169739",
+    "A169740",
+    "A284282"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

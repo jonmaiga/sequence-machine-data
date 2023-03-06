@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of signed numbers used for the computation of the column sequences of triangle A089504.",
+  "id": "A089505",
+  "mentions": [
+    "A008279",
+    "A089504",
+    "A089506",
+    "A089513"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

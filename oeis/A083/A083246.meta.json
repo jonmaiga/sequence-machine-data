@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that at least one of the following four conditions is satisfied: 1# d(n)=phi(n); 2# d(n)=u(n); 3# phi(n)=u(n), or 4# n=2u(n). Here d(n)=A000005(n) is the number of divisors of n, phi(n)=A000010(n) is Euler's totient and u(n)=A045763(n) is the size of the 'unrelated set'.",
+  "id": "A083246",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A045763",
+    "A073757",
+    "A083243",
+    "A083244"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

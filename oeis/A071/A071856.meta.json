@@ -1,0 +1,17 @@
+{
+  "description": "Factorial expansion of sqrt(2ln(2)) : sqrt(2ln(2)) = sum( n>=1, a(n)/n! ).",
+  "id": "A071856",
+  "mentions": [
+    "A064619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n+1)*(n^2+1)/2.",
+  "id": "A071237",
+  "mentions": [
+    "A000217",
+    "A002522",
+    "A027445",
+    "A037270"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:13",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

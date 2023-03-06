@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of replicable function number \"25a\" with a(0) = -1.",
+  "id": "A096562",
+  "mentions": [
+    "A007325",
+    "A010815",
+    "A092885",
+    "A096563",
+    "A227131"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

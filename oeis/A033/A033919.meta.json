@@ -1,0 +1,18 @@
+{
+  "description": "Odd k for which k+2^m is composite for all m < k.",
+  "id": "A033919",
+  "mentions": [
+    "A067760",
+    "A076336"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

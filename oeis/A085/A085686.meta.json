@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Euler transform of Bell numbers.",
+  "id": "A085686",
+  "mentions": [
+    "A000110",
+    "A305846",
+    "A358451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

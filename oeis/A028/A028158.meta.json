@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1-4x)(1-8x)(1-10x)(1-11x)).",
+  "id": "A028158",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:47:43",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

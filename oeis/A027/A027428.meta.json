@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct products ij with 1 <= i < j <= n. (Number of terms appearing more than once in a 1-to-n multiplication table.)",
+  "id": "A027428",
+  "mentions": [
+    "A027424",
+    "A027427",
+    "A027430"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which the number of common prime factors of sigma(k) and phi(k) is exactly six (ignoring multiplicity).",
+  "id": "A081398",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A002110",
+    "A081383",
+    "A081397"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

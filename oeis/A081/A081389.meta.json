@@ -1,0 +1,26 @@
+{
+  "description": "Number of non-unitary prime divisors of Catalan numbers, i.e., number of those prime factors whose exponent is greater than one.",
+  "id": "A081389",
+  "mentions": [
+    "A000108",
+    "A034444",
+    "A048105",
+    "A056169",
+    "A056170",
+    "A080405",
+    "A081386",
+    "A081387",
+    "A081388"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

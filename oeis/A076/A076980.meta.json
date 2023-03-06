@@ -1,0 +1,18 @@
+{
+  "description": "Leyland numbers: 3, together with numbers expressible as n^k + k^n nontrivially, i.e., n,k > 1 (to avoid n = (n-1)^1 + 1^(n-1)).",
+  "id": "A076980",
+  "mentions": [
+    "A013499",
+    "A094133"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of series coefficients of 1/(1 + cosh(sqrt(x))).",
+  "id": "A089171",
+  "mentions": [
+    "A000182",
+    "A002425",
+    "A002430",
+    "A046990",
+    "A050970",
+    "A198631",
+    "A276592",
+    "A279009",
+    "A279010",
+    "A279370"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

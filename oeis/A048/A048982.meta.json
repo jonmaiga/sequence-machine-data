@@ -1,0 +1,28 @@
+{
+  "description": "Number of numbers which have a \"prime-rich\" reduced residue system (RRS) and binary order n.",
+  "id": "A048982",
+  "mentions": [
+    "A002110",
+    "A029837",
+    "A048597",
+    "A048862",
+    "A048863",
+    "A048864",
+    "A048865",
+    "A048866",
+    "A048867",
+    "A048868",
+    "A048869"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Multiplication table of the composites read by antidiagonals.",
+  "id": "A098351",
+  "mentions": [
+    "A002808",
+    "A003991",
+    "A098350"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

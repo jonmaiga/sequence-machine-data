@@ -1,0 +1,20 @@
+{
+  "description": "Interprimes (A024675) which are of the form s*prime, s=13.",
+  "id": "A075288",
+  "mentions": [
+    "A024675",
+    "A075277",
+    "A075296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

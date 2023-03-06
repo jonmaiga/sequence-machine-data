@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the middle coefficient of the cyclotomic polynomial Phi_n(x) has a value not obtained for any smaller n.",
+  "id": "A095877",
+  "mentions": [
+    "A094754",
+    "A095878"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

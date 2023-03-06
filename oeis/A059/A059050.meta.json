@@ -1,0 +1,23 @@
+{
+  "description": "Number of 7-element ordered T_0-antichains on an unlabeled n-set; T_1-hypergraphs on 7 labeled nodes with n (not necessarily empty) distinct hyperedges (n=0,1,...,128).",
+  "id": "A059050",
+  "mentions": [
+    "A059048",
+    "A059049",
+    "A059051",
+    "A059052"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

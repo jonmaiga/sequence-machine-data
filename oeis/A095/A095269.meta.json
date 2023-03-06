@@ -1,0 +1,21 @@
+{
+  "description": "Diving index of 4n+3.",
+  "id": "A095269",
+  "mentions": [
+    "A004767",
+    "A095062",
+    "A095109",
+    "A095270",
+    "A095271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

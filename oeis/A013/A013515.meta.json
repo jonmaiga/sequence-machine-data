@@ -1,0 +1,15 @@
+{
+  "description": "sech(sec(x)-sech(x))=1-12/4!*x^4+1568/8!*x^8+6840768/12!*x^12...",
+  "id": "A013515",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:19:08",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

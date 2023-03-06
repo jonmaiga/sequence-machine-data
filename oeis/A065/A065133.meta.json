@@ -1,0 +1,21 @@
+{
+  "description": "Remainder when n-th prime is divided by the number of primes not exceeding n.",
+  "id": "A065133",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A004648",
+    "A065134"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:35",
+    "offset": 2,
+    "size": 91,
+    "source": "joeis"
+  }
+}

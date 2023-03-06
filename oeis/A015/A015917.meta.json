@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sigma(k) + 12 = sigma(k+12).",
+  "id": "A015917",
+  "mentions": [
+    "A000203",
+    "A046133",
+    "A054902"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:45:43",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

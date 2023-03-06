@@ -1,0 +1,20 @@
+{
+  "description": "Distinct elements occurring in triangle of Eulerian numbers (unsorted).",
+  "id": "A014630",
+  "mentions": [
+    "A008292",
+    "A030196"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:45",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

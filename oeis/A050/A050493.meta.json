@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sum of binary digits of n-th triangular number.",
+  "id": "A050493",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A004157",
+    "A211201"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:46:20",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

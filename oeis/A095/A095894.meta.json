@@ -1,0 +1,22 @@
+{
+  "description": "a(2n) = 6*n^2 + 7*n + 1; a(2n+1) = 6*n^2 + 13*n + 7.",
+  "id": "A095894",
+  "mentions": [
+    "A001318",
+    "A047225",
+    "A049453",
+    "A051866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

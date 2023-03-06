@@ -1,0 +1,22 @@
+{
+  "description": "Number of plane binary trees of size n+2 and height n.",
+  "id": "A073773",
+  "mentions": [
+    "A014480",
+    "A028878",
+    "A073345",
+    "A073346",
+    "A073774"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest positive integer m such that m = pi(n*m) = A000720(n*m).",
+  "id": "A038626",
+  "mentions": [
+    "A000720",
+    "A038623",
+    "A038624",
+    "A038625",
+    "A038627",
+    "A087237",
+    "A102281",
+    "A293529"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

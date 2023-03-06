@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that A020951(k) = n.",
+  "id": "A020953",
+  "mentions": [
+    "A020951"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:09",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

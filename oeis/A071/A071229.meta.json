@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(14*n^2-21*n+13)/6.",
+  "id": "A071229",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:11",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Three-fold convolution of primes with themselves.",
+  "id": "A014343",
+  "mentions": [
+    "A000040",
+    "A014342",
+    "A340991"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:13:31",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

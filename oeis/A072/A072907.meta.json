@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the solution of equation log(2) - X/8 - exp(-3X/7) = 0 (4.251844....).",
+  "id": "A072907",
+  "mentions": [
+    "A072908"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

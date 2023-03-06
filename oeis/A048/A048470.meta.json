@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+1)*(2^(n+1) - n)/2.",
+  "id": "A048470",
+  "mentions": [
+    "A000244",
+    "A000460",
+    "A047858"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

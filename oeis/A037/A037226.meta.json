@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = phi(2n+1) / multiplicative order of 2 mod 2n+1.",
+  "id": "A037226",
+  "mentions": [
+    "A000374",
+    "A002326",
+    "A006694",
+    "A037225",
+    "A081844"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = Fibonacci(k)*C(n,k), k = 1...n; n>=1.",
+  "id": "A094435",
+  "mentions": [
+    "A000045",
+    "A094436",
+    "A094437",
+    "A094438",
+    "A094439",
+    "A094440",
+    "A094441",
+    "A094442",
+    "A094443",
+    "A094444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

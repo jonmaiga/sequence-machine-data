@@ -1,0 +1,39 @@
+{
+  "description": "Triangular array C(n, r) = number of connected r-regular graphs with n nodes, 0 <= r < n.",
+  "id": "A068934",
+  "mentions": [
+    "A002851",
+    "A005177",
+    "A006820",
+    "A006821",
+    "A006822",
+    "A014377",
+    "A014378",
+    "A014381",
+    "A014382",
+    "A014384",
+    "A051031",
+    "A068933",
+    "A186714",
+    "A186715",
+    "A186716",
+    "A186717",
+    "A186718",
+    "A186719",
+    "A186733",
+    "A186734"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

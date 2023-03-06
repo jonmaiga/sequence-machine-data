@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that k and k^2 have same digit sum.",
+  "id": "A058369",
+  "mentions": [
+    "A002283",
+    "A004159",
+    "A007953",
+    "A010888",
+    "A056992",
+    "A058370",
+    "A058852",
+    "A077436",
+    "A090570",
+    "A147523",
+    "A254066"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

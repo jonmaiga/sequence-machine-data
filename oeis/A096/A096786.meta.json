@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that both n and n+1 are composite numbers that sum up to a Pythagorean prime (i.e., of the form 4k+1).",
+  "id": "A096786",
+  "mentions": [
+    "A060254",
+    "A096675",
+    "A096784",
+    "A096785",
+    "A096787",
+    "A096788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

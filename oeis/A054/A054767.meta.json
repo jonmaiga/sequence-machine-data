@@ -1,0 +1,23 @@
+{
+  "description": "Period of the sequence of Bell numbers A000110 (mod n).",
+  "id": "A054767",
+  "mentions": [
+    "A000110",
+    "A023037",
+    "A088790",
+    "A214810"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

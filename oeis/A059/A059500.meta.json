@@ -1,0 +1,32 @@
+{
+  "description": "Primes p such that both q=(p-1)/2 and 2p + 1 = 4q + 3 are composite numbers. Intersection of A059456 and A053176.",
+  "id": "A059500",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A005602",
+    "A007700",
+    "A010051",
+    "A023272",
+    "A023302",
+    "A023330",
+    "A053176",
+    "A059452",
+    "A059456",
+    "A156658",
+    "A156659",
+    "A156660",
+    "A156878"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

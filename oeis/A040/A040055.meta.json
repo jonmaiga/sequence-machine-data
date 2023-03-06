@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction for sqrt(63).",
+  "id": "A040055",
+  "mentions": [
+    "A010516",
+    "A020820"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

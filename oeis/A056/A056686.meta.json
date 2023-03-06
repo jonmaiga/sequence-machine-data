@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 50*R_k + 7 is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A056686",
+  "mentions": [
+    "A002275",
+    "A099417"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

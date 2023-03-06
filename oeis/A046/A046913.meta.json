@@ -1,0 +1,24 @@
+{
+  "description": "Sum of divisors of n not congruent to 0 mod 3.",
+  "id": "A046913",
+  "mentions": [
+    "A000203",
+    "A000726",
+    "A002324",
+    "A035191",
+    "A051731",
+    "A091684"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

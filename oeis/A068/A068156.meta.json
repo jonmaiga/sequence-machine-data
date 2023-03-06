@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: (x+2)*(x+1)/((x-1)*(x-2)) = Sum_{n>=0} a(n)*(x/2)^n.",
+  "id": "A068156",
+  "mentions": [
+    "A033484",
+    "A060482",
+    "A099257",
+    "A111286",
+    "A222057",
+    "A233308"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

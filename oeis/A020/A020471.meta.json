@@ -1,0 +1,19 @@
+{
+  "description": "Primes that contain digits 7 and 9 only.",
+  "id": "A020471",
+  "mentions": [
+    "A020449",
+    "A020472"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:01",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

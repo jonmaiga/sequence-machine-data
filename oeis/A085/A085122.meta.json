@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = PrimePi(sigma(n)-phi(n)) - (PrimePi(sigma(n)) - PrimePi(phi(n))), where PrimePi = A000720, sigma = A000203 and phi = A000010.",
+  "id": "A085122",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000720",
+    "A051612",
+    "A070803",
+    "A070804",
+    "A085343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

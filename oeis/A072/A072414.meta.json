@@ -1,0 +1,24 @@
+{
+  "description": "Non-Achilles numbers for which LCM of the exponents in the prime factorization of n is not equal to the maximum of the same exponents.",
+  "id": "A072414",
+  "mentions": [
+    "A005361",
+    "A051903",
+    "A051904",
+    "A052409",
+    "A052486",
+    "A072411",
+    "A072412"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

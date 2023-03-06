@@ -1,0 +1,20 @@
+{
+  "description": "Smallest triangular number containing exactly n 6's.",
+  "id": "A036523",
+  "mentions": [
+    "A036517",
+    "A036526",
+    "A048361"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

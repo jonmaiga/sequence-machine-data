@@ -1,0 +1,17 @@
+{
+  "description": "Product of consecutive factorials.",
+  "id": "A034882",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

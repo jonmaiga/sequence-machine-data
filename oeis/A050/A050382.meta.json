@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered factorizations of n into primes by prime signature: A008480(A025487).",
+  "id": "A050382",
+  "mentions": [
+    "A008480",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

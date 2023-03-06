@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that if one writes k = Product p_i^e_i (p_i primes) and P = max p_i^e_i, then k/P > P.",
+  "id": "A051283",
+  "mentions": [
+    "A034699",
+    "A080170",
+    "A110612",
+    "A346418",
+    "A354933",
+    "A354995",
+    "A354996"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

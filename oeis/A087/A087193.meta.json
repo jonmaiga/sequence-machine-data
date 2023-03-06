@@ -1,0 +1,19 @@
+{
+  "description": "H(p)/p where p runs through the primes and H(k) is the k-th central hexanomial coefficient (A018901).",
+  "id": "A087193",
+  "mentions": [
+    "A000040",
+    "A018901"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

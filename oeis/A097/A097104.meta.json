@@ -1,0 +1,19 @@
+{
+  "description": "Start with positive integers in order. At m-th iteration, let a(k) become a(k-1) for m+1<=k<=p_m and let a(m) become a(p_m), where p_m is the m-th prime. Record the limiting sequence.",
+  "id": "A097104",
+  "mentions": [
+    "A098003",
+    "A100352",
+    "A100353"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

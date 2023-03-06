@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be represented as j^4 + k^4, with 0 < j < k, in exactly one way.",
+  "id": "A088687",
+  "mentions": [
+    "A003336",
+    "A046881",
+    "A088728",
+    "A230562"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

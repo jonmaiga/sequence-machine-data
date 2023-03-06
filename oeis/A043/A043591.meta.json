@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-3 representation has exactly 11 runs.",
+  "id": "A043591",
+  "mentions": [
+    "A007089"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:27",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

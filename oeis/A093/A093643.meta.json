@@ -1,0 +1,17 @@
+{
+  "description": "Integer quotients arising in A015759.",
+  "id": "A093643",
+  "mentions": [
+    "A015759"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

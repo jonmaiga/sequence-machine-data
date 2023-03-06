@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lambda(sigma(n)), where lambda(n) is the Carmichael lambda function, which gives the smallest integer m such that k^m = 1 mod n for all integers k relatively prime to n.",
+  "id": "A077198",
+  "mentions": [
+    "A000203",
+    "A002322",
+    "A062401",
+    "A290088"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

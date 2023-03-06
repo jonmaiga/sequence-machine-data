@@ -1,0 +1,21 @@
+{
+  "description": "Least integer \"mod 4 prime signature\" values that are the hypotenuse of no Pythagorean triples.",
+  "id": "A097755",
+  "mentions": [
+    "A097751",
+    "A097752",
+    "A097753",
+    "A097754",
+    "A097756"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

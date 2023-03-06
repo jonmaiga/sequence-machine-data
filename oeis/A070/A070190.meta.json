@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: I_0(2*x)^5 + 2*Sum_{k>=1} I_k(2*x)^5, where I_n(z) are modified Bessel functions of order n.",
+  "id": "A070190",
+  "mentions": [
+    "A002898"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

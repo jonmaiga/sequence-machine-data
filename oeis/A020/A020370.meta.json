@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that the continued fraction for sqrt(k) has period 31.",
+  "id": "A020370",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

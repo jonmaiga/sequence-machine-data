@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the starting position of the first occurrence of a string of at least n consecutive digits '6' in the decimal expansion of Pi.",
+  "id": "A050285",
+  "mentions": [
+    "A096760"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

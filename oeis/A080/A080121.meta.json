@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest k > 0 such that n^2^k + (n+1)^2^k is prime, or -1 if no such k exists.",
+  "id": "A080121",
+  "mentions": [
+    "A057856",
+    "A058064",
+    "A077659",
+    "A122900",
+    "A122902"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

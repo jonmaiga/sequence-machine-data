@@ -1,0 +1,20 @@
+{
+  "description": "Third differences of A037260.",
+  "id": "A037263",
+  "mentions": [
+    "A037260",
+    "A037261",
+    "A037262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:09",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

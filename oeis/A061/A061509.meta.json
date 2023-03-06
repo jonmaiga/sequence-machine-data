@@ -1,0 +1,31 @@
+{
+  "description": "Write n in decimal, omit 0's, replace the k-th digit d[k] with the k-th prime, raised to d[k]-th power and multiply.",
+  "id": "A061509",
+  "mentions": [
+    "A000030",
+    "A000040",
+    "A000079",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A007814",
+    "A007953",
+    "A052382",
+    "A055640",
+    "A061510",
+    "A189398"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

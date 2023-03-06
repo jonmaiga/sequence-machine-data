@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers k <= n such that at least one prime factor of n is not a prime factor of k.",
+  "id": "A010848",
+  "mentions": [
+    "A003557",
+    "A008479",
+    "A010846",
+    "A010847"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n+1) -3*a(n) + a(n-1) = (2/3)*(1+w^(n+1)+w^(2*n+2)); a(1) = 0, a(2) = 1; where w is the cubic root of unity.",
+  "id": "A072130",
+  "mentions": [
+    "A071618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:58:55",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

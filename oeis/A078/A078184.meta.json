@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to n^2 < x^2 + y^2 + z^2 < (n+1)^2; number of lattice points between spheres of radii n and n+1.",
+  "id": "A078184",
+  "mentions": [
+    "A000605",
+    "A078183"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:30",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

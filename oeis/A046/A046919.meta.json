@@ -1,0 +1,21 @@
+{
+  "description": "Maximal coefficient of polynomial p(n), with p(3)=1, p(n) = (1 - t^(2*n - 4))*(1 - t^(2*n - 3))*p(n - 1)/((1 - t^(n - 3))*(1 - t^n)).",
+  "id": "A046919",
+  "mentions": [
+    "A000571",
+    "A046918",
+    "A210726"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

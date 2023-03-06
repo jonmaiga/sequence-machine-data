@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are expressible as C(m,5) + C(n,5) in at least 2 ways.",
+  "id": "A010331",
+  "mentions": [
+    "A000389"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

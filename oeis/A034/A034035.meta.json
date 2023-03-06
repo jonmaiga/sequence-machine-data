@@ -1,0 +1,19 @@
+{
+  "description": "Not of form (x^2+xy+2y^2 with x >= 0, y >= 0).",
+  "id": "A034035",
+  "mentions": [
+    "A028951",
+    "A034042",
+    "A257346"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:29",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

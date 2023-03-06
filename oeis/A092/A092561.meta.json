@@ -1,0 +1,22 @@
+{
+  "description": "\"Mersenne\" semiprimes, semiprimes of the form 2^k-1.",
+  "id": "A092561",
+  "mentions": [
+    "A000225",
+    "A085724",
+    "A092558",
+    "A092559",
+    "A092562"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

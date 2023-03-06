@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of digits of k in superfactorial base divides k.",
+  "id": "A076428",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A118363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

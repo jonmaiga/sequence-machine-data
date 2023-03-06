@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that q-p = 22, where q is the next prime after p.",
+  "id": "A061779",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

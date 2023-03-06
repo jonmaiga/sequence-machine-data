@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m such that n divides the pentagonal number A000326(m).",
+  "id": "A085767",
+  "mentions": [
+    "A000326",
+    "A011772",
+    "A019554"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

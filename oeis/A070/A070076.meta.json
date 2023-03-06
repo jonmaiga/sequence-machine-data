@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit twin prime pairs.",
+  "id": "A070076",
+  "mentions": [
+    "A007508"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numerators of numbers appearing in the Euler-Maclaurin summation formula.",
+  "id": "A060054",
+  "mentions": [
+    "A000142",
+    "A000367",
+    "A001067",
+    "A002445",
+    "A060055",
+    "A075180",
+    "A106831",
+    "A120082",
+    "A227830",
+    "A242179"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

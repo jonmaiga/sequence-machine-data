@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are both interprime and semiprime.",
+  "id": "A078443",
+  "mentions": [
+    "A001358",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

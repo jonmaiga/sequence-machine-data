@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes in sequence h(m) defined by h(1) = n, h(m+1) = Floor(h(m)/2).",
+  "id": "A078349",
+  "mentions": [
+    "A000120",
+    "A007814",
+    "A010051",
+    "A292258",
+    "A292259",
+    "A292598",
+    "A292599",
+    "A292936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

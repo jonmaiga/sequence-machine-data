@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-8 and base-9 expansions have no digits in common.",
+  "id": "A037370",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:23",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

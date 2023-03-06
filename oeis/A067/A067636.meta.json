@@ -1,0 +1,22 @@
+{
+  "description": "Row 1 of table in A067640.",
+  "id": "A067636",
+  "mentions": [
+    "A005568",
+    "A067638",
+    "A067639",
+    "A067640"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 06:53:20",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

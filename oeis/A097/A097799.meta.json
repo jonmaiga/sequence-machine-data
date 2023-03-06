@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of the n-th deficient number into deficient numbers.",
+  "id": "A097799",
+  "mentions": [
+    "A000041",
+    "A005100",
+    "A097797",
+    "A097800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

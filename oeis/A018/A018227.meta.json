@@ -1,0 +1,22 @@
+{
+  "description": "Magic numbers: atoms with full shells containing any of these numbers of electrons are considered electronically stable.",
+  "id": "A018227",
+  "mentions": [
+    "A000292",
+    "A018226",
+    "A093907",
+    "A116471"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:31",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

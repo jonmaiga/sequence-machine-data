@@ -1,0 +1,32 @@
+{
+  "description": "Number of right triangles of a given area required to form successively larger squares.",
+  "id": "A060626",
+  "mentions": [
+    "A000178",
+    "A002378",
+    "A007318",
+    "A008586",
+    "A016777",
+    "A016825",
+    "A035008",
+    "A056220",
+    "A091823",
+    "A132411",
+    "A188644",
+    "A348692",
+    "A349496",
+    "A349766"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:05",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

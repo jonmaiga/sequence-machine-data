@@ -1,0 +1,23 @@
+{
+  "description": "Odd composites (including 1 in the count) where the number 1 mod 4 equals the number 3 mod 4.",
+  "id": "A093180",
+  "mentions": [
+    "A007350",
+    "A007351",
+    "A038691",
+    "A093181",
+    "A093182"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

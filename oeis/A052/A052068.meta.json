@@ -1,0 +1,23 @@
+{
+  "description": "Palfree cubes whose root is the smallest possible greater than 10^n (palfree = contains no palindromic substring except single digits).",
+  "id": "A052068",
+  "mentions": [
+    "A052025",
+    "A052028",
+    "A052063",
+    "A052064",
+    "A052065",
+    "A052067"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

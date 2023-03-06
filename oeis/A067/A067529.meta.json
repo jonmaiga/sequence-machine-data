@@ -1,0 +1,21 @@
+{
+  "description": "n - 5^k is a prime for all k > 0 and n > 5^k.",
+  "id": "A067529",
+  "mentions": [
+    "A039669",
+    "A067526",
+    "A067527",
+    "A067528"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of strings of length n over GF(4) with trace 1 and subtrace x where x = RootOf(z^2+z+1).",
+  "id": "A073999",
+  "mentions": [
+    "A073995",
+    "A073996",
+    "A073997",
+    "A073998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:38:49",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

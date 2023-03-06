@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions of EulerPhi(x) = 12n + 2.",
+  "id": "A063667",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A014197",
+    "A017545"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

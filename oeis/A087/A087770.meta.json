@@ -1,0 +1,19 @@
+{
+  "description": "\"Lonely primes\": those primes that are locally maximally isolated from the nearest other primes. The differences between each lonely prime and the immediately preceding prime and following primes are both greater than the corresponding differences for all lonely primes earlier in the sequence.",
+  "id": "A087770",
+  "mentions": [
+    "A000230",
+    "A002386",
+    "A023186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

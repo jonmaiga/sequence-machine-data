@@ -1,0 +1,30 @@
+{
+  "description": "Non-palindromic numbers n, not divisible by 10, such that either n divides R(n) or R(n) divides n, where R(n) is the digit-reversal of n.",
+  "id": "A071685",
+  "mentions": [
+    "A001232",
+    "A004086",
+    "A008918",
+    "A008919",
+    "A031877",
+    "A055483",
+    "A069554",
+    "A103609",
+    "A214927",
+    "A222814",
+    "A222815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

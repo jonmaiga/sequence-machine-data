@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured number of irreducible multiple zeta values of depth n and weight 3n (confirmed up to n=7).",
+  "id": "A020999",
+  "mentions": [
+    "A014097"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:19:57",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

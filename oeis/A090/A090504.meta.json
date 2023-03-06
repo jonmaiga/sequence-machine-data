@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 1, numbers such that the differences a(k)-a(k-1) are distinct and every concatenation n>1 is prime.",
+  "id": "A090504",
+  "mentions": [
+    "A090505"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

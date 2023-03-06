@@ -1,0 +1,27 @@
+{
+  "description": "Sum of Gaussian binomial coefficients for q=11.",
+  "id": "A015197",
+  "mentions": [
+    "A006116",
+    "A006117",
+    "A006118",
+    "A006119",
+    "A006120",
+    "A006121",
+    "A006122",
+    "A015195",
+    "A015196",
+    "A022175"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

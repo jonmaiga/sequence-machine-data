@@ -1,0 +1,18 @@
+{
+  "description": "Twin lucky numbers: (n,m) are lucky numbers with |n-m|=2.",
+  "id": "A057701",
+  "mentions": [
+    "A000959"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

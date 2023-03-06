@@ -1,0 +1,20 @@
+{
+  "description": "Fourth diagonal (m=3) of triangle A084938; a(n) = A084938(n+3,n) = (n^3 + 9*n^2 + 26*n)/6.",
+  "id": "A092286",
+  "mentions": [
+    "A084938",
+    "A090238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:09:49",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

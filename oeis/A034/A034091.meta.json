@@ -1,0 +1,19 @@
+{
+  "description": "Records for sum of proper divisors function A001065.",
+  "id": "A034091",
+  "mentions": [
+    "A001065",
+    "A034090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

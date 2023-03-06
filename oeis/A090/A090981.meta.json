@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of Schroeder paths of length 2n and having k ascents.",
+  "id": "A090981",
+  "mentions": [
+    "A000295",
+    "A006318",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

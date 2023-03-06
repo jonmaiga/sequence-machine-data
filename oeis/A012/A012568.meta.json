@@ -1,0 +1,18 @@
+{
+  "description": "arctanh(sinh(x)*cos(x))=x-20/5!*x^5-560/7!*x^7-7920/9!*x^9...",
+  "id": "A012568",
+  "mentions": [
+    "A009357"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:23:08",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

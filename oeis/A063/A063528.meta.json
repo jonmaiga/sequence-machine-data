@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number such that it and its successor are both divisible by an n-th power larger than 1.",
+  "id": "A063528",
+  "mentions": [
+    "A045330",
+    "A051903",
+    "A051953",
+    "A059737",
+    "A068140",
+    "A068780",
+    "A068781",
+    "A068782",
+    "A068783",
+    "A068784"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

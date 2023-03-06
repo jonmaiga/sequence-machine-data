@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the largest number such that all numbers from 1 to a(n) can be expressed using first n terms of A091766.",
+  "id": "A091767",
+  "mentions": [
+    "A000244",
+    "A091766"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

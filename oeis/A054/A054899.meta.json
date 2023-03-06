@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k>0} floor(n/10^k).",
+  "id": "A054899",
+  "mentions": [
+    "A007953",
+    "A011371",
+    "A027868",
+    "A054861",
+    "A067080",
+    "A098844",
+    "A122840",
+    "A132027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

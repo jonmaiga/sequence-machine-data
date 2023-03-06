@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of continued fraction for left factorial.",
+  "id": "A056920",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Starting index of a string of exactly 2 consecutive equal digits in the decimal expansion of Pi.",
+  "id": "A049518",
+  "mentions": [
+    "A049514",
+    "A049523"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

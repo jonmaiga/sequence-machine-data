@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n numbers not occurring in the previous rows whose product is an n-th power. The first (n-1) numbers of the n-th row are the smallest number not occurring earlier and the n-th term is chosen to satisfy the requirement.",
+  "id": "A076099",
+  "mentions": [
+    "A076027",
+    "A076028",
+    "A076029",
+    "A076030",
+    "A076031",
+    "A076095",
+    "A076096",
+    "A076097",
+    "A076098"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

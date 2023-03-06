@@ -1,0 +1,20 @@
+{
+  "description": "Squares which when digits are rotated left once remain square.",
+  "id": "A035127",
+  "mentions": [
+    "A000290",
+    "A035131",
+    "A045878"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

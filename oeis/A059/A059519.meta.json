@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of n all of whose subpartitions sum to distinct values. Partition(n) = [a, b, c...] where 2n = 2^a + 2^b + 2^c + ...",
+  "id": "A059519",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A059520",
+    "A070939",
+    "A108917",
+    "A272020",
+    "A275972",
+    "A291166",
+    "A295235",
+    "A299702",
+    "A326015",
+    "A326669",
+    "A326675"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = T(n,n-5), array T as in A055801.",
+  "id": "A055805",
+  "mentions": [
+    "A055801",
+    "A055802",
+    "A055803",
+    "A055804",
+    "A055806"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:29:19",
+    "offset": 5,
+    "size": 42,
+    "source": "joeis"
+  }
+}

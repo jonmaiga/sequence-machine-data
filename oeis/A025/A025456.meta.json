@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 3 positive cubes.",
+  "id": "A025456",
+  "mentions": [
+    "A000578",
+    "A003072",
+    "A003108",
+    "A008917",
+    "A025395",
+    "A025396",
+    "A025398",
+    "A025418",
+    "A025455",
+    "A057904",
+    "A119977"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

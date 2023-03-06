@@ -1,0 +1,27 @@
+{
+  "description": "Number of 7's when n is written in base b for 2<=b<=n+1.",
+  "id": "A033107",
+  "mentions": [
+    "A033093",
+    "A033095",
+    "A033097",
+    "A033099",
+    "A033101",
+    "A033103",
+    "A033105",
+    "A033108",
+    "A033109",
+    "A033111"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:23",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

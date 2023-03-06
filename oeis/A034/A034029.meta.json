@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are primitively represented by (x^2+2y^2 with x >= y >= 0).",
+  "id": "A034029",
+  "mentions": [
+    "A002479",
+    "A034027",
+    "A057127"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:29",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

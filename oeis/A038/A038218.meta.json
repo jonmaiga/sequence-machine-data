@@ -1,0 +1,21 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*2^(i-j)*12^j (with i, j >= 0).",
+  "id": "A038218",
+  "mentions": [
+    "A001021",
+    "A001023"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:44",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

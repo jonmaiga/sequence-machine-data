@@ -1,0 +1,23 @@
+{
+  "description": "Palindromes that are the sum of the first n palindromes for some n.",
+  "id": "A046488",
+  "mentions": [
+    "A002113",
+    "A046486",
+    "A046487",
+    "A046489"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

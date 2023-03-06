@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the first k digits of log_10(2) after the decimal point are primes.",
+  "id": "A081102",
+  "mentions": [
+    "A007524"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

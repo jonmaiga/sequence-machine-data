@@ -1,0 +1,23 @@
+{
+  "description": "Compositorial numbers (A036691) + 1.",
+  "id": "A049650",
+  "mentions": [
+    "A000040",
+    "A006862",
+    "A018252",
+    "A036691",
+    "A060880"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

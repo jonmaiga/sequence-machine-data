@@ -1,0 +1,21 @@
+{
+  "description": "Third column of Jabotinsky-triangle A038455 related to A006963.",
+  "id": "A039646",
+  "mentions": [
+    "A006936",
+    "A006963",
+    "A038455",
+    "A039619"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

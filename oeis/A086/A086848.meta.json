@@ -1,0 +1,20 @@
+{
+  "description": "First differences are formed by interleaving {2^k - 1, k = 1, 2, 3, ...} and {11*k, k = 5, 4, 3, ...}.",
+  "id": "A086848",
+  "mentions": [
+    "A001068",
+    "A087098",
+    "A087099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

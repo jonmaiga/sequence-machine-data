@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of B-analogs of Stirling numbers of first kind.",
+  "id": "A039758",
+  "mentions": [
+    "A039757",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:21:48",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the coefficient of [x^n] in the Taylor expansion exp(cot(x) - cosech(x)).",
+  "id": "A013550",
+  "mentions": [
+    "A013537",
+    "A013541"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

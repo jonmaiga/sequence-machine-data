@@ -1,0 +1,26 @@
+{
+  "description": "Write the (n+1)st Fibonacci number in base 9 and juxtapose.",
+  "id": "A031111",
+  "mentions": [
+    "A004692",
+    "A030363",
+    "A030413",
+    "A030604",
+    "A031027",
+    "A031067",
+    "A031269"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:07",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let n=Sum(c(k)*2^k), c(k)=0,1, be the binary form of n, n=Sum(d(k)*5^k), d(k)=0,1,2,3,4 the base 5 form; then a(n)=Sum(c(k)+d(k)).",
+  "id": "A096289",
+  "mentions": [
+    "A010059",
+    "A010060",
+    "A095190"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

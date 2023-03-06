@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and sigma(n) are prime powers (of the form p^k, p prime, k>=1).",
+  "id": "A071114",
+  "mentions": [
+    "A000668",
+    "A070763",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

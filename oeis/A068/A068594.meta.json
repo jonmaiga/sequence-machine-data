@@ -1,0 +1,15 @@
+{
+  "description": "Factorable subsets: the number of subsets S of {1,2,...,n} that can be expressed in the form S=A*B, where B is defined to be the set {a(i)*b(j)| a(i) in A, b(j) in B}.",
+  "id": "A068594",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

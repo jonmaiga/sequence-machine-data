@@ -1,0 +1,17 @@
+{
+  "description": "T(2n,n+1), where T is the array defined in A025564.",
+  "id": "A025574",
+  "mentions": [
+    "A025564"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

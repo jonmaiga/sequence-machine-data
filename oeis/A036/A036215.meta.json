@@ -1,0 +1,22 @@
+{
+  "description": "Binary reversal of 3^n",
+  "id": "A036215",
+  "mentions": [
+    "A000244",
+    "A030101",
+    "A036213",
+    "A036214"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

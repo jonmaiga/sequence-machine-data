@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p-1 and p+1 are both divisible by cubes.",
+  "id": "A086708",
+  "mentions": [
+    "A000040",
+    "A046099",
+    "A089199",
+    "A089200",
+    "A162870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "1/6 the number of colorings of a 6 X 6 staggered hexagonal array with n colors.",
+  "id": "A068249",
+  "mentions": [
+    "A000332",
+    "A002417",
+    "A027441",
+    "A068239",
+    "A068305",
+    "A212194",
+    "A212195"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

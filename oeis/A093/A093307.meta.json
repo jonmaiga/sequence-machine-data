@@ -1,0 +1,20 @@
+{
+  "description": "k-th upper twin prime, where k is the n-th Fibonacci number.",
+  "id": "A093307",
+  "mentions": [
+    "A000045",
+    "A006512",
+    "A093306"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

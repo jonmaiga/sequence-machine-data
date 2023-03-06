@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are sums of 2 distinct positive cubes.",
+  "id": "A024670",
+  "mentions": [
+    "A000578",
+    "A003325",
+    "A003997",
+    "A004431",
+    "A004999",
+    "A024975",
+    "A114090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

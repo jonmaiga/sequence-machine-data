@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hamiltonian paths in a 5 X n grid starting at the lower left corner and finishing in the upper right corner.",
+  "id": "A014584",
+  "mentions": [
+    "A014585",
+    "A333580"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

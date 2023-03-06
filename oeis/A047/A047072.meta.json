@@ -1,0 +1,45 @@
+{
+  "description": "Array A read by diagonals: A(h,k)=number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and no step touches the line y=x unless x=0 or x=h.",
+  "id": "A047072",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000096",
+    "A000108",
+    "A000180",
+    "A000245",
+    "A000344",
+    "A000588",
+    "A001392",
+    "A002057",
+    "A002420",
+    "A003517",
+    "A003518",
+    "A003519",
+    "A005586",
+    "A009766",
+    "A025174",
+    "A030237",
+    "A033184",
+    "A047073",
+    "A047074",
+    "A047079",
+    "A059365",
+    "A063886",
+    "A099039",
+    "A106566",
+    "A130020"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:59:01",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

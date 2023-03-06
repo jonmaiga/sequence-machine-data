@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that ((n-1)! + 1)/n is prime.",
+  "id": "A050299",
+  "mentions": [
+    "A000720",
+    "A007619",
+    "A122696",
+    "A225906"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

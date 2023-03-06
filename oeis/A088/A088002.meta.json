@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1+x^2)/(1+x^2+x^5).",
+  "id": "A088002",
+  "mentions": [
+    "A011746"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

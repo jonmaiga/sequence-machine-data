@@ -1,0 +1,37 @@
+{
+  "description": "Maximal exponent in prime factorization of n.",
+  "id": "A051903",
+  "mentions": [
+    "A001055",
+    "A001221",
+    "A002322",
+    "A003557",
+    "A005361",
+    "A008479",
+    "A028234",
+    "A033150",
+    "A051904",
+    "A052409",
+    "A067029",
+    "A091050",
+    "A124010",
+    "A128651",
+    "A129132",
+    "A215366",
+    "A327295",
+    "A328310",
+    "A329885"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

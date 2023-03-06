@@ -1,0 +1,33 @@
+{
+  "description": "Number of topologically connected set partitions of {1,...,n}.",
+  "id": "A099947",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A001187",
+    "A007297",
+    "A016098",
+    "A092918",
+    "A268814",
+    "A268815",
+    "A305078",
+    "A306438",
+    "A323818",
+    "A324166",
+    "A324172",
+    "A324173"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

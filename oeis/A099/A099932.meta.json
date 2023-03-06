@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: nonzero coefficients of polynomials 2^n*E(n,x), with E the Euler polynomials.",
+  "id": "A099932",
+  "mentions": [
+    "A004174",
+    "A004175",
+    "A009006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

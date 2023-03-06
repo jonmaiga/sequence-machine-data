@@ -1,0 +1,21 @@
+{
+  "description": "Repeating part of A085191.",
+  "id": "A085190",
+  "mentions": [
+    "A081291",
+    "A085189",
+    "A085191",
+    "A085193"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

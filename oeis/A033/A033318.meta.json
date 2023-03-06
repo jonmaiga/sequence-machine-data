@@ -1,0 +1,18 @@
+{
+  "description": "Least D in the Pellian x^2 - D*y^2 = 1 for which y has least solution n.",
+  "id": "A033318",
+  "mentions": [
+    "A000037",
+    "A033317"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

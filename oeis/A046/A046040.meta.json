@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of 6 but no fewer positive cubes.",
+  "id": "A046040",
+  "mentions": [
+    "A000578",
+    "A003072",
+    "A003325",
+    "A003327",
+    "A003328",
+    "A018889",
+    "A018890"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "First and smallest sequence of 6 consecutive primes in arithmetic progression.",
+  "id": "A081734",
+  "mentions": [
+    "A006560",
+    "A058362"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

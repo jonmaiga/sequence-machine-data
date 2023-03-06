@@ -1,0 +1,19 @@
+{
+  "description": "Composition length of the n-th symmetric power of the natural representation of a finite subgroup of SL(2,C) of type E_7 (binary octahedral group).",
+  "id": "A087504",
+  "mentions": [
+    "A008647"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:17",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a[n]=C[n,j]-Mod[C[n,j],n^2], difference of binomial coefficients and its residue mod n^2 read by rows.",
+  "id": "A094496",
+  "mentions": [
+    "A007318",
+    "A053200",
+    "A094495",
+    "A094497"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

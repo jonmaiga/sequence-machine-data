@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,m) counts partitions of n that (just) fit inside an m X m box, but not in an (m-1) X (m-1) box. Partitions of n with Max(max part, length)= m.",
+  "id": "A096771",
+  "mentions": [
+    "A000041",
+    "A051924",
+    "A065770",
+    "A096272",
+    "A096597",
+    "A115720",
+    "A115994",
+    "A252464",
+    "A257990",
+    "A263297",
+    "A325169",
+    "A325178",
+    "A325188",
+    "A325189",
+    "A325192",
+    "A325193",
+    "A325195",
+    "A325200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

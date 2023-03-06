@@ -1,0 +1,22 @@
+{
+  "description": "Consider smallest m such that m^2 = x_1^2 + ... + x_n^2 with 0 < x_1 < ... < x_n. Sequence gives least value of x_n.",
+  "id": "A018937",
+  "mentions": [
+    "A018935",
+    "A018936",
+    "A103411",
+    "A103412",
+    "A103413",
+    "A103414"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

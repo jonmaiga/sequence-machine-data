@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that appear at most once in A096607.",
+  "id": "A096604",
+  "mentions": [
+    "A096602",
+    "A096603",
+    "A096605",
+    "A096607"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

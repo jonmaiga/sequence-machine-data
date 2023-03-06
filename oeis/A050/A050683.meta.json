@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonzero palindromes of length n.",
+  "id": "A050683",
+  "mentions": [
+    "A002113",
+    "A016115",
+    "A016116",
+    "A050250",
+    "A050251",
+    "A070199",
+    "A070252",
+    "A117855",
+    "A225367"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

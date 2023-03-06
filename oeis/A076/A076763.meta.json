@@ -1,0 +1,18 @@
+{
+  "description": "1-apexes of omega: numbers n such that omega(n-1) < omega(n) > omega(n+1), where omega(m) = the number of distinct prime factors of m.",
+  "id": "A076763",
+  "mentions": [
+    "A001221",
+    "A101932"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

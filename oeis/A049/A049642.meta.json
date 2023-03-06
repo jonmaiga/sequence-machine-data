@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of n does not divide sum of divisors of n.",
+  "id": "A049642",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A054025",
+    "A245656"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n and tau(n) = A000005(n) have the same prime factors (ignoring multiplicity).",
+  "id": "A081381",
+  "mentions": [
+    "A000005",
+    "A027598",
+    "A055744",
+    "A065642",
+    "A081377",
+    "A081380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

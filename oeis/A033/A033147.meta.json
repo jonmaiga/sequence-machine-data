@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the decimal expansion of k! begins with k.",
+  "id": "A033147",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

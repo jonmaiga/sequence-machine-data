@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer not representable as the sum of at most n distinct numbers of form 2^a*3^b.",
+  "id": "A018899",
+  "mentions": [
+    "A003586",
+    "A172116",
+    "A237442"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

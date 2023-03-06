@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 13, a(n) is the smallest prime obtained by inserting digits between every pair of digits of a(n-1).",
+  "id": "A080440",
+  "mentions": [
+    "A080439",
+    "A080441",
+    "A080442",
+    "A080883",
+    "A080914"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n/10) + 2*(n mod 10).",
+  "id": "A076312",
+  "mentions": [
+    "A008601",
+    "A010879",
+    "A059995",
+    "A076309",
+    "A076310",
+    "A076311"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

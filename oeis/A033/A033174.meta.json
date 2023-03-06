@@ -1,0 +1,19 @@
+{
+  "description": "Number of days in n years (n=1 is the first leap year).",
+  "id": "A033174",
+  "mentions": [
+    "A033171"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:33",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

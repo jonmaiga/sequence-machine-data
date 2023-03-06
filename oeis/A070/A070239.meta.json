@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1; a(2) = 2; a(n) = sigma_a[n-2] (a[n-1]), n > 2, where sigma_k (n) denotes the sum of the k-th powers of the divisors of n.",
+  "id": "A070239",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Beginning of n consecutive quadratic residues mod A025046(n).",
+  "id": "A048282",
+  "mentions": [
+    "A025046"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary [ n,5 ] codes.",
+  "id": "A034359",
+  "mentions": [
+    "A034253",
+    "A034254",
+    "A034346",
+    "A034356",
+    "A076831"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

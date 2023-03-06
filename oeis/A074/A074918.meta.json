@@ -1,0 +1,20 @@
+{
+  "description": "Highly imperfect numbers: n sets a record for the value of abs(sigma(n)-2*n) (absolute value of A033879).",
+  "id": "A074918",
+  "mentions": [
+    "A033879",
+    "A075728"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array T(n,k) (n >= 1, k >= 1) read by antidiagonals, giving number of ways of arranging the numbers 1 ... mn into an m X n array so there is exactly one local maximum.",
+  "id": "A087783",
+  "mentions": [
+    "A000079",
+    "A007846",
+    "A087518",
+    "A087923",
+    "A087932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

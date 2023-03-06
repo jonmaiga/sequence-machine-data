@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 and k^3 do not have any common digits.",
+  "id": "A029787",
+  "mentions": [
+    "A029788",
+    "A029789",
+    "A359105"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

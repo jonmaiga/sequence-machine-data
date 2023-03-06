@@ -1,0 +1,29 @@
+{
+  "description": "Number of bracelets (turnover necklaces) of n beads of 2 colors, 5 of them black.",
+  "id": "A032279",
+  "mentions": [
+    "A000011",
+    "A005514",
+    "A008646",
+    "A008805",
+    "A032280",
+    "A032281",
+    "A032282",
+    "A052307",
+    "A119963",
+    "A292906"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:00:33",
+    "offset": 5,
+    "size": 43,
+    "source": "joeis"
+  }
+}

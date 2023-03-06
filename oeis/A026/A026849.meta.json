@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = T(2n,n-3), T given by A026736.",
+  "id": "A026849",
+  "mentions": [
+    "A000108",
+    "A026736",
+    "A026842",
+    "A026846",
+    "A236830"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

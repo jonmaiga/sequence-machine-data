@@ -1,0 +1,25 @@
+{
+  "description": "Remainder when 2nd order prime pp(n)=A006450(n) is divided by n.",
+  "id": "A076241",
+  "mentions": [
+    "A006450",
+    "A038580",
+    "A049090",
+    "A049202",
+    "A049203",
+    "A057809",
+    "A076240",
+    "A076243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:05",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

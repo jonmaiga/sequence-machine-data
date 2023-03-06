@@ -1,0 +1,33 @@
+{
+  "description": "Smallest squarefree integer k such that Q(sqrt(k)) has class number n.",
+  "id": "A081363",
+  "mentions": [
+    "A029702",
+    "A029703",
+    "A029704",
+    "A029705",
+    "A081319",
+    "A081364",
+    "A094612",
+    "A094613",
+    "A094614",
+    "A094619",
+    "A218038",
+    "A218039",
+    "A218040",
+    "A218041",
+    "A218042",
+    "A219361",
+    "A276541"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

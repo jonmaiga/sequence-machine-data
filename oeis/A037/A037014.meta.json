@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n with property that reading binary expansion from right to left (from least significant to most significant), run lengths do not increase.",
+  "id": "A037014",
+  "mentions": [
+    "A037013",
+    "A037015",
+    "A037016"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

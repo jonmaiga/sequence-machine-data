@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = LCM of divisors of n which are <= sqrt(n).",
+  "id": "A072504",
+  "mentions": [
+    "A072499",
+    "A072505",
+    "A161906"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

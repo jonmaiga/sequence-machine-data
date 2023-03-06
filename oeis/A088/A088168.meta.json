@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that A088167(m)=n.",
+  "id": "A088168",
+  "mentions": [
+    "A088167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

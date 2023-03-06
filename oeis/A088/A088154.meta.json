@@ -1,0 +1,27 @@
+{
+  "description": "Value of n-th digit in duodecimal representation of n^n.",
+  "id": "A088154",
+  "mentions": [
+    "A000312",
+    "A088150",
+    "A088151",
+    "A088152",
+    "A088153",
+    "A088155",
+    "A088156",
+    "A088157",
+    "A210240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

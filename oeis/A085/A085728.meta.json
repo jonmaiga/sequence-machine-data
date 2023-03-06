@@ -1,0 +1,18 @@
+{
+  "description": "There are never n semiprimes between any k and 2k; or values which do not occur in the sequence of number of semiprimes between n and 2n (inclusive).",
+  "id": "A085728",
+  "mentions": [
+    "A001358",
+    "A085727"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

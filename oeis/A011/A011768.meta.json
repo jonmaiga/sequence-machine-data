@@ -1,0 +1,18 @@
+{
+  "description": "Number of Barlow packings that repeat after exactly n layers.",
+  "id": "A011768",
+  "mentions": [
+    "A114438"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:19:04",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

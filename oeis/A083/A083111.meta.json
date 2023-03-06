@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal of A083110.",
+  "id": "A083111",
+  "mentions": [
+    "A083110",
+    "A083112",
+    "A083113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of n as a sum of two primes that are not congruent modulo 3.",
+  "id": "A074169",
+  "mentions": [
+    "A078646",
+    "A078647",
+    "A078648"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

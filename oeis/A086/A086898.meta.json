@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} tau(d-1).",
+  "id": "A086898",
+  "mentions": [
+    "A000005",
+    "A049822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

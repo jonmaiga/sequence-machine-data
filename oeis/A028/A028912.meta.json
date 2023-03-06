@@ -1,0 +1,20 @@
+{
+  "description": "Sort digits of primes into descending order (A028906), sort this sequence into ascending order (A028911), then remove duplicates.",
+  "id": "A028912",
+  "mentions": [
+    "A028906",
+    "A028911"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:41",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

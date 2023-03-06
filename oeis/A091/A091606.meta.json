@@ -1,0 +1,20 @@
+{
+  "description": "Column 3 of triangle A091602.",
+  "id": "A091606",
+  "mentions": [
+    "A000726",
+    "A001935",
+    "A091602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 3,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Generalized Stirling2 array (4,3).",
+  "id": "A090440",
+  "mentions": [
+    "A008279",
+    "A016777",
+    "A070531",
+    "A090438",
+    "A091028"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 'convex' partitions of n; i.e., partitions of n for which the Ferrers graph is the intersection of a convex set and the integer lattice.",
+  "id": "A074658",
+  "mentions": [
+    "A000041",
+    "A074659",
+    "A074660"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

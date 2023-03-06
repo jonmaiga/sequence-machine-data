@@ -1,0 +1,20 @@
+{
+  "description": "2n*S2(n-1,2).",
+  "id": "A052749",
+  "mentions": [
+    "A000918",
+    "A260006"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:00:23",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

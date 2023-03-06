@@ -1,0 +1,18 @@
+{
+  "description": "Satisfies a(1)=1, a(2)=2, a(n+2)=a(n+1)+A087159(n)+1.",
+  "id": "A087160",
+  "mentions": [
+    "A087159",
+    "A087161"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

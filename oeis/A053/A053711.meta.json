@@ -1,0 +1,25 @@
+{
+  "description": "Numbers d such that, for some k, the upper and lower primes closest to k! are k! + d and k! - d.",
+  "id": "A053711",
+  "mentions": [
+    "A006562",
+    "A006990",
+    "A033932",
+    "A033933",
+    "A037151",
+    "A053709",
+    "A053710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

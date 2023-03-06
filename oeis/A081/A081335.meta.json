@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (6^n + 2^n)/2.",
+  "id": "A081335",
+  "mentions": [
+    "A034478",
+    "A081336",
+    "A098158"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

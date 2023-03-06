@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A046195(n) mod 5.",
+  "id": "A082999",
+  "mentions": [
+    "A046195"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:15",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

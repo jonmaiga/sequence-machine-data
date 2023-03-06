@@ -1,0 +1,22 @@
+{
+  "description": "\"DHK[ 6 ]\" (bracelet, identity, unlabeled, 6 parts) transform of 1,1,1,1,...",
+  "id": "A032247",
+  "mentions": [
+    "A008804",
+    "A032246",
+    "A032248",
+    "A032249",
+    "A032250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:00:13",
+    "offset": 9,
+    "size": 38,
+    "source": "joeis"
+  }
+}

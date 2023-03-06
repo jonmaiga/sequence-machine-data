@@ -1,0 +1,32 @@
+{
+  "description": "Convolution triangle based on A008619 (positive integers repeated).",
+  "id": "A059594",
+  "mentions": [
+    "A006054",
+    "A006918",
+    "A008619",
+    "A038163",
+    "A038164",
+    "A038165",
+    "A038166",
+    "A053121",
+    "A059595",
+    "A059596",
+    "A059597",
+    "A059598",
+    "A059625"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

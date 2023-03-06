@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=1..n} prime(2k), where prime(k) is the k-th prime.",
+  "id": "A066206",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A066205"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

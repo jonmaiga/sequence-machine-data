@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=n plus the sorted version of the base-10 digits of n.",
+  "id": "A070196",
+  "mentions": [
+    "A004185",
+    "A033860",
+    "A033862"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n for which the number consisting of a string of n 3's and a terminal 1 is not prime.",
+  "id": "A089017",
+  "mentions": [
+    "A055520",
+    "A055557",
+    "A089018"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

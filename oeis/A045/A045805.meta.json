@@ -1,0 +1,24 @@
+{
+  "description": "5-ish numbers (end in 51, 57, 93, 99).",
+  "id": "A045805",
+  "mentions": [
+    "A045572",
+    "A045797",
+    "A045798",
+    "A045800",
+    "A045809"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:26:01",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

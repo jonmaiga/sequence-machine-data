@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n matrices over GF(2) with characteristic polynomial x^(n-1) * (x-1).",
+  "id": "A088668",
+  "mentions": [
+    "A088671",
+    "A088852",
+    "A088853"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

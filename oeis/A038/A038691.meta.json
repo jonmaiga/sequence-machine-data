@@ -1,0 +1,29 @@
+{
+  "description": "Indices of primes at which the prime race 4k-1 vs. 4k+1 is tied.",
+  "id": "A038691",
+  "mentions": [
+    "A002145",
+    "A002313",
+    "A007350",
+    "A007351",
+    "A038698",
+    "A051024",
+    "A051025",
+    "A066520",
+    "A096447",
+    "A096448",
+    "A096628",
+    "A156749",
+    "A199547"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

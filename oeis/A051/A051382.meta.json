@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k whose base 3 expansion matches (0|1)*(02)?(0|1)* (no more than one \"02\" allowed in midst of 0's and 1's).",
+  "id": "A051382",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A005836",
+    "A037468",
+    "A046097",
+    "A048645",
+    "A117966",
+    "A249719",
+    "A249720",
+    "A249721"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

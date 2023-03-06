@@ -1,0 +1,27 @@
+{
+  "description": "Positive numbers n such that n = 3*y^2 - x^2 with integers x, y.",
+  "id": "A084917",
+  "mentions": [
+    "A001075",
+    "A001835",
+    "A003500",
+    "A031363",
+    "A035251",
+    "A077238",
+    "A082841",
+    "A141123",
+    "A237250",
+    "A237351"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

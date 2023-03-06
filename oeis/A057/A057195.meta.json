@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 2^n + 7 is prime.",
+  "id": "A057195",
+  "mentions": [
+    "A104066"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

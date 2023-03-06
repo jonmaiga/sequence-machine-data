@@ -1,0 +1,15 @@
+{
+  "description": "sin(sec(x)*arcsin(x))=x+3/3!*x^3+5/5!*x^5-889/7!*x^7-82167/9!*x^9...",
+  "id": "A012783",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:11:59",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

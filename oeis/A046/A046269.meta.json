@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime substring in 3^n (0 if none).",
+  "id": "A046269",
+  "mentions": [
+    "A046261"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:17:31",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

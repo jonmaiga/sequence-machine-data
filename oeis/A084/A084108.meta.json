@@ -1,0 +1,27 @@
+{
+  "description": "A014486-indices of \"Complete Binary Trees\".",
+  "id": "A084108",
+  "mentions": [
+    "A014486",
+    "A057117",
+    "A069767",
+    "A069768",
+    "A080274",
+    "A080298",
+    "A080300",
+    "A083940",
+    "A083942",
+    "A084107"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

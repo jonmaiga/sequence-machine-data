@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps >= 1 for iteration of map x -> (4/3)*ceiling(x) to reach an integer when started at n, or -1 if no such integer is ever reached.",
+  "id": "A085068",
+  "mentions": [
+    "A083514",
+    "A085058",
+    "A085071",
+    "A085328",
+    "A085330"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

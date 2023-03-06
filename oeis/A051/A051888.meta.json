@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime p such that p*n! + 1 is prime.",
+  "id": "A051888",
+  "mentions": [
+    "A005384",
+    "A051686",
+    "A051886",
+    "A051887",
+    "A064983"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of the geometric mean of the n-th prime prime(n) and the n-th composite number C(n).",
+  "id": "A071260",
+  "mentions": [
+    "A071259"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:55",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

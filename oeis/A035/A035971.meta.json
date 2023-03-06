@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into parts not of the form 19k, 19k+2 or 19k-2. Also number of partitions with 1 part of size 1 and differences between parts at distance 8 are greater than 1.",
+  "id": "A035971",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:03",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

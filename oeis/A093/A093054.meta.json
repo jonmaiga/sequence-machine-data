@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of a constant x such that the n-th partial quotient of the continued fraction of x equals floor(2^n*x), for n>=0.",
+  "id": "A093054",
+  "mentions": [
+    "A093053"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

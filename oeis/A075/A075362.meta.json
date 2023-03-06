@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows with the n-th row containing the first n multiples of n.",
+  "id": "A075362",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A002411",
+    "A003991",
+    "A023855",
+    "A050873",
+    "A051173",
+    "A066680",
+    "A141419",
+    "A215630",
+    "A215631",
+    "A223544"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

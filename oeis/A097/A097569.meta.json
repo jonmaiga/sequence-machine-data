@@ -1,0 +1,20 @@
+{
+  "description": "Right-truncatable Harshad numbers (zeros not permitted).",
+  "id": "A097569",
+  "mentions": [
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

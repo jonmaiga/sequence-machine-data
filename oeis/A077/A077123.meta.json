@@ -1,0 +1,15 @@
+{
+  "description": "Let M_n be the n X n matrix M_(i,j) = i!-j! then the characteristic polynomial of M_n = x^n+a(n)*x^(n-2).",
+  "id": "A077123",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

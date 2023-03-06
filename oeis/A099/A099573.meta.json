@@ -1,0 +1,30 @@
+{
+  "description": "Reverse of number triangle A054450.",
+  "id": "A099573",
+  "mentions": [
+    "A000045",
+    "A029907",
+    "A052951",
+    "A052952",
+    "A054450",
+    "A054451",
+    "A099571",
+    "A099572",
+    "A099574",
+    "A099575",
+    "A128174"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:19",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Array A(n, k) = n^k * k^n, n, k >= 0, read by antidiagonals.",
+  "id": "A062275",
+  "mentions": [
+    "A000007",
+    "A001477",
+    "A003992",
+    "A004248",
+    "A007758",
+    "A051443",
+    "A051490",
+    "A055651",
+    "A055652",
+    "A062074",
+    "A062075",
+    "A062206",
+    "A062817",
+    "A303990"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

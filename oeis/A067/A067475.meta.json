@@ -1,0 +1,22 @@
+{
+  "description": "Smallest n-digit square starting with 5.",
+  "id": "A067475",
+  "mentions": [
+    "A035072",
+    "A045788",
+    "A067479"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "tan(arctanh(x)*arcsinh(x))=2/2!*x^2+4/4!*x^4+398/6!*x^6+10344/8!*x^8...",
+  "id": "A012753",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:16:31",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

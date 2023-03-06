@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = 1; a(n) = n^(n-1)(3n-1)/2 (n>0)",
+  "id": "A081918",
+  "mentions": [
+    "A000124",
+    "A081908",
+    "A081909",
+    "A081910",
+    "A081911",
+    "A081912"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

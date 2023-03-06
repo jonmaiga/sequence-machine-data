@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-dimensional integer direction vectors (a,b,c) towards grid points at squared integer distance 2n-1.",
+  "id": "A049319",
+  "mentions": [
+    "A049317",
+    "A049318"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Apart from the initial term (0), each a(n) is representable as a sum of distinct odd-indexed Fibonacci numbers.",
+  "id": "A062877",
+  "mentions": [
+    "A022290",
+    "A036796",
+    "A050614",
+    "A054204",
+    "A062878",
+    "A062879"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

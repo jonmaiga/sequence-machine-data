@@ -1,0 +1,23 @@
+{
+  "description": "Number of asymmetric digraphs with n nodes.",
+  "id": "A051504",
+  "mentions": [
+    "A000273",
+    "A003400",
+    "A030242",
+    "A067309"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

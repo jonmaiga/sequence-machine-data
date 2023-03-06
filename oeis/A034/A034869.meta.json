@@ -1,0 +1,24 @@
+{
+  "description": "Right half of Pascal's triangle.",
+  "id": "A034869",
+  "mentions": [
+    "A007318",
+    "A008619",
+    "A014413",
+    "A014462",
+    "A034868",
+    "A110654"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:49",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

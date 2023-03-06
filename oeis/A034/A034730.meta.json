@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet convolution of b_n=1 with c_n=3^(n-1).",
+  "id": "A034730",
+  "mentions": [
+    "A034729"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

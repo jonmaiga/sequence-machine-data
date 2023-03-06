@@ -1,0 +1,22 @@
+{
+  "description": "Determinant of the circulant matrix whose rows are formed by successively rotating the vector (1, 2, 4, 8, ..., 2^(n-1)) right.",
+  "id": "A086459",
+  "mentions": [
+    "A048954",
+    "A052182",
+    "A066933",
+    "A180602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

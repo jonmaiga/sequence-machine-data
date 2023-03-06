@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers n such that A076078(n) > n, where A076078(n) equals the number of sets of distinct positive integers with a least common multiple of n.",
+  "id": "A097217",
+  "mentions": [
+    "A076078",
+    "A097214",
+    "A097216",
+    "A097218"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Truncated triangular pyramid numbers: a(n) = Sum_{k=9..n} (k*(k+1)/2 - 45).",
+  "id": "A051943",
+  "mentions": [
+    "A000292"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:51",
+    "offset": 9,
+    "size": 42,
+    "source": "joeis"
+  }
+}

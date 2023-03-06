@@ -1,0 +1,19 @@
+{
+  "description": "Deficiency of n-th deficient number: 2k - sigma(k) for k such that this is > 0.",
+  "id": "A033884",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A033879"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

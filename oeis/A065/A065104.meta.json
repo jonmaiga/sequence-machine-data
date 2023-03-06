@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that for no m between k^2 and (k+1)^2 - 1 is it true that A003285(m) = A003285(m+1).",
+  "id": "A065104",
+  "mentions": [
+    "A003285",
+    "A288186"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

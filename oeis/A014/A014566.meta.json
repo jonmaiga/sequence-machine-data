@@ -1,0 +1,28 @@
+{
+  "description": "Sierpiński numbers of the first kind: n^n + 1.",
+  "id": "A014566",
+  "mentions": [
+    "A000312",
+    "A003628",
+    "A048861",
+    "A056852",
+    "A081216",
+    "A121270",
+    "A121999",
+    "A122000",
+    "A124899",
+    "A134883"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

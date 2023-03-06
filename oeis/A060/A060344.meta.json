@@ -1,0 +1,19 @@
+{
+  "description": "For n >= 2, let N_n denote the set of all unipotent upper-triangular real n X n matrices A such that for every k=1,2,...,n-1 the minor of A with rows 1,2,...,k and columns n-k+1,...,n is nonzero. a(n) is the number of connected components of N_n.",
+  "id": "A060344",
+  "mentions": [
+    "A003945"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

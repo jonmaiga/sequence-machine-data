@@ -1,0 +1,17 @@
+{
+  "description": "Least positive k such that n^n divides k!.",
+  "id": "A093896",
+  "mentions": [
+    "A093897"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Period of continued fraction for sqrt(n^2+3), n >= 2.",
+  "id": "A059853",
+  "mentions": [
+    "A003285",
+    "A059854",
+    "A059855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 2,
+    "size": 78,
+    "source": "joeis"
+  }
+}

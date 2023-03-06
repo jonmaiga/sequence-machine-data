@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of twin primes whose average is 6 times a prime.",
+  "id": "A060213",
+  "mentions": [
+    "A001359",
+    "A001454",
+    "A002822",
+    "A027856",
+    "A058383",
+    "A059960",
+    "A060212"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

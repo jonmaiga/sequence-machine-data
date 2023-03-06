@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms in n-th cyclotomic polynomial minus largest prime factor of n; a(1)=1 by convention.",
+  "id": "A070536",
+  "mentions": [
+    "A006530",
+    "A051664",
+    "A070537",
+    "A070776",
+    "A318886"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

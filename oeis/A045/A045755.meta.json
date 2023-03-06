@@ -1,0 +1,27 @@
+{
+  "description": "8-fold factorials: a(n) = Product_{k=0..n-1} (8*k+1).",
+  "id": "A045755",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A007559",
+    "A007696",
+    "A008542",
+    "A008548",
+    "A045754",
+    "A048994",
+    "A051187",
+    "A113135"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

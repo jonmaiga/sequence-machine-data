@@ -1,0 +1,26 @@
+{
+  "description": "Starting index of a string of 3 or more consecutive equal digits in decimal expansion of Pi.",
+  "id": "A049515",
+  "mentions": [
+    "A049514",
+    "A049516",
+    "A049517",
+    "A049518",
+    "A049519",
+    "A049520",
+    "A049521",
+    "A049522",
+    "A049523"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:50:48",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having exactly one divisor d>1 such that also d+1 is a divisor.",
+  "id": "A088724",
+  "mentions": [
+    "A088722",
+    "A088723",
+    "A088725",
+    "A088726"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

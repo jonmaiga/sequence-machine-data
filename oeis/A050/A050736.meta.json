@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of form 6^k (values of k see A050727) containing no pair of consecutive equal digits (probably finite).",
+  "id": "A050736",
+  "mentions": [
+    "A043096",
+    "A050727"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

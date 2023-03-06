@@ -1,0 +1,20 @@
+{
+  "description": "Least nontrivial exponent e such that n is a substring of n^e.",
+  "id": "A045537",
+  "mentions": [
+    "A051248",
+    "A070327",
+    "A104782"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Sextuple factorials, 6-factorials, n!!!!!!, n!6.",
+  "id": "A085158",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A007661",
+    "A007662",
+    "A008542",
+    "A008543",
+    "A011781",
+    "A047058",
+    "A047657",
+    "A049308",
+    "A051592",
+    "A085150",
+    "A085157",
+    "A288093"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

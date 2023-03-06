@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) arising from enumeration of permutations with ordered orbits, read by rows (1<=k<=n).",
+  "id": "A059418",
+  "mentions": [
+    "A001710",
+    "A006595",
+    "A109822",
+    "A130534"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

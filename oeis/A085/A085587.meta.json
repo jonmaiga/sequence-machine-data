@@ -1,0 +1,27 @@
+{
+  "description": "Eventual period of a single cell in rule 90 cellular automaton in a cyclic universe of width n.",
+  "id": "A085587",
+  "mentions": [
+    "A085588",
+    "A085589",
+    "A085590",
+    "A085591",
+    "A085592",
+    "A085593",
+    "A085595",
+    "A180001",
+    "A334496",
+    "A334499",
+    "A334515"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

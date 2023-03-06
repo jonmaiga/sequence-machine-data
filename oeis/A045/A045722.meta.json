@@ -1,0 +1,18 @@
+{
+  "description": "Number of border edges in all noncrossing rooted trees on n nodes.",
+  "id": "A045722",
+  "mentions": [
+    "A026004"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

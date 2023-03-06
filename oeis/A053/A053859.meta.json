@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n matrices over GF(4) of order dividing 4 (i.e., number of solutions of X^4=I in GL(n,4)).",
+  "id": "A053859",
+  "mentions": [
+    "A053718"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

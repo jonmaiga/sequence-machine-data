@@ -1,0 +1,17 @@
+{
+  "description": "Let a(1)=1; for n>1, a(n)=nextprime((Pi/2)*a(n-1)).",
+  "id": "A084572",
+  "mentions": [
+    "A084571"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

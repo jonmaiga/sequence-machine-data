@@ -1,0 +1,22 @@
+{
+  "description": "Number of graphs with loops, having unlabeled (non-isolated) nodes and n labeled edges.",
+  "id": "A014501",
+  "mentions": [
+    "A014500",
+    "A020554",
+    "A020555",
+    "A038205",
+    "A331161"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Count of primitive roots p = 2 or 1 mod 4 of elements in A084167.",
+  "id": "A084168",
+  "mentions": [
+    "A084167"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

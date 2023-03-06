@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2*n*k(n) is rational but not an integer, where k(n) is sum of successive remainders when computing the Euclidean algorithm for (1, 1/sqrt(n)) as defined in A086378 (MuPAD program is given there); numbers belonging to A086378 but not to A088900.",
+  "id": "A087414",
+  "mentions": [
+    "A086378",
+    "A088900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

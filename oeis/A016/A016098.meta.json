@@ -1,0 +1,29 @@
+{
+  "description": "Number of crossing set partitions of {1,2,...,n}.",
+  "id": "A016098",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A000217",
+    "A001006",
+    "A001263",
+    "A080107",
+    "A085082",
+    "A125181",
+    "A134264",
+    "A194560",
+    "A306417",
+    "A306437"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

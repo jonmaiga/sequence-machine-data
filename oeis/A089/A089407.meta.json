@@ -1,0 +1,24 @@
+{
+  "description": "Number of cycles in range [A014137(n-1)..A014138(n-1)] of permutation A089859/A089863.",
+  "id": "A089407",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A089408",
+    "A089859",
+    "A089863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

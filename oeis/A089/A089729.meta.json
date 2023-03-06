@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Levy's constant 12*log(2)/Pi^2.",
+  "id": "A089729",
+  "mentions": [
+    "A086237",
+    "A086702"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

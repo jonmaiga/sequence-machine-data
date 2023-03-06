@@ -1,0 +1,21 @@
+{
+  "description": "Let m = A013929(n); then a(n) = smallest k such that m divides k^3.",
+  "id": "A015050",
+  "mentions": [
+    "A013929",
+    "A015049",
+    "A015051",
+    "A019555"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

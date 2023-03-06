@@ -1,0 +1,19 @@
+{
+  "description": "Decimal part of n-th root of a(n) starts with digit 6.",
+  "id": "A034083",
+  "mentions": [
+    "A034063",
+    "A034073"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A072475(n) divides A071221(n).",
+  "id": "A080805",
+  "mentions": [
+    "A071221",
+    "A072475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Squares which are palindromes in base 9.",
+  "id": "A029995",
+  "mentions": [
+    "A002779",
+    "A029734",
+    "A029738",
+    "A029806",
+    "A029983",
+    "A029985",
+    "A029987",
+    "A029989",
+    "A029991",
+    "A029993",
+    "A029997",
+    "A029999",
+    "A030074",
+    "A030075"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:40:07",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

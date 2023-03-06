@@ -1,0 +1,24 @@
+{
+  "description": "Number of divisors of A036035(n,k).",
+  "id": "A074139",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A036035",
+    "A074140",
+    "A074141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

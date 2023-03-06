@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: number of mobiles (circular rooted trees) with n nodes and k leaves.",
+  "id": "A055340",
+  "mentions": [
+    "A002620",
+    "A032200",
+    "A055341",
+    "A055342",
+    "A055343",
+    "A055344",
+    "A055345",
+    "A055346",
+    "A055347",
+    "A055348",
+    "A055349",
+    "A055356",
+    "A055363"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

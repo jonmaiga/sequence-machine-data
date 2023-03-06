@@ -1,0 +1,22 @@
+{
+  "description": "Second step in Goodstein sequences, i.e., g(4) if g(2)=n: (first step) write g(2)=n in hereditary representation base 2, bump to base 3, then subtract 1 to produce g(3)=A056004(n), then (second step) write g(3) in hereditary representation base 3, bump to base 4, then subtract 1 to produce g(4).",
+  "id": "A057650",
+  "mentions": [
+    "A056004",
+    "A059933",
+    "A059934",
+    "A059935",
+    "A059936",
+    "A211378"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the maximal row sum in the character table of the symmetric group S_n.",
+  "id": "A085547",
+  "mentions": [
+    "A000085",
+    "A000700"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

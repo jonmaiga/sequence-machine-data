@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways that prime(n) can be represented as a^2+b^2+c^2 with c >= b >= a > 0.",
+  "id": "A094713",
+  "mentions": [
+    "A085317",
+    "A094712",
+    "A094714"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

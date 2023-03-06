@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and 10*k + 1 are both prime.",
+  "id": "A023237",
+  "mentions": [
+    "A024912",
+    "A055781",
+    "A105435"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:17:07",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2*n into perfect numbers.",
+  "id": "A097795",
+  "mentions": [
+    "A000041",
+    "A000396",
+    "A058696",
+    "A080225",
+    "A097796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

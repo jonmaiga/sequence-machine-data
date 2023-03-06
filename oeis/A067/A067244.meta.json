@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k) divides (sigma(k+1) + sigma(k-1)).",
+  "id": "A067244",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

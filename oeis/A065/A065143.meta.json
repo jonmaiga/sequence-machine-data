@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Stirling2(n,k)*(1+(-1)^k)*2^k/2.",
+  "id": "A065143",
+  "mentions": [
+    "A199572",
+    "A216688",
+    "A264036",
+    "A357598",
+    "A357681"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

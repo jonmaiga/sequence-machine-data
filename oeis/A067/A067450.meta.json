@@ -1,0 +1,26 @@
+{
+  "description": "Smallest n-th power starting with 9.",
+  "id": "A067450",
+  "mentions": [
+    "A067442",
+    "A067443",
+    "A067444",
+    "A067445",
+    "A067446",
+    "A067447",
+    "A067448",
+    "A067449"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

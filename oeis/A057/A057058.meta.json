@@ -1,0 +1,26 @@
+{
+  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and a(n)=i(A057027(n))",
+  "id": "A057058",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A057027",
+    "A057059",
+    "A129326",
+    "A129587",
+    "A129819",
+    "A130679",
+    "A194982"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:39",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

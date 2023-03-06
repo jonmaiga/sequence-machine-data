@@ -1,0 +1,22 @@
+{
+  "description": "Successive approximations to 5-adic integer sqrt(-1).",
+  "id": "A034935",
+  "mentions": [
+    "A034939",
+    "A048898",
+    "A048899"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

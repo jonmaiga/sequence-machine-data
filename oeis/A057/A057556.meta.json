@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographic ordering of M x M x M, where M={0,1,2,...}.",
+  "id": "A057556",
+  "mentions": [
+    "A057554",
+    "A057557"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 168,
+    "source": "oeis-bfile"
+  }
+}

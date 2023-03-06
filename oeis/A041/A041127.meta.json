@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(72).",
+  "id": "A041127",
+  "mentions": [
+    "A010524",
+    "A020829",
+    "A040063",
+    "A041126"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (4n)!/(24^n).",
+  "id": "A014608",
+  "mentions": [
+    "A000680",
+    "A014606"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) is the largest number such that the product of all previous terms is < n^n.",
+  "id": "A074186",
+  "mentions": [
+    "A074185"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

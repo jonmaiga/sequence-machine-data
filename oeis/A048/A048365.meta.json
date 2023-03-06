@@ -1,0 +1,21 @@
+{
+  "description": "a(n)^3 is smallest cube containing exactly n 0's.",
+  "id": "A048365",
+  "mentions": [
+    "A036527",
+    "A269250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

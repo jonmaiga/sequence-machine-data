@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 4, continue by dividing by the smallest prime not used earlier and multiplying with the smallest composite number just greater than the previous prime used in the division and then take the integer part at every step.",
+  "id": "A077016",
+  "mentions": [
+    "A077015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:43",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

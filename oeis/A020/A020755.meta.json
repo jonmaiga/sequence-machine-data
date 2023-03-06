@@ -1,0 +1,23 @@
+{
+  "description": "Increasing gaps between squarefree numbers (upper end).",
+  "id": "A020755",
+  "mentions": [
+    "A005117",
+    "A020753",
+    "A020754",
+    "A045882",
+    "A051681"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

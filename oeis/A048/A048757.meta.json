@@ -1,0 +1,28 @@
+{
+  "description": "Sum_{i=0..2n} (C(2n,i) mod 2)*Fibonacci(i+2) = Sum_{i=0..n} (C(n,i) mod 2)*Fibonacci(2i+2).",
+  "id": "A048757",
+  "mentions": [
+    "A001566",
+    "A003622",
+    "A022290",
+    "A038183",
+    "A048723",
+    "A050609",
+    "A050610",
+    "A050613",
+    "A051656",
+    "A054433",
+    "A075148"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:36:33",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

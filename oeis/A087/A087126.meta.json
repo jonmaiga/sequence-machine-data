@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form p^k - p^(k-1) + 1 for some prime p and integer k > 1.",
+  "id": "A087126",
+  "mentions": [
+    "A002383",
+    "A003306",
+    "A019434",
+    "A056797",
+    "A056799",
+    "A087139"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

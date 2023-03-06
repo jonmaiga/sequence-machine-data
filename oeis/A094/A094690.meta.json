@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of (1+(+1+ ... )^(1/e))^(1/e))^(1/e)).",
+  "id": "A094690",
+  "mentions": [
+    "A094689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

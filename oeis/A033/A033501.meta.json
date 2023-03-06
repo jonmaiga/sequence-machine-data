@@ -1,0 +1,18 @@
+{
+  "description": "Almost-squares: m such that m/p(m) >= k/p(k) for all k",
+  "id": "A033501",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:21",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Given the infinite continued fraction i+(i/(i+(i/(i+...)))), where i is the square root of (-1), this is the numerator of the real part of the convergents.",
+  "id": "A091806",
+  "mentions": [
+    "A091807",
+    "A091808",
+    "A091809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

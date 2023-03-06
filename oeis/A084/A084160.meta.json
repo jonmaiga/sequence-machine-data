@@ -1,0 +1,18 @@
+{
+  "description": "First occurrence prime gaps of the primes in sequence A002313 (Real primes with corresponding complex primes). a(0) = 2 with length of gap 3. For n>0 the size of the gap in the sequence is 4n, a(n) is the starting prime of the gap.",
+  "id": "A084160",
+  "mentions": [
+    "A002313",
+    "A084161"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

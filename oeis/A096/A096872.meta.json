@@ -1,0 +1,18 @@
+{
+  "description": "Minimum diameter of an integral set of n points in the plane, no 3 on a line.",
+  "id": "A096872",
+  "mentions": [
+    "A007285",
+    "A096873"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

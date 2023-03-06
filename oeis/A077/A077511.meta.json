@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of lim n -> infinity A001699(n)^(1/2^n).",
+  "id": "A077511",
+  "mentions": [
+    "A001699"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

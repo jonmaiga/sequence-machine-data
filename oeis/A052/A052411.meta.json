@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-crossing hyperbolic knots having symmetry group Z1.",
+  "id": "A052411",
+  "mentions": [
+    "A052412",
+    "A052413",
+    "A052414"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

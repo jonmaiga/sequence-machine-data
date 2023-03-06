@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit prime containing no prime substrings, or 0 if no such number exists.",
+  "id": "A089770",
+  "mentions": [
+    "A033274",
+    "A089768",
+    "A089771"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

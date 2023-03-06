@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that arithmetic and harmonic means of a(n) and A005279(n) both integers.",
+  "id": "A046793",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:27",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

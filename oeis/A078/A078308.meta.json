@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d divides n} d^(n/d + 1).",
+  "id": "A078308",
+  "mentions": [
+    "A006906",
+    "A022661",
+    "A055225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

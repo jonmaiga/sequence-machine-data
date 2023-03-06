@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp(x/(1-x)^3).",
+  "id": "A091695",
+  "mentions": [
+    "A082579"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

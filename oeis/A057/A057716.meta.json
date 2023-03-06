@@ -1,0 +1,30 @@
+{
+  "description": "The nonpowers of 2.",
+  "id": "A057716",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000265",
+    "A001227",
+    "A057717",
+    "A074894",
+    "A103586",
+    "A138591",
+    "A138592",
+    "A140977",
+    "A158581",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

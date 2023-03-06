@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n circulant singular matrices over GF(2).",
+  "id": "A086324",
+  "mentions": [
+    "A002416",
+    "A003473"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

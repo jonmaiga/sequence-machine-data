@@ -1,0 +1,39 @@
+{
+  "description": "A 2-way classification of integers: a(1) = 1, a(2) = 2 and for n > 2, a(n) is the smallest number not of the form a(i)*a(j) for 1 <= i < j < n.",
+  "id": "A026416",
+  "mentions": [
+    "A000028",
+    "A000379",
+    "A026417",
+    "A026419",
+    "A026420",
+    "A026421",
+    "A026422",
+    "A026423",
+    "A026424",
+    "A026425",
+    "A026426",
+    "A026427",
+    "A026431",
+    "A026443",
+    "A026453",
+    "A026477",
+    "A050376",
+    "A059897",
+    "A066724",
+    "A084400",
+    "A123193",
+    "A131181"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

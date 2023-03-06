@@ -1,0 +1,18 @@
+{
+  "description": "n-th prime in the arithmetic progression n+k*(n+1) with k>0.",
+  "id": "A088733",
+  "mentions": [
+    "A010051",
+    "A088732"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

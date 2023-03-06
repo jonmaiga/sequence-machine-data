@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sqrt((Pi^2 + e^2)/2).",
+  "id": "A074952",
+  "mentions": [
+    "A074948"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of isotopy classes of Latin cubes of order n.",
+  "id": "A099321",
+  "mentions": [
+    "A098679",
+    "A098843",
+    "A098846"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

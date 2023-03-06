@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime == 1 mod (7n).",
+  "id": "A070851",
+  "mentions": [
+    "A034694",
+    "A070846",
+    "A070850",
+    "A070852",
+    "A070853"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

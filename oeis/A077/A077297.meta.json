@@ -1,0 +1,26 @@
+{
+  "description": "Partition the concatenation 1234567...of natural numbers into successive strings which are multiples of 4, all different and > 4. ( 0's never taken as the most significant digit.)",
+  "id": "A077297",
+  "mentions": [
+    "A077293",
+    "A077294",
+    "A077295",
+    "A077296",
+    "A077298",
+    "A077299",
+    "A077300",
+    "A077301",
+    "A077302"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

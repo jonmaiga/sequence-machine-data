@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-6 representation has the same number of 1's, 3's and 5's.",
+  "id": "A039587",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:09",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

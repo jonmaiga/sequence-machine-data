@@ -1,0 +1,15 @@
+{
+  "description": "sec(arctan(x)*arcsin(x))=1+12/4!*x^4-120/6!*x^6+17808/8!*x^8...",
+  "id": "A012442",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:06:23",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

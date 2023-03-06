@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers k such that k*(k+1) is a palindrome.",
+  "id": "A028336",
+  "mentions": [
+    "A008509",
+    "A028337"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

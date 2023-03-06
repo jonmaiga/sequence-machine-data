@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n >= 1} ( x^(2^n)/ ((1+x^(2^(n-1)))*Product_{j=0..n-1} (1-x^(2^j)) ) ).",
+  "id": "A088931",
+  "mentions": [
+    "A000123",
+    "A088567",
+    "A088980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

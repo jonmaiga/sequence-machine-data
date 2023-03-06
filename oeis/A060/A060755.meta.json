@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = log_2(A060723(n)).",
+  "id": "A060755",
+  "mentions": [
+    "A060723",
+    "A305491"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:26",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

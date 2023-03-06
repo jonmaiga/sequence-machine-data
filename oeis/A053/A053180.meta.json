@@ -1,0 +1,20 @@
+{
+  "description": "Numbers ending in 7 which are not prime.",
+  "id": "A053180",
+  "mentions": [
+    "A002808",
+    "A017353"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

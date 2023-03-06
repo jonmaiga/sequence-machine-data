@@ -1,0 +1,23 @@
+{
+  "description": "Least number formed by concatenating the prime factors of n in base 10.",
+  "id": "A073646",
+  "mentions": [
+    "A001222",
+    "A027746",
+    "A037276",
+    "A084797"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

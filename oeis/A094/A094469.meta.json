@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sum of 11th powers of divisors of k is divisible by the square of Euler-phi of k.",
+  "id": "A094469",
+  "mentions": [
+    "A000010",
+    "A013959",
+    "A015763",
+    "A091285"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

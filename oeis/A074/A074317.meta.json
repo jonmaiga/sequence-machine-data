@@ -1,0 +1,20 @@
+{
+  "description": "Deficient Fibonacci numbers.",
+  "id": "A074317",
+  "mentions": [
+    "A000045",
+    "A005100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

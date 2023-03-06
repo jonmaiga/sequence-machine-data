@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (8+10x)/((1-x)(1-100x)).",
+  "id": "A097818",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:29:12",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

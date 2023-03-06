@@ -1,0 +1,27 @@
+{
+  "description": "One fifth of deca-factorial numbers.",
+  "id": "A035274",
+  "mentions": [
+    "A001147",
+    "A035272",
+    "A035273",
+    "A035275",
+    "A035276",
+    "A035277",
+    "A035278",
+    "A035279",
+    "A045757"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

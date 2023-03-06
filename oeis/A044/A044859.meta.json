@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers having the same number of base-3 runs of odd length as even.",
+  "id": "A044859",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

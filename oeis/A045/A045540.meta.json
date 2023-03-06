@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose square contains an equal number of each digit that it contains.",
+  "id": "A045540",
+  "mentions": [
+    "A052046",
+    "A052047",
+    "A052048",
+    "A052049",
+    "A052050",
+    "A052051",
+    "A052052",
+    "A052060"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:55",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

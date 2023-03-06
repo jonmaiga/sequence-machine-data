@@ -1,0 +1,20 @@
+{
+  "description": "Positions where records occur in A072340.",
+  "id": "A085285",
+  "mentions": [
+    "A072340",
+    "A085276",
+    "A085286"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

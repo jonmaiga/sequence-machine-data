@@ -1,0 +1,18 @@
+{
+  "description": "Shifts left under Euler transform.",
+  "id": "A038072",
+  "mentions": [
+    "A038073"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

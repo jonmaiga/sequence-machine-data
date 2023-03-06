@@ -1,0 +1,24 @@
+{
+  "description": "Number of 3-almost primes (A014612) <= n.",
+  "id": "A072114",
+  "mentions": [
+    "A001358",
+    "A014612",
+    "A072000",
+    "A101605",
+    "A109251",
+    "A125149"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n) = largest prime divisor of A057137(n).",
+  "id": "A073844",
+  "mentions": [
+    "A006530",
+    "A057137"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the continued fraction for sqrt(k) has even period 2*m and the m-th term of the periodic part is 10.",
+  "id": "A031413",
+  "mentions": [
+    "A031404",
+    "A031423",
+    "A031551"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

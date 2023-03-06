@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k>A077059(n) such that A077059(n)^2+k^2 is a cube (=A077061(n)^3).",
+  "id": "A077060",
+  "mentions": [
+    "A076600",
+    "A077059",
+    "A077061",
+    "A077062"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

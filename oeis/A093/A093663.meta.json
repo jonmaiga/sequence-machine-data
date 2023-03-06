@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of lower triangular matrix A093662.",
+  "id": "A093663",
+  "mentions": [
+    "A000120",
+    "A016121",
+    "A093662",
+    "A093664"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

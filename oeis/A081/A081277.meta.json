@@ -1,0 +1,36 @@
+{
+  "description": "Square array of unsigned coefficients of Chebyshev polynomials of the first kind.",
+  "id": "A081277",
+  "mentions": [
+    "A001792",
+    "A001793",
+    "A001794",
+    "A006974",
+    "A011782",
+    "A025192",
+    "A038763",
+    "A053120",
+    "A079628",
+    "A084938",
+    "A104698",
+    "A118800",
+    "A124182",
+    "A142978",
+    "A167580",
+    "A167591",
+    "A193722"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:39",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

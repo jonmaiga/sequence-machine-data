@@ -1,0 +1,22 @@
+{
+  "description": "Equal to the sum of its digits raised to its reversed digits power (0^0=1).",
+  "id": "A048341",
+  "mentions": [
+    "A032799",
+    "A046253"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

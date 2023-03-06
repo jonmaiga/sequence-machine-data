@@ -1,0 +1,21 @@
+{
+  "description": "Start with 10000 = DIX MILLE in French; to get the next term, replace each single letter with its equivalent Roman number if there is one; read the new number in French and repeat.",
+  "id": "A091566",
+  "mentions": [
+    "A085628",
+    "A096968",
+    "A096973"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

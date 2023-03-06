@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor((n-3)/2)} T(n,k) * T(n,k+3), with T given by A026022.",
+  "id": "A027297",
+  "mentions": [
+    "A026022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:58:01",
+    "offset": 3,
+    "size": 25,
+    "source": "joeis"
+  }
+}

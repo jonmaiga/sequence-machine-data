@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k|n} k!*mu(k), where mu() is the Moebius function.",
+  "id": "A099740",
+  "mentions": [
+    "A000142",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

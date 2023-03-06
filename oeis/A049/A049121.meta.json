@@ -1,0 +1,22 @@
+{
+  "description": "If a(n) is prime, a(n+1) = a(n) followed by a 1; if a(n) is composite, a(n+1) = concatenation of prime factors of a(n) (with multiplicity).",
+  "id": "A049121",
+  "mentions": [
+    "A037274",
+    "A049201",
+    "A055657"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

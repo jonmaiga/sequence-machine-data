@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. of cos(arcsin(arcsinh(x))), even powers only.",
+  "id": "A012115",
+  "mentions": [
+    "A012248"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

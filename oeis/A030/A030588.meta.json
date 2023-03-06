@@ -1,0 +1,34 @@
+{
+  "description": "Write odd numbers in base 6 and juxtapose.",
+  "id": "A030588",
+  "mentions": [
+    "A007092",
+    "A030589",
+    "A030590",
+    "A030591",
+    "A030592",
+    "A030593",
+    "A030594",
+    "A030595",
+    "A030596",
+    "A030597",
+    "A030598",
+    "A030599",
+    "A030600",
+    "A030601",
+    "A030602",
+    "A030603"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

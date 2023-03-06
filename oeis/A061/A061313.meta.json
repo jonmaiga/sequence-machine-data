@@ -1,0 +1,32 @@
+{
+  "description": "Minimal number of steps to get from 1 to n by (a) subtracting 1 or (b) multiplying by 2.",
+  "id": "A061313",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A000695",
+    "A006577",
+    "A007305",
+    "A007306",
+    "A008687",
+    "A023416",
+    "A029837",
+    "A056792",
+    "A062880",
+    "A079944",
+    "A080791",
+    "A119477"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

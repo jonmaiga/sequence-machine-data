@@ -1,0 +1,19 @@
+{
+  "description": "Rectangle R(i,j) read by ascending antidiagonals: column j has j-1 zeros followed by numbers congruent to 1 mod j-1.",
+  "id": "A077029",
+  "mentions": [
+    "A077028"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

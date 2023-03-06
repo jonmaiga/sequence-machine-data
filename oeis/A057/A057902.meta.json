@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5^prime(n).",
+  "id": "A057902",
+  "mentions": [
+    "A000040",
+    "A034785",
+    "A053810",
+    "A132797"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

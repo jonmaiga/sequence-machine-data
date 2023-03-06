@@ -1,0 +1,21 @@
+{
+  "description": "Beatty sequence for Pi/(Pi-1); complement of A022844.",
+  "id": "A054386",
+  "mentions": [
+    "A022844",
+    "A108586",
+    "A108589",
+    "A108591",
+    "A127450"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:18:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

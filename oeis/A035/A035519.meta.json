@@ -1,0 +1,19 @@
+{
+  "description": "Rare numbers: k-r and k+r are both perfect squares, where r is reverse of k and k is non-palindromic.",
+  "id": "A035519",
+  "mentions": [
+    "A059755"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

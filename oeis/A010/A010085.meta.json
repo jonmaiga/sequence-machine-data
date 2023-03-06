@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of [15,11,3] Hamming code of length 15 and minimal distance 3.",
+  "id": "A010085",
+  "mentions": [
+    "A340030"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:57",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

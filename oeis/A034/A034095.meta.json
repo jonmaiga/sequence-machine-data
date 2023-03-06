@@ -1,0 +1,20 @@
+{
+  "description": "Indices of (-1)sigma perfect numbers.",
+  "id": "A034095",
+  "mentions": [
+    "A034094",
+    "A049060"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

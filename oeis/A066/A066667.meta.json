@@ -1,0 +1,28 @@
+{
+  "description": "Coefficient triangle of generalized Laguerre polynomials (a=1).",
+  "id": "A066667",
+  "mentions": [
+    "A000262",
+    "A008297",
+    "A021009",
+    "A062137",
+    "A062138",
+    "A062139",
+    "A062140",
+    "A066668",
+    "A089231",
+    "A215216"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

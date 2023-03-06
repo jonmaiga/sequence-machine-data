@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence T2 for Zeolite Code TSC.",
+  "id": "A033617",
+  "mentions": [
+    "A005897",
+    "A008000",
+    "A033616",
+    "A299903"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:33",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

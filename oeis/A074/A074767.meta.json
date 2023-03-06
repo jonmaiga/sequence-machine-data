@@ -1,0 +1,21 @@
+{
+  "description": "Least m > n with spf(m) = gpf(n), where gpf(n) is the greatest prime factor of n and spf(m) is the smallest prime factor of m.",
+  "id": "A074767",
+  "mentions": [
+    "A006530",
+    "A007918",
+    "A020639",
+    "A048098",
+    "A064052"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

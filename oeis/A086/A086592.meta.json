@@ -1,0 +1,38 @@
+{
+  "description": "Denominators in left-hand half of Kepler's tree of fractions.",
+  "id": "A086592",
+  "mentions": [
+    "A000010",
+    "A002487",
+    "A004169",
+    "A007305",
+    "A007306",
+    "A020650",
+    "A020651",
+    "A047679",
+    "A059893",
+    "A071585",
+    "A071766",
+    "A086593",
+    "A093873",
+    "A093875",
+    "A162909",
+    "A162910",
+    "A229742",
+    "A231551",
+    "A268087"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; for n>1, a(n) = largest prime of the form n!/k + 1, where k < n, or 0 if no such prime exists.",
+  "id": "A092969",
+  "mentions": [
+    "A092965",
+    "A092968",
+    "A092970"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

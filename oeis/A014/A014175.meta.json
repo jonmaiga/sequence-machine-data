@@ -1,0 +1,17 @@
+{
+  "description": "Apply partial sum operator 4 times to Stern's sequence.",
+  "id": "A014175",
+  "mentions": [
+    "A005230"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:02:58",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

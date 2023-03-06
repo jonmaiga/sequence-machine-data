@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^3 is the sum of three or more consecutive positive cubes.",
+  "id": "A097811",
+  "mentions": [
+    "A097812",
+    "A131643",
+    "A265845"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

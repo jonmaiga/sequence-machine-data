@@ -1,0 +1,18 @@
+{
+  "description": "Find the shortest prefix of Pi-3 = .141592653589793238462643383279502.. which is divisible by n and divide by n.",
+  "id": "A088143",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

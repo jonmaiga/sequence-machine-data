@@ -1,0 +1,20 @@
+{
+  "description": "Smallest power of 2 containing exactly n zeros.",
+  "id": "A031147",
+  "mentions": [
+    "A031146"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:49:01",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

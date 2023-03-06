@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples of integers from [ 1,n ] with no common factors between pairs.",
+  "id": "A015632",
+  "mentions": [
+    "A065473"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

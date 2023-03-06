@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where the self-convolution of the antidiagonal sums (A097097) equals the row sums (A097096); the row sums also equals the convolution of the main diagonal (A097095) with the Fibonacci sequence (A000045).",
+  "id": "A097094",
+  "mentions": [
+    "A000045",
+    "A097095",
+    "A097096",
+    "A097097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

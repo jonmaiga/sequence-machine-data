@@ -1,0 +1,22 @@
+{
+  "description": "Number of multiplications when calculating A084110(n).",
+  "id": "A084113",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A032741",
+    "A084110",
+    "A084114",
+    "A084115"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

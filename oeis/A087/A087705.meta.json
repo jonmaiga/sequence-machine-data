@@ -1,0 +1,17 @@
+{
+  "description": "First integer > n reached under iteration of map x -> (5/3)*floor(x) when started at n, or -1 if no such integer is ever reached.",
+  "id": "A087705",
+  "mentions": [
+    "A087706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

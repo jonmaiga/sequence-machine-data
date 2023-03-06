@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write prime(n) as sum of distinct divisors of prime(n)+1.",
+  "id": "A085496",
+  "mentions": [
+    "A000040",
+    "A085491",
+    "A085498"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

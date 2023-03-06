@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct non-extendable sequences (x(1),x(2),...,x(k)) such that each x(i) is in {1,2,...,n} and (x(j) AND x(i)) <> x(j) for i=2..k, j=1..i-1.",
+  "id": "A053623",
+  "mentions": [
+    "A054668"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "List primes between (2n-1)^2 and (2n)^2.",
+  "id": "A078763",
+  "mentions": [
+    "A014085",
+    "A078764"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

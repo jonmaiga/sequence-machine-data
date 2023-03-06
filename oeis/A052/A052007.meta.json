@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that 2^m + m is prime.",
+  "id": "A052007",
+  "mentions": [
+    "A006127",
+    "A048744",
+    "A129962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

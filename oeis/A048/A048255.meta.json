@@ -1,0 +1,29 @@
+{
+  "description": "Integers whose sum of divisors is 6^5 = 7776.",
+  "id": "A048255",
+  "mentions": [
+    "A000203",
+    "A006532",
+    "A018427",
+    "A019422",
+    "A019423",
+    "A020477",
+    "A048251",
+    "A048252",
+    "A048253",
+    "A048256"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

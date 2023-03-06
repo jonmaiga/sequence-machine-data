@@ -1,0 +1,20 @@
+{
+  "description": "Number of stereo alkanes with combinatorial diameter n.",
+  "id": "A067609",
+  "mentions": [
+    "A000602",
+    "A000628",
+    "A067608",
+    "A067610"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

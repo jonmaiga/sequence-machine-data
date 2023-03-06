@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(e^(e^n)).",
+  "id": "A096232",
+  "mentions": [
+    "A001113",
+    "A016066",
+    "A096404"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": -1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

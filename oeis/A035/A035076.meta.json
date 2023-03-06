@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is root of square starting with digit 9: first term of runs.",
+  "id": "A035076",
+  "mentions": [
+    "A017936",
+    "A035069",
+    "A035070",
+    "A035071",
+    "A035072",
+    "A035073",
+    "A035074",
+    "A035075",
+    "A067479"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:48:48",
+    "offset": 2,
+    "size": 23,
+    "source": "joeis"
+  }
+}

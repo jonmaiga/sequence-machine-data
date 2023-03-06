@@ -1,0 +1,24 @@
+{
+  "description": "Simple triangle-stretching N X N -> N bijection: push terms in the middle twice as far down to make space for the terms obtained by bisecting the edges, which are thus contracted by the same factor. Do this for all \"triangle-shells\" successively contained inside each other in A001477.",
+  "id": "A072732",
+  "mentions": [
+    "A001477",
+    "A002262",
+    "A025581",
+    "A072733",
+    "A072734",
+    "A072736",
+    "A072737"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

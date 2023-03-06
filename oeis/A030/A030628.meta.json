@@ -1,0 +1,25 @@
+{
+  "description": "1 together with numbers of the form p*q^4 and p^9, where p and q are primes.",
+  "id": "A030628",
+  "mentions": [
+    "A007422",
+    "A030515",
+    "A030627",
+    "A030629",
+    "A178739",
+    "A179665"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

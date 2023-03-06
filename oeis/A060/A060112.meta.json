@@ -1,0 +1,31 @@
+{
+  "description": "Sums of nonconsecutive factorial numbers.",
+  "id": "A060112",
+  "mentions": [
+    "A001611",
+    "A003714",
+    "A048679",
+    "A055089",
+    "A056019",
+    "A059590",
+    "A060117",
+    "A060118",
+    "A064640",
+    "A065163",
+    "A065181",
+    "A065184"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

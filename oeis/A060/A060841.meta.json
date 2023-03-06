@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of 1/det(M) where M is the n X n matrix with M[i,j] = 1/lcm(i,j).",
+  "id": "A060841",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A001088",
+    "A060238",
+    "A260502",
+    "A260897"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

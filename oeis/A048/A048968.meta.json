@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(k) / d(k) is prime.",
+  "id": "A048968",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005383",
+    "A048969"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:47:27",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

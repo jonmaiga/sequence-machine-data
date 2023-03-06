@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m such that A097249(m) = n; from n=1 onwards, twice the primorials, 2*A002110(n).",
+  "id": "A097250",
+  "mentions": [
+    "A002110",
+    "A088860",
+    "A097249",
+    "A276945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

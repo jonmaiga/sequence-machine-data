@@ -1,0 +1,22 @@
+{
+  "description": "Number of irreducible factors in the factorization of X^n + 1 over GF(2) (counted with multiplicity).",
+  "id": "A091248",
+  "mentions": [
+    "A000051",
+    "A000374",
+    "A091222",
+    "A091247",
+    "A318622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

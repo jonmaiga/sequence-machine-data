@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that prime(n)#/2 + 2*p is prime where p > 3, except p=2 for n=1.",
+  "id": "A098170",
+  "mentions": [
+    "A002110",
+    "A098171"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

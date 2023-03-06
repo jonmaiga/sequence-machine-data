@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Smallest nontrivial number k > 9 such that |first (leftmost) decimal digit of k - second digit + third digit - fourth digit ...| = n.",
+  "id": "A060982",
+  "mentions": [
+    "A008593",
+    "A060978",
+    "A060980",
+    "A061470",
+    "A061479",
+    "A061870",
+    "A061882"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

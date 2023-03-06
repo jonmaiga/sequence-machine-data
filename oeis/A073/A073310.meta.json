@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k such that 2+k and 2n+k are both prime.",
+  "id": "A073310",
+  "mentions": [
+    "A060266",
+    "A073316"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

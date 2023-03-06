@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of sigma_3 function (A001158).",
+  "id": "A053825",
+  "mentions": [
+    "A001158",
+    "A046692",
+    "A053822",
+    "A053826",
+    "A178448"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

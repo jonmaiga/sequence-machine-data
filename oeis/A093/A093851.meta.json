@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A002283(n-1) + floor(A052268(n)/(1+n)).",
+  "id": "A093851",
+  "mentions": [
+    "A002283",
+    "A052268",
+    "A061772",
+    "A093450",
+    "A093552",
+    "A093846",
+    "A093847"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which binomial(k, floor(k/2)) has fewer unitary than non-unitary divisors.",
+  "id": "A048195",
+  "mentions": [
+    "A001405",
+    "A034444",
+    "A048105",
+    "A048111"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

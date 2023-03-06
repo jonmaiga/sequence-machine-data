@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-piece positions at checkers, for n=1 ... 24.",
+  "id": "A055213",
+  "mentions": [
+    "A133803"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

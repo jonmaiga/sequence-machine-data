@@ -1,0 +1,17 @@
+{
+  "description": "Sum of terms in period of continued fraction for sqrt(A031402(n)).",
+  "id": "A031403",
+  "mentions": [
+    "A031402"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:07",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

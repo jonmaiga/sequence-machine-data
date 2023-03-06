@@ -1,0 +1,27 @@
+{
+  "description": "Pyramidal sequence: distance to nearest product of two consecutive integers (promic or heteromecic numbers).",
+  "id": "A053615",
+  "mentions": [
+    "A000194",
+    "A002262",
+    "A002378",
+    "A004738",
+    "A037458",
+    "A049581",
+    "A053188",
+    "A196199"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:57",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

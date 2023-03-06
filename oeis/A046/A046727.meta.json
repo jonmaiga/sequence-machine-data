@@ -1,0 +1,26 @@
+{
+  "description": "Related to Pythagorean triples: alternate terms of A001652 and A046090.",
+  "id": "A046727",
+  "mentions": [
+    "A001109",
+    "A001333",
+    "A001652",
+    "A001653",
+    "A005319",
+    "A046090",
+    "A046729",
+    "A084159"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

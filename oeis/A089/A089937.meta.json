@@ -1,0 +1,25 @@
+{
+  "description": "Number of 6 X n matrices with entries {0,1} without adjacent 0's in any row or column. 6th row of A089934.",
+  "id": "A089937",
+  "mentions": [
+    "A000045",
+    "A001333",
+    "A051736",
+    "A051737",
+    "A089934",
+    "A089935",
+    "A089936",
+    "A089938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

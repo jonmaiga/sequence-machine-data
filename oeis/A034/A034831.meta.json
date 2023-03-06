@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n-th sept-factorial number divided by 4.",
+  "id": "A034831",
+  "mentions": [
+    "A034829",
+    "A034830",
+    "A034832",
+    "A034833",
+    "A034834",
+    "A045754",
+    "A049209",
+    "A144827"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

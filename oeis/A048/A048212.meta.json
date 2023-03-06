@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array T read by rows: T(i,j)=b(i+1)-b(i+1-j); j=1,2,...,i; i=1,2,3,...; b=A004979.",
+  "id": "A048212",
+  "mentions": [
+    "A004979"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:35:47",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

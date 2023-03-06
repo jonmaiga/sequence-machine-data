@@ -1,0 +1,37 @@
+{
+  "description": "Table of multigraphs (by antidiagonals) with n (>=1) nodes and k (>=0) edges. Each type of object labeled from its own label set.",
+  "id": "A091480",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000244",
+    "A000400",
+    "A000537",
+    "A001024",
+    "A009965",
+    "A009972",
+    "A009980",
+    "A009989",
+    "A011557",
+    "A059827",
+    "A059860",
+    "A059977",
+    "A059978",
+    "A059979",
+    "A059980",
+    "A091478"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

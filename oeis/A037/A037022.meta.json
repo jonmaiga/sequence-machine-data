@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which row n has the first n digits of sqrt(n) (truncated).",
+  "id": "A037022",
+  "mentions": [
+    "A000196",
+    "A023961",
+    "A037023"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

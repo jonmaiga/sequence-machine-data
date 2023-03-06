@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which second differences of sigma(n) are negative.",
+  "id": "A053229",
+  "mentions": [
+    "A000203",
+    "A053223",
+    "A053228"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Hamming weights (or nonlinearity) of degree 4 rotation-symmetric functions.",
+  "id": "A053168",
+  "mentions": [
+    "A051253"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

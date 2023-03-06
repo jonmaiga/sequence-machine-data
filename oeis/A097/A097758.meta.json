@@ -1,0 +1,23 @@
+{
+  "description": "Greatest integer that can be written as a sum of distinct squares in exactly n ways, or -1 if no such number exists.",
+  "id": "A097758",
+  "mentions": [
+    "A001422",
+    "A003995",
+    "A033461",
+    "A097563",
+    "A097757",
+    "A097759",
+    "A097760"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A084453.",
+  "id": "A084454",
+  "mentions": [
+    "A084453",
+    "A084455",
+    "A084507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

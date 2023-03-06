@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of (9(n^4 - 2n^3 + 2n^2 - n) + 2)/(2(2n-1)).",
+  "id": "A096430",
+  "mentions": [
+    "A096431",
+    "A097362"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

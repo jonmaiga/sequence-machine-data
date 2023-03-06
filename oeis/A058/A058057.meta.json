@@ -1,0 +1,29 @@
+{
+  "description": "Triangle giving coefficients of ménage hit polynomials.",
+  "id": "A058057",
+  "mentions": [
+    "A000222",
+    "A000271",
+    "A000386",
+    "A000426",
+    "A000450",
+    "A058085",
+    "A058086",
+    "A080018",
+    "A080061"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

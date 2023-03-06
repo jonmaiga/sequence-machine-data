@@ -1,0 +1,27 @@
+{
+  "description": "4th-power-free part of n.",
+  "id": "A053165",
+  "mentions": [
+    "A000190",
+    "A000203",
+    "A003961",
+    "A007913",
+    "A008835",
+    "A050985",
+    "A059897",
+    "A065331",
+    "A225546"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

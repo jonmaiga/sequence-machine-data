@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number of consecutive previous nonnegative integers to n that must be concatenated together in descending order such that n divides the concatenated term, or zero if n divides no such concatenation.",
+  "id": "A088885",
+  "mentions": [
+    "A088798",
+    "A088800",
+    "A088869",
+    "A088871",
+    "A088886"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

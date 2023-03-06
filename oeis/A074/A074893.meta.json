@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for the Product_{p prime} (1 - 2/p^2) (A065474).",
+  "id": "A074893",
+  "mentions": [
+    "A007674",
+    "A065474",
+    "A074178"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(n/4)*ceiling((n+3)/4).",
+  "id": "A038716",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime == 1 (mod (least common multiple of next n numbers)).",
+  "id": "A088107",
+  "mentions": [
+    "A088106"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Lengths of runs in A090822.",
+  "id": "A091412",
+  "mentions": [
+    "A090822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

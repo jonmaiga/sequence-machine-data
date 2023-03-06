@@ -1,0 +1,24 @@
+{
+  "description": "Inverse BinomialMean transform of the Fibonacci sequence A000045 (with the initial 0 omitted).",
+  "id": "A074872",
+  "mentions": [
+    "A000045",
+    "A016116",
+    "A056451",
+    "A063727",
+    "A075271",
+    "A108411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

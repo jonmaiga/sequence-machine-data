@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers which retain their relative position in A074368 (not disturbed in the rearrangement process).",
+  "id": "A074498",
+  "mentions": [
+    "A073664",
+    "A074368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

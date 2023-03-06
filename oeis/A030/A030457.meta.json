@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k such that k concatenated with k+1 is prime.",
+  "id": "A030457",
+  "mentions": [
+    "A001704",
+    "A010051",
+    "A030458",
+    "A032617",
+    "A032618",
+    "A032619",
+    "A032620",
+    "A032621",
+    "A032622",
+    "A032623",
+    "A032624",
+    "A052087",
+    "A052088",
+    "A052089",
+    "A054211",
+    "A068700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

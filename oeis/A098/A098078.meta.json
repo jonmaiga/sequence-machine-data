@@ -1,0 +1,20 @@
+{
+  "description": "Table(n,j) of primes p = k*prime(n)#/210-j, where k is the least integer such that p and p+8 are consecutive primes, for n > 4 and j=7 to 1.",
+  "id": "A098078",
+  "mentions": [
+    "A002110",
+    "A098079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 5,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

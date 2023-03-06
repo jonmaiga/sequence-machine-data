@@ -1,0 +1,23 @@
+{
+  "description": "Largest square <= n-th prime.",
+  "id": "A065730",
+  "mentions": [
+    "A000040",
+    "A048760",
+    "A065731",
+    "A065741",
+    "A257053"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = a(n) + sum of squares of digits of a(n).",
+  "id": "A033936",
+  "mentions": [
+    "A003132",
+    "A076161",
+    "A258881"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A B2 sequence consisting of powers of primes but not primes: a(n) = least value from A025475 such that sequence increases and pairwise sums of distinct elements are all distinct.",
+  "id": "A062559",
+  "mentions": [
+    "A000961",
+    "A005282",
+    "A010672",
+    "A011185",
+    "A025475",
+    "A025582"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

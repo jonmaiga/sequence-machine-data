@@ -1,0 +1,23 @@
+{
+  "description": "Number of squarefree integers <= 10^n.",
+  "id": "A071172",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A013928",
+    "A053462",
+    "A059956",
+    "A143658"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

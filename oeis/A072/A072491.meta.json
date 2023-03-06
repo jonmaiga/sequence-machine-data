@@ -1,0 +1,22 @@
+{
+  "description": "Define f(1) = 0. For n>=2, let f(n) = n - p where p is the largest prime <= n. a(n) = number of iterations of f to reach 0, starting from n.",
+  "id": "A072491",
+  "mentions": [
+    "A008578",
+    "A051034",
+    "A066352",
+    "A072492"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

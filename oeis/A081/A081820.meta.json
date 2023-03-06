@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the Stefan-Boltzmann constant sigma in the 2019 SI system in units Watt/(m^2*K^4).",
+  "id": "A081820",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070063",
+    "A222609"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": -7,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

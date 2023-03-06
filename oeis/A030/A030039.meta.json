@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = Sum_{k=0..floor(4*n/5)} a(k) * a(n-k).",
+  "id": "A030039",
+  "mentions": [
+    "A000992",
+    "A030036",
+    "A030037",
+    "A030038"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

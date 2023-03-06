@@ -1,0 +1,18 @@
+{
+  "description": "Number of (1,1) steps starting at level zero in all peakless Motzkin paths of length n+3.",
+  "id": "A089737",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:21:27",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Central terms of triangle A093628, in which the diagonals are equal to the Euler transform of the rows.",
+  "id": "A093630",
+  "mentions": [
+    "A093628",
+    "A093629"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

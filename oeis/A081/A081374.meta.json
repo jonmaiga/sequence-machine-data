@@ -1,0 +1,28 @@
+{
+  "description": "Size of \"uniform\" Hamming covers of distance 1, that is, Hamming covers in which all vectors of equal weight are treated the same, included or excluded from the cover together.",
+  "id": "A081374",
+  "mentions": [
+    "A001045",
+    "A007283",
+    "A010892",
+    "A048573",
+    "A062092",
+    "A078008",
+    "A080425",
+    "A083322",
+    "A131531",
+    "A131708",
+    "A175805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

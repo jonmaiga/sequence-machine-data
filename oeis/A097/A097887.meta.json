@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k low humps. (A hump is an upstep followed by 0 or more flatsteps followed by a downstep. A low hump is a hump that starts at level zero.).",
+  "id": "A097887",
+  "mentions": [
+    "A001006",
+    "A089380"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

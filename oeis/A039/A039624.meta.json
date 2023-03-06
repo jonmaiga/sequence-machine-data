@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there are equal numbers of 0's and 1's in first n digits of binary representation of Pi.",
+  "id": "A039624",
+  "mentions": [
+    "A004601",
+    "A166006"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

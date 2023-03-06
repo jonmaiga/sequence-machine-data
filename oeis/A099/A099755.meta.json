@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,0)=1, T(n,n)=(2*n-1)!!+1, T(n,k) = 2*(n-k) * T(n-1,k-1) + 2*(k+1)*T(n-1,k).",
+  "id": "A099755",
+  "mentions": [
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

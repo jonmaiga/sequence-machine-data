@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T[n,m] = number of solid partitions of n with trace m, where the trace of a solid partitions is defined as the sum of the traces of the constituent plane partitions.",
+  "id": "A094508",
+  "mentions": [
+    "A000293",
+    "A089924",
+    "A090984"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

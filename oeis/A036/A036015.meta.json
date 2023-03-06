@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into parts not of form 4k+2, 8k, 8k+1 or 8k-1.",
+  "id": "A036015",
+  "mentions": [
+    "A036016",
+    "A316384"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

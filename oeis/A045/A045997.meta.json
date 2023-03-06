@@ -1,0 +1,15 @@
+{
+  "description": "Number of iterations required to reach stationary value when applying repeatedly applying d, the number of divisors function, to n!.",
+  "id": "A045997",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:49",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

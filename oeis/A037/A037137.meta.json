@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A037134(k) = A037135(k) > 0.",
+  "id": "A037137",
+  "mentions": [
+    "A037134",
+    "A037135"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

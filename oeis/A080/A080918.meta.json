@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer solutions to the equation 2x^2+y^2+32z^2=n.",
+  "id": "A080918",
+  "mentions": [
+    "A000122",
+    "A072069",
+    "A080917"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

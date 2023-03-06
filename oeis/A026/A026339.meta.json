@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that s(k) = n, where s = A026338.",
+  "id": "A026339",
+  "mentions": [
+    "A026338"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:55",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = n^(n^(n-1)).",
+  "id": "A089210",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

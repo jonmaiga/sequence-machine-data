@@ -1,0 +1,18 @@
+{
+  "description": "0+1+Prime power perfect numbers: if n=Product p_i^r_i then 01PPsigma(n)= Product {Sum p_i^r_i, 0<=s_i<=r_i, s_i is 0 or one or prime} 01PPsigma(n)=2*n.",
+  "id": "A095723",
+  "mentions": [
+    "A095724",
+    "A096290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

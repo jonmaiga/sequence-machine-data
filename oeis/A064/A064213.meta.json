@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that k*3^n +- 1 are twin primes.",
+  "id": "A064213",
+  "mentions": [
+    "A063983"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:04:53",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

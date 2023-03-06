@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that A001414(n) = sum of composites from the smallest prime factor of n to the largest prime factor of n.",
+  "id": "A074053",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

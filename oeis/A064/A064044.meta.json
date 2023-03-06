@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals of number of length k walks on an n-dimensional hypercubic lattice starting at the origin and staying in the nonnegative part.",
+  "id": "A064044",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001405",
+    "A001477",
+    "A002378",
+    "A005566",
+    "A064036",
+    "A064043",
+    "A064045"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

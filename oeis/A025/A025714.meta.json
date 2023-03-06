@@ -1,0 +1,17 @@
+{
+  "description": "Index of 6^n within sequence of numbers of form 4^i*6^j.",
+  "id": "A025714",
+  "mentions": [
+    "A025729"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

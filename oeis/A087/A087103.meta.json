@@ -1,0 +1,20 @@
+{
+  "description": "Smallest jumping champion for prime(n).",
+  "id": "A087103",
+  "mentions": [
+    "A001223",
+    "A005250",
+    "A087102",
+    "A087104"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

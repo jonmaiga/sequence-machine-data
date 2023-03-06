@@ -1,0 +1,30 @@
+{
+  "description": "Numbers in base 10 that are palindromic in bases 8 and 9.",
+  "id": "A099146",
+  "mentions": [
+    "A029803",
+    "A029955",
+    "A029965",
+    "A029966",
+    "A048268",
+    "A060792",
+    "A097928",
+    "A097929",
+    "A097930",
+    "A097931",
+    "A099145",
+    "A099147",
+    "A099153"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

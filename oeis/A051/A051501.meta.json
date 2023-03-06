@@ -1,0 +1,19 @@
+{
+  "description": "Bertrand primes III: a(n+1) is the smallest prime > 2^a(n).",
+  "id": "A051501",
+  "mentions": [
+    "A006992",
+    "A079614",
+    "A227770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

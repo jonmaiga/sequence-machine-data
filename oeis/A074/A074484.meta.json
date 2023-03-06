@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = b(A074483(n), n), where b(k) is the recursion: b(1,n)=1, b(k+1,n)=b(k,n) + (b(k,n) reduced mod(k+n)) (cf. A074482).",
+  "id": "A074484",
+  "mentions": [
+    "A073117",
+    "A074482",
+    "A074483"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

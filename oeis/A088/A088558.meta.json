@@ -1,0 +1,19 @@
+{
+  "description": "Least odd leg of primitive Pythagorean triangles with even leg 4n.",
+  "id": "A088558",
+  "mentions": [
+    "A088557",
+    "A096891",
+    "A096900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

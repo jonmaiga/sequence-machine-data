@@ -1,0 +1,25 @@
+{
+  "description": "Diagonal of the triangle (A084783) and the self-convolution of the first column (A084784).",
+  "id": "A084785",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A019538",
+    "A084783",
+    "A084784",
+    "A084786",
+    "A090352"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

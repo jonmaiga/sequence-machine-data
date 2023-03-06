@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that s=n^2 gives prime quadruples (30s+11, 30s+13, 30s+17, 30s+19).",
+  "id": "A087772",
+  "mentions": [
+    "A014561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

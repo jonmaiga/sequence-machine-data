@@ -1,0 +1,20 @@
+{
+  "description": "Full list of counterexamples for the k=3 version of the malicious apprentice problem.",
+  "id": "A074894",
+  "mentions": [
+    "A030109",
+    "A057716"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

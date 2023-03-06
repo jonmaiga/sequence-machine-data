@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 3*2^(p - 1) - 1 where p is prime.",
+  "id": "A097743",
+  "mentions": [
+    "A000396",
+    "A001348",
+    "A055010",
+    "A061286",
+    "A098102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes that are palindromic in bases 8 and 10.",
+  "id": "A046477",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A029804",
+    "A029976"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

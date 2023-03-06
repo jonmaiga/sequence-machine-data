@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k such that k*n has exactly as many divisors as n^2.",
+  "id": "A093616",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A048691",
+    "A093617",
+    "A093618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

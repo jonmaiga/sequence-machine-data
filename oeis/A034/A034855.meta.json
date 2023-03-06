@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows giving number of rooted labeled trees with n >= 2 nodes and height d >= 1.",
+  "id": "A034855",
+  "mentions": [
+    "A000435",
+    "A001854",
+    "A007401",
+    "A234953",
+    "A236396"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

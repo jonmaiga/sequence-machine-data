@@ -1,0 +1,19 @@
+{
+  "description": "Indices of terms in A091074 which are prime numbers.",
+  "id": "A091076",
+  "mentions": [
+    "A091074",
+    "A091075"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

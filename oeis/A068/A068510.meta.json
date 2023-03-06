@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm(1,...,n) - (product of primes <= n).",
+  "id": "A068510",
+  "mentions": [
+    "A059794",
+    "A068511"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

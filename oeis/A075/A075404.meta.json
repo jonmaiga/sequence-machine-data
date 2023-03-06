@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m > n such that Sum_{i=n..m} i^2 is a square, or 0 if no such m exists.",
+  "id": "A075404",
+  "mentions": [
+    "A000330",
+    "A075405",
+    "A075406",
+    "A180442",
+    "A184763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

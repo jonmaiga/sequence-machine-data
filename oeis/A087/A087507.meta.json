@@ -1,0 +1,21 @@
+{
+  "description": "#{0<=k<=n: k*n is divisible by 3}.",
+  "id": "A087507",
+  "mentions": [
+    "A016777",
+    "A087508",
+    "A087509"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:17",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

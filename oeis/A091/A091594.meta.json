@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,m) := sum{k=0..floor((n-m)/2), binomial(n-2k,m)binomial(n-m-k,k)}.",
+  "id": "A091594",
+  "mentions": [
+    "A000045",
+    "A006054",
+    "A029907",
+    "A054455"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

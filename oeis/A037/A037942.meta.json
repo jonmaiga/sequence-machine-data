@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form x^2 + y^2 with x >= 0, y >= 0, gcd(x,y)=1, with multiplicity.",
+  "id": "A037942",
+  "mentions": [
+    "A008784",
+    "A224770",
+    "A281877"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:51",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

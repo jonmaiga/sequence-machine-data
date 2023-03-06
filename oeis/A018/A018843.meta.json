@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-dimensional unimodular lattices without roots.",
+  "id": "A018843",
+  "mentions": [
+    "A005134"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

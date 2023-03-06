@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. x^2*(1+x-x^2)/(1-x)^2.",
+  "id": "A052633",
+  "mentions": [
+    "A001563"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:17:45",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

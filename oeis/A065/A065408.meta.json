@@ -1,0 +1,21 @@
+{
+  "description": "Squares whose digits sum to a prime.",
+  "id": "A065408",
+  "mentions": [
+    "A000290",
+    "A007953",
+    "A107289"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

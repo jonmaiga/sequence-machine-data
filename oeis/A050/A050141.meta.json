@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*floor((n+1)*phi) - 2*floor(n*phi) - 1 where phi = (1 + sqrt(5))/2 is the golden ratio.",
+  "id": "A050141",
+  "mentions": [
+    "A005614",
+    "A050140"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for VPl-5 structure with respect to node (X) where 18-gon and two squares meet.",
+  "id": "A072152",
+  "mentions": [
+    "A072149",
+    "A072154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Differences between adjacent palindromic nonprime numbers A032350.",
+  "id": "A075801",
+  "mentions": [
+    "A032350",
+    "A037010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of strongly triple-free subsets of {1, 2, ..., n}.",
+  "id": "A050295",
+  "mentions": [
+    "A050291",
+    "A050296",
+    "A068060"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

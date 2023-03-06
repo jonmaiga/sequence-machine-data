@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the constant 8*exp(psi(5/8) + EulerGamma), where EulerGamma is the Euler-Mascheroni constant (A001620) and psi(x) is the digamma function.",
+  "id": "A097675",
+  "mentions": [
+    "A001620",
+    "A097663",
+    "A097674",
+    "A097676",
+    "A097679",
+    "A097682"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of 1,0,1,0,1,1,1,...",
+  "id": "A084635",
+  "mentions": [
+    "A000325",
+    "A084634"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:10:07",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

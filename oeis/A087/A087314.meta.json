@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/n)*[sum_{k = 0..n} n^(C(n,k))].",
+  "id": "A087314",
+  "mentions": [
+    "A001315"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that n sets a new record for number of ways to write n as the sum of a brilliant number and a prime.",
+  "id": "A084418",
+  "mentions": [
+    "A078972",
+    "A082785"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

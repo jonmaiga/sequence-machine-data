@@ -1,0 +1,19 @@
+{
+  "description": "Indices of primes which remain prime if any one digit is deleted (leading zeros allowed).",
+  "id": "A084375",
+  "mentions": [
+    "A034302",
+    "A051362"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

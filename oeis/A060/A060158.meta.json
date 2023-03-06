@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of [n] with 4 sequences.",
+  "id": "A060158",
+  "mentions": [
+    "A000352",
+    "A000486",
+    "A028399",
+    "A059427",
+    "A060157",
+    "A123003"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Limit of number of compositions (ordered partitions) of m into distinct parts where largest part is exactly m-n, for m sufficiently large given n.",
+  "id": "A072576",
+  "mentions": [
+    "A008289",
+    "A032020",
+    "A060016",
+    "A072574",
+    "A072575"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

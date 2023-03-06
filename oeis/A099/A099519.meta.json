@@ -1,0 +1,21 @@
+{
+  "description": "Positions in A099506 of the values in the RECORDS transform of that sequence (A099518).",
+  "id": "A099519",
+  "mentions": [
+    "A099506",
+    "A099507",
+    "A099518"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

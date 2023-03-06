@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(18).",
+  "id": "A041026",
+  "mentions": [
+    "A010474",
+    "A041027"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:59:10",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

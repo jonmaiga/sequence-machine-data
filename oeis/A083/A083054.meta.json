@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(sqrt(3)*n) - 3*floor(n/sqrt(3)).",
+  "id": "A083054",
+  "mentions": [
+    "A022383",
+    "A083035",
+    "A083038",
+    "A083055",
+    "A083056",
+    "A083057"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:03",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

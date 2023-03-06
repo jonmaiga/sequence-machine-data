@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that s(k) + s(k+1) + ... + s(k+6) = t(k) + t(k+1) + ... + t(k+6).",
+  "id": "A033913",
+  "mentions": [
+    "A001065",
+    "A033880",
+    "A033910",
+    "A033911",
+    "A033912"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

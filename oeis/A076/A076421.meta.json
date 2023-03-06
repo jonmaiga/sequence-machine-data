@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of second solution to tan(x) = tanh(x).",
+  "id": "A076421",
+  "mentions": [
+    "A076420",
+    "A076422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

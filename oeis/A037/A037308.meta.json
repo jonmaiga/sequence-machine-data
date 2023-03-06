@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose base-2 and base-10 expansions have the same digit sum.",
+  "id": "A037308",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A007953",
+    "A054899",
+    "A131451",
+    "A133620",
+    "A133900",
+    "A134599",
+    "A135110",
+    "A180018"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

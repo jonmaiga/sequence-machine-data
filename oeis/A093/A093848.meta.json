@@ -1,0 +1,20 @@
+{
+  "description": "(a(n)) is the earliest monotonic sequence starting with a(1)=1 and satisfying a(n)=length of n-th run of consecutive integers with same parity.",
+  "id": "A093848",
+  "mentions": [
+    "A001462",
+    "A049039",
+    "A169863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

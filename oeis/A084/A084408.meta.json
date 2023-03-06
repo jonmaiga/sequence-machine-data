@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: if n is prime, row n contains the n smallest primes not already used; if n is composite, row n contains the n smallest composite numbers not already used. A permutation of the positive integers.",
+  "id": "A084408",
+  "mentions": [
+    "A084409",
+    "A084410",
+    "A084411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

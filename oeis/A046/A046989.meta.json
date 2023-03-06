@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of Taylor series expansion in powers of x^2 of log(x/sin x).",
+  "id": "A046989",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A283301"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:44:16",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

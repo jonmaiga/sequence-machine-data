@@ -1,0 +1,18 @@
+{
+  "description": "Positions of even numbers in A025060 (numbers of form j*k + k*i + i*j, where 1 <= i < j < k).",
+  "id": "A025062",
+  "mentions": [
+    "A025060",
+    "A025063"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:41",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

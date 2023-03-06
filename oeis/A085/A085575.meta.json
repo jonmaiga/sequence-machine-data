@@ -1,0 +1,17 @@
+{
+  "description": "Squares whose sum of nonsquare digits is a square.",
+  "id": "A085575",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

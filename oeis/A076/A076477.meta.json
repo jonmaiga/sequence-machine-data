@@ -1,0 +1,17 @@
+{
+  "description": "Primes in the numerator of partial sums of A076476.",
+  "id": "A076477",
+  "mentions": [
+    "A076476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

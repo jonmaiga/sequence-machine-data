@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of terms in the expansion of (x-2y)*(x^2-2y^2)*(x^3-2y^3)*...*(x^n-2y^n).",
+  "id": "A086795",
+  "mentions": [
+    "A086781"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

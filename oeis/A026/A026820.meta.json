@@ -1,0 +1,43 @@
+{
+  "description": "Euler's table: triangular array T read by rows, where T(n,k) = number of partitions in which every part is <= k for 1 <= k <= n. Also number of partitions of n into at most k parts.",
+  "id": "A026820",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000065",
+    "A000217",
+    "A000262",
+    "A001399",
+    "A001400",
+    "A001401",
+    "A001402",
+    "A007042",
+    "A008284",
+    "A008619",
+    "A008636",
+    "A008637",
+    "A008638",
+    "A008639",
+    "A008640",
+    "A008641",
+    "A026840",
+    "A058397",
+    "A058400",
+    "A134737",
+    "A171985",
+    "A173519"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

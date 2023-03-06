@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that sum of distinct primes dividing n is divisible by largest prime dividing n; n is neither a prime, nor a true power of prime.",
+  "id": "A071140",
+  "mentions": [
+    "A000961",
+    "A006530",
+    "A008472",
+    "A010055",
+    "A024619",
+    "A025475",
+    "A037074",
+    "A071139",
+    "A071147"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

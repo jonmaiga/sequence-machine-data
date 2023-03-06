@@ -1,0 +1,22 @@
+{
+  "description": "Total number of Hamiltonian cycles avoiding the root-edge in rooted cubic bipartite planar maps with 2n nodes.",
+  "id": "A028475",
+  "mentions": [
+    "A000356",
+    "A003122",
+    "A007084",
+    "A116456"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

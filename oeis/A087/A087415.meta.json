@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers n such that abs(sigma(n)-2n) <= sqrt(n). Abundance-radius = abs(sigma(n)-2n) does not exceed square root of n and n is odd.",
+  "id": "A087415",
+  "mentions": [
+    "A000079",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A077374",
+    "A088007",
+    "A088012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

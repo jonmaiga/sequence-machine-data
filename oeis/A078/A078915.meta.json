@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A071827.",
+  "id": "A078915",
+  "mentions": [
+    "A071827"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

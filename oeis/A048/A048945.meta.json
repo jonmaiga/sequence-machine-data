@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose product of divisors is a fourth power.",
+  "id": "A048945",
+  "mentions": [
+    "A111398",
+    "A111399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

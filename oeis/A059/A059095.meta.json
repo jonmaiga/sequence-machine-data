@@ -1,0 +1,25 @@
+{
+  "description": "List consisting of the representation of n in base 3 using digits -1, 0, 1.",
+  "id": "A059095",
+  "mentions": [
+    "A003137",
+    "A065363",
+    "A102283",
+    "A117966",
+    "A134021",
+    "A134421"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 110,
+    "source": "joeis"
+  }
+}

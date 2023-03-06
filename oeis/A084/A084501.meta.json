@@ -1,0 +1,23 @@
+{
+  "description": "An infinite juggling sequence of three balls: successively larger ground-state 3-ball site swaps listed in lexicographic order.",
+  "id": "A084501",
+  "mentions": [
+    "A084502",
+    "A084503",
+    "A084507",
+    "A084509",
+    "A084511",
+    "A084521"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

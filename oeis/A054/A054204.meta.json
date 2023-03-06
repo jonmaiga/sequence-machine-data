@@ -1,0 +1,23 @@
+{
+  "description": "Integers expressible as sums of distinct even-subscripted Fibonacci numbers.",
+  "id": "A054204",
+  "mentions": [
+    "A001906",
+    "A002487",
+    "A014417",
+    "A022290",
+    "A046815",
+    "A062877"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(n)/tau(n) has denominator 3.",
+  "id": "A069082",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A057021"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

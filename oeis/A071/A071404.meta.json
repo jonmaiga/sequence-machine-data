@@ -1,0 +1,22 @@
+{
+  "description": "Which nonsquarefree number is a square number? a(n)-th nonsquarefree number equals n^2, the n-th square.",
+  "id": "A071404",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A005117",
+    "A013929",
+    "A071403"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

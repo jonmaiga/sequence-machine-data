@@ -1,0 +1,34 @@
+{
+  "description": "a(0) = 0 and then alternately even and odd numbers in increasing order such that the sum of any two successive terms is a square.",
+  "id": "A077221",
+  "mentions": [
+    "A000217",
+    "A032528",
+    "A046092",
+    "A047522",
+    "A069129",
+    "A077222",
+    "A131925",
+    "A139098",
+    "A139591",
+    "A153641",
+    "A194274",
+    "A195040",
+    "A195041",
+    "A195042",
+    "A195142",
+    "A195605"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

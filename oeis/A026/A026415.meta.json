@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A026409(k) is odd.",
+  "id": "A026415",
+  "mentions": [
+    "A026409"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:31:15",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

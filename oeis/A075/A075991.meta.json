@@ -1,0 +1,18 @@
+{
+  "description": "Indices where record values of A075989 occur.",
+  "id": "A075991",
+  "mentions": [
+    "A075989",
+    "A075990"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

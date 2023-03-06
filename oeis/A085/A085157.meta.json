@@ -1,0 +1,30 @@
+{
+  "description": "Quintuple factorials, 5-factorials, n!!!!!, n!5.",
+  "id": "A085157",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A007661",
+    "A007662",
+    "A008546",
+    "A008548",
+    "A047055",
+    "A047056",
+    "A052562",
+    "A085148",
+    "A085149",
+    "A085158",
+    "A288092"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

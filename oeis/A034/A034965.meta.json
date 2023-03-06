@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are sum of five consecutive primes.",
+  "id": "A034965",
+  "mentions": [
+    "A001043",
+    "A011974",
+    "A034707",
+    "A034964",
+    "A152468"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

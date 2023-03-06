@@ -1,0 +1,20 @@
+{
+  "description": "Second column of triangle A091150, in which the n-th row lists the coefficients of the polynomial of degree n that generates the n-th diagonal.",
+  "id": "A091152",
+  "mentions": [
+    "A091150",
+    "A091151",
+    "A091153"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

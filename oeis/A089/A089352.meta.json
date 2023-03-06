@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the sum of their distinct prime factors (A008472).",
+  "id": "A089352",
+  "mentions": [
+    "A008472",
+    "A071139",
+    "A158804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

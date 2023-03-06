@@ -1,0 +1,24 @@
+{
+  "description": "Number of proper linear spaces of order n.",
+  "id": "A031436",
+  "mentions": [
+    "A001200",
+    "A001439",
+    "A031437",
+    "A031438",
+    "A056642"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

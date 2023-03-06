@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct primes obtained by inserting a 1 at all possible places in n. This includes prefixing and suffixing.",
+  "id": "A069842",
+  "mentions": [
+    "A069843",
+    "A069844",
+    "A069845",
+    "A069846",
+    "A069847",
+    "A069848",
+    "A069849",
+    "A069850",
+    "A069851"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:31",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

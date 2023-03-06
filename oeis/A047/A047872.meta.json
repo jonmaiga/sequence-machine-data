@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(abs(B(2*n + 2)/B(2*n))) where B(n) is the n-th Bernoulli number.",
+  "id": "A047872",
+  "mentions": [
+    "A002939",
+    "A034971",
+    "A034972"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

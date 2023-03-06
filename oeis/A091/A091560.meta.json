@@ -1,0 +1,28 @@
+{
+  "description": "Fractional part of e^a(n) is the largest yet.",
+  "id": "A091560",
+  "mentions": [
+    "A000149",
+    "A153663",
+    "A153671",
+    "A153679",
+    "A153687",
+    "A153695",
+    "A153707",
+    "A153711",
+    "A153719",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

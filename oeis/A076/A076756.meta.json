@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of coefficients of characteristic polynomial of M_n, the n X n matrix M_(i,j) = min(i,j).",
+  "id": "A076756",
+  "mentions": [
+    "A054142",
+    "A203989"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Successive approximations to 13-adic integer sqrt(-1).",
+  "id": "A034944",
+  "mentions": [
+    "A034935",
+    "A034939",
+    "A218709",
+    "A286840"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

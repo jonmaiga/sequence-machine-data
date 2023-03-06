@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are k-gons for two or more k's, where k = 3, 4, 5, ..., 16.",
+  "id": "A090428",
+  "mentions": [
+    "A062712",
+    "A090466"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

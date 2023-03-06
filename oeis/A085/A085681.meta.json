@@ -1,0 +1,15 @@
+{
+  "description": "Integers of the form 2^n*p where p is a prime > 2^n.",
+  "id": "A085681",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form 6*p + 1 where p is also prime.",
+  "id": "A051644",
+  "mentions": [
+    "A002476",
+    "A005384",
+    "A005385",
+    "A007693",
+    "A016921",
+    "A024899",
+    "A091178"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:33",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

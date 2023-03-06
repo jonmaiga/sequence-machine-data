@@ -1,0 +1,18 @@
+{
+  "description": "Greatest k",
+  "id": "A081236",
+  "mentions": [
+    "A008683",
+    "A081237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

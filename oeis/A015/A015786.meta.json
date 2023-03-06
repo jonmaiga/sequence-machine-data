@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that phi(k) + 7 | sigma(k + 7).",
+  "id": "A015786",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A015775",
+    "A015781",
+    "A015782",
+    "A015783",
+    "A015784",
+    "A015785"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

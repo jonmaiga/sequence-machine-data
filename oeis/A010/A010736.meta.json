@@ -1,0 +1,21 @@
+{
+  "description": "Let S(x,y) = number of lattice paths from (0,0) to (x,y) that use the step set { (0,1), (1,0), (2,0), (3,0), ....} and never pass below y = x. Sequence gives S(n-2,n).",
+  "id": "A010736",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A011117"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

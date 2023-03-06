@@ -1,0 +1,23 @@
+{
+  "description": "Given n colors, sequence gives number of ways to color the vertices of a square such that no edge has the same color on both of its vertices.",
+  "id": "A091940",
+  "mentions": [
+    "A000217",
+    "A002061",
+    "A027441",
+    "A182368",
+    "A182406"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:12:43",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

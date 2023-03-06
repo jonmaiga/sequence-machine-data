@@ -1,0 +1,22 @@
+{
+  "description": "a(2n) = 2^n, a(2n+1) = 2^(2n).",
+  "id": "A079102",
+  "mentions": [
+    "A079103",
+    "A079104",
+    "A079105",
+    "A079106"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:44:18",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of rounds of shuffling required to restore a deck of n cards to its original order: shuffling is done by keeping first card, putting second at end of deck, keeping next, putting next at end and so on.",
+  "id": "A051732",
+  "mentions": [
+    "A163782",
+    "A289386"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:05",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

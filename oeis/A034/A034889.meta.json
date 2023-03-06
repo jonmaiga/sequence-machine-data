@@ -1,0 +1,22 @@
+{
+  "description": "Number of embeddings on the sphere of 2-connected planar graphs with n nodes.",
+  "id": "A034889",
+  "mentions": [
+    "A002218",
+    "A005142",
+    "A021103"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

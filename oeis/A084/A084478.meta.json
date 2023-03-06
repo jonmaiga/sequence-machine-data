@@ -1,0 +1,27 @@
+{
+  "description": "Number of tilings of a 5 X 3n rectangle with right trominoes.",
+  "id": "A084478",
+  "mentions": [
+    "A046984",
+    "A084477",
+    "A084479",
+    "A084480",
+    "A084481",
+    "A233340",
+    "A236576",
+    "A351323",
+    "A351324"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

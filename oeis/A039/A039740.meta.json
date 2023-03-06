@@ -1,0 +1,15 @@
+{
+  "description": "Lattice animals in the cubic diamond lattice (4 nearest neighbors), even-vertex-connected cubes.",
+  "id": "A039740",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

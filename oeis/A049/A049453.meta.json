@@ -1,0 +1,27 @@
+{
+  "description": "Second pentagonal numbers with even index: a(n) = n*(6*n+1).",
+  "id": "A049453",
+  "mentions": [
+    "A001318",
+    "A005449",
+    "A033568",
+    "A033570",
+    "A036498",
+    "A049452",
+    "A185019",
+    "A194454",
+    "A254963"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 11:02:21",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

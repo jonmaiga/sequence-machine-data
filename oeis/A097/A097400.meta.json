@@ -1,0 +1,18 @@
+{
+  "description": "Number of different values that can be assumed by the determinant of a 3 X 3 matrix whose elements are all permutations of the consecutive integers in the range (n-4,n+4).",
+  "id": "A097400",
+  "mentions": [
+    "A088217",
+    "A097399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

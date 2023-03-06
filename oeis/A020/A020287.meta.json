@@ -1,0 +1,18 @@
+{
+  "description": "Strong pseudoprimes to base 61.",
+  "id": "A020287",
+  "mentions": [
+    "A001262",
+    "A020233"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:00",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

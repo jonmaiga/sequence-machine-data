@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows giving successive iterations of the Rule 110 elementary cellular automaton starting with a single black (1) cell where row n is of length 2n+1.",
+  "id": "A075437",
+  "mentions": [
+    "A070887"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

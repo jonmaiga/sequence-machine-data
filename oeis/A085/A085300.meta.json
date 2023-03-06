@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the least prime x such that when reversed it is a power of prime(n).",
+  "id": "A085300",
+  "mentions": [
+    "A002385",
+    "A003459",
+    "A006567",
+    "A007500",
+    "A055387",
+    "A056994",
+    "A057708",
+    "A058993",
+    "A059695",
+    "A061461",
+    "A068652",
+    "A085298"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

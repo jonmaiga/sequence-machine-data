@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-node connected planar graphs with minimum degree at least 2.",
+  "id": "A054381",
+  "mentions": [
+    "A002218",
+    "A010355",
+    "A049370"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime number whose digits sum to n-th prime.",
+  "id": "A054750",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A046704",
+    "A046864",
+    "A051885",
+    "A055019",
+    "A067180",
+    "A068951"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

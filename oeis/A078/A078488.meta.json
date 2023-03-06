@@ -1,0 +1,22 @@
+{
+  "description": "First differences of coefficients of g.f. (1-x)^24.",
+  "id": "A078488",
+  "mentions": [
+    "A010940",
+    "A010941"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:31",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

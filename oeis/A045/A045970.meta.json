@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=7; if n = Product p_i^e_i, n > 1, then a(n) = Product p_{i+4}^e_i.",
+  "id": "A045970",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:33",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = T(n,n+4), T given by A027023.",
+  "id": "A027026",
+  "mentions": [
+    "A000213",
+    "A027023"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 4,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

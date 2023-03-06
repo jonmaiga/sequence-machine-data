@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as the sum of two positive distinct squarefree numbers.",
+  "id": "A098236",
+  "mentions": [
+    "A005117",
+    "A098235"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

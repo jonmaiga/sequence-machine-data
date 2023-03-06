@@ -1,0 +1,28 @@
+{
+  "description": "Highest minimal Hamming distance of any Type 4^Z self-dual code of length n over Z/4Z.",
+  "id": "A066016",
+  "mentions": [
+    "A016729",
+    "A066012",
+    "A066017",
+    "A098068",
+    "A105674",
+    "A105675",
+    "A105676",
+    "A105677",
+    "A105678",
+    "A105681",
+    "A105682"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

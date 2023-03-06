@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number sandwiched between two numbers having exactly n prime divisors.",
+  "id": "A088075",
+  "mentions": [
+    "A001221",
+    "A088076",
+    "A088077"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

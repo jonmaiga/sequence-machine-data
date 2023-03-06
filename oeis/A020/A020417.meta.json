@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that the continued fraction for sqrt(k) has period 78.",
+  "id": "A020417",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

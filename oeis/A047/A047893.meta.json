@@ -1,0 +1,21 @@
+{
+  "description": "Number of decimal digits of Euler (Zig) numbers A000364: a(n) = ceiling(log_10(|E(2n)|)), where E is Euler's E function.",
+  "id": "A047893",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A034971",
+    "A034972"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

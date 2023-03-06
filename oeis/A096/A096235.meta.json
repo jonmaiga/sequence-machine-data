@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-bit base-2 deletable primes.",
+  "id": "A096235",
+  "mentions": [
+    "A080603",
+    "A080608",
+    "A096236",
+    "A096246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of (unsigned) staircase array A062746.",
+  "id": "A062747",
+  "mentions": [
+    "A001764",
+    "A062746",
+    "A062993"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

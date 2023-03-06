@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integers, all distinct, that satisfy sum(n>0,1/a(n)^z)=0, where z=1/2 + I.",
+  "id": "A084806",
+  "mentions": [
+    "A084799",
+    "A084805",
+    "A084807",
+    "A084810"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

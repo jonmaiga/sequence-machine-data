@@ -1,0 +1,21 @@
+{
+  "description": "(Concatenation of T(n)+1..T(n+1)) mod (concatenation of T(n-1)+1..T(n)), where T(k) is the k-th triangular number, A000217(k).",
+  "id": "A095222",
+  "mentions": [
+    "A000217",
+    "A053067"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coordination sequence for lattice D*_48 (with edges defined by l_1 norm = 1).",
+  "id": "A035809",
+  "mentions": [
+    "A035743"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:57:42",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

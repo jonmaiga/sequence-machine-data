@@ -1,0 +1,31 @@
+{
+  "description": "Base 4 self or Colombian numbers (not of form k + sum of base 4 digits of k).",
+  "id": "A010064",
+  "mentions": [
+    "A003052",
+    "A010061",
+    "A010065",
+    "A010067",
+    "A010070",
+    "A053737",
+    "A230631",
+    "A230632",
+    "A230633",
+    "A230634",
+    "A230635",
+    "A230636",
+    "A230637",
+    "A230638"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

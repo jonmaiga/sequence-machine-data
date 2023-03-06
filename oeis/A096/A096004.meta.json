@@ -1,0 +1,20 @@
+{
+  "description": "Number of convex triangular polyominoes containing n cells.",
+  "id": "A096004",
+  "mentions": [
+    "A000577",
+    "A014529"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

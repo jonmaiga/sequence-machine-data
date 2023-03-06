@@ -1,0 +1,20 @@
+{
+  "description": "Smallest square that begins with n.",
+  "id": "A018796",
+  "mentions": [
+    "A018851",
+    "A077502"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Smallest palindromic prime containing exactly n 2's.",
+  "id": "A083973",
+  "mentions": [
+    "A083972",
+    "A083974",
+    "A083975",
+    "A083976",
+    "A083977",
+    "A083978",
+    "A083979",
+    "A083980",
+    "A083981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of ways of placing '+' and '-' among the digits 123456789 so that the result of the expression is n, '-' before 1 IS allowed.",
+  "id": "A066957",
+  "mentions": [
+    "A066956",
+    "A136601",
+    "A136602",
+    "A136603",
+    "A136604"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^n*binomial(n+2, 2).",
+  "id": "A081133",
+  "mentions": [
+    "A053507",
+    "A081130",
+    "A081131",
+    "A081132",
+    "A081196"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

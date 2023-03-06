@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of the generalized harmonic number H(n,5) = Sum_{k=1..n} 1/k^5.",
+  "id": "A099828",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A007408",
+    "A007410",
+    "A069052",
+    "A099827",
+    "A103345"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

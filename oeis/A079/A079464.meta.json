@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the \"inventory\" A063850 of n is prime.",
+  "id": "A079464",
+  "mentions": [
+    "A063850"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

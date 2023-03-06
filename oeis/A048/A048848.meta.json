@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(phi(n)).",
+  "id": "A048848",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A048849"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime a(n) such that a(n)+6n, a(n)+12n and a(n)+18n are also primes.",
+  "id": "A092519",
+  "mentions": [
+    "A023271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

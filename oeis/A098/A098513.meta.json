@@ -1,0 +1,20 @@
+{
+  "description": "Number of points (x,y) on the elliptic curve y^2 = x^3 + x + 1 (mod n), not including the point at infinity.",
+  "id": "A098513",
+  "mentions": [
+    "A098514"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of first n numbers - n!. a(n) = 1234567891011... up to n - 1*2*3*4*5*6*7*8*9*10*11... up to n.",
+  "id": "A083448",
+  "mentions": [
+    "A000142",
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Degrees of certain maps (see Comments and Formulas for more precise definitions).",
+  "id": "A084684",
+  "mentions": [
+    "A001651",
+    "A002620",
+    "A056107",
+    "A064863",
+    "A077588",
+    "A122958"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

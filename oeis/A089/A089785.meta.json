@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime(k) such that the concatenation of prime(k) and prime(k-n) is prime.",
+  "id": "A089785",
+  "mentions": [
+    "A089782",
+    "A089783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

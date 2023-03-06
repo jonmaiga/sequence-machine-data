@@ -1,0 +1,29 @@
+{
+  "description": "a(n)/(n*n!) is the average number of comparisons needed to find a node in a binary search tree containing n nodes inserted in a random order.",
+  "id": "A063090",
+  "mentions": [
+    "A000108",
+    "A000337",
+    "A067699",
+    "A093418",
+    "A096620",
+    "A115107",
+    "A288964",
+    "A288965",
+    "A288970",
+    "A288971"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

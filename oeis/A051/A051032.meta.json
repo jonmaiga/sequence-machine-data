@@ -1,0 +1,22 @@
+{
+  "description": "Summatory Rudin-Shapiro sequence for 2^(n-1).",
+  "id": "A051032",
+  "mentions": [
+    "A000051",
+    "A014081",
+    "A020985",
+    "A020986"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:22:35",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

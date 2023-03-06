@@ -1,0 +1,15 @@
+{
+  "description": "Expansion in power series of a parametrization of the Folium of Descartes.",
+  "id": "A096877",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

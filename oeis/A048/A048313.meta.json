@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base-16 expansions, read from left to right, have run lengths that strictly increase.",
+  "id": "A048313",
+  "mentions": [
+    "A037015",
+    "A043705",
+    "A043719",
+    "A044827",
+    "A044965"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

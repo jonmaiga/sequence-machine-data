@@ -1,0 +1,19 @@
+{
+  "description": "Digit '5' concatenated with n is a lucky number.",
+  "id": "A032677",
+  "mentions": [
+    "A000959"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:01",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

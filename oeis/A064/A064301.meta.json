@@ -1,0 +1,21 @@
+{
+  "description": "Rightmost column of A064744; 2-adic valuation of the EKG-sequence.",
+  "id": "A064301",
+  "mentions": [
+    "A064413",
+    "A064741",
+    "A064744",
+    "A304735",
+    "A304737"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

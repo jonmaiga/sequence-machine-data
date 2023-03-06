@@ -1,0 +1,21 @@
+{
+  "description": "A period 6 sequence.",
+  "id": "A084104",
+  "mentions": [
+    "A007877",
+    "A084101",
+    "A084103"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:21:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

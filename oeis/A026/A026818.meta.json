@@ -1,0 +1,20 @@
+{
+  "description": "Largest digit of n concatenated with smallest digit of n is prime.",
+  "id": "A026818",
+  "mentions": [
+    "A054054",
+    "A054055"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:57",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

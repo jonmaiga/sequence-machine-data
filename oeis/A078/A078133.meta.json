@@ -1,0 +1,24 @@
+{
+  "description": "Primes which cannot be written as sum of cubes>1.",
+  "id": "A078133",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A078128",
+    "A078129",
+    "A078132",
+    "A078139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

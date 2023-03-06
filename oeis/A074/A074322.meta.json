@@ -1,0 +1,21 @@
+{
+  "description": "0 if pronounced name of n-th letter of English alphabet begin with a vowel sound, otherwise 1. Different from A054638.",
+  "id": "A074322",
+  "mentions": [
+    "A048659",
+    "A054638"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

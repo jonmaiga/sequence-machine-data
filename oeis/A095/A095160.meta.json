@@ -1,0 +1,20 @@
+{
+  "description": "Let B(n) be the sum of binary digits of n. Sequence contains n such that B(n) = B(digit sum(n)).",
+  "id": "A095160",
+  "mentions": [
+    "A000120",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

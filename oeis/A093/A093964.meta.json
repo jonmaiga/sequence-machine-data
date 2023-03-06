@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*k!*C(n,k).",
+  "id": "A093964",
+  "mentions": [
+    "A000522",
+    "A001339",
+    "A007526",
+    "A008279",
+    "A093966",
+    "A132159",
+    "A210472"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

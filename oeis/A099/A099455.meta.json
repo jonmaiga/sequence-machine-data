@@ -1,0 +1,20 @@
+{
+  "description": "An Alexander sequence for the knot 8_12.",
+  "id": "A099455",
+  "mentions": [
+    "A099453",
+    "A099454"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:05:57",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

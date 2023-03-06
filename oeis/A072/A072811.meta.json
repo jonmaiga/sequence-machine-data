@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = multiplicity of the k-th partition of n in Mathematica order, defined to be the count of its permutations (compositions).",
+  "id": "A072811",
+  "mentions": [
+    "A011782",
+    "A080575",
+    "A080577",
+    "A102462",
+    "A115621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

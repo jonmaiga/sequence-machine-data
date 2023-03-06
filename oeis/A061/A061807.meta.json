@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive multiple of n containing only even digits.",
+  "id": "A061807",
+  "mentions": [
+    "A061808",
+    "A067044"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in binary representation with odd length.",
+  "id": "A079112",
+  "mentions": [
+    "A007088",
+    "A053738"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

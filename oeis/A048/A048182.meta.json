@@ -1,0 +1,17 @@
+{
+  "description": "Variation on A047988, where division by d costs d points instead of 0 points.",
+  "id": "A048182",
+  "mentions": [
+    "A047988"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:03:29",
+    "offset": 2,
+    "size": 84,
+    "source": "joeis"
+  }
+}

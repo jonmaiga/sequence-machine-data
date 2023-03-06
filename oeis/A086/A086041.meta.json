@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are concatenations of 5 consecutive primes.",
+  "id": "A086041",
+  "mentions": [
+    "A030461",
+    "A030469",
+    "A030473",
+    "A086040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

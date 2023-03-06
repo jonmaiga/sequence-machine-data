@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered pairs (a,b) of elements of the symmetric group S_n such that the pair a,b generates a proper subgroup of S_n.",
+  "id": "A086502",
+  "mentions": [
+    "A071605"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

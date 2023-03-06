@@ -1,0 +1,26 @@
+{
+  "description": "Number of weighings required to identify a single bad coin out of n coins, using a two-pan balance.",
+  "id": "A080342",
+  "mentions": [
+    "A000244",
+    "A004526",
+    "A007089",
+    "A025192",
+    "A029837",
+    "A034472",
+    "A064099",
+    "A064235"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

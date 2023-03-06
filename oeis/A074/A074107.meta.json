@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Product of (prime + 1) for first n primes - primorial (n).",
+  "id": "A074107",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

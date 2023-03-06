@@ -1,0 +1,32 @@
+{
+  "description": "A Jacobsthal trisection.",
+  "id": "A093134",
+  "mentions": [
+    "A001045",
+    "A015518",
+    "A015521",
+    "A015531",
+    "A015552",
+    "A015565",
+    "A047855",
+    "A054878",
+    "A078008",
+    "A097073",
+    "A109499",
+    "A109500",
+    "A109501",
+    "A115341"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

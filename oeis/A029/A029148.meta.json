@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^5)(1-x^11)).",
+  "id": "A029148",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

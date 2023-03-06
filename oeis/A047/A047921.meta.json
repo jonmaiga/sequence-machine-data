@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of numbers a(n,k) = number of permutations on n letters containing k 3-sequences (n >= 0, 0<=k<=max(0,n-2)).",
+  "id": "A047921",
+  "mentions": [
+    "A000142",
+    "A002628",
+    "A002629",
+    "A002630"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 07:49:36",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

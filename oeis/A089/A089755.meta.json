@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=11; for n>1, a(n) is the smallest prime not occurring earlier beginning with a(n-1) without its first digit. Single-digit primes are not allowed unless they arise from the previous term as multi-digit number with leading zero(s) (i.e., a(n-1) has 0 as second digit) which are remembered for the subsequent left-truncations.",
+  "id": "A089755",
+  "mentions": [
+    "A089756",
+    "A262282",
+    "A262283"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

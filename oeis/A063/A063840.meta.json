@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma(k) - usigma(k) is a square and sets a new record for such squares.",
+  "id": "A063840",
+  "mentions": [
+    "A048146"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

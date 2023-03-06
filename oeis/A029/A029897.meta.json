@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of 13-dimensional lattice Kappa_13 with minimal norm 4.",
+  "id": "A029897",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

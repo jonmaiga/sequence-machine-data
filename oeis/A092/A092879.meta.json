@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients of the product of two consecutive Fibonacci polynomials.",
+  "id": "A092879",
+  "mentions": [
+    "A001654",
+    "A035317",
+    "A109954",
+    "A136674",
+    "A158909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

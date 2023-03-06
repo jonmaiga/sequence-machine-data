@@ -1,0 +1,19 @@
+{
+  "description": "Greatest m with A086571(m) = n.",
+  "id": "A086939",
+  "mentions": [
+    "A086571",
+    "A086572",
+    "A086938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

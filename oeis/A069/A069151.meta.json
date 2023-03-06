@@ -1,0 +1,23 @@
+{
+  "description": "Concatenations of consecutive primes, starting with 2, that are also prime.",
+  "id": "A069151",
+  "mentions": [
+    "A019518",
+    "A030997",
+    "A046035",
+    "A046284"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "bref",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

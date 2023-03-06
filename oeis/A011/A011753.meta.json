@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number beginning with n and having n different prime divisors (which may be repeated).",
+  "id": "A011753",
+  "mentions": [
+    "A077522"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

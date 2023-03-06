@@ -1,0 +1,26 @@
+{
+  "description": "Sums of distinct powers of 8.",
+  "id": "A033045",
+  "mentions": [
+    "A000695",
+    "A005836",
+    "A030308",
+    "A033043",
+    "A033052",
+    "A097254",
+    "A104257"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

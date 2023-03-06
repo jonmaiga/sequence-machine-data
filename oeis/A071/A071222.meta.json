@@ -1,0 +1,24 @@
+{
+  "description": "Smallest k such that gcd(n,k) = gcd(n+1,k+1).",
+  "id": "A071222",
+  "mentions": [
+    "A007978",
+    "A053669",
+    "A055874",
+    "A235918",
+    "A235921",
+    "A249270"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 1; a(n) = a(floor(n/3)) + a(n - floor(n/3)).",
+  "id": "A071991",
+  "mentions": [
+    "A071995",
+    "A071996"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

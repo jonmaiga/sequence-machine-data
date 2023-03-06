@@ -1,0 +1,15 @@
+{
+  "description": "Period of continued fraction for sqrt(n) contains exactly 59 ones.",
+  "id": "A031827",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:07",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

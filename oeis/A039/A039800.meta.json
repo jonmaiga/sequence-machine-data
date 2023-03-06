@@ -1,0 +1,21 @@
+{
+  "description": "Column 1 of Inverse partition triangle A038498.",
+  "id": "A039800",
+  "mentions": [
+    "A038498",
+    "A039801",
+    "A039802",
+    "A039803",
+    "A039804"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:02:06",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

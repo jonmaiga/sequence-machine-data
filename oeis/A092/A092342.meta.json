@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sigma_3(3n+1).",
+  "id": "A092342",
+  "mentions": [
+    "A000731",
+    "A001158",
+    "A033690",
+    "A045823",
+    "A091986",
+    "A092341",
+    "A092343"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Determinant of n X n matrix whose diagonal are the first n primes and all other elements are 1's.",
+  "id": "A067549",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

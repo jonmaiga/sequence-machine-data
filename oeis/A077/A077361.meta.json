@@ -1,0 +1,22 @@
+{
+  "description": "Smallest n-digit prime whose external digits as well as internal digits form a prime, or 0 if no such number exists.",
+  "id": "A077361",
+  "mentions": [
+    "A069686",
+    "A077359",
+    "A077360",
+    "A077362"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (5*n + 4)*binomial(n+7,7)/4.",
+  "id": "A056125",
+  "mentions": [
+    "A052254",
+    "A093645"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:30:47",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

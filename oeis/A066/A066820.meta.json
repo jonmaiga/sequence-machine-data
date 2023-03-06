@@ -1,0 +1,18 @@
+{
+  "description": "Integers of the form phi(n^2+1)/n.",
+  "id": "A066820",
+  "mentions": [
+    "A005574",
+    "A066852"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

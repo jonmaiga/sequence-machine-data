@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=2n+1 where n is such that A083344(n) is not zero.",
+  "id": "A082452",
+  "mentions": [
+    "A000203",
+    "A057643",
+    "A066715",
+    "A082457",
+    "A083344"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

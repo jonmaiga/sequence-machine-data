@@ -1,0 +1,31 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(11).",
+  "id": "A041014",
+  "mentions": [
+    "A001077",
+    "A001333",
+    "A002531",
+    "A005667",
+    "A010468",
+    "A041006",
+    "A041008",
+    "A041010",
+    "A041015",
+    "A041016",
+    "A042936"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of eta(q^9)^3 / eta(q^3) in powers of q.",
+  "id": "A045833",
+  "mentions": [
+    "A033685",
+    "A033687",
+    "A097195",
+    "A217219"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

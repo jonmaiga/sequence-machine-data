@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A091579.",
+  "id": "A092432",
+  "mentions": [
+    "A091579"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

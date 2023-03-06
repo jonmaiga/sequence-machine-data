@@ -1,0 +1,19 @@
+{
+  "description": "Arrange binary trees in natural sequential order (see examples); sequence gives numbers of nodes.",
+  "id": "A058889",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

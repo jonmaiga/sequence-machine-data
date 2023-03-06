@@ -1,0 +1,24 @@
+{
+  "description": "Let r+i*s be the sum of the distinct first-quadrant Gaussian integers dividing n; sequence gives s values.",
+  "id": "A078911",
+  "mentions": [
+    "A000203",
+    "A004614",
+    "A078458",
+    "A078908",
+    "A078909",
+    "A078910",
+    "A078930"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

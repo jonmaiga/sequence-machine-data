@@ -1,0 +1,18 @@
+{
+  "description": "Integer quotients of n(n + 1)(n + 2)(n + 3)(n + 4) / (n+(n+1)+(n+2)+(n+3)+(n+4)).",
+  "id": "A032770",
+  "mentions": [
+    "A032768",
+    "A032769"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:57",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

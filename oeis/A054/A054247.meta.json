@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n binary matrices under action of dihedral group of the square D_4.",
+  "id": "A054247",
+  "mentions": [
+    "A002724",
+    "A054407",
+    "A343097"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree kernels of 3-smooth numbers.",
+  "id": "A033031",
+  "mentions": [
+    "A003586",
+    "A007947",
+    "A022328",
+    "A022329"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

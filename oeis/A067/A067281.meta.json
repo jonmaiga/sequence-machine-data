@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of {1,2,3,...,n} where the elements of n are considered indistinguishable if they differ by a power of 2 (for example 3, 12 and 24 are all considered equivalent).",
+  "id": "A067281",
+  "mentions": [
+    "A000265"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

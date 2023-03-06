@@ -1,0 +1,24 @@
+{
+  "description": "Smaller of two consecutive squarefree numbers having equal numbers of prime factors.",
+  "id": "A086263",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005117",
+    "A075039",
+    "A215217",
+    "A263990",
+    "A318896",
+    "A318964"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

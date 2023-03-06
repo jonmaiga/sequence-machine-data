@@ -1,0 +1,20 @@
+{
+  "description": "Largest squarefree number k such that Q(sqrt(-k)) has class number n.",
+  "id": "A038552",
+  "mentions": [
+    "A046125",
+    "A081319"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

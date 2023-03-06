@@ -1,0 +1,24 @@
+{
+  "description": "a(2n+1) = |a(2n) - a(2n-1)|, a(2n) = a(n) + a(n-1), a(0) = -1.",
+  "id": "A020944",
+  "mentions": [
+    "A020947",
+    "A020948",
+    "A020949",
+    "A020950",
+    "A020951",
+    "A153893"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

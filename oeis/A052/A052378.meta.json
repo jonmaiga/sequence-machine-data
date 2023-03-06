@@ -1,0 +1,30 @@
+{
+  "description": "Primes followed by a [4,2,4] prime difference pattern of A001223.",
+  "id": "A052378",
+  "mentions": [
+    "A001223",
+    "A022005",
+    "A022008",
+    "A023200",
+    "A047948",
+    "A052166",
+    "A052168",
+    "A052188",
+    "A052198",
+    "A052376",
+    "A052377",
+    "A052380",
+    "A053320"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:51",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1.",
+  "id": "A037517",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

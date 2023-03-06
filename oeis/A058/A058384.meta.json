@@ -1,0 +1,19 @@
+{
+  "description": "Largest power of 2 which is a divisor of p(n)-1, where p(n) = n-th prime.",
+  "id": "A058384",
+  "mentions": [
+    "A006093",
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

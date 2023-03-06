@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = smallest number such that the concatenation of two successive terms gives a prime which has not occurred earlier.",
+  "id": "A077202",
+  "mentions": [
+    "A082238"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

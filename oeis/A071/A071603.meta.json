@@ -1,0 +1,20 @@
+{
+  "description": "Number of different positive integers that we can obtain from the integers {1,2,...,n} using each number at most once and the operators +, -, *, /, where intermediate subexpressions must be integers.",
+  "id": "A071603",
+  "mentions": [
+    "A060315",
+    "A070960",
+    "A071848"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

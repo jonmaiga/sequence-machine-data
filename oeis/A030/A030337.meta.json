@@ -1,0 +1,21 @@
+{
+  "description": "Length of n-th run of digit 1 in A003137.",
+  "id": "A030337",
+  "mentions": [
+    "A003137",
+    "A030333",
+    "A030336",
+    "A030338"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

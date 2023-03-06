@@ -1,0 +1,23 @@
+{
+  "description": "Number of 9's immediately following the decimal point in the expansion of (3+sqrt(8))^n.",
+  "id": "A093700",
+  "mentions": [
+    "A003499",
+    "A050608",
+    "A074184",
+    "A076539",
+    "A080686"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

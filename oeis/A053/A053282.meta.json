@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of the '10th-order' mock theta function psi(q).",
+  "id": "A053282",
+  "mentions": [
+    "A001622",
+    "A053281",
+    "A053283",
+    "A053284"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

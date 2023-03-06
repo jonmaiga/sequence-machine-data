@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(A*a(n-1) + B*a(n-2) + C)/p^r, where p^r is the highest power of p dividing floor(A*a(n-1) + B*a(n-2) + C), A=1.0001, B=1.0001, C=1, p=2.",
+  "id": "A053521",
+  "mentions": [
+    "A028948",
+    "A053522",
+    "A053523"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:29",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

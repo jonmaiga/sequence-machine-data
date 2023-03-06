@@ -1,0 +1,23 @@
+{
+  "description": "Table in which n-th row gives all partitions of n interpreted in base n+1. (A subset of A051849 with each term having a non-descending digit-sequence in base n+1).",
+  "id": "A051851",
+  "mentions": [
+    "A000041",
+    "A051845",
+    "A051849",
+    "A051852"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:07",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

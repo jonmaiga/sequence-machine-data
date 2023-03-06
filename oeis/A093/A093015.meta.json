@@ -1,0 +1,18 @@
+{
+  "description": "First occurrence of n in A092926.",
+  "id": "A093015",
+  "mentions": [
+    "A092925",
+    "A092926"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

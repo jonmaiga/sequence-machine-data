@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest strictly increasing base 3 autovarious sequence: a(n) = number of distinct a(k) mod 3^n (written in base 3).",
+  "id": "A037091",
+  "mentions": [
+    "A037090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

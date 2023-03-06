@@ -1,0 +1,22 @@
+{
+  "description": "n divided by ((sum of digits of n) times (product of digits of n)) is prime.",
+  "id": "A066042",
+  "mentions": [
+    "A038369",
+    "A049102",
+    "A066146"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Take a <= b such that f(a)+f(b)=concatenation of a and b, where f(k)=k(k+3)/2 (A000096). Sequence gives values of b.",
+  "id": "A099149",
+  "mentions": [
+    "A000096",
+    "A096032",
+    "A099148",
+    "A099150"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

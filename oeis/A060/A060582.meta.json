@@ -1,0 +1,20 @@
+{
+  "description": "If the final digit of n in base 3 is the same as a([n/3]) then this digit, otherwise a(n)= mod 3-sum of these two digits, with a(0)=0.",
+  "id": "A060582",
+  "mentions": [
+    "A060583",
+    "A060588"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

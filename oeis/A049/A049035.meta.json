@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs of twin primes whose smaller element is <= 10^n-th prime.",
+  "id": "A049035",
+  "mentions": [
+    "A001359",
+    "A006988",
+    "A093683"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

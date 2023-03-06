@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 6*Lucas(2n) - Fibonacci(2n+2).",
+  "id": "A097512",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001519",
+    "A005248",
+    "A022133"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:07:00",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

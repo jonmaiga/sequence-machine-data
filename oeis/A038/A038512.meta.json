@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers with smallest prime factor >= 13.",
+  "id": "A038512",
+  "mentions": [
+    "A002808",
+    "A008365"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

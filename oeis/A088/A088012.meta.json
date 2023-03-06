@@ -1,0 +1,29 @@
+{
+  "description": "Odd solutions to abs(sigma(x)-2x) <= log(x). Numbers n whose abundance-radius does not exceed log(n).",
+  "id": "A088012",
+  "mentions": [
+    "A000079",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A077374",
+    "A087167",
+    "A088007",
+    "A088011",
+    "A171929",
+    "A188263",
+    "A188597"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

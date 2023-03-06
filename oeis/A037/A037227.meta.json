@@ -1,0 +1,29 @@
+{
+  "description": "If n = 2^m*k, k odd, then a(n) = 2*m+1.",
+  "id": "A037227",
+  "mentions": [
+    "A001511",
+    "A002487",
+    "A005408",
+    "A007814",
+    "A016825",
+    "A017113",
+    "A051062",
+    "A075300",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:57",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

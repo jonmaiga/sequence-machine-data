@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-3 and p+3 are divisible by a cube.",
+  "id": "A089201",
+  "mentions": [
+    "A000040",
+    "A046099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

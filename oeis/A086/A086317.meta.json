@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of asymptotic constant xi for counts of weakly binary trees.",
+  "id": "A086317",
+  "mentions": [
+    "A000672",
+    "A001190",
+    "A003214",
+    "A086318",
+    "A240943"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

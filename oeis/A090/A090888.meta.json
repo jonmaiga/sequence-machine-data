@@ -1,0 +1,32 @@
+{
+  "description": "Matrix defined by a(n,k) = 3^n*Fibonacci(k) - 2^n*Fibonacci(k-2), read by antidiagonals.",
+  "id": "A090888",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000244",
+    "A000285",
+    "A001047",
+    "A003063",
+    "A005061",
+    "A027649",
+    "A083313",
+    "A083324",
+    "A084171",
+    "A090802",
+    "A098703",
+    "A118654"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

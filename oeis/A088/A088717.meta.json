@@ -1,0 +1,28 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^2*A(x*A(x)^2).",
+  "id": "A088717",
+  "mentions": [
+    "A002449",
+    "A030266",
+    "A087949",
+    "A088714",
+    "A091713",
+    "A120971",
+    "A182224",
+    "A215505",
+    "A215506",
+    "A215507"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

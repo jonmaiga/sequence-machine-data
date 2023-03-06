@@ -1,0 +1,19 @@
+{
+  "description": "Largest coefficient in expansion of Product_{i=1..n} (1 + (-q)^i).",
+  "id": "A039828",
+  "mentions": [
+    "A025591",
+    "A039829"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

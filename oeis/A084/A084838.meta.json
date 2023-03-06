@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integers that satisfy sum(n>0, mu( a(n) )/a(n))=0 by requiring that the absolute value of the successive partial sums are monotonically decreasing in magnitude, where a(1)=1 and a(n+1)>a(n) for n>0.",
+  "id": "A084838",
+  "mentions": [
+    "A084839"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

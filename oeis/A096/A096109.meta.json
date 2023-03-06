@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with 1 distinct numbers. A new digit say n occurs after exhausting all possible numbers containing up to and at most n-1 digits, in increasing order (in a typical manner explained in the example) formed by already occurring digits.",
+  "id": "A096109",
+  "mentions": [
+    "A000110",
+    "A096108"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

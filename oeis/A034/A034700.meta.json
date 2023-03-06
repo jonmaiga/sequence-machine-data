@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest prime == 1 (mod 4) such that a(n) is a square mod a(i), all i",
+  "id": "A034700",
+  "mentions": [
+    "A002144",
+    "A010051",
+    "A034698",
+    "A034791"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

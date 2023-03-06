@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1+4x^2)/(1-x-16x^5).",
+  "id": "A098526",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

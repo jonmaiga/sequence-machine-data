@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which there are exactly nine k such that n = k + (product of nonzero digits of k).",
+  "id": "A096930",
+  "mentions": [
+    "A063114",
+    "A096347",
+    "A096922",
+    "A096929",
+    "A096931"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

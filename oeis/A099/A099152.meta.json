@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n permutation matrices in which the sums of the entries of each NorthEast-SouthWest diagonal are 0 or 1.",
+  "id": "A099152",
+  "mentions": [
+    "A125182"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

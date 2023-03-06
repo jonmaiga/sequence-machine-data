@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers of the form n(n+1)(n+2)(n+3)(n+4)/(n+(n+1)+(n+2)+(n+3)+(n+4)) that are a multiple of n.",
+  "id": "A032794",
+  "mentions": [
+    "A032793",
+    "A032795"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:13",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

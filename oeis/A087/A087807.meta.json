@@ -1,0 +1,25 @@
+{
+  "description": "Prime factors of solutions to 24^n == 1 (mod n).",
+  "id": "A087807",
+  "mentions": [
+    "A014960",
+    "A057719",
+    "A066364",
+    "A129729",
+    "A134360",
+    "A136372",
+    "A136373",
+    "A171980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

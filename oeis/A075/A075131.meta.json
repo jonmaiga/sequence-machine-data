@@ -1,0 +1,19 @@
+{
+  "description": "Picture-perfect numbers of form 57*p for p in A075130. The decimal reversal is equal to the sum of the reversed proper divisors.",
+  "id": "A075131",
+  "mentions": [
+    "A069942",
+    "A075130"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

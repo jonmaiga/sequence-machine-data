@@ -1,0 +1,30 @@
+{
+  "description": "Natural numbers written with digits grouped in pairs and leading zeros omitted.",
+  "id": "A059805",
+  "mentions": [
+    "A000027",
+    "A060936",
+    "A087075",
+    "A087406",
+    "A087407",
+    "A087408",
+    "A087409",
+    "A087410",
+    "A087411",
+    "A091331",
+    "A091332"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

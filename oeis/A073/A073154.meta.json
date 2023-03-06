@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of numbers relating two sequences (A073157 and A073155).",
+  "id": "A073154",
+  "mentions": [
+    "A073152",
+    "A073153",
+    "A073155",
+    "A073156",
+    "A073157"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

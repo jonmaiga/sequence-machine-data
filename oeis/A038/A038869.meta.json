@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that both p-2 and 2p-1 are prime.",
+  "id": "A038869",
+  "mentions": [
+    "A005382",
+    "A288814"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

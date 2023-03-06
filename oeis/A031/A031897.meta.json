@@ -1,0 +1,18 @@
+{
+  "description": "Lucky numbers with size of gaps equal to 14 (upper terms).",
+  "id": "A031897",
+  "mentions": [
+    "A000959",
+    "A031896"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

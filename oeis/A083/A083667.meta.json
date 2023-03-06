@@ -1,0 +1,21 @@
+{
+  "description": "Number of antisymmetric binary relations on a set of n labeled points.",
+  "id": "A083667",
+  "mentions": [
+    "A008776",
+    "A083670",
+    "A110520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

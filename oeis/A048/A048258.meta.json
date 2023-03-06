@@ -1,0 +1,24 @@
+{
+  "description": "Integers whose sum of divisors is an 8th power.",
+  "id": "A048258",
+  "mentions": [
+    "A006532",
+    "A019422",
+    "A019423",
+    "A019424",
+    "A020477",
+    "A048251",
+    "A048257"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

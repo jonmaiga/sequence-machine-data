@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..n} nu_2(prime(i) - 1) where nu_2(m) = exponent of highest power of 2 dividing m.",
+  "id": "A057773",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A007814",
+    "A023506"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

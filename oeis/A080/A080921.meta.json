@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*a(n-1) + 48*a(n-2), a(0)=0, a(1)=1.",
+  "id": "A080921",
+  "mentions": [
+    "A015441",
+    "A051958",
+    "A053455",
+    "A079773",
+    "A080920"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

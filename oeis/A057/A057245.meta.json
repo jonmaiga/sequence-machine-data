@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n | Sum_{k=1..n} k!.",
+  "id": "A057245",
+  "mentions": [
+    "A007489",
+    "A049782",
+    "A064383",
+    "A067462"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

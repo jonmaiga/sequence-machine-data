@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1)^3 is next smallest nontrivial cube containing a(n)^3 as a substring.",
+  "id": "A050641",
+  "mentions": [
+    "A048564",
+    "A050640",
+    "A050647"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

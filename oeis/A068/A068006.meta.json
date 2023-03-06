@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into distinct partition numbers.",
+  "id": "A068006",
+  "mentions": [
+    "A000009",
+    "A007279"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

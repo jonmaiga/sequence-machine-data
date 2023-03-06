@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of times n is in sequence A060715, i.e., there are exactly a(n) cases where there are exactly n primes between m and 2m, exclusively, for m > 0.",
+  "id": "A084138",
+  "mentions": [
+    "A060715",
+    "A060756",
+    "A084139",
+    "A084140",
+    "A084141",
+    "A084142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

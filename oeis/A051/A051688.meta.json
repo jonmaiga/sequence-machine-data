@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (5*n+7)(!^5)/7(!^5), related to A034323 ((5*n+2)(!^5) quintic, or 5-factorials).",
+  "id": "A051688",
+  "mentions": [
+    "A008548",
+    "A034300",
+    "A034301",
+    "A034323",
+    "A034325",
+    "A051687",
+    "A051691",
+    "A052562"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

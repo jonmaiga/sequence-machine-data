@@ -1,0 +1,22 @@
+{
+  "description": "Values of n at which record values in A052340 are reached.",
+  "id": "A052339",
+  "mentions": [
+    "A050412",
+    "A051914",
+    "A052333",
+    "A052334",
+    "A052340"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

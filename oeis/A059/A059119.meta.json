@@ -1,0 +1,28 @@
+{
+  "description": "Triangle a(n,m)=number of m-element antichains on a labeled n-set; number of monotone n-variable Boolean functions with m mincuts (lower units), m=0..binomial(n,floor(n,2)).",
+  "id": "A059119",
+  "mentions": [
+    "A000372",
+    "A016269",
+    "A047707",
+    "A051112",
+    "A051113",
+    "A051114",
+    "A051115",
+    "A051116",
+    "A051117",
+    "A051118"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

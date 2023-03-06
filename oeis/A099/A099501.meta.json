@@ -1,0 +1,18 @@
+{
+  "description": "Least number of members in a subset of integers in the interval [n^2+1, (n+1)^2-1] whose product is twice a square.",
+  "id": "A099501",
+  "mentions": [
+    "A099500",
+    "A099502"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

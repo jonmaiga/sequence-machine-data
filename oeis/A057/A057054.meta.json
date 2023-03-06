@@ -1,0 +1,22 @@
+{
+  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; n^3 is in antidiagonal a(n).",
+  "id": "A057054",
+  "mentions": [
+    "A022846",
+    "A057045",
+    "A057048",
+    "A057057",
+    "A057062"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:39",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

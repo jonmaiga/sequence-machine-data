@@ -1,0 +1,20 @@
+{
+  "description": "One half of tenth unsigned column of Lanczos triangle A053125 (decreasing powers).",
+  "id": "A054332",
+  "mentions": [
+    "A053125",
+    "A054328"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

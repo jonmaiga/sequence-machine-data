@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled graphs with n edges, no nodes of degree 1 and no cut nodes, under \"series-equivalence\"; multiple edges are allowed.",
+  "id": "A058668",
+  "mentions": [
+    "A058642"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

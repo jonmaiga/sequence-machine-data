@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows, where T(n,k) = number of times the permanent of a real singular n X n (0,1)-matrix takes the value k, for n >= 2, 0 <= k <= n!.",
+  "id": "A089481",
+  "mentions": [
+    "A088672",
+    "A089476",
+    "A089479"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

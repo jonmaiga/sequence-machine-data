@@ -1,0 +1,30 @@
+{
+  "description": "(p-1)/2 - phi(p-1) as p runs through the odd primes.",
+  "id": "A098006",
+  "mentions": [
+    "A000010",
+    "A005097",
+    "A005385",
+    "A006093",
+    "A019434",
+    "A051953",
+    "A090866",
+    "A098047",
+    "A134765",
+    "A134854",
+    "A159611",
+    "A176095"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

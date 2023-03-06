@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that sum of the digital products of the divisors is prime.",
+  "id": "A093859",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

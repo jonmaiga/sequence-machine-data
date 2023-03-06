@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that either contain the digit 9 or are divisible by 9.",
+  "id": "A092457",
+  "mentions": [
+    "A092433",
+    "A092451",
+    "A092452",
+    "A092453",
+    "A092454",
+    "A092455",
+    "A092456"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

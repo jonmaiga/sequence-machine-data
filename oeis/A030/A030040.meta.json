@@ -1,0 +1,18 @@
+{
+  "description": "a(n+1) = Sum_{k=0..floor(n/tau)} a(k) * a(n-k), where tau = (1+sqrt(5))/2.",
+  "id": "A030040",
+  "mentions": [
+    "A000992",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:20:38",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

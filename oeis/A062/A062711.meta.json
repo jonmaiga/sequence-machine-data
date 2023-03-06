@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime Gaussian integers z=a+bi with |z|<=n.",
+  "id": "A062711",
+  "mentions": [
+    "A000328",
+    "A000720",
+    "A062327",
+    "A066339",
+    "A066490"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

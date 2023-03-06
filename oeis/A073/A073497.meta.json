@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n^2 - prime(n).",
+  "id": "A073497",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:11",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

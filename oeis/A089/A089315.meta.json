@@ -1,0 +1,25 @@
+{
+  "description": "Prime worms [successive digit differences with absolute value of 3].",
+  "id": "A089315",
+  "mentions": [
+    "A048398",
+    "A048400",
+    "A048405",
+    "A089291",
+    "A089316",
+    "A089317"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

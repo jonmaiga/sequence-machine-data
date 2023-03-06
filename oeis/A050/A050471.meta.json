@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum_{d|n, n/d=1 mod 4} d^3 - sum_{d|n, n/d=3 mod 4} d^3.",
+  "id": "A050471",
+  "mentions": [
+    "A000578",
+    "A050468",
+    "A050469",
+    "A050470",
+    "A101455"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

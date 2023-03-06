@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of 3 in factorization of prime(n) - 1.",
+  "id": "A099584",
+  "mentions": [
+    "A006093",
+    "A007949",
+    "A023506",
+    "A099585"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

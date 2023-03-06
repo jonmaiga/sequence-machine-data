@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to partition n into parts which are all powers of some integer k.",
+  "id": "A064572",
+  "mentions": [
+    "A028422",
+    "A064573",
+    "A064574",
+    "A064575",
+    "A064576",
+    "A064577",
+    "A292477"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

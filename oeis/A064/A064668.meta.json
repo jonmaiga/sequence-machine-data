@@ -1,0 +1,19 @@
+{
+  "description": "Regard A064413 as giving a permutation of the positive integers; sequence gives second infinite cycle, reading backwards beginning at its smallest term, 73.",
+  "id": "A064668",
+  "mentions": [
+    "A064413",
+    "A064665",
+    "A064669"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

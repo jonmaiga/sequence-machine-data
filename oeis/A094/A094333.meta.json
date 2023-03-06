@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = least proper multiple of a(n-1) which is a concatenation of successive numbers. Terms with more than one digit must be a concatenation of at least two successive numbers.",
+  "id": "A094333",
+  "mentions": [
+    "A035333",
+    "A094334",
+    "A225796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

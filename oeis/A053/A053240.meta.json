@@ -1,0 +1,25 @@
+{
+  "description": "n for which values not equal to 2 occur in the expansion of A053238.",
+  "id": "A053240",
+  "mentions": [
+    "A000203",
+    "A053226",
+    "A053238",
+    "A053239",
+    "A053241",
+    "A053242",
+    "A053243",
+    "A053244",
+    "A053245"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

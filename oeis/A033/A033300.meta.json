@@ -1,0 +1,15 @@
+{
+  "description": "Smallest safe prime ((p-1)/2 is also prime) > n-th prime.",
+  "id": "A033300",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:01",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

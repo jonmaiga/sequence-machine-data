@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that multiplicative order of 2 modulo p is odd.",
+  "id": "A014663",
+  "mentions": [
+    "A040098",
+    "A045315",
+    "A049564",
+    "A072936",
+    "A091317"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

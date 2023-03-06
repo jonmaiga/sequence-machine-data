@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) with diagonals T(n,n-k)=binomial(n+1,2k).",
+  "id": "A098157",
+  "mentions": [
+    "A000079",
+    "A062200",
+    "A065547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

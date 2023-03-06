@@ -1,0 +1,26 @@
+{
+  "description": "Odd part of n modulo 5.",
+  "id": "A099546",
+  "mentions": [
+    "A000265",
+    "A010874",
+    "A099544",
+    "A099545",
+    "A099547",
+    "A099548",
+    "A099549",
+    "A099550",
+    "A099551"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:03",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

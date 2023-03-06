@@ -1,0 +1,27 @@
+{
+  "description": "Positions of the digit '3' in the decimal expansion of Pi - 3.",
+  "id": "A037002",
+  "mentions": [
+    "A000796",
+    "A036974",
+    "A037000",
+    "A037001",
+    "A037003",
+    "A037004",
+    "A037005",
+    "A037006",
+    "A037007",
+    "A037008"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

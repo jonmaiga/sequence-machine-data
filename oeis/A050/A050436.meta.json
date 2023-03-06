@@ -1,0 +1,27 @@
+{
+  "description": "Third-order composites.",
+  "id": "A050436",
+  "mentions": [
+    "A006450",
+    "A049076",
+    "A049077",
+    "A049078",
+    "A049079",
+    "A049080",
+    "A049081",
+    "A050435",
+    "A050438"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:23",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

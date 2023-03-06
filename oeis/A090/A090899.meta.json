@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic indecomposable self-dual quantum codes on n qubits.",
+  "id": "A090899",
+  "mentions": [
+    "A094927",
+    "A110302",
+    "A110306",
+    "A151824",
+    "A151827"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

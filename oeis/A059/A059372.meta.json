@@ -1,0 +1,21 @@
+{
+  "description": "Revert transform of factorials n! (n >= 1).",
+  "id": "A059372",
+  "mentions": [
+    "A000142",
+    "A059370",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

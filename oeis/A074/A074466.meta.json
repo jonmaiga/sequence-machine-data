@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(n^3, sigma(n^3), phi(n^3)).",
+  "id": "A074466",
+  "mentions": [
+    "A053191",
+    "A074389",
+    "A074465",
+    "A175926"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

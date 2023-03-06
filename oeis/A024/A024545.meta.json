@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor( 1/{k/sqrt(2)} ), where {x} := x - floor(x).",
+  "id": "A024545",
+  "mentions": [
+    "A024544",
+    "A024546"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:51",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

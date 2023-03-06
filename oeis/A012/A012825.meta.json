@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. of arctan(sec(x)*arcsinh(x)) (odd coefficients only).",
+  "id": "A012825",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:33:03",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

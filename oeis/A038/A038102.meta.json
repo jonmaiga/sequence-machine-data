@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k is a substring of its base-2 representation.",
+  "id": "A038102",
+  "mentions": [
+    "A038103",
+    "A038104",
+    "A038105",
+    "A038106",
+    "A227549",
+    "A228050",
+    "A228051",
+    "A228052",
+    "A350572"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

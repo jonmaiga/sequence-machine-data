@@ -1,0 +1,20 @@
+{
+  "description": "Consider volume of unit sphere as a function of the dimension d; maximize this as a function of d (considered as a continuous variable); sequence gives decimal expansion of the resulting volume.",
+  "id": "A074454",
+  "mentions": [
+    "A072345",
+    "A072346",
+    "A074455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

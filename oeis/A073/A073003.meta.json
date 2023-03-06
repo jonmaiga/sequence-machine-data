@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of -exp(1)*Ei(-1), also called Gompertz's constant, or the Euler-Gompertz constant.",
+  "id": "A073003",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A000522",
+    "A001113",
+    "A001620",
+    "A002720",
+    "A002793",
+    "A040027",
+    "A058006",
+    "A099285",
+    "A153229",
+    "A163940",
+    "A201203",
+    "A283743",
+    "A321942"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

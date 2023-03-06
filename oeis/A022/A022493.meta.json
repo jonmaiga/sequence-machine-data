@@ -1,0 +1,32 @@
+{
+  "description": "Fishburn numbers: number of linearized chord diagrams of degree n; also number of nonisomorphic interval orders on n unlabeled points.",
+  "id": "A022493",
+  "mentions": [
+    "A000522",
+    "A035378",
+    "A059685",
+    "A079144",
+    "A137251",
+    "A138265",
+    "A175579",
+    "A193387",
+    "A218577",
+    "A218579",
+    "A218580",
+    "A218581",
+    "A294219",
+    "A294220"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Triangle of number of rooted trees with n >= 2 nodes and height h >= 1.",
+  "id": "A034781",
+  "mentions": [
+    "A000055",
+    "A000065",
+    "A000081",
+    "A000088",
+    "A000235",
+    "A000299",
+    "A000342",
+    "A000393",
+    "A000418",
+    "A000429",
+    "A000664",
+    "A001853",
+    "A007401",
+    "A008406",
+    "A126085",
+    "A227819",
+    "A245068",
+    "A245102",
+    "A245103"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

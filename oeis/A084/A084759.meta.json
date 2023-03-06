@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers in ascending order such that the difference of successive terms is unique. a(m) - a(m-1) = a(k) - a(k-1) iff m = k.",
+  "id": "A084759",
+  "mentions": [
+    "A002808",
+    "A084758"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

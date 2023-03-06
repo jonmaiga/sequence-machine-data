@@ -1,0 +1,27 @@
+{
+  "description": "Numbers which in base 2 have more 0's than 1's.",
+  "id": "A072603",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A031443",
+    "A037861",
+    "A072600",
+    "A072601",
+    "A072602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

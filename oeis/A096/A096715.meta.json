@@ -1,0 +1,18 @@
+{
+  "description": "First (least negative) real zero of the Airy Bi function (negated).",
+  "id": "A096715",
+  "mentions": [
+    "A096714"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

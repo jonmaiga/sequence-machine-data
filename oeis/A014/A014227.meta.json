@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of initial pieces needed to reach level n in the Solitaire Army game on a hexagonal lattice (a finite sequence).",
+  "id": "A014227",
+  "mentions": [
+    "A014225"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

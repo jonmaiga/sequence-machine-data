@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T given by T(n,k) = number of 01-words of length n having exactly k 1's, all runlengths odd and first letter 1.",
+  "id": "A078808",
+  "mentions": [
+    "A000045",
+    "A078807",
+    "A078821"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

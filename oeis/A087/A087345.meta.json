@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime which is a concatenation of n successive triangular numbers, or 0 if no such number exists.",
+  "id": "A087345",
+  "mentions": [
+    "A087344"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

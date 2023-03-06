@@ -1,0 +1,16 @@
+{
+  "description": "Cubes that have some nontrivial permutation of digits that is also a cube.",
+  "id": "A034290",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

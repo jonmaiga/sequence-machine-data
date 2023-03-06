@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with a single 0 in their base 5 expansion.",
+  "id": "A023722",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:25",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

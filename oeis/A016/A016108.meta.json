@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k=3*m+1 such that 2^m == 1 (mod k).",
+  "id": "A016108",
+  "mentions": [
+    "A014752"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:47:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

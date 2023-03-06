@@ -1,0 +1,27 @@
+{
+  "description": "Summarize digits of preceding number, by decreasing digit value. Start with a(0) = 0.",
+  "id": "A036058",
+  "mentions": [
+    "A001155",
+    "A005150",
+    "A007890",
+    "A036059",
+    "A036066",
+    "A047842",
+    "A244112"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:23",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

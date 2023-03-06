@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of -x, the largest negative real root of the equation Fibonacci(x) = 0.",
+  "id": "A089260",
+  "mentions": [
+    "A089261",
+    "A353920"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

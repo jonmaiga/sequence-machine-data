@@ -1,0 +1,23 @@
+{
+  "description": "Diagonal in array of n-gonal numbers A081422.",
+  "id": "A081438",
+  "mentions": [
+    "A081422",
+    "A081436",
+    "A081437",
+    "A081441",
+    "A177058"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:04:13",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

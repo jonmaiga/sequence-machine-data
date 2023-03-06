@@ -1,0 +1,24 @@
+{
+  "description": "Number of common (distinct) decimal digits of n and n^2.",
+  "id": "A076493",
+  "mentions": [
+    "A000290",
+    "A006880",
+    "A029783",
+    "A043537",
+    "A076489",
+    "A076491",
+    "A189056"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

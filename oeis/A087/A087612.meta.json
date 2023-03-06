@@ -1,0 +1,17 @@
+{
+  "description": "A divisibility sequence derived from Lehmer's polynomial x^10+x^9-x^7-x^6-x^5-x^4-x^3+x+1. Square root of the terms in A059928.",
+  "id": "A087612",
+  "mentions": [
+    "A059928"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

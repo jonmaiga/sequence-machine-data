@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m such that n divides the tetrahedral number A000292(m+1).",
+  "id": "A085766",
+  "mentions": [
+    "A000292",
+    "A011772",
+    "A019554"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

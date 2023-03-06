@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) where the first column (T(n,1)) is the sequence of secant numbers A000364.",
+  "id": "A064670",
+  "mentions": [
+    "A000182",
+    "A000354",
+    "A000364",
+    "A064190"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

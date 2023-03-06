@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which row n gives trajectory of n under the map k -> k/3 if k is divisible by 3, otherwise k -> next multiple of 3, stopping when reaching 1 (the initial term n is not included).",
+  "id": "A067433",
+  "mentions": [
+    "A080816"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

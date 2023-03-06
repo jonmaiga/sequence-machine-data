@@ -1,0 +1,21 @@
+{
+  "description": "Integers k such that R(k+7) = 3.",
+  "id": "A086943",
+  "mentions": [
+    "A004086",
+    "A086942"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

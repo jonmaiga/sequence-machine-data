@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = T(2n-1,n-2), T given by A026637.",
+  "id": "A026642",
+  "mentions": [
+    "A026637"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:34:43",
+    "offset": 2,
+    "size": 23,
+    "source": "joeis"
+  }
+}

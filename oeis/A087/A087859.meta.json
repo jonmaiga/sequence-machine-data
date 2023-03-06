@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of twin primes x-1,x+1 such that x=j*(p(n)#)/p(k), where 1 <= j < p(n+1) and 1 <= k <= n and p(k) doesn't divide j.",
+  "id": "A087859",
+  "mentions": [
+    "A002110",
+    "A087941",
+    "A088968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Distinct odd numbers in (2,3)-Pascal triangle A029600.",
+  "id": "A029608",
+  "mentions": [
+    "A029600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:43:18",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

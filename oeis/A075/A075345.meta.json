@@ -1,0 +1,20 @@
+{
+  "description": "Group the natural numbers such that the n-th group contains n terms and the group sum is the smallest possible prime: (2), (1, 4), (3, 5, 9), (6, 7, 8, 10), (11, 12, 13, 14, 17), (15, 16, 18, 19, 20, 21), ... Sequence gives group sums.",
+  "id": "A075345",
+  "mentions": [
+    "A075346",
+    "A075347",
+    "A075348"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

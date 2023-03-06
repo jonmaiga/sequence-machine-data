@@ -1,0 +1,24 @@
+{
+  "description": "Sum of n-th powers of digits of n.",
+  "id": "A055207",
+  "mentions": [
+    "A003132",
+    "A045503",
+    "A055012",
+    "A055013",
+    "A055014"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

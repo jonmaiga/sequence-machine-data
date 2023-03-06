@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sin(n) < 0.",
+  "id": "A070751",
+  "mentions": [
+    "A070747",
+    "A070752",
+    "A070753"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

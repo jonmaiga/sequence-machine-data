@@ -1,0 +1,22 @@
+{
+  "description": "Describe the n-th triangular number A000217(n).",
+  "id": "A045986",
+  "mentions": [
+    "A000217",
+    "A005150",
+    "A045987",
+    "A045988"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:41",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

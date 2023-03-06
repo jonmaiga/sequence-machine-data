@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=[ a*a(n-1)+b ]/p^r, where a=2.001, b=3.2, p=2 and p^r is the highest power of p dividing [ a*a(n-1)+b ].",
+  "id": "A036982",
+  "mentions": [
+    "A029580",
+    "A159741"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:27",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

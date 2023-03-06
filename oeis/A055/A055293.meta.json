@@ -1,0 +1,17 @@
+{
+  "description": "Number of trees with n nodes and 6 leaves.",
+  "id": "A055293",
+  "mentions": [
+    "A055290"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:01",
+    "offset": 7,
+    "size": 33,
+    "source": "joeis"
+  }
+}

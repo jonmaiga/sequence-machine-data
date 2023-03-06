@@ -1,0 +1,22 @@
+{
+  "description": "Product J_3(i), i=1..n.",
+  "id": "A059382",
+  "mentions": [
+    "A001088",
+    "A059376",
+    "A059381",
+    "A059383",
+    "A059384",
+    "A175836"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

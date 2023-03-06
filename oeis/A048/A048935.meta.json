@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct vampire numbers (definition 2) having 2n digits.",
+  "id": "A048935",
+  "mentions": [
+    "A014575",
+    "A048938",
+    "A048939"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

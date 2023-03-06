@@ -1,0 +1,26 @@
+{
+  "description": "Sequence of distinct products b(n)*b(n+1), n=1,2,3,..., of the terms b(n) of A088177.",
+  "id": "A088178",
+  "mentions": [
+    "A033476",
+    "A087811",
+    "A088177",
+    "A341492",
+    "A348437",
+    "A348439",
+    "A348442",
+    "A348443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

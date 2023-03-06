@@ -1,0 +1,21 @@
+{
+  "description": "A second order generalization of the Mobius function of n.",
+  "id": "A053864",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A053865",
+    "A053981",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:55",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

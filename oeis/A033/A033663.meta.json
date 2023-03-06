@@ -1,0 +1,19 @@
+{
+  "description": "Least Smith number having digital sum A033662(n).",
+  "id": "A033663",
+  "mentions": [
+    "A006753",
+    "A033662"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

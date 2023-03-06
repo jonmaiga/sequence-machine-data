@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k + sum_of_digits(k) is a cube.",
+  "id": "A084661",
+  "mentions": [
+    "A007953",
+    "A066564"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

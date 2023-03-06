@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is smallest prime > 10*a(n-1), a(1) = 13.",
+  "id": "A065539",
+  "mentions": [
+    "A065122"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

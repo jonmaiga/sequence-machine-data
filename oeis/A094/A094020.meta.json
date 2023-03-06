@@ -1,0 +1,19 @@
+{
+  "description": "Least k <= n such that n*bigomega(k) = k*bigomega(n), where bigomega(n) = the number of prime divisors of n (counted with multiplicity) A001222.",
+  "id": "A094020",
+  "mentions": [
+    "A001222",
+    "A095305"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

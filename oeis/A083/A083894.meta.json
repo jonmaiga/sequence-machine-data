@@ -1,0 +1,29 @@
+{
+  "description": "Number of divisors of n with largest digit = 7 (base 10).",
+  "id": "A083894",
+  "mentions": [
+    "A000005",
+    "A054055",
+    "A083888",
+    "A083889",
+    "A083890",
+    "A083891",
+    "A083892",
+    "A083893",
+    "A083895",
+    "A083896",
+    "A083901",
+    "A083902"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

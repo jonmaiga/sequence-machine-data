@@ -1,0 +1,26 @@
+{
+  "description": "Let m be the n-th positive integer such that phi(m) is divisible by m - phi(m). Then a(n) = phi(m)/(m - phi(m)).",
+  "id": "A063872",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A007694",
+    "A014963",
+    "A025473",
+    "A049237",
+    "A051953",
+    "A054740"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

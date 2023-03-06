@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2 successive terms of Hofstadter Q-sequence are the same.",
+  "id": "A081828",
+  "mentions": [
+    "A005185",
+    "A081827",
+    "A081829",
+    "A081830",
+    "A194626"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

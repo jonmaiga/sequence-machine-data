@@ -1,0 +1,27 @@
+{
+  "description": "Initial prime of a prime chain of length n under the iteration x->5x+4.",
+  "id": "A084960",
+  "mentions": [
+    "A057330",
+    "A057331",
+    "A083388",
+    "A084954",
+    "A084955",
+    "A084956",
+    "A084957",
+    "A084958",
+    "A084959",
+    "A084961"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

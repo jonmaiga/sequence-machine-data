@@ -1,0 +1,20 @@
+{
+  "description": "3 people at a party are saying Hello to each other. Person 1 says Hello. Person 2 counts the times Hello has been said and says Hello twice that number. Person 3 says Hello 3 times the sum of Hello's and then it is Person 1 again. This is how many Hello's each person says.",
+  "id": "A076505",
+  "mentions": [
+    "A064429",
+    "A076506"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:46:42",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

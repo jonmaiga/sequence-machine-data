@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 0, for n > 1 if n = prime(k), then a(n) = k, otherwise a(n) = Sum_{d|n, d",
+  "id": "A082666",
+  "mentions": [
+    "A049084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

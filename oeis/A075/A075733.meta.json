@@ -1,0 +1,20 @@
+{
+  "description": "Array of coefficients in Zagier's polynomials P_(n,0)(x).",
+  "id": "A075733",
+  "mentions": [
+    "A000332",
+    "A127674"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

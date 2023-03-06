@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to arrange integers 1 through n so that the sum of each adjacent pair is prime, not counting reversals.",
+  "id": "A051239",
+  "mentions": [
+    "A036440",
+    "A051237",
+    "A103839"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

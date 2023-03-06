@@ -1,0 +1,15 @@
+{
+  "description": "Primes prime(n) such that there are no solutions to the equation prime(n)^x + prime(n+1)^x = prime(n+2) (mod prime(n+3)) with x an integer.",
+  "id": "A082372",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

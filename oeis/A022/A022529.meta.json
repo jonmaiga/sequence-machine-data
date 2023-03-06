@@ -1,0 +1,22 @@
+{
+  "description": "Nexus numbers (n+1)^13-n^13.",
+  "id": "A022529",
+  "mentions": [
+    "A008292",
+    "A010801",
+    "A022528",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

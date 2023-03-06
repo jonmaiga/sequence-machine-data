@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of log(n)^(n - 1).",
+  "id": "A062415",
+  "mentions": [
+    "A062416"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

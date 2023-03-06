@@ -1,0 +1,31 @@
+{
+  "description": "Number of representations of n as a sum of products of positive integers. 1 is not allowed as a factor, unless it is the only factor. Representations which differ only in the order of terms or factors are considered equivalent.",
+  "id": "A066739",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A001970",
+    "A050336",
+    "A063834",
+    "A065026",
+    "A066806",
+    "A066815",
+    "A066816",
+    "A281113",
+    "A284639",
+    "A318948",
+    "A318949"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

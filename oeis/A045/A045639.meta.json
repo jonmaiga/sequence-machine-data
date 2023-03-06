@@ -1,0 +1,23 @@
+{
+  "description": "Palindromic and divisible by 4.",
+  "id": "A045639",
+  "mentions": [
+    "A043040",
+    "A045638",
+    "A045641",
+    "A045642",
+    "A045643",
+    "A045644"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:29",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

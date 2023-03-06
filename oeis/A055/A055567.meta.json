@@ -1,0 +1,25 @@
+{
+  "description": "Sum of digits of n^6.",
+  "id": "A055567",
+  "mentions": [
+    "A000012",
+    "A004159",
+    "A004164",
+    "A055565",
+    "A055566",
+    "A055572",
+    "A055577",
+    "A066588"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

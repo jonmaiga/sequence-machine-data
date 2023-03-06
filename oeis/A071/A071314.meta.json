@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number that cannot be obtained from the numbers {2^0,2^1,...,2^n} using each number at most once and the operators +, -, *, /. Parentheses are allowed, intermediate fractions are not allowed.",
+  "id": "A071314",
+  "mentions": [
+    "A060315",
+    "A309886"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

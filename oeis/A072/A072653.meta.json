@@ -1,0 +1,19 @@
+{
+  "description": "Uniqued integer solutions n to n = b^c = c^d.",
+  "id": "A072653",
+  "mentions": [
+    "A072651",
+    "A072652"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

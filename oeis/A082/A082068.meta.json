@@ -1,0 +1,26 @@
+{
+  "description": "Smallest common prime-divisor of n and sigma(n) = A000203(n); a(n)=1 if no common prime-divisor exists.",
+  "id": "A082068",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A020639",
+    "A082062",
+    "A082067",
+    "A082069",
+    "A082070",
+    "A082071",
+    "A082072"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

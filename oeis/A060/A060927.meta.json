@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of triangle A060924 (odd part of bisection of Lucas triangle).",
+  "id": "A060927",
+  "mentions": [
+    "A060923",
+    "A060924",
+    "A060926",
+    "A060928"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

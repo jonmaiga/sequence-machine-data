@@ -1,0 +1,22 @@
+{
+  "description": "Average divisor is an integer (A003601) and the number is refactorable (A033950).",
+  "id": "A047727",
+  "mentions": [
+    "A001599",
+    "A003601",
+    "A007691",
+    "A033950",
+    "A046985"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

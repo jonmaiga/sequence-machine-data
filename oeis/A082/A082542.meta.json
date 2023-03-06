@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = prime(n) + 2 - (prime(n) mod 4).",
+  "id": "A082542",
+  "mentions": [
+    "A000040",
+    "A039702",
+    "A060294",
+    "A070750",
+    "A071695",
+    "A071696",
+    "A076342",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

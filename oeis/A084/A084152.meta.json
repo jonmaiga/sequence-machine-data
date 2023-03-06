@@ -1,0 +1,23 @@
+{
+  "description": "Exponential self-convolution of Jacobsthal numbers (divided by 2).",
+  "id": "A084152",
+  "mentions": [
+    "A001045",
+    "A015249",
+    "A078008",
+    "A084153",
+    "A084175"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

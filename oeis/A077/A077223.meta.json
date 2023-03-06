@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1 and then alternately even and odd numbers not occurring earlier such that the sum of two successive terms is a squarefree number.",
+  "id": "A077223",
+  "mentions": [
+    "A008966"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and n+1 have the same sum of digits of divisors; A034690(n) = A034690(n+1).",
+  "id": "A084049",
+  "mentions": [
+    "A034690"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

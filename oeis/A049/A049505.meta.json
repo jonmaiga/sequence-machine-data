@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{1<=i<=j<=n} (i+j+n-1)/(i+j-1), number of symmetric plane partitions in n-cube.",
+  "id": "A049505",
+  "mentions": [
+    "A005157",
+    "A008793",
+    "A073165",
+    "A074962",
+    "A102539"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

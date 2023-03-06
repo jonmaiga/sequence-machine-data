@@ -1,0 +1,22 @@
+{
+  "description": "Probability P(n) of the occurrence of a 2D self-trapping walk of length n.",
+  "id": "A078526",
+  "mentions": [
+    "A001411",
+    "A076874",
+    "A077483",
+    "A077484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

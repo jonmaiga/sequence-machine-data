@@ -1,0 +1,19 @@
+{
+  "description": "Number of twin primes < 2^n.",
+  "id": "A033843",
+  "mentions": [
+    "A007053",
+    "A007508"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

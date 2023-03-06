@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of [x^(2n)] of the Taylor series sech(cosec(x)-cot(x)) = 1 -x^2/8 -x^4/128 +x^6/15360 +19*x^8/294912 +25031*x^10/3715891200+... .",
+  "id": "A013528",
+  "mentions": [
+    "A009011"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

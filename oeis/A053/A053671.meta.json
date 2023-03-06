@@ -1,0 +1,20 @@
+{
+  "description": "Least number coprime to n, n+1 and n+2.",
+  "id": "A053671",
+  "mentions": [
+    "A053669",
+    "A053674"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

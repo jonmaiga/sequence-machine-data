@@ -1,0 +1,25 @@
+{
+  "description": "Largest quadratic \"mixed\" residue modulo the n-th prime (LQxR(p_n)).",
+  "id": "A091380",
+  "mentions": [
+    "A088190",
+    "A088196",
+    "A091381",
+    "A091382",
+    "A091383",
+    "A091384",
+    "A091385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

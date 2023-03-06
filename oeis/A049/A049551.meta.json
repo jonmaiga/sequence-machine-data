@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^19 = 2 has a solution mod p.",
+  "id": "A049551",
+  "mentions": [
+    "A000040",
+    "A059244"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

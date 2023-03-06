@@ -1,0 +1,21 @@
+{
+  "description": "Tersum n + (n-1); write n and n-1 in base 3 and add mod 3 with no carries.",
+  "id": "A059249",
+  "mentions": [
+    "A004482",
+    "A004488",
+    "A004489",
+    "A038712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

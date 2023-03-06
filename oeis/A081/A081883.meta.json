@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the number of steps needed to reach an integer starting with n-1/4 or n+1/4 and iterating the map x-->x*ceiling(x) is the same.",
+  "id": "A081883",
+  "mentions": [
+    "A068119"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

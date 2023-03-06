@@ -1,0 +1,23 @@
+{
+  "description": "Smallest x > 0 such that gcd(2^x, A004086(2^x)) = 2^n.",
+  "id": "A072033",
+  "mentions": [
+    "A004086",
+    "A055483",
+    "A071686",
+    "A072032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

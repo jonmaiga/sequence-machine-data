@@ -1,0 +1,21 @@
+{
+  "description": "Alternating partial sums of A000217.",
+  "id": "A083392",
+  "mentions": [
+    "A000217",
+    "A002620",
+    "A004526"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

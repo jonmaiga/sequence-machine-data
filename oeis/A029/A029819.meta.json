@@ -1,0 +1,15 @@
+{
+  "description": "Average theta series of odd unimodular lattices of dimension 18 (multiplied by 1385).",
+  "id": "A029819",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

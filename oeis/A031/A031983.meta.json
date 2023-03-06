@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with exactly five distinct base-6 digits.",
+  "id": "A031983",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

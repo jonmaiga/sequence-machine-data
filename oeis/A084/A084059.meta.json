@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4*a(n-1) + 2*a(n-2) for n>1, a(0)=1, a(1)=2.",
+  "id": "A084059",
+  "mentions": [
+    "A002533",
+    "A084120",
+    "A090017",
+    "A201730"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

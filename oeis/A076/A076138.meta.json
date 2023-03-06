@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(n+1) is the smallest integer > a(n) such that C_2k(a(n+1))=C_2k(a(n)) for k large enough, where C_m(n) is the modified Collatz map iterated m times on n ( x->x/2 if x is even x->(3x+1)/2 if x is odd).",
+  "id": "A076138",
+  "mentions": [
+    "A006513",
+    "A076057"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

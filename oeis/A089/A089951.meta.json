@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having the same leading decimal digits as their squares.",
+  "id": "A089951",
+  "mentions": [
+    "A000030",
+    "A000290",
+    "A002993",
+    "A018834",
+    "A144582",
+    "A256523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

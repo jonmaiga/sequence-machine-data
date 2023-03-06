@@ -1,0 +1,17 @@
+{
+  "description": "Odd nonunitary abundant numbers.",
+  "id": "A094889",
+  "mentions": [
+    "A064597"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

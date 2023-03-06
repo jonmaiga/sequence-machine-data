@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose divisors can be arranged as equilateral triangle.",
+  "id": "A081619",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000217",
+    "A001694",
+    "A010054",
+    "A075802",
+    "A081620",
+    "A144925"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

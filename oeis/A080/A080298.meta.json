@@ -1,0 +1,21 @@
+{
+  "description": "Positions of A080299 in A014486.",
+  "id": "A080298",
+  "mentions": [
+    "A014486",
+    "A080299",
+    "A080300",
+    "A080310"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes in whose binary expansion the number of 1-bits is <= 6 + number of 0-bits.",
+  "id": "A095313",
+  "mentions": [
+    "A000040",
+    "A095062",
+    "A095285",
+    "A095312",
+    "A095333"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

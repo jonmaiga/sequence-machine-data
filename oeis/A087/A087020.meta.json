@@ -1,0 +1,26 @@
+{
+  "description": "Greatest prime factor of n-th cyclic number.",
+  "id": "A087020",
+  "mentions": [
+    "A001913",
+    "A004042",
+    "A006530",
+    "A087021",
+    "A087022",
+    "A087023",
+    "A087024",
+    "A087025",
+    "A087026"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Norms of vectors in the a.c.c. lattice, divided by 2.",
+  "id": "A028966",
+  "mentions": [
+    "A028967"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 12:47:19",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

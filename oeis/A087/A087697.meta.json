@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k + 7 and k - 7 are both prime.",
+  "id": "A087697",
+  "mentions": [
+    "A014574",
+    "A087678",
+    "A087679",
+    "A087680",
+    "A087681",
+    "A087682",
+    "A087683",
+    "A087695",
+    "A087696",
+    "A088767"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

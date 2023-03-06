@@ -1,0 +1,29 @@
+{
+  "description": "In Leibniz's Harmonic Triangle, write numerator first and then denominator of each element.",
+  "id": "A046205",
+  "mentions": [
+    "A003506",
+    "A007622",
+    "A046201",
+    "A046204",
+    "A046206",
+    "A046208",
+    "A046212",
+    "A137752",
+    "A137753",
+    "A137754"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:29",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

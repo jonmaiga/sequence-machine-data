@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=3, otherwise a(n) = least positive integer > a(n-1) and not a(i) + a(j) + a(k) for 1 <= i < j < k <= n.",
+  "id": "A026475",
+  "mentions": [
+    "A026471"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number with all digits odd that is divisible by 2n-1.",
+  "id": "A061808",
+  "mentions": [
+    "A014261",
+    "A061807",
+    "A296009"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

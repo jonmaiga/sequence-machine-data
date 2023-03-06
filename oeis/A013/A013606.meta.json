@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n - prevprime(4^n).",
+  "id": "A013606",
+  "mentions": [
+    "A000302",
+    "A104089"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

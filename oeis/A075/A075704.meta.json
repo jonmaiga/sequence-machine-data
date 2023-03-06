@@ -1,0 +1,21 @@
+{
+  "description": "p and 12*p+1 are both primes.",
+  "id": "A075704",
+  "mentions": [
+    "A005384",
+    "A007693",
+    "A023212",
+    "A023228",
+    "A023237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

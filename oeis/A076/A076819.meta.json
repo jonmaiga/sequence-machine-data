@@ -1,0 +1,19 @@
+{
+  "description": "Least position m > n in the decimal expansion of Pi=3.1415... such that the sum of all digits at positions < n is not greater than the sum of all digits at positions > n and <= m.",
+  "id": "A076819",
+  "mentions": [
+    "A000796",
+    "A046974"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

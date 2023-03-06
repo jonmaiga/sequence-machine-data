@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n, n+2, n+4, n+6, n+8, n+10, n+12 are semiprimes.",
+  "id": "A092129",
+  "mentions": [
+    "A056809",
+    "A070552",
+    "A092125",
+    "A092126",
+    "A092127",
+    "A092128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

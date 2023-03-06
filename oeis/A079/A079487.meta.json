@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows giving Whitney numbers T(n,k) of Fibonacci lattices.",
+  "id": "A079487",
+  "mentions": [
+    "A000045",
+    "A077419"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

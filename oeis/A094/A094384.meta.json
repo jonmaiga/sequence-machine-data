@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of n X n partial Hadamard matrix with coefficient m(i,j) 1<=i,j<=n (see comment).",
+  "id": "A094384",
+  "mentions": [
+    "A000788",
+    "A073536"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

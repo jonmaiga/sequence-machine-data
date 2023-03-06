@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of A064455 to reach 2 (or 1 in the case of 1).",
+  "id": "A064433",
+  "mentions": [
+    "A006666",
+    "A008908",
+    "A064455",
+    "A070168"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

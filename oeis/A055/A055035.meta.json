@@ -1,0 +1,23 @@
+{
+  "description": "Degree of minimal polynomial of sin(Pi/n) over the rationals.",
+  "id": "A055035",
+  "mentions": [
+    "A000010",
+    "A093819",
+    "A228783",
+    "A228785",
+    "A228786"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:23:29",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

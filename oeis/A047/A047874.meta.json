@@ -1,0 +1,39 @@
+{
+  "description": "Triangle of numbers T(n,k) = number of permutations of (1,2,...,n) with longest increasing subsequence of length k (1<=k<=n).",
+  "id": "A047874",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A001453",
+    "A001454",
+    "A001455",
+    "A001456",
+    "A001457",
+    "A001458",
+    "A003316",
+    "A047884",
+    "A047887",
+    "A047888",
+    "A126065",
+    "A224652",
+    "A239432",
+    "A245665",
+    "A245666",
+    "A245667",
+    "A267433"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

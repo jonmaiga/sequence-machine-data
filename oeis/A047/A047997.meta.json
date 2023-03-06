@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of numbers a(n,k) = number of balance positions when k equal weights are placed at a k-subset of the points {-n, -(n-1), ..., n-1, n} on a centrally pivoted rod.",
+  "id": "A047997",
+  "mentions": [
+    "A002838",
+    "A047653",
+    "A067059",
+    "A212352",
+    "A212353"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:37:21",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

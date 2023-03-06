@@ -1,0 +1,29 @@
+{
+  "description": "Nonprime numbers n such that q=phi(n)/(sigma(n)-n-1) is an integer and n is not a prime square.",
+  "id": "A070161",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001065",
+    "A001248",
+    "A020492",
+    "A048050",
+    "A055940",
+    "A062972",
+    "A068418",
+    "A070037",
+    "A070159",
+    "A070160"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

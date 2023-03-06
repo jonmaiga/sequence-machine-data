@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of sinh(1).",
+  "id": "A073742",
+  "mentions": [
+    "A009445",
+    "A049469",
+    "A049470",
+    "A051397",
+    "A068139",
+    "A073743",
+    "A073744",
+    "A073745",
+    "A073746",
+    "A073747"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:19",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

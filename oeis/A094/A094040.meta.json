@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing forests with n vertices and k edges.",
+  "id": "A094040",
+  "mentions": [
+    "A001764",
+    "A026004",
+    "A045739",
+    "A094021"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:18:10",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

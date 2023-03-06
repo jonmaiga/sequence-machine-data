@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*(k+1)*(k+2)*...*(k+7) / (k+(k+1)+(k+2)+...+(k+7)) is an integer.",
+  "id": "A032778",
+  "mentions": [
+    "A032777",
+    "A032779"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

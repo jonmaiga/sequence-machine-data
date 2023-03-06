@@ -1,0 +1,27 @@
+{
+  "description": "Number of walks of length n along the edges of an octahedron starting and ending at a vertex and also ( with a(0)=0 ) between two opposite vertices.",
+  "id": "A054881",
+  "mentions": [
+    "A001045",
+    "A003683",
+    "A054882",
+    "A054883",
+    "A054884",
+    "A054885",
+    "A102518",
+    "A246036"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

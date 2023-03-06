@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, k >= 1) giving filtration of bigrading of Hopf algebra of rooted trees.",
+  "id": "A052253",
+  "mentions": [
+    "A052250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Integers 1 to 2*k followed by integers 1 to 2*k + 2 and so on.",
+  "id": "A074294",
+  "mentions": [
+    "A000194",
+    "A002061",
+    "A005843",
+    "A053187",
+    "A071797",
+    "A194011",
+    "A194029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:33",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

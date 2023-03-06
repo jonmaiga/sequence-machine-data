@@ -1,0 +1,17 @@
+{
+  "description": "Convolution of Lucas numbers and A000201.",
+  "id": "A023621",
+  "mentions": [
+    "A000201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:02:06",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

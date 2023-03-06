@@ -1,0 +1,22 @@
+{
+  "description": "Table in which n-th row lists digits in periodic part of decimal expansion of reciprocal of n-th prime.",
+  "id": "A048963",
+  "mentions": [
+    "A048595",
+    "A048962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:03:43",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

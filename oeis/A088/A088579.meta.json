@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form n*x^n + (n-1)*x^(n-1) + . . . + x + 1 for x=2.",
+  "id": "A088579",
+  "mentions": [
+    "A055469"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

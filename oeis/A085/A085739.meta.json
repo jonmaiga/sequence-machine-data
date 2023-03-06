@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A034953(n).",
+  "id": "A085739",
+  "mentions": [
+    "A034953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

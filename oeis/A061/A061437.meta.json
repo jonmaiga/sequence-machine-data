@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n+1 divides prime(n)+1.",
+  "id": "A061437",
+  "mentions": [
+    "A045924",
+    "A062061"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

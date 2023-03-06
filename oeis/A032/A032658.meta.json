@@ -1,0 +1,19 @@
+{
+  "description": "Lucky numbers that are decimal concatenations of n with n + 8.",
+  "id": "A032658",
+  "mentions": [
+    "A000959",
+    "A032648"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Second differences of sigma(n) that are negative.",
+  "id": "A053248",
+  "mentions": [
+    "A000203",
+    "A053223",
+    "A053229",
+    "A053247"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:07:05",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

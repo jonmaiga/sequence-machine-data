@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k and number of divisors d(k) are relatively prime.",
+  "id": "A046642",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A009191",
+    "A009230",
+    "A036537",
+    "A056911",
+    "A076214",
+    "A327839"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

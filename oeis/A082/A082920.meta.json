@@ -1,0 +1,18 @@
+{
+  "description": "Squares that are the sum of four factorials.",
+  "id": "A082920",
+  "mentions": [
+    "A082875"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

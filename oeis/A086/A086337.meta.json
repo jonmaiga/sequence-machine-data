@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n, n-1 and n-2 have the same prime signature.",
+  "id": "A086337",
+  "mentions": [
+    "A083793"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

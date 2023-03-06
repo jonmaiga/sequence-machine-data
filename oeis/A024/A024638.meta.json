@@ -1,0 +1,19 @@
+{
+  "description": "n written in fractional base 6/5.",
+  "id": "A024638",
+  "mentions": [
+    "A024629"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:07",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

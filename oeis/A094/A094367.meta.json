@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the number of numerical semigroups with three generators and Frobenius number n.",
+  "id": "A094367",
+  "mentions": [
+    "A094365",
+    "A094366",
+    "A124506"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

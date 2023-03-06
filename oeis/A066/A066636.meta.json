@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A066638(n)/n, where A066638(n) is the smallest power of a squarefree kernel of n that is a multiple of n.",
+  "id": "A066636",
+  "mentions": [
+    "A007947",
+    "A051903",
+    "A066638"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

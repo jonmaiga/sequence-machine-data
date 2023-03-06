@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of generalized Legendre symbols L(a/b), with 1's for quadratic residues and 0's for quadratic non-residues.",
+  "id": "A055088",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A011582",
+    "A011583",
+    "A054431",
+    "A055094"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:23:59",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

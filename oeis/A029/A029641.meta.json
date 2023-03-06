@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers in the (1,2)-Pascal triangle A029635 that are different from 2.",
+  "id": "A029641",
+  "mentions": [
+    "A029635"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:27",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

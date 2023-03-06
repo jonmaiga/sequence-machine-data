@@ -1,0 +1,25 @@
+{
+  "description": "Number of deficient divisors of n.",
+  "id": "A080226",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005100",
+    "A080224",
+    "A080225",
+    "A187793",
+    "A294926",
+    "A294934"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

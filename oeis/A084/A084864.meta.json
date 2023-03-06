@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be written in the form 2*u^2 + 3*v^2, u*v>0.",
+  "id": "A084864",
+  "mentions": [
+    "A084863",
+    "A084865",
+    "A084866"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

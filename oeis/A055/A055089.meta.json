@@ -1,0 +1,40 @@
+{
+  "description": "List of all finite permutations in reversed colexicographic ordering.",
+  "id": "A055089",
+  "mentions": [
+    "A001563",
+    "A007623",
+    "A030298",
+    "A030299",
+    "A034968",
+    "A055090",
+    "A055091",
+    "A055092",
+    "A055093",
+    "A056019",
+    "A057112",
+    "A060112",
+    "A060117",
+    "A060118",
+    "A060132",
+    "A060133",
+    "A064640",
+    "A065181",
+    "A084558",
+    "A195663",
+    "A220658",
+    "A220659"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:23:59",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Floor[ concatenation of numbers from n to 1 divided by concatenation of numbers from 1 to n].",
+  "id": "A075011",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

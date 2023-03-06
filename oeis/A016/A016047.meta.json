@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime factor of Mersenne numbers.",
+  "id": "A016047",
+  "mentions": [
+    "A000225",
+    "A000668",
+    "A001348",
+    "A003260",
+    "A046800",
+    "A049479"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

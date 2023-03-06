@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = T(n,n-1), where T is array defined in A025564.",
+  "id": "A025565",
+  "mentions": [
+    "A000984",
+    "A001006",
+    "A002426",
+    "A005773",
+    "A006134",
+    "A025564",
+    "A025577",
+    "A085455",
+    "A097692",
+    "A105696",
+    "A120580"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

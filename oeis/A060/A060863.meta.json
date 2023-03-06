@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers n which are the average of a run of consecutive primes.",
+  "id": "A060863",
+  "mentions": [
+    "A060864",
+    "A122821"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

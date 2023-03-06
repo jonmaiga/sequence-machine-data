@@ -1,0 +1,23 @@
+{
+  "description": "a(n) + a(n+1) is never prime; lexicographically earliest such sequence of distinct positive integers.",
+  "id": "A055266",
+  "mentions": [
+    "A010051",
+    "A055265",
+    "A203069",
+    "A249920",
+    "A253074"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = 2*n*a(n-1) - 1 for n >= 1.",
+  "id": "A055214",
+  "mentions": [
+    "A000165"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:32:31",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

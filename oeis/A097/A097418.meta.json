@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of coefficients of a certain sequence of polynomials f_n(x) arising in connection with deformations of coordinate rings of type D Kleinian singularities.",
+  "id": "A097418",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

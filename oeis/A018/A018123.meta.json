@@ -1,0 +1,15 @@
+{
+  "description": "Powers of fifth root of 4 rounded down.",
+  "id": "A018123",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:42:10",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

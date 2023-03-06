@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, where the n-th row is the first n terms of the n-th self-convolution of the sequence formed by flattening this triangle.",
+  "id": "A086606",
+  "mentions": [
+    "A086607",
+    "A086608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

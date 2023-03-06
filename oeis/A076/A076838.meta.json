@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent indecomposable projective binary linear [n,k] codes of any dimension k <= n.",
+  "id": "A076838",
+  "mentions": [
+    "A076837"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

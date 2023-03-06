@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k! and 2^k+1 are relatively prime.",
+  "id": "A070173",
+  "mentions": [
+    "A000051",
+    "A000142",
+    "A069180"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

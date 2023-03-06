@@ -1,0 +1,19 @@
+{
+  "description": "Values associated with sequence A087004(n).",
+  "id": "A089021",
+  "mentions": [
+    "A000005",
+    "A087004"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

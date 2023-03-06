@@ -1,0 +1,21 @@
+{
+  "description": "Nonsquarefree numbers divided by their squarefree kernels.",
+  "id": "A084936",
+  "mentions": [
+    "A003557",
+    "A005117",
+    "A007947",
+    "A013929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

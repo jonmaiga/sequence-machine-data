@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the limit of the maximum real root of M(n,-x) as n -> infinity, where M(n,x) is the n-th Moebius polynomial and satisfies M(n,-1) = mu(n) the Moebius function of n.",
+  "id": "A077601",
+  "mentions": [
+    "A074586",
+    "A074587",
+    "A077596",
+    "A077598",
+    "A077599",
+    "A077600",
+    "A077602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

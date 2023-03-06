@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = |j - k|, where u(n) = u(j) + u(k) is the unique sum of Ulam numbers described in A002859 (with 1 <= j < k < n).",
+  "id": "A049879",
+  "mentions": [
+    "A002858",
+    "A002859",
+    "A049821",
+    "A049877",
+    "A049878"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:05",
+    "offset": 3,
+    "size": 77,
+    "source": "joeis"
+  }
+}

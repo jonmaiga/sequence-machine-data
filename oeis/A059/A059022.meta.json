@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of Stirling numbers of order 3.",
+  "id": "A059022",
+  "mentions": [
+    "A006505",
+    "A008299",
+    "A059023",
+    "A059024",
+    "A059025",
+    "A100861",
+    "A261724",
+    "A272352",
+    "A272982",
+    "A352611"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 3,
+    "size": 44,
+    "source": "joeis"
+  }
+}

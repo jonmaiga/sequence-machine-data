@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number a(n) == -1 (mod n) such that the prime signature of n and a(n) is the same, or 0 if no such number exists.",
+  "id": "A085075",
+  "mentions": [
+    "A085074"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

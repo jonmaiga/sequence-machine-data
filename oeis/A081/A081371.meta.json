@@ -1,0 +1,18 @@
+{
+  "description": "Binomial coefficients C[n,j] reduced modulo j, j=1,...n; read by rows, j=0 is omitted because of mod[n,0].",
+  "id": "A081371",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

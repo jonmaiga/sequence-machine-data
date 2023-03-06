@@ -1,0 +1,17 @@
+{
+  "description": "Sum(k=1,n, A005185(k)).",
+  "id": "A076268",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

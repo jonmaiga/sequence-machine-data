@@ -1,0 +1,18 @@
+{
+  "description": "Least number beginning with prime(n) such that every concatenation is a prime.",
+  "id": "A090508",
+  "mentions": [
+    "A090509"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:18:27",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

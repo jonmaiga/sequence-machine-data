@@ -1,0 +1,21 @@
+{
+  "description": "Distance of n-th primorial from closest prime.",
+  "id": "A060269",
+  "mentions": [
+    "A002110",
+    "A007014",
+    "A038710",
+    "A038711",
+    "A058044"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 3,
+    "size": 48,
+    "source": "joeis"
+  }
+}

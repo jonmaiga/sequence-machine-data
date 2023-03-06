@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are still numbers when turned upside down (uses only digits 0, 1, 6, 8, 9 with no final 0's).",
+  "id": "A045574",
+  "mentions": [
+    "A000787",
+    "A018847",
+    "A054047",
+    "A057770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:24:23",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{k=0..n^2} (k^2 - n^2)/n.",
+  "id": "A071902",
+  "mentions": [
+    "A052459"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:19",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

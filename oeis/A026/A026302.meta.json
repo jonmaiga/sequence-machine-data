@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of (s(0), s(1), ..., s(n)) such that s(i) is a nonnegative integer and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, s(0) = 0, s(2n) = n. Also a(n) = T(2n,n), where T is the array in A026300.",
+  "id": "A026302",
+  "mentions": [
+    "A006605",
+    "A026300",
+    "A026307"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Nonnegative integers written in \"base American money\" - the places, from the right, are pennies, nickels, dimes, quarters, 50-cent pieces, dollars, 2 dollars, 5 dollars, 10 dollars, 20 dollars, 50 dollars, 100 dollars, ...",
+  "id": "A080897",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

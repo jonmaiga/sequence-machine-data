@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A005728, which counts the terms in the Farey sequence of order n.",
+  "id": "A078334",
+  "mentions": [
+    "A000010",
+    "A005728",
+    "A015614",
+    "A067282"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

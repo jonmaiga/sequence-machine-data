@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for ReO_3 net with respect to oxygen atom O_1.",
+  "id": "A066394",
+  "mentions": [
+    "A066714"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:07",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

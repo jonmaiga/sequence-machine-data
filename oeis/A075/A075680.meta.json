@@ -1,0 +1,22 @@
+{
+  "description": "For odd numbers 2n-1, the minimum number of iterations of the reduced Collatz function R required to yield 1. The function R is defined as R(k) = (3k+1)/2^r, with r as large as possible.",
+  "id": "A075680",
+  "mentions": [
+    "A000265",
+    "A006667",
+    "A060445",
+    "A075677",
+    "A075684"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

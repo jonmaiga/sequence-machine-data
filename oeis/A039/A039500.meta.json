@@ -1,0 +1,24 @@
+{
+  "description": "Iterations of \"k->k/2 if k is even, k->3k-1 if k is odd\" (A001281) starting at these numbers reach 1.",
+  "id": "A039500",
+  "mentions": [
+    "A001281",
+    "A037084",
+    "A039501",
+    "A039502",
+    "A039503",
+    "A039504",
+    "A039505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

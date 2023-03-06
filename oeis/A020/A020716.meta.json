@@ -1,0 +1,19 @@
+{
+  "description": "Pisot sequences E(6,8), P(6,8).",
+  "id": "A020716",
+  "mentions": [
+    "A008776",
+    "A023434"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

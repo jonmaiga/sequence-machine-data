@@ -1,0 +1,19 @@
+{
+  "description": "Number of topologically distinct ways to dissect a rectangle into n rectangles.",
+  "id": "A049021",
+  "mentions": [
+    "A056814"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

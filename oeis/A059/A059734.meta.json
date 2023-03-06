@@ -1,0 +1,20 @@
+{
+  "description": "Carryless 11^n base 10; a(n) is carryless sum of 10*a(n-1) and a(n-1).",
+  "id": "A059734",
+  "mentions": [
+    "A004520",
+    "A006940"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

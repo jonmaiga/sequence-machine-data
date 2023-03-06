@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T = A007318*A271703; T(n,m)= Sum_{i=0..n} L'(n,i)*binomial(i,m), m=0..n.",
+  "id": "A059110",
+  "mentions": [
+    "A000027",
+    "A000262",
+    "A006232",
+    "A007318",
+    "A008297",
+    "A028310",
+    "A052852",
+    "A052897",
+    "A105278",
+    "A271703",
+    "A271705"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n+4)^n*binomial(n+2,2).",
+  "id": "A081196",
+  "mentions": [
+    "A053507",
+    "A081130",
+    "A081131",
+    "A081132",
+    "A081133"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

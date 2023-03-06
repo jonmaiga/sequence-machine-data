@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sum of 9th powers of divisors of k is divisible by the square of Euler-phi of k.",
+  "id": "A094468",
+  "mentions": [
+    "A000010",
+    "A013957",
+    "A015763",
+    "A091285"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

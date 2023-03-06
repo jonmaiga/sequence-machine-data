@@ -1,0 +1,25 @@
+{
+  "description": "Square array of numbers read by antidiagonals where T(n,k)=((k+3)(k+2)^n-2)/(k+1)",
+  "id": "A090842",
+  "mentions": [
+    "A020989",
+    "A033484",
+    "A048473",
+    "A057651",
+    "A061801",
+    "A090843"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

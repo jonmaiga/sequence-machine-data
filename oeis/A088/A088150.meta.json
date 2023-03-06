@@ -1,0 +1,27 @@
+{
+  "description": "Value of n-th digit (counting from the right) in binary representation of n^n.",
+  "id": "A088150",
+  "mentions": [
+    "A000312",
+    "A007088",
+    "A088151",
+    "A088152",
+    "A088153",
+    "A088154",
+    "A088155",
+    "A088156",
+    "A088157"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

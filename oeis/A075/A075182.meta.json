@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisors of rows of triangle A075181 and of (unsigned) triangle A048594.",
+  "id": "A075182",
+  "mentions": [
+    "A048594",
+    "A075181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

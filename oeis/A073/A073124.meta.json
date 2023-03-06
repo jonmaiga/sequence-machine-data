@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(1+prime(n)) - prime(prime(n)).",
+  "id": "A073124",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006450",
+    "A072677",
+    "A073123"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

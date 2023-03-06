@@ -1,0 +1,26 @@
+{
+  "description": "Primes of form 10n+3.",
+  "id": "A030431",
+  "mentions": [
+    "A000040",
+    "A017305",
+    "A030430",
+    "A045414",
+    "A049508",
+    "A053179",
+    "A102338",
+    "A132233",
+    "A132235"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

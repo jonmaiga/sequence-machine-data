@@ -1,0 +1,23 @@
+{
+  "description": "Least common multiple of {d-1: d > 1 and d divides n}.",
+  "id": "A084190",
+  "mentions": [
+    "A000430",
+    "A001248",
+    "A007955",
+    "A027750",
+    "A080257",
+    "A084191",
+    "A258409"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

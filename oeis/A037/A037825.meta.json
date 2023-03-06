@@ -1,0 +1,18 @@
+{
+  "description": "Number of i such that d(i)>d(i-1), where Sum{d(i)*10^i: i=0,1,....,m} is base 10 representation of n.",
+  "id": "A037825",
+  "mentions": [
+    "A037808"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:43",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

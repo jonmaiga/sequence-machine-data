@@ -1,0 +1,18 @@
+{
+  "description": "Distinct values of sigma(k), the sum of divisors, in order of appearance as n grows.",
+  "id": "A090128",
+  "mentions": [
+    "A053212",
+    "A090127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

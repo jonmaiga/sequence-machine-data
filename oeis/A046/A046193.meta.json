@@ -1,0 +1,22 @@
+{
+  "description": "Indices of heptagonal numbers (A000566) which are also triangular numbers (A000217).",
+  "id": "A046193",
+  "mentions": [
+    "A000217",
+    "A000566",
+    "A039835",
+    "A046194"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "If n is composite replace n with the concatenation of its nontrivial divisors [ A037279 ] then divide out any factors of 2.",
+  "id": "A037280",
+  "mentions": [
+    "A037279"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:53:04",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

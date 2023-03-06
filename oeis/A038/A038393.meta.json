@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4n-step self-avoiding closed paths on first quadrant grid, passing through origin, symmetric about line y = x.",
+  "id": "A038393",
+  "mentions": [
+    "A034010"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

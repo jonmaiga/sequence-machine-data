@@ -1,0 +1,23 @@
+{
+  "description": "Invert transform of odd numbers: a(n) = Sum_{k=1..n} (2*k+1)*a(n-k), a(0)=1.",
+  "id": "A060801",
+  "mentions": [
+    "A001906",
+    "A030017",
+    "A033453",
+    "A052530",
+    "A052913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

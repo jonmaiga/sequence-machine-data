@@ -1,0 +1,22 @@
+{
+  "description": "Smaller of pair of successive n-digit primes with maximal difference.",
+  "id": "A073861",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A002386",
+    "A241623"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

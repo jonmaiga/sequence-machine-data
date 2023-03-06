@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ceiling(n*(1+sqrt(2))).",
+  "id": "A080754",
+  "mentions": [
+    "A003151",
+    "A080755",
+    "A188037"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:50:01",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

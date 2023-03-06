@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers which are sandwiched between two numbers having the same unordered canonical form.",
+  "id": "A074998",
+  "mentions": [
+    "A061715",
+    "A074460",
+    "A074997"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

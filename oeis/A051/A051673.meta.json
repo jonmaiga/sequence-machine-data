@@ -1,0 +1,27 @@
+{
+  "description": "Cubic star numbers: a(n) = n^3 + 4*Sum_{i=0..n-1} i^2.",
+  "id": "A051673",
+  "mentions": [
+    "A002378",
+    "A004466",
+    "A005915",
+    "A051662",
+    "A100145",
+    "A100188",
+    "A214659",
+    "A214661"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:41",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

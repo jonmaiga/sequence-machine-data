@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that in binary representation the length is a multiple of the number of ones.",
+  "id": "A096199",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000225",
+    "A007088",
+    "A049445",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Table read by rows where T(0,0)=0; n-th row has 2^n terms T(n,j),j=0 to 2^n-1. T(n,T088208(n,j))=2^n-j, where T088208 is the table described in A088208.",
+  "id": "A088372",
+  "mentions": [
+    "A010060",
+    "A088208"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

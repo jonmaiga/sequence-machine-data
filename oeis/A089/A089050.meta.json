@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of writing n as a sum of exactly 5 powers of 2.",
+  "id": "A089050",
+  "mentions": [
+    "A036987",
+    "A075897",
+    "A089048",
+    "A089049",
+    "A089051",
+    "A089052",
+    "A089053"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

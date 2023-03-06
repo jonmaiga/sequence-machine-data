@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) is the number of Farey fractions of order n that are <= 1/k for k=1..n, for n>=1.",
+  "id": "A049805",
+  "mentions": [
+    "A005728",
+    "A006842",
+    "A006843"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:35",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of orbits of order exactly k under doubling map which remain in a semicircle, with k dividing n.",
+  "id": "A038870",
+  "mentions": [
+    "A000010",
+    "A038871"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:43:29",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

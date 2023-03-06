@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose product of divisors exceeds their square.",
+  "id": "A058080",
+  "mentions": [
+    "A000430",
+    "A007422",
+    "A007955",
+    "A007964"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Square array of binomial transforms of Fibonacci numbers, read by antidiagonals.",
+  "id": "A081576",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A005408",
+    "A028387",
+    "A030191",
+    "A077588",
+    "A081573",
+    "A081574",
+    "A081575",
+    "A099453"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

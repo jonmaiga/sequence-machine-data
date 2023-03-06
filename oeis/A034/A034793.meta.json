@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; thereafter a(n+1) is the least k > a(n) such that k is a square mod a(i) for all i<= n.",
+  "id": "A034793",
+  "mentions": [
+    "A034903",
+    "A054762"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

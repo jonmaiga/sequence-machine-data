@@ -1,0 +1,21 @@
+{
+  "description": "Strong pseudoprimes to bases 2, 3, 5 and 7.",
+  "id": "A074773",
+  "mentions": [
+    "A001262",
+    "A020229",
+    "A020231",
+    "A020233",
+    "A056915"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

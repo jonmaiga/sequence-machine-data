@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^10 == 1 (mod 11^3).",
+  "id": "A056085",
+  "mentions": [
+    "A056082",
+    "A056083",
+    "A056084",
+    "A056086",
+    "A056087",
+    "A056088",
+    "A056089"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

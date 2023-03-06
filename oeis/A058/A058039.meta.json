@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + 2*a(floor(n/2)) if n > 0, otherwise 1.",
+  "id": "A058039",
+  "mentions": [
+    "A000123",
+    "A002061",
+    "A067868",
+    "A347027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

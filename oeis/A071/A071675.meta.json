@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals of trinomial coefficients.",
+  "id": "A071675",
+  "mentions": [
+    "A000073",
+    "A000244",
+    "A001919",
+    "A002426",
+    "A005718",
+    "A005719",
+    "A005720",
+    "A013979",
+    "A027907",
+    "A064055",
+    "A071676",
+    "A213742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:33",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

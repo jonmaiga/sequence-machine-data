@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) (0<= k <=n) read by rows. Left edge is 1, 0, 0, ... Otherwise each entry is sum of entry to left, entries immediately above it to left and right and entry directly above it 2 rows back.",
+  "id": "A059283",
+  "mentions": [
+    "A059226",
+    "A059284",
+    "A122542",
+    "A224729"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

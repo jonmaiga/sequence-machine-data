@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of eta(q^2)^12 / theta_3(q)^3 in powers of q.",
+  "id": "A029769",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

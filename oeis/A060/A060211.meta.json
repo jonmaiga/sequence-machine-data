@@ -1,0 +1,23 @@
+{
+  "description": "Larger term of a pair of twin primes such that prime factors of their average are only 2 and 3. Proper subset of A058383.",
+  "id": "A060211",
+  "mentions": [
+    "A001454",
+    "A002822",
+    "A027856",
+    "A033845",
+    "A058383",
+    "A059960"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

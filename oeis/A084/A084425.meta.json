@@ -1,0 +1,16 @@
+{
+  "description": "Let b(0) = n, b(2*k+1) = c, where c > b(m) is the smallest number such that gcd(c,b(2*k))=1, b(2*k+2) = e where e < b(m) is the smallest number such that gcd(e,b(2*k+1))=1 for m = 0..2*k, until reaching e = 1. Then a(n) = the last c.",
+  "id": "A084425",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Discriminants of real quadratic fields with class number 2 and related continued fraction period length of 18.",
+  "id": "A051983",
+  "mentions": [
+    "A051966",
+    "A051989"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of Catalan(n)/2^(2n+1). Also, numerators of (2n-1)!!/(n+1)!. Odd part of the n-th Catalan number.",
+  "id": "A098597",
+  "mentions": [
+    "A000108",
+    "A000265",
+    "A001795",
+    "A002596",
+    "A046161",
+    "A048881",
+    "A084930",
+    "A086117",
+    "A120777"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

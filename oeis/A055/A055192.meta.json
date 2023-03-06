@@ -1,0 +1,26 @@
+{
+  "description": "Number of bipartite graphs with n vertices, no isolated vertices and a distinguished bipartite block, up to isomorphism.",
+  "id": "A055192",
+  "mentions": [
+    "A007776",
+    "A024206",
+    "A048194",
+    "A049312",
+    "A055082",
+    "A055083",
+    "A055084",
+    "A055609",
+    "A056152",
+    "A122083"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

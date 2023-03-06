@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(2^n, n - phi(n)); largest power of 2 dividing cototient(n) = A051953(n).",
+  "id": "A082506",
+  "mentions": [
+    "A000010",
+    "A007283",
+    "A009195",
+    "A050339",
+    "A051953",
+    "A053576",
+    "A069177",
+    "A083250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

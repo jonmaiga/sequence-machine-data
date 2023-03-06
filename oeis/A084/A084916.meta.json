@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers of the form k = x^2 - 3*y^2.",
+  "id": "A084916",
+  "mentions": [
+    "A031363",
+    "A035251",
+    "A068228",
+    "A243655"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

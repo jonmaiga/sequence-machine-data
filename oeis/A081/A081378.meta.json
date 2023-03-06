@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which the sums of prime factors (ignoring multiplicity) of sigma(k) and phi(k) are equal but the sets of prime factors of sigma and phi are different.",
+  "id": "A081378",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A065642",
+    "A076533",
+    "A081377"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

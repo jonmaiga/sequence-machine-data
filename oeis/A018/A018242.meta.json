@@ -1,0 +1,22 @@
+{
+  "description": "Number of projective order types; number of simple arrangements of n lines.",
+  "id": "A018242",
+  "mentions": [
+    "A006247",
+    "A006248",
+    "A063666",
+    "A222317"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers k such that the concatenation of all nonprime positive integers up to k in decreasing order is prime.",
+  "id": "A099071",
+  "mentions": [
+    "A046284",
+    "A099070",
+    "A100003"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

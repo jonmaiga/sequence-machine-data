@@ -1,0 +1,21 @@
+{
+  "description": "Triangle: Number of asymmetric semigroups of order n with k idempotents.",
+  "id": "A058113",
+  "mentions": [
+    "A058104",
+    "A058114",
+    "A058115"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

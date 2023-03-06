@@ -1,0 +1,29 @@
+{
+  "description": "Replace each prime factor of n with 2: a(n) = 2^bigomega(n), where bigomega = A001222, number of prime factors counted with multiplicity.",
+  "id": "A061142",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001222",
+    "A001316",
+    "A034444",
+    "A069205",
+    "A123667",
+    "A124508",
+    "A156552",
+    "A162510"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

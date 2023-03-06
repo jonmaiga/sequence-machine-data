@@ -1,0 +1,28 @@
+{
+  "description": "Index of first occurrence of exactly n consecutive twos in a row in the decimal expansion of Pi.",
+  "id": "A096756",
+  "mentions": [
+    "A035117",
+    "A050279",
+    "A050281",
+    "A096757",
+    "A096758",
+    "A096759",
+    "A096760",
+    "A096761",
+    "A096762",
+    "A096763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

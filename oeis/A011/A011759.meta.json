@@ -1,0 +1,20 @@
+{
+  "description": "Barker sequence of length 13.",
+  "id": "A011759",
+  "mentions": [
+    "A011758",
+    "A091704"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

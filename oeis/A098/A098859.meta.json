@@ -1,0 +1,34 @@
+{
+  "description": "Number of partitions of n into parts each of which is used a different number of times.",
+  "id": "A098859",
+  "mentions": [
+    "A047966",
+    "A090858",
+    "A100471",
+    "A100881",
+    "A105637",
+    "A116608",
+    "A130091",
+    "A182485",
+    "A211858",
+    "A211859",
+    "A211860",
+    "A211861",
+    "A211862",
+    "A211863",
+    "A242882",
+    "A325242"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

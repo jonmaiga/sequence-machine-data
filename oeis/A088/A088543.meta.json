@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of sqrt(15)/2.",
+  "id": "A088543",
+  "mentions": [
+    "A010472",
+    "A010527",
+    "A140239",
+    "A140246",
+    "A140247",
+    "A140248",
+    "A140249"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

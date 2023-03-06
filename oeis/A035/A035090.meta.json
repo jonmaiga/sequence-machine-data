@@ -1,0 +1,37 @@
+{
+  "description": "Non-palindromic squares which when written backwards remain square (and still have the same number of digits).",
+  "id": "A035090",
+  "mentions": [
+    "A002779",
+    "A002781",
+    "A003098",
+    "A006030",
+    "A033294",
+    "A035123",
+    "A035124",
+    "A035125",
+    "A066528",
+    "A066569",
+    "A066702",
+    "A066703",
+    "A069673",
+    "A106323",
+    "A106324",
+    "A161902",
+    "A179889",
+    "A181412",
+    "A319388"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of bracelet structures using exactly five different colored beads.",
+  "id": "A056360",
+  "mentions": [
+    "A056298",
+    "A056354",
+    "A056355",
+    "A056391",
+    "A152176",
+    "A214311"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

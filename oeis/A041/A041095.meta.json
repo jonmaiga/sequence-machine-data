@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(55).",
+  "id": "A041095",
+  "mentions": [
+    "A010141",
+    "A010508",
+    "A020812",
+    "A041094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

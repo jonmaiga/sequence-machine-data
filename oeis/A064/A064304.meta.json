@@ -1,0 +1,20 @@
+{
+  "description": "Eighth diagonal of triangle A064094.",
+  "id": "A064304",
+  "mentions": [
+    "A009766",
+    "A064094"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

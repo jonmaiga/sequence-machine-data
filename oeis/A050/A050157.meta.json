@@ -1,0 +1,24 @@
+{
+  "description": "T(n, k) = S(2n, n, k) for 0<=k<=n and n>=0, where S(p, q, r) is the number of upright paths from (0, 0) to (p, p-q) that do not rise above the line y = x-r.",
+  "id": "A050157",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A030662",
+    "A039599",
+    "A050163",
+    "A296771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:25",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

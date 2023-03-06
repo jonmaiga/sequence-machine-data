@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers divisible by 8 or by the square of an odd prime.",
+  "id": "A046790",
+  "mentions": [
+    "A001414",
+    "A003557",
+    "A005361",
+    "A008475",
+    "A046791",
+    "A078779"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

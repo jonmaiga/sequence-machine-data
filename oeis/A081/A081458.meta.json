@@ -1,0 +1,21 @@
+{
+  "description": "Table T(m,n) = (3^m + 5^n)/2, for m, n = 0, 2, 4, 6, ... read by antidiagonals downwards.",
+  "id": "A081458",
+  "mentions": [
+    "A193769",
+    "A193770"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

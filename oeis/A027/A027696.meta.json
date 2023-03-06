@@ -1,0 +1,18 @@
+{
+  "description": "Nonparametric solutions to problem in A027669: n such that for some m, the sum of the first m n-gonal numbers is again an n-gonal number.",
+  "id": "A027696",
+  "mentions": [
+    "A027669"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

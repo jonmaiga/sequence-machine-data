@@ -1,0 +1,20 @@
+{
+  "description": "Positions of A080118 in A014486.",
+  "id": "A080119",
+  "mentions": [
+    "A014486",
+    "A080118",
+    "A215406"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

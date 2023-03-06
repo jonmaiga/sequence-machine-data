@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A049614(k) - A000040(k) is prime.",
+  "id": "A078745",
+  "mentions": [
+    "A000040",
+    "A034386",
+    "A049614",
+    "A078744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

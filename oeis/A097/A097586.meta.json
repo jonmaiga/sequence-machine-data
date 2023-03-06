@@ -1,0 +1,17 @@
+{
+  "description": "Table T(n,n) read by rows: T(1,1)=0; then if n even T(n,1)=T(n-1,1)+2 and if n odd T(n,1)=T(n-2,1)+T(n-1,1)-1 then T(n,j)=T(n,j-1) + 2^floor((n+1)/2).",
+  "id": "A097586",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of the integers with cycle form {1}, {3, 2}, {6, 5, 4}, {10, 9, 8, 7}, ...",
+  "id": "A066182",
+  "mentions": [
+    "A000027",
+    "A002024",
+    "A066181",
+    "A192872"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

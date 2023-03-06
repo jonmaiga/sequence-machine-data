@@ -1,0 +1,19 @@
+{
+  "description": "Sum of determinants of 3rd order principal minors of powers of inverse of tetramatrix ((1,1,0,0),(1,0,1,0),(1,0,0,1),(1,0,0,0)).",
+  "id": "A074081",
+  "mentions": [
+    "A073817"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:57:01",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

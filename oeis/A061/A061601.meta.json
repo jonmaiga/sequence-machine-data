@@ -1,0 +1,26 @@
+{
+  "description": "9's complement of n: a(n) = 10^d - 1 - n where d is the number of digits in n. If a is a digit in n replace it with 9 - a.",
+  "id": "A061601",
+  "mentions": [
+    "A035327",
+    "A055120",
+    "A055642",
+    "A109002",
+    "A171960",
+    "A178500",
+    "A267193"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of x, where x is the unique number, given floor(x)=0, having the property that the signature sequence of x is equal to the continued fraction expansion of x.",
+  "id": "A084823",
+  "mentions": [
+    "A084822"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

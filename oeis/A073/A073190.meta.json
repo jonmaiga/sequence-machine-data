@@ -1,0 +1,22 @@
+{
+  "description": "Number of general plane trees which are either empty (the case a(0)), or whose root degree is either 1 (i.e., the planted trees) or the two leftmost subtrees (of the root node) are identical.",
+  "id": "A073190",
+  "mentions": [
+    "A000108",
+    "A072796",
+    "A073191",
+    "A073192",
+    "A073202"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

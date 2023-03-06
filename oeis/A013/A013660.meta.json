@@ -1,0 +1,15 @@
+{
+  "description": "Elementary catastrophes on n-dimensional manifold (the next term is infinite).",
+  "id": "A013660",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of factorials of digits of n equals pi(n) (A000720).",
+  "id": "A049529",
+  "mentions": [
+    "A000720",
+    "A049530"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

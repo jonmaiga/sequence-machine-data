@@ -1,0 +1,30 @@
+{
+  "description": "Let p be the largest prime factor of n; if p is the k-th prime then set a(n) = k; a(1) = 0 by convention.",
+  "id": "A061395",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006530",
+    "A049084",
+    "A055396",
+    "A061394",
+    "A067255",
+    "A133674",
+    "A215366",
+    "A243055"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

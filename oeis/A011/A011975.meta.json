@@ -1,0 +1,22 @@
+{
+  "description": "Covering numbers C(n,3,2).",
+  "id": "A011975",
+  "mentions": [
+    "A001839",
+    "A011977",
+    "A036838",
+    "A066010"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:59",
+    "offset": 3,
+    "size": 52,
+    "source": "joeis"
+  }
+}

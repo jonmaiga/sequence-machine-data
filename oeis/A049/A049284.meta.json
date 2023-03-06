@@ -1,0 +1,21 @@
+{
+  "description": "Restricted partitions.",
+  "id": "A049284",
+  "mentions": [
+    "A002572",
+    "A002573",
+    "A002574",
+    "A049285"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:28:08",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

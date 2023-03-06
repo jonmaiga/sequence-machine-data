@@ -1,0 +1,20 @@
+{
+  "description": "Number of increasing rooted 2,3 cacti (triangular cacti with bridges) with n-1 nodes.",
+  "id": "A032035",
+  "mentions": [
+    "A001147",
+    "A091481"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

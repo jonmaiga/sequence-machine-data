@@ -1,0 +1,19 @@
+{
+  "description": "Number of bases of an n-dimensional vector space over GF(2).",
+  "id": "A053601",
+  "mentions": [
+    "A002884"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

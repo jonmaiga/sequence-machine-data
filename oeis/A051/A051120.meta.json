@@ -1,0 +1,24 @@
+{
+  "description": "Start with 1; at n-th step, write down what is in the sequence so far.",
+  "id": "A051120",
+  "mentions": [
+    "A005150",
+    "A055186",
+    "A079668",
+    "A079686"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

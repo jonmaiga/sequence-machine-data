@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that m^2 + m + k is prime for m = 0..n.",
+  "id": "A092749",
+  "mentions": [
+    "A014556",
+    "A256302"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

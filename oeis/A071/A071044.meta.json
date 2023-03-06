@@ -1,0 +1,19 @@
+{
+  "description": "Number of ON cells at generation n of 1-D CA defined by Rule 22, starting with a single ON cell.",
+  "id": "A071044",
+  "mentions": [
+    "A000120",
+    "A071029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:39",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

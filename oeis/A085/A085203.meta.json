@@ -1,0 +1,33 @@
+{
+  "description": "Array A(x,y): Position of the totally balanced binary string obtained by concatenating the binary strings A014486(x) & A014486(y) in such a way that the latter is inserted after the least significant 1-bit of the former, followed by the remaining 0-bits, if any. Listed antidiagonalwise as A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ...",
+  "id": "A085203",
+  "mentions": [
+    "A002262",
+    "A014486",
+    "A025581",
+    "A057548",
+    "A071155",
+    "A072764",
+    "A072771",
+    "A072772",
+    "A080300",
+    "A085200",
+    "A085201",
+    "A085204",
+    "A085211",
+    "A085219",
+    "A085225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

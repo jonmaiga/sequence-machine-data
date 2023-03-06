@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of expansion of 1/x+1/log(1-x).",
+  "id": "A075178",
+  "mentions": [
+    "A006232",
+    "A006233",
+    "A008275",
+    "A027641",
+    "A027642",
+    "A075179"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

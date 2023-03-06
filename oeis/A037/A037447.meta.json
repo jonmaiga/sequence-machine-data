@@ -1,0 +1,18 @@
+{
+  "description": "Number of conjugacy classes of subgroups of the Chevalley group A_n(2) (the group of nonsingular n X n matrices over GF(2)).",
+  "id": "A037447",
+  "mentions": [
+    "A002884",
+    "A062240"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

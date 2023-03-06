@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of cycles of the permutation that converts forest(n) of depth-first planar planted binary trees into breadth-first representation.",
+  "id": "A038775",
+  "mentions": [
+    "A000108",
+    "A001683",
+    "A002995",
+    "A003239",
+    "A038774",
+    "A057507",
+    "A057513"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

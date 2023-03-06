@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = (1+2)*(2+3), a(3) = (1+2+3)*(2+3+4)*(3+4+5), ... etc. Or a(n) = (T(n))*(T(n)+n)*(T(n)+2n)*(T(n)+3n)*... n terms. where T(n) = n(n+1)/2 given by A000217.",
+  "id": "A092958",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

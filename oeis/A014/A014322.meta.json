@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of Bell numbers with themselves.",
+  "id": "A014322",
+  "mentions": [
+    "A000110",
+    "A014323",
+    "A014325",
+    "A144155",
+    "A292870"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

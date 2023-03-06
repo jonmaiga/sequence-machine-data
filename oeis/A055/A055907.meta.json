@@ -1,0 +1,28 @@
+{
+  "description": "Triangle: number of directed site animals on hexagonal net (honeycomb) with n total sites and k sites supported in one particular way.",
+  "id": "A055907",
+  "mentions": [
+    "A002620",
+    "A055898",
+    "A055908",
+    "A055909",
+    "A055910",
+    "A055911",
+    "A055912",
+    "A055913",
+    "A055914",
+    "A055915",
+    "A055919"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

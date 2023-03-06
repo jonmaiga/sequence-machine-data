@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there exists a proper divisor 1 < m < n where m divides n and m+1 divides n+1, but there is no divisor d such that d divides n, d+1 divides n+1 and d+2 divides n+2.",
+  "id": "A082867",
+  "mentions": [
+    "A082772"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

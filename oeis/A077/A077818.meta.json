@@ -1,0 +1,22 @@
+{
+  "description": "Probability P(n) of the occurrence of a 3-dimensional self-trapping walk of length n: numerator.",
+  "id": "A077818",
+  "mentions": [
+    "A001412",
+    "A077817",
+    "A077819",
+    "A077820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 11,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

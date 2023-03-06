@@ -1,0 +1,21 @@
+{
+  "description": "Consider trajectory of n under repeated applications of the function f(x) = 'Sum of the prime factors of x (with multiplicity)' (see A029908). Sequence gives composite numbers n that end at a prime m that divides n and m is greater than any m's seen already.",
+  "id": "A084931",
+  "mentions": [
+    "A022005",
+    "A029908",
+    "A048133",
+    "A084932"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

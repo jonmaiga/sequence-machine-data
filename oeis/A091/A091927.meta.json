@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-6x)/(1-6x-5x^2).",
+  "id": "A091927",
+  "mentions": [
+    "A015551"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:47:09",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

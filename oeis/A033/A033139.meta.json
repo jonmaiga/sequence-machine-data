@@ -1,0 +1,21 @@
+{
+  "description": "Base 3 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,0.",
+  "id": "A033139",
+  "mentions": [
+    "A000975",
+    "A049347"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

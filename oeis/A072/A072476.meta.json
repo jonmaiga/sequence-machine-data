@@ -1,0 +1,18 @@
+{
+  "description": "Difference between the sum of first n prime numbers and the sum of first n composite numbers.",
+  "id": "A072476",
+  "mentions": [
+    "A038529",
+    "A071411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

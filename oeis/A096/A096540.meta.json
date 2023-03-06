@@ -1,0 +1,20 @@
+{
+  "description": "Quotients T(p,k)/p, where T(p,k) is the sub-triangle defined in A096539 of the triangle of coefficients of Lucas polynomials (cf. A034807).",
+  "id": "A096540",
+  "mentions": [
+    "A034807",
+    "A064723",
+    "A096539"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

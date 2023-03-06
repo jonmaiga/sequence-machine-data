@@ -1,0 +1,16 @@
+{
+  "description": "Reciprocal Chebyshev polynomial of second kind evaluated at 4 multiplied by (-1)^n.",
+  "id": "A025171",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

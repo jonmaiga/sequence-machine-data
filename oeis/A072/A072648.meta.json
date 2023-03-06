@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [log_{Phi}(n*sqrt(5))], where log_{Phi} is logarithm in the base Phi ( = (sqrt(5)+1)/2) and [] stands for the floor function.",
+  "id": "A072648",
+  "mentions": [
+    "A000045",
+    "A072649"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

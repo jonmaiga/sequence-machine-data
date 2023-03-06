@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A062401(n) = phi(sigma(n)) is increasing; i.e., A062401(n) represents a new peak, so that A062401(n) > A062401(k) for all k < n.",
+  "id": "A065391",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A062402",
+    "A065392"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

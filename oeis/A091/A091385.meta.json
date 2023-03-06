@@ -1,0 +1,24 @@
+{
+  "description": "Distance (A091382) of primes from the largest quadratic \"mixed\" residues modulo the primes (A091380), where the latter is non-monotonic.",
+  "id": "A091385",
+  "mentions": [
+    "A088195",
+    "A088201",
+    "A091380",
+    "A091381",
+    "A091382",
+    "A091383",
+    "A091384"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

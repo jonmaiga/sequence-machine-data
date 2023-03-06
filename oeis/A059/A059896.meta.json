@@ -1,0 +1,43 @@
+{
+  "description": "The set of Fermi-Dirac factors of A(n,k) is the union of the Fermi-Dirac factors of n and k. Symmetric square array read by antidiagonals.",
+  "id": "A059896",
+  "mentions": [
+    "A000188",
+    "A002260",
+    "A003418",
+    "A003961",
+    "A003986",
+    "A003990",
+    "A004736",
+    "A007913",
+    "A007947",
+    "A008833",
+    "A020639",
+    "A028233",
+    "A028234",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A059895",
+    "A059897",
+    "A066616",
+    "A067029",
+    "A225546",
+    "A267116",
+    "A284576"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

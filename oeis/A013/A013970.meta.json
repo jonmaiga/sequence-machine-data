@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = sum of 22nd powers of divisors of n.",
+  "id": "A013970",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001160",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017712"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

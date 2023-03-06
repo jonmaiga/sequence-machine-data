@@ -1,0 +1,26 @@
+{
+  "description": "A Jacobsthal sequence trisection.",
+  "id": "A082311",
+  "mentions": [
+    "A001045",
+    "A007613",
+    "A015565",
+    "A024494",
+    "A070366",
+    "A081374",
+    "A082365",
+    "A132805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

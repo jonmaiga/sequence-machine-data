@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Niven's constant.",
+  "id": "A033150",
+  "mentions": [
+    "A008683",
+    "A033151",
+    "A033152",
+    "A033153",
+    "A033154",
+    "A051903"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:35",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

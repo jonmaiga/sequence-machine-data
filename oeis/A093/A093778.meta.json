@@ -1,0 +1,21 @@
+{
+  "description": "Primes p used as initial values for Euclid-Mullin sequences (variant A000945) instead of 2, such that all provide {p,2,3,5,7,11,13,q,...} initial segments in which the first six primes occur from 2nd to 7th terms.",
+  "id": "A093778",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051334",
+    "A056756",
+    "A093777"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

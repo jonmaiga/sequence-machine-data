@@ -1,0 +1,26 @@
+{
+  "description": "Working in base 2, replace n with the concatenation of its prime divisors in increasing order (write answer in base 10).",
+  "id": "A048985",
+  "mentions": [
+    "A027746",
+    "A029744",
+    "A037276",
+    "A048986",
+    "A064841",
+    "A193652"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

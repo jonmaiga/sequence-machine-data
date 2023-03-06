@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, then a(n)=2*a(n-1) if 2*a(n-1)<=n, a(n)=2*a(n-1)-n otherwise.",
+  "id": "A079878",
+  "mentions": [
+    "A064434",
+    "A064456",
+    "A200063",
+    "A200087"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

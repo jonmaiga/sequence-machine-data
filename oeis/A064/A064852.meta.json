@@ -1,0 +1,23 @@
+{
+  "description": "Number of orbits in A002619 consisting of n permutations.",
+  "id": "A064852",
+  "mentions": [
+    "A000010",
+    "A002619",
+    "A008683",
+    "A047918",
+    "A324513"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

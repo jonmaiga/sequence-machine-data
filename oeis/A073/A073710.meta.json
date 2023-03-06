@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of A073709, which is also the first differences of the unique terms of A073709.",
+  "id": "A073710",
+  "mentions": [
+    "A073707",
+    "A073708",
+    "A073709"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

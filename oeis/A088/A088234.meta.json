@@ -1,0 +1,20 @@
+{
+  "description": "First differences of exponents of consecutive prime powers.",
+  "id": "A088234",
+  "mentions": [
+    "A000961",
+    "A025474",
+    "A057820",
+    "A088233"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

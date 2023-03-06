@@ -1,0 +1,19 @@
+{
+  "description": "Sum of digits of n-th term of A066549.",
+  "id": "A066550",
+  "mentions": [
+    "A066547",
+    "A066549"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

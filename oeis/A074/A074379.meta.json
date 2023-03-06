@@ -1,0 +1,21 @@
+{
+  "description": "Carmichael numbers with exactly 4 prime factors.",
+  "id": "A074379",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A008683",
+    "A046386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

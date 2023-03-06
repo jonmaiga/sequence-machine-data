@@ -1,0 +1,20 @@
+{
+  "description": "Index of the first occurrence of n in A082744, or 0 if n does not occur in the sequence A082744.",
+  "id": "A085096",
+  "mentions": [
+    "A082744",
+    "A085094",
+    "A085095"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

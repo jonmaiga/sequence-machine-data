@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of 6 consecutive integers divisible respectively by 6 consecutive primes.",
+  "id": "A072722",
+  "mentions": [
+    "A072555",
+    "A072562",
+    "A073606",
+    "A073607",
+    "A073754",
+    "A073756"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

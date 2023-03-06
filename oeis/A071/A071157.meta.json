@@ -1,0 +1,24 @@
+{
+  "description": "The zero-free, right-to-left factorial walk encoding for each rooted plane tree encoded by A014486. Sequence A071155 shown with factorial expansion (A007623).",
+  "id": "A071157",
+  "mentions": [
+    "A007623",
+    "A014486",
+    "A071153",
+    "A071155",
+    "A071158",
+    "A071159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

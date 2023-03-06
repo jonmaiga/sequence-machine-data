@@ -1,0 +1,21 @@
+{
+  "description": "Powers of sqrt(2) rounded to nearest integer.",
+  "id": "A017911",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A001521",
+    "A057048"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

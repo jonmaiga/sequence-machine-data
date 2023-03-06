@@ -1,0 +1,24 @@
+{
+  "description": "Achilles numbers - powerful but imperfect: if n = Product(p_i^e_i) then all e_i > 1 (i.e., powerful), but the highest common factor of the e_i is 1, i.e., not a perfect power.",
+  "id": "A052486",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A007916",
+    "A070428",
+    "A072102",
+    "A082695",
+    "A118896"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

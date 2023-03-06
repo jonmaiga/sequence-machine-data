@@ -1,0 +1,24 @@
+{
+  "description": "Smallest multiple of 3 beginning with n.",
+  "id": "A082799",
+  "mentions": [
+    "A082800",
+    "A082801",
+    "A082802",
+    "A082803",
+    "A082804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

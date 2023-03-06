@@ -1,0 +1,27 @@
+{
+  "description": "Multiples of 4 with digits grouped in pairs and leading zeros omitted.",
+  "id": "A087407",
+  "mentions": [
+    "A008586",
+    "A059805",
+    "A060936",
+    "A087075",
+    "A087406",
+    "A087408",
+    "A087409",
+    "A087410",
+    "A087411"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

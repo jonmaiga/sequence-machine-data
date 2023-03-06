@@ -1,0 +1,21 @@
+{
+  "description": "4th differences of Bell numbers.",
+  "id": "A011967",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A011965",
+    "A011966",
+    "A106436"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

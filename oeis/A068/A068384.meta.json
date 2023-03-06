@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number m such that any lattice having at least m elements must have a sublattice with exactly n elements.",
+  "id": "A068384",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

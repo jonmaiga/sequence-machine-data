@@ -1,0 +1,39 @@
+{
+  "description": "Number of partitions of n with equal number of parts congruent to each of 1 and 3 (mod 4).",
+  "id": "A035544",
+  "mentions": [
+    "A000041",
+    "A035363",
+    "A035550",
+    "A035594",
+    "A053251",
+    "A097805",
+    "A138364",
+    "A298311",
+    "A344651",
+    "A357189",
+    "A357487",
+    "A357488",
+    "A357623",
+    "A357629",
+    "A357630",
+    "A357632",
+    "A357634",
+    "A357636",
+    "A357638",
+    "A357640",
+    "A357646",
+    "A357705",
+    "A357707"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

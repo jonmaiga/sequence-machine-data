@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Newton's gravitational constant in SI units.",
+  "id": "A070058",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070059",
+    "A070060",
+    "A070062",
+    "A070063",
+    "A070064",
+    "A078301",
+    "A183001",
+    "A228817",
+    "A254181"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "bref",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": -10,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

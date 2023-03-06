@@ -1,0 +1,19 @@
+{
+  "description": "Sort digits of primes into descending order (A028906) then sort this sequence into ascending order.",
+  "id": "A028911",
+  "mentions": [
+    "A028906"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:39",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

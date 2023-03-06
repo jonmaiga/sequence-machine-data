@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of 1's in the period of the continued fraction of the square root of the n-th nonsquare integer.",
+  "id": "A099725",
+  "mentions": [
+    "A005117",
+    "A013647",
+    "A013943"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of n terms from the n-th term is a square: a(1), a(2) + a(3), a(3) + a(4) + a(5),..., a(n) + a(n+1) + ...+ a(2n-1) are squares.",
+  "id": "A083119",
+  "mentions": [
+    "A083121"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

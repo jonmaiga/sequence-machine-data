@@ -1,0 +1,25 @@
+{
+  "description": "Iterated triangular numbers.",
+  "id": "A050909",
+  "mentions": [
+    "A000217",
+    "A007501",
+    "A013589",
+    "A050536",
+    "A050542",
+    "A050548"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

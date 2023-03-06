@@ -1,0 +1,20 @@
+{
+  "description": "Molien series for real extraspecial group 2^{1+2*3} of degree 8 and order 128 formed from tensor products of Pauli matrices (0,1, 1,0) and (1,0, 0,-1).",
+  "id": "A014095",
+  "mentions": [
+    "A030533"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:25",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

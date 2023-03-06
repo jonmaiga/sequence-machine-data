@@ -1,0 +1,19 @@
+{
+  "description": "Let r+i*s be the sum of the first-quadrant Gaussian primes dividing prime(n); sequence gives r values.",
+  "id": "A080088",
+  "mentions": [
+    "A078908",
+    "A078909",
+    "A080089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

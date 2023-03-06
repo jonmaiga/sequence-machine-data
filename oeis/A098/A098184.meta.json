@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3a(n-1)+a(n-2)+a(n-3), a(0)=1, a(1)=1, a(2)=5.",
+  "id": "A098184",
+  "mentions": [
+    "A000213",
+    "A058265",
+    "A098182",
+    "A098183"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:27:00",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

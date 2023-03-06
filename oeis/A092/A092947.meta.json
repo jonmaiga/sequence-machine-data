@@ -1,0 +1,19 @@
+{
+  "description": "Group the natural numbers so that the n-th group contains n numbers whose sum as well as the group product +1 is prime. Sequence contains the primes arising as the product of the terms of groups +1.",
+  "id": "A092947",
+  "mentions": [
+    "A092944",
+    "A092945",
+    "A092946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

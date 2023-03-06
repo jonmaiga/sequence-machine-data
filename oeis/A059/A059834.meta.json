@@ -1,0 +1,19 @@
+{
+  "description": "Sum of squares of entries of Wilkinson's eigenvalue test matrix of order 2n+1.",
+  "id": "A059834",
+  "mentions": [
+    "A059831"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:33:19",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

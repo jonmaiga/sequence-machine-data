@@ -1,0 +1,15 @@
+{
+  "description": "Let b(1)=n; b(k+1)=b(k)/gcd(k,b(k)) if gcd(k,b(k))>1; b(k+1)=b(k)+k otherwise, sequence gives least k such that b(k)=1.",
+  "id": "A091508",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

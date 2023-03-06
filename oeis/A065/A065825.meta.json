@@ -1,0 +1,27 @@
+{
+  "description": "Smallest k such that n numbers may be picked in {1,...,k} with no three terms in arithmetic progression.",
+  "id": "A065825",
+  "mentions": [
+    "A003002",
+    "A003003",
+    "A003004",
+    "A003005",
+    "A003278",
+    "A005047",
+    "A225745"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

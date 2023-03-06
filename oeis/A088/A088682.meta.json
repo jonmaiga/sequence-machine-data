@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(3*n+1) - prime(3*n-1).",
+  "id": "A088682",
+  "mentions": [
+    "A078584",
+    "A088680",
+    "A088683",
+    "A088684"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

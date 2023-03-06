@@ -1,0 +1,27 @@
+{
+  "description": "Number of iterations of Reverse and Add which lead to a palindrome, or -1 if no palindrome is ever reached.",
+  "id": "A016016",
+  "mentions": [
+    "A004086",
+    "A006960",
+    "A023108",
+    "A023109",
+    "A033665",
+    "A061563",
+    "A065198",
+    "A065199",
+    "A240510"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

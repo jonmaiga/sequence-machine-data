@@ -1,0 +1,22 @@
+{
+  "description": "Odd n such that in n^2 the parity of digits alternates.",
+  "id": "A030155",
+  "mentions": [
+    "A030151",
+    "A030152",
+    "A030156",
+    "A030157",
+    "A030158"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

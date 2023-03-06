@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the lesser term of the smallest twin prime pair such that if P=(a(n)^2+n)^2+n, then P and P+2 are also twin primes. a(n) is 0 if no such pair exists.",
+  "id": "A093245",
+  "mentions": [
+    "A093189"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

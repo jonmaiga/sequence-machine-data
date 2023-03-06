@@ -1,0 +1,21 @@
+{
+  "description": "Number of 5-colored labeled graphs on n nodes(divided by 1024).",
+  "id": "A052263",
+  "mentions": [
+    "A000683",
+    "A006201",
+    "A006202"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:29:49",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

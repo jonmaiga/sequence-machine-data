@@ -1,0 +1,19 @@
+{
+  "description": "Rearrangement of natural numbers such that n divides sum of the terms with index which are the divisors of n.",
+  "id": "A083164",
+  "mentions": [
+    "A083165",
+    "A083166"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

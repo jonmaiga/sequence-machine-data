@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma_4(n)/sigma_2(n) is an integer but not a prime.",
+  "id": "A066112",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A046871",
+    "A066109",
+    "A066111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

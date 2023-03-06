@@ -1,0 +1,21 @@
+{
+  "description": "Tree of Meeussen sequences read across rows.",
+  "id": "A058223",
+  "mentions": [
+    "A008934",
+    "A058222"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

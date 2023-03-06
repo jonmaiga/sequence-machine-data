@@ -1,0 +1,25 @@
+{
+  "description": "Number of numbers <= n having no 2 in their ternary representation.",
+  "id": "A081611",
+  "mentions": [
+    "A003002",
+    "A003278",
+    "A007089",
+    "A039966",
+    "A061392",
+    "A081603",
+    "A081608",
+    "A081610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

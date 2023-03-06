@@ -1,0 +1,18 @@
+{
+  "description": "Product of first n primes that end in 1.",
+  "id": "A092609",
+  "mentions": [
+    "A030430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

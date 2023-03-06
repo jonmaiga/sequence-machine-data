@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -x, the real root of the equation 0 = 1 + Sum_{k>=1} prime(k) x^k. The inverse of Backhouse's constant (A072508).",
+  "id": "A088751",
+  "mentions": [
+    "A001055",
+    "A030010",
+    "A072508",
+    "A104225"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

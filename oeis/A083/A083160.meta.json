@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes n such that the n + m is also a palindrome, where m is the next palindrome after n.",
+  "id": "A083160",
+  "mentions": [
+    "A083159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

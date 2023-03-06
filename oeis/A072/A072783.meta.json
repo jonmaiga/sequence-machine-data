@@ -1,0 +1,19 @@
+{
+  "description": "Differences between A072740 and A072736.",
+  "id": "A072783",
+  "mentions": [
+    "A072736",
+    "A072740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Norms of prime elements in the ring of integers of Q(sqrt(-7)).",
+  "id": "A090348",
+  "mentions": [
+    "A002652",
+    "A045373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

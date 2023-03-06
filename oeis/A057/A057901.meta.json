@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 3^prime(n).",
+  "id": "A057901",
+  "mentions": [
+    "A000040",
+    "A000244",
+    "A034785",
+    "A053810",
+    "A057902",
+    "A132800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

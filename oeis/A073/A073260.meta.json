@@ -1,0 +1,23 @@
+{
+  "description": "Length of FixedPointList leading to value of [10^n]-th composite number.",
+  "id": "A073260",
+  "mentions": [
+    "A002808",
+    "A064814",
+    "A065857",
+    "A073255",
+    "A073264"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

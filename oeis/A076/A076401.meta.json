@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors of n-th perfect power.",
+  "id": "A076401",
+  "mentions": [
+    "A000203",
+    "A001597",
+    "A076400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Elements to right of central elements in 4-Pascal triangle A028275 that are not 1.",
+  "id": "A028285",
+  "mentions": [
+    "A028275"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of inequivalent linear [n,k] binary codes without 0 columns (n >= 1, 1 <= k <= n).",
+  "id": "A034253",
+  "mentions": [
+    "A000012",
+    "A034254",
+    "A034344",
+    "A034345",
+    "A034346",
+    "A034347",
+    "A034348",
+    "A034349",
+    "A076832",
+    "A253186"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:12:01",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smaller member of a twin prime pair with a square sum.",
+  "id": "A069496",
+  "mentions": [
+    "A037072",
+    "A118593",
+    "A232878"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-25*x)^(-1/5), related to quintic factorial numbers A008548.",
+  "id": "A034688",
+  "mentions": [
+    "A008548",
+    "A034385",
+    "A034687"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

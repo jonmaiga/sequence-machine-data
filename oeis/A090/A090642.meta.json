@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n^2, k), 0 <= k <= n.",
+  "id": "A090642",
+  "mentions": [
+    "A007318",
+    "A014062",
+    "A066382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

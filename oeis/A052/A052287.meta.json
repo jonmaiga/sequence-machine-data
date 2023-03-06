@@ -1,0 +1,21 @@
+{
+  "description": "Start with 3; the general rule is \"if x is present then so is x*y for every y <= x\".",
+  "id": "A052287",
+  "mentions": [
+    "A047836",
+    "A196149"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

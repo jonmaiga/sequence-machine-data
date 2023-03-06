@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the first prime in the orbit of n under f(n) = n^2 + 1, if it exists; = 0 otherwise.",
+  "id": "A089751",
+  "mentions": [
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

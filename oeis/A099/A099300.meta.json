@@ -1,0 +1,28 @@
+{
+  "description": "Number of times the digit 9 appears in the first 10^n digits of Pi after the decimal point.",
+  "id": "A099300",
+  "mentions": [
+    "A000796",
+    "A099291",
+    "A099292",
+    "A099293",
+    "A099294",
+    "A099295",
+    "A099296",
+    "A099297",
+    "A099298",
+    "A099299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

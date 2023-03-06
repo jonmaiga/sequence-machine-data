@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the last digit of F(k) is 3 where F(k) is the k-th Fibonacci number.",
+  "id": "A072683",
+  "mentions": [
+    "A000045",
+    "A003893"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:25",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

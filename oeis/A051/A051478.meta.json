@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of values k satisfying phi(k) = 4*n+2, n>0.",
+  "id": "A051478",
+  "mentions": [
+    "A000010",
+    "A032446",
+    "A051479"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:29",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

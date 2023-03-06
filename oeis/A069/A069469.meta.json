@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that prime(reversal(n)) = reversal(prime(n)). Ignore leading 0's.",
+  "id": "A069469",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A046942",
+    "A075807"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

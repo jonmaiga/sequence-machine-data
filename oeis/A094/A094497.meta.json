@@ -1,0 +1,22 @@
+{
+  "description": "Triangular table A(n,j) = C(n,j) - C(n,j) mod n^3, difference of binomial coefficient and its residue mod n^3, read by rows.",
+  "id": "A094497",
+  "mentions": [
+    "A007318",
+    "A053200",
+    "A094495",
+    "A094496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 148,
+    "source": "oeis-bfile"
+  }
+}

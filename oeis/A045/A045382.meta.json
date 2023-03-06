@@ -1,0 +1,20 @@
+{
+  "description": "Primes congruent to {2, 7} mod 8.",
+  "id": "A045382",
+  "mentions": [
+    "A000040",
+    "A007522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

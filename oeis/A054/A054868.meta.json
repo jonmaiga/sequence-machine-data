@@ -1,0 +1,20 @@
+{
+  "description": "Sum of bits of sum of bits of n: a(n) = wt(wt(n)).",
+  "id": "A054868",
+  "mentions": [
+    "A000120",
+    "A077585",
+    "A089224"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

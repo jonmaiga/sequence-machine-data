@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that sigma(n+x) = sigma(n-x) for some 0 < x < n.",
+  "id": "A070299",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

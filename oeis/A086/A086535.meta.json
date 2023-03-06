@@ -1,0 +1,17 @@
+{
+  "description": "Product of numbers obtained by adding one to the odd divisors of n and subtracting 1 from the even divisors.",
+  "id": "A086535",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

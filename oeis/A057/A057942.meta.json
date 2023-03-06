@@ -1,0 +1,17 @@
+{
+  "description": "Pseudoprimes k to base 2 such that k-2 and k+2 are primes.",
+  "id": "A057942",
+  "mentions": [
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

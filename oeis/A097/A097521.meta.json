@@ -1,0 +1,23 @@
+{
+  "description": "Difference between F(n) = 2^(2^n)+1 and nextprime(F(n)) where F(n) is the n-th Fermat Number.",
+  "id": "A097521",
+  "mentions": [
+    "A000215",
+    "A007918",
+    "A013632",
+    "A129786",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "A014486-encodings of Catalan mountain ranges with no sea-level valleys, i.e., the rooted plane general trees with root degree = 1.",
+  "id": "A057547",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A057501",
+    "A057517",
+    "A057548",
+    "A057549",
+    "A079946"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

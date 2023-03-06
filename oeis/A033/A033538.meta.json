@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1, a(1)=1, a(n) = 3*a(n-1) + a(n-2) + 1.",
+  "id": "A033538",
+  "mentions": [
+    "A001595",
+    "A006190",
+    "A033539",
+    "A102426"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

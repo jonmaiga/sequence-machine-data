@@ -1,0 +1,16 @@
+{
+  "description": "Composite n such that (n+1)*sum(d|n,d/sigma(d)) is an integer (1 excluded).",
+  "id": "A068975",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

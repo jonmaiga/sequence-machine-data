@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = binomial(prime(n), n) where prime(n) = n-th prime.",
+  "id": "A060604",
+  "mentions": [
+    "A058077",
+    "A060497"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

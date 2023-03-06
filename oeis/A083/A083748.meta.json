@@ -1,0 +1,18 @@
+{
+  "description": "Star numbers (A003154) whose digital sum and product of nonzero digits are both triangular numbers.",
+  "id": "A083748",
+  "mentions": [
+    "A003154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

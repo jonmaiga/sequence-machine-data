@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0, a(2) = 1, a(n) = a(floor(n/3)) + a(n - floor(n/3)).",
+  "id": "A071996",
+  "mentions": [
+    "A071991",
+    "A071995"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

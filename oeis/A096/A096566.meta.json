@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = concatenation of 10 distinct decimal digits in order of n-th appearance in the base-10 expansion of Pi.",
+  "id": "A096566",
+  "mentions": [
+    "A000796",
+    "A014976",
+    "A053745",
+    "A053753",
+    "A096567"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

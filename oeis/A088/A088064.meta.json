@@ -1,0 +1,19 @@
+{
+  "description": "a(1)= 9, a(n) =smallest square obtained by prefixing a multiple of n to a(n-1).",
+  "id": "A088064",
+  "mentions": [
+    "A088063",
+    "A088065"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Even numbers in which parity of digits alternates.",
+  "id": "A030143",
+  "mentions": [
+    "A005843",
+    "A030141",
+    "A030142",
+    "A062285",
+    "A228710"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

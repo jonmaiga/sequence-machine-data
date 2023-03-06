@@ -1,0 +1,21 @@
+{
+  "description": "Nested floor product of n and fractions (k+1)/k for all k>0 (mod 5), divided by 5.",
+  "id": "A073362",
+  "mentions": [
+    "A073359",
+    "A073360",
+    "A073361"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

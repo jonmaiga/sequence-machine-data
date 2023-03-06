@@ -1,0 +1,17 @@
+{
+  "description": "Least number n with a given prime signature such that all numbers >= n with this prime signature are one less than a composite number.",
+  "id": "A093439",
+  "mentions": [
+    "A093438"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

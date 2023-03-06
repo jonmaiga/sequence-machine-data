@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_(1/(2^q-1)) with the summation extending over all pairs of integers (p,q)=1, 0 < p/q < phi, where phi is the Golden ratio.",
+  "id": "A081544",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

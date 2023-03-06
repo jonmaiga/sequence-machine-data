@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-x)*(1+2*x+x^2+2*x^3)).",
+  "id": "A077931",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:20:47",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

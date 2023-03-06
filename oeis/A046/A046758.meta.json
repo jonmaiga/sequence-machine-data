@@ -1,0 +1,23 @@
+{
+  "description": "Equidigital numbers.",
+  "id": "A046758",
+  "mentions": [
+    "A046759",
+    "A046760",
+    "A050252",
+    "A055642",
+    "A073048"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) (n >= 2, 1 <= k <= n-1) giving number of non-crossing trees with n nodes and height k.",
+  "id": "A072248",
+  "mentions": [
+    "A001764",
+    "A072247"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

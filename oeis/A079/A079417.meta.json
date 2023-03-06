@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that round(prime(n)/n) < round(prime(n-1)/(n-1)).",
+  "id": "A079417",
+  "mentions": [
+    "A000040",
+    "A079416",
+    "A079418"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that sigma(phi(n))/n = 1/2.",
+  "id": "A074777",
+  "mentions": [
+    "A019434",
+    "A062402"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) of number of digraphs with a source on n unlabeled nodes with k arcs, k=0..n*(n-1).",
+  "id": "A057277",
+  "mentions": [
+    "A051421",
+    "A057270",
+    "A057274",
+    "A057276",
+    "A057278",
+    "A057279",
+    "A350794",
+    "A350797",
+    "A350907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

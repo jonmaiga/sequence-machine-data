@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to place n^2 nonattacking kings on 2n X 2n chessboard.",
+  "id": "A018807",
+  "mentions": [
+    "A061593",
+    "A061594",
+    "A173782",
+    "A173783",
+    "A174154",
+    "A174155",
+    "A174558"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

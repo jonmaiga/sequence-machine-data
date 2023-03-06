@@ -1,0 +1,18 @@
+{
+  "description": "Cube root of A030690.",
+  "id": "A030691",
+  "mentions": [
+    "A030690"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

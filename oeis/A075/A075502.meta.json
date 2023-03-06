@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: Stirling2 triangle with scaled diagonals (powers of 7).",
+  "id": "A075502",
+  "mentions": [
+    "A000420",
+    "A039692",
+    "A075501",
+    "A075503",
+    "A075506",
+    "A075513",
+    "A075921",
+    "A075925",
+    "A076002"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:50:31",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

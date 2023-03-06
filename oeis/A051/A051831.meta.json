@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(prime(n)) mod prime(n), where prime(n) is the n-th prime.",
+  "id": "A051831",
+  "mentions": [
+    "A000045",
+    "A003631",
+    "A045468",
+    "A051830",
+    "A051834",
+    "A236395"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

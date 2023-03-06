@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits in decimal expansion of 1/n up to the point where it repeats for the first time.",
+  "id": "A048997",
+  "mentions": [
+    "A048962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

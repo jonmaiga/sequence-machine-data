@@ -1,0 +1,19 @@
+{
+  "description": "Take every 5th term of Padovan sequence A000931, beginning with the fifth term.",
+  "id": "A012493",
+  "mentions": [
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

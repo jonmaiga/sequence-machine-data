@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct prime divisors of n is a prime.",
+  "id": "A064040",
+  "mentions": [
+    "A000977",
+    "A007774",
+    "A024619",
+    "A033992",
+    "A033993",
+    "A051270",
+    "A063989"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

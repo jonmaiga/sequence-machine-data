@@ -1,0 +1,18 @@
+{
+  "description": "Number of walks of length 2n between two nodes at distance 4 in the cycle graph C_10.",
+  "id": "A095931",
+  "mentions": [
+    "A002878"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

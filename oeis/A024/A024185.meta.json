@@ -1,0 +1,16 @@
+{
+  "description": "Fourth elementary symmetric function of 3,4,...,n+5.",
+  "id": "A024185",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

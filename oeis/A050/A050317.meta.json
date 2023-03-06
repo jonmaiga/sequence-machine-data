@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways n is a product of partition numbers > 1.",
+  "id": "A050317",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A046064"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:44:13",
+    "offset": 2,
+    "size": 102,
+    "source": "joeis"
+  }
+}

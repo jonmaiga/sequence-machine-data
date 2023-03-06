@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of occurrences of 11s in the palindromic compositions of m=2*n-1 = the number of occurrences of 12s in the palindromic compositions of m=2*n.",
+  "id": "A079863",
+  "mentions": [
+    "A001792",
+    "A057711",
+    "A078836",
+    "A079859",
+    "A079861",
+    "A079862"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 12,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

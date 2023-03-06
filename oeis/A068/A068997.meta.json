@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that Sum_{d|n} d*mu(d) divides n.",
+  "id": "A068997",
+  "mentions": [
+    "A023900",
+    "A173557"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

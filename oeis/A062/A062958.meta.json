@@ -1,0 +1,17 @@
+{
+  "description": "phi[n+1] < 2phi[n], phi[]=A000010.",
+  "id": "A062958",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Arithmetic derivative of squares: a(n) = 2*n*A003415(n).",
+  "id": "A068720",
+  "mentions": [
+    "A000290",
+    "A003415",
+    "A068719",
+    "A068721",
+    "A235711"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

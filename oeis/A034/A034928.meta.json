@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of ballot numbers.",
+  "id": "A034928",
+  "mentions": [
+    "A001006",
+    "A247364"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:25",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

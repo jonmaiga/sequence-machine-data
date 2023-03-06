@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into its divisors that are powers of primes (A000961) with at least one part of size 1.",
+  "id": "A014650",
+  "mentions": [
+    "A000961",
+    "A014648",
+    "A014649",
+    "A014651",
+    "A014652",
+    "A066874"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

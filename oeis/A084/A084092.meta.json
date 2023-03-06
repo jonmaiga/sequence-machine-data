@@ -1,0 +1,21 @@
+{
+  "description": "Prime power decimal palindromes.",
+  "id": "A084092",
+  "mentions": [
+    "A000961",
+    "A002113",
+    "A002385",
+    "A084093"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

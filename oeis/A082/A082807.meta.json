@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes p with property that another palindromic prime with as many digits can be obtained by using all the digits of p with a different frequency >=1 (every digit is used at least once).",
+  "id": "A082807",
+  "mentions": [
+    "A082808"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

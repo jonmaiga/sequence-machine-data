@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into odd triangular numbers.",
+  "id": "A099199",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A007294",
+    "A099200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes between consecutive integer powers with exponent > 1.",
+  "id": "A080769",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001597",
+    "A053289"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

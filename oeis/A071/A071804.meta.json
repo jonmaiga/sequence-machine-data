@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs (x,y) such that tau(x^y) = x+y, 1<=x<=n, 1<=y<=n.",
+  "id": "A071804",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

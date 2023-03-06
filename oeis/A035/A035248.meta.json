@@ -1,0 +1,18 @@
+{
+  "description": "Indices of nonzero terms in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m= -7 (A035182).",
+  "id": "A035248",
+  "mentions": [
+    "A028951",
+    "A035182"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:55",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

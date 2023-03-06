@@ -1,0 +1,20 @@
+{
+  "description": "Squares that are the sum of 3 consecutive primes.",
+  "id": "A080665",
+  "mentions": [
+    "A062703",
+    "A076304"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number expressible as (a^2-1)(b^2-1) in at least n distinct ways [with b>=a>1].",
+  "id": "A063068",
+  "mentions": [
+    "A057535",
+    "A063066",
+    "A063067"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

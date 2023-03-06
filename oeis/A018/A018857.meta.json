@@ -1,0 +1,26 @@
+{
+  "description": "Smallest power of 3 that begins with n.",
+  "id": "A018857",
+  "mentions": [
+    "A018802",
+    "A018858",
+    "A018859",
+    "A018861",
+    "A018863",
+    "A018865",
+    "A018867",
+    "A018869"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

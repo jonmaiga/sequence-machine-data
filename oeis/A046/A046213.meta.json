@@ -1,0 +1,17 @@
+{
+  "description": "First numerator and then denominator of 1/2-Pascal triangle (by row). To get a 1/2-Pascal triangle, replace \"2\" in third row of Pascal triangle with \"1/2\" and calculate all other rows as in Pascal triangle.",
+  "id": "A046213",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = b(n)-b(n-1), where b=A049997 are numbers of the form Fibonacci(i)*Fibonacci(j).",
+  "id": "A049998",
+  "mentions": [
+    "A049997",
+    "A049999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:11",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

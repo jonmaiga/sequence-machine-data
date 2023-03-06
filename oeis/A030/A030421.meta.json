@@ -1,0 +1,18 @@
+{
+  "description": "Length of n-th run of digit 2 in A030413.",
+  "id": "A030421",
+  "mentions": [
+    "A030413"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:45",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

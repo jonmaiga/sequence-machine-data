@@ -1,0 +1,20 @@
+{
+  "description": "Vertically decomposable lattices on n unlabeled nodes.",
+  "id": "A058802",
+  "mentions": [
+    "A006966",
+    "A058800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

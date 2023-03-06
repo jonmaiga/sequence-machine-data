@@ -1,0 +1,43 @@
+{
+  "description": "Number of permutations up to cyclic rotations; permutation siteswap necklaces.",
+  "id": "A061417",
+  "mentions": [
+    "A000031",
+    "A000939",
+    "A002995",
+    "A006841",
+    "A008965",
+    "A057502",
+    "A057509",
+    "A060125",
+    "A060223",
+    "A060495",
+    "A060501",
+    "A061860",
+    "A064636",
+    "A064640",
+    "A064649",
+    "A086675",
+    "A179043",
+    "A192332",
+    "A275527",
+    "A323858",
+    "A323859",
+    "A323870",
+    "A324513",
+    "A324514"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

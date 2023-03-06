@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows. Preferred multisets: numbers refining A007318 using format described in A036038.",
+  "id": "A048996",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000670",
+    "A007318",
+    "A019538",
+    "A036035",
+    "A036038",
+    "A036039",
+    "A036040",
+    "A036043",
+    "A049019",
+    "A080575",
+    "A111786",
+    "A115621",
+    "A309004"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

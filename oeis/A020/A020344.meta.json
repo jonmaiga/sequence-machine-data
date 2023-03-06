@@ -1,0 +1,24 @@
+{
+  "description": "Fibonacci(a(n)) is the least Fibonacci number beginning with n.",
+  "id": "A020344",
+  "mentions": [
+    "A000045",
+    "A020345",
+    "A023183",
+    "A023184",
+    "A038546"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

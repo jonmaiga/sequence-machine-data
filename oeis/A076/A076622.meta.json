@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of x^a(n) in (x-1)*(x-2)*...*(x-n) is the largest one (not in absolute value).",
+  "id": "A076622",
+  "mentions": [
+    "A065048"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n having exactly one divisor d such that in binary representation d and n/d have the same number of 1's as n.",
+  "id": "A080026",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A000196",
+    "A000290",
+    "A007088",
+    "A080024",
+    "A080025"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

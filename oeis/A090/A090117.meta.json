@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = x^2 = A090116(n)^2 is the least square that is \"surrounded\" by two closest primes, by prevprime(x^2) and nextprime(x^2) whose difference nextprime - prevprime = 2n.",
+  "id": "A090117",
+  "mentions": [
+    "A090116",
+    "A090118",
+    "A090119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

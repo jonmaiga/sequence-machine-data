@@ -1,0 +1,27 @@
+{
+  "description": "sigma_9(n), the sum of the 9th powers of the divisors of n.",
+  "id": "A013957",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001160",
+    "A013667",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017712"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:09",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

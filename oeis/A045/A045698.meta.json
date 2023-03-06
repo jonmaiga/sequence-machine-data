@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways n can be written as the sum of two squares of primes.",
+  "id": "A045698",
+  "mentions": [
+    "A001248",
+    "A010051",
+    "A037213",
+    "A045636",
+    "A214511",
+    "A214723",
+    "A214879"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

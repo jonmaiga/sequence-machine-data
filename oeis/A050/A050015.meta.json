@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that b(k) > b(k+1), where b=A050012.",
+  "id": "A050015",
+  "mentions": [
+    "A050012"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:11",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

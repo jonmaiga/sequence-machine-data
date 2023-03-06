@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(877).",
+  "id": "A042694",
+  "mentions": [
+    "A042695"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:16:00",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

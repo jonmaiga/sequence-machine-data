@@ -1,0 +1,23 @@
+{
+  "description": "Back and Forth Summant S(n, _5): a(n) = sum_{i = 0..floor(2n/5)} n-5i.",
+  "id": "A092093",
+  "mentions": [
+    "A000004",
+    "A027656",
+    "A092092",
+    "A092096",
+    "A092399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:29:47",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

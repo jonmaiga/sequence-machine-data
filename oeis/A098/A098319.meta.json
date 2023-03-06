@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=0, and a(n+1) is the position of first occurrence of a(n) in the decimal expansion of 1/Pi.",
+  "id": "A098319",
+  "mentions": [
+    "A049541",
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Becomes prime or 4 after exactly 9 iterations of f(x) = sum of prime factors of x.",
+  "id": "A048131",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:27",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

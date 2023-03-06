@@ -1,0 +1,17 @@
+{
+  "description": "Numbers having n self generators (not necessarily primitive).",
+  "id": "A016034",
+  "mentions": [
+    "A003052"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

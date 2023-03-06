@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = round(n^3/12) - floor(n/4)*floor((n+2)/4).",
+  "id": "A090676",
+  "mentions": [
+    "A005044"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:21",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

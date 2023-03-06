@@ -1,0 +1,15 @@
+{
+  "description": "Numbers expressible in more than one way as j*k + k*i + i*j, where 1 <=i < j < k.",
+  "id": "A025059",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:41",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

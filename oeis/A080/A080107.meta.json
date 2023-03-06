@@ -1,0 +1,33 @@
+{
+  "description": "Number of fixed points of permutation of SetPartitions under {1,2,...,n}->{n,n-1,...,1}. Number of symmetric arrangements of non-attacking rooks on upper half of n X n chessboard.",
+  "id": "A080107",
+  "mentions": [
+    "A000110",
+    "A000126",
+    "A000296",
+    "A002872",
+    "A005425",
+    "A080337",
+    "A084423",
+    "A084708",
+    "A103293",
+    "A124323",
+    "A125810",
+    "A125811",
+    "A169985",
+    "A324012",
+    "A324013",
+    "A324014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

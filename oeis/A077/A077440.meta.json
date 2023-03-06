@@ -1,0 +1,21 @@
+{
+  "description": "Squares and their roots having square decimal digits.",
+  "id": "A077440",
+  "mentions": [
+    "A000290",
+    "A019544",
+    "A046030",
+    "A077439"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

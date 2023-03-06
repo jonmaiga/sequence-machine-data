@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n >= 1000, such that if prime P divides n, then so does each smaller prime.",
+  "id": "A084918",
+  "mentions": [
+    "A055932",
+    "A056808",
+    "A057335",
+    "A066099",
+    "A071364",
+    "A080259",
+    "A080404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

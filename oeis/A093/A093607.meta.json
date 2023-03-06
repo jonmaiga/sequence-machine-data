@@ -1,0 +1,21 @@
+{
+  "description": "Let b(0)=1; b(1)=1; b(n+2) = (Pi^2/6 + 6/Pi^2)*b(n+1) - b(n). a(n) = floor(b(n)).",
+  "id": "A093607",
+  "mentions": [
+    "A013661",
+    "A090039",
+    "A090426",
+    "A090427",
+    "A093608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "RevBinary(RevDecimal(n)), where RevBinary(m) is the binary reversal of m (A030101) and RevDecimal(m) is the decimal reversal of m (A004086).",
+  "id": "A081431",
+  "mentions": [
+    "A004086",
+    "A007088",
+    "A030101",
+    "A081432",
+    "A081433"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

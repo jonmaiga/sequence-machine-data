@@ -1,0 +1,17 @@
+{
+  "description": "Ordered sequence of distinct terms of the form floor(exp(i) * floor(exp(j))), i,j >= 0.",
+  "id": "A022765",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "First differences of Chebyshev polynomials S(n,27) = A097781(n) with Diophantine property.",
+  "id": "A097835",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A097781",
+    "A097834",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

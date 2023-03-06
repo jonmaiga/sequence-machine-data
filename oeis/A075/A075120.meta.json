@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps to reach the first integer (= A075121(n)) starting with n/floor(sqrt(n)) and iterating the map x -> x*ceiling(x), or -1 if no integer is ever reached.",
+  "id": "A075120",
+  "mentions": [
+    "A068119",
+    "A073524",
+    "A073890",
+    "A075102",
+    "A075107",
+    "A075119",
+    "A075121"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

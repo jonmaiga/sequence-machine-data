@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(n, phi(n), n - phi(n)).",
+  "id": "A052100",
+  "mentions": [
+    "A000010",
+    "A009195",
+    "A009262",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of next n terms of the form i^i.",
+  "id": "A074309",
+  "mentions": [
+    "A001923",
+    "A031971",
+    "A074209"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

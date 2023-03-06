@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 4n-1 and 4n+1 are both primes.",
+  "id": "A045753",
+  "mentions": [
+    "A002822",
+    "A040040",
+    "A063983",
+    "A124065",
+    "A124518",
+    "A124522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of prime palindromes with n digits.",
+  "id": "A016115",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A040025",
+    "A050251"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

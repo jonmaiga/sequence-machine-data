@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of unit fractions having non-terminating decimal expansions.",
+  "id": "A085837",
+  "mentions": [
+    "A003592"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:45",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

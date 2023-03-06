@@ -1,0 +1,29 @@
+{
+  "description": "Involution of natural numbers induced by the Catalan bijection gma086431 acting on symbolless S-expressions encoded by A014486/A063171.",
+  "id": "A086431",
+  "mentions": [
+    "A001405",
+    "A007123",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057164",
+    "A063171",
+    "A073200",
+    "A085161",
+    "A086425",
+    "A086426",
+    "A086427",
+    "A086430"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

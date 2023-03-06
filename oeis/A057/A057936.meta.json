@@ -1,0 +1,30 @@
+{
+  "description": "Number of prime factors of 8^n + 1 (counted with multiplicity).",
+  "id": "A057936",
+  "mentions": [
+    "A001222",
+    "A054992",
+    "A057934",
+    "A057935",
+    "A057937",
+    "A057938",
+    "A057939",
+    "A057940",
+    "A057941",
+    "A057953",
+    "A062395",
+    "A274905"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

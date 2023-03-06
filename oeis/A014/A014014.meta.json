@@ -1,0 +1,17 @@
+{
+  "description": "Alternating Engel expansion of Pi.",
+  "id": "A014014",
+  "mentions": [
+    "A061233"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:47:07",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

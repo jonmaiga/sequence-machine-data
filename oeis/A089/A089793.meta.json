@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the first prime in the earliest chain of 2n+1 consecutive primes whose sum is prime.",
+  "id": "A089793",
+  "mentions": [
+    "A070934",
+    "A180950",
+    "A215235",
+    "A226380"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2*tau(k) = phi(k).",
+  "id": "A062516",
+  "mentions": [
+    "A020488",
+    "A063469",
+    "A063470",
+    "A112954"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

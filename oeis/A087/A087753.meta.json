@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that A005185(k)=n; or 0 if there is no such k.",
+  "id": "A087753",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

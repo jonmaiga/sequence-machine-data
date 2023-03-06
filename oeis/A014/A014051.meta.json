@@ -1,0 +1,27 @@
+{
+  "description": "Inverse of 42nd cyclotomic polynomial.",
+  "id": "A014051",
+  "mentions": [
+    "A010891",
+    "A010892",
+    "A014016",
+    "A014045",
+    "A014047",
+    "A014049",
+    "A049347",
+    "A056594",
+    "A240328",
+    "A240329"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:21",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

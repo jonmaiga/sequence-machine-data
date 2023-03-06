@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of first n Bell numbers (starting with A000110(1)).",
+  "id": "A061114",
+  "mentions": [
+    "A000110",
+    "A132938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

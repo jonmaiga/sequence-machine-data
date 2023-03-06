@@ -1,0 +1,19 @@
+{
+  "description": "Related to Clebsch-Gordan formulas.",
+  "id": "A027614",
+  "mentions": [
+    "A123521",
+    "A179320"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

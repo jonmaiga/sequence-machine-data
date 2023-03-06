@@ -1,0 +1,20 @@
+{
+  "description": "\"Real rabbits\": a(n) Real(c(n) where complex c(n)=a(n)+ib(n) and c(0)=i, c(1)=-i, c(n)=c(n-1)+ic(n-2).",
+  "id": "A058184",
+  "mentions": [
+    "A014291"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

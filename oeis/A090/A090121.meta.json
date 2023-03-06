@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that nextprime(n^3)-prevprime(n^3) = 4.",
+  "id": "A090121",
+  "mentions": [
+    "A058043",
+    "A077038",
+    "A090122",
+    "A090125",
+    "A178228"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

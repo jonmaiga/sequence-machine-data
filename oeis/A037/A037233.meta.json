@@ -1,0 +1,25 @@
+{
+  "description": "Order of (4,n) cage, i.e., minimal order of 4-regular graph of girth n.",
+  "id": "A037233",
+  "mentions": [
+    "A000066",
+    "A054760",
+    "A062318",
+    "A191595",
+    "A218553",
+    "A218554",
+    "A218555"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

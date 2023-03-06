@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (phi(k-2) + phi(k+2))/2 = phi(k); 2-phi/balanced numbers.",
+  "id": "A099633",
+  "mentions": [
+    "A000010",
+    "A066167",
+    "A099631",
+    "A099632"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

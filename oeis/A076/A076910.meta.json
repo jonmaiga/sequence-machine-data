@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of 5-point function in dimension 5.",
+  "id": "A076910",
+  "mentions": [
+    "A060345",
+    "A076909",
+    "A076911",
+    "A076913",
+    "A076914",
+    "A076915",
+    "A076916",
+    "A076917",
+    "A076923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

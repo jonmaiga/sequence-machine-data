@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = first term which reduces to an unchanging value in n steps via repeated interpretation of a(n) as a base b+1 number where b is the largest digit of a(n).",
+  "id": "A091049",
+  "mentions": [
+    "A054055",
+    "A068505",
+    "A091047",
+    "A091048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

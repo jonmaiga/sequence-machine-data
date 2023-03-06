@@ -1,0 +1,22 @@
+{
+  "description": "Inconsummate numbers in base 9: no number is this multiple of the sum of its digits (in base 9).",
+  "id": "A058905",
+  "mentions": [
+    "A003635",
+    "A052491",
+    "A058898",
+    "A058906",
+    "A058907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

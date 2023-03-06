@@ -1,0 +1,23 @@
+{
+  "description": "Digits in the concatenation of strings formed from a previous string by substituting \"01\" for \"0\" and \"011\" for \"1\" simultaneously at each occurrence. Start with [0].",
+  "id": "A095907",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A005614",
+    "A096270",
+    "A114986",
+    "A189479"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

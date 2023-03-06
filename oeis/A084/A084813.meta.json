@@ -1,0 +1,20 @@
+{
+  "description": "Least integers that satisfy sum(n>0,1/a(n)^z)=0, where a(1)=1, a(n+1)>a(n) and z=I.",
+  "id": "A084813",
+  "mentions": [
+    "A084812",
+    "A084814",
+    "A084818"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

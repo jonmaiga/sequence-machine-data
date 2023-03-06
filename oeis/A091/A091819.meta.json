@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that have, in binary, the same number of ones as are in k^2 and which have no nonincreasing binary representation.",
+  "id": "A091819",
+  "mentions": [
+    "A023758",
+    "A077436"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

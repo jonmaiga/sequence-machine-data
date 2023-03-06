@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled 12-gonal 2-trees with n 12-gons.",
+  "id": "A094656",
+  "mentions": [
+    "A054581",
+    "A340811"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

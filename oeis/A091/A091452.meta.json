@@ -1,0 +1,20 @@
+{
+  "description": "Transpose of array in A091451 associated with period lengths of square roots of positive integers.",
+  "id": "A091452",
+  "mentions": [
+    "A091450",
+    "A091451",
+    "A091453"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

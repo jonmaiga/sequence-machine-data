@@ -1,0 +1,33 @@
+{
+  "description": "Number of 3 X n binary arrays with a path of adjacent 1's from upper left corner to anywhere in right hand column.",
+  "id": "A069307",
+  "mentions": [
+    "A069294",
+    "A069305",
+    "A069306",
+    "A069308",
+    "A069309",
+    "A069310",
+    "A069311",
+    "A069312",
+    "A069313",
+    "A069314",
+    "A069315",
+    "A069316",
+    "A069317",
+    "A069318",
+    "A069319",
+    "A069320"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:34:28",
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

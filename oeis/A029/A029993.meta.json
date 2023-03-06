@@ -1,0 +1,33 @@
+{
+  "description": "Squares which are palindromes in base 7.",
+  "id": "A029993",
+  "mentions": [
+    "A002779",
+    "A029734",
+    "A029738",
+    "A029806",
+    "A029983",
+    "A029985",
+    "A029987",
+    "A029989",
+    "A029991",
+    "A029992",
+    "A029995",
+    "A029997",
+    "A029999",
+    "A030074",
+    "A030075"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n + largest digit of n is a triangular number.",
+  "id": "A095826",
+  "mentions": [
+    "A000217",
+    "A054055"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

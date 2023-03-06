@@ -1,0 +1,19 @@
+{
+  "description": "Arithmetic mean of first n terms of A001414 is an integer.",
+  "id": "A065131",
+  "mentions": [
+    "A001414",
+    "A025281"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

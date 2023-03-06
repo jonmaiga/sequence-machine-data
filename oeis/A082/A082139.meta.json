@@ -1,0 +1,26 @@
+{
+  "description": "A transform of binomial(n,5).",
+  "id": "A082139",
+  "mentions": [
+    "A057711",
+    "A080929",
+    "A080951",
+    "A080952",
+    "A082137",
+    "A082138",
+    "A082140",
+    "A082141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

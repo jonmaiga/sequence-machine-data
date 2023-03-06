@@ -1,0 +1,20 @@
+{
+  "description": "Primes which are sandwiched between two numbers having the same unordered canonical form.",
+  "id": "A074460",
+  "mentions": [
+    "A061715",
+    "A074497",
+    "A074498"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

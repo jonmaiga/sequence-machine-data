@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (8*n+9)*C(n+8,8)/9.",
+  "id": "A056122",
+  "mentions": [
+    "A056001",
+    "A093565",
+    "A254142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:30:47",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

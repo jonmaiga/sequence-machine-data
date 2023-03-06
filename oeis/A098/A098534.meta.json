@@ -1,0 +1,20 @@
+{
+  "description": "Mod 3 analog of Stern's diatomic series.",
+  "id": "A098534",
+  "mentions": [
+    "A002487",
+    "A051638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

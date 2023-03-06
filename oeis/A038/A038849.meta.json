@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 4 that are the difference of two positive cubes.",
+  "id": "A038849",
+  "mentions": [
+    "A008586",
+    "A181123"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

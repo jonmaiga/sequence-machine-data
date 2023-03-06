@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-2x)(1-5x)(1-11x)(1-12x)).",
+  "id": "A026308",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:58:46",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

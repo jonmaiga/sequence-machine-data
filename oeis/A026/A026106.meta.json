@@ -1,0 +1,28 @@
+{
+  "description": "Number of polyhexes of class PF2 (with one catafusene annealated to pyrene).",
+  "id": "A026106",
+  "mentions": [
+    "A002212",
+    "A007317",
+    "A026118",
+    "A026298",
+    "A030519",
+    "A030520",
+    "A030525",
+    "A030529",
+    "A030532",
+    "A030534",
+    "A039658"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:29:25",
+    "offset": 5,
+    "size": 24,
+    "source": "joeis"
+  }
+}

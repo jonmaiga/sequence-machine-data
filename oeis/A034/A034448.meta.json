@@ -1,0 +1,35 @@
+{
+  "description": "usigma(n) = sum of unitary divisors of n (divisors d such that gcd(d, n/d)=1); also called UnitarySigma(n).",
+  "id": "A034448",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A007947",
+    "A034444",
+    "A034460",
+    "A047994",
+    "A048250",
+    "A063937",
+    "A064000",
+    "A064609",
+    "A077610",
+    "A188999",
+    "A301981",
+    "A301982"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

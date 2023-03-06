@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)!*Sum[Sum[1/(i+j),{i,1,n}],{j,1,n}]",
+  "id": "A086881",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A098118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

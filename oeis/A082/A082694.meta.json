@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A082693.",
+  "id": "A082694",
+  "mentions": [
+    "A082693"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) of numbers with e.g.f. exp((exp((1+x)*y)-1)/(1+x)), k=0..n-1.",
+  "id": "A059340",
+  "mentions": [
+    "A000110",
+    "A004211",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

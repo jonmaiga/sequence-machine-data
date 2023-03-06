@@ -1,0 +1,21 @@
+{
+  "description": "Number of forests of identical trees.",
+  "id": "A035054",
+  "mentions": [
+    "A000055",
+    "A005195",
+    "A051491",
+    "A086308"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

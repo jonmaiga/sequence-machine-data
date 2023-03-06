@@ -1,0 +1,21 @@
+{
+  "description": "Values of C(n,3) which can be written as C(x,3) + C(y,3).",
+  "id": "A034404",
+  "mentions": [
+    "A000292",
+    "A002311",
+    "A010330"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:21:59",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

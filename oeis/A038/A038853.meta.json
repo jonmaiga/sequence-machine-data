@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are divisible by 5 and are the difference between two (different positive) cubes in at least one way.",
+  "id": "A038853",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:13",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

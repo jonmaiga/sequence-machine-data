@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..8} floor(A254876(n,k)/A254876(n-1,k)), where A254876(n,k) = n! / (Product_{m=(n-floor((2n)/(3^k))) .. (n-floor((n)/(3^k)))} m).",
+  "id": "A088488",
+  "mentions": [
+    "A088487",
+    "A254876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

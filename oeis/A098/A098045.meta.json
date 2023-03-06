@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the substring of the digits of A082521(n) that precedes the 2n+1 central zeros.",
+  "id": "A098045",
+  "mentions": [
+    "A082521"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

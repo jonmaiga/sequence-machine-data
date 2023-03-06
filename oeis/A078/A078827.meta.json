@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes contained as binary substrings in binary representation of n, counted with repetitions.",
+  "id": "A078827",
+  "mentions": [
+    "A001222",
+    "A007088",
+    "A078822",
+    "A078826",
+    "A078828"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

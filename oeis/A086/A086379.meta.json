@@ -1,0 +1,16 @@
+{
+  "description": "Numbers such that both 1 + sum of digits and 1 + product of digits are prime.",
+  "id": "A086379",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

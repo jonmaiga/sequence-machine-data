@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of b_n=1 with Catalan numbers.",
+  "id": "A034731",
+  "mentions": [
+    "A000108",
+    "A057509",
+    "A057510",
+    "A057546",
+    "A073202"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

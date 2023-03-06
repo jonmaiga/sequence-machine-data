@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive integer m such that m! begins with n in base 10.",
+  "id": "A076219",
+  "mentions": [
+    "A018799"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

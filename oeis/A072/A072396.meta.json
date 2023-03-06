@@ -1,0 +1,21 @@
+{
+  "description": "Index of smallest Fibonacci number with n prime factors when counted with multiplicity.",
+  "id": "A072396",
+  "mentions": [
+    "A000045",
+    "A038575",
+    "A072397",
+    "A303215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

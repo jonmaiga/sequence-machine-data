@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime a(n) such that the sum of n consecutive primes starting with a(n) is divisible by n.",
+  "id": "A054892",
+  "mentions": [
+    "A024672",
+    "A034961",
+    "A054643",
+    "A077388",
+    "A077389",
+    "A122820",
+    "A132809"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

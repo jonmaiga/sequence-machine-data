@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: T(n,k) = number of 2-connected planar graphs with n >= 1 nodes and 0 <= k <= 3n-6 edges.",
+  "id": "A049336",
+  "mentions": [
+    "A003094",
+    "A021103",
+    "A049334"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

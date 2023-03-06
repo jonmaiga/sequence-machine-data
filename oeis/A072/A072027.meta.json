@@ -1,0 +1,27 @@
+{
+  "description": "Swap (2,3) and all twin prime pairs >(3,5) in prime factorization of n.",
+  "id": "A072027",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A007510",
+    "A037074",
+    "A061898",
+    "A064505",
+    "A072026",
+    "A072028",
+    "A072029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

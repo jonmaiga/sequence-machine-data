@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are not the difference between two successive perfect powers (A001597).",
+  "id": "A077286",
+  "mentions": [
+    "A001597",
+    "A023057"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

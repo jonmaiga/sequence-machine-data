@@ -1,0 +1,27 @@
+{
+  "description": "Satisfies A^6 = BINOMIAL(A^5).",
+  "id": "A090358",
+  "mentions": [
+    "A084784",
+    "A090351",
+    "A090353",
+    "A090356",
+    "A090359",
+    "A090360",
+    "A090361",
+    "A090362",
+    "A094418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

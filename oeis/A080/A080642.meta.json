@@ -1,0 +1,20 @@
+{
+  "description": "Cubefree taxicab numbers: the smallest cubefree number that is the sum of 2 positive cubes in n ways.",
+  "id": "A080642",
+  "mentions": [
+    "A011541"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

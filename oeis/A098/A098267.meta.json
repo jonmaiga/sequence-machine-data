@@ -1,0 +1,18 @@
+{
+  "description": "Consider the family of directed graphs with loops. Sequence gives the triangle read by rows giving coefficients of polynomials arising from enumeration of those graphs on n arcs and loops.",
+  "id": "A098267",
+  "mentions": [
+    "A038205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

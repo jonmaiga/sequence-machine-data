@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for rho with erf(rho) = 1/2 = erfc(rho).",
+  "id": "A069287",
+  "mentions": [
+    "A069286"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

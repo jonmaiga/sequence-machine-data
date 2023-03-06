@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,r) is the number of not necessarily connected r-regular graphs with n nodes, 0 <= r < n.",
+  "id": "A051031",
+  "mentions": [
+    "A005176",
+    "A005638",
+    "A008483",
+    "A033301",
+    "A059441",
+    "A068933",
+    "A068934",
+    "A165626",
+    "A165627",
+    "A165628",
+    "A180260",
+    "A295193"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

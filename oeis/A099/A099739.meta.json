@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k!*mu(k), where mu() is the Moebius function.",
+  "id": "A099739",
+  "mentions": [
+    "A002321"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

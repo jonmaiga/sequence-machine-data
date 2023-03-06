@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-3)*a(3) for n >= 4.",
+  "id": "A025259",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:35:34",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

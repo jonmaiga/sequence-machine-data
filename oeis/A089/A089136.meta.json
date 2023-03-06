@@ -1,0 +1,19 @@
+{
+  "description": "Primes in the progression (n! + m)/m where n advances by 1 and m resets to 1 upon each prime occurrence.",
+  "id": "A089136",
+  "mentions": [
+    "A092965"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

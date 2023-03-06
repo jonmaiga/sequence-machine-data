@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of probability that there is no error when average of n numbers is computed, assuming errors of +1, -1 are possible and they each occur with p = 1/4.",
+  "id": "A061548",
+  "mentions": [
+    "A001316",
+    "A001448",
+    "A001790",
+    "A061549",
+    "A117973"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

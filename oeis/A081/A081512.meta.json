@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest number which can be expressed as the sum of n of its distinct divisors, or 0 if no such number exists.",
+  "id": "A081512",
+  "mentions": [
+    "A081513",
+    "A081514",
+    "A081515",
+    "A081516",
+    "A081517",
+    "A081521"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

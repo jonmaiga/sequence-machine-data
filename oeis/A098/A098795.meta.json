@@ -1,0 +1,17 @@
+{
+  "description": "The two digits touching the first comma have as absolute difference 0. The next such difference is 1. The next one is 2. Then 3, 4, 5... etc. When we reach 9 the differences start a new cycle: 0, 1, 2, 3... etc. Among many such possible sequences, this is the slowest increasing one starting with \"1\".",
+  "id": "A098795",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

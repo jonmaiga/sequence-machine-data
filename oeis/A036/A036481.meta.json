@@ -1,0 +1,15 @@
+{
+  "description": "partition(11n+8) mod 11.",
+  "id": "A036481",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:26:31",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

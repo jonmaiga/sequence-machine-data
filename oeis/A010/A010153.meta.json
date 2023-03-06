@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(75) (or 5*sqrt(3)).",
+  "id": "A010153",
+  "mentions": [
+    "A010527"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

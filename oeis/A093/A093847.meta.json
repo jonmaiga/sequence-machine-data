@@ -1,0 +1,20 @@
+{
+  "description": "First column of triangle A093846.",
+  "id": "A093847",
+  "mentions": [
+    "A093846"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

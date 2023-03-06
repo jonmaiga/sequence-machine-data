@@ -1,0 +1,27 @@
+{
+  "description": "Parity of partition function A000041.",
+  "id": "A040051",
+  "mentions": [
+    "A000025",
+    "A000035",
+    "A000041",
+    "A071640",
+    "A086144",
+    "A183011",
+    "A190938",
+    "A206437"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:17:19",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

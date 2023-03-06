@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) counts the solid partitions of n that can be extended to a solid partition of n+1 in exactly (k+3) ways. Equivalently, the number of solid partitions of n that have exactly k+3 partitions of n+1 majoring them.",
+  "id": "A098052",
+  "mentions": [
+    "A000029",
+    "A000293",
+    "A007426",
+    "A096574",
+    "A097994"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

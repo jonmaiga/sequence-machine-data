@@ -1,0 +1,32 @@
+{
+  "description": "The parity of the number of zero digits when n is written in binary.",
+  "id": "A059448",
+  "mentions": [
+    "A008836",
+    "A010059",
+    "A010060",
+    "A023416",
+    "A030300",
+    "A054429",
+    "A059009",
+    "A059010",
+    "A080791",
+    "A106400",
+    "A163511",
+    "A242179",
+    "A269027",
+    "A298952"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

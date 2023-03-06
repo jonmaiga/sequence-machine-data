@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n!-1 and n!+1 are both semiprime.",
+  "id": "A098594",
+  "mentions": [
+    "A078778",
+    "A078781"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

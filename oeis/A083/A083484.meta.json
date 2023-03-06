@@ -1,0 +1,18 @@
+{
+  "description": "Square root of product of terms in row n of A083486.",
+  "id": "A083484",
+  "mentions": [
+    "A083485",
+    "A083486"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

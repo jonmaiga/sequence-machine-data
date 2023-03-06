@@ -1,0 +1,18 @@
+{
+  "description": "n + (smallest prime-factor of n+1).",
+  "id": "A087349",
+  "mentions": [
+    "A020639",
+    "A061228"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

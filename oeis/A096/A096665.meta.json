@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest number m, not occurring earlier, such that at least one prime factor of m divides at least one of the omega(m) last terms (where omega=A001221); a(1)=1, a(2)=2.",
+  "id": "A096665",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A064413",
+    "A096666",
+    "A096667"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

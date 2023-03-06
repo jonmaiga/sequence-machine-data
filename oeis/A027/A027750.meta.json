@@ -1,0 +1,41 @@
+{
+  "description": "Triangle read by rows in which row n lists the divisors of n.",
+  "id": "A027750",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000203",
+    "A001221",
+    "A006218",
+    "A027749",
+    "A027751",
+    "A037278",
+    "A056534",
+    "A056538",
+    "A073093",
+    "A127093",
+    "A135010",
+    "A161700",
+    "A163280",
+    "A210208",
+    "A240694",
+    "A240698",
+    "A244051",
+    "A247795",
+    "A292226"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:23",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

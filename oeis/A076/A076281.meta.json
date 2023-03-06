@@ -1,0 +1,22 @@
+{
+  "description": "Number of 5-chromatic (i.e., chromatic number equals 5) simple graphs on n nodes.",
+  "id": "A076281",
+  "mentions": [
+    "A076278",
+    "A076279",
+    "A076280",
+    "A076282",
+    "A084268"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

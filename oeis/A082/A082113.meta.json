@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^4 + 5*n^2 + 1.",
+  "id": "A082113",
+  "mentions": [
+    "A082044",
+    "A082047",
+    "A082106",
+    "A082110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:09",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

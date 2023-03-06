@@ -1,0 +1,17 @@
+{
+  "description": "Tetranacci numbers arising in connection with current algebras sp(2)_n.",
+  "id": "A014610",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:41:07",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

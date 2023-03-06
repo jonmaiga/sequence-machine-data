@@ -1,0 +1,27 @@
+{
+  "description": "Parity of p*(p+1)/2 for n-th prime p.",
+  "id": "A098033",
+  "mentions": [
+    "A000040",
+    "A000384",
+    "A006254",
+    "A034953",
+    "A054269",
+    "A067076",
+    "A082749",
+    "A089253",
+    "A100672"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

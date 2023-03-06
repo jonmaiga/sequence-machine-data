@@ -1,0 +1,20 @@
+{
+  "description": "Number of monomial ideals in two variables x, y that are Artinian, integrally closed, of colength n and contain x^4.",
+  "id": "A086163",
+  "mentions": [
+    "A084913",
+    "A086162"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:27:51",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Product of prime(n) primes starting from prime(n).",
+  "id": "A075068",
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

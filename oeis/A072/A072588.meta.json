@@ -1,0 +1,25 @@
+{
+  "description": "Numbers having at least one prime factor with an odd and one with an even exponent.",
+  "id": "A072588",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A001221",
+    "A001222",
+    "A002035",
+    "A065463",
+    "A070011",
+    "A072587",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

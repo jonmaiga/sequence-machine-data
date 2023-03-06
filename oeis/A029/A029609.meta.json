@@ -1,0 +1,21 @@
+{
+  "description": "Central numbers in the (2,3)-Pascal triangle A029600.",
+  "id": "A029609",
+  "mentions": [
+    "A000108",
+    "A029600",
+    "A095666"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

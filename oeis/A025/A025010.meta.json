@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 5; a(n+1) = a(n)-th nonprime, where nonprimes begin at 4.",
+  "id": "A025010",
+  "mentions": [
+    "A006508",
+    "A022450",
+    "A022451",
+    "A025011"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = ceiling((Sum_{k=1..n-1} a(k)) / 2) for n >= 2 starting with a(1) = 1.",
+  "id": "A073941",
+  "mentions": [
+    "A005428",
+    "A006999",
+    "A061418",
+    "A061419",
+    "A061420",
+    "A079719",
+    "A081614",
+    "A081615",
+    "A081848",
+    "A082125",
+    "A082416",
+    "A083286"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:13:34",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

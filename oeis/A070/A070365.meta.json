@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 5^n mod 7.",
+  "id": "A070365",
+  "mentions": [
+    "A000351",
+    "A010876",
+    "A117373",
+    "A153727",
+    "A178141",
+    "A178229"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:19",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

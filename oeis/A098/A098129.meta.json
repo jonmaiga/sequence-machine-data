@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate 1 once, 2 twice, 3 three times, up to n n times.",
+  "id": "A098129",
+  "mentions": [
+    "A000461"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "If n is even then 1, otherwise n.",
+  "id": "A093178",
+  "mentions": [
+    "A009001",
+    "A016825",
+    "A049471",
+    "A062557",
+    "A124625",
+    "A133080",
+    "A161738"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A hierarchical sequence (S(W'3{2,2}cc) - see A059126).",
+  "id": "A059158",
+  "mentions": [
+    "A059126"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:26:03",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

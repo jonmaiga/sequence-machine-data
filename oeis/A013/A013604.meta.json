@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3^n - prevprime(3^n), where prevprime(x) is the largest prime < x.",
+  "id": "A013604",
+  "mentions": [
+    "A000244",
+    "A013598",
+    "A049711"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

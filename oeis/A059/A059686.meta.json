@@ -1,0 +1,23 @@
+{
+  "description": "Grimm numbers (1): a(n) = largest k so that for each m in {n+1, n+2, ..., n+k} there corresponds a different prime factor p_m.",
+  "id": "A059686",
+  "mentions": [
+    "A059751",
+    "A059752",
+    "A101083"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of asymmetric rooted Greg trees.",
+  "id": "A052301",
+  "mentions": [
+    "A005263",
+    "A005264",
+    "A031148",
+    "A048159",
+    "A048160",
+    "A052300",
+    "A052303"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

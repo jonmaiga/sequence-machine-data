@@ -1,0 +1,18 @@
+{
+  "description": "Number of conjugacy classes of elements of order n in 2.E_7(C).",
+  "id": "A045515",
+  "mentions": [
+    "A045514"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime p > a(n-1) such that a(n-1) is a quadratic residue mod p.",
+  "id": "A034794",
+  "mentions": [
+    "A000040",
+    "A046071",
+    "A092581"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:27",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

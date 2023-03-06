@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum{T(n,k)*T(n,n+k)}, 0<=k<=n, T given by A027960.",
+  "id": "A027984",
+  "mentions": [
+    "A027960"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:44:52",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

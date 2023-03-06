@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected irreducible posets with n labeled points.",
+  "id": "A046906",
+  "mentions": [
+    "A000084",
+    "A000798",
+    "A001035",
+    "A001927",
+    "A003431",
+    "A354615"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

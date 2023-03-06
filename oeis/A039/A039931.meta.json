@@ -1,0 +1,20 @@
+{
+  "description": "Number of different sets of parameters for mixed orthogonal arrays with n runs and strength 2.",
+  "id": "A039931",
+  "mentions": [
+    "A039927",
+    "A039930"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

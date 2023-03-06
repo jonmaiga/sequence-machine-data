@@ -1,0 +1,17 @@
+{
+  "description": "Chisel strokes in Runes numerals (= alphabet characters).",
+  "id": "A048181",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

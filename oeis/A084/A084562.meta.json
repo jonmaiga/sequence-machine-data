@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers having no more than two partitions into two odd primes.",
+  "id": "A084562",
+  "mentions": [
+    "A002375",
+    "A084563",
+    "A084564"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

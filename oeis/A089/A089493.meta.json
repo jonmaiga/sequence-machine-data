@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest k such that the Reverse and Add! trajectory of A063048(n) joins the trajectory of k.",
+  "id": "A089493",
+  "mentions": [
+    "A063048",
+    "A070788",
+    "A089494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

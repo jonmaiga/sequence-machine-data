@@ -1,0 +1,25 @@
+{
+  "description": "Triangular numbers that can be expressed as the sum of 2 positive triangular numbers.",
+  "id": "A089982",
+  "mentions": [
+    "A000161",
+    "A000217",
+    "A009000",
+    "A012132",
+    "A051533",
+    "A057100",
+    "A083025"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Distance to largest power of 2 less than or equal to n; write n in binary, change the first digit to zero, and convert back to decimal.",
+  "id": "A053645",
+  "mentions": [
+    "A000225",
+    "A000523",
+    "A001477",
+    "A002262",
+    "A004760",
+    "A006257",
+    "A006516",
+    "A030308",
+    "A032924",
+    "A036987",
+    "A053644",
+    "A062050",
+    "A083741",
+    "A160588"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

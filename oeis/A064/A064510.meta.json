@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the sum of the first k divisors of n is equal to n for some k.",
+  "id": "A064510",
+  "mentions": [
+    "A000396",
+    "A109883",
+    "A109884",
+    "A109886",
+    "A185584",
+    "A194472"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

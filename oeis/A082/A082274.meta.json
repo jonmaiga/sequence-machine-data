@@ -1,0 +1,16 @@
+{
+  "description": "Palindromes k such that k + 2 is also a palindrome.",
+  "id": "A082274",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

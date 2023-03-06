@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (5+10*x+x^2)/(1-x)^10.",
+  "id": "A059602",
+  "mentions": [
+    "A038165"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:39",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

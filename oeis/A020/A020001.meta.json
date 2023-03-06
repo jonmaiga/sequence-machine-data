@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to Gamma(n + 11/12)/Gamma(11/12).",
+  "id": "A020001",
+  "mentions": [
+    "A020046",
+    "A020091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

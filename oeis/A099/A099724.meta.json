@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>0} (A000040(k+1)-A000040(k))/exp(k), where A000040(k) gives the k-th prime number and exp(k) is the natural exponential of k.",
+  "id": "A099724",
+  "mentions": [
+    "A000040",
+    "A001113",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

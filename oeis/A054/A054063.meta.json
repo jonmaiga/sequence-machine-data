@@ -1,0 +1,15 @@
+{
+  "description": "Least k for which the integers Floor(k/(log(m+1))) for m=1,2,...,n are distinct.",
+  "id": "A054063",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

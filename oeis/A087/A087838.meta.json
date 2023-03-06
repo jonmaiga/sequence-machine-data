@@ -1,0 +1,17 @@
+{
+  "description": "a[n] =a[a[a[a[n-2]]]]+ a[n - a[n-2]]",
+  "id": "A087838",
+  "mentions": [
+    "A005229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Generalized Fermat numbers: 3^(2^n)+1, n >= 0.",
+  "id": "A059919",
+  "mentions": [
+    "A000215",
+    "A011764",
+    "A057727",
+    "A059723",
+    "A059917",
+    "A059918",
+    "A078303",
+    "A078304",
+    "A080176",
+    "A152581",
+    "A152585",
+    "A199591",
+    "A199592"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Poulet numbers (or pseudoprimes to base 2, A001567) less than 10^n.",
+  "id": "A055550",
+  "mentions": [
+    "A001567",
+    "A055552"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

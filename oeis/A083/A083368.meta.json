@@ -1,0 +1,26 @@
+{
+  "description": "A Fibbinary system represents a number as a sum of distinct Fibonacci numbers (instead of distinct powers of two). Using representations without adjacent zeros, a(n) = the highest bit-position which changes going from n-1 to n.",
+  "id": "A083368",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001511",
+    "A003714",
+    "A003754",
+    "A035612"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

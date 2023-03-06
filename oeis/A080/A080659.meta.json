@@ -1,0 +1,22 @@
+{
+  "description": "Order of group of n X n X n Rubik cube, under assumptions s, m, i.",
+  "id": "A080659",
+  "mentions": [
+    "A007458",
+    "A054434",
+    "A074914",
+    "A075152",
+    "A080656",
+    "A080662"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Group successively larger composite numbers so that the sum of the n-th group is a multiple of n. Sequence gives group sum divided by n for the n-th group.",
+  "id": "A074123",
+  "mentions": [
+    "A002808",
+    "A074120",
+    "A074121",
+    "A074122",
+    "A074131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

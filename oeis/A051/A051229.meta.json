@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m such that the Bernoulli number B_{2*m} has denominator 66.",
+  "id": "A051229",
+  "mentions": [
+    "A045979",
+    "A051222",
+    "A051225",
+    "A051226",
+    "A051227",
+    "A051228",
+    "A051230",
+    "A119456"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

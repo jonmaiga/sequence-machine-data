@@ -1,0 +1,26 @@
+{
+  "description": "Binomial coefficients C(n,k) reduced modulo n, read by rows; T(0,0)=0 by convention.",
+  "id": "A053200",
+  "mentions": [
+    "A007318",
+    "A020475",
+    "A053201",
+    "A053202",
+    "A053203",
+    "A053204",
+    "A053214",
+    "A092241"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:47",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Array by antidiagonals: Number of planar lattice walks of length 3n+2k starting at (0,0) and ending at (k,0), remaining in the first quadrant and using only NE,W,S steps.",
+  "id": "A098273",
+  "mentions": [
+    "A000108",
+    "A006335"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

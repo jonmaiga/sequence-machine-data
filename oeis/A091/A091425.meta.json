@@ -1,0 +1,33 @@
+{
+  "description": "Write the natural numbers in a triangle with k digits in the k-th row, as shown below. Sequence gives the leading diagonal.",
+  "id": "A091425",
+  "mentions": [
+    "A104606",
+    "A104607",
+    "A104608",
+    "A104609",
+    "A104610",
+    "A104611",
+    "A104612",
+    "A104613",
+    "A104614",
+    "A104615",
+    "A104616",
+    "A104617",
+    "A104618",
+    "A104619",
+    "A104620"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

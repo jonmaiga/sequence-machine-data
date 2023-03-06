@@ -1,0 +1,17 @@
+{
+  "description": "Start with a list of all the primes and repeatedly add the first element A of the list to the sequence and strike off every A-th element of the list.",
+  "id": "A078894",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

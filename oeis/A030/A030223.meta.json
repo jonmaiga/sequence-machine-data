@@ -1,0 +1,19 @@
+{
+  "description": "Triangular polyominoes (n-iamonds) with bilateral symmetry (holes are allowed).",
+  "id": "A030223",
+  "mentions": [
+    "A000577",
+    "A006534",
+    "A030224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of even numbers such that concatenation of terms beginning with the first with a 1 as the least significant digit is a prime.",
+  "id": "A083760",
+  "mentions": [
+    "A083761"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

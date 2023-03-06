@@ -1,0 +1,20 @@
+{
+  "description": "Number of self-complementary types of Boolean functions of n variables under action of AG(n,2).",
+  "id": "A053037",
+  "mentions": [
+    "A000214",
+    "A000614",
+    "A049461"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

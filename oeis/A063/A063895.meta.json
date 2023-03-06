@@ -1,0 +1,40 @@
+{
+  "description": "Start with x, xy; then concatenate each word in turn with all preceding words, getting x xy xxy xxxy xyxxy xxxxy xyxxxy xxyxxxy ...; sequence gives number of words of length n. Also binary trees by degree: x (x,y) (x,(x,y)) (x,(x,(x,y))) ((x,y),(x,(x,y)))...",
+  "id": "A063895",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A001678",
+    "A004111",
+    "A036774",
+    "A063894",
+    "A111299",
+    "A276625",
+    "A292050",
+    "A306200",
+    "A306201",
+    "A306202",
+    "A306203",
+    "A331934",
+    "A331963",
+    "A331964",
+    "A331965",
+    "A331966",
+    "A339193",
+    "A343663"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

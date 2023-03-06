@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime not occurring earlier == 1 mod n-th composite number.",
+  "id": "A075305",
+  "mentions": [
+    "A075089",
+    "A075304"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

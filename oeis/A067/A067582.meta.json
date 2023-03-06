@@ -1,0 +1,17 @@
+{
+  "description": "Nonprime values of n such that bigomega(n)^omega(n)=omega(n)^bigomega(n) where bigomega(n) is the number of prime factors of n (counted with multiplicity) and omega(n) the number of distinct prime factors of n.",
+  "id": "A067582",
+  "mentions": [
+    "A000469"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

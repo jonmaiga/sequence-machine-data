@@ -1,0 +1,28 @@
+{
+  "description": "Primes whose sum of digits is 8.",
+  "id": "A062343",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A052222",
+    "A062337",
+    "A062339",
+    "A062341",
+    "A062342",
+    "A107579",
+    "A244918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

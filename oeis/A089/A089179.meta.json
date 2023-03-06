@@ -1,0 +1,19 @@
+{
+  "description": "Number of equivalence classes of permutations of n letters, where the relation is that f and g are equivalent if every cycle of f is a power of some cycle of g.",
+  "id": "A089179",
+  "mentions": [
+    "A003510"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

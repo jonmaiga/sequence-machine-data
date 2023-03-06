@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X n binary matrices with distinct rows, up to row and column permutation; (n,3)-hypergraphs (including empty hyperedge but excluding multiple hyperedges).",
+  "id": "A055194",
+  "mentions": [
+    "A002727"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:25",
+    "offset": 2,
+    "size": 33,
+    "source": "joeis"
+  }
+}

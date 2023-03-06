@@ -1,0 +1,15 @@
+{
+  "description": "Numbers that are the sum of 3 distinct nonzero squares in exactly 6 ways.",
+  "id": "A025344",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

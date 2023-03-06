@@ -1,0 +1,28 @@
+{
+  "description": "The O(1) loop model on the square lattice is defined as follows: At every vertex the loop turns to the left or to the right with equal probability, unless the vertex has been visited before, in which case the loop leaves the vertex via the unused edge. Every vertex is visited twice. The probability that a face of the lattice on an n X infinity cylinder is surrounded by five loops is conjectured to be given by a(n)/A_{HT}(n)^2, where A_{HT}(n) is the number of n X n half turn symmetric alternating sign matrices.",
+  "id": "A092377",
+  "mentions": [
+    "A045912",
+    "A092372",
+    "A092373",
+    "A092374",
+    "A092375",
+    "A092376",
+    "A092378",
+    "A092379",
+    "A092380",
+    "A092381",
+    "A092382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 10,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

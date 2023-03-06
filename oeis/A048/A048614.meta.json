@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between successive pairs of twin primes.",
+  "id": "A048614",
+  "mentions": [
+    "A001223",
+    "A027833"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

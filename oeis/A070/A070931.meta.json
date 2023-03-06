@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the smallest integer value >= 0 of the form x^3 - k^2 equals the smallest integer value >= 0 of the form x^2 - k^3.",
+  "id": "A070931",
+  "mentions": [
+    "A001014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:11",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of n-node connected labeled graphs without endpoints.",
+  "id": "A059166",
+  "mentions": [
+    "A001187",
+    "A004108",
+    "A004110",
+    "A007146",
+    "A059167",
+    "A095983",
+    "A100743",
+    "A261919",
+    "A322395"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

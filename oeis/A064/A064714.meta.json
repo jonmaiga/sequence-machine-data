@@ -1,0 +1,19 @@
+{
+  "description": "Define q(0)=1, q(1)=1, q(2)=1, q(n)=q(abs(n-q(n-2)))+q(abs(n-q(n-3))) (A063892); then a(0) = 1, a(n)=a(n-1)+2*(q(n)-n/2), n > 0.",
+  "id": "A064714",
+  "mentions": [
+    "A063892",
+    "A064552"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

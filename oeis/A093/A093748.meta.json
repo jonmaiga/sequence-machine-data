@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime pairs below 10^n having a difference of 26.",
+  "id": "A093748",
+  "mentions": [
+    "A007508",
+    "A093747",
+    "A093749"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

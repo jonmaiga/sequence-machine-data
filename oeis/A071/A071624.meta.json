@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the set InvPhi[96n+2] is nonempty.",
+  "id": "A071624",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A063667",
+    "A063668"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

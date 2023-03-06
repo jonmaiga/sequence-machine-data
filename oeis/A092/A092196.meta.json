@@ -1,0 +1,19 @@
+{
+  "description": "Number of letters in \"old style\" Roman numeral representation of n (e.g., IIII rather than IV).",
+  "id": "A092196",
+  "mentions": [
+    "A006968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

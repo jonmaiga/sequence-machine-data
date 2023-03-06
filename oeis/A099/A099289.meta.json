@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the Fresnel sine integral function at 1.",
+  "id": "A099289",
+  "mentions": [
+    "A003031",
+    "A099290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

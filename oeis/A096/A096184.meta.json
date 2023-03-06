@@ -1,0 +1,19 @@
+{
+  "description": "Least index in A095773 which begins a string of n identical values.",
+  "id": "A096184",
+  "mentions": [
+    "A095773",
+    "A096183"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least of five consecutive numbers which are cubefree and not squarefree, i.e., {k, k+1, k+2, k+3, k+4} are in A067259.",
+  "id": "A071124",
+  "mentions": [
+    "A051903",
+    "A063528",
+    "A067259"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

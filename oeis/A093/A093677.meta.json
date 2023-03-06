@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of A093659, which is the first column of triangle A093658.",
+  "id": "A093677",
+  "mentions": [
+    "A093658",
+    "A093659"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

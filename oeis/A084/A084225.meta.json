@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of successive approximations to zeta(3) = Sum_{k>0} 1/k^3, using Zeilberger's formula with s=3.",
+  "id": "A084225",
+  "mentions": [
+    "A002117",
+    "A084223",
+    "A084226"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

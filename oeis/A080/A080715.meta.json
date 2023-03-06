@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that for any positive integers (a, b), if a * b = k then a + b is prime.",
+  "id": "A080715",
+  "mentions": [
+    "A000926",
+    "A010051",
+    "A027750",
+    "A045536",
+    "A128276",
+    "A128277",
+    "A128278",
+    "A128279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "First integer reached when starting with 1+2/(n*(n+1)) and iterating the map x -> x*ceiling(x) A075428(n) times, or -1 if no integer is ever reached.",
+  "id": "A075429",
+  "mentions": [
+    "A075428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

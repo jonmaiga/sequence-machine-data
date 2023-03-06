@@ -1,0 +1,19 @@
+{
+  "description": "Quadratic recurrence that arises when enumerating labeled connected graphs (called Wright's constants).",
+  "id": "A094199",
+  "mentions": [
+    "A062980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

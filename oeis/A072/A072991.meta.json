@@ -1,0 +1,21 @@
+{
+  "description": "Numbers 1 through 10 in alphabetical order.",
+  "id": "A072991",
+  "mentions": [
+    "A000052"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose least quadratic nonresidue (A020649) is 23.",
+  "id": "A025028",
+  "mentions": [
+    "A020649",
+    "A025020",
+    "A025021",
+    "A025022",
+    "A025023",
+    "A025024",
+    "A025025",
+    "A025026",
+    "A025027",
+    "A025029"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

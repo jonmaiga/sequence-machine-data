@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits of n!^n! (ultrafactorial numbers).",
+  "id": "A073279",
+  "mentions": [
+    "A000142",
+    "A034886",
+    "A046882"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

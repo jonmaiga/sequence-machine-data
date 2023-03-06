@@ -1,0 +1,19 @@
+{
+  "description": "Composition length of the n-th symmetric power of the natural representation of a finite subgroup of SL(2,C) of type E_8 (binary icosahedral group).",
+  "id": "A087866",
+  "mentions": [
+    "A008651"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:37",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

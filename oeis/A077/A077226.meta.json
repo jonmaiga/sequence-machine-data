@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of A051261, i.e., (n, a(n), a(n)) is a winning position in 3-pile Wythoff game.",
+  "id": "A077226",
+  "mentions": [
+    "A018219",
+    "A051261"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

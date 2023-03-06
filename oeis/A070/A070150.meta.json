@@ -1,0 +1,24 @@
+{
+  "description": "Triangular areas of integer Heronian triangles.",
+  "id": "A070150",
+  "mentions": [
+    "A000217",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070083",
+    "A070086",
+    "A070148"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

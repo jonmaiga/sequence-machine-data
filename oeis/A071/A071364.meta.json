@@ -1,0 +1,41 @@
+{
+  "description": "Smallest number with same sequence of exponents in canonical prime factorization as n.",
+  "id": "A071364",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A003586",
+    "A006530",
+    "A020639",
+    "A046523",
+    "A055932",
+    "A056239",
+    "A071365",
+    "A071366",
+    "A085079",
+    "A089247",
+    "A112798",
+    "A124010",
+    "A233249",
+    "A329139",
+    "A331580",
+    "A333217",
+    "A333219",
+    "A334032",
+    "A334033"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

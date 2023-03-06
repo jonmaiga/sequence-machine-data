@@ -1,0 +1,24 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by the function 'reverse' (present in programming languages like Lisp, Scheme, Prolog and Haskell) when it acts on symbolless S-expressions encoded by A014486/A063171.",
+  "id": "A057508",
+  "mentions": [
+    "A014486",
+    "A033538",
+    "A057163",
+    "A057164",
+    "A057509",
+    "A057510",
+    "A063171",
+    "A069769"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

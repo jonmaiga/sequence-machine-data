@@ -1,0 +1,28 @@
+{
+  "description": "Minimal and special 2k-Germain primes, where 2k is in A002110 (primorial numbers).",
+  "id": "A051887",
+  "mentions": [
+    "A002110",
+    "A005384",
+    "A005385",
+    "A007693",
+    "A051645",
+    "A051647",
+    "A051653",
+    "A051654",
+    "A051686",
+    "A051886",
+    "A051888"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

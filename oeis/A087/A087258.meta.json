@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(n, A025586(n)), greatest common divisor of n and largest value in 3x+1 iteration list started at n.",
+  "id": "A087258",
+  "mentions": [
+    "A006370",
+    "A025586",
+    "A033496",
+    "A087259",
+    "A087260",
+    "A087262"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "First digit after decimal point of square root of n.",
+  "id": "A023961",
+  "mentions": [
+    "A000196",
+    "A010879",
+    "A034096",
+    "A111850",
+    "A111851",
+    "A111852",
+    "A111853",
+    "A111854",
+    "A111855",
+    "A111856",
+    "A111857",
+    "A111858",
+    "A111859",
+    "A111862"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

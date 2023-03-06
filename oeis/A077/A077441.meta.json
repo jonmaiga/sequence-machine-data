@@ -1,0 +1,20 @@
+{
+  "description": "In base 4, smallest number that requires n Reverse and Add! steps to reach a palindrome.",
+  "id": "A077441",
+  "mentions": [
+    "A023109",
+    "A066058",
+    "A075685"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

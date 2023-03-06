@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the sum of odd primes up to k is palindromic.",
+  "id": "A058846",
+  "mentions": [
+    "A038584",
+    "A058845",
+    "A058847",
+    "A065091",
+    "A071148"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

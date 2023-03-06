@@ -1,0 +1,26 @@
+{
+  "description": "Bit-interleaved number addition table; like binary addition but carries shift 2 instead of 1; addition base sqrt(2).",
+  "id": "A054240",
+  "mentions": [
+    "A000695",
+    "A054239",
+    "A057300",
+    "A062880",
+    "A201651"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:17:11",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

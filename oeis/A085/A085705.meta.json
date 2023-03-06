@@ -1,0 +1,17 @@
+{
+  "description": "Integers expressible as (x^3 + y^3 + z^3)/(x*y*z) with nonzero integers x, y and z. Alternatively, integers expressible as a/b + b/c + c/a with nonzero integers a, b and c.",
+  "id": "A085705",
+  "mentions": [
+    "A072716"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

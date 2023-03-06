@@ -1,0 +1,19 @@
+{
+  "description": "G.f. is (1-S)/(1+S), where S = g.f. for A000084.",
+  "id": "A058756",
+  "mentions": [
+    "A000084",
+    "A000137",
+    "A036655"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

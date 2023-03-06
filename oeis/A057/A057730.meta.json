@@ -1,0 +1,24 @@
+{
+  "description": "Number of polyominoes (A000105) with perimeter 2n.",
+  "id": "A057730",
+  "mentions": [
+    "A000105",
+    "A002931",
+    "A057753",
+    "A131487",
+    "A266549",
+    "A342243"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

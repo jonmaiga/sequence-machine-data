@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: log(-1/(-1+x*exp(x)-x)).",
+  "id": "A052858",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:14:00",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

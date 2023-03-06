@@ -1,0 +1,28 @@
+{
+  "description": "Least number x such that number of primes between sigma(x) and x equals n.",
+  "id": "A085344",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000720",
+    "A070803",
+    "A070804",
+    "A085341",
+    "A085342",
+    "A085343",
+    "A085345",
+    "A085346",
+    "A085347"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

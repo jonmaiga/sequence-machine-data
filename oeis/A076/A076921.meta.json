@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number such that the highest common factor of pair of successive terms follows the pattern 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, ..., i.e., b(2n-1) = b(2n) = n given by A004526.",
+  "id": "A076921",
+  "mentions": [
+    "A002620",
+    "A004526"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:41",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

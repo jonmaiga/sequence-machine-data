@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 2^p - p where p is prime.",
+  "id": "A057678",
+  "mentions": [
+    "A000668",
+    "A056677",
+    "A057663",
+    "A057664",
+    "A057665"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

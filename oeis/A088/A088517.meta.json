@@ -1,0 +1,19 @@
+{
+  "description": "First differences of Golomb's sequence.",
+  "id": "A088517",
+  "mentions": [
+    "A001462",
+    "A001463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered factorizations into composite numbers indexed by prime signatures: A050374(A025487(n)).",
+  "id": "A050375",
+  "mentions": [
+    "A025487",
+    "A050374"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

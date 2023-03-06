@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree numbers k such that sigma(k) is not squarefree.",
+  "id": "A087249",
+  "mentions": [
+    "A065301",
+    "A065303",
+    "A087248"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

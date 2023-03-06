@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the product of Catalan(n) and (2^(n+1) - 1).",
+  "id": "A063016",
+  "mentions": [
+    "A000108",
+    "A007317",
+    "A046521",
+    "A063017",
+    "A126646"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

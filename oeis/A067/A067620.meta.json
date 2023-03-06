@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = p^e, where p and e are the rounded means of the prime factors p_i and the exponents e_i, respectively, in the factorization n = p_1^e_1 * ... * p_r^e_r of n into distinct primes p_i. Each mean is rounded to the nearest integer, rounding up if there's a choice.",
+  "id": "A067620",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

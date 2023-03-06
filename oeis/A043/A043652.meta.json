@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-12 representation has exactly 3 runs.",
+  "id": "A043652",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:49",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

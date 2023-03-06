@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1-x)^(-1)/(1-x+2*x^2).",
+  "id": "A077876",
+  "mentions": [
+    "A001045",
+    "A107920"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:19:43",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

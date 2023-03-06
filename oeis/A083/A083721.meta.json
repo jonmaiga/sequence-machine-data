@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes greater than the greatest prime factor of n but not greater than n.",
+  "id": "A083721",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A079067",
+    "A083722"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

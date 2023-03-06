@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that all prime divisors of p^2 + p + 1 are less than p.",
+  "id": "A091490",
+  "mentions": [
+    "A073501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

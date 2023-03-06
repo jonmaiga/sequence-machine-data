@@ -1,0 +1,28 @@
+{
+  "description": "Triple factorial numbers: (3n)!!! = 3^n*n!.",
+  "id": "A032031",
+  "mentions": [
+    "A000142",
+    "A000165",
+    "A007559",
+    "A007661",
+    "A008544",
+    "A008585",
+    "A051141",
+    "A092041",
+    "A092615"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

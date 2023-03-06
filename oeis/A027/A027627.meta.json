@@ -1,0 +1,17 @@
+{
+  "description": "Maximal cardinality of 2-distance set in R^n.",
+  "id": "A027627",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

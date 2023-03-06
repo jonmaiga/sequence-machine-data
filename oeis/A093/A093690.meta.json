@@ -1,0 +1,21 @@
+{
+  "description": "Primes p that divide A007406(k), the numerator of the k-th generalized harmonic number H(k,2) = Sum 1/i^2 for i=1..k, for some k < (p-1)/2.",
+  "id": "A093690",
+  "mentions": [
+    "A000928",
+    "A001008",
+    "A007406",
+    "A092194",
+    "A093689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonprimes of form 4k+3.",
+  "id": "A091236",
+  "mentions": [
+    "A002145",
+    "A004767",
+    "A078703",
+    "A091113",
+    "A092256"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:07",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

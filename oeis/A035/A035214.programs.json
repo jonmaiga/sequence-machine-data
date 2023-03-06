@@ -1,0 +1,262 @@
+{
+  "oi": 35214,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "char[∑[n]]+1",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "1",
+        "+"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(cosh(char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cosh",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(cosh(char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cosh",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "(2*char[∑[n]])!",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "∑",
+        "char",
+        "*",
+        "!"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "dr(or(10, char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "10",
+        "n",
+        "∑",
+        "char",
+        "or",
+        "dr"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "dr(xor(10, char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "10",
+        "n",
+        "∑",
+        "char",
+        "xor",
+        "dr"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(exp(sin(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "sin",
+        "exp",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(cosh(char[∑[n]])²)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cosh",
+        "²",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(exp(sin(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "sin",
+        "exp",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(exp(atan(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "atan",
+        "exp",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(exp(atan(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "atan",
+        "exp",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "floor(exp(tanh(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "tanh",
+        "exp",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "round(exp(tanh(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "tanh",
+        "exp",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "ceil(acot(char[comp[∑[n]]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "comp",
+        "char",
+        "acot",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "round(acot(char[comp[∑[n]]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "comp",
+        "char",
+        "acot",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "floor(cosh(tan(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "tan",
+        "cosh",
+        "floor"
+      ]
+    },
+    {
+      "d": "2022-06-15",
+      "ix": "ceil(cot(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "cot",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2022-06-24",
+      "ix": "floor(cosh(asin(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "asin",
+        "cosh",
+        "floor"
+      ]
+    },
+    {
+      "d": "2022-08-11",
+      "ix": "round(cot(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "cot",
+        "round"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "floor(cosh(cosh(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cosh",
+        "cosh",
+        "floor"
+      ]
+    }
+  ]
+}

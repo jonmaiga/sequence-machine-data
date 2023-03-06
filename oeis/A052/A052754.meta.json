@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f.: (log(1-x))^2*x^2.",
+  "id": "A052754",
+  "mentions": [
+    "A001620",
+    "A052745",
+    "A052747"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of times the greatest prime factor of n is the greatest prime factor for numbers <=n; a(1)=1.",
+  "id": "A078899",
+  "mentions": [
+    "A006530",
+    "A078897",
+    "A078898"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

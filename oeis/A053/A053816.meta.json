@@ -1,0 +1,29 @@
+{
+  "description": "Another version of the Kaprekar numbers (A006886): n such that n = q+r and n^2 = q*10^m+r, for some m >= 1, q >= 0 and 0 <= r < 10^m, with n != 10^a, a >= 1 and n an m-digit number.",
+  "id": "A053816",
+  "mentions": [
+    "A003052",
+    "A006886",
+    "A037042",
+    "A045913",
+    "A053394",
+    "A053395",
+    "A053396",
+    "A053397",
+    "A055642",
+    "A095370"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

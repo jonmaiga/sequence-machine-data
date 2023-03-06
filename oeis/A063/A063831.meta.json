@@ -1,0 +1,19 @@
+{
+  "description": "Sum of cubes of divisors is a square.",
+  "id": "A063831",
+  "mentions": [
+    "A001158",
+    "A006532",
+    "A046655"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

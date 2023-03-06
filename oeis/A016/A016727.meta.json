@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent solutions to x^2+y^2+z^2 = n^2.",
+  "id": "A016727",
+  "mentions": [
+    "A000164",
+    "A065458",
+    "A255212"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

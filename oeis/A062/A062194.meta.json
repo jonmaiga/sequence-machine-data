@@ -1,0 +1,27 @@
+{
+  "description": "Fifth column sequence of triangle A062139 (generalized a=2 Laguerre).",
+  "id": "A062194",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A001710",
+    "A005461",
+    "A005990",
+    "A062139",
+    "A062193",
+    "A091725",
+    "A099285"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

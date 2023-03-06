@@ -1,0 +1,29 @@
+{
+  "description": "Number of prime factors of 5^n + 1 (counted with multiplicity).",
+  "id": "A057939",
+  "mentions": [
+    "A001222",
+    "A034474",
+    "A054992",
+    "A057934",
+    "A057935",
+    "A057936",
+    "A057937",
+    "A057938",
+    "A057940",
+    "A057941",
+    "A057956",
+    "A074478"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

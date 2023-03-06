@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Rd(n) + Ld(n) +/-1 is prime, where Rd and Ld are the right- and left-digital factorial functions.",
+  "id": "A071714",
+  "mentions": [
+    "A067079",
+    "A067080"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

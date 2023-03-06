@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with the property that all pairs of consecutive base-7 digits differ by 0 or 1.",
+  "id": "A032978",
+  "mentions": [
+    "A007093"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:19",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

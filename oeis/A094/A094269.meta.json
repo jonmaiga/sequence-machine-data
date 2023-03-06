@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = phi(A003401(n)).",
+  "id": "A094269",
+  "mentions": [
+    "A000010",
+    "A003401"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

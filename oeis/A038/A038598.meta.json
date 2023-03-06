@@ -1,0 +1,20 @@
+{
+  "description": "First differences between numbers that are a difference between 2 positive cubes.",
+  "id": "A038598",
+  "mentions": [
+    "A038593",
+    "A038597",
+    "A093330",
+    "A181123"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

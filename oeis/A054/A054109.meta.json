@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(2*n+1, n), array T as in A054106.",
+  "id": "A054109",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A054106",
+    "A167478"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

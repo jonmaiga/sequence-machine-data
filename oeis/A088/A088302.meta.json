@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer value of n!/(2!3!...p!), where denominator contains product of factorials of primes in increasing order.",
+  "id": "A088302",
+  "mentions": [
+    "A074199"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

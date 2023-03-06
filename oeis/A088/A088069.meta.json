@@ -1,0 +1,17 @@
+{
+  "description": "Cubes sandwiched between two numbers divisible by cubes.",
+  "id": "A088069",
+  "mentions": [
+    "A088068"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

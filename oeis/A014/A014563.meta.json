@@ -1,0 +1,25 @@
+{
+  "description": "a(n+1) is the smallest number > a(n) such that the digits of a(n)^2 are all (with multiplicity) contained in the digits of a(n+1)^2, with a(0)=1.",
+  "id": "A014563",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A065297",
+    "A066825",
+    "A067633",
+    "A067634",
+    "A067635"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

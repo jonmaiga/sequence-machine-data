@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of n^mu(n), where mu is the Moebius function (A008683).",
+  "id": "A080304",
+  "mentions": [
+    "A008683",
+    "A080305",
+    "A080306",
+    "A080326",
+    "A166142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

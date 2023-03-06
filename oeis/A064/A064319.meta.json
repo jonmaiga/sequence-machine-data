@@ -1,0 +1,23 @@
+{
+  "description": "Triangle with a(n,1)=n and a(n,k)=a(n-1,k)*a(n-1,k-1).",
+  "id": "A064319",
+  "mentions": [
+    "A000027",
+    "A002378",
+    "A047928",
+    "A053218",
+    "A064320",
+    "A064321"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

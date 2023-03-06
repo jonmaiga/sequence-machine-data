@@ -1,0 +1,34 @@
+{
+  "description": "If n is odd then n, otherwise 2n.",
+  "id": "A022998",
+  "mentions": [
+    "A000034",
+    "A000290",
+    "A001082",
+    "A001792",
+    "A002522",
+    "A026741",
+    "A043547",
+    "A050873",
+    "A059026",
+    "A059029",
+    "A066043",
+    "A143051",
+    "A195151",
+    "A203976",
+    "A227041"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

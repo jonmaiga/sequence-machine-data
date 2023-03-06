@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of b(n), where b(n+1) = Sum_{k=0..n} b'((n^2-k^2)/n), b(0) = b(1) = 1, and b'(x) = b(x) if x is an integer and is linearly interpolated otherwise.",
+  "id": "A071301",
+  "mentions": [
+    "A071298",
+    "A071299",
+    "A071300"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

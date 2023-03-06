@@ -1,0 +1,26 @@
+{
+  "description": "a(n)=prevprime[sigma(n)]-nextprime[phi(n)]=A070801(n)-A070800(n).",
+  "id": "A070802",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A000720",
+    "A007818",
+    "A007917",
+    "A070800",
+    "A070801"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

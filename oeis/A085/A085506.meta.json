@@ -1,0 +1,16 @@
+{
+  "description": "Number of {-1,0,1} n X n matrices that have (real and) positive eigenvalues.",
+  "id": "A085506",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

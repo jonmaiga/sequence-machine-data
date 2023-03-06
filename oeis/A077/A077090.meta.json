@@ -1,0 +1,19 @@
+{
+  "description": "When iteration of f(x) = phi(sigma(x) - phi(x)) is started at initial values listed here it ends up in a cycle of length greater than 1.",
+  "id": "A077090",
+  "mentions": [
+    "A077088",
+    "A077091",
+    "A077100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

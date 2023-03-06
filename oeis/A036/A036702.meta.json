@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=number of Gaussian integers z=a+bi satisfying |z|<=n, a>=0, 0<=b<=a.",
+  "id": "A036702",
+  "mentions": [
+    "A000328",
+    "A000603",
+    "A036700",
+    "A049472",
+    "A255250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:28:11",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

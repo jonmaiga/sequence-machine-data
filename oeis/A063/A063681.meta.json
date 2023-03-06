@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 2p+7 is a power of three.",
+  "id": "A063681",
+  "mentions": [
+    "A063679",
+    "A063680"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

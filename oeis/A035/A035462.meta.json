@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into parts 4k-1.",
+  "id": "A035462",
+  "mentions": [
+    "A000009",
+    "A035386",
+    "A035441",
+    "A035468",
+    "A050452",
+    "A109700",
+    "A109702",
+    "A109708"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lesser of two consecutive numbers each divisible by a fifth power.",
+  "id": "A068783",
+  "mentions": [
+    "A068140",
+    "A068780",
+    "A068781",
+    "A068782",
+    "A068784",
+    "A068785"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

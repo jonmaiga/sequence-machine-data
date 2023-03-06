@@ -1,0 +1,24 @@
+{
+  "description": "Smallest 4th power divisible by n.",
+  "id": "A053167",
+  "mentions": [
+    "A000190",
+    "A007913",
+    "A008835",
+    "A013662",
+    "A013674"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

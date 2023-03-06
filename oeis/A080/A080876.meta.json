@@ -1,0 +1,24 @@
+{
+  "description": "a(n)*a(n+3) - a(n+1)*a(n+2) = 2^n, given a(0) = 1, a(1) = 1, and a(2) = 1.",
+  "id": "A080876",
+  "mentions": [
+    "A080871",
+    "A080877",
+    "A080878",
+    "A080879",
+    "A080880",
+    "A080881",
+    "A080882"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:21:02",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

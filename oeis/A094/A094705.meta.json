@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of Jacobsthal(n) and 3^n.",
+  "id": "A094705",
+  "mentions": [
+    "A000244",
+    "A001045",
+    "A045883"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

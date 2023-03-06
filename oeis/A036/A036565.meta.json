@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of numbers in which i-th row is {2^(i-j)*7^j, 0<=j<=i}; i >= 0.",
+  "id": "A036565",
+  "mentions": [
+    "A003591"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:21:37",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

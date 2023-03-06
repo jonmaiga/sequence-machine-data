@@ -1,0 +1,20 @@
+{
+  "description": "Second term of the continued fraction expansion of (3/2)^n; or 0 if no term is present.",
+  "id": "A071291",
+  "mentions": [
+    "A006543",
+    "A071353"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

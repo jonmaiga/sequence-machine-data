@@ -1,0 +1,22 @@
+{
+  "description": "Products of pairs of distinct, non-consecutive primes.",
+  "id": "A089995",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A033476",
+    "A084126",
+    "A084127",
+    "A089994"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

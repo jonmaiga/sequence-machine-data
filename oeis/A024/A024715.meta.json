@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = residue mod 11 of n-th term of A024702.",
+  "id": "A024715",
+  "mentions": [
+    "A024702"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:33",
+    "offset": 3,
+    "size": 111,
+    "source": "joeis"
+  }
+}

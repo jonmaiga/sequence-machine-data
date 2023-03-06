@@ -1,0 +1,17 @@
+{
+  "description": "Markov numbers satisfying region 5 (x=5) of the equation x^2 + y^2 + z^2 = 3xyz.",
+  "id": "A030452",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

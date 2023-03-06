@@ -1,0 +1,31 @@
+{
+  "description": "Powers of 7 with initial digit 1.",
+  "id": "A067493",
+  "mentions": [
+    "A067480",
+    "A067481",
+    "A067482",
+    "A067483",
+    "A067484",
+    "A067485",
+    "A067486",
+    "A067487",
+    "A067488",
+    "A067489",
+    "A067490",
+    "A067491",
+    "A067492"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

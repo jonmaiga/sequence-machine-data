@@ -1,0 +1,19 @@
+{
+  "description": "Hypothetical numbers of terms in general expressions for coefficients of Lovelock Lagrangians.",
+  "id": "A045900",
+  "mentions": [
+    "A000041",
+    "A006372"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:52:45",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

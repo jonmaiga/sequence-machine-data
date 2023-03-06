@@ -1,0 +1,26 @@
+{
+  "description": "Smallest concatenation 123...(k-1) k (k-1)...321 (a concatenation of natural numbers from 1 to k and back to 1) that is a multiple of 2n-1, or 0 if no such number exists.",
+  "id": "A077189",
+  "mentions": [
+    "A077180",
+    "A077181",
+    "A077182",
+    "A077183",
+    "A077184",
+    "A077186",
+    "A077188",
+    "A077190",
+    "A120008"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

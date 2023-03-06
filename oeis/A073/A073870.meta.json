@@ -1,0 +1,18 @@
+{
+  "description": "Smallest composite number not included earlier that is a multiple of n.",
+  "id": "A073870",
+  "mentions": [
+    "A073871"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

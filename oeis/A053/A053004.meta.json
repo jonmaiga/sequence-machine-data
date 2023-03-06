@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of AGM(1,sqrt(2)).",
+  "id": "A053004",
+  "mentions": [
+    "A014549",
+    "A033566",
+    "A053002",
+    "A053003",
+    "A076390",
+    "A085565",
+    "A096427"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

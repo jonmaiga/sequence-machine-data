@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 9*a(n-1) - 9*a(n-2) + a(n-3); given a(1) = 1, a(2) = 10, a(3) = 81.",
+  "id": "A095004",
+  "mentions": [
+    "A001091",
+    "A076765",
+    "A092184",
+    "A095002",
+    "A095003"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:44:21",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

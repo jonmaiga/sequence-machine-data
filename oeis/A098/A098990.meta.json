@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} prime(n)/(2^n).",
+  "id": "A098990",
+  "mentions": [
+    "A000040",
+    "A053760",
+    "A098882",
+    "A232927"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

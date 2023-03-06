@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients a(n) in the unique expansion sin(1) = Sum[a(n)/n!, n>=1], where a(n) satisfies 0<=a(n)",
+  "id": "A078112",
+  "mentions": [
+    "A077814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:57",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

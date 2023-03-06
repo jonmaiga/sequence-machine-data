@@ -1,0 +1,15 @@
+{
+  "description": "cosh(arcsinh(x)*log(x+1))=1+12/4!*x^4-60/5!*x^5+210/6!*x^6...",
+  "id": "A012581",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

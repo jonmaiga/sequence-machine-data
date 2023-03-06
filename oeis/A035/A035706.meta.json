@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for 11-dimensional cubic lattice.",
+  "id": "A035706",
+  "mentions": [
+    "A035748",
+    "A266213"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of Eulerian orientations of the n X n square lattice (with wrap-around), i.e., number of arrow configurations on n X n grid that satisfy the square ice rule.",
+  "id": "A054759",
+  "mentions": [
+    "A118273",
+    "A298119",
+    "A358177"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

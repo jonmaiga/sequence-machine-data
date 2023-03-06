@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 17 divides 3^k-k.",
+  "id": "A081116",
+  "mentions": [
+    "A024024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

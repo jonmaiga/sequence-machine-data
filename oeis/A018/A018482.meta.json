@@ -1,0 +1,19 @@
+{
+  "description": "Divisors of 488.",
+  "id": "A018482",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

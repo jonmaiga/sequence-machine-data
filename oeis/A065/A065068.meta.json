@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed polyominoes with n cells of which no four are equally spaced on a straight line.",
+  "id": "A065068",
+  "mentions": [
+    "A001168"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

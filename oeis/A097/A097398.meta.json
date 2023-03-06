@@ -1,0 +1,20 @@
+{
+  "description": "Matrix T(m,x(1)), m>=1, x(1)>=2, read by antidiagonals, where T(m,x(1)) gives the position of the first noninteger term in the sequence defined by x(n)=(x(n-1)*(x(n-1)^m+n-1))/n for n>=2 with exponent m and the given starting value x(1).",
+  "id": "A097398",
+  "mentions": [
+    "A003504",
+    "A005166",
+    "A005167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

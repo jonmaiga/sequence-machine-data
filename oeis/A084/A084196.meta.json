@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes q",
+  "id": "A084196",
+  "mentions": [
+    "A049084",
+    "A082539",
+    "A084197",
+    "A084198",
+    "A084200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

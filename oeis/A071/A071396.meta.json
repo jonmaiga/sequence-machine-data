@@ -1,0 +1,23 @@
+{
+  "description": "Rounded total surface area of a regular octahedron with edge length n.",
+  "id": "A071396",
+  "mentions": [
+    "A033581",
+    "A070169",
+    "A071397",
+    "A071398",
+    "A071400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

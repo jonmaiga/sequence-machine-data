@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that when incremented by the product of their digits produce a square.",
+  "id": "A066567",
+  "mentions": [
+    "A066564"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Reversed inversion vectors for the permutations of A060117, presented as pseudo-decimal numbers.",
+  "id": "A064039",
+  "mentions": [
+    "A007623",
+    "A055089",
+    "A060117",
+    "A060496"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

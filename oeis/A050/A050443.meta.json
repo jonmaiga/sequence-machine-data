@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=4, a(1)=0, a(2)=0, a(3)=3; thereafter a(n) = a(n-3) + a(n-4).",
+  "id": "A050443",
+  "mentions": [
+    "A001608",
+    "A017817",
+    "A052338",
+    "A087935",
+    "A087936",
+    "A306646"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

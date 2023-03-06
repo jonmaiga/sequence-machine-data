@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for e: a(n) = floor(n*e).",
+  "id": "A022843",
+  "mentions": [
+    "A001113",
+    "A022852",
+    "A054385",
+    "A108599",
+    "A121384"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

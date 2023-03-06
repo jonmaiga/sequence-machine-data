@@ -1,0 +1,19 @@
+{
+  "description": "Smallest primes whose residue modulo its difference from the next prime is 2n-1.",
+  "id": "A060235",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

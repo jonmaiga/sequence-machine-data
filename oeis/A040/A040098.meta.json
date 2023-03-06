@@ -1,0 +1,27 @@
+{
+  "description": "Primes p such that x^4 = 2 has a solution mod p.",
+  "id": "A040098",
+  "mentions": [
+    "A000040",
+    "A001132",
+    "A038873",
+    "A040028",
+    "A040100",
+    "A040159",
+    "A040992",
+    "A042966",
+    "A045315"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n == 1, 2, 5 or 6 (mod 8) such that there is only one solution to i^2+j^2+k^2=n, i >= j >= k >= 0.",
+  "id": "A086719",
+  "mentions": [
+    "A085616"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that the Reverse and Add! trajectory of n (presumably) does not reach a palindrome and does not join the trajectory of any term m < n.",
+  "id": "A063048",
+  "mentions": [
+    "A006960",
+    "A023108",
+    "A033865",
+    "A063049",
+    "A063065",
+    "A070788",
+    "A070796",
+    "A075252",
+    "A075421",
+    "A077405",
+    "A088753",
+    "A185393"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

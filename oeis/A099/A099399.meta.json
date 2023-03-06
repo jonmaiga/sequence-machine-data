@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of rationals (in lowest terms) used in a certain high temperature expansion.",
+  "id": "A099399",
+  "mentions": [
+    "A099398"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

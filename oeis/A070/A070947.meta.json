@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations on n letters that have only cycles of length 6 or less.",
+  "id": "A070947",
+  "mentions": [
+    "A057693"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

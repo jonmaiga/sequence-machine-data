@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k at which the fractional part of tan(k) reaches a record high.",
+  "id": "A019435",
+  "mentions": [
+    "A016274"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

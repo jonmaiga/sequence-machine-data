@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of largest prime factors of numbers from 1 to n is divisible by n.",
+  "id": "A088825",
+  "mentions": [
+    "A088821",
+    "A088822",
+    "A088824"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) =29a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 29.",
+  "id": "A090251",
+  "mentions": [
+    "A007610",
+    "A049310",
+    "A053120",
+    "A077428",
+    "A078355",
+    "A083148",
+    "A090248",
+    "A097781",
+    "A097782"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:14:05",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

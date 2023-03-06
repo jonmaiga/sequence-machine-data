@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k) + phi(k+1) = sigma(k).",
+  "id": "A067799",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A092404"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

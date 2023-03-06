@@ -1,0 +1,19 @@
+{
+  "description": "Emirpimes: numbers n such that n and its reversal are distinct semiprimes.",
+  "id": "A097393",
+  "mentions": [
+    "A001358",
+    "A097394"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

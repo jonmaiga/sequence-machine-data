@@ -1,0 +1,27 @@
+{
+  "description": "Nonsquarefree solutions to gcd(sigma(x), phi(x)) = gcd(sigma(core(x)), Phi(core(x))), i.e., when A009223(x) = A066086 or if A066087(x)=0 and mu(x)=0.",
+  "id": "A076488",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A007947",
+    "A009223",
+    "A023900",
+    "A048250",
+    "A060086",
+    "A066086",
+    "A066087",
+    "A076485",
+    "A076487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

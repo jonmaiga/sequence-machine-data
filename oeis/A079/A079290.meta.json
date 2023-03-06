@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers satisfying A073078(n)=(n+1)/2.",
+  "id": "A079290",
+  "mentions": [
+    "A073078"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

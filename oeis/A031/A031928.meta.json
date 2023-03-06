@@ -1,0 +1,21 @@
+{
+  "description": "Lower prime of a difference of 10 between consecutive primes.",
+  "id": "A031928",
+  "mentions": [
+    "A023203",
+    "A053323",
+    "A248855",
+    "A290450"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

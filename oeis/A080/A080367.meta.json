@@ -1,0 +1,21 @@
+{
+  "description": "Largest unitary prime divisor of n or a(n)=0 if no such prime divisor exists.",
+  "id": "A080367",
+  "mentions": [
+    "A027748",
+    "A034444",
+    "A056169",
+    "A080368",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

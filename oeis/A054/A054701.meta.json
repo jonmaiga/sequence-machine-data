@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime followed by three gaps that are multiples of 2n.",
+  "id": "A054701",
+  "mentions": [
+    "A001223",
+    "A054800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

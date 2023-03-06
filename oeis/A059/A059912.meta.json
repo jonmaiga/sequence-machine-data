@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) of orders of n degree irreducible polynomials over GF(2) listed in ascending order, k=1..A059499(n).",
+  "id": "A059912",
+  "mentions": [
+    "A000225",
+    "A001037",
+    "A058943",
+    "A059478",
+    "A059499",
+    "A059913",
+    "A108974",
+    "A212485",
+    "A212486",
+    "A212737",
+    "A212906",
+    "A212953"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

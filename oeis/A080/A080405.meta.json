@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct primes dividing n-th Catalan number.",
+  "id": "A080405",
+  "mentions": [
+    "A000108",
+    "A001221",
+    "A081399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

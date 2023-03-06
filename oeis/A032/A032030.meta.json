@@ -1,0 +1,16 @@
+{
+  "description": "Number of series-reduced planted planar trees with n leaves of 2 colors where any 2 subtrees extending from the same node are different.",
+  "id": "A032030",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

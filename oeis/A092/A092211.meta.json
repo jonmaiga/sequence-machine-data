@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k such that the base-2 Reverse and Add! trajectory of A075252(n) joins the trajectory of k.",
+  "id": "A092211",
+  "mentions": [
+    "A061561",
+    "A075252",
+    "A089493",
+    "A091676",
+    "A092210",
+    "A092212"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

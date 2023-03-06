@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: d(n,k) = number of decreasing labeled trees with n nodes and largest leaf <= k, for 1 <= k <= n.",
+  "id": "A079268",
+  "mentions": [
+    "A000012",
+    "A000165",
+    "A000225",
+    "A001147",
+    "A210448"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

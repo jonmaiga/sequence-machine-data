@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes with nonincreasing digits up to the middle and then nondecreasing.",
+  "id": "A084837",
+  "mentions": [
+    "A062351",
+    "A062352",
+    "A084836"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

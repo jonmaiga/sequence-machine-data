@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = maximal m such that Sum_{k=n..m} prime(k) <= prime(n)*prime(m).",
+  "id": "A075703",
+  "mentions": [
+    "A074968"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

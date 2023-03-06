@@ -1,0 +1,18 @@
+{
+  "description": "Least k>0 such that the last digit of (n+k)^n is the same as the last digit of n^n.",
+  "id": "A071358",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:39",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

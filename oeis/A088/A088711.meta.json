@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n that are a product of two primes j and k such that both n+j+k and n-j-k are primes.",
+  "id": "A088711",
+  "mentions": [
+    "A001358",
+    "A088709",
+    "A088710"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

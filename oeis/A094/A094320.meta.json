@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n >= 0 such that Lehmer's polynomial 263*n^2+3 is prime.",
+  "id": "A094320",
+  "mentions": [
+    "A094319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

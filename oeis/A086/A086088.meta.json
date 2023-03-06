@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the limit of the ratio of consecutive terms in the tetranacci sequence A000078.",
+  "id": "A086088",
+  "mentions": [
+    "A000078",
+    "A001622",
+    "A058265",
+    "A103814",
+    "A118427",
+    "A118428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

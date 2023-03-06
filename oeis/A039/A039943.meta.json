@@ -1,0 +1,32 @@
+{
+  "description": "Every integer eventually goes to one of these under the \"x goes to sum of squares of digits of x\" map.",
+  "id": "A039943",
+  "mentions": [
+    "A000216",
+    "A000218",
+    "A000221",
+    "A003132",
+    "A003621",
+    "A007770",
+    "A008460",
+    "A008462",
+    "A008463",
+    "A031176",
+    "A080709",
+    "A122065",
+    "A139566"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

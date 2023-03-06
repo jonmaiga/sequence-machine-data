@@ -1,0 +1,18 @@
+{
+  "description": "-1+2^n is divisible by (n-1).",
+  "id": "A087965",
+  "mentions": [
+    "A006521"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

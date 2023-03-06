@@ -1,0 +1,19 @@
+{
+  "description": "Index of terms in A083164 which are not dislocated in the rearrangement. Or k such that A083164(k) = k.",
+  "id": "A083166",
+  "mentions": [
+    "A083164",
+    "A083165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

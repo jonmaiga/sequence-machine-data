@@ -1,0 +1,34 @@
+{
+  "description": "ATS: Add Then Sort (i.e., double previous term and then sort digits).",
+  "id": "A057615",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A004000",
+    "A004094",
+    "A004167",
+    "A028909",
+    "A028910",
+    "A033861",
+    "A036447",
+    "A163632",
+    "A263451",
+    "A321539",
+    "A321540",
+    "A321541",
+    "A321542"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:37:53",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

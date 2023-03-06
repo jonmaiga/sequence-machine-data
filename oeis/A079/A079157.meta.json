@@ -1,0 +1,21 @@
+{
+  "description": "Sum of square displacements over all self-avoiding walks on cubic lattice trapped after n steps. Numerator of mean square displacement a(n)/A077817(n).",
+  "id": "A079157",
+  "mentions": [
+    "A077817",
+    "A078605",
+    "A079158"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 11,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

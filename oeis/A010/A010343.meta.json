@@ -1,0 +1,28 @@
+{
+  "description": "Base-4 Armstrong or narcissistic positive numbers.",
+  "id": "A010343",
+  "mentions": [
+    "A005188",
+    "A007090",
+    "A010344",
+    "A010345",
+    "A010347",
+    "A010349",
+    "A010351",
+    "A010352"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

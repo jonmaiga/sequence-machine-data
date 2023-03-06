@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be written as sum of a prime and an 3-smooth number.",
+  "id": "A081311",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A081308",
+    "A081310",
+    "A081312",
+    "A081313",
+    "A118955"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that p-1 is divisible by a cube.",
+  "id": "A089200",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

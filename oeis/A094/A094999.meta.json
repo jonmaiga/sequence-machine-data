@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(12^n/11^n).",
+  "id": "A094999",
+  "mentions": [
+    "A002379",
+    "A094969",
+    "A094997"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:20:19",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

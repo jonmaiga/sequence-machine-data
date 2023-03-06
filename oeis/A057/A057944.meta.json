@@ -1,0 +1,26 @@
+{
+  "description": "Largest triangular number less than or equal to n; write m-th triangular number m+1 times.",
+  "id": "A057944",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A002262",
+    "A003056",
+    "A056944",
+    "A057945",
+    "A127739"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:38:51",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

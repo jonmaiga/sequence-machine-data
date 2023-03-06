@@ -1,0 +1,37 @@
+{
+  "description": "Differences between the ordinary multiplication table A004247 and the carryless multiplication table for GF(2)[X] polynomials A048720, i.e., the effect of the carry bits in binary multiplication.",
+  "id": "A061858",
+  "mentions": [
+    "A003714",
+    "A004247",
+    "A048716",
+    "A048720",
+    "A048728",
+    "A048729",
+    "A048730",
+    "A061859",
+    "A114086",
+    "A115845",
+    "A115847",
+    "A116361",
+    "A213673",
+    "A235034",
+    "A235040",
+    "A236378",
+    "A266195",
+    "A289726"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:01:15",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

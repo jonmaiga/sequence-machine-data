@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = S1(n,5), where S1(n,t) = Sum_{k=0..n} k^t * Sum_{j=0..k} binomial(n,j).",
+  "id": "A089662",
+  "mentions": [
+    "A001792",
+    "A089658",
+    "A089659",
+    "A089660",
+    "A089661",
+    "A089663"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

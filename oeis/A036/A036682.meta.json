@@ -1,0 +1,21 @@
+{
+  "description": "T(n+3,3) with T as in A036355.",
+  "id": "A036682",
+  "mentions": [
+    "A001628",
+    "A001872",
+    "A036355"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:38:34",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

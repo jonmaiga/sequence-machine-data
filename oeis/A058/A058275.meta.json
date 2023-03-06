@@ -1,0 +1,35 @@
+{
+  "description": "Number of connected 5-regular simple graphs on 2n vertices with girth at least 4.",
+  "id": "A058275",
+  "mentions": [
+    "A006821",
+    "A014371",
+    "A033886",
+    "A058276",
+    "A181153",
+    "A181154",
+    "A181170",
+    "A184953",
+    "A184954",
+    "A184955",
+    "A185114",
+    "A185254",
+    "A185354",
+    "A186714",
+    "A186724",
+    "A205295"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

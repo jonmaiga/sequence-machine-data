@@ -1,0 +1,24 @@
+{
+  "description": "Length of Roman notation for n < length of decimal representation.",
+  "id": "A036786",
+  "mentions": [
+    "A006968",
+    "A036787",
+    "A036788",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

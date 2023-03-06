@@ -1,0 +1,20 @@
+{
+  "description": "Using the US English names for the nonnegative integers, assign each letter a numerical value as in A073327 (A=1, B=2, ..., Z=26), treat the name as a base-27 integer, and convert to decimal.",
+  "id": "A072959",
+  "mentions": [
+    "A073327"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Fixed points for operation of repeatedly replacing a number with the sum of the cubes of its digits.",
+  "id": "A046197",
+  "mentions": [
+    "A003321",
+    "A005188",
+    "A008585",
+    "A023052",
+    "A031179",
+    "A035504",
+    "A046156",
+    "A052455",
+    "A052464",
+    "A055012",
+    "A124068",
+    "A124069",
+    "A165330",
+    "A165331",
+    "A165333",
+    "A165334",
+    "A165335",
+    "A226970",
+    "A252648"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

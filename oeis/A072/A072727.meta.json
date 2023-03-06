@@ -1,0 +1,26 @@
+{
+  "description": "Denominator of the rationals >= 1 whose continued fractions consist of only even terms, in ascending order by the sum of the continued fraction terms and descending by lowest order continued fraction terms to highest.",
+  "id": "A072727",
+  "mentions": [
+    "A000129",
+    "A071585",
+    "A071766",
+    "A072726",
+    "A072728",
+    "A072729"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

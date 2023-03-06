@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (-1)^n * Sum_{i=0..n} binomial(n+1,i+1)*Catalan(i).",
+  "id": "A050511",
+  "mentions": [
+    "A091698"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

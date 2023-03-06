@@ -1,0 +1,20 @@
+{
+  "description": "Integers m such that m+1 divides lcm(1 through m).",
+  "id": "A080765",
+  "mentions": [
+    "A003418",
+    "A024619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

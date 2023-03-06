@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose maximal base-2 run length is 3.",
+  "id": "A037970",
+  "mentions": [
+    "A007088",
+    "A136037"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

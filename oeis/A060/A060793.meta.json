@@ -1,0 +1,18 @@
+{
+  "description": "Orders of finite perfect groups (groups such that G = G' where G' is the commutator subgroup of G).",
+  "id": "A060793",
+  "mentions": [
+    "A001034",
+    "A056866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

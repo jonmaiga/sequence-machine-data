@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of disjoint edge-paths into which the graph of the n-ary cube can be partitioned.",
+  "id": "A059222",
+  "mentions": [
+    "A057979"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

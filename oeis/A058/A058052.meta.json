@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the distances between the 2^n vertices in the De Bruijn Graphs on words of length n on alphabet {0,1}.",
+  "id": "A058052",
+  "mentions": [
+    "A166316"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

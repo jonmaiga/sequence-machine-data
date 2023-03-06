@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of (2/3)*cos( (1/3)*arccos(29/2) ) + 1/3, the real root of x^3 - x^2 - 1.",
+  "id": "A092526",
+  "mentions": [
+    "A000930",
+    "A060006",
+    "A075778",
+    "A076725",
+    "A086106",
+    "A088559",
+    "A228777",
+    "A263719",
+    "A293506",
+    "A293508",
+    "A293509",
+    "A293557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

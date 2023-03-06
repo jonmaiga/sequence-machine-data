@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in polynomial expression for determinant of generic circulant matrix of order n.",
+  "id": "A084575",
+  "mentions": [
+    "A003239"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

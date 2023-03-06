@@ -1,0 +1,18 @@
+{
+  "description": "Divisible by its 'even' sum of prime factors (counted with multiplicity).",
+  "id": "A036345",
+  "mentions": [
+    "A036346",
+    "A046346"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

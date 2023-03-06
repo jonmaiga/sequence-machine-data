@@ -1,0 +1,19 @@
+{
+  "description": "Greatest prime divisor of 2n+1 (sum of two successive integers).",
+  "id": "A076565",
+  "mentions": [
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

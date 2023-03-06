@@ -1,0 +1,21 @@
+{
+  "description": "(L(p)-1)/p where L() are the Lucas numbers (A000032) and p runs through the primes.",
+  "id": "A064723",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A001622",
+    "A006206"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

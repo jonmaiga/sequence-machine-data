@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic oriented matroids with n points in 2 dimensions.",
+  "id": "A063800",
+  "mentions": [
+    "A063804"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

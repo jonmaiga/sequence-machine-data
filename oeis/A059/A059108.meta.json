@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to variant of triples version of Langford (or Langford-Skolem) problem.",
+  "id": "A059108",
+  "mentions": [
+    "A014552",
+    "A050998",
+    "A059106",
+    "A059107"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

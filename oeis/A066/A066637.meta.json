@@ -1,0 +1,38 @@
+{
+  "description": "Total number of elements in all factorizations of n with all factors > 1.",
+  "id": "A066637",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000070",
+    "A001055",
+    "A001787",
+    "A001792",
+    "A002033",
+    "A006128",
+    "A015723",
+    "A045778",
+    "A050336",
+    "A066186",
+    "A067824",
+    "A074206",
+    "A162247",
+    "A264401",
+    "A281116",
+    "A292504",
+    "A292886",
+    "A322794",
+    "A336875",
+    "A339564"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

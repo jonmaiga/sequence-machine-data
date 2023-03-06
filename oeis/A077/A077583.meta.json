@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n numbers starting with n and not coprime to n, except the first row is {1}.",
+  "id": "A077583",
+  "mentions": [
+    "A077584",
+    "A077660"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

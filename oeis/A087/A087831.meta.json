@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(abs(n-a(n-1))) + a(a(abs(n-a(n-4)))) if n>4, a(n) = 1 otherwise.",
+  "id": "A087831",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

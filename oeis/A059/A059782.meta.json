@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) giving exponent of power of 3 dividing entry (n,k) of trinomial triangle A027907.",
+  "id": "A059782",
+  "mentions": [
+    "A027907"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

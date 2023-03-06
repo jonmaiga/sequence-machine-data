@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of 2*Pi*phi, where phi = (1+sqrt(5))/2.",
+  "id": "A094888",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A019669",
+    "A019670",
+    "A093954",
+    "A248897",
+    "A352125",
+    "A352324"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:15",
+    "offset": 2,
+    "size": 99,
+    "source": "joeis"
+  }
+}

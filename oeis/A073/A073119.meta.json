@@ -1,0 +1,22 @@
+{
+  "description": "Total number of parts which are positive powers of 2 in all partitions of n.",
+  "id": "A073119",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A007814",
+    "A024786"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

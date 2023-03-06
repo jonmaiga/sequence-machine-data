@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit primes with all digits distinct.",
+  "id": "A073532",
+  "mentions": [
+    "A006879",
+    "A006880",
+    "A073531",
+    "A098224",
+    "A098227",
+    "A140532"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:13",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

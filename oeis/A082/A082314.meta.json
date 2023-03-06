@@ -1,0 +1,28 @@
+{
+  "description": "Involution of natural numbers: A057502-conjugate of A057164.",
+  "id": "A082314",
+  "mentions": [
+    "A001405",
+    "A007123",
+    "A014137",
+    "A014138",
+    "A046698",
+    "A057164",
+    "A057501",
+    "A057502",
+    "A069889",
+    "A073200",
+    "A082313"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

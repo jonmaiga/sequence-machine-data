@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the digits of Fibonacci(k) in base 12 is k.",
+  "id": "A020996",
+  "mentions": [
+    "A020995",
+    "A025490"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

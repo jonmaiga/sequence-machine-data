@@ -1,0 +1,19 @@
+{
+  "description": "The nonpositive side (-1, -2, -3, ...) of the site swap sequence A065261. The bisection of odd terms of A065261.",
+  "id": "A065262",
+  "mentions": [
+    "A065261"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:37",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

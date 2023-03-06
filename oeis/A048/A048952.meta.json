@@ -1,0 +1,21 @@
+{
+  "description": "Prime 2-component links with n crossings.",
+  "id": "A048952",
+  "mentions": [
+    "A002863",
+    "A048953",
+    "A086771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

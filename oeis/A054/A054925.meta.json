@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = ceiling(n*(n-1)/4).",
+  "id": "A054925",
+  "mentions": [
+    "A007742",
+    "A011848",
+    "A014848",
+    "A033951",
+    "A033991",
+    "A054552",
+    "A054924",
+    "A133872",
+    "A213172",
+    "A238604"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

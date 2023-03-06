@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) counts solid partitions of n such that the maximum of planes, rows, columns and values is k.",
+  "id": "A096272",
+  "mentions": [
+    "A000293",
+    "A007760",
+    "A094504",
+    "A094508",
+    "A096322"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

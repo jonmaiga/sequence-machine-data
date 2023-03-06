@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: x*(1+3*x+x^2)/((1-x^2)^2*(1-x^5)).",
+  "id": "A038167",
+  "mentions": [
+    "A010891"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:43",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

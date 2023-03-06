@@ -1,0 +1,18 @@
+{
+  "description": "Period of continued fraction for sqrt(A031400(n)).",
+  "id": "A031401",
+  "mentions": [
+    "A031400"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

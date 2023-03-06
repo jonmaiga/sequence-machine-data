@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(1/({n*k}-{n*k}^2)) -1, where k = sqrt(2)-1 and {} is the fractional part.",
+  "id": "A090038",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A089959",
+    "A089960",
+    "A089961"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

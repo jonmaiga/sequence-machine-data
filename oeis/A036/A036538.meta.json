@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers m <= 2^n such that d(m) = 2^k for some k = 0, 1, 2, 3, ...",
+  "id": "A036538",
+  "mentions": [
+    "A000005",
+    "A036537",
+    "A036539",
+    "A037992"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

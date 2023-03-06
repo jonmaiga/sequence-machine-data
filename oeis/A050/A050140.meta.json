@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2*floor(n*phi)-n, where phi = (1+sqrt(5))/2.",
+  "id": "A050140",
+  "mentions": [
+    "A000201",
+    "A001350",
+    "A001622",
+    "A005206",
+    "A005614",
+    "A050141",
+    "A283233"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (Fibonacci(2n-1) - Fibonacci(n+1))/2.",
+  "id": "A056014",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A001519",
+    "A027994",
+    "A051450",
+    "A056015",
+    "A059512"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

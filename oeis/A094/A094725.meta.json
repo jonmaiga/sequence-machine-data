@@ -1,0 +1,18 @@
+{
+  "description": "Largest value in trajectory of n under the modified juggler map of A094685.",
+  "id": "A094725",
+  "mentions": [
+    "A094685"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

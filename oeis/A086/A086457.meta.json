@@ -1,0 +1,26 @@
+{
+  "description": "Both n and n^2 have the same initial digit and also n and n^2 have the same final digit when expressed in base 10.",
+  "id": "A086457",
+  "mentions": [
+    "A000030",
+    "A008851",
+    "A010879",
+    "A045953",
+    "A046851",
+    "A086458",
+    "A089951"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

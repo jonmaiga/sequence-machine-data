@@ -1,0 +1,21 @@
+{
+  "description": "Baum-Sweet sequence: a(n) = 1 if binary representation of n contains no block of consecutive zeros of odd length; otherwise a(n) = 0.",
+  "id": "A086747",
+  "mentions": [
+    "A037011",
+    "A060142",
+    "A316831"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

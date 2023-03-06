@@ -1,0 +1,27 @@
+{
+  "description": "Least number whose number of divisors is A007304(n) (the n-th number that is the product of 3 distinct primes).",
+  "id": "A061299",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A005179",
+    "A007304",
+    "A061148",
+    "A061149",
+    "A061234",
+    "A061286",
+    "A084127",
+    "A096932"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Stirling transform of squares of Bell numbers: a(0)=1, a(n) = Sum_{k=1..n} Stirling2(n,k)*(bell(k))^2.",
+  "id": "A069471",
+  "mentions": [
+    "A000110",
+    "A001247",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

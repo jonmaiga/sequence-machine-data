@@ -1,0 +1,29 @@
+{
+  "description": "Squarefree kernel of lcm(binomial(n,0), ..., binomial(n,n)).",
+  "id": "A056606",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A001142",
+    "A001405",
+    "A002109",
+    "A002944",
+    "A003418",
+    "A007947",
+    "A034386",
+    "A048633",
+    "A256113",
+    "A329947"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

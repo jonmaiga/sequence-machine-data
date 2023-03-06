@@ -1,0 +1,16 @@
+{
+  "description": "Let the index of the largest prime power that divides n! be k then the smallest number such that n!*a(n) is a perfect k-th power.",
+  "id": "A074190",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "My school teacher gave it to me as a challenge. But he died last week and I do not have the answer.",
+  "id": "A080592",
+  "mentions": [
+    "A000396",
+    "A010785",
+    "A141346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

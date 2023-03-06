@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number of crossing-free matchings on n points in the plane.",
+  "id": "A063549",
+  "mentions": [
+    "A057977",
+    "A063550"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:04:36",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

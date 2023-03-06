@@ -1,0 +1,21 @@
+{
+  "description": "Repdigits (A010785), excluding repunits (A002275), ordered by product of digits (A007954).",
+  "id": "A070841",
+  "mentions": [
+    "A002275",
+    "A007954",
+    "A010785",
+    "A070840"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

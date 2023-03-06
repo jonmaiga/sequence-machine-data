@@ -1,0 +1,17 @@
+{
+  "description": "Position of n-th 0 in A030548.",
+  "id": "A030549",
+  "mentions": [
+    "A030548"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:19",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

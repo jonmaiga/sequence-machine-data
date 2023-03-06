@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of peakless Motzkin paths of length n containing k DHH...HU's, where U=(1,1), D=(1,-1) and H=(1,0) (can be easily expressed using RNA secondary structure terminology).",
+  "id": "A098083",
+  "mentions": [
+    "A004148",
+    "A190162",
+    "A190163"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

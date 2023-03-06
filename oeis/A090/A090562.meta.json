@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 5k^2 + 5k + 1.",
+  "id": "A090562",
+  "mentions": [
+    "A062786",
+    "A090563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

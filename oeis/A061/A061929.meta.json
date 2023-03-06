@@ -1,0 +1,22 @@
+{
+  "description": "Triangle with n >= k >= 0 where a(n,k) = 2^k*3^(n-k)*(C(n+1,0)+C(n+1,1)+...C(n+1,k)).",
+  "id": "A061929",
+  "mentions": [
+    "A005060",
+    "A036561",
+    "A054143",
+    "A061930"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least number > n having one more distinct prime factor than n.",
+  "id": "A079892",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A079890",
+    "A079893",
+    "A165713"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

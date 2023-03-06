@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p divides 6^((p-1)/2) - 3^((p-1)/2).",
+  "id": "A097958",
+  "mentions": [
+    "A001132",
+    "A038873"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

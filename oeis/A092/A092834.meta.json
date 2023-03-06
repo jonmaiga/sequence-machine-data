@@ -1,0 +1,15 @@
+{
+  "description": "Coefficients of a solution to a functional equation.",
+  "id": "A092834",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

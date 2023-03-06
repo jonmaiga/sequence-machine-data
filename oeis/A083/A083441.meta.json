@@ -1,0 +1,19 @@
+{
+  "description": "Largest n-digit palindrome with a digit sum of n.",
+  "id": "A083441",
+  "mentions": [
+    "A083440"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

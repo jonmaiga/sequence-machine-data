@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that trinomial x^A001153(n) + x^k + 1 over GF(2) is primitive.",
+  "id": "A074743",
+  "mentions": [
+    "A001153"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

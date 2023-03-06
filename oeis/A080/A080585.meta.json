@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A080584.",
+  "id": "A080585",
+  "mentions": [
+    "A000523",
+    "A002264",
+    "A080584"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Record-setting differences between adjacent elements of the Mian-Chowla sequence A005282.",
+  "id": "A080222",
+  "mentions": [
+    "A005282",
+    "A025582",
+    "A080200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

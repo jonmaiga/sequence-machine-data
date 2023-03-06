@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of convergents to A058914.",
+  "id": "A048817",
+  "mentions": [
+    "A048818",
+    "A048819",
+    "A048822",
+    "A058914"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Apply the \"Stirling-Bernoulli transform\" to Catalan numbers.",
+  "id": "A051782",
+  "mentions": [
+    "A000108",
+    "A163626"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

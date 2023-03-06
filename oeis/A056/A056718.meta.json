@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (61*10^k - 7)/9 is prime.",
+  "id": "A056718",
+  "mentions": [
+    "A002275"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution equals the binomial transform of A090358: A^2 = BINOMIAL(A090358), where A090358^6 = BINOMIAL(A090358^5).",
+  "id": "A090359",
+  "mentions": [
+    "A090358"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

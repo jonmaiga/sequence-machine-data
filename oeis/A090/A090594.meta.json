@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x + x*A(-x)) = x + x*A(x).",
+  "id": "A090594",
+  "mentions": [
+    "A006196"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform of Jacobsthal gap sequence (A080924).",
+  "id": "A080925",
+  "mentions": [
+    "A046717",
+    "A080924",
+    "A080926"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

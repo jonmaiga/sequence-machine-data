@@ -1,0 +1,19 @@
+{
+  "description": "Stereoisomeric homologs with molecular formula C_{3+n} H_{6+2n}.",
+  "id": "A055936",
+  "mentions": [
+    "A000625",
+    "A063832"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:52:53",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

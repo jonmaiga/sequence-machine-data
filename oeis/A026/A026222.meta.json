@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A026136(k) = A026142(k).",
+  "id": "A026222",
+  "mentions": [
+    "A026136",
+    "A026142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of positive natural numbers: a(n) = A082328(n-1)+1.",
+  "id": "A082330",
+  "mentions": [
+    "A081291",
+    "A082326",
+    "A082328",
+    "A082329",
+    "A082854"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

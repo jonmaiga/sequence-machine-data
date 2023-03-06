@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Bo(n^2), n=0,1..., where Bo(n) are the ordered Bell numbers, A000670.",
+  "id": "A068942",
+  "mentions": [
+    "A000670",
+    "A068939",
+    "A249938",
+    "A249941"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

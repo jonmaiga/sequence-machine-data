@@ -1,0 +1,24 @@
+{
+  "description": "Product of squarefree divisors of n.",
+  "id": "A078599",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A006881",
+    "A007875",
+    "A007947",
+    "A007955",
+    "A034444"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:01",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

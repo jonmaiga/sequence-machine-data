@@ -1,0 +1,21 @@
+{
+  "description": "Number of multigraphs with loops on 3 nodes with n edges.",
+  "id": "A050531",
+  "mentions": [
+    "A002620",
+    "A076118",
+    "A290428"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

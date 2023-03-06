@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers whose sum of aliquot divisors (A001065) is a perfect square.",
+  "id": "A048699",
+  "mentions": [
+    "A001065",
+    "A006532",
+    "A020477",
+    "A048698",
+    "A073040"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

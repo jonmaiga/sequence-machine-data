@@ -1,0 +1,23 @@
+{
+  "description": "Smallest palindrome of the form nk+1 where k is also a palindrome:, or 0 if no such number exists; palindromes arising in A083837.",
+  "id": "A083838",
+  "mentions": [
+    "A083829",
+    "A083830",
+    "A083832",
+    "A083834",
+    "A083835",
+    "A083837"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

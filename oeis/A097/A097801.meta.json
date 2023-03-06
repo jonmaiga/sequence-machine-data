@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)!/(n!*2^(n-1)).",
+  "id": "A097801",
+  "mentions": [
+    "A001147",
+    "A097749",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

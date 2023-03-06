@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and Fibonacci(n) have the same number of divisors.",
+  "id": "A080651",
+  "mentions": [
+    "A001605",
+    "A063375"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

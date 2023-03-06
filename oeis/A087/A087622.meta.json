@@ -1,0 +1,19 @@
+{
+  "description": "Order of letters on Dvorak typewriter (or computer) keyboard.",
+  "id": "A087622",
+  "mentions": [
+    "A002252"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

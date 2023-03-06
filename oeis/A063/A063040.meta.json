@@ -1,0 +1,15 @@
+{
+  "description": "LCM of Stirling numbers of the second kind, S(n,k) for 1 <= k <= n; S(n,k) = number of partitions of {1,2,...,n} with k blocks.",
+  "id": "A063040",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that Sum(e/p: n=Product(p^e)) < 1.",
+  "id": "A083347",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A072873",
+    "A083345",
+    "A083346",
+    "A083348",
+    "A168036"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

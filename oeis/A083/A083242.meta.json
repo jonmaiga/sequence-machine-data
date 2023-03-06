@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 3, a(n-3) + a(n-2) + a(n-1) + a(n) = prime(n); a(0) = 0, a(1) = 1, a(2) = 1.",
+  "id": "A083242",
+  "mentions": [
+    "A014687",
+    "A034467",
+    "A073737",
+    "A083240"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

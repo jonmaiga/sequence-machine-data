@@ -1,0 +1,17 @@
+{
+  "description": "Greatest number m such that only n editing steps (deletion, insertion, or substitution) are needed to transform the binary representation of m into ternary representation of m.",
+  "id": "A091111",
+  "mentions": [
+    "A091110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

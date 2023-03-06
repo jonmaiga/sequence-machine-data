@@ -1,0 +1,20 @@
+{
+  "description": "Final members of groups in A076105.",
+  "id": "A076102",
+  "mentions": [
+    "A076101",
+    "A076103",
+    "A076104",
+    "A076105"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

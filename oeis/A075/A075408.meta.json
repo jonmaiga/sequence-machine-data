@@ -1,0 +1,22 @@
+{
+  "description": "Perfect powers pp such that pp+1 is prime.",
+  "id": "A075408",
+  "mentions": [
+    "A000668",
+    "A001597",
+    "A002496",
+    "A072868"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

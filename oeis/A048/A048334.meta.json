@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are repdigits in base 9.",
+  "id": "A048334",
+  "mentions": [
+    "A010785",
+    "A028987",
+    "A028988",
+    "A033022",
+    "A248726"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:34:33",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

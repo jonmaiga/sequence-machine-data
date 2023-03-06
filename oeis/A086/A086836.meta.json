@@ -1,0 +1,21 @@
+{
+  "description": "On a 3 X 3 board, number of distinct positions of n digits (modulo rotation/reflection)).",
+  "id": "A086836",
+  "mentions": [
+    "A087074"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

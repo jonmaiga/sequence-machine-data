@@ -1,0 +1,22 @@
+{
+  "description": "Special binomial coefficient: a(n) = C(sigma(n), phi(n)).",
+  "id": "A064366",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A034953",
+    "A066090",
+    "A066449"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

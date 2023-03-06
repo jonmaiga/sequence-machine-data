@@ -1,0 +1,21 @@
+{
+  "description": "Smallest \"n-augmented\" amicable number: the smallest positive integer k such that m = sigma(k) - k + n > k and k = sigma(m) - m + n, where sigma(k) is the sum of the divisors of k.",
+  "id": "A095702",
+  "mentions": [
+    "A000203",
+    "A002025",
+    "A002046",
+    "A007992",
+    "A015630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

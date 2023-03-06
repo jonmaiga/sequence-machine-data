@@ -1,0 +1,20 @@
+{
+  "description": "Analog of A095236 when definition of 'most distant from those in use' is 'with the highest geometric mean distance from those in use'.",
+  "id": "A095923",
+  "mentions": [
+    "A095236",
+    "A095239",
+    "A095240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

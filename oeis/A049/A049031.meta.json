@@ -1,0 +1,20 @@
+{
+  "description": "Maximization of sums of cubes of integer differences (b_[ i ]-i)^3 over permutations {b_[ i ], for i-1,2,...,n} on first n integers.",
+  "id": "A049031",
+  "mentions": [
+    "A049032"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:07",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

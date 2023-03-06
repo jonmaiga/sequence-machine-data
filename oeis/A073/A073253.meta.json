@@ -1,0 +1,24 @@
+{
+  "description": "Table of expansion of Product (1+(xy)^n/y)(1+(xy)^n/x), n>0 by antidiagonals.",
+  "id": "A073253",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A073252",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

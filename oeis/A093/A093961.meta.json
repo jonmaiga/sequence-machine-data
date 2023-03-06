@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of binomial(Pi, e).",
+  "id": "A093961",
+  "mentions": [
+    "A093962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

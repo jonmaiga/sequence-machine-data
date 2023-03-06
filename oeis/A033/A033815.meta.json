@@ -1,0 +1,26 @@
+{
+  "description": "Number of standard permutations of [ a_1..a_n b_1..b_n ] (b_i is not immediately followed by a_i, for all i).",
+  "id": "A033815",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A002119",
+    "A047920",
+    "A068106",
+    "A116854",
+    "A267383"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

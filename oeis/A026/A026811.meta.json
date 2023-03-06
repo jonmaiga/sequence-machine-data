@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of n in which the greatest part is 5.",
+  "id": "A026811",
+  "mentions": [
+    "A001400",
+    "A001401",
+    "A002622",
+    "A008284",
+    "A008667",
+    "A008669",
+    "A026810",
+    "A026812",
+    "A026813",
+    "A026814",
+    "A026815",
+    "A026816",
+    "A029007",
+    "A029032"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

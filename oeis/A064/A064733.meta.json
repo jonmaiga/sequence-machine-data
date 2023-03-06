@@ -1,0 +1,19 @@
+{
+  "description": "Final digits of A005165(2n) for large n, read from right.",
+  "id": "A064733",
+  "mentions": [
+    "A005165",
+    "A025016"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

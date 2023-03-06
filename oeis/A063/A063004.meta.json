@@ -1,0 +1,21 @@
+{
+  "description": "Difference between 2^n and the next larger power of 3.",
+  "id": "A063004",
+  "mentions": [
+    "A056577",
+    "A063003",
+    "A063005"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

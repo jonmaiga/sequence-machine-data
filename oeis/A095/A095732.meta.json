@@ -1,0 +1,23 @@
+{
+  "description": "Sum of A095734(p) for all primes p such that Fib(n+1) <= p < Fib(n+2) (where Fib = A000045).",
+  "id": "A095732",
+  "mentions": [
+    "A000045",
+    "A095062",
+    "A095354",
+    "A095730",
+    "A095731",
+    "A095734",
+    "A095742"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

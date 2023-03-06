@@ -1,0 +1,15 @@
+{
+  "description": "Let k be the largest number such that n is a k-th power; then m is the least positive number such that m+n is a (k+1)th power.",
+  "id": "A086484",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

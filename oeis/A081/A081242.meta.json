@@ -1,0 +1,21 @@
+{
+  "description": "Left-to-right binary enumeration.",
+  "id": "A081242",
+  "mentions": [
+    "A007931",
+    "A059893"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

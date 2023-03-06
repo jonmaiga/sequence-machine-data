@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-node planar graphs with minimum degree at least 5.",
+  "id": "A049373",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

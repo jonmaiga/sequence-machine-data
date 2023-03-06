@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A065608(k) is a square.",
+  "id": "A065063",
+  "mentions": [
+    "A065608"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

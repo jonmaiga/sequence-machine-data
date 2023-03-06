@@ -1,0 +1,20 @@
+{
+  "description": "Weight distribution of d=4 Hamming code of length 255.",
+  "id": "A010095",
+  "mentions": [
+    "A010089"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:57",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

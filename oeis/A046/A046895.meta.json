@@ -1,0 +1,24 @@
+{
+  "description": "Sizes of successive clusters in Z^4 lattice.",
+  "id": "A046895",
+  "mentions": [
+    "A000118",
+    "A024916",
+    "A055410",
+    "A117609",
+    "A122510"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

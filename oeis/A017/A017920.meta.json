@@ -1,0 +1,18 @@
+{
+  "description": "Powers of sqrt(5) rounded to nearest integer.",
+  "id": "A017920",
+  "mentions": [
+    "A017919",
+    "A017921"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

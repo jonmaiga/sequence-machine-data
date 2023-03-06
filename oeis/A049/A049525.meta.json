@@ -1,0 +1,21 @@
+{
+  "description": "I is the first, second, eighth, ... letter in this sentence not counting spaces or commas.",
+  "id": "A049525",
+  "mentions": [
+    "A005224",
+    "A055508"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:38:19",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

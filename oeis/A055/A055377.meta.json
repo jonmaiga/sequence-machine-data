@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = largest prime <= n/2.",
+  "id": "A055377",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A003418",
+    "A006530",
+    "A007917",
+    "A025527",
+    "A060265",
+    "A079952",
+    "A079953"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:15",
+    "offset": 4,
+    "size": 75,
+    "source": "joeis"
+  }
+}

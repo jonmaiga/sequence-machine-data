@@ -1,0 +1,21 @@
+{
+  "description": "Alternating sum of balanced ternary digits in n. Replace 3^k with (-1)^k in balanced ternary expansion of n.",
+  "id": "A065364",
+  "mentions": [
+    "A059095",
+    "A065363",
+    "A065368"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

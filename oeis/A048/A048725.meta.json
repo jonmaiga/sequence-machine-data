@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Xmult(n,5) or rule90(n,1).",
+  "id": "A048725",
+  "mentions": [
+    "A038183",
+    "A048705",
+    "A048710",
+    "A048720",
+    "A048724",
+    "A048727",
+    "A048729",
+    "A353167"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

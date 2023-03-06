@@ -1,0 +1,26 @@
+{
+  "description": "Primes of form 10*k + 9.",
+  "id": "A030433",
+  "mentions": [
+    "A000040",
+    "A017377",
+    "A045457",
+    "A049510",
+    "A102700",
+    "A132234",
+    "A132236",
+    "A274397",
+    "A327753"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

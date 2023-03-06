@@ -1,0 +1,22 @@
+{
+  "description": "Dimension of invariants of n-th tensor power of 5-dimensional irreducible representation of B_2.",
+  "id": "A095922",
+  "mentions": [
+    "A000108",
+    "A059710",
+    "A247304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

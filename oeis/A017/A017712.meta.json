@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of sum of -24th powers of divisors of n.",
+  "id": "A017712",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001160",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017711"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:29",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

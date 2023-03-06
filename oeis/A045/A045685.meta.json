@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2n-bead balanced binary necklaces of fundamental period 2n which are equivalent to their reverse, but not equivalent to their complement and reversed complement.",
+  "id": "A045685",
+  "mentions": [
+    "A045676",
+    "A045680",
+    "A045683"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:03:56",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

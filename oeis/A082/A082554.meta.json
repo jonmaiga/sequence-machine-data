@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose base-2 representation is a block of 1's, followed by a block of 0's, followed by a block of 1's.",
+  "id": "A082554",
+  "mentions": [
+    "A000040",
+    "A043570",
+    "A100714"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

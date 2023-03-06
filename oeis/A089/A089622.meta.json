@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n^n + n-th prime.",
+  "id": "A089622",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:31:52",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

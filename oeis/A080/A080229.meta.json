@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms in the continued fraction for x, where x is the Golden ratio (phi=(1+sqrt(5))/2) truncated to n decimal digits.",
+  "id": "A080229",
+  "mentions": [
+    "A065019"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

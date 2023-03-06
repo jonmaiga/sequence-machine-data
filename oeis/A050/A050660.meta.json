@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that number of primes produced according to rules stipulated in Honaker's A048853 is 9.",
+  "id": "A050660",
+  "mentions": [
+    "A048853",
+    "A050662",
+    "A050671"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:33",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n,k) of nonzero coefficients of the modified Hermite polynomials (n >= 0 and 0 <= k <= floor(n/2)).",
+  "id": "A096713",
+  "mentions": [
+    "A000085",
+    "A049403",
+    "A104556",
+    "A122848",
+    "A130757",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

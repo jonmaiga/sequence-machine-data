@@ -1,0 +1,29 @@
+{
+  "description": "Number of multigraphs on n labeled edges (without loops).",
+  "id": "A020554",
+  "mentions": [
+    "A002718",
+    "A007716",
+    "A014500",
+    "A020555",
+    "A020556",
+    "A038205",
+    "A050535",
+    "A094574",
+    "A188392",
+    "A316974"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

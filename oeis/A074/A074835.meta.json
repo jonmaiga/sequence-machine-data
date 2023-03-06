@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(phi(n)) = sum of anti-divisors of n.",
+  "id": "A074835",
+  "mentions": [
+    "A062402",
+    "A066272",
+    "A066417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

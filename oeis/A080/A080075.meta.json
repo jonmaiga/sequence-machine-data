@@ -1,0 +1,23 @@
+{
+  "description": "Proth numbers: of the form k*2^m + 1 for k odd, m >= 1 and 2^m > k.",
+  "id": "A080075",
+  "mentions": [
+    "A080076",
+    "A086341",
+    "A112714",
+    "A116882",
+    "A157892",
+    "A157893"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

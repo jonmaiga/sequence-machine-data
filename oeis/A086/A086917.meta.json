@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(prime(n) - n*(log(n) - log(log(n)) - 1)) for n>=2.",
+  "id": "A086917",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

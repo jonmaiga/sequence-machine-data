@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest multiple of 7 with a digit sum = n.",
+  "id": "A077493",
+  "mentions": [
+    "A069532",
+    "A069534",
+    "A077494"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

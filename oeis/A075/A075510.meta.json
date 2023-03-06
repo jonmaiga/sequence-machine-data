@@ -1,0 +1,23 @@
+{
+  "description": "Fifth column of triangle A075497.",
+  "id": "A075510",
+  "mentions": [
+    "A008277",
+    "A025966",
+    "A075497",
+    "A075511",
+    "A075513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:38:32",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that p(n), p(n)+6, p(n)+12, p(n)+18 are consecutive primes, where p(n) denotes n-th prime.",
+  "id": "A090832",
+  "mentions": [
+    "A033451",
+    "A090833",
+    "A090834",
+    "A090835",
+    "A090836",
+    "A090837",
+    "A090838",
+    "A090839"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

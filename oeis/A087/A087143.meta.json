@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sum of digits of n is divisible by digital root of n.",
+  "id": "A087143",
+  "mentions": [
+    "A007953",
+    "A008591",
+    "A010888",
+    "A064807",
+    "A087144"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

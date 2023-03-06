@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = prime(1), a(2) = prime(prime( a(1) )), a(3) = prime(prime(prime( a(2) ))), a(4) = prime(prime(prime(prime( a(3) )))), etc.",
+  "id": "A092922",
+  "mentions": [
+    "A007097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

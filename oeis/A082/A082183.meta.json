@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k > 0 such that T(n) + T(k) = T(m), for some m, T(i) being the triangular numbers, n > 1.",
+  "id": "A082183",
+  "mentions": [
+    "A000217",
+    "A055527",
+    "A068194",
+    "A072522",
+    "A082184",
+    "A309332",
+    "A309507",
+    "A332547",
+    "A332554"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

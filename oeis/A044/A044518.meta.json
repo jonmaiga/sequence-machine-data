@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the string 5,5 occurs in the base-6 representation of k but not of k+1.",
+  "id": "A044518",
+  "mentions": [
+    "A350055"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:27",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

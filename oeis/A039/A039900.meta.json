@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions satisfying 0 < cn(0,5) + cn(1,5) + cn(4,5).",
+  "id": "A039900",
+  "mentions": [
+    "A003106",
+    "A003114",
+    "A006141",
+    "A039899",
+    "A047993",
+    "A064174",
+    "A117144",
+    "A240057",
+    "A324518",
+    "A324520",
+    "A324522",
+    "A324560",
+    "A324561"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

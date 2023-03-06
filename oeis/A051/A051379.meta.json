@@ -1,0 +1,26 @@
+{
+  "description": "Generalized Stirling number triangle of first kind.",
+  "id": "A051379",
+  "mentions": [
+    "A000035",
+    "A001730",
+    "A008275",
+    "A048854",
+    "A049388",
+    "A049389",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

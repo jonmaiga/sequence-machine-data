@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 12*k + 2 with nonempty inverse totient set.",
+  "id": "A063668",
+  "mentions": [
+    "A000010",
+    "A006530",
+    "A063667"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

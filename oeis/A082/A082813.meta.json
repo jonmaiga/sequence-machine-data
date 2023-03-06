@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers of form a^m + b^m + c^m + ..., where a*b*c* ... is the prime factorization of m.",
+  "id": "A082813",
+  "mentions": [
+    "A082814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

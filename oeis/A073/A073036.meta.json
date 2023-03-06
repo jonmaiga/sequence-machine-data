@@ -1,0 +1,19 @@
+{
+  "description": "Take A000040, omit commas: 23571113171923..., select primes seen when scanning three consecutive digits from left.",
+  "id": "A073036",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

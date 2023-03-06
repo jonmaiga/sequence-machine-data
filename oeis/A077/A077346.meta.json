@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which n-th row contains n smallest squares beginning with n.",
+  "id": "A077346",
+  "mentions": [
+    "A018796",
+    "A077347",
+    "A077348",
+    "A077349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

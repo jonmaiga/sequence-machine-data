@@ -1,0 +1,16 @@
+{
+  "description": "arctanh(arcsinh(x)+tan(x)) = 2*x+17/3!*x^3+873/5!*x^5+110127/7!*x^7...",
+  "id": "A013099",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:04:32",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array T(m, n) read by antidiagonals: number of binary strings with m 1's and n 0's without zigzags.",
+  "id": "A099172",
+  "mentions": [
+    "A078678",
+    "A128588"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

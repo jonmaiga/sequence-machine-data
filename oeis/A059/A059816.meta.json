@@ -1,0 +1,24 @@
+{
+  "description": "Let g_n be the ball packing n-width for the manifold torus X square; sequence gives denominator of (g_n/Pi)^2.",
+  "id": "A059816",
+  "mentions": [
+    "A059812",
+    "A059813",
+    "A059814",
+    "A059815",
+    "A059817",
+    "A059818"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

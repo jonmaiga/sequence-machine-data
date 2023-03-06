@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form 2^i*5^j where i+j is even.",
+  "id": "A054901",
+  "mentions": [
+    "A000302",
+    "A003592",
+    "A009969",
+    "A028260",
+    "A036667",
+    "A054774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

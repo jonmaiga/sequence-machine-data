@@ -1,0 +1,20 @@
+{
+  "description": "Same as A038528, except you may rearrange the digits before applying f; sequence gives n such that f(f(f(...(n)))) = 0 or empty.",
+  "id": "A038527",
+  "mentions": [
+    "A038528"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:33:53",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

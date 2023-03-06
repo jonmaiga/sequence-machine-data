@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into parts 6k+2 or 6k+4.",
+  "id": "A035385",
+  "mentions": [
+    "A000726"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:19:41",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

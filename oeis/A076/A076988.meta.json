@@ -1,0 +1,15 @@
+{
+  "description": "Smallest Fibonacci number of the form n*k + 1 with k>0.",
+  "id": "A076988",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

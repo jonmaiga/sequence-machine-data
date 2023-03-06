@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of n into 2 distinct positive cubes.",
+  "id": "A025468",
+  "mentions": [
+    "A000578",
+    "A025455",
+    "A025465",
+    "A025469",
+    "A048766"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of composite numbers less than n-th prime.",
+  "id": "A079725",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A007504",
+    "A034953",
+    "A054265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

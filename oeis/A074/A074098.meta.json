@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A074078.",
+  "id": "A074098",
+  "mentions": [
+    "A074078",
+    "A074097"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

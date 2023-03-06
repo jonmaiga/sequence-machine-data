@@ -1,0 +1,15 @@
+{
+  "description": "cosh(sinh(x)+tan(x))=1+4/2!*x^2+40/4!*x^4+838/6!*x^6+30552/8!*x^8...",
+  "id": "A013053",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:28:41",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

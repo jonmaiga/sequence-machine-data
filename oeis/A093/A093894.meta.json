@@ -1,0 +1,20 @@
+{
+  "description": "Composite members of A093893.",
+  "id": "A093894",
+  "mentions": [
+    "A093890",
+    "A093891",
+    "A093892",
+    "A093893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

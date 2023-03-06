@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of endofunctions on [n] with a 4-cycle a->b->c->d->a and for any x in [n], some iterate f^k(x) = a.",
+  "id": "A065888",
+  "mentions": [
+    "A000169",
+    "A053506",
+    "A065513",
+    "A065889"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 4,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

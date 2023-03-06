@@ -1,0 +1,23 @@
+{
+  "description": "Number of bipartite graphs with 5 edges on nodes {1..n}.",
+  "id": "A053528",
+  "mentions": [
+    "A000217",
+    "A050534",
+    "A053526",
+    "A053527",
+    "A117279"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:31",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that A001414(p-1) and A001414(p+1) are both prime, where A001414 = sum of primes dividing n (with repetition).",
+  "id": "A086715",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

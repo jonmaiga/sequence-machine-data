@@ -1,0 +1,24 @@
+{
+  "description": "Basis for code in A075934.",
+  "id": "A075935",
+  "mentions": [
+    "A075928",
+    "A075929",
+    "A075930",
+    "A075932",
+    "A075934",
+    "A075936",
+    "A075941"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

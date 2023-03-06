@@ -1,0 +1,36 @@
+{
+  "description": "Take the first n numbers written in base 4, concatenate them, then convert from base 4 to base 10.",
+  "id": "A048436",
+  "mentions": [
+    "A007908",
+    "A014825",
+    "A047778",
+    "A048435",
+    "A048437",
+    "A048438",
+    "A048439",
+    "A048440",
+    "A048441",
+    "A048442",
+    "A048443",
+    "A048444",
+    "A048445",
+    "A048446",
+    "A048447",
+    "A117640"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

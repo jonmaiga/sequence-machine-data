@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, a(n) = number of a(k) with 1 <= k <= n-1 such that a(k) divides a(n-k).",
+  "id": "A055224",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

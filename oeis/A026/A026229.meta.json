@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A026166(k) = A026142(k) - 2.",
+  "id": "A026229",
+  "mentions": [
+    "A026142",
+    "A026166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

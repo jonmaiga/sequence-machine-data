@@ -1,0 +1,25 @@
+{
+  "description": "1/6 the number of colorings of a 4 X 4 rhombic- or staggered- hexagonal array with n colors.",
+  "id": "A068245",
+  "mentions": [
+    "A000332",
+    "A002417",
+    "A027441",
+    "A068239",
+    "A068305",
+    "A212162",
+    "A212163"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:27",
+    "offset": 3,
+    "size": 17,
+    "source": "joeis"
+  }
+}

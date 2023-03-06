@@ -1,0 +1,24 @@
+{
+  "description": "Primes p == 1 mod 8 such that 2 and -2 are both 4th powers (one implies other) mod p.",
+  "id": "A014754",
+  "mentions": [
+    "A007519",
+    "A007522",
+    "A040098",
+    "A065909",
+    "A065910",
+    "A065911",
+    "A065912",
+    "A070179"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle: row #n has n+1 terms. T(n,m) = 4^m (2n+1)! / ( (2n-2m)! (2m+1)! ).",
+  "id": "A085841",
+  "mentions": [
+    "A085840"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

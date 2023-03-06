@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that prime(n)^2 > prime(n-1)*prime(n+1).",
+  "id": "A046868",
+  "mentions": [
+    "A046869"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

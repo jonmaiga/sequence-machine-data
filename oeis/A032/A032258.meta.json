@@ -1,0 +1,18 @@
+{
+  "description": "Shifts left 2 places under \"DHK\" (bracelet, identity, unlabeled) transform.",
+  "id": "A032258",
+  "mentions": [
+    "A032256",
+    "A032257"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

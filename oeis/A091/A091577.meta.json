@@ -1,0 +1,23 @@
+{
+  "description": "Poincaré series [or Poincare series] of the preprojective algebra of a Dynkin diagram of type E_6.",
+  "id": "A091577",
+  "mentions": [
+    "A091571",
+    "A091572",
+    "A091573",
+    "A091574",
+    "A091575",
+    "A091576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

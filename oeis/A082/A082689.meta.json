@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of n*sum(k=1,(-1)^(k+1)/(n+k)).",
+  "id": "A082689",
+  "mentions": [
+    "A082690"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

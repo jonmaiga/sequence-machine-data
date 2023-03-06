@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest positive number m such that m^2 + n is the next prime > m^2.",
+  "id": "A058055",
+  "mentions": [
+    "A053000",
+    "A058056",
+    "A070316",
+    "A070317",
+    "A085099",
+    "A215249"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

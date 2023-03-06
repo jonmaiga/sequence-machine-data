@@ -1,0 +1,28 @@
+{
+  "description": "Primes whose decimal representation also represents a prime in base 2.",
+  "id": "A089971",
+  "mentions": [
+    "A000040",
+    "A020449",
+    "A031974",
+    "A065720",
+    "A089981",
+    "A090707",
+    "A090708",
+    "A090709",
+    "A090710",
+    "A235394",
+    "A235395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

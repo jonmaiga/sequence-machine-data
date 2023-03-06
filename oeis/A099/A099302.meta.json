@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer solutions to x' = n, where x' is the arithmetic derivative of x.",
+  "id": "A099302",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A098699",
+    "A098700",
+    "A099303",
+    "A189558",
+    "A189560",
+    "A189561",
+    "A189562",
+    "A239433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

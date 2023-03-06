@@ -1,0 +1,17 @@
+{
+  "description": "Smallest odd pseudoprimes to base n exceeding n (like A007535 but with smallest odd terms instead of few even ones).",
+  "id": "A090085",
+  "mentions": [
+    "A007535"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

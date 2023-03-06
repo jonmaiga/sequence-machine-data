@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least x such that length of fixed-point-list when function-A085307[] was iterated and started at a(n) equals n.",
+  "id": "A084685",
+  "mentions": [
+    "A085307",
+    "A085308",
+    "A085309",
+    "A085317",
+    "A085323"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

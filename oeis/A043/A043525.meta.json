@@ -1,0 +1,29 @@
+{
+  "description": "Numbers having one 9 in base 10.",
+  "id": "A043525",
+  "mentions": [
+    "A011539",
+    "A043489",
+    "A043493",
+    "A043497",
+    "A043501",
+    "A043505",
+    "A043509",
+    "A043513",
+    "A043517",
+    "A043521",
+    "A140502"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:21",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

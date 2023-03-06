@@ -1,0 +1,21 @@
+{
+  "description": "If n = pqr...st in binary, a(n) = value of continuant [p,q,r,...,s,t].",
+  "id": "A072347",
+  "mentions": [
+    "A000045",
+    "A272530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:41",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

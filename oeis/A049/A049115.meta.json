@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of iterations of the Euler phi function needed to reach a power of 2, when starting from n.",
+  "id": "A049115",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A049113",
+    "A057716",
+    "A064097",
+    "A064415",
+    "A209229",
+    "A227944",
+    "A329697"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

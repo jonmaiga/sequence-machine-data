@@ -1,0 +1,21 @@
+{
+  "description": "A unitary phi reciprocal amicable number: consider two different numbers a, b which satisfy the following equation for some integer k: uphi(a)=uphi(b)=1/k*a*b/(a-b); or equivalently, 1/uphi(a)=1/uphi(b)=k*(-1/a+1/b); sequence gives b numbers.",
+  "id": "A080767",
+  "mentions": [
+    "A047994",
+    "A067739",
+    "A067741",
+    "A080766",
+    "A080768"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

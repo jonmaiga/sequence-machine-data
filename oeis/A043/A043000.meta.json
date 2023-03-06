@@ -1,0 +1,28 @@
+{
+  "description": "Number of digits in all base-b representations of n, for 2 <= b <= n.",
+  "id": "A043000",
+  "mentions": [
+    "A001597",
+    "A043306",
+    "A068953",
+    "A070939",
+    "A081604",
+    "A110591",
+    "A191322",
+    "A253642",
+    "A255165"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

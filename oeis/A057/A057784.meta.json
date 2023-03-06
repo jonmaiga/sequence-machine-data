@@ -1,0 +1,23 @@
+{
+  "description": "Number of polypons with n cells.",
+  "id": "A057784",
+  "mentions": [
+    "A151531",
+    "A151532",
+    "A151533",
+    "A355562"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Binary encoding of factorizations, alternative 2, a(n) = bef2(n);.",
+  "id": "A048676",
+  "mentions": [
+    "A048623",
+    "A048639",
+    "A048672",
+    "A048675"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:57:27",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

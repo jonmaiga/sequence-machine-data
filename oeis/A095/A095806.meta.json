@@ -1,0 +1,18 @@
+{
+  "description": "Reduced denominators in Wolfram's iteration for sqrt(2).",
+  "id": "A095806",
+  "mentions": [
+    "A095805"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

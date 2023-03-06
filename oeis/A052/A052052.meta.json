@@ -1,0 +1,24 @@
+{
+  "description": "Cubes whose digits occur with an equal minimal frequency of 2.",
+  "id": "A052052",
+  "mentions": [
+    "A045540",
+    "A052046",
+    "A052047",
+    "A052048",
+    "A052049",
+    "A052050",
+    "A052051"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

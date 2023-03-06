@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n} binomial(n,d).",
+  "id": "A056045",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000108",
+    "A001764",
+    "A002293",
+    "A007318",
+    "A027750",
+    "A110448",
+    "A174462",
+    "A308943"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

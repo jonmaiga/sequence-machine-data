@@ -1,0 +1,18 @@
+{
+  "description": "Number of peakless Motzkin paths with no U H^j U, no D H^j D and no D H^jU (j>0), where U=(1,1), D=(1,-1) and H=(1,0) (can be easily expressed using RNA secondary structure terminology).",
+  "id": "A098057",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:46:37",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

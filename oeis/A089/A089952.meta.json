@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n+1 and phi(n)+1 are both perfect squares.",
+  "id": "A089952",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A005563",
+    "A063530"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

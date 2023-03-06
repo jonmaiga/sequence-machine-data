@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = A( x^2*A000108(x^2) )*x*A000984(x^2), where A000108(x) is the g.f. for the Catalan sequence and A000984(x) = d/dx x*A000108(x).",
+  "id": "A096971",
+  "mentions": [
+    "A000108",
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

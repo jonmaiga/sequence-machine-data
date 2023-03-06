@@ -1,0 +1,15 @@
+{
+  "description": "Sequence arising in multiprocessor page migration.",
+  "id": "A028252",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

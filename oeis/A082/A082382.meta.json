@@ -1,0 +1,20 @@
+{
+  "description": "Table which contains in row n the track of n->A003132(n) until reaching 1 or 4.",
+  "id": "A082382",
+  "mentions": [
+    "A003132"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are neither the sum of two nonzero squares nor the difference of two nonzero squares.",
+  "id": "A097271",
+  "mentions": [
+    "A000404",
+    "A024352",
+    "A062316",
+    "A097268",
+    "A097270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

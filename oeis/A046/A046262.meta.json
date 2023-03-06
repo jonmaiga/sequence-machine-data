@@ -1,0 +1,18 @@
+{
+  "description": "Largest palindromic substring in 4^n.",
+  "id": "A046262",
+  "mentions": [
+    "A046270"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

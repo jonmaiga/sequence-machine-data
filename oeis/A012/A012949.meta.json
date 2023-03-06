@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f. = sin(tan(x)+arcsin(x))=2*x-5/3!*x^3-63/5!*x^5-1311/7!*x^7-40503/9!*x^9...",
+  "id": "A012949",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

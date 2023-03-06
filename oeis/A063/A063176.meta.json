@@ -1,0 +1,20 @@
+{
+  "description": "Composites for which the row of the prime-composite array (A063173) includes the leftmost element of both a zero-only antidiagonal and a zero-only diagonal(A067681).",
+  "id": "A063176",
+  "mentions": [
+    "A063173",
+    "A063174",
+    "A063175",
+    "A067681"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

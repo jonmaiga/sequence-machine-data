@@ -1,0 +1,18 @@
+{
+  "description": "Period of continued fraction for square root of n (or 1 if n is a square).",
+  "id": "A097853",
+  "mentions": [
+    "A003285"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:35",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

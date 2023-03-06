@@ -1,0 +1,22 @@
+{
+  "description": "Non-occurring pairwise differences between the elements of the Mian-Chowla sequence variant A058335.",
+  "id": "A080932",
+  "mentions": [
+    "A005282",
+    "A058335",
+    "A080200",
+    "A080201",
+    "A080931"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

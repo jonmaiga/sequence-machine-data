@@ -1,0 +1,18 @@
+{
+  "description": "The number of permutations of n cards in which 4 will be the next hit after 2.",
+  "id": "A018932",
+  "mentions": [
+    "A002468"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

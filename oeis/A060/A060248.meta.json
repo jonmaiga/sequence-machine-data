@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that begin with the letter \"d\" in Portuguese.",
+  "id": "A060248",
+  "mentions": [
+    "A053069"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of 14-dimensional lattice M14,6 with minimal norm 6.",
+  "id": "A047637",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "(2n+1)-digit anti-palindromic numbers or numberdromes, whose first and last digits add to ten, second and next-to-last add to ten and so on with the central digit a 5.",
+  "id": "A093472",
+  "mentions": [
+    "A083678"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

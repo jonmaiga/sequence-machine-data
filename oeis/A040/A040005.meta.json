@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for sqrt(8).",
+  "id": "A040005",
+  "mentions": [
+    "A010466"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

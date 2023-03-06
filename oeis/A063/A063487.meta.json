@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 2^(2^n)-1 (A051179).",
+  "id": "A063487",
+  "mentions": [
+    "A000215",
+    "A046052",
+    "A051179"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

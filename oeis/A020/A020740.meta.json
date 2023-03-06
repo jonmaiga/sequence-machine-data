@@ -1,0 +1,19 @@
+{
+  "description": "Max_{k=0..n} d(C(n,k)) - d(C(n,[ n/2 ])), where d() = number of divisors.",
+  "id": "A020740",
+  "mentions": [
+    "A000005",
+    "A048485",
+    "A048569"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:00",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

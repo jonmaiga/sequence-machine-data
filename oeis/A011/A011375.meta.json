@@ -1,0 +1,18 @@
+{
+  "description": "Length of n-th term in A006960.",
+  "id": "A011375",
+  "mentions": [
+    "A006960"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

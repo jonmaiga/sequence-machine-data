@@ -1,0 +1,20 @@
+{
+  "description": "Number of halving and tripling steps for 10^n to reach 1 in '3x+1' problem.",
+  "id": "A094669",
+  "mentions": [
+    "A006577",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

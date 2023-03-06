@@ -1,0 +1,18 @@
+{
+  "description": "Let f(k) = k + pi(k); a(n) = least number of steps for f(f(f(...(n)))) to reach a prime.",
+  "id": "A090544",
+  "mentions": [
+    "A090545",
+    "A090546"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

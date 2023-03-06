@@ -1,0 +1,21 @@
+{
+  "description": "Let k = n-th nonsquare = A000037(n); then a(n) = smallest prime p such that the Kronecker-Jacobi symbol K(k,p) = -1.",
+  "id": "A092419",
+  "mentions": [
+    "A000037",
+    "A024356",
+    "A067073",
+    "A070040",
+    "A144294"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

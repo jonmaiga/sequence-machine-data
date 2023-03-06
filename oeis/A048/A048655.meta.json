@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Pellian with second term equal to 5.",
+  "id": "A048655",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A048654",
+    "A143095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number x such that cototient(x) = 2^n.",
+  "id": "A058764",
+  "mentions": [
+    "A007283",
+    "A042950",
+    "A051953",
+    "A053579",
+    "A053650"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of {1} union {odd primes}: 1 if n is 1 or an odd prime, else 0.",
+  "id": "A080545",
+  "mentions": [
+    "A010051",
+    "A080339",
+    "A080355",
+    "A080567",
+    "A171387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:47:05",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

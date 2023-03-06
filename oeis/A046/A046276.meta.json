@@ -1,0 +1,18 @@
+{
+  "description": "Largest palindromic substring in n! without an initial zero.",
+  "id": "A046276",
+  "mentions": [
+    "A046277"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

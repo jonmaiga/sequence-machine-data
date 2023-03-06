@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of x^n of A(x)^n is A005651(n), which is the sum of multinomial coefficients for n.",
+  "id": "A088946",
+  "mentions": [
+    "A005651"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

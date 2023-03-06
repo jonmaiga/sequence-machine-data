@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of F_9(q^2).",
+  "id": "A072839",
+  "mentions": [
+    "A008448",
+    "A023920",
+    "A072835"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

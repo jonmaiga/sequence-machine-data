@@ -1,0 +1,18 @@
+{
+  "description": "Highly composite numbers n such that 2*n is not a highly composite number.",
+  "id": "A073771",
+  "mentions": [
+    "A002182",
+    "A072938"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

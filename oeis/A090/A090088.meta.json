@@ -1,0 +1,23 @@
+{
+  "description": "Smallest even pseudoprimes to odd base=2n-1, not necessarily exceeding n. See also A007535 and A090086, A090087.",
+  "id": "A090088",
+  "mentions": [
+    "A007535",
+    "A090086",
+    "A090087",
+    "A090089",
+    "A090986",
+    "A090987"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

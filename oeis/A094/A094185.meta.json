@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to n == xy (mod z) == yz (mod x) == zx (mod y) with 0 < x < y < z.",
+  "id": "A094185",
+  "mentions": [
+    "A094595"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

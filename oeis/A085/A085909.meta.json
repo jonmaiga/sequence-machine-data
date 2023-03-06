@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p>prime(n) such that p+prime(n+1)-prime(n) is the next prime after p; or a(n)=0 if no such prime exists.",
+  "id": "A085909",
+  "mentions": [
+    "A001223",
+    "A001359",
+    "A006562",
+    "A049084",
+    "A085910"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

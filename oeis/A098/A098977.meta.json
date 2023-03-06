@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: counts ordered trees by number of edges and position of first edge that terminates at a vertex of outdegree 1.",
+  "id": "A098977",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A001006",
+    "A026012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

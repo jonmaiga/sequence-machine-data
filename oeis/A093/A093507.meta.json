@@ -1,0 +1,20 @@
+{
+  "description": "Perimeter of primitive Pythagorean triangles sorted on hypotenuse A020882(n).",
+  "id": "A093507",
+  "mentions": [
+    "A020882",
+    "A024364",
+    "A093508"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

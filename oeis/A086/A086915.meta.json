@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2^k * (n!/k!)*binomial(n-1,k-1).",
+  "id": "A086915",
+  "mentions": [
+    "A008297",
+    "A052849",
+    "A052897",
+    "A059110",
+    "A079621",
+    "A105278",
+    "A253286",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

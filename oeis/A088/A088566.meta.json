@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the p-th digit in the decimal expansion of Pi is 2.",
+  "id": "A088566",
+  "mentions": [
+    "A053746"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

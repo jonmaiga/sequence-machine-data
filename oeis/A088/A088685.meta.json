@@ -1,0 +1,21 @@
+{
+  "description": "Records for the sum-of-primes function sopfr(n) if sopfr(prime) is taken to be 0.",
+  "id": "A088685",
+  "mentions": [
+    "A001414",
+    "A048974",
+    "A052147",
+    "A067187",
+    "A088686"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of base 5 (n+1)-digit numbers starting with a zero and with adjacent digits differing by one or less.",
+  "id": "A057960",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000124",
+    "A000125",
+    "A000127",
+    "A000129",
+    "A001519",
+    "A005773",
+    "A038754",
+    "A052948",
+    "A155020",
+    "A188866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

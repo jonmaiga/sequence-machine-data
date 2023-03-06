@@ -1,0 +1,36 @@
+{
+  "description": "Table T(m,k)=m^k+k^m (with 0^0 taken to be 1) as square array read by antidiagonals.",
+  "id": "A055652",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000312",
+    "A001580",
+    "A001585",
+    "A001589",
+    "A001593",
+    "A001594",
+    "A001596",
+    "A013499",
+    "A051442",
+    "A051489",
+    "A055651",
+    "A076980",
+    "A155539",
+    "A156353",
+    "A156354"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:30:43",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

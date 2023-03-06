@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of natural numbers so that the product of n terms starting from a(n) is a square.",
+  "id": "A076123",
+  "mentions": [
+    "A076124"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

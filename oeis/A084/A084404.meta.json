@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n#*2^n+1 is prime, where n# = product of primes <= n.",
+  "id": "A084404",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

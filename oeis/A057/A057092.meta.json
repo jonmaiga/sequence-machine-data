@@ -1,0 +1,20 @@
+{
+  "description": "Scaled Chebyshev U-polynomials evaluated at i*3/2. Generalized Fibonacci sequence.",
+  "id": "A057092",
+  "mentions": [
+    "A049310",
+    "A063967"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

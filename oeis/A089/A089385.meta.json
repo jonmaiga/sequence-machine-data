@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>0} (1 + x^k) * (1 - x^(2*k)) / (1 + x^(4*k)) in powers of x.",
+  "id": "A089385",
+  "mentions": [
+    "A000041",
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A040051",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:58:07",
+    "offset": 0,
+    "size": 109,
+    "source": "joeis"
+  }
+}

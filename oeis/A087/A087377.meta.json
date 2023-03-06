@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: n-th row contains n smallest numbers k (say) such that nk+1 is a prime.",
+  "id": "A087377",
+  "mentions": [
+    "A034693",
+    "A087376"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

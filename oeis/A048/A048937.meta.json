@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with an even number of digits, n = d_1 d_2 ... d_n, such that there are exactly three ways to partition the digits into two groups of size n/2, say f_1 ... f_{n/2} and g_1 ... g_{n/2}, such that n = f_1 ... f_{n/2} * g_1 ... g_{n/2}.",
+  "id": "A048937",
+  "mentions": [
+    "A014575",
+    "A048933",
+    "A048939"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

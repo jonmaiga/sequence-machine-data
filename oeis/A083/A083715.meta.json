@@ -1,0 +1,22 @@
+{
+  "description": "(greatest prime <= n) mod (greatest prime factor of n).",
+  "id": "A083715",
+  "mentions": [
+    "A006530",
+    "A007917",
+    "A083714",
+    "A083716",
+    "A083717",
+    "A083718"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

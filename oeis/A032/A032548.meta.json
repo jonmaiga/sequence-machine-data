@@ -1,0 +1,23 @@
+{
+  "description": "Integer part of decimal 'base-7 looking' numbers divided by their actual base-7 values.",
+  "id": "A032548",
+  "mentions": [
+    "A007093",
+    "A032532",
+    "A032549",
+    "A032550"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

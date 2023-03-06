@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*k!/A062758(k) is an integer where A062758(k) is the product of squares of divisors of k.",
+  "id": "A069149",
+  "mentions": [
+    "A001563",
+    "A062758",
+    "A069148"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

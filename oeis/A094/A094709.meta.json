@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that prime(n)# - k and prime(n)# + k are primes, where prime(n)# = A002110(n).",
+  "id": "A094709",
+  "mentions": [
+    "A002110",
+    "A078611",
+    "A094710",
+    "A094711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

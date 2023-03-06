@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k): write n in base 10, reverse order of digits.",
+  "id": "A031298",
+  "mentions": [
+    "A000030",
+    "A010879",
+    "A030308",
+    "A030341",
+    "A030386",
+    "A030567",
+    "A031007",
+    "A031045",
+    "A031087",
+    "A031235",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:41",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest square m^2 such that the sum of the digits of m^2 is equal to n^2.",
+  "id": "A067072",
+  "mentions": [
+    "A061912",
+    "A067074"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

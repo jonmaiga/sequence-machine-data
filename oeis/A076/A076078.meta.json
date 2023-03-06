@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of nonempty sets of distinct positive integers that have a least common multiple of n.",
+  "id": "A076078",
+  "mentions": [
+    "A000005",
+    "A000225",
+    "A002235",
+    "A008836",
+    "A076413",
+    "A097210",
+    "A097218",
+    "A097416"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

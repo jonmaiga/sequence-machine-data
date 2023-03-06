@@ -1,0 +1,16 @@
+{
+  "description": "Greatest prime p such that p can be expressed as the sum of consecutive primes with largest prime in the sum = n-th prime.",
+  "id": "A082534",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

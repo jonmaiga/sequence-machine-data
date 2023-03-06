@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in the cycle-attractors of length=14 if the function f(x)=A063919(x) is iterated; f(x) is the sum of unitary proper divisors.",
+  "id": "A097030",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A063991",
+    "A097024"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "a(n) = 1 if n is of the form m(m+3)/2, otherwise 0.",
+  "id": "A023531",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000096",
+    "A000217",
+    "A003057",
+    "A003589",
+    "A005614",
+    "A007538",
+    "A007701",
+    "A010054",
+    "A023532",
+    "A024316",
+    "A084938",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:41",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

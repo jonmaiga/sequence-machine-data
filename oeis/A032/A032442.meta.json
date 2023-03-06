@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 / Product_{k >= 1} (1-q^k)^2*(1-q^(11k))^2.",
+  "id": "A032442",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A006571",
+    "A010054",
+    "A010815",
+    "A028610",
+    "A121373",
+    "A128525"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:49:28",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Square array read by antidiagonals of number of Catalan paths (nonnegative, starting and ending at 0, step +/-1) of 2n steps with all values less than or equal to k.",
+  "id": "A080934",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A001519",
+    "A007051",
+    "A011782",
+    "A024175",
+    "A033191",
+    "A040000",
+    "A057427",
+    "A063524",
+    "A079214",
+    "A080935",
+    "A080936",
+    "A080937",
+    "A080938",
+    "A094718",
+    "A124302",
+    "A211216",
+    "A259475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

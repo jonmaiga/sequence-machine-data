@@ -1,0 +1,30 @@
+{
+  "description": "Smallest 4th-power divisible by n divided by largest 4th-power which divides n.",
+  "id": "A056553",
+  "mentions": [
+    "A000190",
+    "A008835",
+    "A013662",
+    "A013678",
+    "A053164",
+    "A053165",
+    "A053166",
+    "A053167",
+    "A056551",
+    "A056554",
+    "A056555",
+    "A056556"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

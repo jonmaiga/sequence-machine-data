@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n-th term of Beatty sequence for e) - (n-th term of Beatty sequence for e/(e-1)).",
+  "id": "A014246",
+  "mentions": [
+    "A022843",
+    "A054385"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

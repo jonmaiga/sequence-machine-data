@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd-length palindromes among the k-tuples of partial quotients of the continued fraction expansions of n/r, r = 1, ..., n.",
+  "id": "A092089",
+  "mentions": [
+    "A000265",
+    "A028234",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

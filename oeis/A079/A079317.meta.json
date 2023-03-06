@@ -1,0 +1,24 @@
+{
+  "description": "Number of ON cells after n generations of cellular automaton on square grid in which cells which share exactly one edge with an ON cell change their state.",
+  "id": "A079317",
+  "mentions": [
+    "A000695",
+    "A079314",
+    "A079315",
+    "A147562",
+    "A147582",
+    "A151921"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of seating arrangements of n couples around a round table (up to rotations) so that each person sits between two people of the opposite sex and no couple is seated together.",
+  "id": "A094047",
+  "mentions": [
+    "A000179",
+    "A000186",
+    "A059375",
+    "A114939",
+    "A137729",
+    "A306496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

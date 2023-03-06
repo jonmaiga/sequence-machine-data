@@ -1,0 +1,19 @@
+{
+  "description": "First numerator and then denominator of each element of the 1/3-Pascal triangle (by row), excluding 3's.",
+  "id": "A046552",
+  "mentions": [
+    "A046534"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:33:59",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

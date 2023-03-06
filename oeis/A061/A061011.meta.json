@@ -1,0 +1,18 @@
+{
+  "description": "Successive maxima in sequence A060457.",
+  "id": "A061011",
+  "mentions": [
+    "A060457",
+    "A061012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

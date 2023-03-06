@@ -1,0 +1,19 @@
+{
+  "description": "Start at (2n+1)/4 and iterate the map x -> x*ceiling(x); sequence gives values of n for which the denominators in the orbit go from 4 to 2, instead of dropping directly to 1.",
+  "id": "A085833",
+  "mentions": [
+    "A073341",
+    "A085785",
+    "A085817"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

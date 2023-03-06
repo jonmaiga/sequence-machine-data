@@ -1,0 +1,19 @@
+{
+  "description": "First integer reached when starting with n/floor(log_2(n)) and iterating the map x -> x*ceiling(x) A075107(n) times, or -1 if no integer is ever reached.",
+  "id": "A075108",
+  "mentions": [
+    "A075103",
+    "A075107",
+    "A075121"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

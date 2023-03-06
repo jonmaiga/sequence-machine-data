@@ -1,0 +1,27 @@
+{
+  "description": "Number of simplices in minimal decomposition of an n-cube.",
+  "id": "A019502",
+  "mentions": [
+    "A019503",
+    "A019504",
+    "A094294",
+    "A166932",
+    "A238820",
+    "A238821",
+    "A239912",
+    "A275518"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

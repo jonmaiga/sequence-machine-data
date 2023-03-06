@@ -1,0 +1,18 @@
+{
+  "description": "Smallest palindromic multiple of 2n-1 beginning with the digit string of 2n-1; or 0 if no such number exists.",
+  "id": "A083964",
+  "mentions": [
+    "A083965"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct primes such that the concatenation of the initial n terms is a prime for all n >= 1.",
+  "id": "A083758",
+  "mentions": [
+    "A051670",
+    "A083759",
+    "A158521",
+    "A338072",
+    "A338073"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

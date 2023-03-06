@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of multigraphs without loops on n labeled nodes with k edges and maximum degree 2.",
+  "id": "A095693",
+  "mentions": [
+    "A000217",
+    "A000985",
+    "A002137",
+    "A002817"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

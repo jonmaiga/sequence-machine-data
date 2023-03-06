@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = F(n) + L(n) + n, where F(n) (A000045) and L(n) (A000204) are Fibonacci and Lucas numbers respectively.",
+  "id": "A013915",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A013655"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

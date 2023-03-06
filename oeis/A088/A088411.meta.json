@@ -1,0 +1,22 @@
+{
+  "description": "A088257 indexed by A002110.",
+  "id": "A088411",
+  "mentions": [
+    "A002110",
+    "A014545",
+    "A057704",
+    "A088257"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

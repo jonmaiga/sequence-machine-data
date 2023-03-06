@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of x(1+10x)/((1-x^2)(1-10x^2)).",
+  "id": "A094026",
+  "mentions": [
+    "A075427",
+    "A080610",
+    "A094025",
+    "A135652",
+    "A135653",
+    "A135654",
+    "A135655"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

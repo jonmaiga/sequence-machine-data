@@ -1,0 +1,18 @@
+{
+  "description": "Numbers equal to a permutation (or rearrangement) of the digits of the sum of their proper divisors. Rearrangements which cause leading zeros are excluded.",
+  "id": "A085844",
+  "mentions": [
+    "A000396"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

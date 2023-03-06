@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest m such that the partial sum of the odd harmonic series Sum_{j=0..m} 1/(2j+1) is > n.",
+  "id": "A092315",
+  "mentions": [
+    "A002387",
+    "A025547",
+    "A056053",
+    "A074599",
+    "A092318",
+    "A281355"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

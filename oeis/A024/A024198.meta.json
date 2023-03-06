@@ -1,0 +1,22 @@
+{
+  "description": "4th elementary symmetric function of the first n+3 odd positive integers.",
+  "id": "A024198",
+  "mentions": [
+    "A000332",
+    "A028338",
+    "A109692",
+    "A161198"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:25",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

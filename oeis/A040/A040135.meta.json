@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sqrt(148).",
+  "id": "A040135",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:18:35",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

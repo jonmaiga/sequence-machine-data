@@ -1,0 +1,17 @@
+{
+  "description": "Smallest square which is one more than the product of n (not necessarily distinct) numbers > 1.",
+  "id": "A081949",
+  "mentions": [
+    "A081948"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

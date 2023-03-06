@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, such that the convolution of the n-th row with the natural numbers forms the n-th diagonal, for n>=0, where each row begins with 1.",
+  "id": "A093010",
+  "mentions": [
+    "A000713",
+    "A000990",
+    "A092905"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

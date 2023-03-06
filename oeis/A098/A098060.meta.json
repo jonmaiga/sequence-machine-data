@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose French names end in a vowel.",
+  "id": "A098060",
+  "mentions": [
+    "A000861",
+    "A079741",
+    "A247359",
+    "A247360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

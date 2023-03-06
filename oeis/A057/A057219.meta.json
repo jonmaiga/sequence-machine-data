@@ -1,0 +1,17 @@
+{
+  "description": "{e^n}-th prime, where {e^n} is closest integer to e^n, A000227.",
+  "id": "A057219",
+  "mentions": [
+    "A000227"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

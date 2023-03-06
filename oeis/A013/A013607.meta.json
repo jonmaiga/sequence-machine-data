@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 6^n-prevprime(6^n).",
+  "id": "A013607",
+  "mentions": [
+    "A000400",
+    "A104091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

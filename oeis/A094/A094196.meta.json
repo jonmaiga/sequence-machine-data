@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the start of a string of 24 consecutive squares whose sum is a square.",
+  "id": "A094196",
+  "mentions": [
+    "A001032",
+    "A001652",
+    "A106521",
+    "A269447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:21:34",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

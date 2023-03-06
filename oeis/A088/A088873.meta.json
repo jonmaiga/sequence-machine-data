@@ -1,0 +1,20 @@
+{
+  "description": "Number of different values of A000005(d) where d is a divisor of n.",
+  "id": "A088873",
+  "mentions": [
+    "A000005",
+    "A085082",
+    "A181796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

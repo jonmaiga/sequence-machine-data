@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled 4-ary cacti having n polygons",
+  "id": "A052394",
+  "mentions": [
+    "A052395",
+    "A054362",
+    "A303912"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

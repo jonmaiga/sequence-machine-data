@@ -1,0 +1,31 @@
+{
+  "description": "If n = k-th prime, a(n) = 2*a(k) + 1; if n = k-th nonprime, a(n) = 2*a(k).",
+  "id": "A071574",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A035026",
+    "A049084",
+    "A057427",
+    "A061007",
+    "A065855",
+    "A066246",
+    "A069754",
+    "A237739",
+    "A246377"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations s_1,s_2,...,s_n of 1,2,...,n with s_1 = 3 and such that for all j=1,2,...,n, s_j divides Sum_{i=1..j} s_i.",
+  "id": "A093314",
+  "mentions": [
+    "A067957",
+    "A093313",
+    "A093315"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

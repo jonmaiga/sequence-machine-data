@@ -1,0 +1,22 @@
+{
+  "description": "Number of free n-celled polyzebras (or zebra-move-connected polyominoes).",
+  "id": "A093989",
+  "mentions": [
+    "A030444",
+    "A093877",
+    "A093990",
+    "A093991",
+    "A093992"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

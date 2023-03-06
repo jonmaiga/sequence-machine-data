@@ -1,0 +1,25 @@
+{
+  "description": "Number of factorizations of n where each factor has a different prime signature.",
+  "id": "A077565",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A025487",
+    "A046523",
+    "A077563",
+    "A077564",
+    "A077566",
+    "A101296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

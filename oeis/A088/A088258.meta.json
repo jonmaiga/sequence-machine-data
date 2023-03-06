@@ -1,0 +1,21 @@
+{
+  "description": "Factorials F which have at least one prime neighbor, i.e., F+1 or F-1 or both are primes.",
+  "id": "A088258",
+  "mentions": [
+    "A000142",
+    "A088256",
+    "A088257",
+    "A088412"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

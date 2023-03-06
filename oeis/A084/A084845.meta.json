@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the continued fraction n+1/(n+1/...) [n times].",
+  "id": "A084845",
+  "mentions": [
+    "A084844",
+    "A097690",
+    "A097691",
+    "A117715"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

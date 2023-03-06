@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n! is a product of distinct factorials k!*l!*m!*... with k, l, m, etc. < n.",
+  "id": "A075082",
+  "mentions": [
+    "A001013",
+    "A034878",
+    "A058295"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

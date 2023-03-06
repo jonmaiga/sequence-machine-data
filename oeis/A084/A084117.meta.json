@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicity of the factor (1+x+x^2) in the characteristic polynomial modulo 2 of the symmetric matrix with entries binomial(i+j,i), 0<=i,j",
+  "id": "A084117",
+  "mentions": [
+    "A085015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to color faces of an icosahedron using at most n colors.",
+  "id": "A054472",
+  "mentions": [
+    "A000543",
+    "A000545",
+    "A006008",
+    "A047780",
+    "A252704",
+    "A282670",
+    "A337959",
+    "A337960"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:21",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

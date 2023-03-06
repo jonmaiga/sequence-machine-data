@@ -1,0 +1,31 @@
+{
+  "description": "Pentagorials: n-th polygorial for k=5.",
+  "id": "A084939",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000326",
+    "A000680",
+    "A001044",
+    "A006472",
+    "A008544",
+    "A084940",
+    "A084941",
+    "A084942",
+    "A084943",
+    "A084944",
+    "A085356"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

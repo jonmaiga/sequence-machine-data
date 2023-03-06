@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-10 representation Sum_{i=0..m} d(i)*10^i has d(m) >= d(m-1) <= d(m-2) >= ...",
+  "id": "A032873",
+  "mentions": [
+    "A009996",
+    "A032907"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

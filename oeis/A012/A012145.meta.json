@@ -1,0 +1,15 @@
+{
+  "description": "sech(arcsin(arctanh(x)))=1-1/2!*x^2-7/4!*x^4-169/6!*x^6-9199/8!*x^8...",
+  "id": "A012145",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:40",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

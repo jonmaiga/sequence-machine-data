@@ -1,0 +1,31 @@
+{
+  "description": "Positive integers having distinct base-6 run lengths.",
+  "id": "A044817",
+  "mentions": [
+    "A044813",
+    "A044814",
+    "A044815",
+    "A044816",
+    "A044818",
+    "A044819",
+    "A044820",
+    "A044821",
+    "A044822",
+    "A044823",
+    "A044824",
+    "A044825",
+    "A044826",
+    "A044827"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

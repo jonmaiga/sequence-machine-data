@@ -1,0 +1,17 @@
+{
+  "description": "Nonisomorphic catacondensed monoheptafusenes (see reference for precise definition).",
+  "id": "A045904",
+  "mentions": [
+    "A121178"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Euler's totient of (prime(n)+1)*(prime(n+1)+1)/4.",
+  "id": "A079092",
+  "mentions": [
+    "A000010",
+    "A079079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

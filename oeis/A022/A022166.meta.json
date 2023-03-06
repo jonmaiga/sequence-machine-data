@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of Gaussian binomial coefficients (or q-binomial coefficients) [n,k] for q = 2.",
+  "id": "A022166",
+  "mentions": [
+    "A000225",
+    "A005329",
+    "A006095",
+    "A006096",
+    "A006098",
+    "A006116",
+    "A006516",
+    "A135950",
+    "A139382",
+    "A218449"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having a unique representation as sum of a prime and an 3-smooth number.",
+  "id": "A081312",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A081308",
+    "A081311",
+    "A081313"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

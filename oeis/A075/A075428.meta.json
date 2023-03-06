@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps to reach the first integer (= A075429(n)) starting with 1 + 2/(n*(n+1)) and iterating the map x -> x*ceiling(x), or -1 if no integer is ever reached.",
+  "id": "A075428",
+  "mentions": [
+    "A000217",
+    "A073524",
+    "A075429"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

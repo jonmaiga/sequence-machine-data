@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(n-p) where p is largest prime < n, a(1) = a(2) = 1 by convention.",
+  "id": "A078772",
+  "mentions": [
+    "A000010",
+    "A001223",
+    "A049711"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

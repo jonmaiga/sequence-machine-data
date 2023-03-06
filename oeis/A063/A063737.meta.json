@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sum of digits of n is equal to the sum of the prime factors of n, counted with multiplicity.",
+  "id": "A063737",
+  "mentions": [
+    "A001414",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

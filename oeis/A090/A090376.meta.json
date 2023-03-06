@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted generalized quadrangular dissections of weight n of a closed disk: planar maps having the external face bounded by a polygon and all internal faces of size 4.",
+  "id": "A090376",
+  "mentions": [
+    "A006385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

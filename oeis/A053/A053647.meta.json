@@ -1,0 +1,17 @@
+{
+  "description": "First term of first sequence of n primes in arithmetic progression with a common difference equal to the product of first n primes.",
+  "id": "A053647",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

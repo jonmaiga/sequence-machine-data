@@ -1,0 +1,22 @@
+{
+  "description": "Length of the n-th run of digit 5 in A030588.",
+  "id": "A030600",
+  "mentions": [
+    "A030588",
+    "A030596",
+    "A030597",
+    "A030598",
+    "A030599"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers that are not the sum of precisely six positive cubes.",
+  "id": "A057907",
+  "mentions": [
+    "A003329",
+    "A048929"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

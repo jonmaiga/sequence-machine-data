@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that 2n*p+1 is also prime.",
+  "id": "A051686",
+  "mentions": [
+    "A005384",
+    "A051644",
+    "A051654",
+    "A051899"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime in which the n-th significant digit is an 8.",
+  "id": "A069596",
+  "mentions": [
+    "A069588",
+    "A069589",
+    "A069590",
+    "A069591",
+    "A069592",
+    "A069593",
+    "A069594",
+    "A069595"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 2,
+    "size": 17,
+    "source": "joeis"
+  }
+}

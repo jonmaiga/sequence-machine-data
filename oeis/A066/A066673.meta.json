@@ -1,0 +1,19 @@
+{
+  "description": "Smallest term x from A066669 such that phi(x) = 2^n times some prime.",
+  "id": "A066673",
+  "mentions": [
+    "A000010",
+    "A066669",
+    "A066672"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

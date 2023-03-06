@@ -1,0 +1,31 @@
+{
+  "description": "Total number of 1's in binary expansion of all divisors of n.",
+  "id": "A093653",
+  "mentions": [
+    "A000043",
+    "A000120",
+    "A000668",
+    "A034690",
+    "A050475",
+    "A093563",
+    "A093687",
+    "A182627",
+    "A192895",
+    "A226590",
+    "A292257"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

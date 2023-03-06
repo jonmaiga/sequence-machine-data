@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected reduced partially ordered sets (posets) with n labeled elements.",
+  "id": "A066303",
+  "mentions": [
+    "A001927",
+    "A066302"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of subsets of A = {1,2,...,n} that have the same center of gravity as A, i.e., (n+1)/2.",
+  "id": "A070925",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

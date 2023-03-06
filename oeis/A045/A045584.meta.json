@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 4^k + 3^k.",
+  "id": "A045584",
+  "mentions": [
+    "A074605"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

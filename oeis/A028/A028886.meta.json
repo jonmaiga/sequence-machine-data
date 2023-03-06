@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form k^2 - 8.",
+  "id": "A028886",
+  "mentions": [
+    "A028884",
+    "A038873"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:39",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

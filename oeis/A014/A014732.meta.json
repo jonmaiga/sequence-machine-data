@@ -1,0 +1,21 @@
+{
+  "description": "Squares of numbers in triangle of Eulerian numbers that are not 1.",
+  "id": "A014732",
+  "mentions": [
+    "A008292",
+    "A014449"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:53:25",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

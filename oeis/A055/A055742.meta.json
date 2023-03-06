@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and EulerPhi(k) have same number of prime factors, counted without multiplicity.",
+  "id": "A055742",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A055744",
+    "A070418"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

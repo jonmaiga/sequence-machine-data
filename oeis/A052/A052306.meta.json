@@ -1,0 +1,18 @@
+{
+  "description": "Product of exponents of prime factorization of n by prime signature: A005361(A025487).",
+  "id": "A052306",
+  "mentions": [
+    "A005361",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

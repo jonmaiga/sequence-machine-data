@@ -1,0 +1,20 @@
+{
+  "description": "Let Cn(x) be the n-th cyclotomic polynomial; a(n) is the first prime Cn(x) after Cn(1).",
+  "id": "A085399",
+  "mentions": [
+    "A084732",
+    "A085398",
+    "A307687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

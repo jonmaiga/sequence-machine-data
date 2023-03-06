@@ -1,0 +1,20 @@
+{
+  "description": "Number of irreducible polynomials of degree n over GF(8); dimensions of free Lie algebras.",
+  "id": "A027380",
+  "mentions": [
+    "A001037",
+    "A001693",
+    "A074650"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

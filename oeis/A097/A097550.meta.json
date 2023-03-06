@@ -1,0 +1,32 @@
+{
+  "description": "Number of positive words of length n in the monoid Br_3 of positive braids on 4 strands.",
+  "id": "A097550",
+  "mentions": [
+    "A095263",
+    "A097551",
+    "A097552",
+    "A097553",
+    "A097554",
+    "A097555",
+    "A097556",
+    "A135364",
+    "A136302",
+    "A136303",
+    "A136304",
+    "A136305",
+    "A137229",
+    "A137234",
+    "A137249"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(91/2).",
+  "id": "A016622",
+  "mentions": [
+    "A016573"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of types of (n-1)-swap moves for traveling salesman problem. Number of circular permutations on elements 0,1,...,2n-1 where every two elements 2i,2i+1 and no two elements 2i-1,2i are adjacent.",
+  "id": "A061714",
+  "mentions": [
+    "A001171",
+    "A120765"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that remain prime through 3 iterations of function f(x) = 10x + 9.",
+  "id": "A023301",
+  "mentions": [
+    "A023240",
+    "A023270",
+    "A102700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

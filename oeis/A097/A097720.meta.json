@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes that differ from n-th prime in decimal representation by exactly one edit-operation: deletion, insertion, or substitution.",
+  "id": "A097720",
+  "mentions": [
+    "A000040",
+    "A080910",
+    "A097721",
+    "A097722"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

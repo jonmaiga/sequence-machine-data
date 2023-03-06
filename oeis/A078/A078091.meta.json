@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for constant defined in A065472.",
+  "id": "A078091",
+  "mentions": [
+    "A065472"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

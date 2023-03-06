@@ -1,0 +1,21 @@
+{
+  "description": "Number of consonants in n (in German).",
+  "id": "A037199",
+  "mentions": [
+    "A037193",
+    "A037195",
+    "A037200"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:43",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

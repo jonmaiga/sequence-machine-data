@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of Sierpiński's Constant.",
+  "id": "A062083",
+  "mentions": [
+    "A062089"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

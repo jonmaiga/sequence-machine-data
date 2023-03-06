@@ -1,0 +1,25 @@
+{
+  "description": "Number of 5-element T_0-antichains on a labeled n-set, n=0,..,32.",
+  "id": "A059081",
+  "mentions": [
+    "A059048",
+    "A059052",
+    "A059079",
+    "A059080",
+    "A059082",
+    "A059083"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

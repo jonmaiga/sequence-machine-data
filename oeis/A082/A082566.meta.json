@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p, 2p+1, 4p+3 are palindromic primes.",
+  "id": "A082566",
+  "mentions": [
+    "A007700",
+    "A082520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

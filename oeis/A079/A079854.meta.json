@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(k) divides a(k+r) for all k and r and the ratios a(k+r)/a(k) are all different.",
+  "id": "A079854",
+  "mentions": [
+    "A000045",
+    "A036241",
+    "A066720",
+    "A079852"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

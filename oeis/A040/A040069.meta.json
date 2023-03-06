@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^3 = 15 has a solution mod p.",
+  "id": "A040069",
+  "mentions": [
+    "A000040",
+    "A040070"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 15:45:29",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with property that n + 1 as well as the (product of digits of n) + 1 are primes.",
+  "id": "A089699",
+  "mentions": [
+    "A089700",
+    "A089701"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

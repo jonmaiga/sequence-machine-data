@@ -1,0 +1,19 @@
+{
+  "description": "Square root of a(n) contains the n-th prime as a string of digits to the immediate right of the decimal point (excluding leading zeros).",
+  "id": "A099400",
+  "mentions": [
+    "A074762",
+    "A074841"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

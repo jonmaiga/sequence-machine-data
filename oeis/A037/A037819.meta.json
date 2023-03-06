@@ -1,0 +1,18 @@
+{
+  "description": "Number of i such that d(i)>d(i-1), where Sum{d(i)*4^i: i=0,1,....,m} is base 4 representation of n.",
+  "id": "A037819",
+  "mentions": [
+    "A037802"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

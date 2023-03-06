@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of 3^n + 1.",
+  "id": "A074476",
+  "mentions": [
+    "A002587",
+    "A006530",
+    "A034472",
+    "A074477",
+    "A074478"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

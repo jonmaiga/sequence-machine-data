@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of probability that 2 elements of S_n chosen at random (with replacement) generate S_n.",
+  "id": "A040174",
+  "mentions": [
+    "A040173",
+    "A040175"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

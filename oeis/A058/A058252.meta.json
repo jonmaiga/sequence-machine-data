@@ -1,0 +1,22 @@
+{
+  "description": "Initial prime in set of 4 consecutive primes with common difference 36.",
+  "id": "A058252",
+  "mentions": [
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052197",
+    "A052242",
+    "A052243"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

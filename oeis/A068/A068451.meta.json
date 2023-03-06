@@ -1,0 +1,20 @@
+{
+  "description": "Factorial expansion of the golden ratio (1+sqrt(5))/2 = Sum_{n>=1} a(n)/n!.",
+  "id": "A068451",
+  "mentions": [
+    "A001622",
+    "A007514",
+    "A075874"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

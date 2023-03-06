@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of elements in the Coxeter complex of type B_n (or C_n).",
+  "id": "A080253",
+  "mentions": [
+    "A000670",
+    "A001333",
+    "A060187",
+    "A080254",
+    "A154695",
+    "A216794"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

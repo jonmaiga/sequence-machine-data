@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A078142(k) = A006530(k).",
+  "id": "A078327",
+  "mentions": [
+    "A006530",
+    "A078142",
+    "A078328",
+    "A145445"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

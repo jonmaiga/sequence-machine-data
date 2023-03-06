@@ -1,0 +1,19 @@
+{
+  "description": "Order of a certain Clifford group in dimension 2^n (the automorphism group of the Barnes-Wall lattice for n != 3).",
+  "id": "A014115",
+  "mentions": [
+    "A001309",
+    "A003956",
+    "A014116"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:37:42",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

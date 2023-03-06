@@ -1,0 +1,18 @@
+{
+  "description": "Repeated terms in A087657 (a(n) = |prime(n)-a(n-1)| + |prime(n)-a(n-2)| + |prime(n)-a(n-3)| ).",
+  "id": "A087658",
+  "mentions": [
+    "A004001",
+    "A087657"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

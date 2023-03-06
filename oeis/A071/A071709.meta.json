@@ -1,0 +1,19 @@
+{
+  "description": "Array A(i,j)= T(prime(i)^j) read by antidiagonals, where T(x) denote the \"type\" of the integer x: T(m)=1 or 2 depending on whether 1 or 2 is a descendant of n in the Half-totient tree.",
+  "id": "A071709",
+  "mentions": [
+    "A023022"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

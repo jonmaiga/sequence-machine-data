@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of the column of (R(i,j)) that contains prime(n), where R(i,j) is the rectangle with antidiagonals 1; 2,3; 4,5,6; ...",
+  "id": "A057061",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A004736",
+    "A057060",
+    "A185787"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:39",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

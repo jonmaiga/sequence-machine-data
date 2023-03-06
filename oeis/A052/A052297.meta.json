@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime factors of all composite numbers between n-th and (n+1)st primes.",
+  "id": "A052297",
+  "mentions": [
+    "A052180",
+    "A052248",
+    "A061214",
+    "A077218"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

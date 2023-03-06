@@ -1,0 +1,20 @@
+{
+  "description": "Base 4 expansion of 1/n has equal percentage of each digit 0,1,2,3.",
+  "id": "A074709",
+  "mentions": [
+    "A073761",
+    "A074827",
+    "A074900"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

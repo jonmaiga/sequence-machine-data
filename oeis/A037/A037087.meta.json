@@ -1,0 +1,18 @@
+{
+  "description": "Beatty sequence for e^(1/e).",
+  "id": "A037087",
+  "mentions": [
+    "A073229"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:33:39",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(2n) = smallest prime of the form k*a(2n-1) +1, k >1, a(2n+1) = smallest prime of the form r*a(2n)-1, r >1.",
+  "id": "A085871",
+  "mentions": [
+    "A085872"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

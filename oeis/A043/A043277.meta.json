@@ -1,0 +1,24 @@
+{
+  "description": "Maximal run length in base 3 representation of n.",
+  "id": "A043277",
+  "mentions": [
+    "A003462",
+    "A031941",
+    "A037973",
+    "A037974",
+    "A037975",
+    "A043276",
+    "A043290"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:07",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "cosh(arctan(arctan(x)))=1+1/2!*x^2-15/4!*x^4+609/6!*x^6-48031/8!*x^8...",
+  "id": "A012210",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:05:11",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Weight 5 level 11 cusp form with complex multiplication by Q(sqrt(11)) and trivial character.",
+  "id": "A065099",
+  "mentions": [
+    "A035179",
+    "A129522",
+    "A138661"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:35",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

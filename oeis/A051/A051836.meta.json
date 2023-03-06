@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(n+1)*(n+2)*(n+3)*(3*n+2)/120.",
+  "id": "A051836",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A001296",
+    "A093560",
+    "A213548"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:05",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

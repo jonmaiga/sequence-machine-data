@@ -1,0 +1,17 @@
+{
+  "description": "Sequence of the primes P = p(k)^2 + p(k) - 1 such that P and P + 2 are twin primes where p(k) denotes k-th prime.",
+  "id": "A088484",
+  "mentions": [
+    "A088483"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

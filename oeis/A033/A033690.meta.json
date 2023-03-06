@@ -1,0 +1,20 @@
+{
+  "description": "Theta series of A2[hole]^4.",
+  "id": "A033690",
+  "mentions": [
+    "A000731",
+    "A033685",
+    "A092342"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:57",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

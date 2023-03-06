@@ -1,0 +1,28 @@
+{
+  "description": "The Jacobsthal function g(n): maximal gap in a list of all the integers relatively prime to n.",
+  "id": "A048669",
+  "mentions": [
+    "A007947",
+    "A038566",
+    "A048670",
+    "A049298",
+    "A070194",
+    "A070971",
+    "A132468",
+    "A192224",
+    "A285183"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

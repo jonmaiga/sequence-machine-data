@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors of n that are semiprimes with distinct factors.",
+  "id": "A079275",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A001358",
+    "A006881",
+    "A007774",
+    "A033992",
+    "A033993"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

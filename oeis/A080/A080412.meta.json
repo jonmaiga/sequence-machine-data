@@ -1,0 +1,28 @@
+{
+  "description": "Exchange rightmost two binary digits of n > 1; a(0)=0, a(1)=2.",
+  "id": "A080412",
+  "mentions": [
+    "A004442",
+    "A007088",
+    "A021913",
+    "A047452",
+    "A047470",
+    "A047535",
+    "A047617",
+    "A080413",
+    "A080414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:09",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

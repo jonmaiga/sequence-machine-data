@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the length of the iteration trajectory when the cototient function (A051953) is applied to the n-th primorial number (A002110(n)).",
+  "id": "A098202",
+  "mentions": [
+    "A002110",
+    "A051953",
+    "A053475"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

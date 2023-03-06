@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck n-paths with k large components, 0 <= k <= n/2.",
+  "id": "A097877",
+  "mentions": [
+    "A000108",
+    "A065600"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

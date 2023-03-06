@@ -1,0 +1,15 @@
+{
+  "description": "a(0) = 2, a(n)=smallest prime > a(n-1) such that a(n) - a(n-1) == 0 mod n!.",
+  "id": "A087524",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

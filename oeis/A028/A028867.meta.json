@@ -1,0 +1,20 @@
+{
+  "description": "Primes with digits in nonincreasing order.",
+  "id": "A028867",
+  "mentions": [
+    "A028864",
+    "A052014",
+    "A052015"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

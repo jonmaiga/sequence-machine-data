@@ -1,0 +1,17 @@
+{
+  "description": "Total number of flats in the lattice of contractions of the n-cube. Also number of partitions of vertex set of n-cube into blocks all of which induce connected subgraphs.",
+  "id": "A058975",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

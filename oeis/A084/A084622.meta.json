@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that f(n) is a strict local extremum for the function f(x) = phi(x) + sigma(x); i.e., either f(n) > f(n-1) and f(n) > f(n+1) or f(n) < f(n-1) and f(n) < f(n+1).",
+  "id": "A084622",
+  "mentions": [
+    "A066485",
+    "A066923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

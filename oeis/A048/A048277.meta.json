@@ -1,0 +1,27 @@
+{
+  "description": "Number of (not necessarily distinct) nonsquarefree numbers among C(n,k), k=0..n.",
+  "id": "A048277",
+  "mentions": [
+    "A005117",
+    "A007318",
+    "A013929",
+    "A046098",
+    "A048276",
+    "A064460",
+    "A249442",
+    "A249716",
+    "A249732",
+    "A249733"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

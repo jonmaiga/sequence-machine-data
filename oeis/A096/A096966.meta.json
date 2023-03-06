@@ -1,0 +1,20 @@
+{
+  "description": "Triangle (read by rows) in which the number of entries in a row only increases by 1 every other row, the first column and the 'diagonal' is set to all 1's and a(i,j) = a(i-1,j) + a(i-1,j-1) + a(i-2,j-1) + a(i-3,j-1) for other entries.",
+  "id": "A096966",
+  "mentions": [
+    "A016777",
+    "A051682",
+    "A081271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

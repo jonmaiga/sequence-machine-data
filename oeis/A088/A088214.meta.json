@@ -1,0 +1,22 @@
+{
+  "description": "Numbers less than the maximum possible determinant A085000(3)=412 not occurring as determinant of a 3 X 3 matrix with elements 1..9.",
+  "id": "A088214",
+  "mentions": [
+    "A085000",
+    "A088215",
+    "A088216",
+    "A088217"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

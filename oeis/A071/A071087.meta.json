@@ -1,0 +1,18 @@
+{
+  "description": "w values for A071352.",
+  "id": "A071087",
+  "mentions": [
+    "A071352"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

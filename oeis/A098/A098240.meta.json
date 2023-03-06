@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that gcd(2k+1, numerator(Bernoulli(4k+2))) is squarefree.",
+  "id": "A098240",
+  "mentions": [
+    "A098242"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

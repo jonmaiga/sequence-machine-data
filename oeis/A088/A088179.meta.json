@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that mu(p-1) = 1; that is, p-1 is squarefree and has an even number of prime factors, where mu is the Moebius function.",
+  "id": "A088179",
+  "mentions": [
+    "A002496",
+    "A049092",
+    "A078330",
+    "A089451"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

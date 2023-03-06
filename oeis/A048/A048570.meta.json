@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) = number of divisors of binomial(n,k).",
+  "id": "A048570",
+  "mentions": [
+    "A000005",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:46:55",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

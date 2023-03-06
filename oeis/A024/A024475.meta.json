@@ -1,0 +1,17 @@
+{
+  "description": "s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (Lucas numbers), t = A001950 (upper Wythoff sequence).",
+  "id": "A024475",
+  "mentions": [
+    "A001950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:06:53",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

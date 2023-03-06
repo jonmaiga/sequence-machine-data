@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points of iteration in A077091.",
+  "id": "A077092",
+  "mentions": [
+    "A077090",
+    "A077091",
+    "A077100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

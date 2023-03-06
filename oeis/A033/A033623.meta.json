@@ -1,0 +1,22 @@
+{
+  "description": "Grundy function for turn-at-most-4-coins game.",
+  "id": "A033623",
+  "mentions": [
+    "A000069",
+    "A054016",
+    "A054043"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

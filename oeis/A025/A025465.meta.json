@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into 3 distinct nonnegative cubes.",
+  "id": "A025465",
+  "mentions": [
+    "A001239",
+    "A025468",
+    "A025469"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

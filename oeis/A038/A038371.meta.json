@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime factor of 10^n+1.",
+  "id": "A038371",
+  "mentions": [
+    "A001221",
+    "A003021",
+    "A020639",
+    "A057934",
+    "A062397",
+    "A102050",
+    "A119704",
+    "A185121"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

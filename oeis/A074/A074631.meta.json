@@ -1,0 +1,23 @@
+{
+  "description": "Sum of a(n) terms of Composite-Harmonic series, Sum 1/(i-th composite), is > n.",
+  "id": "A074631",
+  "mentions": [
+    "A002387",
+    "A002808",
+    "A004080",
+    "A016088",
+    "A046024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

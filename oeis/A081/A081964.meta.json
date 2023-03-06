@@ -1,0 +1,20 @@
+{
+  "description": "In the following triangle the n-th row contains n numbers relatively prime to n and not occurring in a previous row. a(1) = 1. Sequence contains the triangle by rows.",
+  "id": "A081964",
+  "mentions": [
+    "A081965",
+    "A081966",
+    "A095167"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{i=0,1,2,..; n-k*i >= -n} |n-k*i| for k=3.",
+  "id": "A092094",
+  "mentions": [
+    "A001044",
+    "A092396",
+    "A092397",
+    "A092398",
+    "A092399",
+    "A092971",
+    "A092972",
+    "A092973",
+    "A092974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

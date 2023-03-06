@@ -1,0 +1,20 @@
+{
+  "description": "Indices of hexagonal numbers which are also 9-gonal.",
+  "id": "A048917",
+  "mentions": [
+    "A048916",
+    "A048918"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

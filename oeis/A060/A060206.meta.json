@@ -1,0 +1,30 @@
+{
+  "description": "Number of rotationally symmetric closed meanders of length 4n+2.",
+  "id": "A060206",
+  "mentions": [
+    "A000682",
+    "A005315",
+    "A060066",
+    "A060089",
+    "A060111",
+    "A060148",
+    "A060149",
+    "A060174",
+    "A060198",
+    "A077055",
+    "A077460",
+    "A223096"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

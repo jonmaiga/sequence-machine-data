@@ -1,0 +1,19 @@
+{
+  "description": "Rent due for landing on undeveloped Monopoly properties starting at Mediterranean Avenue and finishing at Boardwalk, not including railroads or utilities.",
+  "id": "A082990",
+  "mentions": [
+    "A060225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

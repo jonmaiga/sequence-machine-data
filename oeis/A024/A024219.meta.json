@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor( (2nd elementary symmetric function of S(n))/(first elementary symmetric function of S(n)) ), where S(n) = {first n+1 positive integers congruent to 1 mod 3}.",
+  "id": "A024219",
+  "mentions": [
+    "A000326",
+    "A024212"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:41",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

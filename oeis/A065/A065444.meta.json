@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 9*Sum_{k>=1} 1/(10^k-1).",
+  "id": "A065444",
+  "mentions": [
+    "A002275",
+    "A067617",
+    "A073668"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

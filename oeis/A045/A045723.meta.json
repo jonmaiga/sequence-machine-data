@@ -1,0 +1,20 @@
+{
+  "description": "Number of configurations, excluding reflections and black-white interchanges, of n black and n white beads on a string.",
+  "id": "A045723",
+  "mentions": [
+    "A027306",
+    "A042942",
+    "A042971"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Factorial expansion of log(7) = Sum_{n>=1} a(n)/n!.",
+  "id": "A068460",
+  "mentions": [
+    "A016630",
+    "A016735",
+    "A067882",
+    "A068461",
+    "A322333",
+    "A322334"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

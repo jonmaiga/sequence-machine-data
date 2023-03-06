@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that prime(k) == 1 (mod sigma(k)).",
+  "id": "A067697",
+  "mentions": [
+    "A067696",
+    "A071170"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

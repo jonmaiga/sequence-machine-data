@@ -1,0 +1,19 @@
+{
+  "description": "Number of 0's in the binary expansion of A066884(n+1).",
+  "id": "A067586",
+  "mentions": [
+    "A066884"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

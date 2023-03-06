@@ -1,0 +1,35 @@
+{
+  "description": "The convolution matrix of the double factorial of odd numbers (A001147).",
+  "id": "A035342",
+  "mentions": [
+    "A000108",
+    "A001147",
+    "A008277",
+    "A008297",
+    "A035101",
+    "A035119",
+    "A035324",
+    "A035469",
+    "A039683",
+    "A039692",
+    "A049029",
+    "A049118",
+    "A094638",
+    "A105278",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

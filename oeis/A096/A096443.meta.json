@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of a multiset whose signature is the n-th partition (in Mathematica order).",
+  "id": "A096443",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000110",
+    "A002774",
+    "A020555",
+    "A035098",
+    "A035310",
+    "A063008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

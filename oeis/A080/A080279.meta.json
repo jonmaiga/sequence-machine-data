@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 1/G^n is closer to its nearest integer than any value of 1/G^k for 1 <= k < n, where G is Catalan's constant.",
+  "id": "A080279",
+  "mentions": [
+    "A079490",
+    "A080052",
+    "A080053"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

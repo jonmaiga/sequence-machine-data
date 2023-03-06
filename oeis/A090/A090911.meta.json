@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) is the least positive integer k such that (1) k is a one-digit number or the concatenation of two or more consecutive numbers; (2) |k-a(n)| is prime; and (3) |k-a(n)| is not the absolute difference of two previous consecutive members of the sequence.",
+  "id": "A090911",
+  "mentions": [
+    "A090910",
+    "A090913"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

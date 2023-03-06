@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of (2n+1)-digit palindromic primes that undulate.",
+  "id": "A057332",
+  "mentions": [
+    "A016073",
+    "A032758",
+    "A033619",
+    "A039944",
+    "A046075",
+    "A046076",
+    "A046077",
+    "A057333"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

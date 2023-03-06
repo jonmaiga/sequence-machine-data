@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that contain only one nonzero digit.",
+  "id": "A037124",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A011279",
+    "A038754",
+    "A051885",
+    "A055640",
+    "A061116",
+    "A098395",
+    "A133464",
+    "A138707",
+    "A140730",
+    "A140740",
+    "A193459",
+    "A193460"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lunar primes that are also rational primes.",
+  "id": "A084666",
+  "mentions": [
+    "A000040",
+    "A087061",
+    "A087097"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

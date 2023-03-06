@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that Pi^(n*e)-e^n is closer to its nearest integer than any value of Pi^(k*e)-e^k for 1 <= k < n.",
+  "id": "A080280",
+  "mentions": [
+    "A079490",
+    "A080052",
+    "A080279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

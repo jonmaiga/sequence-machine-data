@@ -1,0 +1,15 @@
+{
+  "description": "Number of prime unlabeled connected topologies (i.e., prime connected homeomorphism classes) on n points.",
+  "id": "A028857",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

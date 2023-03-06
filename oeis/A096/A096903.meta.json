@@ -1,0 +1,23 @@
+{
+  "description": "Least integer of each ordered prime signature (A055932) arranged by prime signature (each row starting with least integer of each prime signature, A025487).",
+  "id": "A096903",
+  "mentions": [
+    "A025487",
+    "A055932",
+    "A066099",
+    "A098719",
+    "A108244",
+    "A108730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

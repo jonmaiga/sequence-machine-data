@@ -1,0 +1,27 @@
+{
+  "description": "Array A(x,y): concatenation of the binary expansions of x & y in such a way that 'y' is inserted after the least significant 1-bit of 'x', followed by the remaining 0-bits, if any. Listed antidiagonalwise as A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ... Zero is expanded as an empty string.",
+  "id": "A085211",
+  "mentions": [
+    "A000265",
+    "A002262",
+    "A006519",
+    "A025581",
+    "A029837",
+    "A085203",
+    "A085207",
+    "A085212",
+    "A085213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

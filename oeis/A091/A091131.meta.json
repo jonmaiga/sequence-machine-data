@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of e - 1.",
+  "id": "A091131",
+  "mentions": [
+    "A000027",
+    "A001008",
+    "A001113",
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:35",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

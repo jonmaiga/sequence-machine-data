@@ -1,0 +1,22 @@
+{
+  "description": "Smallest n-digit Carmichael numbers.",
+  "id": "A048123",
+  "mentions": [
+    "A062568",
+    "A062852",
+    "A063400"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

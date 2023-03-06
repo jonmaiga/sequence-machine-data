@@ -1,0 +1,22 @@
+{
+  "description": "Square array of binomial related numbers, read by antidiagonals.",
+  "id": "A085475",
+  "mentions": [
+    "A016813",
+    "A085473",
+    "A085474"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sopf(k) = d(k) where d(k) = A001223(k) and sopf(k) = A008472(k).",
+  "id": "A064010",
+  "mentions": [
+    "A001223",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

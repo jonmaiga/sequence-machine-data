@@ -1,0 +1,22 @@
+{
+  "description": "Composite n such that n divides both Fibonacci(n-1) and Fibonacci(n) - 1.",
+  "id": "A094401",
+  "mentions": [
+    "A001175",
+    "A005845",
+    "A045468",
+    "A069106",
+    "A094394",
+    "A094400"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

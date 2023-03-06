@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Fibonacci(n) concatenated with its 10's complement is prime.",
+  "id": "A084621",
+  "mentions": [
+    "A084620"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

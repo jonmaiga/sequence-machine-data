@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = f(f(n)), where f() = A035327().",
+  "id": "A087734",
+  "mentions": [
+    "A000523",
+    "A035327",
+    "A036987",
+    "A063250"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

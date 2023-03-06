@@ -1,0 +1,19 @@
+{
+  "description": "Number of triangles in minimal triangle graphs.",
+  "id": "A048781",
+  "mentions": [
+    "A000080"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

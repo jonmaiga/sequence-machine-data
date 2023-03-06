@@ -1,0 +1,18 @@
+{
+  "description": "Total number of different legs traversed by all loops of length 2n in A038515.",
+  "id": "A038516",
+  "mentions": [
+    "A038515"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in Taylor series for exp(tan(x)).",
+  "id": "A047692",
+  "mentions": [
+    "A006229",
+    "A047691"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of numbers a(r,j) = j*(j+1) mod r+2, r>=1, j=1..r.",
+  "id": "A036238",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

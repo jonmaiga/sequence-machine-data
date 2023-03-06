@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = prime root of n-th prime power (A000961).",
+  "id": "A025473",
+  "mentions": [
+    "A000961",
+    "A006530",
+    "A013595",
+    "A020500",
+    "A020639",
+    "A025474",
+    "A025476",
+    "A056798",
+    "A192015"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:05",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

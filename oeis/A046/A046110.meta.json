@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice points on circumference of a circle of radius (2n+1)/2 with center at (1/2,0).",
+  "id": "A046110",
+  "mentions": [
+    "A046080",
+    "A046109"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:28:57",
+    "offset": 0,
+    "size": 98,
+    "source": "joeis"
+  }
+}

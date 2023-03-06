@@ -1,0 +1,30 @@
+{
+  "description": "Left summatory matrix, T, by antidiagonals upwards.",
+  "id": "A077049",
+  "mentions": [
+    "A000005",
+    "A002033",
+    "A002260",
+    "A004736",
+    "A007425",
+    "A007427",
+    "A008683",
+    "A032741",
+    "A051731",
+    "A077050",
+    "A077051",
+    "A077052"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

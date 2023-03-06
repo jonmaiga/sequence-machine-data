@@ -1,0 +1,23 @@
+{
+  "description": "Number of derangements up to cyclic rotations; permutation siteswap necklaces, with no fixed points (no \"zero-throws\", i.e., empty hands, if we use the mapping Perm2SiteSwap1 of A060495 and A060498).",
+  "id": "A064636",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A008290",
+    "A060495",
+    "A060498",
+    "A061417"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

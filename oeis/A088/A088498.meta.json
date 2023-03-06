@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^2 + k - 1 and k^2 + k + 1 are twin primes and (k + 1)*(k + 1) + k + 1 - 1 and (k + 1)*(k + 1) + k + 1 + 1 are also twin primes.",
+  "id": "A088498",
+  "mentions": [
+    "A088485"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

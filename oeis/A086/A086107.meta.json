@@ -1,0 +1,21 @@
+{
+  "description": "Prime members of A086108: Prime numbers which have the additional property that all symmetric polynomials of their digits are also prime numbers.",
+  "id": "A086107",
+  "mentions": [
+    "A046713",
+    "A086108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

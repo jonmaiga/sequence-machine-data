@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree parts of highly composite numbers (definition 1) (A002182).",
+  "id": "A062566",
+  "mentions": [
+    "A002182",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

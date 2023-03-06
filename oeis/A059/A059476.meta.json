@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4n X 4n quarter-turn symmetric alternating-sign matrices (QTSASM's).",
+  "id": "A059476",
+  "mentions": [
+    "A005130",
+    "A059475"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:09:38",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

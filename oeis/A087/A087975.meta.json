@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number having n as the largest number of distinct prime factors of any term in its 3x+1 trajectory.",
+  "id": "A087975",
+  "mentions": [
+    "A087974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

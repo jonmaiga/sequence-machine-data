@@ -1,0 +1,29 @@
+{
+  "description": "Number of algebraically independent elements of degree n in the algebra of symmetric polynomials in noncommuting variables.",
+  "id": "A074664",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A003319",
+    "A055105",
+    "A055106",
+    "A055107",
+    "A086211",
+    "A086329",
+    "A087903",
+    "A098742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

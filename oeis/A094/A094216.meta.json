@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows giving the coefficients of formulas generating each variety of S1(n,k) (unsigned Stirling numbers of first kind). The p-th row (p>=1) contains T(i,p) for i=1 to 2*p, where T(i,p) satisfies Sum_{i=1..2*p} T(i,p) * C(n,i).",
+  "id": "A094216",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000217",
+    "A000914",
+    "A000915",
+    "A001147",
+    "A001303",
+    "A008275",
+    "A008276",
+    "A053567",
+    "A094262"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Self-convolution of array T given by A008288.",
+  "id": "A026933",
+  "mentions": [
+    "A001850",
+    "A002203",
+    "A008288",
+    "A204061",
+    "A204062"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

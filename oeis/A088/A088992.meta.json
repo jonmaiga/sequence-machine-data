@@ -1,0 +1,23 @@
+{
+  "description": "Derangement numbers d(n,5) where d(n,k) = k(n-1)(d(n-1,k) + d(n-2,k)), with d(0,k) = 1 and d(1,k) = 0.",
+  "id": "A088992",
+  "mentions": [
+    "A000166",
+    "A008548",
+    "A033030",
+    "A053871",
+    "A088991"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

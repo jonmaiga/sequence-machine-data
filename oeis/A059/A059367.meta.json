@@ -1,0 +1,17 @@
+{
+  "description": "From solution to x = tan x (next term is not an integer).",
+  "id": "A059367",
+  "mentions": [
+    "A079330"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

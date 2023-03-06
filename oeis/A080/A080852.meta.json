@@ -1,0 +1,32 @@
+{
+  "description": "Square array of 4D pyramidal numbers, read by antidiagonals.",
+  "id": "A080852",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A001296",
+    "A002415",
+    "A002418",
+    "A002419",
+    "A051740",
+    "A051797",
+    "A055796",
+    "A057145",
+    "A080851",
+    "A180266",
+    "A257200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

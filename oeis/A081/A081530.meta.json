@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = running sum of the first n harmonic numbers, multiplied by the LCM of 1..n.",
+  "id": "A081530",
+  "mentions": [
+    "A001705",
+    "A025527",
+    "A081525",
+    "A081526",
+    "A081527",
+    "A081528",
+    "A081529"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

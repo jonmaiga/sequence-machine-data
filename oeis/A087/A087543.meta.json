@@ -1,0 +1,20 @@
+{
+  "description": "a(0) =1, a(1) = 2, a(n) = smallest prime beginning with the sum of two previous terms.",
+  "id": "A087543",
+  "mentions": [
+    "A087541",
+    "A087542",
+    "A087544"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

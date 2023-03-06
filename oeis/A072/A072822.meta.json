@@ -1,0 +1,19 @@
+{
+  "description": "The terms of A073215 (sums of two powers of 23) divided by 2.",
+  "id": "A072822",
+  "mentions": [
+    "A073215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

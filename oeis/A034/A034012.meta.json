@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k satisfying y^2 = x^5 - k where x^5 and y^2 are not both divisible by 2^10 and k = 2^(2*m)*d with d a positive squarefree integer d = 7 (mod 8) such that the class number of Q(sqrt(-d)) is not divisible by 5.",
+  "id": "A034012",
+  "mentions": [
+    "A034011",
+    "A034013",
+    "A034014"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

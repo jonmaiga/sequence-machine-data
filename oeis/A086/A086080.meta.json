@@ -1,0 +1,27 @@
+{
+  "description": "Number of 9's in decimal expansion of triangular number n(n+1)/2.",
+  "id": "A086080",
+  "mentions": [
+    "A000217",
+    "A086071",
+    "A086072",
+    "A086073",
+    "A086074",
+    "A086075",
+    "A086076",
+    "A086077",
+    "A086078",
+    "A086079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

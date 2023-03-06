@@ -1,0 +1,27 @@
+{
+  "description": "Divisors of 2310.",
+  "id": "A087005",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A005117",
+    "A018255",
+    "A018336",
+    "A087006",
+    "A087007",
+    "A087008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

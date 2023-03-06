@@ -1,0 +1,19 @@
+{
+  "description": "Total number of edges in all trees on n nodes.",
+  "id": "A095349",
+  "mentions": [
+    "A000055",
+    "A055543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

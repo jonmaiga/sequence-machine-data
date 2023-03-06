@@ -1,0 +1,26 @@
+{
+  "description": "Primes having initial digits \"10\" in binary representation.",
+  "id": "A080165",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A080166",
+    "A080167",
+    "A262284",
+    "A262285",
+    "A262286",
+    "A262287",
+    "A262365"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

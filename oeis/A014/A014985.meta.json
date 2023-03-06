@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (1 - (-4)^n)/5.",
+  "id": "A014985",
+  "mentions": [
+    "A014983",
+    "A014986",
+    "A014987",
+    "A014989",
+    "A014994",
+    "A077925"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

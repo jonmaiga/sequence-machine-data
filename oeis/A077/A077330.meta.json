@@ -1,0 +1,29 @@
+{
+  "description": "Smallest number beginning with 5 and having exactly n distinct prime divisors.",
+  "id": "A077330",
+  "mentions": [
+    "A077326",
+    "A077327",
+    "A077328",
+    "A077329",
+    "A077331",
+    "A077332",
+    "A077333",
+    "A077334",
+    "A106411",
+    "A106419",
+    "A106421",
+    "A106429"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest squarefree number that divides A077175(n).",
+  "id": "A077176",
+  "mentions": [
+    "A077172",
+    "A077173",
+    "A077174",
+    "A077175",
+    "A100918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

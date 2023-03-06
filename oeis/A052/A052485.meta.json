@@ -1,0 +1,21 @@
+{
+  "description": "Weak numbers (i.e., not powerful (1)): there is a prime p where p|n is true but p^2|n is not true.",
+  "id": "A052485",
+  "mentions": [
+    "A001694",
+    "A007916",
+    "A112526"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

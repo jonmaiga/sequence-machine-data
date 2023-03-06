@@ -1,0 +1,16 @@
+{
+  "description": "Number of multiples of n that can be obtained by permuting the digits of number formed by the concatenation of first n numbers.",
+  "id": "A077193",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

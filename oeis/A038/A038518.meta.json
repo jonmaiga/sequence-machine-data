@@ -1,0 +1,23 @@
+{
+  "description": "Number of elements of GF(2^n) with trace 0 and subtrace 0.",
+  "id": "A038518",
+  "mentions": [
+    "A038503",
+    "A038505",
+    "A038519",
+    "A038520",
+    "A038521"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n-k+1), where k = [ n/2 ], s = A000201 (lower Wythoff sequence).",
+  "id": "A025118",
+  "mentions": [
+    "A000201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:51",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the first n decimal places of log(2).",
+  "id": "A099535",
+  "mentions": [
+    "A039918",
+    "A046974",
+    "A046975",
+    "A099534"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

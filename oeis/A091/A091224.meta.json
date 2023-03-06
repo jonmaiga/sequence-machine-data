@@ -1,0 +1,19 @@
+{
+  "description": "Differences between consecutive irreducible GF(2)[X]-polynomials, divided by 2.",
+  "id": "A091224",
+  "mentions": [
+    "A028334",
+    "A091223",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:05",
+    "offset": 2,
+    "size": 101,
+    "source": "joeis"
+  }
+}

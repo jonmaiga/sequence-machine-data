@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A095725 (records in numerators of Kepler's tree).",
+  "id": "A095727",
+  "mentions": [
+    "A093873",
+    "A093875",
+    "A095725",
+    "A095728"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

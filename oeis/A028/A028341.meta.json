@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient of x^4 in expansion of (x+1)*(x+3)*...*(x+2*n-1).",
+  "id": "A028341",
+  "mentions": [
+    "A004041",
+    "A028338",
+    "A028339",
+    "A028340",
+    "A161198"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 4,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

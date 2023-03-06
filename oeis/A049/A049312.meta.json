@@ -1,0 +1,22 @@
+{
+  "description": "Number of graphs with a distinguished bipartite block, by number of vertices.",
+  "id": "A049312",
+  "mentions": [
+    "A028657",
+    "A047863",
+    "A048194",
+    "A318870"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

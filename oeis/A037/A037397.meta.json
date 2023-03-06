@@ -1,0 +1,21 @@
+{
+  "description": "Every base 5 digit of n is a base 10 digit of n.",
+  "id": "A037397",
+  "mentions": [
+    "A037393",
+    "A037394",
+    "A037395",
+    "A037396"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

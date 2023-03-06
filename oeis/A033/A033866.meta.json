@@ -1,0 +1,18 @@
+{
+  "description": "Least number of Reverse-then-add persistence n.",
+  "id": "A033866",
+  "mentions": [
+    "A023109"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:59:40",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

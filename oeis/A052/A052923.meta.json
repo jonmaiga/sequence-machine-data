@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1-x)/(1 - x - 4*x^2).",
+  "id": "A052923",
+  "mentions": [
+    "A006131",
+    "A026581"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

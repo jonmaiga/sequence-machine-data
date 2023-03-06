@@ -1,0 +1,17 @@
+{
+  "description": "Numbers having the same number of primitive roots that are primes == 1 or 2 (mod 4) as primes == 3 (mod 4).",
+  "id": "A098243",
+  "mentions": [
+    "A002313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

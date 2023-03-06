@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nonnegative integer that can be written as a sum of Fibonacci numbers in n ways, counting 1 twice as Fibonacci number.",
+  "id": "A083853",
+  "mentions": [
+    "A000121",
+    "A013583"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

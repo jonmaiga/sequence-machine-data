@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the position of A050614(n) in A062877.",
+  "id": "A062878",
+  "mentions": [
+    "A050614",
+    "A062877",
+    "A127872",
+    "A282387"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

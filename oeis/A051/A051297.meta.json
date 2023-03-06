@@ -1,0 +1,18 @@
+{
+  "description": "(Terms in A028266)/2.",
+  "id": "A051297",
+  "mentions": [
+    "A028262",
+    "A028266"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:29",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

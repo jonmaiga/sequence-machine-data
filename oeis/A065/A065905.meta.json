@@ -1,0 +1,22 @@
+{
+  "description": "Integers i > 1 for which there are two primes p such that i is a solution mod p of x^4 = 2.",
+  "id": "A065905",
+  "mentions": [
+    "A040028",
+    "A065902",
+    "A065903",
+    "A065904",
+    "A065906"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

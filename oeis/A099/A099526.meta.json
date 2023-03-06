@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1-2x-3x^4).",
+  "id": "A099526",
+  "mentions": [
+    "A099525"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:58:33",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

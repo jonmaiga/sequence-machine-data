@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((floor(n/2) + a(floor(n/2)))/2), a(1) = 1.",
+  "id": "A096605",
+  "mentions": [
+    "A002264",
+    "A096603",
+    "A096606",
+    "A096607"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

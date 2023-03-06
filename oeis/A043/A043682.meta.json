@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/2)*(n-th number whose base-2 representation has exactly 4 runs).",
+  "id": "A043682",
+  "mentions": [
+    "A023758",
+    "A043683",
+    "A043684",
+    "A043685",
+    "A043686"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:09",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

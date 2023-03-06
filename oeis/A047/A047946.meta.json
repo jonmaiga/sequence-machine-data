@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 5*F(n)^2 + 3*(-1)^n where F(n) are the Fibonacci numbers A000045.",
+  "id": "A047946",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005248",
+    "A028412",
+    "A133247"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:03:07",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

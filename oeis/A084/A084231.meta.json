@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the root-mean-square value of 1, 2, ..., k, i.e., sqrt((1/k)*Sum_{j=1..k} j^2), is an integer.",
+  "id": "A084231",
+  "mentions": [
+    "A084232"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

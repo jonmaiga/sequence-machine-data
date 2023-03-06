@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(n)^phi(n).",
+  "id": "A063439",
+  "mentions": [
+    "A000010",
+    "A000312",
+    "A014197"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

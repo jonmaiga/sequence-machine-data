@@ -1,0 +1,21 @@
+{
+  "description": "Non-cubefree noncubes.",
+  "id": "A074451",
+  "mentions": [
+    "A007412",
+    "A046099",
+    "A051144",
+    "A085541"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

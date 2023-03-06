@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes whose digits contain circles.",
+  "id": "A052090",
+  "mentions": [
+    "A053580"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Rearrangement of odd numbers not divisible by 5 such that every right concatenation of terms is a prime.",
+  "id": "A073676",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

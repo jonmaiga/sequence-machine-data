@@ -1,0 +1,24 @@
+{
+  "description": "Sum of terms in each group in A074147.",
+  "id": "A074149",
+  "mentions": [
+    "A000035",
+    "A006003",
+    "A061804",
+    "A061925",
+    "A074147",
+    "A074148"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:47",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

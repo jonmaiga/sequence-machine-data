@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with 11 divisors.",
+  "id": "A030629",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001248",
+    "A008454",
+    "A009087",
+    "A013668",
+    "A013678",
+    "A030514",
+    "A030516"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

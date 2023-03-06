@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of the leading coefficient of the Airy zeta functions expressed as polynomials of X = 3^(5/6)Gamma(2/3)^2/(2Pi).",
+  "id": "A096632",
+  "mentions": [
+    "A096631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

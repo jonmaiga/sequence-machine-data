@@ -1,0 +1,32 @@
+{
+  "description": "First differences are 2,1,-2,3 (repeated).",
+  "id": "A056699",
+  "mentions": [
+    "A005408",
+    "A014601",
+    "A016813",
+    "A042938",
+    "A042963",
+    "A067060",
+    "A092486",
+    "A103889",
+    "A116966",
+    "A132400",
+    "A263449",
+    "A284307",
+    "A292576",
+    "A298364"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

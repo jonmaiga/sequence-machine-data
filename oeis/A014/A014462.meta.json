@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array formed from elements to left of middle of Pascal's triangle.",
+  "id": "A014462",
+  "mentions": [
+    "A000037",
+    "A001791",
+    "A007318",
+    "A008314",
+    "A014413",
+    "A034868",
+    "A058622",
+    "A117178"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

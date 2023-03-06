@@ -1,0 +1,19 @@
+{
+  "description": "Prime lucky numbers k (from A031157) such that nextprime(k)=nextlucky(k).",
+  "id": "A057698",
+  "mentions": [
+    "A000959",
+    "A031157"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

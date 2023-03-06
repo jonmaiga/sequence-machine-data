@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is chosen so as to maximize the number of different substrings in (a(1),a(2),...,a(n)).",
+  "id": "A093691",
+  "mentions": [
+    "A038219",
+    "A079101",
+    "A080415",
+    "A093692",
+    "A093693"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

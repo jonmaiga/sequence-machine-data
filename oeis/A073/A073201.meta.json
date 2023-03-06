@@ -1,0 +1,34 @@
+{
+  "description": "Array of cycle count sequences for the table A073200.",
+  "id": "A073201",
+  "mentions": [
+    "A000108",
+    "A001683",
+    "A002995",
+    "A003239",
+    "A007123",
+    "A007595",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057507",
+    "A057513",
+    "A063171",
+    "A073191",
+    "A073193",
+    "A073200",
+    "A073202",
+    "A073431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 mod 13.",
+  "id": "A070436",
+  "mentions": [
+    "A070434",
+    "A070435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:25",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Vampire numbers: (definition 1): n has a nontrivial factorization using n's digits.",
+  "id": "A020342",
+  "mentions": [
+    "A014575",
+    "A048936",
+    "A080718",
+    "A144563",
+    "A280928"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

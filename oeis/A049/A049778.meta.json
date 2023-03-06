@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..floor((n+1)/2)} T(n,2k-1), array T as in A049777.",
+  "id": "A049778",
+  "mentions": [
+    "A023855",
+    "A049777",
+    "A095800",
+    "A213849"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:33",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

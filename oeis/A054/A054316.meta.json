@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled 2-connected 3-edge-connected graphs with n nodes.",
+  "id": "A054316",
+  "mentions": [
+    "A003317",
+    "A054317",
+    "A054595"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 4,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

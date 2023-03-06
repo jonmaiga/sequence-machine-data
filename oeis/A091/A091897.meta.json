@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that remain prime or composite for all permutations of their digits.",
+  "id": "A091897",
+  "mentions": [
+    "A003459",
+    "A010785",
+    "A067012",
+    "A091898"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that F(k^2+1) == 1 (mod k) where F(k) denotes the k-th Fibonacci number.",
+  "id": "A086391",
+  "mentions": [
+    "A000045",
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

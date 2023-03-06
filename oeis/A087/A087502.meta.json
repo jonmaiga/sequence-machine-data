@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer which when written in base n is doubled when the last digit is put first.",
+  "id": "A087502",
+  "mentions": [
+    "A023094",
+    "A034089",
+    "A081463",
+    "A158877"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

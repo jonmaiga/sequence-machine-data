@@ -1,0 +1,18 @@
+{
+  "description": "Smallest multiple of n that begins with the concatenation of the positive integers <= n and coprime to n (in increasing order).",
+  "id": "A078217",
+  "mentions": [
+    "A078811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

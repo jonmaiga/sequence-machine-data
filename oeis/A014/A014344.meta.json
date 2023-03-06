@@ -1,0 +1,21 @@
+{
+  "description": "Four-fold convolution of primes with themselves.",
+  "id": "A014344",
+  "mentions": [
+    "A000040",
+    "A014342",
+    "A014343",
+    "A340991"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:27",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

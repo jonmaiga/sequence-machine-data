@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the n-th prime that ends with prime(n), or 0 if there do not exist n primes ending with prime(n).",
+  "id": "A089778",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

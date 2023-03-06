@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that m-th pandigital A050278(m) is a multiple of n or -1 if no such m exists.",
+  "id": "A071926",
+  "mentions": [
+    "A050278"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

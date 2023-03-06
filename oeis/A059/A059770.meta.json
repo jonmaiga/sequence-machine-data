@@ -1,0 +1,20 @@
+{
+  "description": "First solution of x^2 = 2 mod p for primes p such that a solution exists.",
+  "id": "A059770",
+  "mentions": [
+    "A038873",
+    "A059771",
+    "A059772"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

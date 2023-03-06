@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n*10^(n-1).",
+  "id": "A053541",
+  "mentions": [
+    "A001787",
+    "A001792",
+    "A033714",
+    "A038303",
+    "A053464",
+    "A053469",
+    "A081045",
+    "A094798"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Reflected (see A074058) pentanacci numbers A074048.",
+  "id": "A074062",
+  "mentions": [
+    "A061084",
+    "A074048",
+    "A074058"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:13:14",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

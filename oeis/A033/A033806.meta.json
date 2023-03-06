@@ -1,0 +1,21 @@
+{
+  "description": "Product t2(q^d); d | 47, where t2 = theta2(q)/(2*q^(1/4)).",
+  "id": "A033806",
+  "mentions": [
+    "A033782",
+    "A033790",
+    "A035162",
+    "A128617"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

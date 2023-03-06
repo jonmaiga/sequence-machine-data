@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of the n-th minimal number into minimal numbers.",
+  "id": "A099387",
+  "mentions": [
+    "A000041",
+    "A005179",
+    "A007416",
+    "A099383",
+    "A099388"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

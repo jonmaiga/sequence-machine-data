@@ -1,0 +1,17 @@
+{
+  "description": "Theta series of A_20 lattice.",
+  "id": "A023911",
+  "mentions": [
+    "A023902"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

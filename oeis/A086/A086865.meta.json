@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2*10^n+11 is prime.",
+  "id": "A086865",
+  "mentions": [
+    "A081677"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

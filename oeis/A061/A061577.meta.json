@@ -1,0 +1,21 @@
+{
+  "description": "Sequence and first differences (A061578) include all numbers.",
+  "id": "A061577",
+  "mentions": [
+    "A005228",
+    "A022953",
+    "A030124",
+    "A061578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

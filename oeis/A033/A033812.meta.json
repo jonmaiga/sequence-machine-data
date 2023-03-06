@@ -1,0 +1,22 @@
+{
+  "description": "The Loh-Shu 3 X 3 magic square, lexicographically largest variant when read by columns.",
+  "id": "A033812",
+  "mentions": [
+    "A126652",
+    "A126709"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

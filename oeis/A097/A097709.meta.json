@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that A097708(n)+k is prime.",
+  "id": "A097709",
+  "mentions": [
+    "A097708"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Begins the earliest length-n chain of primes such that any term in the chain equals the previous term increased by the sum of its digits.",
+  "id": "A090009",
+  "mentions": [
+    "A047791",
+    "A048519",
+    "A048523",
+    "A048524",
+    "A048527",
+    "A062028",
+    "A320878",
+    "A320880"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

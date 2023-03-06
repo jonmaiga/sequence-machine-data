@@ -1,0 +1,17 @@
+{
+  "description": "Number of edges in all simple (loopless) paths, connecting any node with all the remaining ones in optimal graphs of degree 4.",
+  "id": "A058227",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

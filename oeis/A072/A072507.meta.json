@@ -1,0 +1,20 @@
+{
+  "description": "Smallest start of n consecutive integers with n divisors, or 0 if no such number exists.",
+  "id": "A072507",
+  "mentions": [
+    "A000005",
+    "A006558",
+    "A119479"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows giving T(n,k) = number of sets of k black squares in an n X n checkerboard with the upper left corner colored black, such that the line joining any 2 squares slopes down to the right, 0 <= k <= n.",
+  "id": "A079213",
+  "mentions": [
+    "A025565"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

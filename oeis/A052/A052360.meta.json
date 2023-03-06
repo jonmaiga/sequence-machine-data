@@ -1,0 +1,24 @@
+{
+  "description": "Number of characters in the English name of n, including spaces and hyphens.",
+  "id": "A052360",
+  "mentions": [
+    "A005589",
+    "A007005",
+    "A052362",
+    "A052363",
+    "A167507"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A035529.",
+  "id": "A049028",
+  "mentions": [
+    "A035529"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:16:59",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

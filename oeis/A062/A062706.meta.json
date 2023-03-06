@@ -1,0 +1,20 @@
+{
+  "description": "The array of A062704 read by diagonals in the 'up' direction.",
+  "id": "A062706",
+  "mentions": [
+    "A062704",
+    "A062705"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

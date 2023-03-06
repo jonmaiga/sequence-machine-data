@@ -1,0 +1,23 @@
+{
+  "description": "Convolution of natural numbers >= 2 and Fibonacci numbers.",
+  "id": "A023548",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005578",
+    "A006327",
+    "A107910"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

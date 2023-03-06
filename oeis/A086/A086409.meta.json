@@ -1,0 +1,19 @@
+{
+  "description": "a[1]=1; a[n+1]=a[n]-1 if prime[a[n]]+1)/2 is even, else a[n+1]=a[n]+4.",
+  "id": "A086409",
+  "mentions": [
+    "A086407",
+    "A086408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:37:21",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

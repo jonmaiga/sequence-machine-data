@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k)=2^n+2^k-1 with n>=k>=0.",
+  "id": "A099627",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A000225",
+    "A048645",
+    "A048881",
+    "A053221",
+    "A099628",
+    "A232089"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:17:25",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

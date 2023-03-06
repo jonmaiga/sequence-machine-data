@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n divisible by exactly two nontrivial permutations (rearrangements) of the digits of n, excluding all permutations that result in digit loss.",
+  "id": "A090061",
+  "mentions": [
+    "A090056",
+    "A090057"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

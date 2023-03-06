@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and sum of 4th powers of divisors of k are relatively prime.",
+  "id": "A046687",
+  "mentions": [
+    "A001159",
+    "A046684",
+    "A046686"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

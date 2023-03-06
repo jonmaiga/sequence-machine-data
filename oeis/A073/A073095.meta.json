@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the final nonzero digit of n! is the same as the last digit of C(2n,n) (in base 10).",
+  "id": "A073095",
+  "mentions": [
+    "A008904"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

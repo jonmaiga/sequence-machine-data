@@ -1,0 +1,22 @@
+{
+  "description": "Fib000 primes, i.e., primes p whose Zeckendorf-expansion A014417(p) ends with three zeros.",
+  "id": "A095085",
+  "mentions": [
+    "A000040",
+    "A014417",
+    "A095062",
+    "A095065",
+    "A101345"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

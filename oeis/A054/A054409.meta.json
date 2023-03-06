@@ -1,0 +1,21 @@
+{
+  "description": "Maximal difference between consecutive primes in range [prime(n), prime(n)^2].",
+  "id": "A054409",
+  "mentions": [
+    "A000040",
+    "A000879",
+    "A001223",
+    "A001248",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

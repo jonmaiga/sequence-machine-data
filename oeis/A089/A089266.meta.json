@@ -1,0 +1,26 @@
+{
+  "description": "Rational knots of determinant 2n+1, counting chiral pairs twice.",
+  "id": "A089266",
+  "mentions": [
+    "A018240",
+    "A034444",
+    "A037225",
+    "A051449",
+    "A051766",
+    "A078477",
+    "A078478"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

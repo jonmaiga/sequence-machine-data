@@ -1,0 +1,31 @@
+{
+  "description": "Number of nodes in largest rooted identity tree of height n.",
+  "id": "A038093",
+  "mentions": [
+    "A038082",
+    "A038083",
+    "A038084",
+    "A038085",
+    "A038086",
+    "A038087",
+    "A038088",
+    "A038089",
+    "A038090",
+    "A038091",
+    "A038092",
+    "A227819",
+    "A229403",
+    "A229404"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

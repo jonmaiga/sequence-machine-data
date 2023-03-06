@@ -1,0 +1,22 @@
+{
+  "description": "log2*(n) (version 1): number of times floor(log_2(x)) is used in floor(log_2(floor(log_2(...(floor(log_2(n)))...)))) = 0.",
+  "id": "A010096",
+  "mentions": [
+    "A000523",
+    "A001069",
+    "A063510",
+    "A230864"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:57",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

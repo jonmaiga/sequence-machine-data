@@ -1,0 +1,18 @@
+{
+  "description": "Odd composites m that divide Fibonacci(m)-1.",
+  "id": "A094394",
+  "mentions": [
+    "A094395",
+    "A094400"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

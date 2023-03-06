@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = c([ n/2 ]) + n, with a(1) = 1, c = complement to a.",
+  "id": "A023629",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:49",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

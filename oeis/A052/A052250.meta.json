@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, k >= 1) giving dimension of bigrading of Hopf algebra of rooted trees.",
+  "id": "A052250",
+  "mentions": [
+    "A000081",
+    "A051573",
+    "A051603",
+    "A052251",
+    "A052252"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

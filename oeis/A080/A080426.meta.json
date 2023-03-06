@@ -1,0 +1,26 @@
+{
+  "description": "a(1)=1, a(2)=3; all terms are either 1 or 3; each run of 3's is followed by a run of two 1's; and a(n) is the length of the n-th run of 3's.",
+  "id": "A080426",
+  "mentions": [
+    "A003156",
+    "A003160",
+    "A026465",
+    "A026490",
+    "A035263",
+    "A075326",
+    "A249031",
+    "A249032",
+    "A328979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

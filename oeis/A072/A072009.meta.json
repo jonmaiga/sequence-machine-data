@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of permutation A072007.",
+  "id": "A072009",
+  "mentions": [
+    "A072007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

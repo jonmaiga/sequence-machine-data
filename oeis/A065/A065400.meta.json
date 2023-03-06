@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the greatest integer m such that (1) written in factorial base it is also readable as if it is in base n and (2) this base-n value is greater than or equal to m.",
+  "id": "A065400",
+  "mentions": [
+    "A065399"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

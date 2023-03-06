@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Kronecker(7/n).",
+  "id": "A089509",
+  "mentions": [
+    "A003632",
+    "A038878",
+    "A080891",
+    "A091338"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

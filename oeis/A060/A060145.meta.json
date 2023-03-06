@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor(n/tau) - floor(n/(1 + tau)).",
+  "id": "A060145",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:47",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

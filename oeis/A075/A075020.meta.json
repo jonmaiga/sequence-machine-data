@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = the smallest prime divisor of the number C(n) formed from the reverse concatenation of 1,2,3,... up to n.",
+  "id": "A075020",
+  "mentions": [
+    "A000422",
+    "A007908",
+    "A075019",
+    "A104759",
+    "A116504",
+    "A116505",
+    "A138789",
+    "A138790",
+    "A138960",
+    "A138961",
+    "A138962"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

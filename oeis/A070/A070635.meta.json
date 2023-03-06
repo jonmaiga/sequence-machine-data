@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n mod (sum of digits of n).",
+  "id": "A070635",
+  "mentions": [
+    "A000007",
+    "A005349",
+    "A007953",
+    "A138791",
+    "A188641",
+    "A199238"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "oi": 94640,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[log(atan(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "atan",
+        "log",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[log(acot(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "acot",
+        "log",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[log(4/π)]",
+      "mt": 50,
+      "px": [
+        "4",
+        "π",
+        "/",
+        "log",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[log(acot(tanh(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "acot",
+        "log",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "limit[log(acot(floor(atan(n))))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "floor",
+        "acot",
+        "log",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "limit[log(atan(ceil(acot(n))))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "ceil",
+        "atan",
+        "log",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-06-19",
+      "ix": "limit[log(acot(1-char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "char",
+        "sub",
+        "acot",
+        "log",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-03-02",
+      "ix": "limit[log(atan(tanh(n+1)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "tanh",
+        "atan",
+        "log",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "limit[log(∑[π/5^(n+1)])]",
+      "mt": 50,
+      "px": [
+        "π",
+        "5",
+        "n",
+        "1",
+        "+",
+        "^",
+        "/",
+        "∑",
+        "log",
+        "limit"
+      ]
+    }
+  ]
+}

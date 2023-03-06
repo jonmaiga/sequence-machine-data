@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, where the n-th row lists the coefficients of the polynomial of degree n that generates the n-th diagonal of this sequence.",
+  "id": "A091150",
+  "mentions": [
+    "A091151"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Log_b 4 where b is smallest primitive root (A001918) mod n-th prime.",
+  "id": "A054507",
+  "mentions": [
+    "A001918",
+    "A054503",
+    "A054505",
+    "A054506",
+    "A054508",
+    "A054509",
+    "A054510",
+    "A054511",
+    "A054512",
+    "A054513"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 3,
+    "size": 75,
+    "source": "joeis"
+  }
+}

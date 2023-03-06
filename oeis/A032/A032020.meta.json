@@ -1,0 +1,45 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts.",
+  "id": "A032020",
+  "mentions": [
+    "A000009",
+    "A000142",
+    "A003242",
+    "A008289",
+    "A011782",
+    "A032011",
+    "A102726",
+    "A130091",
+    "A181796",
+    "A232432",
+    "A233564",
+    "A241719",
+    "A242447",
+    "A243081",
+    "A261835",
+    "A261836",
+    "A261960",
+    "A261962",
+    "A261982",
+    "A325535",
+    "A327244",
+    "A327245",
+    "A333489",
+    "A335456",
+    "A335457",
+    "A335489"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

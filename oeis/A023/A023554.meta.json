@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of natural numbers >= 3 and (Fib(2), Fib(3), Fib(4), ...).",
+  "id": "A023554",
+  "mentions": [
+    "A000045",
+    "A022308",
+    "A213584"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

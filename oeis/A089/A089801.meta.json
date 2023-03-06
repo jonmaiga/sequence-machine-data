@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 0 unless n = 3j^2+2j or 3j^2+4j+1 for some j>=0, in which case a(n) = 1.",
+  "id": "A089801",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001082",
+    "A010054",
+    "A010815",
+    "A033684",
+    "A080995",
+    "A089802",
+    "A089807",
+    "A121373",
+    "A280739"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:11",
+    "offset": 0,
+    "size": 98,
+    "source": "joeis"
+  }
+}

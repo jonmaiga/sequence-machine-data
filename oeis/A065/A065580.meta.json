@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime ending in exactly n 3's.",
+  "id": "A065580",
+  "mentions": [
+    "A037059",
+    "A065581",
+    "A065582",
+    "A065586",
+    "A065821"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

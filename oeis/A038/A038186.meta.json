@@ -1,0 +1,24 @@
+{
+  "description": "Numbers divisible by the sum and product of their digits.",
+  "id": "A038186",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A188641",
+    "A188642"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

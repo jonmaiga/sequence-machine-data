@@ -1,0 +1,25 @@
+{
+  "description": "The \"genity\" sequence of the primes, i.e., a(n) = g(p) = ((p mod 4) + (p mod 6))/2, where p is the n-th prime.",
+  "id": "A068227",
+  "mentions": [
+    "A040117",
+    "A068228",
+    "A068229",
+    "A068231",
+    "A068232",
+    "A068233",
+    "A068234",
+    "A068235"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

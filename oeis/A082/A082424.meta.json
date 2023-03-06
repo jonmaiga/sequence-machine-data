@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of s(2n) in s(n,n) * s(n,n) * s(n,n) * s(n,n) * s(n,n) * s(n,n), where s(n,n) is the Schur function indexed by two parts of size n, s(2n) is the Schur function corresponding to the trivial representation and * represents the inner or Kronecker product.",
+  "id": "A082424",
+  "mentions": [
+    "A008763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

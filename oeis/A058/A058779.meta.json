@@ -1,0 +1,15 @@
+{
+  "description": "Even numbers n such that n^2*2^n + 1 is prime.",
+  "id": "A058779",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

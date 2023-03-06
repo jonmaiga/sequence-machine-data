@@ -1,0 +1,18 @@
+{
+  "description": "In binary representation: least number, k, which occurs n times in its factorial.",
+  "id": "A093826",
+  "mentions": [
+    "A093685"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

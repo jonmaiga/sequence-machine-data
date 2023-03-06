@@ -1,0 +1,30 @@
+{
+  "description": "Smallest integer of the form n/k!.",
+  "id": "A076934",
+  "mentions": [
+    "A000142",
+    "A011371",
+    "A022559",
+    "A055874",
+    "A071626",
+    "A115627",
+    "A135291",
+    "A325272",
+    "A325273",
+    "A325508",
+    "A325509",
+    "A325543",
+    "A325544"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

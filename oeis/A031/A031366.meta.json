@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetrically inequivalent coincidence rotations of icosian ring of index n.",
+  "id": "A031366",
+  "mentions": [
+    "A035187",
+    "A331143"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:51:09",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

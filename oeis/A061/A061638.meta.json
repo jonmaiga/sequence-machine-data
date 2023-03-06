@@ -1,0 +1,29 @@
+{
+  "description": "Primes p such that the greatest prime divisor of p-1 is 7.",
+  "id": "A061638",
+  "mentions": [
+    "A004729",
+    "A006093",
+    "A006530",
+    "A019434",
+    "A023503",
+    "A024899",
+    "A034694",
+    "A035095",
+    "A058383",
+    "A061599",
+    "A125867",
+    "A125875"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

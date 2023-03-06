@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit square with property that digits alternate in parity, or 0 if no such number exists.",
+  "id": "A068881",
+  "mentions": [
+    "A030152",
+    "A068876",
+    "A068880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

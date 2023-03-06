@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the value of r corresponding to the onset of the period 16-cycle in the logistic map.",
+  "id": "A091517",
+  "mentions": [
+    "A086181"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

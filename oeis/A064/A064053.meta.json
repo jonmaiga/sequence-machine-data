@@ -1,0 +1,22 @@
+{
+  "description": "Auxiliary sequence gamma(n) used to compute coefficients in series expansion of the mock theta function f(q) via A(n) = Sum_{r=0..n} p(r)*gamma(n-r), with p(r) the partition function A000041.",
+  "id": "A064053",
+  "mentions": [
+    "A000025",
+    "A000039",
+    "A000041",
+    "A000199",
+    "A096661"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

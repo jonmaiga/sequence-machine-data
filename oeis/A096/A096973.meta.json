@@ -1,0 +1,16 @@
+{
+  "description": "a(1)= 10000, a(2)= 10000; for n>2, a(n)= ( a(n-2) + a(n-1) ) (mod 20000).",
+  "id": "A096973",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Difference between number of prime factors of n and of phi(n).",
+  "id": "A055736",
+  "mentions": [
+    "A000010",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:28:29",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

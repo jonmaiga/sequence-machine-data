@@ -1,0 +1,15 @@
+{
+  "description": "Smallest prime == 1 mod n-th composite number.",
+  "id": "A075089",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

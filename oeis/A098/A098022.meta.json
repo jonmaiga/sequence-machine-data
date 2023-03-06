@@ -1,0 +1,16 @@
+{
+  "description": "Irrational rotation of Log(3)/Log(2) as an implicit sequence with an uneven Cantor cartoon.",
+  "id": "A098022",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

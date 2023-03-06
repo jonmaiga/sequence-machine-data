@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: row 0 is {2}; if row n is {r_1, ..., r_k} then row n+1 is {r_k 1's, r_{k-1} 2's, r_{k-2} 3's, etc.}.",
+  "id": "A012257",
+  "mentions": [
+    "A001462",
+    "A011784",
+    "A014643",
+    "A112798",
+    "A181819",
+    "A182850",
+    "A182858",
+    "A296150",
+    "A304455"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:20:13",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions 2<=x<=A060679(n) to the equation x^A060679(n)==1 (mod A060679(n)) where A060679(n) are the orders of non-cyclic groups.",
+  "id": "A070309",
+  "mentions": [
+    "A001747",
+    "A003277",
+    "A060679"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

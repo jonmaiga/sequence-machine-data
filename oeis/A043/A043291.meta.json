@@ -1,0 +1,26 @@
+{
+  "description": "Every run length in base 2 is 2.",
+  "id": "A043291",
+  "mentions": [
+    "A000975",
+    "A033001",
+    "A033114",
+    "A077854",
+    "A108020",
+    "A153435",
+    "A182512"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

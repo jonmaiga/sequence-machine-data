@@ -1,0 +1,21 @@
+{
+  "description": "Modified juggler map: see A095396. Largest value in trajectory of started n under the juggler map of A095396.",
+  "id": "A095397",
+  "mentions": [
+    "A007320",
+    "A094683",
+    "A094716",
+    "A095396",
+    "A097398"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

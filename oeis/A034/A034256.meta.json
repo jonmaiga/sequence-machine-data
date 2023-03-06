@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 2 - (1 - 16*x)^(1/4), related to quartic factorial numbers A034176.",
+  "id": "A034256",
+  "mentions": [
+    "A025749",
+    "A034176"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:08:40",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

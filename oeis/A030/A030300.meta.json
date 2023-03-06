@@ -1,0 +1,29 @@
+{
+  "description": "Runs have lengths 2^n, n >= 0.",
+  "id": "A030300",
+  "mentions": [
+    "A000027",
+    "A030301",
+    "A053738",
+    "A065359",
+    "A079944",
+    "A079947",
+    "A083905",
+    "A115253",
+    "A160386",
+    "A275975"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

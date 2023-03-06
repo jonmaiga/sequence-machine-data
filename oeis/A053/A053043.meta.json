@@ -1,0 +1,19 @@
+{
+  "description": "Number of facets of hypermetric correlation cone.",
+  "id": "A053043",
+  "mentions": [
+    "A235459"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

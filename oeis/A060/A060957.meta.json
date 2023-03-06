@@ -1,0 +1,21 @@
+{
+  "description": "Number of different products (including the empty product) of any subset of {1, 2, 3, ..., n}.",
+  "id": "A060957",
+  "mentions": [
+    "A070861",
+    "A070863",
+    "A255937",
+    "A307105"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

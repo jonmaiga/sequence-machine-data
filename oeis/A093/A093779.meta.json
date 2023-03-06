@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the position of prime 3 in the Euclid-Mullin (EM) sequence of type A000945, if it were started with prime(n) instead of 2.",
+  "id": "A093779",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051334",
+    "A056756",
+    "A093777",
+    "A093778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

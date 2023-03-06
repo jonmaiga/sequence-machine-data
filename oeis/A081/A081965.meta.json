@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal of A081964.",
+  "id": "A081965",
+  "mentions": [
+    "A077161",
+    "A081964",
+    "A081966"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

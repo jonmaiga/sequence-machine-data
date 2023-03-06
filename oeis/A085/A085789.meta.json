@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of n 3-spaced triangular numbers beginning with t(2), e.g., a(2) = t(2) + t(5) = 3 + 15 = 18.",
+  "id": "A085789",
+  "mentions": [
+    "A000217",
+    "A002411",
+    "A004188",
+    "A100345"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:39",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

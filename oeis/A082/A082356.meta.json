@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers induced by Catalan Automorphism *A082356 acting on the parenthesizations encoded by A014486/A063171.",
+  "id": "A082356",
+  "mentions": [
+    "A014486",
+    "A057117",
+    "A057163",
+    "A063171",
+    "A082351",
+    "A082352",
+    "A082355",
+    "A082357",
+    "A082358",
+    "A082364",
+    "A082852",
+    "A082853",
+    "A085184"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

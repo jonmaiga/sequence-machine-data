@@ -1,0 +1,23 @@
+{
+  "description": "Recamán variation: a(0) = 0; for n >= 1, a(n) = a(n-1) - f(n) if that number is positive and not already in the sequence, otherwise a(n) = a(n-1) + f(n), where f(n) = floor(sqrt(n)) (A000196).",
+  "id": "A079051",
+  "mentions": [
+    "A000196",
+    "A005132",
+    "A117247",
+    "A117248",
+    "A117516",
+    "A117518"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

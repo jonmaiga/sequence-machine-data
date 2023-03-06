@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of n-node graphs with k nodes in distinguished bipartite block, k=0..n.",
+  "id": "A028657",
+  "mentions": [
+    "A002623",
+    "A002724",
+    "A002725",
+    "A002727",
+    "A002728",
+    "A005748",
+    "A006148",
+    "A007139",
+    "A036036",
+    "A049312",
+    "A052264",
+    "A052265",
+    "A055080",
+    "A242093",
+    "A246106",
+    "A353585"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

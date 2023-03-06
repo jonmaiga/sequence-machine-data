@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = ((5n)!/(n!(2n)!))(gamma(1+n/2)/gamma(1+5n/2)).",
+  "id": "A091496",
+  "mentions": [
+    "A061162",
+    "A061163",
+    "A091527",
+    "A262732",
+    "A262733",
+    "A276098",
+    "A276099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

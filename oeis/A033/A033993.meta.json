@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are divisible by exactly four different primes.",
+  "id": "A033993",
+  "mentions": [
+    "A000977",
+    "A001221",
+    "A002110",
+    "A007774",
+    "A033992",
+    "A051270",
+    "A074969",
+    "A176655",
+    "A246655",
+    "A348072",
+    "A348073"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:21",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of integers from n down to 0.",
+  "id": "A052246",
+  "mentions": [
+    "A000422"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:44",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

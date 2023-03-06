@@ -1,0 +1,26 @@
+{
+  "description": "Greater of twin primes of the form x^2+2, x^2+4.",
+  "id": "A085554",
+  "mentions": [
+    "A007591",
+    "A020725",
+    "A059100",
+    "A067201",
+    "A085553",
+    "A086381",
+    "A087475",
+    "A253639"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

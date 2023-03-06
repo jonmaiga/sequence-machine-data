@@ -1,0 +1,26 @@
+{
+  "description": "Maximal number of linearly independent smooth nowhere-zero vector fields on a (2n+1)-sphere.",
+  "id": "A053381",
+  "mentions": [
+    "A001676",
+    "A003484",
+    "A047530",
+    "A189995",
+    "A209675",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

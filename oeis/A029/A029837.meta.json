@@ -1,0 +1,34 @@
+{
+  "description": "Binary order of n: log_2(n) rounded up to next integer.",
+  "id": "A029837",
+  "mentions": [
+    "A000193",
+    "A000195",
+    "A000523",
+    "A001855",
+    "A004050",
+    "A004233",
+    "A029827",
+    "A036378",
+    "A036390",
+    "A036987",
+    "A053644",
+    "A062383",
+    "A070939",
+    "A113473",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

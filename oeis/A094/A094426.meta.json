@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A094302 without repetition.",
+  "id": "A094426",
+  "mentions": [
+    "A094302",
+    "A094427"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

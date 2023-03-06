@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of N induced by the order-preserving bijection QuQR1toQuQR2 on rationals.",
+  "id": "A065934",
+  "mentions": [
+    "A007305",
+    "A047679",
+    "A054424",
+    "A065935",
+    "A065936",
+    "A065937",
+    "A065938",
+    "A065939"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

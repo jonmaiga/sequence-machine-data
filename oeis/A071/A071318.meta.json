@@ -1,0 +1,29 @@
+{
+  "description": "Lesser of 2 consecutive numbers which are cubefree and not squarefree, i.e., numbers k such that both k and k+1 are in A067259.",
+  "id": "A071318",
+  "mentions": [
+    "A007674",
+    "A008966",
+    "A051903",
+    "A063528",
+    "A067259",
+    "A071619",
+    "A071620",
+    "A071621",
+    "A071622",
+    "A071623",
+    "A212793",
+    "A340152"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

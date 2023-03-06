@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n-th sextic factorial number divided by 4.",
+  "id": "A034724",
+  "mentions": [
+    "A008542",
+    "A034000",
+    "A034689"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "List consisting of all functions from [1,2,3,...,n] into [1,2,3,...,n] for n=1,2,3,... (written out in full) in lexicographic order.",
+  "id": "A059689",
+  "mentions": [
+    "A030298"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

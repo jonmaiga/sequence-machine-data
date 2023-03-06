@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the k-th binary digit of n equals mu(k)^2 for k=1 up to A029837(n+1).",
+  "id": "A074988",
+  "mentions": [
+    "A008683",
+    "A029837"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

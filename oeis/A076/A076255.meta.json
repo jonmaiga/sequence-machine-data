@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(t^n), where t=3450844193^(1/9) (approximately 11.4754).",
+  "id": "A076255",
+  "mentions": [
+    "A063636"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:31:29",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

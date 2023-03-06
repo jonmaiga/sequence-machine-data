@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected components remaining when n-th letter of English alphabet is cut from a piece of paper.",
+  "id": "A064529",
+  "mentions": [
+    "A064530",
+    "A064531",
+    "A064532"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

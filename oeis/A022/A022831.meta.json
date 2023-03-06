@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = c(1)p(1) + ... + c(n)p(n), where c(i) = 1 if a(i-1) <= p(i) and c(i) = -1 if a(i-1) > p(i), for i = 1,...,n (p(i) = primes).",
+  "id": "A022831",
+  "mentions": [
+    "A064365"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

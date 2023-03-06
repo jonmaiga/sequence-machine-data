@@ -1,0 +1,18 @@
+{
+  "description": "Integers with consecutive anti-divisors.",
+  "id": "A063547",
+  "mentions": [
+    "A057836",
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

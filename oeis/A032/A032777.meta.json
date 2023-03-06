@@ -1,0 +1,18 @@
+{
+  "description": "Floor( n(n+1)(n+2)...(n+7) / (n+(n+1)+(n+2)+...+(n+7)) ).",
+  "id": "A032777",
+  "mentions": [
+    "A032778",
+    "A032779"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:57",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

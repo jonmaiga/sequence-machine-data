@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) counts the set partitions of n containing k-1 blocks of length 1.",
+  "id": "A086659",
+  "mentions": [
+    "A000217",
+    "A000296",
+    "A058692"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

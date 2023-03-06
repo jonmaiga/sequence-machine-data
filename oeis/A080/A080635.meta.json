@@ -1,0 +1,32 @@
+{
+  "description": "Number of permutations on n letters without double falls and without initial falls.",
+  "id": "A080635",
+  "mentions": [
+    "A000111",
+    "A000182",
+    "A001586",
+    "A002105",
+    "A008292",
+    "A049774",
+    "A139605",
+    "A162976",
+    "A185415",
+    "A185416",
+    "A185422",
+    "A185423",
+    "A232864",
+    "A234797"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

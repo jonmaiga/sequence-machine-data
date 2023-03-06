@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the nonprime digits of n.",
+  "id": "A085562",
+  "mentions": [
+    "A007953",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

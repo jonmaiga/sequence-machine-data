@@ -1,0 +1,24 @@
+{
+  "description": "Central Delannoy numbers (mod 3); Characteristic function for Cantor set.",
+  "id": "A088917",
+  "mentions": [
+    "A001850",
+    "A005258",
+    "A005823",
+    "A081606",
+    "A105220",
+    "A191106",
+    "A316829"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

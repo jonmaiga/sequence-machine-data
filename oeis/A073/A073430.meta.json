@@ -1,0 +1,20 @@
+{
+  "description": "Upper triangular region of the table A073346.",
+  "id": "A073430",
+  "mentions": [
+    "A002262",
+    "A003056",
+    "A073346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

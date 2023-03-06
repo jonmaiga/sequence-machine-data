@@ -1,0 +1,18 @@
+{
+  "description": "Squares of the form a^2 + b^3 with a, b > 0.",
+  "id": "A066647",
+  "mentions": [
+    "A055394",
+    "A066648"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Sum of unitary, squarefree divisors of n, including 1.",
+  "id": "A092261",
+  "mentions": [
+    "A000012",
+    "A000203",
+    "A003557",
+    "A007947",
+    "A020639",
+    "A028234",
+    "A048250",
+    "A055231",
+    "A055615",
+    "A056671",
+    "A057521",
+    "A064549",
+    "A065465",
+    "A067029",
+    "A295294",
+    "A295295",
+    "A329728"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

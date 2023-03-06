@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps for knight to reach (n,0) on infinite chessboard.",
+  "id": "A018837",
+  "mentions": [
+    "A018840",
+    "A065775",
+    "A083219",
+    "A183041",
+    "A183053"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:54:09",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

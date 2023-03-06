@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose 4th power can be expressed as the sum of two positive cubes in more than one way.",
+  "id": "A051388",
+  "mentions": [
+    "A051386",
+    "A051387",
+    "A226777",
+    "A226950"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

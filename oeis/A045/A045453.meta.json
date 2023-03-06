@@ -1,0 +1,21 @@
+{
+  "description": "Primes congruent to {0, 1} mod 5.",
+  "id": "A045453",
+  "mentions": [
+    "A000040",
+    "A030430",
+    "A141158"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:21",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

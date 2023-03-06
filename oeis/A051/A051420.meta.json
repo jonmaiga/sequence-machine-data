@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A000081(k) is prime.",
+  "id": "A051420",
+  "mentions": [
+    "A000081",
+    "A119642",
+    "A185667",
+    "A336039"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

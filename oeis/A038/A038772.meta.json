@@ -1,0 +1,25 @@
+{
+  "description": "Numbers not divisible by any of their digits.",
+  "id": "A038772",
+  "mentions": [
+    "A034709",
+    "A034837",
+    "A038769",
+    "A038770",
+    "A104139",
+    "A327561"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

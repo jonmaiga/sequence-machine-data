@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array T read by rows: T(n,0) = T(n,n) = 1 for all n >= 0, T(n,k) = T(n-1,k-1) + T(n-1,k) for odd n and 1< = k <= n-1, T(n,k) = T(n-1,k-1) + T(n-1,k) + T(n-2,k-1) for even n and 1 <= k <= n-1.",
+  "id": "A026374",
+  "mentions": [
+    "A007318",
+    "A026375",
+    "A026381",
+    "A026382",
+    "A026383",
+    "A032766",
+    "A051159",
+    "A169623"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:31:07",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

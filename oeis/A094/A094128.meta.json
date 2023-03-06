@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n that can be factorized n=x*y and containing in their ternary representation the same digits the same number of times as x and y together.",
+  "id": "A094128",
+  "mentions": [
+    "A007089",
+    "A020342",
+    "A048936"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

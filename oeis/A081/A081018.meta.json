@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = (Lucas(4n+1)-1)/5, or Fibonacci(2n)*Fibonacci(2n+1), or A081017(n)/5.",
+  "id": "A081018",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A001654",
+    "A003482",
+    "A033891",
+    "A049684",
+    "A059840",
+    "A081007",
+    "A081016",
+    "A081017",
+    "A089508",
+    "A178898"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

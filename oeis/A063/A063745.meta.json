@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A063745",
+  "mentions": [
+    "A046337"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

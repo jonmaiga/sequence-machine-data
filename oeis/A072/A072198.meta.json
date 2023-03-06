@@ -1,0 +1,18 @@
+{
+  "description": "E12 range of preferred resistor values in electronic engineering.",
+  "id": "A072198",
+  "mentions": [
+    "A072554",
+    "A220401"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

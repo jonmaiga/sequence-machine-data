@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = lcm(30,n)/gcd(30,n).",
+  "id": "A070293",
+  "mentions": [
+    "A070290",
+    "A070291",
+    "A070292",
+    "A130724",
+    "A188134",
+    "A283442",
+    "A283443"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

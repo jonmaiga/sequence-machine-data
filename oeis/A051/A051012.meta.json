@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of average of number of steps in Euclidean algorithm for all gcd(m,n) with 0 <= m < n.",
+  "id": "A051012",
+  "mentions": [
+    "A034883",
+    "A051010",
+    "A051011"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:49",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

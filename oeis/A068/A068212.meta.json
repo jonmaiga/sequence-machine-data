@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = phi(n) divided by its largest prime factor.",
+  "id": "A068212",
+  "mentions": [
+    "A000010",
+    "A006530",
+    "A052126",
+    "A068211"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 3,
+    "size": 93,
+    "source": "joeis"
+  }
+}

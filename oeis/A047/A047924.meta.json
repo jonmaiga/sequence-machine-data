@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = B_{A_n+1}+1, where A_n = floor(n*phi) = A000201(n), B_n = floor(n*phi^2) = A001950(n) and phi is the golden ratio.",
+  "id": "A047924",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A007066",
+    "A038150",
+    "A126714",
+    "A223025"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:33",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

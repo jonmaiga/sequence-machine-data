@@ -1,0 +1,21 @@
+{
+  "description": "Minimum total number of comparisons to find each of the values 1 through n using a binary search with 3-way comparisons (less than, equal and greater than).",
+  "id": "A097383",
+  "mentions": [
+    "A003314",
+    "A097384",
+    "A123753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

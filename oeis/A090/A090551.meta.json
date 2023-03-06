@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(3) - Pi/2.",
+  "id": "A090551",
+  "mentions": [
+    "A002194",
+    "A019669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:15",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

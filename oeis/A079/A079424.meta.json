@@ -1,0 +1,18 @@
+{
+  "description": "A bisection of A024675. Cf. A058296.",
+  "id": "A079424",
+  "mentions": [
+    "A024675",
+    "A058296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:00:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

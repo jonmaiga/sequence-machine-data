@@ -1,0 +1,20 @@
+{
+  "description": "Shifts left under the \"BIK\" (reversible, indistinct, unlabeled) transform with a(1) = 2.",
+  "id": "A032130",
+  "mentions": [
+    "A001224",
+    "A032128",
+    "A032131"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

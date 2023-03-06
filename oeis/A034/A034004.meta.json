@@ -1,0 +1,19 @@
+{
+  "description": "Successive decimal digits of triangular numbers.",
+  "id": "A034004",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:23",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

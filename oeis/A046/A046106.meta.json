@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: g.f. for A001411 / g.f. for A004018.",
+  "id": "A046106",
+  "mentions": [
+    "A001411",
+    "A004018"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

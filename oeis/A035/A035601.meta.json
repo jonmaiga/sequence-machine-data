@@ -1,0 +1,21 @@
+{
+  "description": "Number of points of L1 norm 7 in cubic lattice Z^n.",
+  "id": "A035601",
+  "mentions": [
+    "A035596",
+    "A035607",
+    "A099193"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:21:19",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

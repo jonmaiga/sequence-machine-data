@@ -1,0 +1,17 @@
+{
+  "description": "The 120 points of the 600-cell exactly integrate homogeneous polynomials of degree n.",
+  "id": "A053460",
+  "mentions": [
+    "A053425"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:05",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

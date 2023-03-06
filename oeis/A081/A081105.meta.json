@@ -1,0 +1,22 @@
+{
+  "description": "5th binomial transform of (1,1,0,0,0,0,.....).",
+  "id": "A081105",
+  "mentions": [
+    "A001792",
+    "A006234",
+    "A079027",
+    "A092288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:45:51",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

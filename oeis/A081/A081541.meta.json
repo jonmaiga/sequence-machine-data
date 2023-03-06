@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: the n-th row contains n numbers sorted in decreasing value, each build by dropping a different number from the sequence [n,n-1,n-2,....,1] and concatenating the n-1 others. By definition the first row contains 0.",
+  "id": "A081541",
+  "mentions": [
+    "A081539",
+    "A081540",
+    "A081542"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

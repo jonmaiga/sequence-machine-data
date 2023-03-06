@@ -1,0 +1,27 @@
+{
+  "description": "Base-1000 expansion of Pi.",
+  "id": "A035331",
+  "mentions": [
+    "A000796",
+    "A016062",
+    "A032445",
+    "A037244",
+    "A050819",
+    "A064467",
+    "A096558"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

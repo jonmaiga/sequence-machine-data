@@ -1,0 +1,20 @@
+{
+  "description": "Apply partial sum operator 4 times to partition numbers.",
+  "id": "A014161",
+  "mentions": [
+    "A000041",
+    "A010815",
+    "A292508"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

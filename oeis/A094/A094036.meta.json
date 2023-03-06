@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected 5-element antichains on a labeled n-set.",
+  "id": "A094036",
+  "mentions": [
+    "A016269",
+    "A047707",
+    "A051112",
+    "A051118",
+    "A094033",
+    "A094037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes ordered so that their most significant digits form the digits of sqrt(2)=1.41421356237309504880...",
+  "id": "A073626",
+  "mentions": [
+    "A073622",
+    "A073623",
+    "A073624",
+    "A073625"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with property that largest number formed from digits of n (A004186(n)) is divisible by smallest number formed from digits of n (A004185(n)).",
+  "id": "A096091",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A096089",
+    "A096090",
+    "A260461",
+    "A260462"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

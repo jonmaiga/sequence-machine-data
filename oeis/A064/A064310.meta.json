@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Catalan numbers C(-1; n).",
+  "id": "A064310",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A039599",
+    "A064334",
+    "A106566"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

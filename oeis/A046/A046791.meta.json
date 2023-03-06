@@ -1,0 +1,19 @@
+{
+  "description": "A046790 has several definitions, one of which is: \"Numbers i such that there is a smaller positive number j such that (i+j)/2 and sqrt(i*j) are integers\". The present sequence gives the smallest choice for j.",
+  "id": "A046791",
+  "mentions": [
+    "A046790",
+    "A078779"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

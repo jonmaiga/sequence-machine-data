@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of form x^2 + 2y^2.",
+  "id": "A097700",
+  "mentions": [
+    "A002479"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

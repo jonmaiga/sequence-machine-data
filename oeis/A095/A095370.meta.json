@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct prime factors of the repunit (-1 + 10^n)/9.",
+  "id": "A095370",
+  "mentions": [
+    "A001221",
+    "A002275",
+    "A003020",
+    "A046053",
+    "A067063",
+    "A095371",
+    "A102347"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

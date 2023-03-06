@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = rad(n)^2, where rad is the squarefree kernel of n (A007947).",
+  "id": "A078615",
+  "mentions": [
+    "A002117",
+    "A007947",
+    "A007948",
+    "A055231",
+    "A062378",
+    "A330523"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

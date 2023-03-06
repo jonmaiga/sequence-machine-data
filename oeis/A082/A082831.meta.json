@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1, k has no digit 2 in base 10} 1/k.",
+  "id": "A082831",
+  "mentions": [
+    "A002387",
+    "A024101",
+    "A052404",
+    "A082830",
+    "A082832",
+    "A082833",
+    "A082834",
+    "A082835",
+    "A082836",
+    "A082837",
+    "A082838",
+    "A082839"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

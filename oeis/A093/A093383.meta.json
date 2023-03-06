@@ -1,0 +1,19 @@
+{
+  "description": "One of the 16 sequences illustrating the fact that A093382(2) = 31.",
+  "id": "A093383",
+  "mentions": [
+    "A093382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

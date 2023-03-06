@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of squares not less than n-k and not greater n+k, 0<=k",
+  "id": "A088231",
+  "mentions": [
+    "A000196",
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

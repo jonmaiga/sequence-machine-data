@@ -1,0 +1,19 @@
+{
+  "description": "Primes for which the smallest positive primitive root is even and nonprime.",
+  "id": "A070270",
+  "mentions": [
+    "A001918",
+    "A047936"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

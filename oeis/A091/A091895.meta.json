@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that the denominator of d(k)/k = n, or zero if no such number exists, where d is the number-of-divisors function A000005.",
+  "id": "A091895",
+  "mentions": [
+    "A000005",
+    "A090395",
+    "A091896",
+    "A352834"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

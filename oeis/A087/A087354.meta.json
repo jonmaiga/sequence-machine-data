@@ -1,0 +1,16 @@
+{
+  "description": "Smallest square which is the concatenation of n nonzero squares.",
+  "id": "A087354",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

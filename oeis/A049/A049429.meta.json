@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,d) = number of distinct d-dimensional polyominoes (or polycubes) with n cells (0 < d < n).",
+  "id": "A049429",
+  "mentions": [
+    "A000055",
+    "A005519",
+    "A006765",
+    "A006768",
+    "A036364",
+    "A049430",
+    "A195738",
+    "A195739",
+    "A355053"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

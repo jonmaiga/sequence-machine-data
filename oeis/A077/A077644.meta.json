@@ -1,0 +1,20 @@
+{
+  "description": "Number of decimal digits of A070177(n).",
+  "id": "A077644",
+  "mentions": [
+    "A070177"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

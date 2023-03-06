@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of B(2n)*H(2n)/n where B(k) is the k-th Bernoulli number and H(k) the k-th harmonic number.",
+  "id": "A083688",
+  "mentions": [
+    "A083687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

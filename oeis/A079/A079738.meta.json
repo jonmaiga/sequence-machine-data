@@ -1,0 +1,20 @@
+{
+  "description": "Number of positions that are exactly n moves from the starting position in the Hockey Puck puzzle.",
+  "id": "A079738",
+  "mentions": [
+    "A079735",
+    "A079737"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

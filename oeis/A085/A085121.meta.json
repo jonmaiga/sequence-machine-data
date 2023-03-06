@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of writing n as the sum of three odd squares.",
+  "id": "A085121",
+  "mentions": [
+    "A005875",
+    "A005878",
+    "A008437",
+    "A008442",
+    "A290081"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

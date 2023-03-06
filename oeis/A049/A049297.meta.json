@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonisomorphic circulant digraphs (i.e., Cayley digraphs for the cyclic group) of order n.",
+  "id": "A049297",
+  "mentions": [
+    "A000040",
+    "A038777",
+    "A049287",
+    "A049289",
+    "A056391"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (-1)^(n+1)*Sum_{k=0..n+1}(-1)^k*binomial(2*k,k).",
+  "id": "A054108",
+  "mentions": [
+    "A000984",
+    "A006134",
+    "A045468",
+    "A054106",
+    "A054109",
+    "A066796",
+    "A082761"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

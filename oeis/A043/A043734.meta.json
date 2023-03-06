@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that number of runs in the base 2 representation of n is congruent to 1 mod 6.",
+  "id": "A043734",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

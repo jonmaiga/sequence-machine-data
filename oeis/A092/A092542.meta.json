@@ -1,0 +1,22 @@
+{
+  "description": "Table below read by antidiagonals alternately upwards and downwards.",
+  "id": "A092542",
+  "mentions": [
+    "A056011",
+    "A056023",
+    "A092543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

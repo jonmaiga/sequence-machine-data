@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2+k+5 is a palindrome.",
+  "id": "A027718",
+  "mentions": [
+    "A027690",
+    "A027716",
+    "A027728",
+    "A027729",
+    "A027754",
+    "A027755"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

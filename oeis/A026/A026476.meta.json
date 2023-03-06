@@ -1,0 +1,21 @@
+{
+  "description": "For n>3, a(n) = 7*n - 21 + 2*(-1)^n.",
+  "id": "A026476",
+  "mentions": [
+    "A026472",
+    "A026474",
+    "A109474"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:17",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

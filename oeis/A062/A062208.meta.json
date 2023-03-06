@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{m>=0} binomial(m,3)^n*2^(-m-1).",
+  "id": "A062208",
+  "mentions": [
+    "A000010",
+    "A000629",
+    "A000670",
+    "A001850",
+    "A055203",
+    "A062204",
+    "A062205",
+    "A126086",
+    "A262809",
+    "A299041"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

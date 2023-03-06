@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured list of positive numbers which are not of the form r^i-s^j, where r,s,i,j are integers with i>1, j>1.",
+  "id": "A066510",
+  "mentions": [
+    "A023057",
+    "A074980"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

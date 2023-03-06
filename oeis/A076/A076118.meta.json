@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sum_k {n/2<=k<=n} k * (-1)^(n-k) * C(k,n-k).",
+  "id": "A076118",
+  "mentions": [
+    "A038608",
+    "A078028",
+    "A099254",
+    "A151842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "XOR BINOMIAL transform of the odd numbers; also the main diagonal of the XOR difference triangle A099889.",
+  "id": "A099890",
+  "mentions": [
+    "A099884",
+    "A099889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

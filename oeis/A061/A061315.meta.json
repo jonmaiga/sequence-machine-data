@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k)=T(n,k-1)*(T(n,k-1)+k-1)/k with T(n,1)=n.",
+  "id": "A061315",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A003504",
+    "A006007",
+    "A061314",
+    "A061319",
+    "A061321"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, related to Pascal's triangle.",
+  "id": "A091533",
+  "mentions": [
+    "A000045",
+    "A015518",
+    "A015524",
+    "A023610",
+    "A079926",
+    "A090174",
+    "A192364",
+    "A200069",
+    "A212338"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:19",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

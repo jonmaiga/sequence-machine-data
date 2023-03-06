@@ -1,0 +1,26 @@
+{
+  "description": "Number of n X n symmetric matrices each of whose rows is a permutation of 1..n.",
+  "id": "A035482",
+  "mentions": [
+    "A000315",
+    "A000438",
+    "A002860",
+    "A003090",
+    "A035481",
+    "A036980",
+    "A036981",
+    "A040082"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

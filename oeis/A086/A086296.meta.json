@@ -1,0 +1,19 @@
+{
+  "description": "Euler's totient of 7-smooth numbers.",
+  "id": "A086296",
+  "mentions": [
+    "A000010",
+    "A002473"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

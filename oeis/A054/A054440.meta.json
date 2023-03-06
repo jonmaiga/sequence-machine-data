@@ -1,0 +1,28 @@
+{
+  "description": "Number of ordered pairs of partitions of n with no common parts.",
+  "id": "A054440",
+  "mentions": [
+    "A000041",
+    "A001255",
+    "A001318",
+    "A087960",
+    "A260664",
+    "A260669",
+    "A260672",
+    "A284592",
+    "A304873",
+    "A304877"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

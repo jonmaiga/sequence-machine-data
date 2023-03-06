@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of theta_3(q) / theta_3(q^2) in powers of q.",
+  "id": "A080015",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A080054",
+    "A121373",
+    "A210030"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:57",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

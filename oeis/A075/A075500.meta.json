@@ -1,0 +1,29 @@
+{
+  "description": "Stirling2 triangle with scaled diagonals (powers of 5).",
+  "id": "A075500",
+  "mentions": [
+    "A000351",
+    "A005011",
+    "A016164",
+    "A039692",
+    "A075499",
+    "A075501",
+    "A075513",
+    "A075911",
+    "A075915",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:08:24",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

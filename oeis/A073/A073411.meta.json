@@ -1,0 +1,21 @@
+{
+  "description": "cototient(x) - 1 where x are the odd semiprimes (i.e., x are odd terms in A001358).",
+  "id": "A073411",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

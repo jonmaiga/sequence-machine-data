@@ -1,0 +1,22 @@
+{
+  "description": "Smallest solution to phi(x) = 10^n where phi(x) = A000010(x).",
+  "id": "A072075",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A014573",
+    "A072074",
+    "A072076",
+    "A110077"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

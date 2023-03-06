@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Mod[10-Mod[Prime[n+3],10],4]-Mod[n,4]+3.",
+  "id": "A090183",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

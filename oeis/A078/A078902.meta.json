@@ -1,0 +1,26 @@
+{
+  "description": "Generalized Fermat primes of the form (k+1)^2^m + k^2^m, with m>1.",
+  "id": "A078902",
+  "mentions": [
+    "A019434",
+    "A077659",
+    "A078900",
+    "A078901",
+    "A080131",
+    "A080134",
+    "A080208",
+    "A152913",
+    "A153504",
+    "A194185"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

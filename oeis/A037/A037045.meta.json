@@ -1,0 +1,23 @@
+{
+  "description": "5-white numbers: partition digits of n^5 into blocks of 5 starting at right; sum of these 5-digit numbers equals n.",
+  "id": "A037045",
+  "mentions": [
+    "A037043",
+    "A037044"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

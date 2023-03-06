@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(n) = 6*(n - phi(n)).",
+  "id": "A068421",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{m>=0} 1/(2^2^m - 1).",
+  "id": "A048649",
+  "mentions": [
+    "A007814",
+    "A048164",
+    "A048650",
+    "A051158"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

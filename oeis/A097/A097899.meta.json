@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] with no runs of length 1. (The permutation 3574162 has two runs of length 1: 357/4/16/2).",
+  "id": "A097899",
+  "mentions": [
+    "A000142",
+    "A186735",
+    "A228614"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

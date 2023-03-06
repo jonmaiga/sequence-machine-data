@@ -1,0 +1,24 @@
+{
+  "description": "Lesser members of twin prime pairs of form (4*k+3, 4*k+5), k >= 0.",
+  "id": "A071698",
+  "mentions": [
+    "A001359",
+    "A004767",
+    "A010051",
+    "A071695",
+    "A071699",
+    "A071700",
+    "A241557"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

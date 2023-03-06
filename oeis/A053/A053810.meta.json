@@ -1,0 +1,27 @@
+{
+  "description": "Prime powers of prime numbers.",
+  "id": "A053810",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A010051",
+    "A010055",
+    "A053811",
+    "A053812",
+    "A100995",
+    "A113877",
+    "A203967"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

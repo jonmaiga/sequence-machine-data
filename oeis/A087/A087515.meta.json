@@ -1,0 +1,20 @@
+{
+  "description": "Primes consisting only of digits 1 and 9 occurring with equal frequency.",
+  "id": "A087515",
+  "mentions": [
+    "A087510",
+    "A087513",
+    "A087514"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:59:07",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

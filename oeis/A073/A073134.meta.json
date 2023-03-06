@@ -1,0 +1,36 @@
+{
+  "description": "Table by antidiagonals of T(n,k)=n*T(n,k-1)-T(n,k-2) starting with T(n,1)=1.",
+  "id": "A073134",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001090",
+    "A001109",
+    "A001353",
+    "A001906",
+    "A004187",
+    "A004189",
+    "A004190",
+    "A004254",
+    "A005563",
+    "A010892",
+    "A018913",
+    "A049310",
+    "A057722",
+    "A073133",
+    "A073135",
+    "A094954"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

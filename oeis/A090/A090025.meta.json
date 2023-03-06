@@ -1,0 +1,33 @@
+{
+  "description": "Number of distinct lines through the origin in 3-dimensional cube of side length n.",
+  "id": "A090025",
+  "mentions": [
+    "A000225",
+    "A001047",
+    "A015631",
+    "A049691",
+    "A060867",
+    "A071778",
+    "A090020",
+    "A090021",
+    "A090022",
+    "A090023",
+    "A090024",
+    "A090026",
+    "A090027",
+    "A090028",
+    "A090029",
+    "A090030"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

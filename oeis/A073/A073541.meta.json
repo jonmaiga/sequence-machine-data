@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1/(1/sigma(k) + 1/sigma(k+1)) is an integer.",
+  "id": "A073541",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

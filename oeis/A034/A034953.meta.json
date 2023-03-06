@@ -1,0 +1,30 @@
+{
+  "description": "Triangular numbers (A000217) with prime indices.",
+  "id": "A034953",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A006254",
+    "A011756",
+    "A034954",
+    "A034955",
+    "A054269",
+    "A067076",
+    "A082749",
+    "A179119",
+    "A195678",
+    "A307868"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

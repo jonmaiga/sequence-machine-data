@@ -1,0 +1,25 @@
+{
+  "description": "Let x(n) denote the number of 4's among the n first elements of the continued fraction for sum k>=0 1/2^(2^k) (A007400), y(n) the number of 6's and z(n) the number of 2's. Then a(n)=x(n)-y(n)-z(n)-1.",
+  "id": "A073097",
+  "mentions": [
+    "A000120",
+    "A001045",
+    "A005578",
+    "A007400",
+    "A008619",
+    "A047849",
+    "A078008",
+    "A091337"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(385).",
+  "id": "A041731",
+  "mentions": [
+    "A041730"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:33:40",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

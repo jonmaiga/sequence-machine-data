@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=least k such that base 4 representation of n begins at s(k), where s=A030399.",
+  "id": "A030400",
+  "mentions": [
+    "A030399"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:45",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

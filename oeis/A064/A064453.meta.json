@@ -1,0 +1,16 @@
+{
+  "description": "Number of finite positive integer sequences b(1),...,b(k), with k <= n and b(1)*b(2)*...*b(k) <= n.",
+  "id": "A064453",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

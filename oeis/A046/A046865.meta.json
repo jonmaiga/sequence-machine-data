@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that 4*5^k - 1 is prime.",
+  "id": "A046865",
+  "mentions": [
+    "A001771",
+    "A002235",
+    "A003307",
+    "A005541",
+    "A046866",
+    "A046867",
+    "A056725",
+    "A079906",
+    "A079907"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

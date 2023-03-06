@@ -1,0 +1,23 @@
+{
+  "description": "Simple continued fraction of 2*e.",
+  "id": "A081750",
+  "mentions": [
+    "A006083",
+    "A006084",
+    "A006085",
+    "A019762"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

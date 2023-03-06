@@ -1,0 +1,18 @@
+{
+  "description": "Same as A094858, except that we fix X = 121212...12(1).",
+  "id": "A094860",
+  "mentions": [
+    "A094858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 5-valent trees with n nodes.",
+  "id": "A036650",
+  "mentions": [
+    "A036648",
+    "A036649",
+    "A036718",
+    "A144528"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

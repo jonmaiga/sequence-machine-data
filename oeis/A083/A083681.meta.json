@@ -1,0 +1,25 @@
+{
+  "description": "Sum of divisors of semiprimes.",
+  "id": "A083681",
+  "mentions": [
+    "A000203",
+    "A001358",
+    "A006530",
+    "A008864",
+    "A020639",
+    "A057427",
+    "A060800"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

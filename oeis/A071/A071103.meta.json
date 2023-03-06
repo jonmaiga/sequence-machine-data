@@ -1,0 +1,17 @@
+{
+  "description": "Number of perfect matchings in variant of n X n+2 Aztec rectangle graph.",
+  "id": "A071103",
+  "mentions": [
+    "A090288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

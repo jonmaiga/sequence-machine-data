@@ -1,0 +1,17 @@
+{
+  "description": "Consider the n-th prime, p_n, as the beginning of 2k+1 consecutive primes; then a(n) = p_(n+k) a balanced prime of order k, k maximized, or 0 if no such prime exists.",
+  "id": "A096696",
+  "mentions": [
+    "A090403"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

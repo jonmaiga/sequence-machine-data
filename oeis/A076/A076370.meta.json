@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=x is the smallest number[=subscript] such that Primorial[x]>Primorial[n]/Primorial[x].",
+  "id": "A076370",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

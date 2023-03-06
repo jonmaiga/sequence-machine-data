@@ -1,0 +1,17 @@
+{
+  "description": "Positions of even numbers in A024614.",
+  "id": "A024615",
+  "mentions": [
+    "A024614"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:05",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Integers that can be expressed as the sum of consecutive primes in exactly 1 way.",
+  "id": "A054996",
+  "mentions": [
+    "A054845",
+    "A054859",
+    "A054997",
+    "A054998",
+    "A054999",
+    "A055000",
+    "A055001"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:23:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

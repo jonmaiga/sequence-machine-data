@@ -1,0 +1,18 @@
+{
+  "description": "Array (read by antidiagonals) where T(0,j) = 1, T(i,0) = 1, otherwise T(i,j) = floor[(1/Phi)*T(i,j-1) + (1+Phi)*T(i-1,j) - (1/Phi)*T(i-1,j-1)] where Phi = (sqrt(5)+1)/2.",
+  "id": "A097615",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (5 + 6*x + 3*x^2 - 2*x^3) / (1 - 2*x - 2*x^2 - 2*x^3 + x^4) in powers of x.",
+  "id": "A071101",
+  "mentions": [
+    "A112835",
+    "A138573",
+    "A318605"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Juggler sequence: if n mod 2 = 0 then floor(sqrt(n)) else floor(n^(3/2)).",
+  "id": "A094683",
+  "mentions": [
+    "A000093",
+    "A000196",
+    "A007320",
+    "A007321",
+    "A094684",
+    "A094685",
+    "A094716"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

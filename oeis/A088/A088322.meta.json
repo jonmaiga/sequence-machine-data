@@ -1,0 +1,19 @@
+{
+  "description": "Number of monotone functions f: 2^X -> 2^X where 2^X is the power set of an n-set X. Here f is monotone means that if A is a subset of B then f(A) is a subset of f(B).",
+  "id": "A088322",
+  "mentions": [
+    "A000372",
+    "A061301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

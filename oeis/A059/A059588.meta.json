@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=Sum_{i=0..n} |stirling1(n,i)|*2^(2^i).",
+  "id": "A059588",
+  "mentions": [
+    "A059085",
+    "A059587"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

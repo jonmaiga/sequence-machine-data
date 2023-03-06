@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A000337(n+4), n >= 0.",
+  "id": "A045618",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000337"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

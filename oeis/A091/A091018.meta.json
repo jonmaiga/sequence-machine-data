@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in n-th upward diagonal of triangle T : 0; 1, 2; 3, 4, 5; 6, 7, 8, 9; ...",
+  "id": "A091018",
+  "mentions": [
+    "A056536",
+    "A090894"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:29",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

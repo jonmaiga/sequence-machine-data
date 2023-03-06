@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci-type sequence based on division: a(0) = 1, a(1) = 2 and a(n) = a(n-2)/a(n-1) but ignore decimal point.",
+  "id": "A061083",
+  "mentions": [
+    "A000045",
+    "A000301",
+    "A061084"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

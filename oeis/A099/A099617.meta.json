@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the coefficients in the Taylor expansion of sec(x) + tan(x) around x=0.",
+  "id": "A099617",
+  "mentions": [
+    "A000111",
+    "A099612",
+    "A279107"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

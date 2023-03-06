@@ -1,0 +1,21 @@
+{
+  "description": "n sets a new record for number of iterations of A034690 (sum of digits of the divisors of n) needed to reach 15 (see A086793).",
+  "id": "A095347",
+  "mentions": [
+    "A034690",
+    "A086793",
+    "A094501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

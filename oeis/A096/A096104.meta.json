@@ -1,0 +1,19 @@
+{
+  "description": "Digit reversal of A096299(n).",
+  "id": "A096104",
+  "mentions": [
+    "A096299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

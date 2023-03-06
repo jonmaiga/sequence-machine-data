@@ -1,0 +1,19 @@
+{
+  "description": "Absolute values of differences of A036273.",
+  "id": "A036274",
+  "mentions": [
+    "A036262",
+    "A036263",
+    "A036273"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:53",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

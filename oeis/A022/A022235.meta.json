@@ -1,0 +1,16 @@
+{
+  "description": "Gaussian binomial coefficients [ n,6 ] for q = 7.",
+  "id": "A022235",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 6,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the n-th term of Hofstadter Q-sequence is < (n+1)-th term.",
+  "id": "A081830",
+  "mentions": [
+    "A005185",
+    "A081827",
+    "A081828",
+    "A081829",
+    "A194626"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Beastly (or hateful) numbers: numbers containing the string 666 in their decimal expansion.",
+  "id": "A051003",
+  "mentions": [
+    "A002282",
+    "A043515",
+    "A046720",
+    "A057564",
+    "A131645",
+    "A138563",
+    "A186086"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:41",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

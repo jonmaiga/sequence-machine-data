@@ -1,0 +1,20 @@
+{
+  "description": "Consider recurrence b(0) = n/4, b(k) = b(k-1)*floor(b(k-1)); sequence gives number of steps to reach an integer, or -1 if no integer is ever reached.",
+  "id": "A087664",
+  "mentions": [
+    "A057016",
+    "A087665",
+    "A087667",
+    "A087668"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 8,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

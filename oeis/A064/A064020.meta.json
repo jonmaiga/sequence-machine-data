@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sf(n) = phi(n), where sf(n) = A013928(n).",
+  "id": "A064020",
+  "mentions": [
+    "A013928"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

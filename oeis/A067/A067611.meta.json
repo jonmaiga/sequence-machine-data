@@ -1,0 +1,33 @@
+{
+  "description": "Numbers of the form 6xy +- x +- y, where x, y are positive integers.",
+  "id": "A067611",
+  "mentions": [
+    "A000217",
+    "A001222",
+    "A002822",
+    "A010051",
+    "A033579",
+    "A037074",
+    "A046953",
+    "A046954",
+    "A060461",
+    "A070043",
+    "A070799",
+    "A071538",
+    "A121763",
+    "A121765",
+    "A136017",
+    "A136050",
+    "A323674"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

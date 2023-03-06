@@ -1,0 +1,19 @@
+{
+  "description": "a(n) preceded and followed by nextprime(a(n)) is a prime.",
+  "id": "A034596",
+  "mentions": [
+    "A034591",
+    "A034595"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:09",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

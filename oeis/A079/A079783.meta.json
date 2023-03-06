@@ -1,0 +1,20 @@
+{
+  "description": "Sum of n-th row of triangle in A079784.",
+  "id": "A079783",
+  "mentions": [
+    "A079781",
+    "A079782",
+    "A079784"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

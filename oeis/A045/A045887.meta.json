@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct even numbers visible as proper subsequences of n.",
+  "id": "A045887",
+  "mentions": [
+    "A045888",
+    "A342845",
+    "A342846"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

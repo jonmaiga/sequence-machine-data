@@ -1,0 +1,22 @@
+{
+  "description": "Value of D for incrementally largest values of minimal x satisfying Pell equation x^2-Dy^2=1.",
+  "id": "A033316",
+  "mentions": [
+    "A000037",
+    "A002349",
+    "A002350",
+    "A033313",
+    "A033314",
+    "A033315"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

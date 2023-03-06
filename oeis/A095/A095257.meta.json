@@ -1,0 +1,15 @@
+{
+  "description": "Sum of three edges of box having both integral orthogonal sides and integral geodesic distances between opposite vertices.",
+  "id": "A095257",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

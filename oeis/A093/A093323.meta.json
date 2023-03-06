@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows giving number of divisor chains of length n beginning with k (1 <= k <= n).",
+  "id": "A093323",
+  "mentions": [
+    "A094097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

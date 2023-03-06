@@ -1,0 +1,25 @@
+{
+  "description": "A simple grammar: rooted ordered set partitions.",
+  "id": "A052882",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A001469",
+    "A024167",
+    "A087301",
+    "A108744",
+    "A208744"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisor chains of length n in which the first term is a divisor of n(n+1)/2 (\"cyclic\" divisor chains).",
+  "id": "A094098",
+  "mentions": [
+    "A067957",
+    "A094097",
+    "A094099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

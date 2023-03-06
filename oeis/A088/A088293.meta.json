@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime in which the digit string can be partitioned into n+1 parts (only nonzero parts allowed) such that the sum of the first n parts = the (n+1)th one.",
+  "id": "A088293",
+  "mentions": [
+    "A088291",
+    "A088292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

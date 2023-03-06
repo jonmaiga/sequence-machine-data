@@ -1,0 +1,25 @@
+{
+  "description": "Number of \"sets of odd lists\", cf. A000262.",
+  "id": "A088009",
+  "mentions": [
+    "A000010",
+    "A000262",
+    "A052845",
+    "A066668",
+    "A088026",
+    "A168561",
+    "A318976"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

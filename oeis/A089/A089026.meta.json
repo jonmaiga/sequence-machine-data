@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = n if n is a prime, otherwise a(n) = 1.",
+  "id": "A089026",
+  "mentions": [
+    "A000217",
+    "A007406",
+    "A007619",
+    "A008683",
+    "A010051",
+    "A014963",
+    "A034386",
+    "A061397",
+    "A069268",
+    "A080305",
+    "A090585",
+    "A090586",
+    "A135683"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:55",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets of integers 1 through n (including the empty set) containing no pair of integers that share a common factor.",
+  "id": "A084422",
+  "mentions": [
+    "A036234",
+    "A051026",
+    "A087080",
+    "A087081",
+    "A186974"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

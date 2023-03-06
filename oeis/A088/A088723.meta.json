@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k with at least one divisor d>1 such that d+1 also divides k.",
+  "id": "A088723",
+  "mentions": [
+    "A005843",
+    "A008588",
+    "A027750",
+    "A088722",
+    "A088724",
+    "A088725",
+    "A088726",
+    "A132895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 2x^2 + 3y^2.",
+  "id": "A084865",
+  "mentions": [
+    "A000040",
+    "A002480",
+    "A019338",
+    "A084863",
+    "A084864",
+    "A084866",
+    "A106856",
+    "A139827"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

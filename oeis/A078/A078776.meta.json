@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that phi(k-1) < phi(k) < phi(k+1), where phi is the Euler totient function (A000010).",
+  "id": "A078776",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

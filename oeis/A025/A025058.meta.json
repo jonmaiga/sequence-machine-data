@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of form i*j + j*k + k*i, where 1 <=i < j < k, including repetitions.",
+  "id": "A025058",
+  "mentions": [
+    "A025060",
+    "A093669"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:41",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

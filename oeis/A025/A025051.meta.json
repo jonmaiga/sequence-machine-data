@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form j*k + k*i + i*j, where i,j,k >= 1.",
+  "id": "A025051",
+  "mentions": [
+    "A025050",
+    "A025052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:39",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

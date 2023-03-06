@@ -1,0 +1,21 @@
+{
+  "description": "Even elements in Pascal's triangle.",
+  "id": "A014428",
+  "mentions": [
+    "A007318",
+    "A014421",
+    "A048967"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

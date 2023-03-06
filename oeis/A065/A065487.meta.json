@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 + 1/(p*(p^2-1))).",
+  "id": "A065487",
+  "mentions": [
+    "A001615",
+    "A001692",
+    "A036966",
+    "A072802"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

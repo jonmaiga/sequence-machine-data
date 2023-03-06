@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A067588(k) is an odd number.",
+  "id": "A067589",
+  "mentions": [
+    "A000009",
+    "A000326",
+    "A001318",
+    "A005449",
+    "A014493",
+    "A014632",
+    "A067588",
+    "A128880",
+    "A193828"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

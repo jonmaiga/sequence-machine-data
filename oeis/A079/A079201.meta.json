@@ -1,0 +1,27 @@
+{
+  "description": "Number of isomorphism classes of associative commutative closed binary operations on a set of order n, listed by class size.",
+  "id": "A079201",
+  "mentions": [
+    "A001426",
+    "A023815",
+    "A027423",
+    "A058105",
+    "A079171",
+    "A079194",
+    "A079197",
+    "A079200",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

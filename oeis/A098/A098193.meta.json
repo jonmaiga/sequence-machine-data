@@ -1,0 +1,25 @@
+{
+  "description": "Terms in a specific cycle of length 7 of the map x->A098189(x).",
+  "id": "A098193",
+  "mentions": [
+    "A063919",
+    "A098189",
+    "A098190",
+    "A098191",
+    "A098192",
+    "A098194",
+    "A098195"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

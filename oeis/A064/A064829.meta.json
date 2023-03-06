@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number greater than 1 which ends in an odd digit in bases 2 through n.",
+  "id": "A064829",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

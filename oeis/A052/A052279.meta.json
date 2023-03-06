@@ -1,0 +1,21 @@
+{
+  "description": "Primes such that the sum of the factorials of the digits is a perfect square.",
+  "id": "A052279",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000290",
+    "A061602"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

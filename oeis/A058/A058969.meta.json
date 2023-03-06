@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of expansion of a function eta(x) related to Cremer points.",
+  "id": "A058969",
+  "mentions": [
+    "A058970"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-09 16:15:07",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

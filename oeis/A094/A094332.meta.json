@@ -1,0 +1,19 @@
+{
+  "description": "Iterate the map in A006368 starting at 12.",
+  "id": "A094332",
+  "mentions": [
+    "A006368",
+    "A028384",
+    "A094328"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

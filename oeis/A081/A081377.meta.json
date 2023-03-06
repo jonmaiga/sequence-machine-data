@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that the set of prime divisors of phi(n) is equal to the set of prime divisors of sigma(n).",
+  "id": "A081377",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A027598",
+    "A055744",
+    "A065642",
+    "A076533",
+    "A081378",
+    "A110751",
+    "A110819",
+    "A141718"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

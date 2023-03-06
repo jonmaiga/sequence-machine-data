@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows where the n-th row gives the reverse-lexicographically earliest sequence of n distinct integers > 1 whose product equals the smallest possible square (=A081456(n)).",
+  "id": "A083489",
+  "mentions": [
+    "A081454",
+    "A081456",
+    "A081457",
+    "A086435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

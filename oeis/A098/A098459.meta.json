@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of G/2 + (1/8)*Pi*log(2), where G is Catalan's constant (often also denoted K).",
+  "id": "A098459",
+  "mentions": [
+    "A006752",
+    "A096615",
+    "A102521",
+    "A102886"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

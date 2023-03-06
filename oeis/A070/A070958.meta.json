@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the largest digit of n is the same as the largest digit of (sum of digits of n).",
+  "id": "A070958",
+  "mentions": [
+    "A107085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

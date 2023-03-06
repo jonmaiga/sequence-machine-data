@@ -1,0 +1,19 @@
+{
+  "description": "Matrix inverse of triangle A091613.",
+  "id": "A091614",
+  "mentions": [
+    "A091613",
+    "A091623"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

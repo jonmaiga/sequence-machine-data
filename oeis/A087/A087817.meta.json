@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(a(a(n-1)))+a(n-a(n-1)).",
+  "id": "A087817",
+  "mentions": [
+    "A004001",
+    "A087836"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

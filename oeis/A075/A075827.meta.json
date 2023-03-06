@@ -1,0 +1,23 @@
+{
+  "description": "Let u(1) = x and u(n+1) = (n^2/u(n)) + 1 for n >= 1; then a(n) is such that u(n) =(a(n)*x + b(n))/(c(n)*x + d(n)) (in lowest terms) and a(n), b(n), c(n), d(n) are positive integers.",
+  "id": "A075827",
+  "mentions": [
+    "A024167",
+    "A024168",
+    "A075828",
+    "A075829",
+    "A075830",
+    "A334958"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

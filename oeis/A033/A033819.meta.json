@@ -1,0 +1,33 @@
+{
+  "description": "Trimorphic numbers: n^3 ends with n. Also m-morphic numbers for all m > 5 such that m-1 is not divisible by 10 and m == 3 (mod 4).",
+  "id": "A033819",
+  "mentions": [
+    "A002283",
+    "A007185",
+    "A016090",
+    "A055642",
+    "A074194",
+    "A198971",
+    "A199685",
+    "A215558",
+    "A216092",
+    "A216093",
+    "A224473",
+    "A224474",
+    "A224475",
+    "A224476",
+    "A224477",
+    "A224478"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

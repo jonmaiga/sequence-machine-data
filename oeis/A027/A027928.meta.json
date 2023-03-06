@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(n, 2*n-5), T given by A027926.",
+  "id": "A027928",
+  "mentions": [
+    "A000045",
+    "A027926",
+    "A228074"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:39",
+    "offset": 3,
+    "size": 35,
+    "source": "joeis"
+  }
+}

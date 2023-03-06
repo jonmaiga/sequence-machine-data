@@ -1,0 +1,33 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product ( prime(k_j)^pi(p_j) ) where pi is A000720.",
+  "id": "A048767",
+  "mentions": [
+    "A000720",
+    "A008477",
+    "A048768",
+    "A048769",
+    "A056239",
+    "A064988",
+    "A098859",
+    "A109298",
+    "A112798",
+    "A118914",
+    "A130091",
+    "A217605",
+    "A320348",
+    "A325326",
+    "A325337"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

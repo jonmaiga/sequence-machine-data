@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p that is a palindrome in n different bases < p.",
+  "id": "A087911",
+  "mentions": [
+    "A000040",
+    "A037183",
+    "A065531",
+    "A107129",
+    "A135549",
+    "A137779"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

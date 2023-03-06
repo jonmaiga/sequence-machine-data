@@ -1,0 +1,20 @@
+{
+  "description": "Ninth diagonal (m=8) of triangle A084938; a(n) = A084938(n+8,n) = (n^8 + 84*n^7 + 3346*n^6 + 84840*n^5 + 1550689*n^4 + 21632436*n^3 + 224782284*n^2 + 1377648720*n)/40320.",
+  "id": "A090394",
+  "mentions": [
+    "A084938",
+    "A090238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:53",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

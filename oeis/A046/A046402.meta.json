@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with exactly 4 distinct palindromic prime factors.",
+  "id": "A046402",
+  "mentions": [
+    "A014613",
+    "A046370"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

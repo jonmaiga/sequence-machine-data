@@ -1,0 +1,27 @@
+{
+  "description": "Number of 5-core partitions of n.",
+  "id": "A053723",
+  "mentions": [
+    "A030203",
+    "A053724",
+    "A109063",
+    "A109064",
+    "A138512",
+    "A175595",
+    "A227216",
+    "A229802"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Circle numbers (version 3): a(n) = number of points (i,j), i,j integers, contained in a circle of diameter n, centered at (1/2, 1/2).",
+  "id": "A053415",
+  "mentions": [
+    "A053411",
+    "A053414",
+    "A053416",
+    "A053417"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

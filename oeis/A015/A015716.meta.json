@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n into distinct parts, one of which is k (1<=k<=n).",
+  "id": "A015716",
+  "mentions": [
+    "A000009",
+    "A006128",
+    "A015723",
+    "A015744",
+    "A015745",
+    "A015746",
+    "A015750",
+    "A022629",
+    "A025147",
+    "A027293",
+    "A066189",
+    "A066633",
+    "A238450",
+    "A238451",
+    "A246867",
+    "A325504",
+    "A325506",
+    "A325513"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:42:45",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Main diagonal of triangle A084408.",
+  "id": "A084409",
+  "mentions": [
+    "A002808",
+    "A034387",
+    "A084408",
+    "A084410",
+    "A084411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

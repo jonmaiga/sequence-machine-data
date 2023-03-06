@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-1)-th nontotient number.",
+  "id": "A071573",
+  "mentions": [
+    "A005277",
+    "A072415"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

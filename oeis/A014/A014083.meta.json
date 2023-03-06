@@ -1,0 +1,23 @@
+{
+  "description": "Occurrences of '1111' in binary expansion of n.",
+  "id": "A014083",
+  "mentions": [
+    "A000120",
+    "A014081",
+    "A014082",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

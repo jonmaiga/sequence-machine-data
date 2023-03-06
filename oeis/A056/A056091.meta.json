@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^4 == 1 (mod 5^4).",
+  "id": "A056091",
+  "mentions": [
+    "A056092",
+    "A056094",
+    "A056095"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

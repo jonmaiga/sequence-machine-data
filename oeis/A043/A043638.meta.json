@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-10 representation has exactly 2 runs.",
+  "id": "A043638",
+  "mentions": [
+    "A023752"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

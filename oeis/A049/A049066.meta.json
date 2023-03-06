@@ -1,0 +1,20 @@
+{
+  "description": "Mean prime gaps associated with A049036.",
+  "id": "A049066",
+  "mentions": [
+    "A049036",
+    "A085621",
+    "A228543"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

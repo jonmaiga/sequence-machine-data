@@ -1,0 +1,19 @@
+{
+  "description": "Numbers missing from A038161.",
+  "id": "A038162",
+  "mentions": [
+    "A035019",
+    "A038161",
+    "A038590"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Moebius transform of {1, primes}.",
+  "id": "A030013",
+  "mentions": [
+    "A007444",
+    "A008578",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:45:47",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

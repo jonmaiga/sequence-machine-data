@@ -1,0 +1,18 @@
+{
+  "description": "Cototients of non-cototient numbers: A051953(A005278(n)).",
+  "id": "A053474",
+  "mentions": [
+    "A005278",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

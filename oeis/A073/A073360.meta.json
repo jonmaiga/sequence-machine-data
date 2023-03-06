@@ -1,0 +1,19 @@
+{
+  "description": "Nested floor product of n and fractions (k+1)/k for all k>0 (mod 3), divided by 3.",
+  "id": "A073360",
+  "mentions": [
+    "A073359"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

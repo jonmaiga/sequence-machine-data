@@ -1,0 +1,20 @@
+{
+  "description": "Index of redundancy in period of continued fraction for sqrt(n).",
+  "id": "A028833",
+  "mentions": [
+    "A003285",
+    "A028832"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

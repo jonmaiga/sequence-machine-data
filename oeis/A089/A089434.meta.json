@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 2, k >= 0) is the number of non-crossing connected graphs on n nodes on a circle, having k interior faces. Rows are indexed 2,3,4,...; columns are indexed 0,1,2,....",
+  "id": "A089434",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A003408",
+    "A007297",
+    "A045742",
+    "A089433",
+    "A108410"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:06:24",
+    "offset": 2,
+    "size": 43,
+    "source": "joeis"
+  }
+}

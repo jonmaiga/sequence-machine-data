@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers such that sigma(n) - 2n = 6.",
+  "id": "A087167",
+  "mentions": [
+    "A003380",
+    "A005101",
+    "A005835",
+    "A077374",
+    "A141548"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

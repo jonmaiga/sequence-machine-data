@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci quotients: Fibonacci(p - Legendre(p|5))/p where p runs through the primes.",
+  "id": "A092330",
+  "mentions": [
+    "A000045",
+    "A080891",
+    "A222361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

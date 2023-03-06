@@ -1,0 +1,32 @@
+{
+  "description": "Primes whose sum of digits is a multiple of 5.",
+  "id": "A062340",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A062341",
+    "A106760",
+    "A106763",
+    "A106770",
+    "A106773",
+    "A106780",
+    "A106783",
+    "A107579",
+    "A107619",
+    "A181321",
+    "A227793"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Multiplication table of the square numbers read by antidiagonals.",
+  "id": "A098359",
+  "mentions": [
+    "A000124",
+    "A003991",
+    "A098358",
+    "A098360",
+    "A098361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Divisible by 3^k (where k is digit length of a(n)).",
+  "id": "A050625",
+  "mentions": [
+    "A035014",
+    "A050622",
+    "A050623"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:47:35",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

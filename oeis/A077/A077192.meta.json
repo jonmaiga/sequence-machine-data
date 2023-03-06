@@ -1,0 +1,18 @@
+{
+  "description": "{Concatenation of n-1 and n+1}/n where n is a member of A069871.",
+  "id": "A077192",
+  "mentions": [
+    "A069871"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

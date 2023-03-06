@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Gamma(1/4)/(2*Pi^(3/4)).",
+  "id": "A091343",
+  "mentions": [
+    "A248190",
+    "A248191",
+    "A248192"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

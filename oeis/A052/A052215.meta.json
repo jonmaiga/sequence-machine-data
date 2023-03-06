@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest number m such that m and m+1 are the product of exactly n distinct primes.",
+  "id": "A052215",
+  "mentions": [
+    "A093548",
+    "A093549",
+    "A093550",
+    "A115186",
+    "A318896"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

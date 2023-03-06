@@ -1,0 +1,21 @@
+{
+  "description": "Position of second occurrence of n in concatenated numbers (A033307, Champernowne constant).",
+  "id": "A086045",
+  "mentions": [
+    "A000030",
+    "A033307",
+    "A055642",
+    "A086044"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

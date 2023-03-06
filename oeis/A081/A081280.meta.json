@@ -1,0 +1,23 @@
+{
+  "description": "Binomial transform of Chebyshev coefficients A006974.",
+  "id": "A081280",
+  "mentions": [
+    "A006234",
+    "A006974",
+    "A007051",
+    "A081279",
+    "A081281"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

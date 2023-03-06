@@ -1,0 +1,22 @@
+{
+  "description": "Noncomposite numbers in which every substring is noncomposite.",
+  "id": "A068669",
+  "mentions": [
+    "A012884",
+    "A062115",
+    "A202262"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

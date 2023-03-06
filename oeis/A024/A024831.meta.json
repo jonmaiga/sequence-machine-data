@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = least m such that if r and s in {F(h)/F(2*h): h = 1,2,...,n} satisfy r < s, then r < k/m < s for some integer k, where F = A000045 (Fibonacci numbers).",
+  "id": "A024831",
+  "mentions": [
+    "A000045",
+    "A001000"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

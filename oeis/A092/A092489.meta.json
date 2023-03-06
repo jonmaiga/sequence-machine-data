@@ -1,0 +1,22 @@
+{
+  "description": "Arises in enumeration of 321-hexagon-avoiding permutations.",
+  "id": "A092489",
+  "mentions": [
+    "A058094",
+    "A092490",
+    "A092491",
+    "A092492"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

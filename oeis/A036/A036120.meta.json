@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^n mod 19.",
+  "id": "A036120",
+  "mentions": [
+    "A000079",
+    "A061762"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

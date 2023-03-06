@@ -1,0 +1,16 @@
+{
+  "description": "Least k such that for every 1 < r < n there exists a distinct s, n < s <= k so that r and s have the same prime signature.",
+  "id": "A093496",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

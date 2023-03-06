@@ -1,0 +1,15 @@
+{
+  "description": "Number of integer points (x,y,z) at distance <= 0.5 from sphere of radius n.",
+  "id": "A016728",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:57",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

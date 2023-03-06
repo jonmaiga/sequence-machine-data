@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with 14 divisors.",
+  "id": "A030632",
+  "mentions": [
+    "A092759",
+    "A138031",
+    "A189987"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:07",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

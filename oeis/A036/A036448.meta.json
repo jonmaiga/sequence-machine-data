@@ -1,0 +1,24 @@
+{
+  "description": "Smallest positive number containing n e's when spelled out in US English.",
+  "id": "A036448",
+  "mentions": [
+    "A000027",
+    "A000052",
+    "A001477",
+    "A005589",
+    "A006933",
+    "A037196",
+    "A085513"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

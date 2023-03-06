@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct values of A075860(j) when j runs through composite numbers between n-th and (n+1)-th primes. That is, the counts of different fixed-points[=prime] reached by iteration of function A008472(=sum of prime factors) initiated with composite values between two consecutive primes.",
+  "id": "A082882",
+  "mentions": [
+    "A001223",
+    "A008472",
+    "A075860",
+    "A082081",
+    "A082087",
+    "A082088",
+    "A082880",
+    "A082883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

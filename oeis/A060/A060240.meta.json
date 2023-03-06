@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) in which n-th row gives degrees of irreducible representations of symmetric group S_n.",
+  "id": "A060240",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A000142",
+    "A003040",
+    "A003870",
+    "A003871",
+    "A060241",
+    "A060246",
+    "A060247",
+    "A060437",
+    "A224653"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

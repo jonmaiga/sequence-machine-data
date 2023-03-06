@@ -1,0 +1,30 @@
+{
+  "description": "Transposed version of A080955: T(n,k) = A080955(k,n), n>=0, k>=-1.",
+  "id": "A089258",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000522",
+    "A008290",
+    "A010842",
+    "A053486",
+    "A053487",
+    "A080954",
+    "A080955",
+    "A217701",
+    "A292977"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

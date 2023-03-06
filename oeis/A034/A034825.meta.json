@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-node rooted trees of height at most 8.",
+  "id": "A034825",
+  "mentions": [
+    "A000235",
+    "A001383",
+    "A034824"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:04:30",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

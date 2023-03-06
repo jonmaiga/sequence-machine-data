@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of LambertW(1): the solution to x*exp(x) = 1.",
+  "id": "A030178",
+  "mentions": [
+    "A001620",
+    "A019474",
+    "A030797",
+    "A059526",
+    "A059527",
+    "A068985",
+    "A238274",
+    "A276759"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

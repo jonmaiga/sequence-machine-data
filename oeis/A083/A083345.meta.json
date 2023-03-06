@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of r(n) = Sum(e/p: n=Product(p^e)).",
+  "id": "A083345",
+  "mentions": [
+    "A000027",
+    "A072873",
+    "A083346",
+    "A083347",
+    "A083348",
+    "A086130"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

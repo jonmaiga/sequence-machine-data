@@ -1,0 +1,26 @@
+{
+  "description": "In binary representation: number of editing steps (delete, insert, or substitute) to transform n into n + 1.",
+  "id": "A091090",
+  "mentions": [
+    "A004275",
+    "A007088",
+    "A007814",
+    "A036987",
+    "A135416",
+    "A135517",
+    "A152487"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Write numbers 1, then 1 up to 2^2, then 1 up to 3^2, then 1 up to 4^2 and so on.",
+  "id": "A064866",
+  "mentions": [
+    "A000330",
+    "A002024",
+    "A002260",
+    "A002262",
+    "A064865",
+    "A074279",
+    "A121997",
+    "A237451",
+    "A237452",
+    "A238013"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that |real(zeta(1/2 + n*I))| exceeds all previous values, where zeta is the Riemann zeta function.",
+  "id": "A079630",
+  "mentions": [
+    "A002410"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 0, 0 <= k <= n) giving number of solutions to the n-box stacking problem in which exactly k boxes are used in the stack.",
+  "id": "A089239",
+  "mentions": [
+    "A000217",
+    "A005744",
+    "A089055",
+    "A089240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

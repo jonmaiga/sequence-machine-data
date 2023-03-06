@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*floor( prime(k)/k ).",
+  "id": "A024927",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:45",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (F(6*n+2)-1)/4, where F=A000045 (the Fibonacci sequence).",
+  "id": "A049662",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

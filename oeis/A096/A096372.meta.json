@@ -1,0 +1,22 @@
+{
+  "description": "List of primes produced by a certain \"prime-generating\" quartic polynomial.",
+  "id": "A096372",
+  "mentions": [
+    "A076808",
+    "A076809",
+    "A095946",
+    "A095974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Start of the first sequence of exactly n consecutive pairs of twin primes.",
+  "id": "A087641",
+  "mentions": [
+    "A001359",
+    "A035789",
+    "A035790",
+    "A035791",
+    "A035792",
+    "A035793",
+    "A035794",
+    "A035795",
+    "A111950",
+    "A179067",
+    "A259034",
+    "A263205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

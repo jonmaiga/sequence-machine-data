@@ -1,0 +1,23 @@
+{
+  "description": "Squares using at most two distinct digits, not ending in 0.",
+  "id": "A018884",
+  "mentions": [
+    "A000290",
+    "A016069",
+    "A016070",
+    "A018885"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

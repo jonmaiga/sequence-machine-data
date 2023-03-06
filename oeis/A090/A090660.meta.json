@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n*nextprime((n-1)!)-nextprime(n!) < 0.",
+  "id": "A090660",
+  "mentions": [
+    "A002981",
+    "A089014",
+    "A090661"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

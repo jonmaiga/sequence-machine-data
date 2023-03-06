@@ -1,0 +1,18 @@
+{
+  "description": "Integers which have at least two different factorizations into coprime parts whose sum are equal.",
+  "id": "A069064",
+  "mentions": [
+    "A072940"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

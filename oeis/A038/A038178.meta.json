@@ -1,0 +1,22 @@
+{
+  "description": "n = (sum of digits of n)^(number of digits of n).",
+  "id": "A038178",
+  "mentions": [
+    "A023106"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Inconsummate numbers in base 12: no number is this multiple of the sum of its digits (in base 12).",
+  "id": "A058907",
+  "mentions": [
+    "A003635",
+    "A052491",
+    "A058898",
+    "A058899",
+    "A058900",
+    "A058901",
+    "A058902",
+    "A058903",
+    "A058904",
+    "A058905",
+    "A058906"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

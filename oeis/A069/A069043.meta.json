@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k with no prime factor among (2, 3) (cf. A038509) and such that phi(k) < 2*k/3.",
+  "id": "A069043",
+  "mentions": [
+    "A000010",
+    "A038509",
+    "A067793"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

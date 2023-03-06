@@ -1,0 +1,23 @@
+{
+  "description": "Least number m such that cardinality of InvPhi[m] = prime(n).",
+  "id": "A071389",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A058277",
+    "A063512",
+    "A071386",
+    "A071388"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

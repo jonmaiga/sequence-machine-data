@@ -1,0 +1,20 @@
+{
+  "description": "Integers which are not the sum of 2 integers A and B with AB+1 and AB-1 both primes. In other words, the product cannot be the middle integer of a Twin Prime pair.",
+  "id": "A090695",
+  "mentions": [
+    "A014574",
+    "A091182",
+    "A091183"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

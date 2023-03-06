@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) > sigma(k+1) > sigma(k+2) > sigma(k+3).",
+  "id": "A050944",
+  "mentions": [
+    "A000203",
+    "A050945"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:33",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

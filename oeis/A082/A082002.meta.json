@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals, alternating upwards and downwards: T(1, 1) = 1 and every other entry is the smallest number not already used that has a common factor with every number in its row and column, not including the 1.",
+  "id": "A082002",
+  "mentions": [
+    "A082003",
+    "A082004",
+    "A082005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

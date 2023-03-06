@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected directed 3-multigraphs on n nodes.",
+  "id": "A053515",
+  "mentions": [
+    "A053468"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:51:54",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

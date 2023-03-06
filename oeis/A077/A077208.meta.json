@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of squarefree numbers such that a(k) begins with the end of a(k-1).",
+  "id": "A077208",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:07",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

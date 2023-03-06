@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors divides sum of cubes of divisors.",
+  "id": "A046841",
+  "mentions": [
+    "A000203",
+    "A001158",
+    "A003601",
+    "A005117",
+    "A020486"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:35",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

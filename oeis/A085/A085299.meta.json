@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number x such that A085298[x]=n, or 0 if no such number exists.",
+  "id": "A085299",
+  "mentions": [
+    "A003459",
+    "A007500",
+    "A055387",
+    "A056994",
+    "A057708",
+    "A058993",
+    "A059695",
+    "A061461",
+    "A068652",
+    "A085298"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

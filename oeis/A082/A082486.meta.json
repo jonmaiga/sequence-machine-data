@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the constant c satisfying Sum_{k>=1} 1/c^sqrtint(k) = 1 where sqrtint(k) = floor(sqrt(k)).",
+  "id": "A082486",
+  "mentions": [
+    "A082483",
+    "A082484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

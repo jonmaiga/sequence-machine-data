@@ -1,0 +1,20 @@
+{
+  "description": "Number of 9-block bicoverings of an n-set.",
+  "id": "A059950",
+  "mentions": [
+    "A002718",
+    "A059443"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

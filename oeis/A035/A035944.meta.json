@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions in parts not of the form 11k, 11k+1 or 11k-1. Also number of partitions with no part of size 1 and differences between parts at distance 4 are greater than 1.",
+  "id": "A035944",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:23:47",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

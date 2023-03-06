@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric trivalent (or cubic) connected graphs on 2n nodes (the Foster census).",
+  "id": "A059282",
+  "mentions": [
+    "A002851",
+    "A005638",
+    "A032355",
+    "A091430"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 151,
+    "source": "oeis-bfile"
+  }
+}

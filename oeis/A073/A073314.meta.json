@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform, alternating in sign, of Lucas generalized numbers S(n): S(n) = S(n-1) + S(n-2) + S(n-3), S(0)=3, S(1)=1, S(2)=3.",
+  "id": "A073314",
+  "mentions": [
+    "A001644",
+    "A003633",
+    "A077940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

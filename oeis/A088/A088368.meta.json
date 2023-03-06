@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} n!*x^n*A(x)^n.",
+  "id": "A088368",
+  "mentions": [
+    "A000262",
+    "A198916"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

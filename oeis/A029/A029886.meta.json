@@ -1,0 +1,26 @@
+{
+  "description": "Convolution of Thue-Morse sequence A001285 with itself.",
+  "id": "A029886",
+  "mentions": [
+    "A001285",
+    "A003071",
+    "A061297",
+    "A092524",
+    "A093431",
+    "A102393",
+    "A104258",
+    "A122248",
+    "A128975"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

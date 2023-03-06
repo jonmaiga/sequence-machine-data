@@ -1,0 +1,21 @@
+{
+  "description": "Nonprime numbers n such that the sum of aliquot divisors of n (A001065) and product of aliquot divisors of n (A048741) are both perfect squares.",
+  "id": "A064121",
+  "mentions": [
+    "A001065",
+    "A048741",
+    "A064116",
+    "A064710"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

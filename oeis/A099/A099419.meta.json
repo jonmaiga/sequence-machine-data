@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 7*R_k - 6 is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A099419",
+  "mentions": [
+    "A002275",
+    "A056688",
+    "A093176"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

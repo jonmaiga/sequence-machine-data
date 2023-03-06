@@ -1,0 +1,19 @@
+{
+  "description": "Positions of ones in binary expansion of e/4.",
+  "id": "A094058",
+  "mentions": [
+    "A004712"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

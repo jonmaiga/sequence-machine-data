@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with property that the last digit is the length of the number (written in base 10).",
+  "id": "A098955",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

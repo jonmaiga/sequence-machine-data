@@ -1,0 +1,24 @@
+{
+  "description": "Number of subsets of proper divisors of numbers in A065218 summing to the number.",
+  "id": "A065219",
+  "mentions": [
+    "A002182",
+    "A004394",
+    "A005835",
+    "A063205",
+    "A064771",
+    "A065205",
+    "A065218"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

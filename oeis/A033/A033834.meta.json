@@ -1,0 +1,19 @@
+{
+  "description": "Number of proper factorizations of the numbers with a record number of proper factorizations.",
+  "id": "A033834",
+  "mentions": [
+    "A001055",
+    "A028422",
+    "A033833"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

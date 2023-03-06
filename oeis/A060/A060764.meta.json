@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of n which are not also differences between consecutive divisors (ordered by increasing magnitude) of n.",
+  "id": "A060764",
+  "mentions": [
+    "A000005",
+    "A060741",
+    "A060763"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

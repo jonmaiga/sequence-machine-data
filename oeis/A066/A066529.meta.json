@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least index such that the least primitive root of the a(n)-th prime is n, or zero if no such prime exists.",
+  "id": "A066529",
+  "mentions": [
+    "A000720",
+    "A001122",
+    "A001123",
+    "A001597",
+    "A001918",
+    "A023048"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

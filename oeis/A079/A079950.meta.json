@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of n-th prime modulo twice primes less n-th prime.",
+  "id": "A079950",
+  "mentions": [
+    "A000040",
+    "A001747",
+    "A007652",
+    "A039702",
+    "A039704",
+    "A039712",
+    "A079951",
+    "A079952",
+    "A079953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

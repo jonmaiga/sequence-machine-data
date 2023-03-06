@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to partition n labeled elements into sets of sizes of at least 2 and order the sets.",
+  "id": "A032032",
+  "mentions": [
+    "A102233",
+    "A200091",
+    "A232475",
+    "A245732"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

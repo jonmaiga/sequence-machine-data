@@ -1,0 +1,18 @@
+{
+  "description": "Largest n-digit squarefree number.",
+  "id": "A074110",
+  "mentions": [
+    "A074109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

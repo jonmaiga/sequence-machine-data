@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest m such that value of odd harmonic series Sum_{j=0..m} 1/(2j+1) is >= n.",
+  "id": "A092318",
+  "mentions": [
+    "A025547",
+    "A074599",
+    "A092315",
+    "A092317",
+    "A281355"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows: for n >=0 and n >= k >=0, the fraction of positive integers with exactly k of the first n primes as divisors is T(n,k)/A002110(n).",
+  "id": "A096294",
+  "mentions": [
+    "A002110",
+    "A005867",
+    "A078456",
+    "A096180",
+    "A194156",
+    "A284411"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

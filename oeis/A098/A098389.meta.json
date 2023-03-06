@@ -1,0 +1,23 @@
+{
+  "description": "Prime(n) - floor(log_2(prime(n))).",
+  "id": "A098389",
+  "mentions": [
+    "A000040",
+    "A000523",
+    "A014689",
+    "A098386",
+    "A098388",
+    "A098390",
+    "A098392"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

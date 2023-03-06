@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest prime of the form n followed by a prime.",
+  "id": "A089777",
+  "mentions": [
+    "A096915"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

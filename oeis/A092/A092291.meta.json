@@ -1,0 +1,21 @@
+{
+  "description": "Let p = n-th irregular prime, A000928(n). Then a(n) = smallest value of m such that numerator(Bernoulli(2*m)/(2*m)) / numerator(Bernoulli(2*m)/(2*m*(2*m-1))) equals p.",
+  "id": "A092291",
+  "mentions": [
+    "A000928",
+    "A035112",
+    "A090495",
+    "A090496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

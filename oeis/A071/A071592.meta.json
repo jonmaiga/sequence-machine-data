@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that Reversal(m) is not squarefree.",
+  "id": "A071592",
+  "mentions": [
+    "A004086",
+    "A013929",
+    "A071591"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

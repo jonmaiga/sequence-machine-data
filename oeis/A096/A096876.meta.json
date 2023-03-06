@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the triangle A096875, which transforms n-dimensional partitions into (n-2)-dimensional partitions.",
+  "id": "A096876",
+  "mentions": [
+    "A096651",
+    "A096874",
+    "A096875"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

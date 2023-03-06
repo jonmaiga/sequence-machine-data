@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of integers used to compute column sequences of array A078739 ((2,2)-Stirling2).",
+  "id": "A089511",
+  "mentions": [
+    "A016129",
+    "A078739",
+    "A089275",
+    "A089276",
+    "A089278",
+    "A089500",
+    "A089512"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

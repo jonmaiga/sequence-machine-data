@@ -1,0 +1,20 @@
+{
+  "description": "Powers of 2 with each digit a power of 2 (only digits 0,1,2,4,8 are used).",
+  "id": "A060815",
+  "mentions": [
+    "A130696"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

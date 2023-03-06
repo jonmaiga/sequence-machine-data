@@ -1,0 +1,19 @@
+{
+  "description": "Records in the Conway's alimentary function A070871.",
+  "id": "A070926",
+  "mentions": [
+    "A070871",
+    "A070924"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

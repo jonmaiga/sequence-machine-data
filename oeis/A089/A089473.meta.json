@@ -1,0 +1,24 @@
+{
+  "description": "Number of configurations of the sliding block 8-puzzle that require a minimum of n moves to be reached, starting with the empty square in one of the corners.",
+  "id": "A089473",
+  "mentions": [
+    "A087725",
+    "A089474",
+    "A089483",
+    "A089484",
+    "A090031",
+    "A090036"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

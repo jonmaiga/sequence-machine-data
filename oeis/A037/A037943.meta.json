@@ -1,0 +1,21 @@
+{
+  "description": "Smallest Fibonacci number that has n as a factor, divided by n.",
+  "id": "A037943",
+  "mentions": [
+    "A000045",
+    "A001177",
+    "A047930"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

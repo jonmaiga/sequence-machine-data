@@ -1,0 +1,18 @@
+{
+  "description": "Powers of a prime lucky number (A031157) but excluding lucky numbers (A000959).",
+  "id": "A057609",
+  "mentions": [
+    "A000959",
+    "A031157"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

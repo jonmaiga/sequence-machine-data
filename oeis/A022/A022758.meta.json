@@ -1,0 +1,15 @@
+{
+  "description": "(n-th 4k+1 prime plus n-th 4k+3 prime)/4.",
+  "id": "A022758",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:45",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

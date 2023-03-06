@@ -1,0 +1,19 @@
+{
+  "description": "Right edge T(n,0) of the triangle A097883.",
+  "id": "A098376",
+  "mentions": [
+    "A097883",
+    "A098377"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

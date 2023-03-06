@@ -1,0 +1,19 @@
+{
+  "description": "Index of 4^n within sequence of numbers of form 4^i*6^j.",
+  "id": "A025703",
+  "mentions": [
+    "A025709"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

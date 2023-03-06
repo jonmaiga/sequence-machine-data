@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n*2^(n-4).",
+  "id": "A079859",
+  "mentions": [
+    "A001792",
+    "A045623",
+    "A049089",
+    "A057711",
+    "A078836",
+    "A079861",
+    "A079862",
+    "A079863"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 4,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

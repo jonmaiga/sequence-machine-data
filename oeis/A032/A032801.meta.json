@@ -1,0 +1,26 @@
+{
+  "description": "Number of unordered sets a, b, c, d of distinct integers from 1..n such that a+b+c+d = 0 (mod n).",
+  "id": "A032801",
+  "mentions": [
+    "A001399",
+    "A001400",
+    "A004526",
+    "A008610",
+    "A008646",
+    "A054533",
+    "A058212",
+    "A267632"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:13",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

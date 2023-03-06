@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that q^2 < p, where p=nextprime(n), q=nextprime(square root of n).",
+  "id": "A037208",
+  "mentions": [
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:45",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Convert n from pounds (lbs) to kilograms (kg).",
+  "id": "A029923",
+  "mentions": [
+    "A029924"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:47",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

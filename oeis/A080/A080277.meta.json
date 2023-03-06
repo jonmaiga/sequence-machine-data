@@ -1,0 +1,28 @@
+{
+  "description": "Partial sums of A038712.",
+  "id": "A080277",
+  "mentions": [
+    "A001511",
+    "A001787",
+    "A006519",
+    "A038712",
+    "A050292",
+    "A079944",
+    "A080333",
+    "A120385",
+    "A136013",
+    "A333979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

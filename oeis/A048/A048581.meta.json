@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of b(n) = (1/16^n)*(4/(8*n+1) - 2/(8*n+4) - 1/(8*n+5) - 1/(8*n+6)).",
+  "id": "A048581",
+  "mentions": [
+    "A066968"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:46:57",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

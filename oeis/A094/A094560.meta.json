@@ -1,0 +1,22 @@
+{
+  "description": "Initial decimal digit of Pi*n, Pi=3.1415...",
+  "id": "A094560",
+  "mentions": [
+    "A000030",
+    "A000796",
+    "A022844",
+    "A094561",
+    "A094562"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:53",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

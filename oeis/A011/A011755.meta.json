@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*phi(k).",
+  "id": "A011755",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A002618",
+    "A110663",
+    "A319087"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

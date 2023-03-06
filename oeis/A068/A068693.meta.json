@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit prime with all odd digits.",
+  "id": "A068693",
+  "mentions": [
+    "A068690",
+    "A068691",
+    "A068692"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers such that in base 2 the number of 0's is >= the number of 1's.",
+  "id": "A072602",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A031443",
+    "A037861",
+    "A072600",
+    "A072601",
+    "A072603"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

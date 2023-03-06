@@ -1,0 +1,20 @@
+{
+  "description": "Least palindromic prime beginning with A089743(n).",
+  "id": "A089744",
+  "mentions": [
+    "A082769",
+    "A089743"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

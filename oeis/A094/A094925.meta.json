@@ -1,0 +1,22 @@
+{
+  "description": "A hexagonal spiral Fibonacci sequence.",
+  "id": "A094925",
+  "mentions": [
+    "A078510",
+    "A079421",
+    "A079422",
+    "A094926"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

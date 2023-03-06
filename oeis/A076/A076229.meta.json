@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number such that A076228(a(n)) = n.",
+  "id": "A076229",
+  "mentions": [
+    "A006370",
+    "A074473",
+    "A076228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

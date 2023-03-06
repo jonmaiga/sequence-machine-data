@@ -1,0 +1,23 @@
+{
+  "description": "Sum of numbers that can be written as t*n + u*(n+1) for nonnegative integers t,u in exactly one way.",
+  "id": "A076454",
+  "mentions": [
+    "A002417",
+    "A007585",
+    "A076455",
+    "A076459",
+    "A233329"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:55",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

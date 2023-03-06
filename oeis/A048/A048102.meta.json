@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that if k = Product p_i^e_i then p_i=e_i for all i.",
+  "id": "A048102",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A048103",
+    "A048104",
+    "A051674",
+    "A072873",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:53",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

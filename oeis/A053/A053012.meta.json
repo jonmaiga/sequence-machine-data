@@ -1,0 +1,25 @@
+{
+  "description": "Platonic numbers: a(n) is a tetrahedral (A000292), cube (A000578), octahedral (A005900), dodecahedral (A006566) or icosahedral (A006564) number.",
+  "id": "A053012",
+  "mentions": [
+    "A000292",
+    "A000578",
+    "A005900",
+    "A006564",
+    "A006566",
+    "A226748",
+    "A226749"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:05:55",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

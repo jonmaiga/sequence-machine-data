@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 9d for Monster.",
+  "id": "A058096",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A058601",
+    "A192309"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:38:57",
+    "offset": -1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

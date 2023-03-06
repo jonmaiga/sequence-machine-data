@@ -1,0 +1,37 @@
+{
+  "description": "Numbers all of whose prime divisors are consecutive primes starting at 2.",
+  "id": "A055932",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A002110",
+    "A006530",
+    "A007947",
+    "A025487",
+    "A034386",
+    "A053669",
+    "A056808",
+    "A057334",
+    "A057335",
+    "A080259",
+    "A080404",
+    "A106177",
+    "A124829",
+    "A124830",
+    "A124831",
+    "A124833",
+    "A215366",
+    "A324939"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

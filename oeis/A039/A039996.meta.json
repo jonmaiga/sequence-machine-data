@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct primes embedded in prime(n) as substrings.",
+  "id": "A039996",
+  "mentions": [
+    "A039994",
+    "A039997",
+    "A178597"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sets of 4 consecutive numbers with equal number of divisors.",
+  "id": "A039665",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A005238",
+    "A006558",
+    "A006601",
+    "A019273",
+    "A049051"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:25",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

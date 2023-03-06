@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic progression of at least 5 terms having the same value of phi start at these numbers.",
+  "id": "A050515",
+  "mentions": [
+    "A000010",
+    "A050495",
+    "A050496",
+    "A050497",
+    "A050520"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime with \"n^3\" as central digit(s).",
+  "id": "A084430",
+  "mentions": [
+    "A038370",
+    "A084413",
+    "A084414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of balls on the lawn for the s=4 tennis ball problem.",
+  "id": "A078516",
+  "mentions": [
+    "A049235"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

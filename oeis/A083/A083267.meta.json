@@ -1,0 +1,21 @@
+{
+  "description": "Product of related numbers (counted in A073757) belonging to n; related = {divisor-set, RRS}: a(n) = A007955(n)*A001783(n).",
+  "id": "A083267",
+  "mentions": [
+    "A001783",
+    "A007955",
+    "A073757",
+    "A083266",
+    "A083268"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n!!! + 1.",
+  "id": "A037082",
+  "mentions": [
+    "A007661",
+    "A037083"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

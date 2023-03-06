@@ -1,0 +1,21 @@
+{
+  "description": "Consider the line segment in R^n from the origin to the point P=(1,2,3,...,n); let d = squared distance to this line from the closest point of Z^n (excluding the endpoints). Sequence gives d times P.P.",
+  "id": "A059774",
+  "mentions": [
+    "A000330",
+    "A047896",
+    "A059804"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 2,
+    "size": 44,
+    "source": "joeis"
+  }
+}

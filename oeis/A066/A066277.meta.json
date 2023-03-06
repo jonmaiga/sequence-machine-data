@@ -1,0 +1,21 @@
+{
+  "description": "Primes p(m) such that a prime number q exists so that p(m)-q = c(m), the m-th composite number.",
+  "id": "A066277",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A038529",
+    "A060253"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = m if m has already occurred at least once and n=k+i*(m+1) where k is the index of the first occurrence of n and i=1,...,max(n-1,1), otherwise a(n) = least positive integer that has not yet occurred.",
+  "id": "A094173",
+  "mentions": [
+    "A095162",
+    "A095163",
+    "A095164"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest number arising if f[x]=1+A003132(x) function is iterated until steady state reached. Compare with A099648.",
+  "id": "A099652",
+  "mentions": [
+    "A003132",
+    "A099646",
+    "A099648",
+    "A099649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of primitive partition identities with largest part n.",
+  "id": "A089040",
+  "mentions": [
+    "A007343"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

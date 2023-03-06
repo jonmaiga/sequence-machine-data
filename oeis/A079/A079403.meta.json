@@ -1,0 +1,19 @@
+{
+  "description": "Let G(t) be the set of numbers between 2^(t-1) and 2^t-1, inclusive. There is a unique number a(t) in G(t) so that the denominator of the a(t)-th partial sum of the double harmonic series is divisible by smaller 2-powers than its neighbors.",
+  "id": "A079403",
+  "mentions": [
+    "A079404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

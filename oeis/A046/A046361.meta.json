@@ -1,0 +1,19 @@
+{
+  "description": "Composite a(n) divided by the palindromic sum of its prime factors is a palindrome (counted with multiplicity).",
+  "id": "A046361",
+  "mentions": [
+    "A046358",
+    "A046362"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

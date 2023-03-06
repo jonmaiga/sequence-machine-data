@@ -1,0 +1,23 @@
+{
+  "description": "Bisection of A000016 (also of A000013).",
+  "id": "A026119",
+  "mentions": [
+    "A000013",
+    "A000016",
+    "A000116",
+    "A053634",
+    "A053656"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

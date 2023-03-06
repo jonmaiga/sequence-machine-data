@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p | ((p-1)/2)! + 1.",
+  "id": "A055939",
+  "mentions": [
+    "A002145",
+    "A058302"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

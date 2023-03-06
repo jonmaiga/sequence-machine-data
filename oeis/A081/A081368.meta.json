@@ -1,0 +1,24 @@
+{
+  "description": "Next n digits of e, base of the natural logarithms.",
+  "id": "A081368",
+  "mentions": [
+    "A001113",
+    "A090897",
+    "A093473",
+    "A136517",
+    "A152888",
+    "A202813"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

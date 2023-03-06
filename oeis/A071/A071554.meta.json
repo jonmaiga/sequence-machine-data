@@ -1,0 +1,19 @@
+{
+  "description": "Smallest x > 1 such that x^prime(n) == 1 mod(prime(i)) 2<=i<=n.",
+  "id": "A071554",
+  "mentions": [
+    "A006862"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

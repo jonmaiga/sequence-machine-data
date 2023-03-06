@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/999.",
+  "id": "A022003",
+  "mentions": [
+    "A002264",
+    "A068601",
+    "A079978",
+    "A130196",
+    "A131534"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:41",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

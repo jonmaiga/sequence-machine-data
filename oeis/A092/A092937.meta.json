@@ -1,0 +1,18 @@
+{
+  "description": "Differences nextprime(2k) - precprime(2k) having maximum prime density for 2k <= 10^n.",
+  "id": "A092937",
+  "mentions": [
+    "A060267"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

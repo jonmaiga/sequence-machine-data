@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime of form (2n+1)*2^m+1 for some m.",
+  "id": "A057025",
+  "mentions": [
+    "A032373",
+    "A046067",
+    "A057023",
+    "A057026"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=sigma[A097018(n)]/p[n]=A000203[A097018(n)]/A000040(n).",
+  "id": "A097019",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A097018"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

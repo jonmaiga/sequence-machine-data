@@ -1,0 +1,22 @@
+{
+  "description": "Diagonal of Sprague-Grundy function for Wyt Queens (Wythoff's game).",
+  "id": "A047708",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A004481",
+    "A048850"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

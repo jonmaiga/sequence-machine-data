@@ -1,0 +1,21 @@
+{
+  "description": "Denominators q[ n ] of convergents to Stern's non-simple continued fraction for Pi/2.",
+  "id": "A046126",
+  "mentions": [
+    "A001900",
+    "A013069",
+    "A079484"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:42:05",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Highest power of 2 dividing A057335(n).",
+  "id": "A065120",
+  "mentions": [
+    "A000225",
+    "A000523",
+    "A001477",
+    "A001511",
+    "A003602",
+    "A011782",
+    "A036987",
+    "A057335",
+    "A059894",
+    "A062050",
+    "A066099"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

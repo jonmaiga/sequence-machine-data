@@ -1,0 +1,19 @@
+{
+  "description": "Eleven iterations of Reverse and Add are needed to reach a palindrome.",
+  "id": "A015992",
+  "mentions": [
+    "A002113",
+    "A065216"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:46:41",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

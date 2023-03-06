@@ -1,0 +1,16 @@
+{
+  "description": "Least square of the form 'product of n successive terms of an arithmetic progression + 1', or 0 if no such square exists.",
+  "id": "A092959",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

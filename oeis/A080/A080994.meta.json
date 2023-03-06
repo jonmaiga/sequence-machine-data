@@ -1,0 +1,21 @@
+{
+  "description": "Number of letters and blanks in Scrabble (English version).",
+  "id": "A080994",
+  "mentions": [
+    "A080993",
+    "A234288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

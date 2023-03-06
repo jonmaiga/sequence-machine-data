@@ -1,0 +1,19 @@
+{
+  "description": "Numbers prime(n) such that A068863(n) = prime(n).",
+  "id": "A068868",
+  "mentions": [
+    "A068853",
+    "A068863"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

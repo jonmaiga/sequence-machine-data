@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p!-1 is divisible by the next prime larger than p.",
+  "id": "A096292",
+  "mentions": [
+    "A001359",
+    "A286181"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

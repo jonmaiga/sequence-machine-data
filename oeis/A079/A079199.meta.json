@@ -1,0 +1,23 @@
+{
+  "description": "Number of isomorphism classes of associative non-commutative closed binary operations on a set of order n.",
+  "id": "A079199",
+  "mentions": [
+    "A001329",
+    "A001426",
+    "A027851",
+    "A079193",
+    "A079196",
+    "A079198",
+    "A079200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

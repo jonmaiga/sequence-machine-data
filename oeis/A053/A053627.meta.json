@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer which is the harmonic mean of n and an integer.",
+  "id": "A053627",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:03",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "n-th power of the smallest n-digit prime.",
+  "id": "A074490",
+  "mentions": [
+    "A003617"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers requiring increasingly larger bases to become prime by base reversal.",
+  "id": "A075243",
+  "mentions": [
+    "A074901",
+    "A075242"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of n X n matrix defined by m(i,j)=1 if i+j is a prime, m(i,j)=0 otherwise.",
+  "id": "A069191",
+  "mentions": [
+    "A073364",
+    "A228591"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

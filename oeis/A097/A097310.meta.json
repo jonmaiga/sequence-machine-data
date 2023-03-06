@@ -1,0 +1,23 @@
+{
+  "description": "Chebyshev T-polynomials T(n,14) with Diophantine property.",
+  "id": "A097310",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A076445",
+    "A090249",
+    "A097311"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

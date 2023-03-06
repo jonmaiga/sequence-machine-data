@@ -1,0 +1,22 @@
+{
+  "description": "Matrix product of Stirling1-triangle A008275(n,k) and unsigned Lah-triangle |A008297(n,k)|.",
+  "id": "A079639",
+  "mentions": [
+    "A006252",
+    "A008275",
+    "A008297",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Product of all n - d, where 1 < d < n and d is a divisor of n.",
+  "id": "A072512",
+  "mentions": [
+    "A072513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

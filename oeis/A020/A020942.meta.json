@@ -1,0 +1,21 @@
+{
+  "description": "First column of 3rd-order Zeckendorf array.",
+  "id": "A020942",
+  "mentions": [
+    "A000930",
+    "A202342"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:09",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

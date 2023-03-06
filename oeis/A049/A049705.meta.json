@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=3-k(n), where k=A000002=Kolakoski sequence; also the sequence of runlengths of a is k.",
+  "id": "A049705",
+  "mentions": [
+    "A000002",
+    "A088569"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

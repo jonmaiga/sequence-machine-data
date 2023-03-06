@@ -1,0 +1,17 @@
+{
+  "description": "Days in year to end of n-th month starting Jan 01 in a year just following a leap year or millennium.",
+  "id": "A061251",
+  "mentions": [
+    "A008685"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

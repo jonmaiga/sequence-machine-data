@@ -1,0 +1,19 @@
+{
+  "description": "Another 3-way generalization of series-parallel networks with n unlabeled edges.",
+  "id": "A058540",
+  "mentions": [
+    "A000084",
+    "A058371",
+    "A058534"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Greedy powers of (1/zeta(3)): sum_{n=1..inf} (1/zeta(3))^a(n) = 1, where 1/zeta(3) = .83190737258070746868...",
+  "id": "A080059",
+  "mentions": [
+    "A077468"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

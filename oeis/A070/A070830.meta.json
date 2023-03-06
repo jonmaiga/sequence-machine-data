@@ -1,0 +1,18 @@
+{
+  "description": "Number of wide partitions of n.",
+  "id": "A070830",
+  "mentions": [
+    "A108339"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

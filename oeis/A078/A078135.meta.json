@@ -1,0 +1,36 @@
+{
+  "description": "Numbers which cannot be written as a sum of squares > 1.",
+  "id": "A078135",
+  "mentions": [
+    "A000290",
+    "A001422",
+    "A005117",
+    "A033183",
+    "A078129",
+    "A078134",
+    "A078136",
+    "A078137",
+    "A078139",
+    "A090677",
+    "A101417",
+    "A134754",
+    "A134755",
+    "A320322",
+    "A322526",
+    "A322546",
+    "A322547"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array A065547 unsigned and transposed.",
+  "id": "A085707",
+  "mentions": [
+    "A000035",
+    "A000364",
+    "A000795",
+    "A005647",
+    "A006846",
+    "A065547",
+    "A084938",
+    "A094408",
+    "A110501"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

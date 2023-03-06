@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that gcd(p, prime(p)^2 - 1) does not equal 1.",
+  "id": "A064936",
+  "mentions": [
+    "A064830"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

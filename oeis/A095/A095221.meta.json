@@ -1,0 +1,21 @@
+{
+  "description": "(Concatenation 1,2,3,...,n) mod n.",
+  "id": "A095221",
+  "mentions": [
+    "A007908",
+    "A094151"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

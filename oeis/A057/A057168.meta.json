@@ -1,0 +1,38 @@
+{
+  "description": "Next larger integer with same binary weight (number of 1 bits) as n.",
+  "id": "A057168",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000120",
+    "A000225",
+    "A006519",
+    "A007283",
+    "A014311",
+    "A014312",
+    "A014313",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023690",
+    "A023691",
+    "A052548",
+    "A055010",
+    "A057169",
+    "A140504",
+    "A171942"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

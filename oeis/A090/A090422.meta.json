@@ -1,0 +1,24 @@
+{
+  "description": "Primes that cannot be written in binary representation as concatenation of other primes.",
+  "id": "A090422",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A007088",
+    "A090418",
+    "A090421",
+    "A090423",
+    "A342244"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

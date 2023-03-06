@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose fractional part of square root starts with digit 5.",
+  "id": "A034101",
+  "mentions": [
+    "A034111"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:10:07",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

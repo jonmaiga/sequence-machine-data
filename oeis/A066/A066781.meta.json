@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^phi(n).",
+  "id": "A066781",
+  "mentions": [
+    "A000010",
+    "A334071"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:57:39",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

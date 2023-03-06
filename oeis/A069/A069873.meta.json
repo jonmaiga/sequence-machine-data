@@ -1,0 +1,16 @@
+{
+  "description": "Smallest concatenation of powers of 2 in ascending order that is a multiple of n, or 0 if no such number exists.",
+  "id": "A069873",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

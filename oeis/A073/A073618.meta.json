@@ -1,0 +1,19 @@
+{
+  "description": "Consider Pascal's triangle A007318; a(n) = LCM of terms at +45 degree slope with the horizontal.",
+  "id": "A073618",
+  "mentions": [
+    "A007318",
+    "A025560",
+    "A073617"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

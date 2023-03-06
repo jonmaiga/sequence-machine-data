@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be written as sum of a positive squarefree number and a positive square.",
+  "id": "A085265",
+  "mentions": [
+    "A011760",
+    "A085263"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

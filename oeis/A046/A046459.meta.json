@@ -1,0 +1,25 @@
+{
+  "description": "Dudeney numbers: integers equal to the sum of the digits of their cubes.",
+  "id": "A046459",
+  "mentions": [
+    "A004164",
+    "A055569",
+    "A055575",
+    "A055576",
+    "A055577",
+    "A152147"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

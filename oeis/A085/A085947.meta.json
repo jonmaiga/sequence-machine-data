@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2 and a(n) = smallest number not included earlier that divides the sum of the two previous terms.",
+  "id": "A085947",
+  "mentions": [
+    "A085946"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

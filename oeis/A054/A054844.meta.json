@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as the sum of any number of consecutive integers (including the trivial one-term sum n = n).",
+  "id": "A054844",
+  "mentions": [
+    "A001227",
+    "A010054",
+    "A054843",
+    "A237593",
+    "A335616"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

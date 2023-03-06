@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that sum of distinct primes dividing n is divisible by the largest prime dividing n. Also n has exactly 3 distinct prime factors and n is squarefree.",
+  "id": "A071142",
+  "mentions": [
+    "A000961",
+    "A006530",
+    "A008472",
+    "A025475",
+    "A037074",
+    "A071139",
+    "A071147"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

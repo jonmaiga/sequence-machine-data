@@ -1,0 +1,26 @@
+{
+  "description": "A generalized difference set on the set of all integers (lambda = 1).",
+  "id": "A024431",
+  "mentions": [
+    "A005282",
+    "A049399",
+    "A115406",
+    "A115407",
+    "A115408",
+    "A115409",
+    "A247414"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

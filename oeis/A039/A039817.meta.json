@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: matrix 5th power of the Stirling-1 triangle A008275.",
+  "id": "A039817",
+  "mentions": [
+    "A000359",
+    "A008275",
+    "A039813",
+    "A039814",
+    "A039815",
+    "A039816"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

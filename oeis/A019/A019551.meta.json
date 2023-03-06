@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the concatenation of n and 3n.",
+  "id": "A019551",
+  "mentions": [
+    "A009440",
+    "A009441",
+    "A009470",
+    "A009474",
+    "A019550",
+    "A019552",
+    "A019553",
+    "A020338"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:15",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

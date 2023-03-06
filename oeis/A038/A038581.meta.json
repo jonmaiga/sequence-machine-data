@@ -1,0 +1,18 @@
+{
+  "description": "Absolute value of first differences of A038552, divided by 24.",
+  "id": "A038581",
+  "mentions": [
+    "A038552"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

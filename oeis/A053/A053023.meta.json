@@ -1,0 +1,22 @@
+{
+  "description": "Divisor function applied thrice to n!.",
+  "id": "A053023",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A010553",
+    "A027473",
+    "A036450"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

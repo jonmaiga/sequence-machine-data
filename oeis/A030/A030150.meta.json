@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes in which parity of digits alternates.",
+  "id": "A030150",
+  "mentions": [
+    "A030144",
+    "A030147",
+    "A030148",
+    "A030149"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "9th binomial transform of (0,1,0,1,0,1,.....), A000035.",
+  "id": "A081203",
+  "mentions": [
+    "A000035",
+    "A016186",
+    "A016190",
+    "A081200",
+    "A081201",
+    "A081202"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

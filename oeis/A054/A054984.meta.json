@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers x such that sigma(x + 6!) = sigma(x + 720) = sigma(x) + 720.",
+  "id": "A054984",
+  "mentions": [
+    "A015914",
+    "A015915",
+    "A015916",
+    "A015917",
+    "A033560",
+    "A054799"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

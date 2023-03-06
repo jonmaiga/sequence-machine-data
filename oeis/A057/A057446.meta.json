@@ -1,0 +1,21 @@
+{
+  "description": "To get next term, multiply by 13, add 1 and discard any prime factors < 13.",
+  "id": "A057446",
+  "mentions": [
+    "A057216",
+    "A057522",
+    "A057534",
+    "A057614"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:37:45",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

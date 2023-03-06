@@ -1,0 +1,23 @@
+{
+  "description": "Greatest k such that phi(k) = phi(n), where phi is Euler's totient function.",
+  "id": "A028476",
+  "mentions": [
+    "A000010",
+    "A015126",
+    "A057826",
+    "A066412",
+    "A066659",
+    "A071181"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

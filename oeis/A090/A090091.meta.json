@@ -1,0 +1,23 @@
+{
+  "description": "Number of groups of order 3^n.",
+  "id": "A090091",
+  "mentions": [
+    "A000001",
+    "A000679",
+    "A090130",
+    "A090140"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

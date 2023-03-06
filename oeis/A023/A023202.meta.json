@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that p + 8 is also prime.",
+  "id": "A023202",
+  "mentions": [
+    "A007530",
+    "A015915",
+    "A031926",
+    "A046134",
+    "A046138",
+    "A049436",
+    "A049437",
+    "A049438"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

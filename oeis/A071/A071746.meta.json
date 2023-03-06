@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = p(7n+5)/7 where p(k) denotes the k-th partition number.",
+  "id": "A071746",
+  "mentions": [
+    "A000041",
+    "A017041",
+    "A071734",
+    "A076394",
+    "A213261",
+    "A327582",
+    "A327714",
+    "A327770"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

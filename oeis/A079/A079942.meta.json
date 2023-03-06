@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the convergents of the continued fraction for log(2).",
+  "id": "A079942",
+  "mentions": [
+    "A002162",
+    "A079941",
+    "A079943"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

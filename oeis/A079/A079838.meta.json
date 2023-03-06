@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1 and then smallest multiple of a(n) which has no nonzero digit in common with a(n).",
+  "id": "A079838",
+  "mentions": [
+    "A079839"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

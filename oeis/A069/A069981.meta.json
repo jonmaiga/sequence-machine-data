@@ -1,0 +1,20 @@
+{
+  "description": "Hermite's problem: number of positive integral solutions to x + y + z = n subject to x <= y + z, y <= z + x and z <= x + y.",
+  "id": "A069981",
+  "mentions": [
+    "A005044"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

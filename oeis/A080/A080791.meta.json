@@ -1,0 +1,32 @@
+{
+  "description": "Number of nonleading 0's in binary expansion of n.",
+  "id": "A080791",
+  "mentions": [
+    "A000120",
+    "A007814",
+    "A023416",
+    "A029837",
+    "A036987",
+    "A048881",
+    "A054429",
+    "A080801",
+    "A092339",
+    "A102364",
+    "A120511",
+    "A233271",
+    "A233272",
+    "A233273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

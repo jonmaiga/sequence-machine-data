@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that appear as binomial coefficients exactly 6 times.",
+  "id": "A098565",
+  "mentions": [
+    "A003015",
+    "A059233",
+    "A098564",
+    "A182237",
+    "A185024"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

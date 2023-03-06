@@ -1,0 +1,23 @@
+{
+  "description": "Number of block permutations on an n-set.",
+  "id": "A023997",
+  "mentions": [
+    "A002720",
+    "A014235",
+    "A023998",
+    "A111420"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

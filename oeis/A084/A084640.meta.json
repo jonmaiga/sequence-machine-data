@@ -1,0 +1,27 @@
+{
+  "description": "Generalized Jacobsthal numbers.",
+  "id": "A084640",
+  "mentions": [
+    "A000225",
+    "A000975",
+    "A001045",
+    "A020714",
+    "A083581",
+    "A084214",
+    "A084639",
+    "A115102",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

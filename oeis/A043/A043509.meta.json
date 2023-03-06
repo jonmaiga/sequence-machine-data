@@ -1,0 +1,30 @@
+{
+  "description": "Numbers having exactly one 5 in base 10.",
+  "id": "A043509",
+  "mentions": [
+    "A011535",
+    "A043489",
+    "A043493",
+    "A043497",
+    "A043501",
+    "A043505",
+    "A043513",
+    "A043517",
+    "A043521",
+    "A043525",
+    "A104139"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:19",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

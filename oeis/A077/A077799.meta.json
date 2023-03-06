@@ -1,0 +1,21 @@
+{
+  "description": "Smoothly undulating palindromic primes of the general form (ab*10^m-ba)/99 exist for digit lengths a(n).",
+  "id": "A077799",
+  "mentions": [
+    "A032758",
+    "A059758",
+    "A062209",
+    "A062232"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

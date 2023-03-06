@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Molien series for 16-dimensional complex Clifford group of genus 4 and order 97029351014400.",
+  "id": "A051354",
+  "mentions": [
+    "A003956",
+    "A008620",
+    "A008621",
+    "A008718",
+    "A024186",
+    "A027672",
+    "A028288",
+    "A043330"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:45",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

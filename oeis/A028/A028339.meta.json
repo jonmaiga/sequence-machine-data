@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of x^2 in expansion of (x+1)*(x+3)*...*(x+2*n-1).",
+  "id": "A028339",
+  "mentions": [
+    "A001620",
+    "A028338",
+    "A161198"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

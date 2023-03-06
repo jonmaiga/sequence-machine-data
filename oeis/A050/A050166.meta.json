@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) = M(2n,k,-1), with 0 <= k <= n, n >= 0, and array M is defined in A050144.",
+  "id": "A050166",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001700",
+    "A039598",
+    "A050144",
+    "A194723",
+    "A194724",
+    "A194725",
+    "A194726",
+    "A194728",
+    "A194729",
+    "A194730",
+    "A195727"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:27",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that phi(n) = reversal(n).",
+  "id": "A069215",
+  "mentions": [
+    "A000010",
+    "A004086",
+    "A072395",
+    "A085331",
+    "A089675",
+    "A089765",
+    "A101700",
+    "A102278"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

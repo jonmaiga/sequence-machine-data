@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled connected 4-chromatic (i.e., chromatic number = 4) graphs on n nodes.",
+  "id": "A084274",
+  "mentions": [
+    "A001832",
+    "A084273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

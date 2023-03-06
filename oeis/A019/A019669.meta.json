@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Pi/2.",
+  "id": "A019669",
+  "mentions": [
+    "A000796",
+    "A019692",
+    "A019694",
+    "A053300",
+    "A060294",
+    "A085679",
+    "A122952"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

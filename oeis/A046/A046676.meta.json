@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 + Sum_{k>=1} x^(p_1+p_2+...+p_k)/((1-x)*(1-x^2)*(1-x^3)*...*(1-x^k)) (where p_i are the primes).",
+  "id": "A046676",
+  "mentions": [
+    "A000607",
+    "A192541",
+    "A238804"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

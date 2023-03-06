@@ -1,0 +1,19 @@
+{
+  "description": "Least m > 3 such that gcd(n-1, m*n - 1) = m-1.",
+  "id": "A090370",
+  "mentions": [
+    "A090368",
+    "A090369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 4,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Sums of 9 distinct powers of 10.",
+  "id": "A038451",
+  "mentions": [
+    "A011557",
+    "A038444",
+    "A038445",
+    "A038446",
+    "A038447",
+    "A038448",
+    "A038449",
+    "A038450",
+    "A038452",
+    "A038453",
+    "A038454"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

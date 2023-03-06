@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of planar partitions of n with k rows.",
+  "id": "A091355",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A091356",
+    "A091357",
+    "A091358",
+    "A091359",
+    "A091360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

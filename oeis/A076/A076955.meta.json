@@ -1,0 +1,19 @@
+{
+  "description": "Product_{i=1..n} i^prime(i).",
+  "id": "A076955",
+  "mentions": [
+    "A062481",
+    "A076954"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

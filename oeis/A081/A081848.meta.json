@@ -1,0 +1,23 @@
+{
+  "description": "Number of numbers whose base-3/2 expansion (see A024629) has n digits.",
+  "id": "A081848",
+  "mentions": [
+    "A024629",
+    "A070885",
+    "A073941",
+    "A246435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

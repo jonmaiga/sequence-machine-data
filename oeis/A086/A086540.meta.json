@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n and n+1 both are members of A074997; i.e., on the one hand n-1 and n+1 have the same prime signature, on the other hand n and n+2 have the same prime signature.",
+  "id": "A086540",
+  "mentions": [
+    "A074997"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

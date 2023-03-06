@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array T read by rows: T(h,k) = number of binary words of k 1's and h-k 0's which are not a juxtaposition of 2 or more identical subwords.",
+  "id": "A050186",
+  "mentions": [
+    "A001700",
+    "A007318",
+    "A007727",
+    "A011847",
+    "A027375",
+    "A051168",
+    "A053727",
+    "A245558"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:27",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

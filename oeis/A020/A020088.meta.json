@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(Gamma(n + 2/3)/Gamma(2/3)).",
+  "id": "A020088",
+  "mentions": [
+    "A020043",
+    "A020133"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

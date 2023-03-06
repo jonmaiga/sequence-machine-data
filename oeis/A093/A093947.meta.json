@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 8*10^n - 1.",
+  "id": "A093947",
+  "mentions": [
+    "A002275",
+    "A056721"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

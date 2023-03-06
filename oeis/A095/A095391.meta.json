@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least x such that A094892(x)=n.",
+  "id": "A095391",
+  "mentions": [
+    "A008364",
+    "A078859",
+    "A094892",
+    "A095389"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

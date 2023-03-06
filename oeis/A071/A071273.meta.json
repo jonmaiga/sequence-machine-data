@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of R(n) (A004086) and n, omitting leading 0's.",
+  "id": "A071273",
+  "mentions": [
+    "A004086",
+    "A071274"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

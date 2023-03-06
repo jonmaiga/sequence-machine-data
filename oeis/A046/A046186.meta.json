@@ -1,0 +1,20 @@
+{
+  "description": "Earliest sequence of 17 consecutive primes such that sum of digits of each one is also a prime.",
+  "id": "A046186",
+  "mentions": [
+    "A046704"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

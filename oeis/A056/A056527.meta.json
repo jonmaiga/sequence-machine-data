@@ -1,0 +1,24 @@
+{
+  "description": "Numbers where iterated sum of digits of square settles down to a cyclic pattern (in fact 13, 16, 13, 16, ...).",
+  "id": "A056527",
+  "mentions": [
+    "A004159",
+    "A031177",
+    "A056020",
+    "A056528",
+    "A056529"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:19",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of preferential arrangements (onto functions) associated with each numeric partition, partitions in Abramowitz and Stegun order, irregular triangle read by rows.",
+  "id": "A049019",
+  "mentions": [
+    "A000041",
+    "A000670",
+    "A019538",
+    "A036038",
+    "A036040",
+    "A036043",
+    "A048996",
+    "A090582",
+    "A133314",
+    "A133437"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

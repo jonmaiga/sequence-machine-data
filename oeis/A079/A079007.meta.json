@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest prime p_k such that the n successive differences between the primes p_k through p_(k+n) are all distinct.",
+  "id": "A079007",
+  "mentions": [
+    "A001223",
+    "A053597",
+    "A068843",
+    "A078515",
+    "A079889"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

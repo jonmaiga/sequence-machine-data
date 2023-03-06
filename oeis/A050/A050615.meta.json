@@ -1,0 +1,18 @@
+{
+  "description": "Products of distinct terms of Fibonacci(2^(i+2)): a(n) = Product_{i=0..floor(log_2(n+1))} F(2^(i+2))^bit(n,i).",
+  "id": "A050615",
+  "mentions": [
+    "A050613",
+    "A050614"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:18:10",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of occurrences of '11' in binary expansion of n.",
+  "id": "A014081",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A014082",
+    "A033264",
+    "A037800",
+    "A056973",
+    "A069010",
+    "A079944",
+    "A100046",
+    "A213629",
+    "A245194",
+    "A245195"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

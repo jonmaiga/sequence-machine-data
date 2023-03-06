@@ -1,0 +1,20 @@
+{
+  "description": "Unitary sigma-unitary phi super perfect numbers: USUP(USUP(n))= n/k for some integer k.",
+  "id": "A093863",
+  "mentions": [
+    "A006519",
+    "A047994",
+    "A092760",
+    "A109712"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

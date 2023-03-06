@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 2*x^4/(1-x).",
+  "id": "A052683",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

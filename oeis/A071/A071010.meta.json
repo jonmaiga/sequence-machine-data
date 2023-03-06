@@ -1,0 +1,20 @@
+{
+  "description": "Sigma(k)/4 when k is not a sum of 2 squares.",
+  "id": "A071010",
+  "mentions": [
+    "A000203",
+    "A022544"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "oi": 83124,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[tanh(acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "tanh",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[tanh(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "tanh",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[tanh(π/2)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "2",
+        "/",
+        "tanh",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sin(atan(sinh(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "sinh",
+        "atan",
+        "sin",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sin(atan(sinh(asin(1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "sinh",
+        "atan",
+        "sin",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acot(sinh(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "sinh",
+        "acot",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acot(sinh(asin(1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "sinh",
+        "acot",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "contfrac[-tanh(log(sqrt(exp(π))))]",
+      "mt": 50,
+      "px": [
+        "π",
+        "exp",
+        "sqrt",
+        "log",
+        "tanh",
+        "neg",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[2/π*C228048]",
+      "mt": 50,
+      "px": [
+        "2",
+        "π",
+        "/",
+        "C228048",
+        "*",
+        "contfrac"
+      ]
+    }
+  ]
+}

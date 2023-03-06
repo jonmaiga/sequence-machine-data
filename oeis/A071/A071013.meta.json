@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=1, a(n) is the smallest number > a(n-1) such that the simple continued fraction for S(n)=1/a(0)+1/a(1)+...+1/a(n) contains exactly 2n elements.",
+  "id": "A071013",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

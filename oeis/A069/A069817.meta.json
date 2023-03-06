@@ -1,0 +1,21 @@
+{
+  "description": "Smallest remainder of p+q modulo n, where p*q = n^2 - 1, 1 < p < n-1, or n if no such factorization exists.",
+  "id": "A069817",
+  "mentions": [
+    "A005563",
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

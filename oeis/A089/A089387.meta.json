@@ -1,0 +1,18 @@
+{
+  "description": "Number of Schroeder paths of semilength n (i.e., lattice paths from (0,0) to (2n,0), with steps H=(2,0), U=(1,1) and D(1,-1) and not going below the x-axis) with no UD, UHD, UHHD, UHHHD, ... starting at level zero.",
+  "id": "A089387",
+  "mentions": [
+    "A006318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

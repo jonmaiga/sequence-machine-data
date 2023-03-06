@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (5*4^n - 2)/3.",
+  "id": "A020989",
+  "mentions": [
+    "A002450",
+    "A020988",
+    "A112468",
+    "A119726"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

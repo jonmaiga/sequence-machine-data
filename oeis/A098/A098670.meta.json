@@ -1,0 +1,23 @@
+{
+  "description": "Start with a(1) = 5. Construct slowest growing sequence such that the statement \"the a(n)-th digit is a 2\" is true for all n.",
+  "id": "A098670",
+  "mentions": [
+    "A098645",
+    "A114134",
+    "A210414",
+    "A210416",
+    "A210423"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

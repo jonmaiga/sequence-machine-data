@@ -1,0 +1,36 @@
+{
+  "description": "Number of partitions of n into distinct and relatively prime parts.",
+  "id": "A078374",
+  "mentions": [
+    "A000009",
+    "A000740",
+    "A000837",
+    "A005117",
+    "A007359",
+    "A047966",
+    "A101268",
+    "A289508",
+    "A289509",
+    "A291166",
+    "A298748",
+    "A302796",
+    "A305713",
+    "A332004",
+    "A337451",
+    "A337452",
+    "A337485",
+    "A337561",
+    "A337563"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

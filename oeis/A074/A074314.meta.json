@@ -1,0 +1,19 @@
+{
+  "description": "Deficient triangular numbers.",
+  "id": "A074314",
+  "mentions": [
+    "A000217",
+    "A005100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

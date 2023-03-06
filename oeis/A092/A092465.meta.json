@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i+j+k=n, 0<=j<=i<=n, 0<=k<=n} (n+k)!/(i! * j! * (2*k)!).",
+  "id": "A092465",
+  "mentions": [
+    "A059448",
+    "A092466"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

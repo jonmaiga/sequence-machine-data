@@ -1,0 +1,18 @@
+{
+  "description": "Begin with n and consider numbers obtained by successively subtracting 2,3,5,7,11,...; a(n) = largest prime that arises, i.e., largest prime of the form n - sum prime(r), or 0 if no such prime exists.",
+  "id": "A090303",
+  "mentions": [
+    "A090304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

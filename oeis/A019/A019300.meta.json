@@ -1,0 +1,18 @@
+{
+  "description": "First n elements of Thue-Morse sequence A010060 read as a binary number.",
+  "id": "A019300",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

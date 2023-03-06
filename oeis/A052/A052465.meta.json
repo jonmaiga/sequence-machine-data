@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest positive integral solution k to 24*k == 1 (mod 11^n).",
+  "id": "A052465",
+  "mentions": [
+    "A000041",
+    "A052462",
+    "A052463",
+    "A052466"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

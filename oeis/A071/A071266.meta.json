@@ -1,0 +1,18 @@
+{
+  "description": "Smallest numbers which can be written in exactly n different ways as k + R(k) where R(k) is k reversed (A004086).",
+  "id": "A071266",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = T(2n,n-1), T given by A026670. Also T(2n,n-1)=T(2n+1,n+2), T given by A026725; and T(2n,n-1), T given by A026736.",
+  "id": "A026672",
+  "mentions": [
+    "A000108",
+    "A026670",
+    "A026725",
+    "A026736",
+    "A236830"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the exponent of n-th prime in the order (A003131) of the Monster simple group.",
+  "id": "A051161",
+  "mentions": [
+    "A001379",
+    "A002267",
+    "A003131",
+    "A174601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:13",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

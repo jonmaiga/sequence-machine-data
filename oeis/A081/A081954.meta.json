@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^(n-k)*3^k, n >= 1, 0 <= k < n.",
+  "id": "A081954",
+  "mentions": [
+    "A002262",
+    "A025192",
+    "A081955",
+    "A081956",
+    "A090404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Denominator of Bernoulli number B_n.",
+  "id": "A027642",
+  "mentions": [
+    "A000142",
+    "A001897",
+    "A002445",
+    "A002882",
+    "A003245",
+    "A027641",
+    "A027760",
+    "A028246",
+    "A080092",
+    "A106831",
+    "A127187",
+    "A127188",
+    "A138243",
+    "A141056",
+    "A143343",
+    "A242179",
+    "A277087"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

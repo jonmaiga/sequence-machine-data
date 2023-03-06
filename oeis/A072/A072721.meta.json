@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into parts which are each positive powers of a single number >1 (which may vary between partitions).",
+  "id": "A072721",
+  "mentions": [
+    "A018819",
+    "A023894",
+    "A052410",
+    "A072720",
+    "A102430",
+    "A322900",
+    "A322902",
+    "A322903",
+    "A322968"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

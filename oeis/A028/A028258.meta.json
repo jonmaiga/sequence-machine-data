@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/((1-2*x)*(1-4*x)(1-8*x)(1-16*x)).",
+  "id": "A028258",
+  "mentions": [
+    "A006097",
+    "A006516",
+    "A016290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Distance to nearest prime power p^k, k=0 and k >= 2 (A025475).",
+  "id": "A061670",
+  "mentions": [
+    "A000961",
+    "A025475",
+    "A246547",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

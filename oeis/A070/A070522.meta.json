@@ -1,0 +1,19 @@
+{
+  "description": "Value of n-th cyclotomic polynomial at the n-th prime.",
+  "id": "A070522",
+  "mentions": [
+    "A070518",
+    "A070521"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

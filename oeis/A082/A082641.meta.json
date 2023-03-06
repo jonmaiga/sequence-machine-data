@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, 1 <= k <= n) read by rows, where T(n,k) = number of basic invariants of degree k for the cyclic group of order and degree n.",
+  "id": "A082641",
+  "mentions": [
+    "A002956"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:30",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

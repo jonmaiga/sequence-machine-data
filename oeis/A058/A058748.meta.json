@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = round(n*exp(n)).",
+  "id": "A058748",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:36:40",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 3^n mod n^3.",
+  "id": "A066607",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:13",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

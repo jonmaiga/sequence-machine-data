@@ -1,0 +1,26 @@
+{
+  "description": "Natural numbers with appended Luhn mod 10 check digit.",
+  "id": "A093018",
+  "mentions": [
+    "A010879",
+    "A093017",
+    "A093019",
+    "A093029",
+    "A249830",
+    "A249832",
+    "A249854",
+    "A249855"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

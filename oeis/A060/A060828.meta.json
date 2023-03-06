@@ -1,0 +1,22 @@
+{
+  "description": "Size of the Sylow 3-subgroup of the symmetric group S_n.",
+  "id": "A060828",
+  "mentions": [
+    "A004128",
+    "A038500",
+    "A054861",
+    "A060818"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

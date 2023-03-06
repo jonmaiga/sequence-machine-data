@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n-th composite number containing the smallest prime factor: a(n) = A027293(A002808(n), A056608(n)).",
+  "id": "A091114",
+  "mentions": [
+    "A000041",
+    "A002808",
+    "A020639",
+    "A027293",
+    "A056608",
+    "A085271",
+    "A091094",
+    "A091109"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

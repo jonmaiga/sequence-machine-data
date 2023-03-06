@@ -1,0 +1,19 @@
+{
+  "description": "Prime number of primes between squares of consecutive primes; or, primes occurring in A050216.",
+  "id": "A089609",
+  "mentions": [
+    "A000879",
+    "A050216"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

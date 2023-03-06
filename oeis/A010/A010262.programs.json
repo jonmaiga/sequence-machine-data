@@ -1,0 +1,134 @@
+{
+  "oi": 10262,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[root(33, 3)]",
+      "mt": 50,
+      "px": [
+        "33",
+        "3",
+        "root",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-09-14",
+      "ix": "contfrac[C010604]%52",
+      "mt": 50,
+      "px": [
+        "C010604",
+        "contfrac",
+        "52",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-07-11",
+      "ix": "∑{d}[contfrac[C010604], φ(#)]",
+      "mt": 50,
+      "px": [
+        "C010604",
+        "contfrac",
+        "#",
+        "φ",
+        "∑{d}"
+      ]
+    },
+    {
+      "d": "2022-08-07",
+      "ix": "xor(n, xor(n, contfrac[C010604]))",
+      "mt": 50,
+      "px": [
+        "n",
+        "n",
+        "C010604",
+        "contfrac",
+        "xor",
+        "xor"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "C(contfrac[C010604], ceil(acot(n)))",
+      "mt": 50,
+      "px": [
+        "C010604",
+        "contfrac",
+        "n",
+        "acot",
+        "ceil",
+        "C"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "or(floor(acot(n)), contfrac[C010604])",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "floor",
+        "C010604",
+        "contfrac",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "-log(1/exp(contfrac[C010604]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "C010604",
+        "contfrac",
+        "exp",
+        "/",
+        "log",
+        "neg"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "2*log(sqrt(exp(contfrac[C010604])))",
+      "mt": 50,
+      "px": [
+        "2",
+        "C010604",
+        "contfrac",
+        "exp",
+        "sqrt",
+        "log",
+        "*"
+      ]
+    },
+    {
+      "d": "2022-10-08",
+      "ix": "log2(exp(log(2)*contfrac[C010604]))",
+      "mt": 50,
+      "px": [
+        "2",
+        "log",
+        "C010604",
+        "contfrac",
+        "*",
+        "exp",
+        "log2"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "log2(exp(contfrac[C010604])^log(2))",
+      "mt": 50,
+      "px": [
+        "C010604",
+        "contfrac",
+        "exp",
+        "2",
+        "log",
+        "^",
+        "log2"
+      ]
+    }
+  ]
+}

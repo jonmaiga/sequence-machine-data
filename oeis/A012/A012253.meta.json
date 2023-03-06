@@ -1,0 +1,19 @@
+{
+  "description": "exp(arcsinh(tanh(x))) = 1+x+1/2!*x^2-2/3!*x^3-11/4!*x^4+16/5!*x^5...",
+  "id": "A012253",
+  "mentions": [
+    "A000182",
+    "A012079"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

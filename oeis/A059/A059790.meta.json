@@ -1,0 +1,18 @@
+{
+  "description": "Distance between 2*(n-th prime) and nearest prime.",
+  "id": "A059790",
+  "mentions": [
+    "A005382",
+    "A005385"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

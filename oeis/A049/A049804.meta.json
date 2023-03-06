@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n mod 4 + n mod 16 + ... + n mod 4^k, where 4^k <= n < 4^(k+1).",
+  "id": "A049804",
+  "mentions": [
+    "A049802",
+    "A049803",
+    "A070939",
+    "A081604",
+    "A110591",
+    "A110592",
+    "A330358"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

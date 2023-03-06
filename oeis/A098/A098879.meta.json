@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (2^n - 1)^5 - 2.",
+  "id": "A098879",
+  "mentions": [
+    "A091514",
+    "A091515",
+    "A091516",
+    "A093112",
+    "A098878"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

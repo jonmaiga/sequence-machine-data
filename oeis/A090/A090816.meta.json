@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (3*n+1)!/((2*n)! * n!).",
+  "id": "A090816",
+  "mentions": [
+    "A002457",
+    "A003506",
+    "A005809",
+    "A016777",
+    "A045721",
+    "A090957",
+    "A090969"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

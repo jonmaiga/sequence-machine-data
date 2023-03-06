@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest value of m such that A002378(m), the m-th oblong number, contains exactly n 0's.",
+  "id": "A048529",
+  "mentions": [
+    "A002378",
+    "A048530",
+    "A048531",
+    "A048533",
+    "A048535",
+    "A048537",
+    "A048539",
+    "A048541",
+    "A048543",
+    "A048545",
+    "A048547"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

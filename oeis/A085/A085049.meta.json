@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, then the next n numbers are prime if n is composite, else are composite if n is a prime.",
+  "id": "A085049",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

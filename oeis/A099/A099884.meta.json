@@ -1,0 +1,39 @@
+{
+  "description": "XOR difference triangle of the powers of 2, read by rows; Square array A(row,col): A(0,col) = 2^col, A(row,col) = A048724(A(row-1, col)) for row > 0, read by descending antidiagonals.",
+  "id": "A099884",
+  "mentions": [
+    "A000079",
+    "A000215",
+    "A001317",
+    "A002262",
+    "A003401",
+    "A025581",
+    "A036561",
+    "A047999",
+    "A048675",
+    "A048720",
+    "A048724",
+    "A066117",
+    "A091202",
+    "A099885",
+    "A117998",
+    "A158875",
+    "A193231",
+    "A248663",
+    "A255483",
+    "A276586",
+    "A276618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of cubefree numbers <= n which are not squarefree.",
+  "id": "A072358",
+  "mentions": [
+    "A004709",
+    "A005117",
+    "A008966",
+    "A013928",
+    "A059956",
+    "A060431",
+    "A067259",
+    "A088453",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

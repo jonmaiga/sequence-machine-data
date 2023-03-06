@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 49*2^n-1 is prime.",
+  "id": "A050550",
+  "mentions": [
+    "A032374"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

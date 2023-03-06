@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that p - 6 is a product of two consecutive primes.",
+  "id": "A098061",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are divisible by the square of an odd prime.",
+  "id": "A038838",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A001248",
+    "A008966",
+    "A013929",
+    "A036785",
+    "A053850",
+    "A065091",
+    "A122132",
+    "A167662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

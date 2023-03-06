@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n+1,k)-th element of (M^4-M)/3, where M is the infinite lower Pascal's triangle matrix, 1<=k<=n.",
+  "id": "A096035",
+  "mentions": [
+    "A002450",
+    "A007318",
+    "A016127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

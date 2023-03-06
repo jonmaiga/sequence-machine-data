@@ -1,0 +1,17 @@
+{
+  "description": "Ceiling of GAMMA(n+3/7)/GAMMA(3/7).",
+  "id": "A020122",
+  "mentions": [
+    "A220608"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:23:09",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

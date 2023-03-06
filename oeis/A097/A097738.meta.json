@@ -1,0 +1,23 @@
+{
+  "description": "Pell equation solutions (9*a(n))^2 - 82*b(n)^2 = -1 with b(n):=A097739(n), n >= 0.",
+  "id": "A097738",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A097737",
+    "A097739",
+    "A097775"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

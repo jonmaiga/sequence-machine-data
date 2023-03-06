@@ -1,0 +1,24 @@
+{
+  "description": "Differences between record prime gaps.",
+  "id": "A053695",
+  "mentions": [
+    "A000101",
+    "A001223",
+    "A002386",
+    "A005250",
+    "A053686"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

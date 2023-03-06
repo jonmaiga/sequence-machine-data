@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1, a(n) = M(n) + Sum_{k=1..n-1} M(k)*a(n-k-1), where M(n) are the Motzkin numbers (A001006).",
+  "id": "A045994",
+  "mentions": [
+    "A001006",
+    "A005773"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:09:59",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

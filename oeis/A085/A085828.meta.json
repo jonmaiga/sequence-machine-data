@@ -1,0 +1,18 @@
+{
+  "description": "Lesser number n of a pair such that neither n nor n+1 contain the digit zero in bases 3 to 10.",
+  "id": "A085828",
+  "mentions": [
+    "A085509"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

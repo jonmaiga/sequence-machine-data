@@ -1,0 +1,19 @@
+{
+  "description": "Write n in binary and replace 0 with 0000.",
+  "id": "A084474",
+  "mentions": [
+    "A007088",
+    "A084472",
+    "A084473"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

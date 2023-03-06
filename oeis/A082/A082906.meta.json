@@ -1,0 +1,20 @@
+{
+  "description": "Sum of terms in n-th row of modified Pascal's triangle displayed in A082905.",
+  "id": "A082906",
+  "mentions": [
+    "A000005",
+    "A007318",
+    "A056045",
+    "A082905"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

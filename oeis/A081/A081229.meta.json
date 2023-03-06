@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the common digits of n and the n-th prime in base 10, or -1 if there are no common digits.",
+  "id": "A081229",
+  "mentions": [
+    "A081227",
+    "A081228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

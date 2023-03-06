@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n of the form k + reverse(k) for exactly two k.",
+  "id": "A072040",
+  "mentions": [
+    "A067030",
+    "A071265",
+    "A072041",
+    "A096768"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

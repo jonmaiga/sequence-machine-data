@@ -1,0 +1,18 @@
+{
+  "description": "The slowest increasing sequence of primes such that difference of successive terms is unique.",
+  "id": "A084758",
+  "mentions": [
+    "A084759",
+    "A121862"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

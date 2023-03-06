@@ -1,0 +1,22 @@
+{
+  "description": "Fundamental discriminants of real quadratic number fields with class number 4.",
+  "id": "A094613",
+  "mentions": [
+    "A003656",
+    "A094612",
+    "A094614",
+    "A094619",
+    "A218156",
+    "A218160"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

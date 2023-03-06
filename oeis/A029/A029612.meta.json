@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers to the left of the central elements of the (2,3)-Pascal triangle A029600.",
+  "id": "A029612",
+  "mentions": [
+    "A029600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:29:33",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

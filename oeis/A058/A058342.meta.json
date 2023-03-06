@@ -1,0 +1,19 @@
+{
+  "description": "De Bruijn sequence of order 6: every window of size 6, [a(j),a(j+1),...,a(j+5)], shows a different 6-tuple, for 0 <= j <= 63.",
+  "id": "A058342",
+  "mentions": [
+    "A016031",
+    "A169671"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 0,
+    "size": 192,
+    "source": "joeis"
+  }
+}

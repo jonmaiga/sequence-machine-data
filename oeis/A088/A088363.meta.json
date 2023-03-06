@@ -1,0 +1,20 @@
+{
+  "description": "Local minima of A053707 (first differences of A025475, powers of a prime but not prime).",
+  "id": "A088363",
+  "mentions": [
+    "A025475",
+    "A053707",
+    "A088364",
+    "A088365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

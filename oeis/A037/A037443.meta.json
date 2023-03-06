@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers having the same set of digits in base 9 and base 10.",
+  "id": "A037443",
+  "mentions": [
+    "A007095",
+    "A037407"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev U(n,x) polynomial evaluated at x=163.",
+  "id": "A097737",
+  "mentions": [
+    "A049310",
+    "A097738",
+    "A097739"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

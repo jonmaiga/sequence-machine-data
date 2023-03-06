@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that prime(n) + prime(n+1) + prime(n+2) is a square.",
+  "id": "A076305",
+  "mentions": [
+    "A000720",
+    "A064397",
+    "A072849",
+    "A076304",
+    "A080665",
+    "A166255",
+    "A166261",
+    "A206279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

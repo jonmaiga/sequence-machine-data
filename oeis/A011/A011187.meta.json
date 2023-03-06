@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to choose 2^n vectors in {0, 1, 2, 3}^n such that any two differ by at least 2 in at least one coordinate (2^n being maximal).",
+  "id": "A011187",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

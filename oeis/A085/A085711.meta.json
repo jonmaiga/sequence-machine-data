@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sopfr(k) is a semiprime.",
+  "id": "A085711",
+  "mentions": [
+    "A001358",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

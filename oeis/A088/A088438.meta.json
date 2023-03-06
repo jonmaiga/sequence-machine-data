@@ -1,0 +1,19 @@
+{
+  "description": "A chaotic Cantor integer type product set of the factorial function that trifurcates.",
+  "id": "A088438",
+  "mentions": [
+    "A088140"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

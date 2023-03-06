@@ -1,0 +1,25 @@
+{
+  "description": "Maximal value of prime divisors of numbers in reduced residue system for n.",
+  "id": "A051265",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A006862",
+    "A051250",
+    "A051266",
+    "A051267",
+    "A051268"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

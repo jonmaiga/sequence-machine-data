@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion for sin(1).",
+  "id": "A068116",
+  "mentions": [
+    "A049469"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

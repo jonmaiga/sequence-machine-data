@@ -1,0 +1,20 @@
+{
+  "description": "When the Euler phi function is iterated with initial value A002110(n) = primorial, a(n) = number of powers of 2 among iterates.",
+  "id": "A053097",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A053035",
+    "A053045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

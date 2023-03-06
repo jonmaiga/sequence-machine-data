@@ -1,0 +1,35 @@
+{
+  "description": "Smallest base in which n is a repdigit.",
+  "id": "A059711",
+  "mentions": [
+    "A010785",
+    "A048328",
+    "A048329",
+    "A048330",
+    "A048331",
+    "A048332",
+    "A048333",
+    "A048334",
+    "A048335",
+    "A048336",
+    "A048337",
+    "A048338",
+    "A048339",
+    "A048340",
+    "A125134",
+    "A220570"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

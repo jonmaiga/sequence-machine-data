@@ -1,0 +1,31 @@
+{
+  "description": "The first list after the following procedure: starting with a list [1] and an empty list, repeatedly add the distinct values already in the first list in ascending order to the second list and add the corresponding frequencies of those values to the first list.",
+  "id": "A030717",
+  "mentions": [
+    "A006920",
+    "A030707",
+    "A030718",
+    "A030719",
+    "A030723",
+    "A030724",
+    "A030725",
+    "A030726",
+    "A030777",
+    "A333867",
+    "A358423",
+    "A358424",
+    "A358425"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "A077982(n) >= 5.",
+  "id": "A084344",
+  "mentions": [
+    "A077982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

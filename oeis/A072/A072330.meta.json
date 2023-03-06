@@ -1,0 +1,26 @@
+{
+  "description": "Common difference n such that primitive triangles exist which are n-arithmetic (i.e., primitive Heronian triangles whose sides in arithmetic progression have common difference n).",
+  "id": "A072330",
+  "mentions": [
+    "A003500",
+    "A007655",
+    "A072360",
+    "A086909",
+    "A089019",
+    "A089020",
+    "A096672",
+    "A096673",
+    "A096674"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

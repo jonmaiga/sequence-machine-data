@@ -1,0 +1,22 @@
+{
+  "description": "Number of 5-level labeled linear rooted trees with n leaves.",
+  "id": "A050353",
+  "mentions": [
+    "A000670",
+    "A050351",
+    "A050359",
+    "A094417",
+    "A194649"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

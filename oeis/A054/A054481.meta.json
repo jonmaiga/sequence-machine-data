@@ -1,0 +1,22 @@
+{
+  "description": "Highest common factor of successive highly composite numbers (1), A002182.",
+  "id": "A054481",
+  "mentions": [
+    "A002182",
+    "A054482",
+    "A054483",
+    "A262501"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

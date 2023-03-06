@@ -1,0 +1,24 @@
+{
+  "description": "Number of configurations of the 3-dimensional 3 X 3 X 3 sliding cube puzzle that require a minimum of n moves to be reached, starting with the empty space at one of the enclosing cube corners.",
+  "id": "A090573",
+  "mentions": [
+    "A089473",
+    "A090572",
+    "A090574",
+    "A090575",
+    "A090576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

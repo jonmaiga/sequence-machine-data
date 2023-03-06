@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n).sigma(n-1) ... sigma(2).sigma(1) is prime (dot between numbers means concatenation).",
+  "id": "A099080",
+  "mentions": [
+    "A046035",
+    "A099077",
+    "A099078",
+    "A099079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

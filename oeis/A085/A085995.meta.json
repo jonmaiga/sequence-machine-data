@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the prime zeta modulo function at 6 for primes of the form 4k+3.",
+  "id": "A085995",
+  "mentions": [
+    "A001014",
+    "A002145",
+    "A085966",
+    "A085991",
+    "A085998",
+    "A086036",
+    "A343616",
+    "A343626"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

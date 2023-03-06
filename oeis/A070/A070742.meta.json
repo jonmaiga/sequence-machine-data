@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = index of the (presumably) last palindrome in the 'Reverse and Add' trajectory of n, or -1 if this number is not finite, or 0 if no palindrome exists.",
+  "id": "A070742",
+  "mentions": [
+    "A033665",
+    "A065001",
+    "A070743",
+    "A070744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

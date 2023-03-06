@@ -1,0 +1,22 @@
+{
+  "description": "Staircase of coefficients of polynomials used for column g.f.s of triangle A060924.",
+  "id": "A061187",
+  "mentions": [
+    "A001651",
+    "A060924",
+    "A061186"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

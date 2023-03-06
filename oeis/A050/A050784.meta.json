@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic primes containing no pair of consecutive equal digits.",
+  "id": "A050784",
+  "mentions": [
+    "A002385",
+    "A030147",
+    "A046075",
+    "A050757",
+    "A050783"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

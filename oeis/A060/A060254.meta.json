@@ -1,0 +1,23 @@
+{
+  "description": "Primes which are the sum of two consecutive composite numbers.",
+  "id": "A060254",
+  "mentions": [
+    "A096677",
+    "A096783",
+    "A096784",
+    "A096785",
+    "A096786",
+    "A096787",
+    "A096788"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

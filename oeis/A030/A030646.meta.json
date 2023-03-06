@@ -1,0 +1,17 @@
+{
+  "description": "Weight enumerator of [ 42,21,10 ] XQR code.",
+  "id": "A030646",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Elements in the even-Pascal triangle A028326 that are not 2.",
+  "id": "A028327",
+  "mentions": [
+    "A028326"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:49",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

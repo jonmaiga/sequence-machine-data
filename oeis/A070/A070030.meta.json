@@ -1,0 +1,25 @@
+{
+  "description": "Number of closed Knight's tours on a 3 X 2n board.",
+  "id": "A070030",
+  "mentions": [
+    "A001230",
+    "A158074",
+    "A169696",
+    "A169764",
+    "A169765",
+    "A169777"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

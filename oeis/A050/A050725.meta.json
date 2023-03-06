@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 4^n contains no pair of consecutive equal digits (probably finite).",
+  "id": "A050725",
+  "mentions": [
+    "A000302",
+    "A030701",
+    "A046262",
+    "A046270",
+    "A050723"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

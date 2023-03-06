@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in base 10 that are palindromic in bases 5 and 6.",
+  "id": "A097930",
+  "mentions": [
+    "A029952",
+    "A029953",
+    "A097928"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

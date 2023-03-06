@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that x^18 = -2 has a solution mod p.",
+  "id": "A051078",
+  "mentions": [
+    "A000040",
+    "A051071",
+    "A051096",
+    "A216740"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "High temperature series for spin-1/2 Ising partition function on 6D simple cubic lattice.",
+  "id": "A030049",
+  "mentions": [
+    "A001393",
+    "A010574",
+    "A010580",
+    "A030044",
+    "A030048"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

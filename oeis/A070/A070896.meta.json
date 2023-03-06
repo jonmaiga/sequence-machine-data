@@ -1,0 +1,21 @@
+{
+  "description": "Determinant of the Cayley addition table of Z_{n}.",
+  "id": "A070896",
+  "mentions": [
+    "A000312",
+    "A052182",
+    "A060281",
+    "A060435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

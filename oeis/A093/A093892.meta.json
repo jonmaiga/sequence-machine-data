@@ -1,0 +1,19 @@
+{
+  "description": "Index of first occurrence of n in A093890, or 0 if no such number exists.",
+  "id": "A093892",
+  "mentions": [
+    "A093890",
+    "A093891"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

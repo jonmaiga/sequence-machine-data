@@ -1,0 +1,18 @@
+{
+  "description": "Let p(k) = k-th prime; sequence gives primes q of the form q = k*p(k) - 1 for some k.",
+  "id": "A096065",
+  "mentions": [
+    "A086173",
+    "A096064"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

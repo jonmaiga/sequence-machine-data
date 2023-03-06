@@ -1,0 +1,18 @@
+{
+  "description": "Members of 7-tuples of consecutive primes (p(k),p(k+1),...,p(k+6)) such that p(n)+p(n+1)+...+p(n+4), n=k,...,k+2, are again 3 consecutive primes.",
+  "id": "A089446",
+  "mentions": [
+    "A089444",
+    "A089445"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

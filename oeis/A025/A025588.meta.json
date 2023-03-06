@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-move self-avoiding knight paths on 4 X 4 board, beginning at corner.",
+  "id": "A025588",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

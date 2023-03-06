@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 1, distinct numbers such that the arithmetic mean of even number of successive terms and the geometric mean of the odd number of successive terms including the first term are integers.",
+  "id": "A093498",
+  "mentions": [
+    "A093499"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

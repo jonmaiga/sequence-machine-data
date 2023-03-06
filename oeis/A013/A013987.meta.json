@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1-x^2-x^3-x^4-x^5-x^6-x^7-x^8-x^9-x^10).",
+  "id": "A013987",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

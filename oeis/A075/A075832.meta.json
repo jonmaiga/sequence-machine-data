@@ -1,0 +1,17 @@
+{
+  "description": "Let u(1) = u(2) = u(3) = u(4) = 1, u(n+4)*(n+4) = u(n+3)*(n+3)+u(n+2)*(n+2)+u(n+1)*(n+1)+u(n)*n; sequence gives values of n such that u(n) is an integer.",
+  "id": "A075832",
+  "mentions": [
+    "A075770"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

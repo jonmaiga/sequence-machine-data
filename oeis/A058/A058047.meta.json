@@ -1,0 +1,22 @@
+{
+  "description": "Generalized Collatz sequences: primes resulting in a cycle containing 1.",
+  "id": "A058047",
+  "mentions": [
+    "A057216",
+    "A057446",
+    "A057534",
+    "A057614",
+    "A058048"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

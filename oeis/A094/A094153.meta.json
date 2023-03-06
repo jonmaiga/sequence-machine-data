@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is least prime p such that 7 is the n-th term in the Euclid-Mullin sequence starting at p, or 0 if no such prime p exists.",
+  "id": "A094153",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051309",
+    "A051334",
+    "A056756",
+    "A093777",
+    "A093783",
+    "A093882"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

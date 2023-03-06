@@ -1,0 +1,22 @@
+{
+  "description": "Largest proper divisor of n that is also a prefix of n in binary.",
+  "id": "A090331",
+  "mentions": [
+    "A007088",
+    "A032742",
+    "A090330",
+    "A090332",
+    "A090334"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

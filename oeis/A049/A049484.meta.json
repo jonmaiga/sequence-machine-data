@@ -1,0 +1,20 @@
+{
+  "description": "Both p and p+Q(6) are primes, where Q(6)=30030 is the 6th primorial number (A002110[ 6 ]).",
+  "id": "A049484",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A023201",
+    "A045320"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:49",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

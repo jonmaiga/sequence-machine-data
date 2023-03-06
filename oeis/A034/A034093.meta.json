@@ -1,0 +1,20 @@
+{
+  "description": "Number of near-repunit primes can be formed from (10^k-1)/9 by changing just one digit from 1 to 0.",
+  "id": "A034093",
+  "mentions": [
+    "A004022",
+    "A065074",
+    "A065083"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

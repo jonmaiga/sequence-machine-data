@@ -1,0 +1,19 @@
+{
+  "description": "Elements to the right of the central elements of the 5-Pascal triangle A028313.",
+  "id": "A028323",
+  "mentions": [
+    "A028313"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:49",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

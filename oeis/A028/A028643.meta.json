@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (theta_3(z)*theta_3(19z) + theta_2(z)*theta_2(19z))^3.",
+  "id": "A028643",
+  "mentions": [
+    "A028642",
+    "A028644"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:39:59",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

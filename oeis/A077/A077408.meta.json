@@ -1,0 +1,26 @@
+{
+  "description": "Trajectory of 103 under the Reverse and Add! operation carried out in base 3, written in base 10.",
+  "id": "A077408",
+  "mentions": [
+    "A058042",
+    "A061561",
+    "A066450",
+    "A075153",
+    "A075253",
+    "A075268",
+    "A075466",
+    "A075467",
+    "A077405"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:21:13",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

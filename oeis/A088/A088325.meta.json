@@ -1,0 +1,20 @@
+{
+  "description": "Piet Hut's \"coat-hanger\" sequence: unlabeled forests of rooted trees with n edges, where there can be any number of components, the outdegree of each node is <= 2 and the symmetric group acts on the components.",
+  "id": "A088325",
+  "mentions": [
+    "A001190",
+    "A003214",
+    "A088326"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

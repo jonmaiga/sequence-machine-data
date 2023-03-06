@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: -2*x/(1 - 5*x - sqrt(1-4*x) + x*sqrt(1-4*x) + 2*x^2).",
+  "id": "A078483",
+  "mentions": [
+    "A000108",
+    "A006318",
+    "A078482"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

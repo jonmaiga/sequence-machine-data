@@ -1,0 +1,26 @@
+{
+  "description": "Sum of digits of zero-absent composite a(n) equals number of prime factors.",
+  "id": "A050690",
+  "mentions": [
+    "A050689",
+    "A057531",
+    "A057532",
+    "A063737",
+    "A067077",
+    "A070274",
+    "A070275"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

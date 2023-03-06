@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that frac(x^k) = frac(x*frac(x^(k-1))) where x=5/2 and frac(x) denotes the fractional part of x.",
+  "id": "A088340",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

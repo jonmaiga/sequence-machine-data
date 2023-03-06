@@ -1,0 +1,20 @@
+{
+  "description": "Number of factors of n-th nonprime Fibonacci number.",
+  "id": "A090207",
+  "mentions": [
+    "A000045",
+    "A090206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

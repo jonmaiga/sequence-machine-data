@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor( Gamma(n + 1/6)/Gamma(1/6) ).",
+  "id": "A020081",
+  "mentions": [
+    "A020036",
+    "A020126"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

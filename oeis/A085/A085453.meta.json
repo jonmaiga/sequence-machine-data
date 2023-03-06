@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n^2 and n^3 together use only distinct digits.",
+  "id": "A085453",
+  "mentions": [
+    "A010784",
+    "A029743",
+    "A059930",
+    "A085451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

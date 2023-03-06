@@ -1,0 +1,15 @@
+{
+  "description": "Let p(2n+1,x)=(x+1)(x+2)...(x+2n)(x+2n+1), a(n) is the smallest integer >0 such that p(2n+1,x)-k has only one real root for any k >=a(n).",
+  "id": "A077155",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

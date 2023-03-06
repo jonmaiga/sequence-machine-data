@@ -1,0 +1,15 @@
+{
+  "description": "Smallest m such that (n-1)*m+1 mod n = 0, or 0 if no such number exists.",
+  "id": "A078788",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

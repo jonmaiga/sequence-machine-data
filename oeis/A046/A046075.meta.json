@@ -1,0 +1,20 @@
+{
+  "description": "Nontrivial undulants; base 10 numbers >100 which are of the form aba, abab, ababa, ..., where a != b.",
+  "id": "A046075",
+  "mentions": [
+    "A033619",
+    "A046076",
+    "A252664"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

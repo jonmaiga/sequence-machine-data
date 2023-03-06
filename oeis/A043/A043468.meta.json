@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having four 3's in base 9.",
+  "id": "A043468",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:19",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

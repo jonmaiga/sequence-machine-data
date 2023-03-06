@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of {2,...,n} such that the product of their elements is congruent to 0 (mod n+1).",
+  "id": "A064381",
+  "mentions": [
+    "A000048"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 2,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(348).",
+  "id": "A041658",
+  "mentions": [
+    "A040329",
+    "A041659"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:12:07",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

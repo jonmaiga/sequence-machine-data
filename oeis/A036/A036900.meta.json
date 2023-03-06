@@ -1,0 +1,26 @@
+{
+  "description": "Scan decimal expansion of e until all n-digit strings have been seen; a(n) is last string seen.",
+  "id": "A036900",
+  "mentions": [
+    "A001113",
+    "A036901",
+    "A036902",
+    "A036903",
+    "A036904",
+    "A036905",
+    "A036906",
+    "A088576"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

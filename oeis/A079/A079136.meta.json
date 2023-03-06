@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 0 in the repetition-resistant sequence A079101.",
+  "id": "A079136",
+  "mentions": [
+    "A079101",
+    "A079335",
+    "A079336",
+    "A079337",
+    "A079338"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

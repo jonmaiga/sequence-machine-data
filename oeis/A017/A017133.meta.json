@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (8*n + 5)^9.",
+  "id": "A017133",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

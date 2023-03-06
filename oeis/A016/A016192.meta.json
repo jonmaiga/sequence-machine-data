@@ -1,0 +1,25 @@
+{
+  "description": "Inverse of 2183rd cyclotomic polynomial.",
+  "id": "A016192",
+  "mentions": [
+    "A007273",
+    "A010891",
+    "A010892",
+    "A014016",
+    "A016327",
+    "A240328",
+    "A240467",
+    "A291137"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:47:53",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

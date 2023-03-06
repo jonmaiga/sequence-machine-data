@@ -1,0 +1,22 @@
+{
+  "description": "Third convolution of A001405 (central binomial numbers).",
+  "id": "A054443",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A054336",
+    "A054442"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:09:32",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

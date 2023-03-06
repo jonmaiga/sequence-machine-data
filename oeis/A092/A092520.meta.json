@@ -1,0 +1,27 @@
+{
+  "description": "Number of square divisors of n-th cube: a(n) = A046951(n^3).",
+  "id": "A092520",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A000578",
+    "A001620",
+    "A001651",
+    "A005117",
+    "A046951",
+    "A048785",
+    "A056624"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

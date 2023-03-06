@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = b(n) + d(n), where b(n) = (n-th Lucas number > 3) and d(n) = (n-th number that is 1 or 2 or is not a Fibonacci number).",
+  "id": "A023498",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:18:32",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

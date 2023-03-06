@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and 3*k are anagrams.",
+  "id": "A023087",
+  "mentions": [
+    "A023086",
+    "A023088",
+    "A023089",
+    "A023090",
+    "A023091",
+    "A023092",
+    "A023093",
+    "A336661"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

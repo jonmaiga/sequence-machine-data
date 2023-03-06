@@ -1,0 +1,28 @@
+{
+  "description": "Maximum number of nonattacking queens on an n X n toroidal board.",
+  "id": "A085801",
+  "mentions": [
+    "A007705",
+    "A051906",
+    "A172517",
+    "A172518",
+    "A172519",
+    "A173775",
+    "A178722",
+    "A279402",
+    "A279404",
+    "A279405"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

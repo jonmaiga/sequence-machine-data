@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers with smallest prime factor >= 7.",
+  "id": "A038510",
+  "mentions": [
+    "A001511",
+    "A002808",
+    "A007775",
+    "A038509",
+    "A038511",
+    "A051064",
+    "A055457",
+    "A070884",
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

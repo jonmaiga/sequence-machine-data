@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that phi(n) - 1 is prime, where phi is Euler's totient function (A000010).",
+  "id": "A078892",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A006512",
+    "A008864",
+    "A039698",
+    "A072281",
+    "A078893",
+    "A109606"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

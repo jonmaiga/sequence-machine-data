@@ -1,0 +1,22 @@
+{
+  "description": "Engel expansion of the Euler-Mascheroni constant gamma A001620 = 0.57721566... .",
+  "id": "A053977",
+  "mentions": [
+    "A001620",
+    "A006784",
+    "A028254",
+    "A028257"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of Gandhi polynomial coefficients.",
+  "id": "A065747",
+  "mentions": [
+    "A001469",
+    "A036970",
+    "A064624",
+    "A065748"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k which occur exactly twice in A001600.",
+  "id": "A090758",
+  "mentions": [
+    "A001600",
+    "A090240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

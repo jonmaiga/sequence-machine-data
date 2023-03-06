@@ -1,0 +1,16 @@
+{
+  "description": "Largest prime p for which every solution of the congruence x^n + y^n == z^n (mod p) is such that p divides x*y*z.",
+  "id": "A085749",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

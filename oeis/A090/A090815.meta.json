@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=denominator(B(2*prime(n))) where prime(n)=n-th prime and B(k) denotes the k-th Bernoulli number.",
+  "id": "A090815",
+  "mentions": [
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

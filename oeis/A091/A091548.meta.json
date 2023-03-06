@@ -1,0 +1,19 @@
+{
+  "description": "Alternating row sums of triangle A091543.",
+  "id": "A091548",
+  "mentions": [
+    "A091543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

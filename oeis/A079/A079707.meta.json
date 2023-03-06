@@ -1,0 +1,28 @@
+{
+  "description": "In prime factorization of n replace odd primes with their prime predecessor.",
+  "id": "A079707",
+  "mentions": [
+    "A000079",
+    "A001222",
+    "A003586",
+    "A003961",
+    "A005408",
+    "A061142",
+    "A061395",
+    "A064989",
+    "A151799"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest multiple of n which begins with R(n) and ends in n where R(n) (A004086) is the digit reversal of n. Suitable number of zeros are assumed to the left of the MSD if required.",
+  "id": "A077741",
+  "mentions": [
+    "A004086",
+    "A077742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

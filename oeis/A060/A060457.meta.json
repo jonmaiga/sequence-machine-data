@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to y^2 + y = x^3 - x^2 modulo n.",
+  "id": "A060457",
+  "mentions": [
+    "A006571",
+    "A061011",
+    "A061012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

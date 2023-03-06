@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose sum of factorials of digits is also prime.",
+  "id": "A084405",
+  "mentions": [
+    "A061602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

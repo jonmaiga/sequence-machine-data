@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A092422, which is generated from the even-numbered Fibonacci polynomials (A011973).",
+  "id": "A092423",
+  "mentions": [
+    "A011973",
+    "A092422"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

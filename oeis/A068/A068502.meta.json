@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that gcd(sigma(k), k) = gcd(k, phi(k)).",
+  "id": "A068502",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A009194",
+    "A009195"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

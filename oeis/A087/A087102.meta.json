@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers occurring most frequently as difference between consecutive primes <= prime(n).",
+  "id": "A087102",
+  "mentions": [
+    "A001223",
+    "A005250",
+    "A087103",
+    "A087104"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

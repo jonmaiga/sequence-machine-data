@@ -1,0 +1,19 @@
+{
+  "description": "First terms from generation 1 onwards.",
+  "id": "A048456",
+  "mentions": [
+    "A047844",
+    "A048448",
+    "A048455"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:56:18",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

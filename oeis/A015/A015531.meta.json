@@ -1,0 +1,30 @@
+{
+  "description": "Linear 2nd order recurrence: a(n) = 4*a(n-1) + 5*a(n-2).",
+  "id": "A015531",
+  "mentions": [
+    "A001045",
+    "A015518",
+    "A015521",
+    "A033115",
+    "A054878",
+    "A078008",
+    "A083425",
+    "A097073",
+    "A109499",
+    "A115341",
+    "A135278",
+    "A213128"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Let P(n,x) be defined by P(1,x)=P(2,x)=x, P(n,x)=P(n-1,x)*P(n-2,x)+1; then a(n) is the maximum element among coefficients of P(n,x) of degree F(n) (where F(n) denotes the n-th Fibonacci number).",
+  "id": "A076534",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

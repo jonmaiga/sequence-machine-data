@@ -1,0 +1,28 @@
+{
+  "description": "Number of primitive Pythagorean triangles with leg n.",
+  "id": "A024361",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A016825",
+    "A020883",
+    "A020884",
+    "A024359",
+    "A024360",
+    "A024362",
+    "A024363",
+    "A034444",
+    "A046079"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

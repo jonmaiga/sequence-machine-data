@@ -1,0 +1,22 @@
+{
+  "description": "Squares which are palindromes in base 5.",
+  "id": "A029989",
+  "mentions": [
+    "A002778",
+    "A003166",
+    "A029988",
+    "A263611",
+    "A263612"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

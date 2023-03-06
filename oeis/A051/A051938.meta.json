@@ -1,0 +1,20 @@
+{
+  "description": "Truncated triangular numbers: a(n) = n*(n+1)/2 - 18.",
+  "id": "A051938",
+  "mentions": [
+    "A000217",
+    "A155212"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:51",
+    "offset": 6,
+    "size": 51,
+    "source": "joeis"
+  }
+}

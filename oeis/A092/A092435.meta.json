@@ -1,0 +1,28 @@
+{
+  "description": "Prime factorials divided by their corresponding primorials.",
+  "id": "A092435",
+  "mentions": [
+    "A000142",
+    "A002110",
+    "A002808",
+    "A034386",
+    "A036691",
+    "A039716",
+    "A049614",
+    "A061214",
+    "A065890",
+    "A066247",
+    "A085604"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

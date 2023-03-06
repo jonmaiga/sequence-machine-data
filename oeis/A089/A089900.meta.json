@@ -1,0 +1,22 @@
+{
+  "description": "Square array, read by antidiagonals, where the n-th row is the n-th binomial transform of the factorials, starting with row 0: {1!,2!,3!,...}.",
+  "id": "A089900",
+  "mentions": [
+    "A001339",
+    "A088956",
+    "A089901",
+    "A089902"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

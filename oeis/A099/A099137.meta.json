@@ -1,0 +1,20 @@
+{
+  "description": "Iterated pentagonal numbers starting with 2.",
+  "id": "A099137",
+  "mentions": [
+    "A000326",
+    "A007501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

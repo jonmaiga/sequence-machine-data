@@ -1,0 +1,19 @@
+{
+  "description": "Number of fullerenes with 2n vertices (or carbon atoms), counting enantiomorphic pairs as distinct.",
+  "id": "A057210",
+  "mentions": [
+    "A007894",
+    "A013957"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 10,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of 1,...,2n with alternate odd/even entries that have no adjacent members when placed in a circle.",
+  "id": "A090931",
+  "mentions": [
+    "A092254"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

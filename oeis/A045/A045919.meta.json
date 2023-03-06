@@ -1,0 +1,22 @@
+{
+  "description": "Partial sum of Goldbach numbers A045917.",
+  "id": "A045919",
+  "mentions": [
+    "A002375",
+    "A010051",
+    "A045917",
+    "A045922"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:09",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

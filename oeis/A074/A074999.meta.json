@@ -1,0 +1,26 @@
+{
+  "description": "Floor[concatenation of nine consecutive numbers from n to n+8 divided by 9].",
+  "id": "A074999",
+  "mentions": [
+    "A036377",
+    "A073086",
+    "A074991",
+    "A074992",
+    "A074993",
+    "A074994",
+    "A074995",
+    "A074996"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

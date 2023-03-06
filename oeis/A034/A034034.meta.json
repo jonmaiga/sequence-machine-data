@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are primitively or imprimitively represented by x^2+2y^2, but not both.",
+  "id": "A034034",
+  "mentions": [
+    "A002479",
+    "A034030",
+    "A034033",
+    "A057127",
+    "A097700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:29",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled rooted trees with n leaves in which the degrees of the root and all internal nodes are >= 3.",
+  "id": "A052525",
+  "mentions": [
+    "A052524",
+    "A052526"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

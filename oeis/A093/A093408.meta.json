@@ -1,0 +1,17 @@
+{
+  "description": "For p = prime(n), the least k such that p is the numerator of a sum 1/k + 1/x1 +...+ 1/xm, where x1,...,xm (for any m) are distinct positive integers < k.",
+  "id": "A093408",
+  "mentions": [
+    "A093407"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

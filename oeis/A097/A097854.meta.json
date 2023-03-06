@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of Motzkin paths of length n and having abscissa of first return (i.e., first down step hitting the x-axis) equal to k (k>0); T(n,0)=1 (accounts for the paths consisting only of level steps).",
+  "id": "A097854",
+  "mentions": [
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

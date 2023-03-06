@@ -1,0 +1,21 @@
+{
+  "description": "Highest common factor of nonzero digits of n.",
+  "id": "A052423",
+  "mentions": [
+    "A007954",
+    "A069715"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of combinations of n things from 1 to n at a time, with repeats allowed.",
+  "id": "A030662",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A002144",
+    "A014473",
+    "A047909",
+    "A051924",
+    "A091908",
+    "A102541",
+    "A115112",
+    "A144660"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

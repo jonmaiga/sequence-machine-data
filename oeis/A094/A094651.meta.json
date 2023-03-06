@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled heptagonal 2-trees with n heptagons.",
+  "id": "A094651",
+  "mentions": [
+    "A054581",
+    "A340811"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

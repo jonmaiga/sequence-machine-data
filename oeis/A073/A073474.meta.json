@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows, where o.g.f. for T(n,k) is n!*Sum_{k=0..n} (1+x)^(n-k)/k!.",
+  "id": "A073474",
+  "mentions": [
+    "A000142",
+    "A000522",
+    "A010844",
+    "A073107"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

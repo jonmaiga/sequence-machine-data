@@ -1,0 +1,21 @@
+{
+  "description": "Column 2 of A007754.",
+  "id": "A058799",
+  "mentions": [
+    "A007754",
+    "A058797",
+    "A058798",
+    "A093935"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

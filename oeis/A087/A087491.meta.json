@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the Khinchin harmonic mean K_{-1}.",
+  "id": "A087491",
+  "mentions": [
+    "A002210",
+    "A087492",
+    "A087493",
+    "A087494",
+    "A087495",
+    "A087496",
+    "A087497",
+    "A087498",
+    "A087499",
+    "A087500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

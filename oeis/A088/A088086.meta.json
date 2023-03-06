@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; then smallest palindrome > 1 not occurring earlier such that every partial concatenation is a prime.",
+  "id": "A088086",
+  "mentions": [
+    "A088084",
+    "A088087"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

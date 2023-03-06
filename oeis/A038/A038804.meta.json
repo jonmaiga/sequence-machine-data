@@ -1,0 +1,23 @@
+{
+  "description": "Difference between largest n-digit prime and smallest (n+1)-digit prime.",
+  "id": "A038804",
+  "mentions": [
+    "A003617",
+    "A003618",
+    "A033873",
+    "A033874",
+    "A058249"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

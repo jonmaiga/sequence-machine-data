@@ -1,0 +1,22 @@
+{
+  "description": "Sum of squares of divisors of square numbers.",
+  "id": "A065827",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A008966",
+    "A065764"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

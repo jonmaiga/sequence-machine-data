@@ -1,0 +1,19 @@
+{
+  "description": "Let f(m) = smallest composite number that takes m steps of \"add prime factors to number\" to reach a prime and g(m) be the prime that is reached. Sequence gives values of g(m), sorted and duplicates removed.",
+  "id": "A050767",
+  "mentions": [
+    "A050703",
+    "A050710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

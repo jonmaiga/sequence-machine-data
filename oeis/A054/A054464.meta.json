@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Sum_{k=1..n} d(k) is an integer where d(k) is the decimal fraction 0.k (e.g. d(999)=0.999).",
+  "id": "A054464",
+  "mentions": [
+    "A275572",
+    "A275623"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

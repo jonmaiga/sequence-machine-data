@@ -1,0 +1,18 @@
+{
+  "description": "Diagonal T(n,n) of the triangle T(n,k), n>=0, 0<=k<=n, in which row n contains n+1 consecutive integers T(n,k+1)=T(n,k)+1 such that T(n,k) is divisible by a k-th power.",
+  "id": "A088079",
+  "mentions": [
+    "A088078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

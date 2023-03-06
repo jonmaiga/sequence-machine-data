@@ -1,0 +1,19 @@
+{
+  "description": "Number of staircase polygons on the square lattice with perimeter 2n and one (possibly rotated) staircase polygonal hole.",
+  "id": "A073913",
+  "mentions": [
+    "A057410",
+    "A057414",
+    "A070844"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

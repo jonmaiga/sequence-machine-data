@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime factor of pseudoprimes in A084653.",
+  "id": "A084655",
+  "mentions": [
+    "A084653"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

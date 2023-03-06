@@ -1,0 +1,19 @@
+{
+  "description": "Sum of odd divisors of n < sqrt(n) = sum of even divisors of n < sqrt(n).",
+  "id": "A033832",
+  "mentions": [
+    "A070039",
+    "A113184"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

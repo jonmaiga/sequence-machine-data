@@ -1,0 +1,23 @@
+{
+  "description": "Wythoff difference array, D={d(i,j)}, by antidiagonals.",
+  "id": "A080164",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001950",
+    "A035513",
+    "A191426"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

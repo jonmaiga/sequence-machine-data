@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of the irreducible character of S_m indexed by (m-2n+2,2n-2) in the n-th Kronecker power of the representation indexed by (m-2,2).",
+  "id": "A090809",
+  "mentions": [
+    "A000124",
+    "A049020"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:17",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

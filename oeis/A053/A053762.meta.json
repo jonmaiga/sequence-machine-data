@@ -1,0 +1,26 @@
+{
+  "description": "Number of 3-colored generalized Frobenius partitions of n.",
+  "id": "A053762",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000716",
+    "A004016",
+    "A010054",
+    "A010815",
+    "A051136",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:46:44",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

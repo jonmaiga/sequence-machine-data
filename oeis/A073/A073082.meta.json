@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sum k/d(k) is an integer, where d(k) is the k-th divisor of n (the divisors of n are in increasing order).",
+  "id": "A073082",
+  "mentions": [
+    "A027750",
+    "A073083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers: composition of permutations A057163 & A082356.",
+  "id": "A082358",
+  "mentions": [
+    "A057163",
+    "A082356",
+    "A082357",
+    "A082359",
+    "A082360",
+    "A122201",
+    "A122242",
+    "A122245",
+    "A123496"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

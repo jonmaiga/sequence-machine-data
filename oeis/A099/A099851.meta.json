@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A099850(k) is divisible by k.",
+  "id": "A099851",
+  "mentions": [
+    "A004648",
+    "A099850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A096287.",
+  "id": "A096729",
+  "mentions": [
+    "A063108",
+    "A096287",
+    "A096728"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

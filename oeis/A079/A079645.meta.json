@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that Integer part of the cube root of n divides n.",
+  "id": "A079645",
+  "mentions": [
+    "A006446",
+    "A032378",
+    "A079631",
+    "A112873",
+    "A120721"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

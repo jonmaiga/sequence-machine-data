@@ -1,0 +1,23 @@
+{
+  "description": "Number of orbits of length n in map whose periodic points are A000051.",
+  "id": "A060477",
+  "mentions": [
+    "A000051",
+    "A001037",
+    "A048578",
+    "A059966",
+    "A093210"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:33:12",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

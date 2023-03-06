@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for the number 1 + 1/(e + 1/(e^2 + 1/(e^3 + 1/(e^4 +...)))).",
+  "id": "A055972",
+  "mentions": [
+    "A100609"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

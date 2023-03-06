@@ -1,0 +1,21 @@
+{
+  "description": "On a 3 X 3 board, the number of n-move paths for a chess king.",
+  "id": "A086349",
+  "mentions": [
+    "A086346",
+    "A086347",
+    "A086348"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:54:49",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

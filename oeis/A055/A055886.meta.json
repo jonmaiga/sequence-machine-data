@@ -1,0 +1,23 @@
+{
+  "description": "Euler transform applied three times to partition triangle A008284.",
+  "id": "A055886",
+  "mentions": [
+    "A007713",
+    "A007714",
+    "A008284",
+    "A055884",
+    "A055885"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

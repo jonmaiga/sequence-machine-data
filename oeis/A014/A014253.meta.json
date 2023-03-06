@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = b(n)^2, where b(n) = b(n-1)^2 + b(n-2)^2 (A000283).",
+  "id": "A014253",
+  "mentions": [
+    "A000283"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

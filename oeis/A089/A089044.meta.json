@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that abs(d(n) - log(n) + 1 - 2*gamma) is a decreasing sequence, where d(n) is the number of divisors A000005(n) and gamma is Euler's constant A001620.",
+  "id": "A089044",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A089084"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

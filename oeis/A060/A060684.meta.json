@@ -1,0 +1,21 @@
+{
+  "description": "Smallest difference between consecutive divisors (ordered by size) of 2n+1.",
+  "id": "A060684",
+  "mentions": [
+    "A027750",
+    "A060680",
+    "A071294",
+    "A193829"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

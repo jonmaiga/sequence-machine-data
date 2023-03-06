@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime divisors of A000058(n)-1 = A000058(0)*...*A000058(n-1).",
+  "id": "A091336",
+  "mentions": [
+    "A000058",
+    "A001221",
+    "A091335"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that, when expressed in base 2 and then interpreted in base 10, yield a multiple of the original number.",
+  "id": "A032533",
+  "mentions": [
+    "A007088",
+    "A025612",
+    "A032532",
+    "A032534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

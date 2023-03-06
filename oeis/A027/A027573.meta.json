@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^2 + (n+1)^2 + (n+2)^2 is palindromic.",
+  "id": "A027573",
+  "mentions": [
+    "A027574"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

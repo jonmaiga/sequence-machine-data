@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=L(n)^2*C(n), L(n)=Lucas numbers (A000032), C(n)=reflected Lucas numbers (comment to A061084).",
+  "id": "A075151",
+  "mentions": [
+    "A000032",
+    "A001254",
+    "A061084",
+    "A075155"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

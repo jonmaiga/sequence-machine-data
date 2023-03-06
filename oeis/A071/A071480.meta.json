@@ -1,0 +1,15 @@
+{
+  "description": "Sprague-Grundy values for octal games .173 and .1731.",
+  "id": "A071480",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

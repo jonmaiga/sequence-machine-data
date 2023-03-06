@@ -1,0 +1,19 @@
+{
+  "description": "Those n for which the absolute value of A059878[n] is prime.",
+  "id": "A059879",
+  "mentions": [
+    "A059649",
+    "A059877",
+    "A059878"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of labeled acyclic digraphs with n nodes, containing exactly n+1-k points of in-degree zero (n >= 1, 1<=k<=n).",
+  "id": "A058876",
+  "mentions": [
+    "A003024",
+    "A003025",
+    "A003026",
+    "A058877",
+    "A060335",
+    "A060337",
+    "A122078"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

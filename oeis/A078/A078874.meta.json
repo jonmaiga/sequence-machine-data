@@ -1,0 +1,23 @@
+{
+  "description": "The 6-tuples (d1,d2,d3,d4,d5,d6) with elements in {2,4,6} are listed in lexicographic order; for each 6-tuple, this sequence lists the smallest prime p >= 7 such that the differences between the 7 consecutive primes starting with p are (d1,d2,d3,d4,d5,d6), if such a prime exists.",
+  "id": "A078874",
+  "mentions": [
+    "A001223",
+    "A078866",
+    "A078871",
+    "A078872",
+    "A078875"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

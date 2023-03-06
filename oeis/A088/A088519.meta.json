@@ -1,0 +1,20 @@
+{
+  "description": "2-Golomb's sequence G(n,2): earliest positive increasing sequence starting with (1,2) and satisfying \"length of n-th run = n-th partial sum\".",
+  "id": "A088519",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A088496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

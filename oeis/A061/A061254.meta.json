@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite numbers n such that primitive part of Fibonacci(n) (see A061446) is prime.",
+  "id": "A061254",
+  "mentions": [
+    "A061442",
+    "A061443",
+    "A061445",
+    "A061446",
+    "A061447"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

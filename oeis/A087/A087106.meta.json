@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (prime(k-1)+1)*(prime(k+1)-1) + 1, k>1.",
+  "id": "A087106",
+  "mentions": [
+    "A000040",
+    "A087105"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

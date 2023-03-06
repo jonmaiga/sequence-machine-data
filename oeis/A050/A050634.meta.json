@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) is next smallest square ending with a(n), initial term is 1.",
+  "id": "A050634",
+  "mentions": [
+    "A048557",
+    "A050628",
+    "A050635"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

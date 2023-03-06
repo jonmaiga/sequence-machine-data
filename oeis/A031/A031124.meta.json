@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1+z)/(1-z) - 2*Sum_{m>=1} z^(m^2)/(1-z^((m+1)^2)).",
+  "id": "A031124",
+  "mentions": [
+    "A031123"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:07",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

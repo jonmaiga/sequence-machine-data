@@ -1,0 +1,29 @@
+{
+  "description": "Numerators in canonical bijection from positive integers to positive rationals.",
+  "id": "A020652",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A020653",
+    "A037161",
+    "A038566",
+    "A038567",
+    "A038569",
+    "A054424",
+    "A182972",
+    "A182976"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "core",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

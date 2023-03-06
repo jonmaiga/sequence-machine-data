@@ -1,0 +1,24 @@
+{
+  "description": "Greatest prime number p(n) with decimal fraction period of length n.",
+  "id": "A061075",
+  "mentions": [
+    "A003020",
+    "A005422",
+    "A006530",
+    "A007138",
+    "A019328"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

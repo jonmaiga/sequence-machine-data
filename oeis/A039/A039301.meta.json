@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct quadratic residues mod 4^n.",
+  "id": "A039301",
+  "mentions": [
+    "A007583",
+    "A020988",
+    "A083584"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

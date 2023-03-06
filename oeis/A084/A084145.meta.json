@@ -1,0 +1,21 @@
+{
+  "description": "First digit occurring consecutively at least n times in Pi's decimal expansion.",
+  "id": "A084145",
+  "mentions": [
+    "A049522",
+    "A049523",
+    "A084144"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Perfect powers m^k where k >= 4.",
+  "id": "A076468",
+  "mentions": [
+    "A001597",
+    "A002117",
+    "A013661",
+    "A036967",
+    "A076467",
+    "A076469",
+    "A076470"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

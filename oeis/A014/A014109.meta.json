@@ -1,0 +1,18 @@
+{
+  "description": "Number of possible circular rhymes of n strophes.",
+  "id": "A014109",
+  "mentions": [
+    "A054639"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

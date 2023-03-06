@@ -1,0 +1,22 @@
+{
+  "description": "Smallest non-occurring pairwise difference between the elements of a Mian-Chowla sequence (A005282) variant starting with (1,n).",
+  "id": "A080933",
+  "mentions": [
+    "A005282",
+    "A051788",
+    "A058335",
+    "A080200",
+    "A080201",
+    "A080932"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

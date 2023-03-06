@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th digit is the same in e and Pi expansions in base 2.",
+  "id": "A068441",
+  "mentions": [
+    "A004593",
+    "A004601"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

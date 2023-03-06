@@ -1,0 +1,16 @@
+{
+  "description": "Revert transform of (-1 + 3x - 2x^2 + x^3)/(2x - 1).",
+  "id": "A049135",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:01:36",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Suppose n=(p1^e1)(p2^e2)... where p1,p2,... are the prime numbers and e1,e2,... are nonnegative integers. Then a(n) = e1 + (e2)*3 + (e3)*9 + (e4)*27 + ... + (ek)*(3^(k-1)) + ...",
+  "id": "A090880",
+  "mentions": [
+    "A000244",
+    "A001222",
+    "A006190",
+    "A032742",
+    "A048675",
+    "A054841",
+    "A055396",
+    "A090881",
+    "A090882",
+    "A090883",
+    "A090884",
+    "A104244",
+    "A178590",
+    "A206296",
+    "A260443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

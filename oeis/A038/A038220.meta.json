@@ -1,0 +1,28 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*3^(i-j)*2^j.",
+  "id": "A038220",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000351",
+    "A007318",
+    "A013613",
+    "A013620",
+    "A036561",
+    "A038221",
+    "A119309"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:05",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

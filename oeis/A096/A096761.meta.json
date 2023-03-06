@@ -1,0 +1,39 @@
+{
+  "description": "Position of first occurrence of exactly n consecutive sevens in a row in the decimal expansion of Pi.",
+  "id": "A096761",
+  "mentions": [
+    "A000796",
+    "A035117",
+    "A048940",
+    "A050279",
+    "A050281",
+    "A050282",
+    "A050283",
+    "A050284",
+    "A050286",
+    "A050287",
+    "A068987",
+    "A096755",
+    "A096756",
+    "A096757",
+    "A096758",
+    "A096759",
+    "A096760",
+    "A096762",
+    "A096763",
+    "A121280",
+    "A176341"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

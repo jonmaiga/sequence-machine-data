@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the coefficients of a power series for the canonical half-exponential function.",
+  "id": "A091736",
+  "mentions": [
+    "A091737"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "obsc",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

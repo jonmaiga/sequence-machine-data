@@ -1,0 +1,19 @@
+{
+  "description": "Minimal total volume of n bricks with integer sides, all sides being different. Lowest value of sum of products of triples p*q*r chosen from [1,3n].",
+  "id": "A072368",
+  "mentions": [
+    "A070735"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

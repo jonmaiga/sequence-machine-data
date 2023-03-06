@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that two adjacent parts are not equal modulo 4.",
+  "id": "A062202",
+  "mentions": [
+    "A003242",
+    "A062200",
+    "A062203"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:11:22",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

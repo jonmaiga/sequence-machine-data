@@ -1,0 +1,19 @@
+{
+  "description": "Squares which leave a square at every step if most significant digit and least significant digit are deleted until a one-digit or two-digit square is obtained.",
+  "id": "A077487",
+  "mentions": [
+    "A077485",
+    "A077486"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

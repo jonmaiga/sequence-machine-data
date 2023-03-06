@@ -1,0 +1,23 @@
+{
+  "description": "Same rule as Aitken triangle (A011971) except a(0,0)=1, a(1,0)=0.",
+  "id": "A046934",
+  "mentions": [
+    "A011971",
+    "A032346",
+    "A032347",
+    "A046935"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

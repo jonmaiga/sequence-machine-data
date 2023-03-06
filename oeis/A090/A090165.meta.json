@@ -1,0 +1,23 @@
+{
+  "description": "Number of configurations of Sam Loyd's sliding block 15-puzzle that require a minimum of n moves to be reached, starting with the empty square at one of the 8 non-corner boundary squares.",
+  "id": "A090165",
+  "mentions": [
+    "A087725",
+    "A089473",
+    "A089484",
+    "A090164",
+    "A090378"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

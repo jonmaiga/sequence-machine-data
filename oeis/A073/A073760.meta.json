@@ -1,0 +1,22 @@
+{
+  "description": "Integers m such that A073758(m) = 4.",
+  "id": "A073760",
+  "mentions": [
+    "A016825",
+    "A045763",
+    "A073758",
+    "A073759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:27",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

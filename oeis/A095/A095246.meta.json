@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is chosen to be the least number such that concatenation a(1)a(2)a(3)...a(n-1)a(n) is congruent to n (mod prime(n)).",
+  "id": "A095246",
+  "mentions": [
+    "A095243",
+    "A095244",
+    "A095245"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

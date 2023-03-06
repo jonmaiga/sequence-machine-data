@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows where n-th row contains all quadratic residues (including zero) mod n.",
+  "id": "A096008",
+  "mentions": [
+    "A000224",
+    "A046071",
+    "A047210",
+    "A063987",
+    "A165909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

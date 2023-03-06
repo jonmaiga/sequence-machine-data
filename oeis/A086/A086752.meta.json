@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n matrices over GF(3) with rank n-1.",
+  "id": "A086752",
+  "mentions": [
+    "A053290",
+    "A060868",
+    "A086699"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

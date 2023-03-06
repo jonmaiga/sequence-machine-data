@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that abs(sigma(n) - 2n) <= sqrt(n).",
+  "id": "A088007",
+  "mentions": [
+    "A000079",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A077374",
+    "A088008",
+    "A088012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

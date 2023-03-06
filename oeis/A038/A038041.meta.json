@@ -1,0 +1,36 @@
+{
+  "description": "Number of ways to partition an n-set into subsets of equal size.",
+  "id": "A038041",
+  "mentions": [
+    "A000110",
+    "A005225",
+    "A007837",
+    "A035470",
+    "A055225",
+    "A061095",
+    "A200472",
+    "A200473",
+    "A208437",
+    "A236696",
+    "A262280",
+    "A262320",
+    "A275780",
+    "A317583",
+    "A320324",
+    "A322794",
+    "A326512",
+    "A326513"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

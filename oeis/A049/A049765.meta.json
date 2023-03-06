@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T, read by rows: T(n,k) = (k mod n) + (n mod k), for k = 1..n and n >= 1.",
+  "id": "A049765",
+  "mentions": [
+    "A048158",
+    "A049766",
+    "A049767",
+    "A049768"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:27",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

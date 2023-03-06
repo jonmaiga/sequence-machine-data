@@ -1,0 +1,16 @@
+{
+  "description": "Fibonacci numbers with exactly 2 different digits (probably finite).",
+  "id": "A034292",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

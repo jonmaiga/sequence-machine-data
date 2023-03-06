@@ -1,0 +1,141 @@
+{
+  "oi": 85663,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[cos(cos(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "cos",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-03",
+      "ix": "limit[cos(cos(tanh(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-26",
+      "ix": "limit[cos(cos(cos(char[1])))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "cos",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "limit[cos(cos(floor(atan(n))))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "floor",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-11",
+      "ix": "limit[cos(cos(ceil(acot(n))))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "ceil",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "limit[cos(cos(ceil(sin(n)²)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "sin",
+        "²",
+        "ceil",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-04-07",
+      "ix": "limit[cos(a(2%n))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "2",
+        "n",
+        "%",
+        "a",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "limit[cos(cos(floor(acot(n))-1))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "floor",
+        "1",
+        "sub",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-03-21",
+      "ix": "limit[cos(cos(1)+∏[cos(n)])]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "n",
+        "cos",
+        "∏",
+        "+",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-03-21",
+      "ix": "limit[cos(cos(1-∏[cos(n)]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "n",
+        "cos",
+        "∏",
+        "sub",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    }
+  ]
+}

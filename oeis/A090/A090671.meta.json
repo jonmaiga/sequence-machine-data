@@ -1,0 +1,19 @@
+{
+  "description": "Decreases from 10^k - 1 down to 1, restarting at 10^(k+1) - 1, for k >= 1.",
+  "id": "A090671",
+  "mentions": [
+    "A035327",
+    "A089186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-x)^(-1)/(1 + x - x^2 + 2*x^3).",
+  "id": "A077903",
+  "mentions": [
+    "A001045",
+    "A010892",
+    "A049347",
+    "A117373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:09:56",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

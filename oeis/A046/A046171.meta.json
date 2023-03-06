@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent self-avoiding walks of length n on a 2-D lattice which start at origin, take first step in {+1,0} direction and if any steps are vertical, a step up is taken before a step down.",
+  "id": "A046171",
+  "mentions": [
+    "A001411",
+    "A046170"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

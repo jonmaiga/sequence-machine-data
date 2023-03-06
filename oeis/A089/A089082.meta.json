@@ -1,0 +1,15 @@
+{
+  "description": "Smallest prime factor of 3^n - 2^n.",
+  "id": "A089082",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

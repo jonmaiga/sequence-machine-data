@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of product( p == 3 (mod 4), sqrt(1-p^-2)).",
+  "id": "A079059",
+  "mentions": [
+    "A010503",
+    "A013661",
+    "A020832",
+    "A064533",
+    "A071903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

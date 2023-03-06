@@ -1,0 +1,27 @@
+{
+  "description": "Concentric pentagonal numbers: floor( 5*n^2 / 4 ).",
+  "id": "A032527",
+  "mentions": [
+    "A000290",
+    "A032528",
+    "A033429",
+    "A047209",
+    "A062786",
+    "A077043",
+    "A195040",
+    "A195041",
+    "A227541"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

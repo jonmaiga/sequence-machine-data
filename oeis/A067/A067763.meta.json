@@ -1,0 +1,30 @@
+{
+  "description": "Square array read by antidiagonals of base n numbers written as 122...222 with k 2's (and a suitable interpretation for n=0, 1 or 2).",
+  "id": "A067763",
+  "mentions": [
+    "A000012",
+    "A005408",
+    "A014113",
+    "A020989",
+    "A033484",
+    "A040000",
+    "A046717",
+    "A048473",
+    "A055129",
+    "A057651",
+    "A061801"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

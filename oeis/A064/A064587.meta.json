@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^6*(n^4 + n^2 + 1)*(n^3 - 1)*(n - 1).",
+  "id": "A064587",
+  "mentions": [
+    "A037253",
+    "A064588",
+    "A064589"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:29",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

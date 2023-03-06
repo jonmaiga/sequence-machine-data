@@ -1,0 +1,18 @@
+{
+  "description": "Let P(i) = i-th prime. To get a(n), factor P(n)-1 as a product of primes, then concatenate the exponents.",
+  "id": "A097463",
+  "mentions": [
+    "A037916"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

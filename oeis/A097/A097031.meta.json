@@ -1,0 +1,31 @@
+{
+  "description": "Length of terminal cycle if unitary-proper-divisor-sum function f(x) = A063919(x) is iterated and the initial value is n.",
+  "id": "A097031",
+  "mentions": [
+    "A002827",
+    "A034460",
+    "A063919",
+    "A063991",
+    "A097024",
+    "A097030",
+    "A097032",
+    "A097033",
+    "A097034",
+    "A097035",
+    "A097036",
+    "A097037",
+    "A318882",
+    "A318883"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

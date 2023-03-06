@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers with smallest prime factor >= 11.",
+  "id": "A038511",
+  "mentions": [
+    "A008364"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n matrices with nonnegative integer entries and every row and column sum <= 2.",
+  "id": "A049088",
+  "mentions": [
+    "A073178",
+    "A073179",
+    "A131235"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

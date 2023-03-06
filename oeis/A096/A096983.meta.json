@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest prime whose base-n digits add up to a composite number.",
+  "id": "A096983",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

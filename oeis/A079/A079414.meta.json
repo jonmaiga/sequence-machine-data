@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*n^4 - 3*n^2.",
+  "id": "A079414",
+  "mentions": [
+    "A193250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes such that the product of the nonzero digits + 1 is prime.",
+  "id": "A084353",
+  "mentions": [
+    "A084979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Upper-right triangle resulting from binomial transform calculation for nonnegative integers.",
+  "id": "A062111",
+  "mentions": [
+    "A001477",
+    "A001787",
+    "A001792",
+    "A005408",
+    "A008586",
+    "A008598",
+    "A017113",
+    "A034007",
+    "A045623",
+    "A045891",
+    "A058877",
+    "A073371",
+    "A111297",
+    "A130129",
+    "A152920",
+    "A159694",
+    "A159695",
+    "A159696",
+    "A159697"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

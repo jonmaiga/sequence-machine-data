@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose aliquot sequence terminates in a 1.",
+  "id": "A080907",
+  "mentions": [
+    "A063769",
+    "A115350",
+    "A126016",
+    "A131884"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Result of second stage of sieve of Eratosthenes (after eliminating multiples of 2 and 3).",
+  "id": "A038179",
+  "mentions": [
+    "A004280",
+    "A007310",
+    "A144065"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:43",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

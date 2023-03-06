@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of two-generated numerical semigroups whose Frobenius number is 2n-1.",
+  "id": "A094366",
+  "mentions": [
+    "A094365",
+    "A094367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

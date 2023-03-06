@@ -1,0 +1,21 @@
+{
+  "description": "Primes with record values of the least positive prime primitive root.",
+  "id": "A029932",
+  "mentions": [
+    "A002223",
+    "A002230",
+    "A060749",
+    "A084735"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

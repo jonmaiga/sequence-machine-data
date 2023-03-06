@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways of arranging the numbers 1..n in a circle so that there is no consecutive triple i, i+1, i+2 or i, i-1, i-2 (mod n).",
+  "id": "A078673",
+  "mentions": [
+    "A078628"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

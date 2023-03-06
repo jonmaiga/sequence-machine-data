@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 11*Pi/10.",
+  "id": "A061146",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:11:37",
+    "offset": 1,
+    "size": 114,
+    "source": "joeis"
+  }
+}

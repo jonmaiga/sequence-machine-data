@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of square table A086623 of coefficients of f(x,y) that satisfies f(x,y) = (1-xy)/[(1-x)(1-y)] + xy*f(x,y)^2.",
+  "id": "A086624",
+  "mentions": [
+    "A086623",
+    "A086625"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

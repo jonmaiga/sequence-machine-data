@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of numbers related to triangle A092083; generalization of Stirling numbers of second kind A008277, Lah-numbers A008297, ...",
+  "id": "A092082",
+  "mentions": [
+    "A008277",
+    "A008297",
+    "A008542",
+    "A035342",
+    "A035469",
+    "A049029",
+    "A049385",
+    "A051151",
+    "A092083",
+    "A092084",
+    "A092085",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

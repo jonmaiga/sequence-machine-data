@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in n-th term of A001387.",
+  "id": "A049194",
+  "mentions": [
+    "A001387",
+    "A001609"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:27:30",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

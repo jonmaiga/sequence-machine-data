@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the degrees of the irreducible representations of the group GL(3,Z_n).",
+  "id": "A086782",
+  "mentions": [
+    "A053191",
+    "A086768"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

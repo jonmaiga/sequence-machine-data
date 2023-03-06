@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least prime p such that 2*prime(n) - p is prime.",
+  "id": "A092938",
+  "mentions": [
+    "A092939",
+    "A092940",
+    "A116619"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

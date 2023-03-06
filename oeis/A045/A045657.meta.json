@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-bead balanced binary strings, rotationally inequivalent to reverse, complement and reversed complement.",
+  "id": "A045657",
+  "mentions": [
+    "A000984",
+    "A045653",
+    "A045654",
+    "A045655",
+    "A045656",
+    "A045666"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

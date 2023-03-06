@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of (s(0), s(1), ..., s(n)) such that s(i) is a nonnegative integer and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, s(0) = 2, s(n) = 6. Also a(n) = T(n,n-4), where T is the array in A026323.",
+  "id": "A026329",
+  "mentions": [
+    "A026323"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:41:48",
+    "offset": 4,
+    "size": 26,
+    "source": "joeis"
+  }
+}

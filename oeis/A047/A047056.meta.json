@@ -1,0 +1,23 @@
+{
+  "description": "Quintuple factorial numbers: Product_{k=0..n-1} (5*k+3).",
+  "id": "A047056",
+  "mentions": [
+    "A008546",
+    "A008548",
+    "A047055",
+    "A048994",
+    "A052562"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

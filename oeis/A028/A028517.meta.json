@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of A007245^24.",
+  "id": "A028517",
+  "mentions": [
+    "A000521",
+    "A007245"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

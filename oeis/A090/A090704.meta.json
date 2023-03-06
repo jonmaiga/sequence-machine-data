@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n*factorial(n)-1 is prime.",
+  "id": "A090704",
+  "mentions": [
+    "A049433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

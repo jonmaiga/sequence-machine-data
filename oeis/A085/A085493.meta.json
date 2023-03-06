@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k having partitions into distinct divisors of k + 1.",
+  "id": "A085493",
+  "mentions": [
+    "A085491",
+    "A085492",
+    "A085498",
+    "A106431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sums of 2 distinct powers of 4.",
+  "id": "A038470",
+  "mentions": [
+    "A000302",
+    "A038444",
+    "A038471",
+    "A038472",
+    "A038473"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

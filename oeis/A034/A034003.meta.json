@@ -1,0 +1,18 @@
+{
+  "description": "A007890 expanded into single digits.",
+  "id": "A034003",
+  "mentions": [
+    "A007890"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:23",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

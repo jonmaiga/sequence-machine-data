@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(n) + d(n)*(n - phi(n)) - sigma(n).",
+  "id": "A079540",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

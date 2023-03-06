@@ -1,0 +1,21 @@
+{
+  "description": "Reversed binary packing of Fibonacci sequence A000045.",
+  "id": "A048722",
+  "mentions": [
+    "A000045",
+    "A005203",
+    "A036571",
+    "A048721"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

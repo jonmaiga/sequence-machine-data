@@ -1,0 +1,15 @@
+{
+  "description": "Even numbers not the sum of a pair of twin primes, one the lesser and the other the greater.",
+  "id": "A064409",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

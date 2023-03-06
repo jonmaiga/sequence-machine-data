@@ -1,0 +1,21 @@
+{
+  "description": "Sum of next n numbers/n if n divides the sum else n times the sum of next n numbers.",
+  "id": "A094260",
+  "mentions": [
+    "A000217",
+    "A001844",
+    "A037270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:01",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

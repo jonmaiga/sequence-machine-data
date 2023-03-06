@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of two positive cubes in at least four ways (all solutions).",
+  "id": "A023051",
+  "mentions": [
+    "A001235",
+    "A003825",
+    "A003826",
+    "A011541",
+    "A018787",
+    "A023050",
+    "A025295",
+    "A051167",
+    "A343968",
+    "A345865"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

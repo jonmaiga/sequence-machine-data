@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors in Lucas(n), counting multiplicity.",
+  "id": "A086599",
+  "mentions": [
+    "A000204",
+    "A086598",
+    "A086600"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

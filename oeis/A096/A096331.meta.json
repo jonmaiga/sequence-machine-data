@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2-connected planar graphs on n labeled nodes.",
+  "id": "A096331",
+  "mentions": [
+    "A066537",
+    "A100960",
+    "A291835",
+    "A291836"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

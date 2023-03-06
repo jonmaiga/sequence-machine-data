@@ -1,0 +1,26 @@
+{
+  "description": "Complement of quarter-squares (A002620).",
+  "id": "A049068",
+  "mentions": [
+    "A000037",
+    "A002620",
+    "A027434",
+    "A078358",
+    "A080037",
+    "A237347",
+    "A240025"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

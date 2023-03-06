@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive quadratic nonresidue modulo p, where p is the n-th prime.",
+  "id": "A053760",
+  "mentions": [
+    "A000229",
+    "A020649",
+    "A098990"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

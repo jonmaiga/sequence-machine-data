@@ -1,0 +1,20 @@
+{
+  "description": "a(n) not of form prime - a(k), k < n.",
+  "id": "A025044",
+  "mentions": [
+    "A025043",
+    "A068638",
+    "A072545",
+    "A254337"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least number m such that m-1, m+1 are twin primes, m=a*b and there are 2^n - 1 choices for (S, D) where S=a+b, D=a-b (a>b>1) and with both S and D primes.",
+  "id": "A090073",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

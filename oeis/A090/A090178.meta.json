@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) = n + prime(n-1).",
+  "id": "A090178",
+  "mentions": [
+    "A008578",
+    "A014688",
+    "A048171",
+    "A164931",
+    "A171508"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:05",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "From Bertrand's postulate: a(n) = 2*prime(n) - prime(n+1).",
+  "id": "A062234",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A100484",
+    "A215808",
+    "A233822",
+    "A257762",
+    "A257892",
+    "A257951",
+    "A258383",
+    "A258432",
+    "A258449",
+    "A258469"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:16:33",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

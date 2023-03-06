@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = T(2*n, n), array T as in A047080.",
+  "id": "A047085",
+  "mentions": [
+    "A047080",
+    "A047081",
+    "A047082",
+    "A047083",
+    "A047084",
+    "A047086",
+    "A047087",
+    "A047088",
+    "A171155"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

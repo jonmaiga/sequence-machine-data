@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n with distinct parts p(i) such that if i != j, then |p(i) - p(j)| >= 8.",
+  "id": "A025162",
+  "mentions": [
+    "A003114",
+    "A025157",
+    "A194543"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:31:30",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi/24.",
+  "id": "A019691",
+  "mentions": [
+    "A000796",
+    "A019670",
+    "A019673",
+    "A019675",
+    "A019679"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 7^n mod 22.",
+  "id": "A070408",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:21",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

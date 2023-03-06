@@ -1,0 +1,22 @@
+{
+  "description": "Square table read by antidiagonals of number of ways of arranging n chords on a circle with k simple intersections (i.e., no intersections with 3 or more chords).",
+  "id": "A067310",
+  "mentions": [
+    "A000108",
+    "A001147",
+    "A002694",
+    "A067311"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

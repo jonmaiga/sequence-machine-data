@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(n,k) giving number of alternating link diagrams with n >= 0 crossings, k = 0..[n/2] connected components and two external legs.",
+  "id": "A062038",
+  "mentions": [
+    "A054993",
+    "A062386",
+    "A067767",
+    "A067768"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

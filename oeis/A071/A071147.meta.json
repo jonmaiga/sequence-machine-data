@@ -1,0 +1,24 @@
+{
+  "description": "Smallest squarefree number k with exactly n prime factors such that the sum of the prime factors is divisible by the largest prime dividing k, or 0 if no such k exists.",
+  "id": "A071147",
+  "mentions": [
+    "A000961",
+    "A006530",
+    "A008472",
+    "A025475",
+    "A037074",
+    "A071139",
+    "A071146"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the difference between the largest and smallest integer solutions to n=x/pi(x), where pi(x) = A000720(x).",
+  "id": "A087236",
+  "mentions": [
+    "A000720",
+    "A038623",
+    "A038625",
+    "A038627",
+    "A057809",
+    "A087235",
+    "A087237",
+    "A087240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Digital root of n!.",
+  "id": "A086358",
+  "mentions": [
+    "A000142",
+    "A004152",
+    "A007953",
+    "A010888",
+    "A029898",
+    "A038194",
+    "A086353",
+    "A086361"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:05",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

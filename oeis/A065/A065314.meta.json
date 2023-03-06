@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime divisor of (n-th primorial - (n+1)-st prime).",
+  "id": "A065314",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A002584",
+    "A002585",
+    "A006530",
+    "A020639",
+    "A051342",
+    "A057713",
+    "A065317"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

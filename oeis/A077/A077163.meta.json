@@ -1,0 +1,18 @@
+{
+  "description": "n-th power of next n numbers.",
+  "id": "A077163",
+  "mentions": [
+    "A002024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:29:33",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

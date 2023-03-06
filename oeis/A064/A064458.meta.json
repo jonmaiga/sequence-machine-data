@@ -1,0 +1,22 @@
+{
+  "description": "Highest power of 11 dividing n!.",
+  "id": "A064458",
+  "mentions": [
+    "A011371",
+    "A053831",
+    "A054861",
+    "A054899"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:27",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

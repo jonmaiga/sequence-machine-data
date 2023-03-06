@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is defined as follows. Write the numbers from 1 to n^2 consecutively in n rows of length n; T(n,k) = number of primes in k-th row.",
+  "id": "A083415",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A038107",
+    "A060715",
+    "A083382",
+    "A083414",
+    "A092556",
+    "A092557",
+    "A139325"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

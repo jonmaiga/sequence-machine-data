@@ -1,0 +1,22 @@
+{
+  "description": "Domination number for kings' graph K(n).",
+  "id": "A075561",
+  "mentions": [
+    "A006075",
+    "A075458",
+    "A102753",
+    "A189889"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:03",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Smallest multiple k*n of n having n divisors.",
+  "id": "A073904",
+  "mentions": [
+    "A005179",
+    "A033950",
+    "A037992",
+    "A050376",
+    "A076931",
+    "A109429",
+    "A110821",
+    "A111172",
+    "A299795"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

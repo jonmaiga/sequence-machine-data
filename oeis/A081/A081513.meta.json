@@ -1,0 +1,22 @@
+{
+  "description": "a(2)=0; for n != 2, let m = A081512(n), then a(n) = value of d_n in the lexicographically earliest set of n distinct divisors d_1, ..., d_n of m with d_1 + ... + d_n = m.",
+  "id": "A081513",
+  "mentions": [
+    "A081512",
+    "A081514",
+    "A081515",
+    "A081516",
+    "A081517",
+    "A081521"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

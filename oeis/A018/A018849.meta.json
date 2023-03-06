@@ -1,0 +1,18 @@
+{
+  "description": "Strobogrammatic squares: the same upside down (calculator-style numerals).",
+  "id": "A018849",
+  "mentions": [
+    "A018846"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

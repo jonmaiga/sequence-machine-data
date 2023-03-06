@@ -1,0 +1,28 @@
+{
+  "description": "Array T read by diagonals; T(i,j) is the number of paths from (0,0) to (i,j) consisting of nonvertical segments (x(k),y(k))-to-(x(k+1),y(k+1)) such that 0 = x(1) < x(2) < ... < x(n-1) < x(n)=i, 0 = y(1) <= y(2) <= ... <= y(n-1) <= y(n)=j, for i >= 0, j >= 0.",
+  "id": "A049600",
+  "mentions": [
+    "A001850",
+    "A007318",
+    "A011782",
+    "A035028",
+    "A047781",
+    "A055587",
+    "A059576",
+    "A084938",
+    "A208341"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:39:41",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

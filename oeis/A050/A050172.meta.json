@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that b(k) < b(k+1), where b = A050170.",
+  "id": "A050172",
+  "mentions": [
+    "A050170",
+    "A050173"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

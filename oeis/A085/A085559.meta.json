@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number expressible as the sum of three 4th powers in at least n ways.",
+  "id": "A085559",
+  "mentions": [
+    "A011541",
+    "A123075"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

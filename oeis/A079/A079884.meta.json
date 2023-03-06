@@ -1,0 +1,24 @@
+{
+  "description": "Number of comparisons required to create all permutations of n distinct elements using the \"streamlined\" version of Algorithm L (lexicographic permutation generation) from Knuth's The Art of Computer Programming, Vol. 4, chapter 7.2.1.2.",
+  "id": "A079884",
+  "mentions": [
+    "A000142",
+    "A038155",
+    "A038156",
+    "A079750",
+    "A079753",
+    "A079885"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

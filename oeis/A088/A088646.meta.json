@@ -1,0 +1,15 @@
+{
+  "description": "a(0) = 1 and then alternately prime and composite numbers such that the successive difference is (distinct) composite and prime respectively.",
+  "id": "A088646",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

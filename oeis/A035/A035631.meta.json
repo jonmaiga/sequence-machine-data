@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into parts 5k+1 and 5k+2 with at least one part of each type.",
+  "id": "A035631",
+  "mentions": [
+    "A035371",
+    "A035441",
+    "A035468",
+    "A035618",
+    "A035630",
+    "A035632",
+    "A035699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

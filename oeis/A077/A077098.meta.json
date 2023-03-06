@@ -1,0 +1,22 @@
+{
+  "description": "Length of period of the continued fraction expansion of sqrt(-1+n^n).",
+  "id": "A077098",
+  "mentions": [
+    "A003285",
+    "A013642",
+    "A048861"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

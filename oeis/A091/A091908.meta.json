@@ -1,0 +1,23 @@
+{
+  "description": "Number of interior intersection points made by the straight line segments connecting the edges of an equilateral triangle with the n-1 points resulting from a subdivision of the sides into n equal pieces, counting coinciding intersection points only once.",
+  "id": "A091908",
+  "mentions": [
+    "A006561",
+    "A091910",
+    "A092098",
+    "A331782",
+    "A332376",
+    "A332377",
+    "A332378"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

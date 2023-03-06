@@ -1,0 +1,16 @@
+{
+  "description": "arctanh(tan(arctanh(x))) = x + (6/3!)*x^3 + (184/5!)*x^5 + 13360/7!*x^7 + ...",
+  "id": "A012181",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:21:13",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

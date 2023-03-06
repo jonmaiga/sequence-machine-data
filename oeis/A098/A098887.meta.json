@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic groups with orders indexed by least prime signatures.",
+  "id": "A098887",
+  "mentions": [
+    "A000001",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

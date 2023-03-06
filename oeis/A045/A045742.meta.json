@@ -1,0 +1,18 @@
+{
+  "description": "Number of interior faces in all noncrossing connected graphs on n nodes on a circle.",
+  "id": "A045742",
+  "mentions": [
+    "A089434"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

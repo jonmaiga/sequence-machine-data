@@ -1,0 +1,21 @@
+{
+  "description": "Quotient A077480(n) / A077479(n).",
+  "id": "A077481",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A067340",
+    "A077479",
+    "A077480"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

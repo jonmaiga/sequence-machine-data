@@ -1,0 +1,19 @@
+{
+  "description": "Number of bipartite partitions of ceiling(n/2) white objects and floor(n/2) black ones.",
+  "id": "A091437",
+  "mentions": [
+    "A002774",
+    "A005380",
+    "A054225"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

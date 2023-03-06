@@ -1,0 +1,17 @@
+{
+  "description": "Solution to the merit factor problem.",
+  "id": "A091386",
+  "mentions": [
+    "A102780"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

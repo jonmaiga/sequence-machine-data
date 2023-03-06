@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(2*n-2*k,n-k)^2 * C(2*n,k)^2.",
+  "id": "A036915",
+  "mentions": [
+    "A036917"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:02:57",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Four-fold exponential convolution of Fibonacci numbers with themselves (divided by 24).",
+  "id": "A014341",
+  "mentions": [
+    "A014340",
+    "A346415"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:05:44",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Integer part of the area of consecutive prime sided isosceles triangles.",
+  "id": "A097442",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

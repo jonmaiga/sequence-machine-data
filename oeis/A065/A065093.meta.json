@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of A000010 with itself.",
+  "id": "A065093",
+  "mentions": [
+    "A000010",
+    "A000385",
+    "A055507",
+    "A340995"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

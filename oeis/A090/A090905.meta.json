@@ -1,0 +1,19 @@
+{
+  "description": "Left side of irregular triangle of natural numbers in which every row product is a multiple of the previous.",
+  "id": "A090905",
+  "mentions": [
+    "A090904",
+    "A090906",
+    "A090907"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

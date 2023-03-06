@@ -1,0 +1,18 @@
+{
+  "description": "Subtract 2 from primes == 3 (mod 4).",
+  "id": "A097538",
+  "mentions": [
+    "A002145",
+    "A097539"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "oi": 60402,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[tanh(π)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "tanh",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sin(atan(sinh(π)))]",
+      "mt": 50,
+      "px": [
+        "π",
+        "sinh",
+        "atan",
+        "sin",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acot(sinh(π)))]",
+      "mt": 50,
+      "px": [
+        "π",
+        "sinh",
+        "acot",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sinh(π)/cosh(π)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "sinh",
+        "π",
+        "cosh",
+        "/",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "contfrac[1-exp(π)/cosh(π)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "π",
+        "exp",
+        "π",
+        "cosh",
+        "/",
+        "sub",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[C344505]",
+      "mt": 50,
+      "px": [
+        "C344505",
+        "contfrac"
+      ]
+    }
+  ]
+}

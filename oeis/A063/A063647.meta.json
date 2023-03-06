@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write 1/n as a difference of exactly 2 unit fractions.",
+  "id": "A063647",
+  "mentions": [
+    "A001221",
+    "A018892",
+    "A046079",
+    "A048691",
+    "A062799",
+    "A063427",
+    "A063428",
+    "A063717",
+    "A063718",
+    "A146564"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

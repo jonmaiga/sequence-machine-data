@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having two 7's in base 10.",
+  "id": "A043518",
+  "mentions": [
+    "A011537"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n+1) = le nombre des lettres dans a(n).",
+  "id": "A061504",
+  "mentions": [
+    "A000655",
+    "A007005",
+    "A101432",
+    "A328263"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:07",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

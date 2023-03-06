@@ -1,0 +1,18 @@
+{
+  "description": "Sums of successive sums of successive sums of successive sums of successive primes.",
+  "id": "A096279",
+  "mentions": [
+    "A007443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

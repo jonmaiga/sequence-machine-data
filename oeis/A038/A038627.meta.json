@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions x to n * pi(x) = x, where pi(x) = number of primes <= x.",
+  "id": "A038627",
+  "mentions": [
+    "A038623",
+    "A038624",
+    "A038625",
+    "A038626",
+    "A087237",
+    "A102281"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

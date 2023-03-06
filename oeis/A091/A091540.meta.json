@@ -1,0 +1,25 @@
+{
+  "description": "Rescaled second column A091539 of array A091534 ((5,2)-Stirling2).",
+  "id": "A091540",
+  "mentions": [
+    "A007559",
+    "A008544",
+    "A032031",
+    "A051606",
+    "A091534",
+    "A091539",
+    "A091541"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

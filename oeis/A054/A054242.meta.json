@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: row n (n>=0) gives the number of partitions of (n,0), (n-1,1), (n-2,2), ..., (0,n) respectively into sums of distinct pairs.",
+  "id": "A054242",
+  "mentions": [
+    "A000009",
+    "A036469",
+    "A054225",
+    "A201376",
+    "A201377",
+    "A219554",
+    "A219555",
+    "A268345",
+    "A268346",
+    "A268347",
+    "A268348"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

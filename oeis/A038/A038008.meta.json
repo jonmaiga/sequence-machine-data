@@ -1,0 +1,17 @@
+{
+  "description": "Differences of A038007.",
+  "id": "A038008",
+  "mentions": [
+    "A038007"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

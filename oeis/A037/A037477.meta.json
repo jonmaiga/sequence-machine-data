@@ -1,0 +1,37 @@
+{
+  "description": "a(n) = Sum{d(i)*9^i: i=0,1,...,m}, where Sum{d(i)*8^i: i=0,1,...,m} is the base 8 representation of n.",
+  "id": "A037477",
+  "mentions": [
+    "A005836",
+    "A007095",
+    "A011539",
+    "A020654",
+    "A020657",
+    "A023717",
+    "A037465",
+    "A037474",
+    "A074940",
+    "A095778",
+    "A171397",
+    "A248375",
+    "A333656",
+    "A337141",
+    "A337239",
+    "A337250",
+    "A337572",
+    "A338090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

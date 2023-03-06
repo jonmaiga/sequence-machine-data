@@ -1,0 +1,21 @@
+{
+  "description": "Consider the succession of single digits of A008585 (multiples of 3): 3 6 9 1 2 1 5 1 8 2 1 2 4 2 7 3 0 .... This sequence gives the lexicographically earliest derangement of A001651 (non-multiples of 3) that produces the same succession of digits.",
+  "id": "A097500",
+  "mentions": [
+    "A001651",
+    "A008585",
+    "A097488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

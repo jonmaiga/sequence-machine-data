@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that k*2^n*(2^n-1) - 1 is prime.",
+  "id": "A099478",
+  "mentions": [
+    "A020522"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

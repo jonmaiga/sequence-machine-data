@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that f(n) is a strict local extremum for the prime gaps function f(n) = prime(n+1)-prime(n), where prime(n) denotes the n-th prime; i.e., either f(n)>f(n-1) and f(n)>f(n+1) or f(n)",
+  "id": "A066485",
+  "mentions": [
+    "A066918",
+    "A196174",
+    "A198696"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n through n+7 are divisible by the same number of distinct primes.",
+  "id": "A045936",
+  "mentions": [
+    "A001221",
+    "A006049",
+    "A006073",
+    "A045932",
+    "A045935",
+    "A045937",
+    "A045938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

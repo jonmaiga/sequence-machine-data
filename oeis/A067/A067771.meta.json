@@ -1,0 +1,24 @@
+{
+  "description": "Number of vertices in Sierpiński triangle of order n.",
+  "id": "A067771",
+  "mentions": [
+    "A003462",
+    "A007051",
+    "A024023",
+    "A034472",
+    "A048473",
+    "A233774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

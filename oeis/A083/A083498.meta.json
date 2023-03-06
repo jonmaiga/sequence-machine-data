@@ -1,0 +1,20 @@
+{
+  "description": "a(n)= smallest multiple of n greater than n which has no digit in common with a(n-1).",
+  "id": "A083498",
+  "mentions": [
+    "A083499"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

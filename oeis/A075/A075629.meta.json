@@ -1,0 +1,20 @@
+{
+  "description": "Sums of terms of groups in A075626.",
+  "id": "A075629",
+  "mentions": [
+    "A075626",
+    "A075627",
+    "A075628",
+    "A075630"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

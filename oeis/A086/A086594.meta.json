@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 8*a(n-1) + a(n-2), starting with a(0)=2 and a(1)=8.",
+  "id": "A086594",
+  "mentions": [
+    "A003285",
+    "A088317"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

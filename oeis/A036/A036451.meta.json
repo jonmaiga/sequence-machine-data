@@ -1,0 +1,23 @@
+{
+  "description": "Maximal value of d(x) (the number of divisors of x, A000005) if the binary order (see A029837) of x, the value g(x) = n.",
+  "id": "A036451",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A005179",
+    "A007416",
+    "A029837",
+    "A036470",
+    "A036472"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

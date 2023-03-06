@@ -1,0 +1,15 @@
+{
+  "description": "Largest prime dividing Sum_{k=0..n} k! * (n-k)!.",
+  "id": "A049413",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

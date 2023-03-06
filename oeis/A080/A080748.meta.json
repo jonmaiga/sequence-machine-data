@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime factors of n-th Fermat pseudoprime to base 2.",
+  "id": "A080748",
+  "mentions": [
+    "A001567",
+    "A007011"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

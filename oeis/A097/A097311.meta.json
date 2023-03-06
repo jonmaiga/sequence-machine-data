@@ -1,0 +1,40 @@
+{
+  "description": "Chebyshev polynomials of the second kind, U(n,x), evaluated at x=14.",
+  "id": "A097311",
+  "mentions": [
+    "A000027",
+    "A001090",
+    "A001109",
+    "A001353",
+    "A004189",
+    "A004191",
+    "A007655",
+    "A029547",
+    "A029548",
+    "A049310",
+    "A049660",
+    "A075843",
+    "A077412",
+    "A077421",
+    "A077423",
+    "A078987",
+    "A097309",
+    "A097310",
+    "A097313",
+    "A097316",
+    "A101950",
+    "A144128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": -1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

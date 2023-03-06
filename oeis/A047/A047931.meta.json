@@ -1,0 +1,18 @@
+{
+  "description": "Number of new penny-penny contacts when putting pennies on a table following a spiral pattern.",
+  "id": "A047931",
+  "mentions": [
+    "A047932"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:33",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

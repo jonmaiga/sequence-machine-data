@@ -1,0 +1,20 @@
+{
+  "description": "Number of positive integers <= n that can be expressed as a sum of 2 coprime squares > 0.",
+  "id": "A090736",
+  "mentions": [
+    "A008784",
+    "A064533",
+    "A090735"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

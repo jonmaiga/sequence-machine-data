@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are ending primes after the iterated procedure of 'composite added to the sum of its prime factors reaches a prime'.",
+  "id": "A050778",
+  "mentions": [
+    "A050703",
+    "A050710",
+    "A050779"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

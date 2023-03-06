@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/F(k) where F(k) is the k-th Fibonacci number A000045(k).",
+  "id": "A079586",
+  "mentions": [
+    "A000045",
+    "A000796",
+    "A001622",
+    "A002163",
+    "A002390",
+    "A016628",
+    "A084119",
+    "A093540",
+    "A105199",
+    "A153386",
+    "A153387",
+    "A350901",
+    "A350902",
+    "A350903",
+    "A350904"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

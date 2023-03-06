@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of Chebyshev sequence S(n,8) = U(n,4) = A001090(n+1).",
+  "id": "A076765",
+  "mentions": [
+    "A001090",
+    "A092521",
+    "A212336"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

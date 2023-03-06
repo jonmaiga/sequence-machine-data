@@ -1,0 +1,18 @@
+{
+  "description": "In A038837 but not A038838.",
+  "id": "A038839",
+  "mentions": [
+    "A038837",
+    "A038838"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

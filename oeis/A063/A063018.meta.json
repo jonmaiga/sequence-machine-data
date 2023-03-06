@@ -1,0 +1,19 @@
+{
+  "description": "Reversion of x - x^2 - x^3 - x^4.",
+  "id": "A063018",
+  "mentions": [
+    "A001002"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:19:06",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

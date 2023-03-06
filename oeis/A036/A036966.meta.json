@@ -1,0 +1,26 @@
+{
+  "description": "3-full (or cube-full, or cubefull) numbers: if a prime p divides n then so does p^3.",
+  "id": "A036966",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A030078",
+    "A036967",
+    "A065483",
+    "A124010",
+    "A258600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

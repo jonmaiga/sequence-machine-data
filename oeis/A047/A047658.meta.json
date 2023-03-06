@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the initial k digits in decimal portion of Pi form a prime number.",
+  "id": "A047658",
+  "mentions": [
+    "A000796",
+    "A060421",
+    "A064118"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

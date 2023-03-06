@@ -1,0 +1,22 @@
+{
+  "description": "Algebraic degree of cot(Pi/n).",
+  "id": "A089929",
+  "mentions": [
+    "A000010",
+    "A055035",
+    "A113402"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

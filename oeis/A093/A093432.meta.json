@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm_{k=1..n} (lcm(n,n-1,...,n-k+2,n-k+1)/lcm(1,2,...,k)).",
+  "id": "A093432",
+  "mentions": [
+    "A093430",
+    "A093431",
+    "A093433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

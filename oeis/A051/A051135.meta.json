@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = number of times n appears in the Hofstadter-Conway $10000 sequence A004001.",
+  "id": "A051135",
+  "mentions": [
+    "A004001",
+    "A087686",
+    "A088359",
+    "A093879",
+    "A188163",
+    "A265332",
+    "A265903",
+    "A266109",
+    "A267103"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

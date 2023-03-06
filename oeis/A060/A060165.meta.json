@@ -1,0 +1,34 @@
+{
+  "description": "Number of orbits of length n under the map whose periodic points are counted by A000984.",
+  "id": "A060165",
+  "mentions": [
+    "A000984",
+    "A007727",
+    "A008683",
+    "A022553",
+    "A027377",
+    "A060164",
+    "A060166",
+    "A060167",
+    "A060168",
+    "A060169",
+    "A060170",
+    "A060171",
+    "A060172",
+    "A060173",
+    "A268592",
+    "A268619"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

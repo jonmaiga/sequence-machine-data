@@ -1,0 +1,22 @@
+{
+  "description": "Scaled Chebyshev U-polynomial evaluated at sqrt(6)/2.",
+  "id": "A030192",
+  "mentions": [
+    "A001353",
+    "A001834",
+    "A083881",
+    "A109466"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

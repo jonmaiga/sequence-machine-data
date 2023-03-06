@@ -1,0 +1,52 @@
+{
+  "description": "Signature permutation of the seventeenth nonrecursive Catalan automorphism in table A089840. (Rotate binary tree right if possible, otherwise swap its sides.)",
+  "id": "A074680",
+  "mentions": [
+    "A001683",
+    "A014137",
+    "A014138",
+    "A019590",
+    "A057123",
+    "A057501",
+    "A069770",
+    "A069774",
+    "A071655",
+    "A071657",
+    "A071659",
+    "A072090",
+    "A072092",
+    "A072094",
+    "A072796",
+    "A073200",
+    "A073280",
+    "A073282",
+    "A074679",
+    "A074682",
+    "A074684",
+    "A074686",
+    "A074688",
+    "A074689",
+    "A082336",
+    "A082350",
+    "A083927",
+    "A089410",
+    "A089840",
+    "A089866",
+    "A120705",
+    "A122322",
+    "A122331",
+    "A123497",
+    "A123500",
+    "A123696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of potential flows in n X n array with integer velocities in -10..10, i.e., number of n X n arrays with adjacent elements differing by no more than 10, counting arrays differing by a constant only once.",
+  "id": "A068757",
+  "mentions": [
+    "A068248",
+    "A068722",
+    "A068738",
+    "A068744",
+    "A068747",
+    "A068761"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all matrix elements M(i,j) = n!*(i/j), (i,j = 1..n).",
+  "id": "A098107",
+  "mentions": [
+    "A000217",
+    "A000254",
+    "A001008",
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:14:42",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

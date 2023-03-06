@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = B(n) + C(n) where B(n) is Beatty sequence [ n*sqrt(3) ] and C is complement of B.",
+  "id": "A022805",
+  "mentions": [
+    "A022838",
+    "A054406"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:17",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

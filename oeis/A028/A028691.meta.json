@@ -1,0 +1,17 @@
+{
+  "description": "Least positive value of k for which the n-th sorted Galois number divides k!.",
+  "id": "A028691",
+  "mentions": [
+    "A028689"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

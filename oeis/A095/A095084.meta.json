@@ -1,0 +1,22 @@
+{
+  "description": "Fibevil primes, i.e., primes p whose Zeckendorf-expansion A014417(p) contains an even number of 1-fibits.",
+  "id": "A095084",
+  "mentions": [
+    "A000040",
+    "A014417",
+    "A095062",
+    "A095064",
+    "A095083",
+    "A095096"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

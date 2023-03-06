@@ -1,0 +1,19 @@
+{
+  "description": "Squares k such that k + pi(k) is a prime.",
+  "id": "A073946",
+  "mentions": [
+    "A077510",
+    "A113943",
+    "A113944"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

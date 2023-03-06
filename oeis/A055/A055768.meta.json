@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct primes dividing phi of n-th primorial number.",
+  "id": "A055768",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A002110",
+    "A005867",
+    "A055769"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

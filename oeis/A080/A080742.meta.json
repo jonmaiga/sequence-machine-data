@@ -1,0 +1,22 @@
+{
+  "description": "Largest element of n-th row of A080738.",
+  "id": "A080742",
+  "mentions": [
+    "A005417",
+    "A080737",
+    "A080738",
+    "A080740",
+    "A080741"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

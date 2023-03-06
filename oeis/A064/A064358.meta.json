@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of sequence A052330 considered as a permutation of the natural numbers.",
+  "id": "A064358",
+  "mentions": [
+    "A052330",
+    "A052331"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

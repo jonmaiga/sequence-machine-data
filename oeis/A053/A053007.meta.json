@@ -1,0 +1,19 @@
+{
+  "description": "Repeated digits in decimal expansion of e associated with A053684.",
+  "id": "A053007",
+  "mentions": [
+    "A053684"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

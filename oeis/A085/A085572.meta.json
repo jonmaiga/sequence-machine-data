@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of 2*Sum(C(n,w)/w,w=1..n/2-1)+C(n, n/2)/(n/2) if n is even otherwise of 2*Sum(C(n,w)/w,w=1..(n-1)/2).",
+  "id": "A085572",
+  "mentions": [
+    "A085568",
+    "A086673"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

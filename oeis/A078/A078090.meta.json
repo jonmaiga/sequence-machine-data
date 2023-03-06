@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of Product_{p prime >= 3} (1 - (p+2)/p^3).",
+  "id": "A078090",
+  "mentions": [
+    "A065476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

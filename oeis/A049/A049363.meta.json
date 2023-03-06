@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; for n > 1, smallest digitally balanced number in base n.",
+  "id": "A049363",
+  "mentions": [
+    "A023811",
+    "A031443",
+    "A037968",
+    "A049354",
+    "A049355",
+    "A053506",
+    "A061845"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

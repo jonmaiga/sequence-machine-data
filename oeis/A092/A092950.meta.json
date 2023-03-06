@@ -1,0 +1,19 @@
+{
+  "description": "Beginning with n, add the next number, subtract the previous number and so on until one gets a prime, or 0 if no such prime is reached in 2n-1 steps: a(n) = n + (n+1) - (n-1) +(n+2) -(n-2) +(n+3)-(n-3)...+...is the first occurring prime at any step.",
+  "id": "A092950",
+  "mentions": [
+    "A092951",
+    "A092952"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

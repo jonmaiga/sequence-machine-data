@@ -1,0 +1,18 @@
+{
+  "description": "Start with n; if prime, stop; repeatedly sum squares of prime factors (counted with multiplicity), until reach 16 or a prime; set a(n) = 0 if no limit exists.",
+  "id": "A029913",
+  "mentions": [
+    "A029914"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*x^n + (n-1)*x^(n-1) + . . . + x + 1 for x=3.",
+  "id": "A088581",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice paths from (0,0) to the line x+y=n that use the step set {(0,1),(1,0),(2,0),(3,0),...} and never pass below y=x.",
+  "id": "A089324",
+  "mentions": [
+    "A011117",
+    "A060656"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

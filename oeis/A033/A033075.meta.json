@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers all of whose pairs of consecutive decimal digits differ by 1.",
+  "id": "A033075",
+  "mentions": [
+    "A048398",
+    "A048411",
+    "A090994",
+    "A207954"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

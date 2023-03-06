@@ -1,0 +1,22 @@
+{
+  "description": "n is equal to the number of 5s in all numbers <= n written in base 7.",
+  "id": "A014889",
+  "mentions": [
+    "A014778",
+    "A014886"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

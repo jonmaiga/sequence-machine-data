@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the prime factors of k equals half the sum of the prime factors of k + 1.",
+  "id": "A074213",
+  "mentions": [
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

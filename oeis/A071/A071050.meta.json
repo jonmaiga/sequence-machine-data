@@ -1,0 +1,17 @@
+{
+  "description": "Number of 0's in n-th row of triangle in A071035.",
+  "id": "A071050",
+  "mentions": [
+    "A071035"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:45",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

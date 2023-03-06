@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers not exceeding 2^n that are impossible as sum-of-divisors of other numbers.",
+  "id": "A095380",
+  "mentions": [
+    "A007369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p+210*(i-1) is prime for i=1 to 10.",
+  "id": "A094220",
+  "mentions": [
+    "A227284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

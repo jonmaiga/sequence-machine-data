@@ -1,0 +1,26 @@
+{
+  "description": "d(n,s) = number of perfect matchings on {1, 2, ..., n} with s short pairs.",
+  "id": "A079267",
+  "mentions": [
+    "A000806",
+    "A001147",
+    "A001498",
+    "A006198",
+    "A006199",
+    "A006200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

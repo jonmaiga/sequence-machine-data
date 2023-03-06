@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of q^-1 * eta(q^10) * eta(q^14) in powers of q^2.",
+  "id": "A030216",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030199",
+    "A030201",
+    "A030213",
+    "A030214",
+    "A030215",
+    "A030217",
+    "A121373",
+    "A277582"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

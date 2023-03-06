@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of zeta(4).",
+  "id": "A013662",
+  "mentions": [
+    "A013664",
+    "A013666",
+    "A013668",
+    "A013670",
+    "A091043",
+    "A231535",
+    "A293904",
+    "A337711"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

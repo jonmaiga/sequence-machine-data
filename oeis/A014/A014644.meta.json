@@ -1,0 +1,20 @@
+{
+  "description": "Form array starting with {1,1}; then i-th term in a row gives number of i's in next row; sequence is formed from final term in each row.",
+  "id": "A014644",
+  "mentions": [
+    "A011784",
+    "A014643"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

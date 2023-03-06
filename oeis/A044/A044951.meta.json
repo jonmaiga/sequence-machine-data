@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having a different number of ones and zeros in base 2.",
+  "id": "A044951",
+  "mentions": [
+    "A031443",
+    "A072600",
+    "A072601",
+    "A072602",
+    "A072603"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

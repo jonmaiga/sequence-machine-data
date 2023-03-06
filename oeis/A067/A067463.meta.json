@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p+sigma(p+1) is prime.",
+  "id": "A067463",
+  "mentions": [
+    "A008333",
+    "A067464"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

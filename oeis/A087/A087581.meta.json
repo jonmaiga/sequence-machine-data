@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that successive differences are increasing palindromes.",
+  "id": "A087581",
+  "mentions": [
+    "A002113",
+    "A051934",
+    "A087582"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

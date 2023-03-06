@@ -1,0 +1,19 @@
+{
+  "description": "An infinite juggling sequence with three balls: a(n) is zero when A084451(n-1) is even, otherwise the least (lowest) throw such that the resulting next juggling state A084451(n) does not occur in A084451[0..n-1].",
+  "id": "A084452",
+  "mentions": [
+    "A084451",
+    "A084458",
+    "A084507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

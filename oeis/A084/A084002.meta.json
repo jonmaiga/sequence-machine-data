@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 9; then numbers such that the concatenation a(n)a(n-1)...a(2)a(1)a(2)...a(n-1)a(n) is a prime for n>1.",
+  "id": "A084002",
+  "mentions": [
+    "A083996",
+    "A083997",
+    "A083998",
+    "A083999",
+    "A084000",
+    "A084001",
+    "A084003"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

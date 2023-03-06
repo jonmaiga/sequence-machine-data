@@ -1,0 +1,15 @@
+{
+  "description": "(Product k^k) * (Sum 1/k^k) where both the sum and product are over those positive integers k that divide n.",
+  "id": "A057642",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

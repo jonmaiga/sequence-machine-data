@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for e^(Pi*sqrt(163)).",
+  "id": "A058292",
+  "mentions": [
+    "A019297",
+    "A060295"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

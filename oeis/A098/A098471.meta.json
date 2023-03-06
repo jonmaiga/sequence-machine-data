@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that Mersenne-prime(n)*2^k+1 is prime (A000668(n)*2^k+1).",
+  "id": "A098471",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A098472"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "Triangle read by rows: Aitken's array (A011971) but with a leading diagonal before it given by the Bell numbers (A000110), 1, 1, 2, 5, 15, 52, ...",
+  "id": "A095149",
+  "mentions": [
+    "A000005",
+    "A000110",
+    "A000142",
+    "A001221",
+    "A001222",
+    "A005493",
+    "A006939",
+    "A008278",
+    "A008302",
+    "A011971",
+    "A020556",
+    "A022915",
+    "A027423",
+    "A076954",
+    "A098859",
+    "A124010",
+    "A130091",
+    "A146291",
+    "A181796",
+    "A181818",
+    "A188919",
+    "A271466",
+    "A336417",
+    "A336419",
+    "A336420",
+    "A336421",
+    "A336499",
+    "A336942"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

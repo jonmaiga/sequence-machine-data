@@ -1,0 +1,15 @@
+{
+  "description": "Odd composite n such that phi(n) * sigma(n) is one less than a square.",
+  "id": "A015722",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

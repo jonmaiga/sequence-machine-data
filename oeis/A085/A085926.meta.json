@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n if n is composite, else a(n) = smallest composite number beginning with n not obtained trivially by simply placing a zero as a least significant digit; i.e., a(n) is not equal to 10n.",
+  "id": "A085926",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

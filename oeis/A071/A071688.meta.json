@@ -1,0 +1,23 @@
+{
+  "description": "Number of plane trees with even number of leaves.",
+  "id": "A071688",
+  "mentions": [
+    "A000108",
+    "A007595",
+    "A071684",
+    "A119358",
+    "A119359"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

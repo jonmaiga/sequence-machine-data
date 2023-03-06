@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of functions from [1,2,...,n] to [1,2,...,n] such that the image contains exactly k elements (0<=k<=n).",
+  "id": "A090657",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000312",
+    "A001477",
+    "A001804",
+    "A007318",
+    "A008279",
+    "A019538",
+    "A048993",
+    "A068605",
+    "A101817",
+    "A288312"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

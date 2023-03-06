@@ -1,0 +1,22 @@
+{
+  "description": "Remainder when concatenation 1,2,3,...up to (n-1) is divided by n.",
+  "id": "A094151",
+  "mentions": [
+    "A007908",
+    "A095221",
+    "A110740"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

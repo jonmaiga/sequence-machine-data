@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the product of first n terms of an arithmetic progression with the first term 1 and common difference n.",
+  "id": "A092985",
+  "mentions": [
+    "A057237",
+    "A092987",
+    "A256268"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

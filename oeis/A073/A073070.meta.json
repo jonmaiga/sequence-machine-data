@@ -1,0 +1,19 @@
+{
+  "description": "Binary expansion of 1/AGM(1,sqrt(2)).",
+  "id": "A073070",
+  "mentions": [
+    "A014549"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

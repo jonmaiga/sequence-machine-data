@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes of the form pq where p < q and p + q - 1 is prime.",
+  "id": "A053343",
+  "mentions": [
+    "A050530",
+    "A290434",
+    "A290435",
+    "A291318"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

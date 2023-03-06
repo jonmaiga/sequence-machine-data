@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (aperiodic) palindromes using exactly five different symbols.",
+  "id": "A056466",
+  "mentions": [
+    "A056391",
+    "A056456",
+    "A056461",
+    "A327873"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:34:11",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that phi(k + 6) | sigma(k) + 6.",
+  "id": "A015872",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

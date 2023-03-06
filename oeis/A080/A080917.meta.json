@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer solutions to the equation 2*x^2 + y^2 + 8*z^2 = n.",
+  "id": "A080917",
+  "mentions": [
+    "A000122",
+    "A033717",
+    "A072068",
+    "A080918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes whose sum of the squares of the digits is also a semiprime.",
+  "id": "A085803",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

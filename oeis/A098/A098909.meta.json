@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) of numbers of connected (unicyclic) graphs with unique cycle of length k (3<=k<=n), on n labeled nodes.",
+  "id": "A098909",
+  "mentions": [
+    "A053507",
+    "A057500",
+    "A065889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

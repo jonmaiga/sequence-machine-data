@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of round(log_2(n)).",
+  "id": "A092757",
+  "mentions": [
+    "A004257",
+    "A092919"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

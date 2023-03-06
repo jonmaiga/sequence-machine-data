@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A030301.",
+  "id": "A079954",
+  "mentions": [
+    "A000523",
+    "A000975",
+    "A030301",
+    "A079947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:51",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

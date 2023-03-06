@@ -1,0 +1,19 @@
+{
+  "description": "Define x[1]...x[n] by the equations Sum_{j=1..n} x[j]^i = i, i=1..n; a(n) = n! * Sum_{j=1..n} x[j]^(n+1).",
+  "id": "A094094",
+  "mentions": [
+    "A066668"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:49:40",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers in the (2,3)-Pascal triangle (by row).",
+  "id": "A029600",
+  "mentions": [
+    "A007318",
+    "A029618",
+    "A029635",
+    "A084938",
+    "A228196",
+    "A228576"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

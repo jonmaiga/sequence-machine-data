@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways in which the points on an n X n square lattice can be equally occupied with spin \"up\" and spin \"down\" particles. If n is odd, we arbitrarily take the lattice to contain one more spin \"up\" particle than the number of spin \"down\" particles.",
+  "id": "A081623",
+  "mentions": [
+    "A082963"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

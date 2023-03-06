@@ -1,0 +1,22 @@
+{
+  "description": "Leading coefficient of extremal theta series of even unimodular lattice in dimension 24n.",
+  "id": "A034597",
+  "mentions": [
+    "A004672",
+    "A004675",
+    "A008408",
+    "A034414",
+    "A034415",
+    "A034598"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

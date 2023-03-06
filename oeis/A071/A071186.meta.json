@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that prime(2*k)-2*prime(k) is prime.",
+  "id": "A071186",
+  "mentions": [
+    "A000040",
+    "A031215",
+    "A066066",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

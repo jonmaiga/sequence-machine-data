@@ -1,0 +1,26 @@
+{
+  "description": "Smallest nonnegative number not expressible as determinant of an n X n matrix with elements 1..n^2.",
+  "id": "A088216",
+  "mentions": [
+    "A085000",
+    "A088214",
+    "A088215",
+    "A088217",
+    "A088237",
+    "A088238",
+    "A322576",
+    "A325900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

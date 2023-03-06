@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of the tribonacci constant t, the real root of x^3 - x^2 - x - 1.",
+  "id": "A058265",
+  "mentions": [
+    "A000073",
+    "A001622",
+    "A019712",
+    "A057597",
+    "A086088",
+    "A103814",
+    "A118427",
+    "A118428",
+    "A133400",
+    "A158919",
+    "A192918",
+    "A254231",
+    "A256099",
+    "A276800",
+    "A276801",
+    "A319200",
+    "A357101"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

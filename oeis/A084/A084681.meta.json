@@ -1,0 +1,20 @@
+{
+  "description": "Order of 10 modulo 9n [i.e., least m such that 10^m = 1 (mod 9n)] or 0 when no such number exists.",
+  "id": "A084681",
+  "mentions": [
+    "A084680",
+    "A190301",
+    "A216479"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

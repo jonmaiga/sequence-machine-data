@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 11*n^2 + 4 is a square.",
+  "id": "A075844",
+  "mentions": [
+    "A075839",
+    "A075843",
+    "A221762"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

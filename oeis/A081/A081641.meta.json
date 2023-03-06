@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = n-th prime of class 13- according to the Erdős-Selfridge classification.",
+  "id": "A081641",
+  "mentions": [
+    "A005105",
+    "A005106",
+    "A005107",
+    "A005108",
+    "A005113",
+    "A056637",
+    "A081633",
+    "A081635",
+    "A081636",
+    "A081637",
+    "A081638",
+    "A081640",
+    "A129248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

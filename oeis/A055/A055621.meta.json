@@ -1,0 +1,29 @@
+{
+  "description": "Number of covers of an unlabeled n-set.",
+  "id": "A055621",
+  "mentions": [
+    "A000612",
+    "A003180",
+    "A003181",
+    "A003465",
+    "A058891",
+    "A319559",
+    "A319637",
+    "A323819",
+    "A326946",
+    "A326973",
+    "A326974"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

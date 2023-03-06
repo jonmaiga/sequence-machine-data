@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d divides n} phi(n/d)*(-1)^bigomega(d).",
+  "id": "A074722",
+  "mentions": [
+    "A000010",
+    "A001222",
+    "A058026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

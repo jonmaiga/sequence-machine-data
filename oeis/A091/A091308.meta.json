@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A038395 (concatenate first n odd numbers in reverse order).",
+  "id": "A091308",
+  "mentions": [
+    "A038395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

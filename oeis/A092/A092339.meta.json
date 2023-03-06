@@ -1,0 +1,24 @@
+{
+  "description": "Number of adjacent identical digits in the binary representation of n.",
+  "id": "A092339",
+  "mentions": [
+    "A003188",
+    "A005811",
+    "A014081",
+    "A056973",
+    "A080791",
+    "A227185"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

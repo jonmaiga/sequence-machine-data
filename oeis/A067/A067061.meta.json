@@ -1,0 +1,17 @@
+{
+  "description": "A permutation of the natural numbers.",
+  "id": "A067061",
+  "mentions": [
+    "A067060"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

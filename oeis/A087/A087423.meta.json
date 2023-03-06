@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=S(3*n,3)/S(n,3) where S(n,m)=sum(k=0,n,binomial(n,k)*fibonacci(m*k)).",
+  "id": "A087423",
+  "mentions": [
+    "A020876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:15:30",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

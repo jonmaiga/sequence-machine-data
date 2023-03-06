@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n giving rise to prime quadruples (30n+11, 30n+13, 30n+17, 30n+19).",
+  "id": "A014561",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A007530",
+    "A007811",
+    "A089160",
+    "A089161"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

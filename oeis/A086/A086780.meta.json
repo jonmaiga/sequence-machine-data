@@ -1,0 +1,20 @@
+{
+  "description": "Number of negative terms in n-th cyclotomic polynomial.",
+  "id": "A086780",
+  "mentions": [
+    "A000961",
+    "A051664",
+    "A086765"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

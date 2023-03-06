@@ -1,0 +1,22 @@
+{
+  "description": "Divisors of 3600.",
+  "id": "A035303",
+  "mentions": [
+    "A018266",
+    "A048691",
+    "A171425"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

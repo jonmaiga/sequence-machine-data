@@ -1,0 +1,40 @@
+{
+  "description": "Square array read by antidiagonals: A(n,k) = number of terms in the n-th derivative of a function composed with itself k times (n, k >= 1).",
+  "id": "A022818",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000041",
+    "A000217",
+    "A008284",
+    "A008778",
+    "A022811",
+    "A022812",
+    "A022813",
+    "A022814",
+    "A022815",
+    "A022816",
+    "A022817",
+    "A024207",
+    "A024208",
+    "A024209",
+    "A024210",
+    "A081719",
+    "A192435",
+    "A215626",
+    "A215627",
+    "A215628"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

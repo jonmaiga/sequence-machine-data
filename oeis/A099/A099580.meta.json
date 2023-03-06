@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n-k, k-1) * 4^(k-1).",
+  "id": "A099580",
+  "mentions": [
+    "A006131",
+    "A097038",
+    "A099579"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

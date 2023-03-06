@@ -1,0 +1,18 @@
+{
+  "description": "A 2 X 2 matrix Fibonacci sequence.",
+  "id": "A097575",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:38:42",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

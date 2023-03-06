@@ -1,0 +1,17 @@
+{
+  "description": "Sets of 4 numbers in arithmetic progression with common difference 6 and whose phi values are equal.",
+  "id": "A039670",
+  "mentions": [
+    "A050498"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

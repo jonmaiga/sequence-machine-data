@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x*(4+5*x-x^2)/ (1-2*x-3*x^2+x^3).",
+  "id": "A095126",
+  "mentions": [
+    "A095125",
+    "A095127",
+    "A095128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:05:41",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

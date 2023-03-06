@@ -1,0 +1,20 @@
+{
+  "description": "For n > 0, 0 <= k <= n^2, T(n,k) is the number of rotationally and reflectively distinct n X n arrays that contain the numbers 1 through k once each and n^2-k zeros.",
+  "id": "A087074",
+  "mentions": [
+    "A085698",
+    "A086829"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

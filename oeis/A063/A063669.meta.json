@@ -1,0 +1,22 @@
+{
+  "description": "Hypotenuses of reciprocal Pythagorean triangles: number of solutions to 1/(12n)^2 = 1/b^2 + 1/c^2 [with b >= c > 0]; also number of values of A020885 (with repetitions) which divide n.",
+  "id": "A063669",
+  "mentions": [
+    "A008594",
+    "A020885",
+    "A046080",
+    "A063014",
+    "A063664",
+    "A063665"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

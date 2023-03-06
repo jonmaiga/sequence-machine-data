@@ -1,0 +1,22 @@
+{
+  "description": "Let u(1)=u(2)=u(3)=2, u(n)=(1+u(n-1)u(n-2))/u(n-3); then a(n) is the numerator of u(n).",
+  "id": "A076737",
+  "mentions": [
+    "A001045",
+    "A005246",
+    "A028242",
+    "A076736"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

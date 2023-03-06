@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; thereafter a(n) is the smallest number coprime to a(n-1) and having a(n-1) divisors.",
+  "id": "A076965",
+  "mentions": [
+    "A076964"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

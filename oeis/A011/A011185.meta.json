@@ -1,0 +1,27 @@
+{
+  "description": "A B_2 sequence: a(n) = least value such that sequence increases and pairwise sums of distinct elements are all distinct.",
+  "id": "A011185",
+  "mentions": [
+    "A003278",
+    "A010672",
+    "A026471",
+    "A033627",
+    "A036241",
+    "A066720",
+    "A075122",
+    "A075123",
+    "A133097",
+    "A349777"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:18",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

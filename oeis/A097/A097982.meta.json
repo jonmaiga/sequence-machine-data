@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (phi(n) + sigma(n))/(rad(n))^2 is an integer > 1 (phi=A000010, sigma=A000203, rad=A007947).",
+  "id": "A097982",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A007947",
+    "A121850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

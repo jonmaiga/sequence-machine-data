@@ -1,0 +1,18 @@
+{
+  "description": "Count of complete evaluations of each mapping in the trajectory of n in the mapping n-> n*3+1 if n is prime, n+1 if n is odd composite, n/2 while n even.",
+  "id": "A086763",
+  "mentions": [
+    "A086762"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

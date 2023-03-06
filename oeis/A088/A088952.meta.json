@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are squarefree words in ternary representation.",
+  "id": "A088952",
+  "mentions": [
+    "A007089",
+    "A088950",
+    "A088953"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

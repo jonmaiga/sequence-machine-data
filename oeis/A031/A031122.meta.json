@@ -1,0 +1,18 @@
+{
+  "description": "Integers that appear as ratios of Fibonacci numbers F(kn)/F(k), but omitting Fibonacci numbers F(n)/F(1) and Lucas numbers F(2n)/F(n).",
+  "id": "A031122",
+  "mentions": [
+    "A031121"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:53:02",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

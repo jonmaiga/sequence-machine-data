@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = floor(phi^n), where phi = (1+sqrt(5))/2 is the golden ratio.",
+  "id": "A014217",
+  "mentions": [
+    "A000032",
+    "A000035",
+    "A000045",
+    "A020956",
+    "A022319",
+    "A052952",
+    "A057146",
+    "A062114",
+    "A153382",
+    "A169985",
+    "A169986",
+    "A203976",
+    "A226328"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

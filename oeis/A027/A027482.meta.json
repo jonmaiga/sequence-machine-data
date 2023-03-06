@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n^3 - 1)/2.",
+  "id": "A027482",
+  "mentions": [
+    "A000217",
+    "A027478",
+    "A058895"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:34:41",
+    "offset": 2,
+    "size": 33,
+    "source": "joeis"
+  }
+}

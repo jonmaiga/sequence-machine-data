@@ -1,0 +1,25 @@
+{
+  "description": "Sum of digits is strictly greater than product of digits.",
+  "id": "A062997",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A034710",
+    "A062329",
+    "A062996",
+    "A062998",
+    "A062999"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

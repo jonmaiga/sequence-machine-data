@@ -1,0 +1,15 @@
+{
+  "description": "Number of ways to tile an n X n board having a black border with the following 1 X 1 tiles: bbbb, bbww, wbbw, bwwb, wwbb, where the colors are read clockwise around each tile.",
+  "id": "A086832",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

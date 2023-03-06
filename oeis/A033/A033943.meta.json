@@ -1,0 +1,15 @@
+{
+  "description": "Sum of coefficients of a polynomial associated to a family of digraphs.",
+  "id": "A033943",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

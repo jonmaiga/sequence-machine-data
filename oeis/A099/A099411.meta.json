@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 3*R_k + 4 is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A099411",
+  "mentions": [
+    "A002275",
+    "A056680",
+    "A093168"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

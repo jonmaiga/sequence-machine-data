@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(n) is a k(n)-almost prime; m is an A-almost prime (for 1<=A); a(n) = smallest number m>a(n-1) such that a(i)+m is an (abs[ A-k(i) ])-almost prime for i = 1,2,3,..,n-1.",
+  "id": "A059392",
+  "mentions": [
+    "A059333",
+    "A059363"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

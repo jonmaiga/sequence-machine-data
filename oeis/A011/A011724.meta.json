@@ -1,0 +1,23 @@
+{
+  "description": "A binary m-sequence: expansion of reciprocal of x^11 + x^2 + 1 (mod 2, shifted by 10 initial 0's).",
+  "id": "A011724",
+  "mentions": [
+    "A011655",
+    "A011656",
+    "A011745",
+    "A011746",
+    "A011751"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:53",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

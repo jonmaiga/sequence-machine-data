@@ -1,0 +1,27 @@
+{
+  "description": "One fourth of theta series of cubic lattice with respect to face.",
+  "id": "A045828",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A005877",
+    "A005884",
+    "A010054",
+    "A010815",
+    "A033761",
+    "A033763",
+    "A121373",
+    "A212885"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

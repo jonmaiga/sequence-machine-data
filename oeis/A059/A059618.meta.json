@@ -1,0 +1,23 @@
+{
+  "description": "Number of strongly unimodal partitions of n (strongly unimodal means strictly increasing then strictly decreasing).",
+  "id": "A059618",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001523",
+    "A059607",
+    "A059619"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

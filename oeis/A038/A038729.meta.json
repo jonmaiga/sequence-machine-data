@@ -1,0 +1,24 @@
+{
+  "description": "Configurations of linear chains in a 6-dimensional hypercubic lattice.",
+  "id": "A038729",
+  "mentions": [
+    "A002932",
+    "A002934",
+    "A034006",
+    "A038726",
+    "A173380",
+    "A174313",
+    "A174319"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

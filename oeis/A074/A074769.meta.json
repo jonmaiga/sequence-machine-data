@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that the number of steps to reach 1 starting with k and iterating the Collatz process equals k/n, or -1 if no such k exists.",
+  "id": "A074769",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

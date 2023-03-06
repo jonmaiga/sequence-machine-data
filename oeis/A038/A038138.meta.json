@@ -1,0 +1,20 @@
+{
+  "description": "Order of n (mod 7).",
+  "id": "A038138",
+  "mentions": [
+    "A010876",
+    "A218256"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:37",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

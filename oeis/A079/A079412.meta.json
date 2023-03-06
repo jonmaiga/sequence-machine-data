@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as sum of prime powers p^e such that e>0 and p does not divide n.",
+  "id": "A079412",
+  "mentions": [
+    "A000961",
+    "A023894",
+    "A051613",
+    "A079413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

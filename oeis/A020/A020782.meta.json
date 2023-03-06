@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-7x)(1-8x)(1-9x)).",
+  "id": "A020782",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:09:35",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

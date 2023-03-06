@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers with exactly 2 palindromic prime factors (counted with multiplicity).",
+  "id": "A046372",
+  "mentions": [
+    "A046315",
+    "A046404"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:12:50",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

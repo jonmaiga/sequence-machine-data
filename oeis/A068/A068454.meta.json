@@ -1,0 +1,27 @@
+{
+  "description": "Factorial expansion of zeta(5) = Sum_{n>=1} a(n)/n!, with a(n) as large as possible.",
+  "id": "A068454",
+  "mentions": [
+    "A007514",
+    "A067277",
+    "A067279",
+    "A068447",
+    "A068455",
+    "A068456",
+    "A068457",
+    "A068458",
+    "A068459",
+    "A075874"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

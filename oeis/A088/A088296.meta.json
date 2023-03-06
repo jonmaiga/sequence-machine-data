@@ -1,0 +1,23 @@
+{
+  "description": "Values of y - x, where x^2 + xy + y^2=p (x",
+  "id": "A088296",
+  "mentions": [
+    "A002476",
+    "A088241",
+    "A088242",
+    "A088243",
+    "A088298",
+    "A088299",
+    "A088977"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

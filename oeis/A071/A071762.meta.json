@@ -1,0 +1,18 @@
+{
+  "description": "Leftmost 1 is converted to a 2, which then propagates one step at a time until it is rightmost; then it changes to a pair of 1's and the process repeats.",
+  "id": "A071762",
+  "mentions": [
+    "A071761"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

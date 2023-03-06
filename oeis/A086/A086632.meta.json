@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients, read by rows, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = 1/(1-x) - x^2/(1-x)^3 + xy*f(x,y)^3.",
+  "id": "A086632",
+  "mentions": [
+    "A001764",
+    "A086633",
+    "A086634"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

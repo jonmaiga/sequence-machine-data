@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of T(n,k)=number of peakless Motzkin paths of length n having k (1,0) steps at level zero (can be easily translated into RNA secondary structure terminology).",
+  "id": "A089731",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "0-additive sequence: not the sum of any previous pair.",
+  "id": "A033627",
+  "mentions": [
+    "A002858",
+    "A010672",
+    "A016777",
+    "A244151"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:33",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

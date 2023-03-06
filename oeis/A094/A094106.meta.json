@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal length L of a \"power floor prime\" sequence, i.e., a sequence of the form floor(x^k), k = 1, 2, ..., L such that floor(x) = prime(n).",
+  "id": "A094106",
+  "mentions": [
+    "A063636",
+    "A076255",
+    "A076357"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

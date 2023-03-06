@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers equal to the sum of the primes from their smallest prime factor to their largest prime factor.",
+  "id": "A055233",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A055514",
+    "A074036",
+    "A169802"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

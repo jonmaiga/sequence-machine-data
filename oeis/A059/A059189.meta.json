@@ -1,0 +1,20 @@
+{
+  "description": "Engel expansion of Gamma(2/3) = 1.35412.",
+  "id": "A059189",
+  "mentions": [
+    "A006784",
+    "A073006"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:26",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

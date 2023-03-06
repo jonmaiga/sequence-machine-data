@@ -1,0 +1,32 @@
+{
+  "description": "Genocchi numbers (of first kind): expansion of 2*x/(exp(x)+1).",
+  "id": "A036968",
+  "mentions": [
+    "A001469",
+    "A005439",
+    "A083007",
+    "A083008",
+    "A083009",
+    "A083010",
+    "A083011",
+    "A083012",
+    "A083013",
+    "A083014",
+    "A226158",
+    "A321595"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

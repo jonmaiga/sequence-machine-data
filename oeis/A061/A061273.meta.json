@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between successive powers of e (= 2.718281828...).",
+  "id": "A061273",
+  "mentions": [
+    "A040014",
+    "A061274"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

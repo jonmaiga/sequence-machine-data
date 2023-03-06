@@ -1,0 +1,20 @@
+{
+  "description": "Sum of two coprime cubes in at least three ways.",
+  "id": "A023050",
+  "mentions": [
+    "A001235",
+    "A003826",
+    "A011541",
+    "A023051"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

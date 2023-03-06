@@ -1,0 +1,20 @@
+{
+  "description": "Smallest x such that A061498(x)=n: least number in dRRS of which n distinct term occur.",
+  "id": "A076362",
+  "mentions": [
+    "A000010",
+    "A061498"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

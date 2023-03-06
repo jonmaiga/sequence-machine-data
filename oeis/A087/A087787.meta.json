@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*A000041(k).",
+  "id": "A087787",
+  "mentions": [
+    "A000041",
+    "A024786",
+    "A135010",
+    "A138121",
+    "A141285"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

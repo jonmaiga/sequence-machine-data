@@ -1,0 +1,26 @@
+{
+  "description": "Number of meaningful differential operations of the n-th order on the space R^7.",
+  "id": "A090992",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A020701",
+    "A020714",
+    "A065455",
+    "A090989",
+    "A090995",
+    "A129638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest numerator of a fraction using palindromes that approximates Pi to at least n digits after the decimal point.",
+  "id": "A048429",
+  "mentions": [
+    "A048430"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

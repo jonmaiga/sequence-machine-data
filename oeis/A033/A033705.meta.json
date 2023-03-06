@@ -1,0 +1,18 @@
+{
+  "description": "Fancy primitive repdigit polygonal numbers (with multiplicity).",
+  "id": "A033705",
+  "mentions": [
+    "A033706",
+    "A033707"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

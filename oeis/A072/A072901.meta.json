@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers n such that the discriminant of the quadratic field Q(sqrt(n)) equals 4n.",
+  "id": "A072901",
+  "mentions": [
+    "A037449",
+    "A230375"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

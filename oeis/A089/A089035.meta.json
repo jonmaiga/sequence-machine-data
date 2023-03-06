@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n matrices over GF(2) with characteristic polynomial x^n - 1.",
+  "id": "A089035",
+  "mentions": [
+    "A088654",
+    "A089036",
+    "A089037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

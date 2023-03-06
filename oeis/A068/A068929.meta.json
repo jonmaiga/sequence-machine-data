@@ -1,0 +1,20 @@
+{
+  "description": "Number of incongruent ways to tile a 4 X n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.",
+  "id": "A068929",
+  "mentions": [
+    "A068923",
+    "A068926"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:51:52",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

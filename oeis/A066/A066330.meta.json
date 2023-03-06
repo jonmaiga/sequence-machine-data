@@ -1,0 +1,19 @@
+{
+  "description": "Binary string which equals n when 1's, 2's, 4's and 8's bits have weights 1, 2, 4, 5 respectively, while the other bits have their usual weights. -1 if no such string exists.",
+  "id": "A066330",
+  "mentions": [
+    "A066335",
+    "A066338"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

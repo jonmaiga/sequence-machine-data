@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A088444(k) = greatest prime factor of k.",
+  "id": "A088451",
+  "mentions": [
+    "A006530",
+    "A088444",
+    "A088450"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

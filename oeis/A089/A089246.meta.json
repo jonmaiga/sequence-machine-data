@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: a(n, k) is the number of ordered m-tuples of positive integers (x_1, ..., x_m) such that max x_i = n+1-m and there are k ones (0 <= k <= n).",
+  "id": "A089246",
+  "mentions": [
+    "A047969",
+    "A047970",
+    "A089302",
+    "A101494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

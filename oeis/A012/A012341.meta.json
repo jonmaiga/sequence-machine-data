@@ -1,0 +1,16 @@
+{
+  "description": "arcsin(arcsin(x)*arcsin(x))=2/2!*x^2+8/4!*x^4+248/6!*x^6+11328/8!*x^8...",
+  "id": "A012341",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:03:50",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

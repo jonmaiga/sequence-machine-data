@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sine of 36 degrees.",
+  "id": "A019845",
+  "mentions": [
+    "A001622",
+    "A019827",
+    "A019881",
+    "A182007"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:57",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

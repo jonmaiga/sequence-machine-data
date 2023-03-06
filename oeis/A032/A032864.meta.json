@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose base-9 representation Sum_{i=0..m} d(i)*9^i has d(m) > d(m-1) < d(m-2) > ...",
+  "id": "A032864",
+  "mentions": [
+    "A007095",
+    "A032858",
+    "A032865",
+    "A032888",
+    "A297147",
+    "A306106",
+    "A306111"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

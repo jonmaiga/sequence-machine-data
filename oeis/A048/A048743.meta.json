@@ -1,0 +1,21 @@
+{
+  "description": "Triangle a(n,k) = k!*C(n-1,k-1)*Stirling_2(n,k), 1<=k<=n.",
+  "id": "A048743",
+  "mentions": [
+    "A007318",
+    "A008277",
+    "A045531"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:19:36",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

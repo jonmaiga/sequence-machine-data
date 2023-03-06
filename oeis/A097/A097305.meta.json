@@ -1,0 +1,23 @@
+{
+  "description": "Array of number of partitions of n with odd parts only and largest part 2*m-1 with m in {1,2,..., ceiling(n/2)}.",
+  "id": "A097305",
+  "mentions": [
+    "A000009",
+    "A008284",
+    "A008619",
+    "A097306"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

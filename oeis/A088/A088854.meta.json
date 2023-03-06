@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (2^(n-1))*(Integral_{x=0..1} (1+x^2)^n dx)/(Integral_{x=0..1} (1-x^2)^n dx).",
+  "id": "A088854",
+  "mentions": [
+    "A082590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

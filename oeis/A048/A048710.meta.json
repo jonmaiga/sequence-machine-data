@@ -1,0 +1,26 @@
+{
+  "description": "Family 1 \"Rule 90 x Rule 150 Array\" read by antidiagonals.",
+  "id": "A048710",
+  "mentions": [
+    "A038183",
+    "A038184",
+    "A048705",
+    "A048709",
+    "A048711",
+    "A048712",
+    "A048713",
+    "A048720"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:30:17",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

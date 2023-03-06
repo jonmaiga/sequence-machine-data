@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 8*n+2.",
+  "id": "A017089",
+  "mentions": [
+    "A002939",
+    "A008589",
+    "A016993",
+    "A017005",
+    "A017017",
+    "A017077"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:23",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

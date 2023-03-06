@@ -1,0 +1,25 @@
+{
+  "description": "Middle q of three consecutive primes p,q,r, such that one adjacent prime is near, the other is far and the ratio of the differences (whichever of (r-q)/(q-p) or (q-p)/(r-q) is greater than 1) sets a record.",
+  "id": "A084105",
+  "mentions": [
+    "A002386",
+    "A008996",
+    "A031132",
+    "A084106",
+    "A329158",
+    "A329159",
+    "A329160",
+    "A329161",
+    "A337489"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

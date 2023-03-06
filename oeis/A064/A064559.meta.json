@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations in A064553 to reach a fixed point.",
+  "id": "A064559",
+  "mentions": [
+    "A003586",
+    "A064553"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal period of 1/b(n), where b(n) is A046107.",
+  "id": "A046108",
+  "mentions": [
+    "A007498",
+    "A046107"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

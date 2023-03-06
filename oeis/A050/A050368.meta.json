@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to factor n into distinct factors with 2 kinds of 2, 3 kinds of 3, ...",
+  "id": "A050368",
+  "mentions": [
+    "A045778",
+    "A050367"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

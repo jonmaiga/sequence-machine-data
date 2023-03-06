@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n,20).",
+  "id": "A010973",
+  "mentions": [
+    "A001787",
+    "A007318",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 20,
+    "size": 25,
+    "source": "joeis"
+  }
+}

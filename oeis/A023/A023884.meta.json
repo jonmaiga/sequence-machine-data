@@ -1,0 +1,19 @@
+{
+  "description": "Average of divisors except itself is an integer.",
+  "id": "A023884",
+  "mentions": [
+    "A000040",
+    "A023885"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:20:05",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

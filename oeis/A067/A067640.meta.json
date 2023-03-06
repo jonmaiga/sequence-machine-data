@@ -1,0 +1,25 @@
+{
+  "description": "Table T(n,k) giving number of two-legged knot diagrams with n >= 0 self-intersections and k >= 0 tangencies, read by antidiagonals.",
+  "id": "A067640",
+  "mentions": [
+    "A005568",
+    "A054993",
+    "A067636",
+    "A067638",
+    "A067639",
+    "A067641",
+    "A067642",
+    "A067643"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k > n such that the decimal expansion of k^2 ends in n^2.",
+  "id": "A090293",
+  "mentions": [
+    "A090292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

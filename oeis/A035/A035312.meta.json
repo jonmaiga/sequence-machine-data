@@ -1,0 +1,27 @@
+{
+  "description": "Zorach additive triangle, read by rows.",
+  "id": "A035312",
+  "mentions": [
+    "A000217",
+    "A035311",
+    "A035313",
+    "A035358",
+    "A072038",
+    "A072039",
+    "A189713",
+    "A189714"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

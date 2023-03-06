@@ -1,0 +1,19 @@
+{
+  "description": "Let phi(k) determine the x-coordinate and prime(k) the y-coordinate of the point A(k). Sequence gives values of n such that points A(n), A(n+1) and A(n+2) form a right triangle with right angle at A(n+1).",
+  "id": "A066901",
+  "mentions": [
+    "A000010",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors of prime(n)^n+1, with multiplicity.",
+  "id": "A069465",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A062006",
+    "A069462",
+    "A069464"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

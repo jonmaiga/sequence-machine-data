@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n as n = u*v*w with 1 <= u < v <= w.",
+  "id": "A088432",
+  "mentions": [
+    "A002808",
+    "A008578",
+    "A030514",
+    "A034836",
+    "A088433",
+    "A088434",
+    "A096156",
+    "A122179",
+    "A122180",
+    "A323644"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

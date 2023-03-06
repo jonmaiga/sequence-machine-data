@@ -1,0 +1,21 @@
+{
+  "description": "Unique monotone sequence satisfying a(a(a(a(n)))) = 2n.",
+  "id": "A088721",
+  "mentions": [
+    "A003605",
+    "A007378",
+    "A088720"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

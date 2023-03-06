@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of theta_4(q^2) * theta_2(q)^2/(4*q^(1/2)) in powers of q.",
+  "id": "A080966",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A072070",
+    "A072071",
+    "A080964",
+    "A121373",
+    "A248395"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:54:07",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

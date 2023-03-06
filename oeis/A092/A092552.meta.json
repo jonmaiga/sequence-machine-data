@@ -1,0 +1,22 @@
+{
+  "description": "Let X_{m,n}(q) be the chromatic polynomial of the complete bipartite graph K_{m,n}. Then a(n) is the negative of the coefficient of the linear term of X_{n,n}(q).",
+  "id": "A092552",
+  "mentions": [
+    "A008277",
+    "A136126",
+    "A212084",
+    "A220179",
+    "A306209"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

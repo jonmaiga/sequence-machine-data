@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of 5^n and floor(n/2).",
+  "id": "A097139",
+  "mentions": [
+    "A015531",
+    "A033115"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

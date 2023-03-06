@@ -1,0 +1,23 @@
+{
+  "description": "Number of preferential arrangements for the set partitions of the n-set [1,2,3,...,n].",
+  "id": "A083355",
+  "mentions": [
+    "A000079",
+    "A000670",
+    "A034691",
+    "A055887",
+    "A075729",
+    "A232598"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

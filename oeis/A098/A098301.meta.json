@@ -1,0 +1,26 @@
+{
+  "description": "Member r=16 of the family of Chebyshev sequences S_r(n) defined in A092184.",
+  "id": "A098301",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A007655",
+    "A011943",
+    "A046184",
+    "A049451",
+    "A055793",
+    "A092184"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

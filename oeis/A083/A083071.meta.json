@@ -1,0 +1,21 @@
+{
+  "description": "First subdiagonal of number array A083064.",
+  "id": "A083071",
+  "mentions": [
+    "A083064",
+    "A083069",
+    "A083070"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

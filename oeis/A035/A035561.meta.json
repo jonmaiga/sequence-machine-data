@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions of n with equal number of parts congruent to each of 3 and 4 (mod 5)",
+  "id": "A035561",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

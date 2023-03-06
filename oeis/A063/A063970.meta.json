@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; for n>1, write down all divisors of the previous term in order of magnitude.",
+  "id": "A063970",
+  "mentions": [
+    "A006919",
+    "A056938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Describe n. Also called the \"Say What You See\" or \"Look and Say\" sequence LS(n).",
+  "id": "A045918",
+  "mentions": [
+    "A005150",
+    "A056815",
+    "A121993"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

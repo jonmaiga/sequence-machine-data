@@ -1,0 +1,19 @@
+{
+  "description": "Number of increasing geometric progressions ending in n (in the positive integers), including those of length 1 or 2.",
+  "id": "A058189",
+  "mentions": [
+    "A054519",
+    "A058190"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

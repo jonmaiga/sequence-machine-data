@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k-2) + sigma(k+2) = sigma(2k).",
+  "id": "A067172",
+  "mentions": [
+    "A000203",
+    "A067730"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

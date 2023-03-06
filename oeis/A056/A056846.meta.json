@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyominoids containing n squares: these are 2-dimensional polyominoes in a three-dimensional grid (edge-connected squares, like the floors, ceilings and walls of a building). Mirror images are distinguished.",
+  "id": "A056846",
+  "mentions": [
+    "A075678",
+    "A075679",
+    "A277565"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

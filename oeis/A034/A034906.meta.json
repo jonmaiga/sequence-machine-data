@@ -1,0 +1,21 @@
+{
+  "description": "Powers of 2 written backwards and sorted.",
+  "id": "A034906",
+  "mentions": [
+    "A000079",
+    "A004094"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

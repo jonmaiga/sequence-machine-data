@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (4*k + 1)^2 + (4*k + 2)^2 where k=0,1,2,3,...",
+  "id": "A087871",
+  "mentions": [
+    "A088758"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of values which are not powers of 2 in the trajectory when A051953 (cototient function) is repeatedly applied starting with n!.",
+  "id": "A053036",
+  "mentions": [
+    "A000005",
+    "A051953",
+    "A053475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

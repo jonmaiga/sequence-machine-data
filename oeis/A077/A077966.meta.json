@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1+2*x^2).",
+  "id": "A077966",
+  "mentions": [
+    "A000079",
+    "A077957",
+    "A087455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

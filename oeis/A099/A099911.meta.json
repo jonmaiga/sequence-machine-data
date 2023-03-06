@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (p*(q-1) + (p-1)*q)/2, where p and q are consecutive odd primes.",
+  "id": "A099911",
+  "mentions": [
+    "A000040",
+    "A098142",
+    "A099909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

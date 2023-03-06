@@ -1,0 +1,22 @@
+{
+  "description": "Numbers not expressible as sum or difference of a nonzero cube and a nonzero square.",
+  "id": "A088017",
+  "mentions": [
+    "A001014",
+    "A054504",
+    "A081121",
+    "A087285",
+    "A087286"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

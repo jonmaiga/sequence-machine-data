@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sigma(prime(k) - 1) == 0 (mod k).",
+  "id": "A067758",
+  "mentions": [
+    "A000203",
+    "A006093",
+    "A008332"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of factorizing n into parts whose sum divides n.",
+  "id": "A092931",
+  "mentions": [
+    "A000040",
+    "A016742",
+    "A046315",
+    "A092932",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

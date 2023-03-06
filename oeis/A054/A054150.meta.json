@@ -1,0 +1,17 @@
+{
+  "description": "Number of positive integers <= 2^n of the form x^2 + 5*y^2.",
+  "id": "A054150",
+  "mentions": [
+    "A020669"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 13*a(n-1) + a(n-2), starting with a(0) = 2 and a(1) = 13.",
+  "id": "A088316",
+  "mentions": [
+    "A006905",
+    "A041318",
+    "A054413",
+    "A086902",
+    "A097845",
+    "A140455"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

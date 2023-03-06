@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the exponent of 2 in x = 2^m*5^n, where x = b(n)-b(n-1) and b(n) and b(n-1) are consecutive terms in A050649.",
+  "id": "A096122",
+  "mentions": [
+    "A050649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

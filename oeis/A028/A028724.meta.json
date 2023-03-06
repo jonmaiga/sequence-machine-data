@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/2)*floor(n/2)*floor((n-1)/2)*floor((n-2)/2).",
+  "id": "A028724",
+  "mentions": [
+    "A171608"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

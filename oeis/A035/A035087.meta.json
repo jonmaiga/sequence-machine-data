@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled rooted polygonal cacti (Husimi graphs) with n nodes.",
+  "id": "A035087",
+  "mentions": [
+    "A035082",
+    "A035088"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

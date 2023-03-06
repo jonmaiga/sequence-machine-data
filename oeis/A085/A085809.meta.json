@@ -1,0 +1,19 @@
+{
+  "description": "Indices of semiprimes where largest gap occurs. Or, positions of records in A065516.",
+  "id": "A085809",
+  "mentions": [
+    "A065516",
+    "A215231",
+    "A239674"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

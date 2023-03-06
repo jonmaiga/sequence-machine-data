@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n*prime(n)-2 is prime.",
+  "id": "A086175",
+  "mentions": [
+    "A086172",
+    "A086173",
+    "A086174",
+    "A086176",
+    "A086177"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

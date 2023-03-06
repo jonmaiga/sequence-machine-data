@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Moebius transform of Pascal's triangle A007318.",
+  "id": "A055894",
+  "mentions": [
+    "A007318",
+    "A055895"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:29:33",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

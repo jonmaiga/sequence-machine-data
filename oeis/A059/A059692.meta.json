@@ -1,0 +1,26 @@
+{
+  "description": "Table of carryless products i * j, i>=0, j>=0, read by antidiagonals.",
+  "id": "A059692",
+  "mentions": [
+    "A001477",
+    "A004520",
+    "A008592",
+    "A048720",
+    "A055120",
+    "A325820"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

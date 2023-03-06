@@ -1,0 +1,20 @@
+{
+  "description": "Fourier coefficients of E_{gamma,2}*E_{0,4}.",
+  "id": "A035036",
+  "mentions": [
+    "A004011",
+    "A035016"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:51",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of bracelets (reversible necklaces) with n beads, k of which are black and n - k are white.",
+  "id": "A052307",
+  "mentions": [
+    "A000012",
+    "A000029",
+    "A001399",
+    "A005232",
+    "A005513",
+    "A005514",
+    "A005515",
+    "A005516",
+    "A008619",
+    "A032279",
+    "A032280",
+    "A032281",
+    "A032282",
+    "A047996",
+    "A051168",
+    "A052308",
+    "A052309",
+    "A052310",
+    "A119963"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

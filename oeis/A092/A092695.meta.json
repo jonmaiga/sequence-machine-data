@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers less than or equal to n which are not divisible by the primes 2,3,5,7.",
+  "id": "A092695",
+  "mentions": [
+    "A008364",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

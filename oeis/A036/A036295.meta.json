@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Sum i/2^i, i=1..n.",
+  "id": "A036295",
+  "mentions": [
+    "A036296"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

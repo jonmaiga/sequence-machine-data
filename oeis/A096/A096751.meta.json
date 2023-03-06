@@ -1,0 +1,39 @@
+{
+  "description": "Square table, read by antidiagonals, where T(n,k) equals the number of n-dimensional partitions of k.",
+  "id": "A096751",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000219",
+    "A000293",
+    "A000334",
+    "A000390",
+    "A000416",
+    "A000427",
+    "A008778",
+    "A008779",
+    "A042984",
+    "A096651",
+    "A096752",
+    "A096753",
+    "A096806",
+    "A144150",
+    "A179855",
+    "A213427",
+    "A290353",
+    "A323718",
+    "A323719"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

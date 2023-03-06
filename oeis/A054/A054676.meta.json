@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of expected length of longest increasing subsequence of a permutation of length n.",
+  "id": "A054676",
+  "mentions": [
+    "A047874",
+    "A054677"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

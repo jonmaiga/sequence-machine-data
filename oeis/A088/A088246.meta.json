@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 21/(2*Pi^2).",
+  "id": "A088246",
+  "mentions": [
+    "A030229",
+    "A082020",
+    "A088245",
+    "A104141"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

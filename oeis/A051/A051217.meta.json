@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers of the form 6^x - y^2.",
+  "id": "A051217",
+  "mentions": [
+    "A200440",
+    "A201122"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n+1) is the largest square <= n*a(n).",
+  "id": "A076997",
+  "mentions": [
+    "A076998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

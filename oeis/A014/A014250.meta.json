@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = b(n) - c(n) where b(n) = [ (3/2)^n ] and c(n) is the n-th number not in sequence b.",
+  "id": "A014250",
+  "mentions": [
+    "A002379"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

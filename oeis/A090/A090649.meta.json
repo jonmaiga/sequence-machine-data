@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 9^k + 2 is prime.",
+  "id": "A090649",
+  "mentions": [
+    "A051783",
+    "A087885"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

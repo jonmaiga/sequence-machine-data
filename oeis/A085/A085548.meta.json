@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of the prime zeta function at 2: Sum_{p prime} 1/p^2.",
+  "id": "A085548",
+  "mentions": [
+    "A001248",
+    "A001692",
+    "A013661",
+    "A078437",
+    "A085541",
+    "A085964",
+    "A085969",
+    "A085991",
+    "A086032",
+    "A117543",
+    "A124012",
+    "A136271",
+    "A209329",
+    "A221712",
+    "A222056",
+    "A242301"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

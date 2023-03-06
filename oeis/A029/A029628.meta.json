@@ -1,0 +1,18 @@
+{
+  "description": "Numbers to left of central numbers of the (3,2)-Pascal triangle A029618.",
+  "id": "A029628",
+  "mentions": [
+    "A029618"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:27",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

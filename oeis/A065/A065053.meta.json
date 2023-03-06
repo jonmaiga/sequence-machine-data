@@ -1,0 +1,18 @@
+{
+  "description": "Lengths of intervals between special points in Recamán's sequence A005132.",
+  "id": "A065053",
+  "mentions": [
+    "A005132",
+    "A064492"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

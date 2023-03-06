@@ -1,0 +1,22 @@
+{
+  "description": "Floor( geometric mean of next n numbers ).",
+  "id": "A080476",
+  "mentions": [
+    "A000982",
+    "A007590",
+    "A131479"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:45:37",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

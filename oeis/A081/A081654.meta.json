@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*4^n - 0^n.",
+  "id": "A081654",
+  "mentions": [
+    "A000244",
+    "A081294",
+    "A081632",
+    "A081655",
+    "A187093"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

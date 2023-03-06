@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected functions on n points with a loop of length 2.",
+  "id": "A027852",
+  "mentions": [
+    "A000081",
+    "A000106",
+    "A000226",
+    "A000631",
+    "A001372",
+    "A002861",
+    "A033185",
+    "A051491",
+    "A187770",
+    "A217781",
+    "A339303",
+    "A339428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose number of runs in base 3 is congruent to 4 (mod 7).",
+  "id": "A043795",
+  "mentions": [
+    "A043555"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:01",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

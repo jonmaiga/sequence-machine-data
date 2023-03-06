@@ -1,0 +1,25 @@
+{
+  "description": "Take the first odd integer and multiple of 1, the next 2 even integers and multiples of 2, the next 3 odd integers and multiples of 3, the next 4 even integers and multiples of 4, ...",
+  "id": "A045975",
+  "mentions": [
+    "A001614",
+    "A005917",
+    "A033291",
+    "A204556",
+    "A204557",
+    "A204558"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

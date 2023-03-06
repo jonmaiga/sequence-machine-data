@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-1)*prime(a(n-1)).",
+  "id": "A076146",
+  "mentions": [
+    "A000040",
+    "A004111",
+    "A007097",
+    "A033286",
+    "A074271",
+    "A348067"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

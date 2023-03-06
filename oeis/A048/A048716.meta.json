@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that binary expansion matches ((0)*00(1?)1)*(0*).",
+  "id": "A048716",
+  "mentions": [
+    "A003714",
+    "A003726",
+    "A004742",
+    "A048715",
+    "A048719",
+    "A048725",
+    "A048729",
+    "A115845",
+    "A115847",
+    "A116360",
+    "A116361"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

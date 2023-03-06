@@ -1,0 +1,25 @@
+{
+  "description": "Array A(x,y): (read as A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), A(3,0), A(2,1), A(1,2), A(0,3),...) Position of the composition A089840[y] o A089840[x] in the table A089840.",
+  "id": "A089839",
+  "mentions": [
+    "A001477",
+    "A069770",
+    "A072796",
+    "A073269",
+    "A089837",
+    "A089838",
+    "A089840",
+    "A089841"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Squarefree numbers such that every digit as well as sum of the digits is a squarefree number.",
+  "id": "A062084",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

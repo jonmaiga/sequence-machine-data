@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of reciprocal of j-function (see A000521).",
+  "id": "A066395",
+  "mentions": [
+    "A000521"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

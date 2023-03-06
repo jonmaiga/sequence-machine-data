@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of T(n,k)=number of peakless Motzkin paths of length n containing k valleys (can be easily expressed using RNA secondary structure terminology).",
+  "id": "A089738",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

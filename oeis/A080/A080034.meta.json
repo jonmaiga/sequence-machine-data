@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is taken to be the smallest positive integer not already present which is consistent with the condition \"n is a member of the sequence if and only if a(n) is congruent to 3 mod 4\".",
+  "id": "A080034",
+  "mentions": [
+    "A080033"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:36:21",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

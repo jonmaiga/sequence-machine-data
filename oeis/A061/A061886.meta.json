@@ -1,0 +1,20 @@
+{
+  "description": "Largest square less than or equal to sum of previous terms.",
+  "id": "A061886",
+  "mentions": [
+    "A048760",
+    "A060984",
+    "A061883"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of triangles in an n X n grid (or geoplane).",
+  "id": "A045996",
+  "mentions": [
+    "A000938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

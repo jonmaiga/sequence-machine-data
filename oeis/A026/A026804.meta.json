@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n in which the least part is odd.",
+  "id": "A026804",
+  "mentions": [
+    "A026807",
+    "A046746"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

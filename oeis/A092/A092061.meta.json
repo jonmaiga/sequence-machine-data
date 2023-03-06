@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that primorial(n)^2 + 1 is prime.",
+  "id": "A092061",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

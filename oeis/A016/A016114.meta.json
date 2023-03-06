@@ -1,0 +1,22 @@
+{
+  "description": "Circular primes (numbers that remain prime under cyclic shifts of digits).",
+  "id": "A016114",
+  "mentions": [
+    "A003459",
+    "A004023",
+    "A068652",
+    "A293663"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

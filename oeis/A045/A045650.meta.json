@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that cannot be expressed as k + floor(log(k)) where k is an integer.",
+  "id": "A045650",
+  "mentions": [
+    "A000149",
+    "A212445"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:36:20",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

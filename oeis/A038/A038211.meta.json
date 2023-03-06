@@ -1,0 +1,20 @@
+{
+  "description": "Can express a(n) with the digits of a(n)^4 in order, only adding plus signs.",
+  "id": "A038211",
+  "mentions": [
+    "A001477",
+    "A038206",
+    "A038209"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

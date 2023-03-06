@@ -1,0 +1,23 @@
+{
+  "description": "Record primes reached in A052333.",
+  "id": "A052334",
+  "mentions": [
+    "A050412",
+    "A051914",
+    "A052333",
+    "A052339",
+    "A052340"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

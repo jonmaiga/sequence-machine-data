@@ -1,0 +1,20 @@
+{
+  "description": "Largest squarefree numbers dividing the binomial coefficients C(n,k) read by row, 0<=k<=n. Squarefree kernel of Pascal triangle.",
+  "id": "A080396",
+  "mentions": [
+    "A007318",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:30",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

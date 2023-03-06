@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (a(n-1)a(n-5) + a(n-2)a(n-4) + a(n-3)^2)/a(n-6).",
+  "id": "A058232",
+  "mentions": [
+    "A006722"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

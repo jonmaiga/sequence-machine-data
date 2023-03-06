@@ -1,0 +1,25 @@
+{
+  "description": "Number of isomorphism classes of associative closed binary operations (semigroups) on a set of order n, listed by class size.",
+  "id": "A079175",
+  "mentions": [
+    "A023814",
+    "A027423",
+    "A027851",
+    "A058104",
+    "A079171",
+    "A079174",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

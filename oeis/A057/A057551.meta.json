@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A057548.",
+  "id": "A057551",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057548",
+    "A057550"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

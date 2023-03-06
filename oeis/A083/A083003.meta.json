@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which each term represents the total area of all the squares found in the grid described in sequence A082652.",
+  "id": "A083003",
+  "mentions": [
+    "A082652",
+    "A083487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

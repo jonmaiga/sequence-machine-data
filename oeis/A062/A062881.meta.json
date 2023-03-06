@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n^2 into exactly n nonzero parts, such that there are at most one 1's, two 2's, ... n-1 n-1's, n n's, n-1 n+1's, ... two 2n-2's and one 2n-1.",
+  "id": "A062881",
+  "mentions": [
+    "A019448"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Array T read by diagonals; T(i,j) = i^2 + j^2.",
+  "id": "A048147",
+  "mentions": [
+    "A006331"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:57",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "If C is a doubly-even binary code of length N=24m+n, 1 <= n <= 24, then the minimum distance of C^perp is bounded above by 4m+a(n).",
+  "id": "A098068",
+  "mentions": [
+    "A066016"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

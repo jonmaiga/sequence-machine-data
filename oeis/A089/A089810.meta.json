@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of Jacobi theta function theta_3(Pi/6, q) in powers of q.",
+  "id": "A089810",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002448",
+    "A010054",
+    "A010815",
+    "A080995",
+    "A089801",
+    "A089802",
+    "A089807",
+    "A089812",
+    "A121373",
+    "A204843",
+    "A204853",
+    "A258279"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

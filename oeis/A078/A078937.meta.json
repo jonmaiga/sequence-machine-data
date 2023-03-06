@@ -1,0 +1,38 @@
+{
+  "description": "Square of lower triangular matrix of A056857 (successive equalities in set partitions of n).",
+  "id": "A078937",
+  "mentions": [
+    "A000110",
+    "A001861",
+    "A007318",
+    "A011971",
+    "A027710",
+    "A035009",
+    "A056857",
+    "A078938",
+    "A078939",
+    "A078944",
+    "A078945",
+    "A129323",
+    "A129324",
+    "A129325",
+    "A129327",
+    "A129328",
+    "A129329",
+    "A129331",
+    "A129332",
+    "A129333"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

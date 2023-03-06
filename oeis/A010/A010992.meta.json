@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficient C(n,39).",
+  "id": "A010992",
+  "mentions": [
+    "A001787",
+    "A010990",
+    "A010991",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:17:16",
+    "offset": 39,
+    "size": 21,
+    "source": "joeis"
+  }
+}

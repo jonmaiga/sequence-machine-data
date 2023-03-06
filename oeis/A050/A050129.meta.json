@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k satisfying A050128(k) = n.",
+  "id": "A050129",
+  "mentions": [
+    "A050128"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

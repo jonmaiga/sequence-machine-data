@@ -1,0 +1,19 @@
+{
+  "description": "Values of n for which there are no empty intervals when fractional part(m*phi) for m = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.",
+  "id": "A036415",
+  "mentions": [
+    "A000045",
+    "A036414"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Euler transform of A027656(n-1).",
+  "id": "A035528",
+  "mentions": [
+    "A000219",
+    "A002117",
+    "A003602",
+    "A027656",
+    "A052847",
+    "A074962",
+    "A262876",
+    "A263136",
+    "A263141",
+    "A263150",
+    "A263352"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

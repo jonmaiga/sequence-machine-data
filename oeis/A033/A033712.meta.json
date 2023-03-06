@@ -1,0 +1,24 @@
+{
+  "description": "theta3(z) * theta3(2*z) * theta3(3*z) * theta3(6*z).",
+  "id": "A033712",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A125510",
+    "A282544"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Iterate the map in A006369 starting at 4.",
+  "id": "A094328",
+  "mentions": [
+    "A006368",
+    "A006369",
+    "A028394",
+    "A028397",
+    "A094329",
+    "A185589",
+    "A185590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

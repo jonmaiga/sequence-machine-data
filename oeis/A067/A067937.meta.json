@@ -1,0 +1,18 @@
+{
+  "description": "Let rep(k) be the k-th repunit number, sequence gives values of k such that rep(k) == rep(4) (mod k).",
+  "id": "A067937",
+  "mentions": [
+    "A002275"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

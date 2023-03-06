@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are congruent to {4, 8} mod 12.",
+  "id": "A092259",
+  "mentions": [
+    "A001651",
+    "A017569",
+    "A017617",
+    "A069587",
+    "A092260",
+    "A092899"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:09:49",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

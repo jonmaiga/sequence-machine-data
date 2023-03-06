@@ -1,0 +1,20 @@
+{
+  "description": "Run through primes p; if the digits of p*q (where q is the prime following p) can be rearranged to form one or more primes r, append these primes r to the sequence.",
+  "id": "A053736",
+  "mentions": [
+    "A014575",
+    "A053652"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:07",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

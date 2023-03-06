@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic (undirected) Cayley graphs for the group Zp x Zp, where Zp is the elementary Abelian group of order p and p is prime. The sequence is index by primes, though starts with 1.",
+  "id": "A070995",
+  "mentions": [
+    "A049287"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

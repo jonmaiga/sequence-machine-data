@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A000994(n+2) - A000995(n+2).",
+  "id": "A051139",
+  "mentions": [
+    "A000994",
+    "A000995"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:07:08",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

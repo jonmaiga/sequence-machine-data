@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+1)*tau(n) - sigma(n).",
+  "id": "A081307",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A094471",
+    "A113998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:01:09",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

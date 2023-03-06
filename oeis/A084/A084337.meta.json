@@ -1,0 +1,15 @@
+{
+  "description": "Rearrangement of positive integers so that the successive ratios (of the larger to the smaller term) are all distinct integers. a(m)/a(m-1) = a(k)/a(k-1) iff m = k (assuming a(m) > a(m-1), otherwise the ratio a(m-1)/a(m) is to be considered). Priority is given to smallest number not included earlier rather than to the successive ratio that has not occurred earlier.",
+  "id": "A084337",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

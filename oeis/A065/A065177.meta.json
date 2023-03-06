@@ -1,0 +1,27 @@
+{
+  "description": "Table M(n,b) (columns: n >= 1, rows: b >= 0) gives the number of site swap juggling patterns with exact period n, using exactly b balls, where cyclic shifts are not counted as distinct.",
+  "id": "A065177",
+  "mentions": [
+    "A002378",
+    "A054425",
+    "A059270",
+    "A059966",
+    "A065167",
+    "A065178",
+    "A065179",
+    "A065180",
+    "A306173"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

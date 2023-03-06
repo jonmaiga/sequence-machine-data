@@ -1,0 +1,20 @@
+{
+  "description": "Squares which when reversed are primes (ignore leading zeros).",
+  "id": "A068989",
+  "mentions": [
+    "A007488",
+    "A059007"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

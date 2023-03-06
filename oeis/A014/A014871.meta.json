@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that divide s(k), where s(1)=1, s(j)=20*s(j-1)+j.",
+  "id": "A014871",
+  "mentions": [
+    "A014904"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

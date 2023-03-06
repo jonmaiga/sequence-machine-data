@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors d of n such that in binary representation d and n/d have the same number of 1's as n.",
+  "id": "A080024",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000120",
+    "A007088",
+    "A080025",
+    "A080026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

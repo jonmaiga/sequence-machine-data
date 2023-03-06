@@ -1,0 +1,23 @@
+{
+  "description": "Non-palindromic numbers such that either x=q1.Rev[x] or Rev[x]=q2.x, where R[x]=A004086[x] and q1 or q2 are integers not divisible by 10.",
+  "id": "A071687",
+  "mentions": [
+    "A004046",
+    "A004086",
+    "A055483",
+    "A069554",
+    "A071685"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

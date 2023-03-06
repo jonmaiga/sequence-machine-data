@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1+10x)/((1-x)(1-1000x^3)).",
+  "id": "A092805",
+  "mentions": [
+    "A092804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:16:03",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of matchings in graph C_{6} X P_{n}.",
+  "id": "A033518",
+  "mentions": [
+    "A287428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

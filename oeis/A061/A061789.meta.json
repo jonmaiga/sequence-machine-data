@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} prime(k)^prime(k).",
+  "id": "A061789",
+  "mentions": [
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

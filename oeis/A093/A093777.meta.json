@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest prime which, if used to start a Euclid-Mullin sequence (like A000945), the resulting sequence contains the n consecutive primes 2, 3, ..., prime(n).",
+  "id": "A093777",
+  "mentions": [
+    "A000945",
+    "A051309",
+    "A051312",
+    "A051334",
+    "A051614",
+    "A051616",
+    "A056756",
+    "A093778",
+    "A093779",
+    "A093780"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

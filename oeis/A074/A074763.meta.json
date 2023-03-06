@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/n) * Sum_{d divides n} (-1)^(n+d)*phi(n/d)*2^d.",
+  "id": "A074763",
+  "mentions": [
+    "A000010",
+    "A000031",
+    "A038063"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

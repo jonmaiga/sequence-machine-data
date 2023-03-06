@@ -1,0 +1,24 @@
+{
+  "description": "Least number with exactly n divisors that are at most its square root.",
+  "id": "A038549",
+  "mentions": [
+    "A004778",
+    "A005179",
+    "A005382",
+    "A038548",
+    "A072671",
+    "A086921",
+    "A227068"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

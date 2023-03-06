@@ -1,0 +1,32 @@
+{
+  "description": "Nondiving binary sequences: numbers which in base 2 have at least the same number of 1's as 0's and reading the binary expansion from left (msb) to right (least significant bit), the number of 0's never exceeds the number of 1's.",
+  "id": "A061854",
+  "mentions": [
+    "A001405",
+    "A009766",
+    "A014486",
+    "A031443",
+    "A036990",
+    "A036991",
+    "A053644",
+    "A061855",
+    "A072601",
+    "A235793",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A352696"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

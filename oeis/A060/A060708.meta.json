@@ -1,0 +1,19 @@
+{
+  "description": "The Reuleaux Triangle constant.",
+  "id": "A060708",
+  "mentions": [
+    "A060709"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "(2^n-1-N(B(2^(n+1))))/2^n where N(B(k)) denotes the numerator of the k-th Bernoulli number.",
+  "id": "A076547",
+  "mentions": [
+    "A000367"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

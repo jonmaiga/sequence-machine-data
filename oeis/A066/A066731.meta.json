@@ -1,0 +1,17 @@
+{
+  "description": "f-triperfect numbers, where f(n) = sigma(n) and f-triperfect numbers are defined similarly to f-perfect numbers in A066218.",
+  "id": "A066731",
+  "mentions": [
+    "A066218"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

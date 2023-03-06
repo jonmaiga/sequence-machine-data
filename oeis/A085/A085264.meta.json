@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number with exactly n representations as sum of a squarefree number (A005117) and a square (A000290).",
+  "id": "A085264",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A085263"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Periodic sequence: repeat [1,2,1,-1,-2,-1]; expansion of (1+x)/(1-x+x^2).",
+  "id": "A057079",
+  "mentions": [
+    "A000035",
+    "A001700",
+    "A002264",
+    "A010872",
+    "A010892",
+    "A022003",
+    "A033999",
+    "A049310",
+    "A057083",
+    "A061347",
+    "A084103",
+    "A111125"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:39",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

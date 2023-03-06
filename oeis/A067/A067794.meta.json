@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers k such that phi(k) > 3*k/4.",
+  "id": "A067794",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

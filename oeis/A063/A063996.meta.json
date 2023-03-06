@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that ud(k) = sopf(k)-1, where ud(k)=A034444(k) and sopf(k)=A008472(k).",
+  "id": "A063996",
+  "mentions": [
+    "A008472",
+    "A034444"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

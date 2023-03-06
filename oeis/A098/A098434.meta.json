@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: coefficients of Genocchi polynomials G(n,x); n times the Euler polynomials.",
+  "id": "A098434",
+  "mentions": [
+    "A001489",
+    "A027641",
+    "A027642",
+    "A060096",
+    "A060097",
+    "A081733"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

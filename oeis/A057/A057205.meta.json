@@ -1,0 +1,25 @@
+{
+  "description": "Primes congruent to 3 modulo 4 generated recursively: a(n) = Min_{p, prime; p mod 4 = 3; p|4Q-1}, where Q is the product of all previous terms in the sequence. The initial term is 3.",
+  "id": "A057205",
+  "mentions": [
+    "A000945",
+    "A000946",
+    "A002476",
+    "A005265",
+    "A005266",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

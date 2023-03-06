@@ -1,0 +1,18 @@
+{
+  "description": "Number of branches in all noncrossing rooted trees on n nodes on a circle.",
+  "id": "A045738",
+  "mentions": [
+    "A006013"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

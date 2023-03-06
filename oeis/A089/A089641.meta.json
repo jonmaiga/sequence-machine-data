@@ -1,0 +1,17 @@
+{
+  "description": "Number of k, 1<=k<=n, such that the number of elements in the continued fraction for n/k is maximum.",
+  "id": "A089641",
+  "mentions": [
+    "A084242"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

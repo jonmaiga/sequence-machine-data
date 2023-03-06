@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers which are successors of a power of a Fibonacci number.",
+  "id": "A093428",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

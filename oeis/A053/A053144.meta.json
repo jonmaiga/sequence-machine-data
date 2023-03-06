@@ -1,0 +1,29 @@
+{
+  "description": "Cototient of the n-th primorial number.",
+  "id": "A053144",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005367",
+    "A005867",
+    "A038110",
+    "A038111",
+    "A051953",
+    "A060753",
+    "A161527",
+    "A174909",
+    "A281891",
+    "A293558"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

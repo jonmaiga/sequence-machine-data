@@ -1,0 +1,18 @@
+{
+  "description": "Number of times 4n+r and 2n+r are both prime, with 0 < r < 2n.",
+  "id": "A071414",
+  "mentions": [
+    "A070897"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

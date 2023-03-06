@@ -1,0 +1,20 @@
+{
+  "description": "Pisot sequences E(2,10), L(2,10), P(2,10), T(2,10).",
+  "id": "A020729",
+  "mentions": [
+    "A008776",
+    "A020699"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

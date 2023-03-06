@@ -1,0 +1,17 @@
+{
+  "description": "Starting with a(0)=5, a(n) = smallest squarefree number k such that, for all a(m) with m",
+  "id": "A080797",
+  "mentions": [
+    "A077225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

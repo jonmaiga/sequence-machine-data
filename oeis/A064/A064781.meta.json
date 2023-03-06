@@ -1,0 +1,23 @@
+{
+  "description": "Partially labeled rooted trees with n nodes (5 of which are labeled).",
+  "id": "A064781",
+  "mentions": [
+    "A000081",
+    "A000107",
+    "A000444",
+    "A000524",
+    "A000525",
+    "A042977"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 5,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

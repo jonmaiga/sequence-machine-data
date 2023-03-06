@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n+1)*binomial(n+4, 4).",
+  "id": "A027800",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A000566",
+    "A002418",
+    "A093562"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:29",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

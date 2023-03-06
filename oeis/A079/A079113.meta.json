@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3's in n# (n primorial) = 3's in A002110(n).",
+  "id": "A079113",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 2,
+    "size": 88,
+    "source": "joeis"
+  }
+}

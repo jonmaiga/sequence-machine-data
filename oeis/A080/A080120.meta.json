@@ -1,0 +1,22 @@
+{
+  "description": "Dyck path encodings of Legendre's candelabras formed for primes in A080114. (I.e., symmetric rooted plane trees constructed from their quadratic residue sets.)",
+  "id": "A080120",
+  "mentions": [
+    "A055094",
+    "A063171",
+    "A080114",
+    "A080118",
+    "A080119"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = number of partitions of n into distinct odd parts, all <= k.",
+  "id": "A027359",
+  "mentions": [
+    "A027356"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct products ijk with 1 <= i",
+  "id": "A027430",
+  "mentions": [
+    "A000292",
+    "A027425",
+    "A027428",
+    "A027429",
+    "A083507",
+    "A088434",
+    "A100435",
+    "A100436"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

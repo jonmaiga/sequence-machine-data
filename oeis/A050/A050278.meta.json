@@ -1,0 +1,39 @@
+{
+  "description": "Pandigital numbers: numbers containing the digits 0-9. Version 1: each digit appears exactly once.",
+  "id": "A050278",
+  "mentions": [
+    "A020639",
+    "A031969",
+    "A050288",
+    "A050289",
+    "A114260",
+    "A134336",
+    "A171102",
+    "A171571",
+    "A178401",
+    "A178403",
+    "A178775",
+    "A178788",
+    "A199630",
+    "A199631",
+    "A199632",
+    "A199633",
+    "A218019",
+    "A219743",
+    "A220063",
+    "A220076"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:43:13",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

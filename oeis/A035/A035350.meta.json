@@ -1,0 +1,22 @@
+{
+  "description": "\"BIK\" (reversible, indistinct, unlabeled) transform of A000237.",
+  "id": "A035350",
+  "mentions": [
+    "A000083",
+    "A000237",
+    "A000314",
+    "A035082",
+    "A035349",
+    "A035357"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

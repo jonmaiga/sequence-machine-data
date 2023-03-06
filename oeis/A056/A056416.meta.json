@@ -1,0 +1,21 @@
+{
+  "description": "Number of step cyclic shifted sequences using exactly three different symbols.",
+  "id": "A056416",
+  "mentions": [
+    "A002729",
+    "A056371",
+    "A056391",
+    "A056411"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

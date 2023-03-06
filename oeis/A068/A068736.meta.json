@@ -1,0 +1,20 @@
+{
+  "description": "Number of solenoidal flows (flow in = flow out) in an n X n square array with integer velocities in -11 .. 11.",
+  "id": "A068736",
+  "mentions": [
+    "A068722",
+    "A068725",
+    "A068726",
+    "A068738"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that (n+1)(n+2)...(n+k) is divisible by the product of all the primes up to n.",
+  "id": "A075365",
+  "mentions": [
+    "A075366",
+    "A075367",
+    "A075368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

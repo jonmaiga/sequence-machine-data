@@ -1,0 +1,19 @@
+{
+  "description": "A082928(1) + A082928(2) + ... + A082928(n).",
+  "id": "A082934",
+  "mentions": [
+    "A082928"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose sum of divisors is 6^6 = 46656.",
+  "id": "A048256",
+  "mentions": [
+    "A006532",
+    "A018427",
+    "A019422",
+    "A019423",
+    "A020477",
+    "A048251",
+    "A048252",
+    "A048253",
+    "A048255"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

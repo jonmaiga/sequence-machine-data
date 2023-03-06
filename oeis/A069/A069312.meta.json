@@ -1,0 +1,32 @@
+{
+  "description": "Number of 8 X n binary arrays with a path of adjacent 1's from upper left corner to anywhere in right hand column.",
+  "id": "A069312",
+  "mentions": [
+    "A069294",
+    "A069305",
+    "A069306",
+    "A069307",
+    "A069308",
+    "A069309",
+    "A069310",
+    "A069311",
+    "A069313",
+    "A069314",
+    "A069315",
+    "A069316",
+    "A069317",
+    "A069318",
+    "A069319",
+    "A069320"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

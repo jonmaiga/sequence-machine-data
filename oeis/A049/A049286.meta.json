@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of partitions v(d,c) defined in A002572.",
+  "id": "A049286",
+  "mentions": [
+    "A002572",
+    "A002573",
+    "A002574",
+    "A047913",
+    "A049284",
+    "A049285"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:36:51",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

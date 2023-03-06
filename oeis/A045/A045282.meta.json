@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-5 representation contains exactly one 2 and one 4.",
+  "id": "A045282",
+  "mentions": [
+    "A007091",
+    "A039291"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:17",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

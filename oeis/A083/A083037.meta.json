@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=2*A083036(n)-n. Also -A123737(n).",
+  "id": "A083037",
+  "mentions": [
+    "A083035",
+    "A083036",
+    "A083038",
+    "A123737"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:03",
+    "offset": 1,
+    "size": 114,
+    "source": "joeis"
+  }
+}

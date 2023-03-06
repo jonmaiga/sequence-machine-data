@@ -1,0 +1,20 @@
+{
+  "description": "Semiperimeter of primitive Pythagorean triangles sorted on hypotenuse A020882(n).",
+  "id": "A093508",
+  "mentions": [
+    "A020882",
+    "A020886",
+    "A093507"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

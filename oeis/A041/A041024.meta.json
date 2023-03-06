@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(17).",
+  "id": "A041024",
+  "mentions": [
+    "A010473",
+    "A040012",
+    "A041025",
+    "A049310",
+    "A053120",
+    "A078989"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

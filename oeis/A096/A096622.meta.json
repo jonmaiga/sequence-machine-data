@@ -1,0 +1,19 @@
+{
+  "description": "Harmonic expansion (or factorial expansion) of the Euler-Mascheroni constant.",
+  "id": "A096622",
+  "mentions": [
+    "A001620",
+    "A002852"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

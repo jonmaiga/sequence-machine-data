@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer k such that 2^n is the largest power of two that is contained in 2^k as a proper substring.",
+  "id": "A046300",
+  "mentions": [
+    "A033921",
+    "A046287",
+    "A046299"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

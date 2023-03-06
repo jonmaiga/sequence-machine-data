@@ -1,0 +1,18 @@
+{
+  "description": "Fractional part of square root of a(n) starts with 1: first term of runs.",
+  "id": "A034107",
+  "mentions": [
+    "A034097"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

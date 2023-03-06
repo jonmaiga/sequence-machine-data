@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that in k^2 the parity of digits alternates.",
+  "id": "A030151",
+  "mentions": [
+    "A030152",
+    "A030153",
+    "A030154",
+    "A030159"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

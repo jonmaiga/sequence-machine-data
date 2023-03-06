@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+2 and p+12 are primes.",
+  "id": "A046135",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A046133",
+    "A050266"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:15",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

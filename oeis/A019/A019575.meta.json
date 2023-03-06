@@ -1,0 +1,27 @@
+{
+  "description": "Place n distinguishable balls in n boxes (in n^n ways); let T(n,k) = number of ways that the maximum in any box is k, for 1 <= k <= n; sequence gives triangle of numbers T(n,k).",
+  "id": "A019575",
+  "mentions": [
+    "A000312",
+    "A019576",
+    "A036042",
+    "A049009",
+    "A049085",
+    "A180281",
+    "A245687"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

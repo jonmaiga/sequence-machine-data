@@ -1,0 +1,19 @@
+{
+  "description": "Write A064476(n) = 2^i(n)*3^j(n); sequence gives values of j(n).",
+  "id": "A064515",
+  "mentions": [
+    "A064476",
+    "A064514"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

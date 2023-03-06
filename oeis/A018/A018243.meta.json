@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Euler transform of A000931.",
+  "id": "A018243",
+  "mentions": [
+    "A000931",
+    "A060006",
+    "A113788",
+    "A358451"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

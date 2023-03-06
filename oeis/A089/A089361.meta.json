@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of pairs (i, j), i, j > 1, such that i^j <= n.",
+  "id": "A089361",
+  "mentions": [
+    "A000005",
+    "A001597",
+    "A117453",
+    "A175066"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

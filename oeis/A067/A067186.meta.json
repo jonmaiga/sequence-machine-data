@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that C(n) = (n^2 + n + 2)/2 is prime.",
+  "id": "A067186",
+  "mentions": [
+    "A000124",
+    "A055469",
+    "A110872",
+    "A110873"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

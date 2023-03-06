@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of second-to-last man to survive in Josephus problem of n men in a circle with every k-th killed, with 1 <= k <= n and n >= 2.",
+  "id": "A032435",
+  "mentions": [
+    "A032434",
+    "A032436"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

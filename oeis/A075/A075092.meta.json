@@ -1,0 +1,22 @@
+{
+  "description": "Sum of generalized tribonacci numbers (A001644) and reflected generalized tribonacci numbers (A073145).",
+  "id": "A075092",
+  "mentions": [
+    "A001644",
+    "A073145",
+    "A075091",
+    "A294627"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

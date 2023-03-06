@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1+2*x)/(1+2*x+2*x^2).",
+  "id": "A090132",
+  "mentions": [
+    "A009116",
+    "A108520",
+    "A120617",
+    "A135353",
+    "A137426",
+    "A137429",
+    "A137444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:53:42",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

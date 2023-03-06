@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n+1)*phi(n-1)/2.",
+  "id": "A092790",
+  "mentions": [
+    "A082470"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

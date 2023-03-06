@@ -1,0 +1,21 @@
+{
+  "description": "Smallest semiperimeter of integral rectangle with area n*(n+1)/2.",
+  "id": "A078934",
+  "mentions": [
+    "A000217",
+    "A001651",
+    "A063655",
+    "A078935",
+    "A078936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

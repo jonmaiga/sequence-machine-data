@@ -1,0 +1,18 @@
+{
+  "description": "A092673(n)*A092674(n).",
+  "id": "A092151",
+  "mentions": [
+    "A092673",
+    "A092674"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

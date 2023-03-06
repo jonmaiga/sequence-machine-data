@@ -1,0 +1,27 @@
+{
+  "description": "Triangle giving a(n,k) = number of (n,k) labeled Greg trees (n >= 2, 0 <= k <= n-2).",
+  "id": "A048159",
+  "mentions": [
+    "A005263",
+    "A005264",
+    "A048160",
+    "A052300",
+    "A052301",
+    "A052302",
+    "A052303"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:07:12",
+    "offset": 2,
+    "size": 36,
+    "source": "joeis"
+  }
+}

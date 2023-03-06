@@ -1,0 +1,23 @@
+{
+  "description": "Number of unique iterations required to generate emergent regular squares using LQTL logic.",
+  "id": "A094867",
+  "mentions": [
+    "A094266",
+    "A102110",
+    "A255938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

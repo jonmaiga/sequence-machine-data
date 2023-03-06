@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n such that initial number is largest number in trajectory of Collatz (3x+1) problem.",
+  "id": "A033496",
+  "mentions": [
+    "A006370",
+    "A008908",
+    "A015999",
+    "A025586",
+    "A070165",
+    "A087251",
+    "A087252",
+    "A087256",
+    "A095384",
+    "A105730",
+    "A159999",
+    "A233293",
+    "A275109"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

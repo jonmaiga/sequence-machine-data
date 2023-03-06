@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/729.",
+  "id": "A021733",
+  "mentions": [
+    "A000012",
+    "A010701",
+    "A021031",
+    "A021085",
+    "A068542"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:39",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

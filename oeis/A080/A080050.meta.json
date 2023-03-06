@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2^p-1 and the p-th Fibonacci number have a common factor. Prime terms of A074776.",
+  "id": "A080050",
+  "mentions": [
+    "A000045",
+    "A030426",
+    "A074776",
+    "A079506",
+    "A079670",
+    "A080051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

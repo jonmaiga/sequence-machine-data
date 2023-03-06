@@ -1,0 +1,17 @@
+{
+  "description": "Maximal degree of an irreducible representation the group SL(n,2) (the group of nonsingular n X n matrices over GF(2) ).",
+  "id": "A062733",
+  "mentions": [
+    "A002884"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

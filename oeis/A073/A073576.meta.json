@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into squarefree parts.",
+  "id": "A073576",
+  "mentions": [
+    "A000041",
+    "A005117",
+    "A008683",
+    "A008966",
+    "A048250",
+    "A058647",
+    "A087188",
+    "A114374",
+    "A117395",
+    "A225244"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

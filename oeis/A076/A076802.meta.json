@@ -1,0 +1,20 @@
+{
+  "description": "Greedy powers of the gamma constant (0.577215664...) Sum_{n=1..infinity} (gamma)^a(n) = 1.",
+  "id": "A076802",
+  "mentions": [
+    "A077468",
+    "A077475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

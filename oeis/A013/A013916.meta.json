@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of the first k primes is prime.",
+  "id": "A013916",
+  "mentions": [
+    "A000720",
+    "A007504",
+    "A013917",
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

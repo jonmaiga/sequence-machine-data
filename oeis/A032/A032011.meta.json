@@ -1,0 +1,25 @@
+{
+  "description": "Partition n labeled elements into sets of different sizes and order the sets.",
+  "id": "A032011",
+  "mentions": [
+    "A000670",
+    "A007837",
+    "A032020",
+    "A114902",
+    "A120774",
+    "A131632",
+    "A261836",
+    "A261959"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

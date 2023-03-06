@@ -1,0 +1,19 @@
+{
+  "description": "k-morphic numbers for any k such that (k-1)/10 is an odd integer not divisible by 5.",
+  "id": "A072496",
+  "mentions": [
+    "A033819",
+    "A068407",
+    "A072495"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

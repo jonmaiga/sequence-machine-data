@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic groups whose orders are highly composite numbers.",
+  "id": "A098888",
+  "mentions": [
+    "A000001",
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

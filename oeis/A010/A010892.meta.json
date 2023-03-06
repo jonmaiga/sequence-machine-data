@@ -1,0 +1,31 @@
+{
+  "description": "Inverse of 6th cyclotomic polynomial. A period 6 sequence.",
+  "id": "A010892",
+  "mentions": [
+    "A049310",
+    "A049347",
+    "A057078",
+    "A057079",
+    "A061347",
+    "A085838",
+    "A099837",
+    "A101950",
+    "A108299",
+    "A109466",
+    "A128834",
+    "A130777",
+    "A133607"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

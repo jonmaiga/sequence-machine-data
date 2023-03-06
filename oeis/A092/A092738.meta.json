@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form prime(x)+prime(x+1)+1.",
+  "id": "A092738",
+  "mentions": [
+    "A001043",
+    "A072669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

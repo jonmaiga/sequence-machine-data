@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that { x +- 2^k : 0 < k < 4 } are primes, where x = 210*n - 105.",
+  "id": "A061671",
+  "mentions": [
+    "A002110",
+    "A005867",
+    "A014561",
+    "A038110",
+    "A060753"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

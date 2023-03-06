@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=0, a(1)=1, a(2)=1. For n>2, let R_{k}(n) = the digit reversal of n in base k (R_{k}(n) is written in base 10). a(n) is the smallest value of R_{k}(n) arising if k=2,..,n-1.",
+  "id": "A092368",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A030108",
+    "A056960",
+    "A056963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

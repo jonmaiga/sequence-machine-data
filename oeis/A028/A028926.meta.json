@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs of minimal vectors in n-dimensional lattice Kappa_n.",
+  "id": "A028926",
+  "mentions": [
+    "A028923"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

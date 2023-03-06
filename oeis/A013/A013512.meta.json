@@ -1,0 +1,15 @@
+{
+  "description": "arctanh(sec(x)-sech(x))=2/2!*x^2+362/6!*x^6+1441682/10!*x^10...",
+  "id": "A013512",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:47:32",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd values of k such that phi(k)! divides phi(k!) where phi(k) = A000010(k).",
+  "id": "A067562",
+  "mentions": [
+    "A000010",
+    "A048855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

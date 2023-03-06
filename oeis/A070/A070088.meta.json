@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer-sided triangles with perimeter n and prime sides.",
+  "id": "A070088",
+  "mentions": [
+    "A005044",
+    "A010051",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070090",
+    "A070092",
+    "A070095",
+    "A070097",
+    "A070100",
+    "A070103",
+    "A070105",
+    "A070108",
+    "A070111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

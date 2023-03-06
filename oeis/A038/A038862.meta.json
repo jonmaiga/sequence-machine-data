@@ -1,0 +1,18 @@
+{
+  "description": "Numbers ending with '7' that are the difference of two positive cubes.",
+  "id": "A038862",
+  "mentions": [
+    "A181123"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

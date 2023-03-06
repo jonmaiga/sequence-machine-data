@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of length n with exactly 3 rising or falling successions.",
+  "id": "A086854",
+  "mentions": [
+    "A000130",
+    "A000349",
+    "A001100",
+    "A001267",
+    "A002464",
+    "A086852",
+    "A086853"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

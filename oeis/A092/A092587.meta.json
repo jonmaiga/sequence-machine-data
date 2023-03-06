@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(phi(k))-phi(sigma(k)) is nonzero and divisible by phi(k), that is A065395(k)/A000010(k) is a nonzero integer.",
+  "id": "A092587",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A033632",
+    "A065395",
+    "A092584",
+    "A092588"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

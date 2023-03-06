@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are not the sum of a square (A000290) and a triangular number (A000217).",
+  "id": "A014134",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A140867"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

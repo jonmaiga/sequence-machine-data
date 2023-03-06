@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = (1/2) * (number of n X n 0..4 matrices M with MM' mod 5 = I, where M' is the transpose of M and I is the n X n identity matrix).",
+  "id": "A071304",
+  "mentions": [
+    "A060968",
+    "A071302",
+    "A071303",
+    "A071305",
+    "A071306",
+    "A071307",
+    "A071308",
+    "A071309",
+    "A071310",
+    "A071900",
+    "A087784",
+    "A208895",
+    "A264083",
+    "A318609",
+    "A330607"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

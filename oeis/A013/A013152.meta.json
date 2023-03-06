@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f.: log(tanh(x)+cos(x))=x-2/2!*x^2+3/3!*x^3-12/4!*x^4+65/5!*x^5...",
+  "id": "A013152",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

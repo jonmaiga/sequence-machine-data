@@ -1,0 +1,18 @@
+{
+  "description": "Number of different words that can be formed from an n X n grid of letters, reading horizontally, vertically or diagonally.",
+  "id": "A034720",
+  "mentions": [
+    "A109943"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:13",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

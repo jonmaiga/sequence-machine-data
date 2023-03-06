@@ -1,0 +1,23 @@
+{
+  "description": "Add (n mod 10)*10^(n-1) to the previous term, with a(0) = 0.",
+  "id": "A057138",
+  "mentions": [
+    "A000422",
+    "A014925",
+    "A057137",
+    "A057139"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

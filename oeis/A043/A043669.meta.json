@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-15 representation has exactly 2 runs.",
+  "id": "A043669",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:16",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

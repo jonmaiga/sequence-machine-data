@@ -1,0 +1,22 @@
+{
+  "description": "Weight distribution of hypothetical [ 72,36,16 ] doubly-even binary self-dual code.",
+  "id": "A018236",
+  "mentions": [
+    "A004675",
+    "A019590",
+    "A120373"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

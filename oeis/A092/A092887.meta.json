@@ -1,0 +1,20 @@
+{
+  "description": "First component of quadruples a,b,c,d such that a < b < c < d, (a*b*c) mod (a+b+c) = d, (a*b*d) mod (a+b+d) = c, (a*c*d) mod (a+c+d) = b, (b*c*d) mod (b+c+d) = a. The quadruples are ordered according to sum of first three components, secondary by first component, thirdly by second component.",
+  "id": "A092887",
+  "mentions": [
+    "A092888",
+    "A092889",
+    "A092890",
+    "A092891"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

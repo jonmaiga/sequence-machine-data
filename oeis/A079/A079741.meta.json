@@ -1,0 +1,19 @@
+{
+  "description": "Numbers ending with a vowel or the letter y in American English.",
+  "id": "A079741",
+  "mentions": [
+    "A000861"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

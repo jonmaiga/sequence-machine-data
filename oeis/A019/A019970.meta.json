@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of tangent of 72 degrees.",
+  "id": "A019970",
+  "mentions": [
+    "A019881",
+    "A019904",
+    "A019934",
+    "A019964"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:47",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

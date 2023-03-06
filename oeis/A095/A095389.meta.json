@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of residues from reduced residue system, R, modulo 210 such that both R and R+2 are primes, i.e., both 210n+r and 210n+r+2 are primes at fixed n.",
+  "id": "A095389",
+  "mentions": [
+    "A001359",
+    "A078859"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

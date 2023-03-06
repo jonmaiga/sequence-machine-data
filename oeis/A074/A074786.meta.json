@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that phi(k) = Sum_{d|k} core(d) where core(x) is the squarefree part of x (A007913).",
+  "id": "A074786",
+  "mentions": [
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

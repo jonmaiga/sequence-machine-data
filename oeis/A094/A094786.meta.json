@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are 2 less than a perfect power m^k, k >= 2.",
+  "id": "A094786",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

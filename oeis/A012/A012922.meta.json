@@ -1,0 +1,15 @@
+{
+  "description": "sec(arcsin(x)+sin(x))=1+4/2!*x^2+80/4!*x^4+4024/6!*x^6+380544/8!*x^8...",
+  "id": "A012922",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:27:30",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

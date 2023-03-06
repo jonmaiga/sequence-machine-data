@@ -1,0 +1,17 @@
+{
+  "description": "First occurrence (*2) of n in A088627 - or - least number that yields n different primes if you factorize it in all possible ways in two factors and add these factors.",
+  "id": "A091350",
+  "mentions": [
+    "A088627"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

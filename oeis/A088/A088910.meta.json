@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured minimal required number k of terms in a representation n=sum_(i=1..k)e_i*(p_i)^2 by distinct primes p_i, where e_i is 1 or -1.",
+  "id": "A088910",
+  "mentions": [
+    "A048261",
+    "A088908",
+    "A088909",
+    "A088934"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

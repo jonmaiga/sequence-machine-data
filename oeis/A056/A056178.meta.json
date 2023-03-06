@@ -1,0 +1,18 @@
+{
+  "description": "Sum of a(n) terms of 1/k^(2/3) first exceeds n.",
+  "id": "A056178",
+  "mentions": [
+    "A002387",
+    "A019529"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

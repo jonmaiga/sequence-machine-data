@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(exp(n - gamma)), where gamma is Euler's constant.",
+  "id": "A078141",
+  "mentions": [
+    "A002387",
+    "A004080"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 07:25:05",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

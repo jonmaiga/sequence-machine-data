@@ -1,0 +1,25 @@
+{
+  "description": "Number of new colors that can be mixed with n units of yellow, blue, red.",
+  "id": "A048240",
+  "mentions": [
+    "A000217",
+    "A000741",
+    "A008683",
+    "A023023",
+    "A032125",
+    "A048134",
+    "A048241"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:03:57",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

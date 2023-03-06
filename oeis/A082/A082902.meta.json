@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(2^n, sigma(2,n)) = gcd(A000079(n), A001157(n)).",
+  "id": "A082902",
+  "mentions": [
+    "A000079",
+    "A001157",
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

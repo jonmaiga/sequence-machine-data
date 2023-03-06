@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative integers with doubled multiples of 4.",
+  "id": "A090223",
+  "mentions": [
+    "A002266",
+    "A057353",
+    "A057354",
+    "A090222",
+    "A117444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

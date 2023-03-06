@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that 1+CubeFreeKernel(m) is prime.",
+  "id": "A097380",
+  "mentions": [
+    "A000040",
+    "A007948",
+    "A089189",
+    "A097377",
+    "A097379",
+    "A097381"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

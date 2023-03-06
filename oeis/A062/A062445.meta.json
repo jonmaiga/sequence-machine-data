@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of log(n!)^(1 + log(1 + log(1 + n))).",
+  "id": "A062445",
+  "mentions": [
+    "A062446"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

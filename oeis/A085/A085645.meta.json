@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number having n divisors ending with 1 or 9.",
+  "id": "A085645",
+  "mentions": [
+    "A331029",
+    "A331082"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisor of n and the n-th composite number.",
+  "id": "A064814",
+  "mentions": [
+    "A002808",
+    "A071224"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

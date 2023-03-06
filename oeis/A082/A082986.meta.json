@@ -1,0 +1,21 @@
+{
+  "description": "Largest x such that 1/x + 1/y + 1/z = 1/n.",
+  "id": "A082986",
+  "mentions": [
+    "A006325",
+    "A082604",
+    "A169938"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = x/(1 - x - G001190(x^2)), where G001190 is the g.f. of A001190, the Wedderburn-Etherington numbers (binary rooted trees).",
+  "id": "A093126",
+  "mentions": [
+    "A001190",
+    "A003237"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

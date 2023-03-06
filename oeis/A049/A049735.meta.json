@@ -1,0 +1,19 @@
+{
+  "description": "Array T(i,j) is the number of lattice points (x,y) in circle with radius (0,0)-to-(i,j), read by antidiagonals.",
+  "id": "A049735",
+  "mentions": [
+    "A000328"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:59",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

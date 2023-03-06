@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected 3 X n binary matrices with rightmost column [1,0,0]'.",
+  "id": "A054417",
+  "mentions": [
+    "A054418",
+    "A054421"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

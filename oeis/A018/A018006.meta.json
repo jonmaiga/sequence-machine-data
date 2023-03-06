@@ -1,0 +1,17 @@
+{
+  "description": "Powers of cube root of 11 rounded down.",
+  "id": "A018006",
+  "mentions": [
+    "A018007"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:57:01",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

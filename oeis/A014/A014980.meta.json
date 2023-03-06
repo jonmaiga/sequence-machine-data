@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = floor(a(n)/2) * ceiling(a(n)/2), a(0) = 5.",
+  "id": "A014980",
+  "mentions": [
+    "A002620",
+    "A194079"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

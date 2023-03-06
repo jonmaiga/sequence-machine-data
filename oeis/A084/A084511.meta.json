@@ -1,0 +1,25 @@
+{
+  "description": "An infinite juggling sequence of three balls: successively larger indecomposable ground-state 3-ball site swaps listed in lexicographical order. A subset of A084501.",
+  "id": "A084511",
+  "mentions": [
+    "A084501",
+    "A084507",
+    "A084512",
+    "A084513",
+    "A084515",
+    "A084517",
+    "A084519",
+    "A084521"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

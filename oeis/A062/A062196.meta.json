@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n, k) = binomial(n, k)*binomial(n + 2, k).",
+  "id": "A062196",
+  "mentions": [
+    "A062139",
+    "A062145",
+    "A062190",
+    "A089849"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:40:09",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Least multiple of n consisting of a succession of 1's followed by a succession of 0's.",
+  "id": "A052983",
+  "mentions": [
+    "A000042",
+    "A002371",
+    "A007732",
+    "A084681",
+    "A227362",
+    "A276348"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:39:19",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

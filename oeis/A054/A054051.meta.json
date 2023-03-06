@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic connected binary n-state automata.",
+  "id": "A054051",
+  "mentions": [
+    "A054050",
+    "A054745",
+    "A054746"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:11:54",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

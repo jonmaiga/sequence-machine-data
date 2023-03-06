@@ -1,0 +1,22 @@
+{
+  "description": "Conjectured dimensions of spaces of weight systems of chord diagrams.",
+  "id": "A014595",
+  "mentions": [
+    "A007293",
+    "A007473",
+    "A007478",
+    "A014596",
+    "A014605"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:03",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

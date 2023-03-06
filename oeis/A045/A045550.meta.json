@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose factorial has '8' as its final nonzero digit.",
+  "id": "A045550",
+  "mentions": [
+    "A008904",
+    "A045547",
+    "A045548",
+    "A045549"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

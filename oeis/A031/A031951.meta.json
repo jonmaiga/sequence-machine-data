@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with exactly two distinct base-6 digits.",
+  "id": "A031951",
+  "mentions": [
+    "A007092",
+    "A031948",
+    "A031949",
+    "A031950",
+    "A031952",
+    "A031953",
+    "A031954",
+    "A031955"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

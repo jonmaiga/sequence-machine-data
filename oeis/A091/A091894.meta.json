@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n, having k ddu's [here u = (1,1) and d = (1,-1)].",
+  "id": "A091894",
+  "mentions": [
+    "A000108",
+    "A001788",
+    "A002409",
+    "A002694",
+    "A003472",
+    "A011782",
+    "A055151",
+    "A097610",
+    "A125181",
+    "A127529",
+    "A133156",
+    "A134264",
+    "A140325",
+    "A152225",
+    "A172242",
+    "A175136",
+    "A207538",
+    "A236406"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

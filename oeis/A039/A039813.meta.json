@@ -1,0 +1,23 @@
+{
+  "description": "Matrix 5th power of Stirling2 triangle A008277.",
+  "id": "A039813",
+  "mentions": [
+    "A000357",
+    "A008277",
+    "A039810",
+    "A039811",
+    "A039812"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

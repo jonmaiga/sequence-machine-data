@@ -1,0 +1,43 @@
+{
+  "description": "Digital root of n (repeatedly add the digits of n until a single digit is reached).",
+  "id": "A010888",
+  "mentions": [
+    "A000007",
+    "A002264",
+    "A002265",
+    "A002266",
+    "A004526",
+    "A005117",
+    "A007953",
+    "A007954",
+    "A010872",
+    "A010873",
+    "A010874",
+    "A010875",
+    "A010876",
+    "A010877",
+    "A010878",
+    "A010879",
+    "A017173",
+    "A031286",
+    "A031346",
+    "A031347",
+    "A113217",
+    "A113218",
+    "A130487"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

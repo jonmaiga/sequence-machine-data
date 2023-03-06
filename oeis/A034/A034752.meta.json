@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet convolution of 3^(n-1) with primes (with 1).",
+  "id": "A034752",
+  "mentions": [
+    "A000244",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:05:59",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of the n-th partition number into integers not greater than the (n-1)-th partition number.",
+  "id": "A098716",
+  "mentions": [
+    "A000041",
+    "A058699"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

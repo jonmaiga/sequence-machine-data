@@ -1,0 +1,18 @@
+{
+  "description": "Sum of Gaussian binomial coefficients for q=17.",
+  "id": "A015207",
+  "mentions": [
+    "A022181"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

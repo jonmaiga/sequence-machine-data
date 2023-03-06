@@ -1,0 +1,17 @@
+{
+  "description": "Pascal-like triangle read by rows. Number of nonterminal symbols (which generate strings of length k) in a certain \"divide-and-conquer\" context-free grammar in Chomsky normal form that generates all permutations of n symbols.",
+  "id": "A090349",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

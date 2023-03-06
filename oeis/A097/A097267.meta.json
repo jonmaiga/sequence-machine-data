@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer that is the diagonal of n primitive Pythagorean quadruples, or zero if no such integer exists.",
+  "id": "A097267",
+  "mentions": [
+    "A096907",
+    "A096909",
+    "A097263",
+    "A097266"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

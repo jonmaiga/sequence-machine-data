@@ -1,0 +1,20 @@
+{
+  "description": "Smallest odd number k such that p(2m)-2p(m)=k has exactly n solutions (where p(m) = m-th prime).",
+  "id": "A069890",
+  "mentions": [
+    "A022457",
+    "A066066",
+    "A070773",
+    "A070774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

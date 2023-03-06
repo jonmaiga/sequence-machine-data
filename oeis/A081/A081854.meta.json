@@ -1,0 +1,19 @@
+{
+  "description": "(8*n-3)*(4*n-1)*(8*n^2-5*n+1).",
+  "id": "A081854",
+  "mentions": [
+    "A081853"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:29",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

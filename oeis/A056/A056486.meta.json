@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (9*2^n + (-2)^n)/4 for n>0.",
+  "id": "A056486",
+  "mentions": [
+    "A029744",
+    "A038754",
+    "A056391",
+    "A056450",
+    "A284855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

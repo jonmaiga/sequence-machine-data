@@ -1,0 +1,20 @@
+{
+  "description": "Primes that contain digits 1 and 2 only.",
+  "id": "A020450",
+  "mentions": [
+    "A007931",
+    "A020449",
+    "A020472"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:09:51",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

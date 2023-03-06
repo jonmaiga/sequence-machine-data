@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in function a(x) such that a(a(x)) = sin x.",
+  "id": "A048603",
+  "mentions": [
+    "A048602",
+    "A048606"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:27:20",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

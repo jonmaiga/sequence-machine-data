@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that the number formed by the digits of 2n sorted in descending order is equal to the sum of the divisors of n after the digits of each divisor have been sorted in descending order (all zeros dropped).",
+  "id": "A083389",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

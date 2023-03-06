@@ -1,0 +1,32 @@
+{
+  "description": "Generalized Fermat numbers: 6^(2^n) + 1, n >= 0.",
+  "id": "A078303",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A056993",
+    "A059919",
+    "A078304",
+    "A080176",
+    "A123599",
+    "A123669",
+    "A126032",
+    "A152581",
+    "A152585",
+    "A178428",
+    "A199591",
+    "A199592"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

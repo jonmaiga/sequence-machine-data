@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-3) + a(n-4), with a(0)=1, a(1)=a(2)=0, a(3)=1.",
+  "id": "A017817",
+  "mentions": [
+    "A003269",
+    "A060007"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

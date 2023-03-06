@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of 1/(1-4x-8x^2)^(1/2); also, a(n) is the central coefficient of (1+2x+3x^2)^n.",
+  "id": "A084609",
+  "mentions": [
+    "A002426",
+    "A002605",
+    "A084600",
+    "A084608",
+    "A084610",
+    "A084615",
+    "A328347"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

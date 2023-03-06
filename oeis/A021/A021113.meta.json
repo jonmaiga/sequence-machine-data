@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/109.",
+  "id": "A021113",
+  "mentions": [
+    "A000045",
+    "A018481",
+    "A021093",
+    "A064737"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:29",
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Table by antidiagonals of generalized Fibonacci numbers: T(n,k) = T(n,k-1) + n*T(n,k-2) with T(n,0)=0 and T(n,1)=1.",
+  "id": "A060959",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A000045",
+    "A000567",
+    "A001045",
+    "A005408",
+    "A006130",
+    "A006131",
+    "A015440",
+    "A015441",
+    "A015442",
+    "A015443",
+    "A015445",
+    "A015446",
+    "A015447",
+    "A028387",
+    "A053404",
+    "A057427"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

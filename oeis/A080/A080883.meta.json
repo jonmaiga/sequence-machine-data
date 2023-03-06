@@ -1,0 +1,28 @@
+{
+  "description": "Distance of n to next square.",
+  "id": "A080883",
+  "mentions": [
+    "A004737",
+    "A006590",
+    "A027052",
+    "A053188",
+    "A066635",
+    "A071028",
+    "A071797",
+    "A075555",
+    "A078358",
+    "A078446"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

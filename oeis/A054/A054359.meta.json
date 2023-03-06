@@ -1,0 +1,19 @@
+{
+  "description": "Number of polyominoes with n cells that tile the plane.",
+  "id": "A054359",
+  "mentions": [
+    "A000105",
+    "A054360"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

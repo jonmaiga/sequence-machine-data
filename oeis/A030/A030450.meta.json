@@ -1,0 +1,21 @@
+{
+  "description": "Related to number of elements in the free band (idempotent semigroup) on n generators.",
+  "id": "A030450",
+  "mentions": [
+    "A005345",
+    "A030449",
+    "A052129",
+    "A258621"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

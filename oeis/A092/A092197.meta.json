@@ -1,0 +1,21 @@
+{
+  "description": "Brevity advantage of \"new style\" over \"old style\" Roman numerals.",
+  "id": "A092197",
+  "mentions": [
+    "A006968",
+    "A092196"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

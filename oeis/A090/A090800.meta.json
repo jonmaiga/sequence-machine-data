@@ -1,0 +1,20 @@
+{
+  "description": "r when numerator(Bernoulli(2*n)/(2*n)) and numerator(Bernoulli(2*n)/(2*n*(2*n-r))) are different and n is minimum for some integer r for the first i irregular primes. These include entries when the irregularity index > 1.",
+  "id": "A090800",
+  "mentions": [
+    "A001067",
+    "A090495",
+    "A090496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

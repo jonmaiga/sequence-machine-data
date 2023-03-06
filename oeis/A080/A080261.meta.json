@@ -1,0 +1,17 @@
+{
+  "description": "Simple involution of natural numbers: complement [binary_width(n)/2] least significant bits in the binary expansion of n.",
+  "id": "A080261",
+  "mentions": [
+    "A080117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

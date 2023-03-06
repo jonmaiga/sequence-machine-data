@@ -1,0 +1,19 @@
+{
+  "description": "Table by antidiagonals of floor[ n^k / k^n ].",
+  "id": "A062283",
+  "mentions": [
+    "A055651",
+    "A060505"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

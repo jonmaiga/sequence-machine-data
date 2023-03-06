@@ -1,0 +1,21 @@
+{
+  "description": "Function A062402(x)=sigma(phi(x)) is iterated. Starting with n, a(n) is the count of distinct terms arising during this trajectory; a(n)=t(n)+c(n)=t+c, where t is the number of transient terms, c is the number of recurrent terms [in the terminal cycle].",
+  "id": "A096862",
+  "mentions": [
+    "A062401",
+    "A062402",
+    "A095955",
+    "A096859",
+    "A096866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k for which k, 2k, ... nk all contain the digit 5.",
+  "id": "A039936",
+  "mentions": [
+    "A039932",
+    "A039933",
+    "A039934",
+    "A039935",
+    "A039937",
+    "A039938",
+    "A039939",
+    "A039940"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

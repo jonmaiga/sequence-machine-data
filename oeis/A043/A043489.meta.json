@@ -1,0 +1,30 @@
+{
+  "description": "Numbers having one 0 in base 10.",
+  "id": "A043489",
+  "mentions": [
+    "A011540",
+    "A043493",
+    "A043497",
+    "A043501",
+    "A043505",
+    "A043509",
+    "A043513",
+    "A043517",
+    "A043521",
+    "A043525",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

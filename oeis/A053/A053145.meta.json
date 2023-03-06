@@ -1,0 +1,20 @@
+{
+  "description": "When cototient function (A051953) is iterated with initial value A002110(n), a(n) = number of iterations required to reach the stationary value=0.",
+  "id": "A053145",
+  "mentions": [
+    "A002110",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

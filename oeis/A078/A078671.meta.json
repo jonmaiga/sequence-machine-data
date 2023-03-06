@@ -1,0 +1,19 @@
+{
+  "description": "Number of times the n-th prime appears among the decimal digits of 2^(2^n) + 1, the Fermat numbers.",
+  "id": "A078671",
+  "mentions": [
+    "A000215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of a Schwarzian ({f_{27|3}, tau} / (4*Pi)^2) in powers of q^3.",
+  "id": "A062248",
+  "mentions": [
+    "A000731",
+    "A004009",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010815",
+    "A062246",
+    "A242042"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

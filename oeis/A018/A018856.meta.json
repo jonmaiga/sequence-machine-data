@@ -1,0 +1,21 @@
+{
+  "description": "2^a(n) is smallest power of 2 beginning with n.",
+  "id": "A018856",
+  "mentions": [
+    "A000079",
+    "A018802",
+    "A030000",
+    "A100129"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Triangle of odd-numbered terms in rows of Pascal's triangle.",
+  "id": "A034867",
+  "mentions": [
+    "A000129",
+    "A001263",
+    "A007318",
+    "A030528",
+    "A034839",
+    "A053122",
+    "A078812",
+    "A084938",
+    "A090181",
+    "A092865",
+    "A098925",
+    "A102426",
+    "A109466",
+    "A119900",
+    "A128908",
+    "A131980",
+    "A132440",
+    "A145271",
+    "A218272",
+    "A220673"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:47",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

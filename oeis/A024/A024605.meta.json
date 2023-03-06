@@ -1,0 +1,15 @@
+{
+  "description": "Number in position n when the numbers i^2 - i*j + j^2 (1 <= i <= j) are arranged in nondecreasing order.",
+  "id": "A024605",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:59",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of 4-infinitary divisors of n: if n=Product p(i)^r(i) and d=Product p(i)^s(i), each s(i) has a digit a<=b in its 4-ary expansion everywhere that the corresponding r(i) has a digit b, then d is a 4-infinitary-divisor of n.",
+  "id": "A074847",
+  "mentions": [
+    "A000302",
+    "A027748",
+    "A030386",
+    "A049417",
+    "A049418",
+    "A074848",
+    "A097863",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

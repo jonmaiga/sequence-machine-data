@@ -1,0 +1,17 @@
+{
+  "description": "Repeatedly apply Euler phi to n; a(n) = highest power of 2 that is seen.",
+  "id": "A049116",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

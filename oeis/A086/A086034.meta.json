@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the prime zeta modulo function at 4 for primes of the form 4k+1.",
+  "id": "A086034",
+  "mentions": [
+    "A002144",
+    "A085541",
+    "A085993",
+    "A086032",
+    "A086039",
+    "A343614",
+    "A343624"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

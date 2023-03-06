@@ -1,0 +1,25 @@
+{
+  "description": "Number of walks on square lattice that start and end at origin after 2n steps, not touching origin at intermediate stages.",
+  "id": "A054474",
+  "mentions": [
+    "A001620",
+    "A002420",
+    "A002894",
+    "A049037",
+    "A094061"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

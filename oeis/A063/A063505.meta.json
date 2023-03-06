@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n upper triangular binary matrices over GF(2) B such that B^2 = 0.",
+  "id": "A063505",
+  "mentions": [
+    "A053722"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

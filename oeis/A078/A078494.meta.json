@@ -1,0 +1,20 @@
+{
+  "description": "Primes occurring only once in their decade.",
+  "id": "A078494",
+  "mentions": [
+    "A078500"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

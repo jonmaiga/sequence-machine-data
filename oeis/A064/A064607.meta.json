@@ -1,0 +1,29 @@
+{
+  "description": "Partial sum of Sigma_4(n) is divisible by n, where Sigma_4(n)=A001159(n).",
+  "id": "A064607",
+  "mentions": [
+    "A001159",
+    "A045345",
+    "A048290",
+    "A050226",
+    "A056650",
+    "A062982",
+    "A064604",
+    "A064605",
+    "A064606",
+    "A064610",
+    "A064611",
+    "A064612"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

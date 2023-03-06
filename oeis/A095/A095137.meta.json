@@ -1,0 +1,21 @@
+{
+  "description": "Absolute difference between the product of the first floor(n/2) even-indexed primes and the product of the first floor(n/2) odd-indexed primes.",
+  "id": "A095137",
+  "mentions": [
+    "A000040",
+    "A066205",
+    "A066206",
+    "A095134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

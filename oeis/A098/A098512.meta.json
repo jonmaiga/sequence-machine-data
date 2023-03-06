@@ -1,0 +1,22 @@
+{
+  "description": "Second column and subdiagonal of number triangle A098509.",
+  "id": "A098512",
+  "mentions": [
+    "A000108",
+    "A093526",
+    "A093527",
+    "A098509"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

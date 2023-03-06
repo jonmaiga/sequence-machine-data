@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(n,n+3), T given by A027023.",
+  "id": "A027025",
+  "mentions": [
+    "A000213",
+    "A027023",
+    "A077952"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

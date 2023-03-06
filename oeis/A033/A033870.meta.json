@@ -1,0 +1,21 @@
+{
+  "description": "Divisors = 1 (mod 4) of Descartes's 198585576189.",
+  "id": "A033870",
+  "mentions": [
+    "A033871",
+    "A222262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

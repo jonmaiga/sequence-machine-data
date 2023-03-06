@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of K210.",
+  "id": "A078110",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:03",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

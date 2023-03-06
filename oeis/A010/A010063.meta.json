@@ -1,0 +1,28 @@
+{
+  "description": "a(n+1) = a(n) + sum of digits in base 3 representation of a(n), with a(0) = 1.",
+  "id": "A010063",
+  "mentions": [
+    "A053735",
+    "A134451",
+    "A230639",
+    "A230640",
+    "A230641",
+    "A230642",
+    "A230643",
+    "A230853",
+    "A230854",
+    "A230855",
+    "A230856"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

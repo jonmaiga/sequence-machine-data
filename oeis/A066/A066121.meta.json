@@ -1,0 +1,27 @@
+{
+  "description": "Multi-level factorials: triangle with a(n,k)=a(n-1,k-1)*a(n-1,k) but with a(n,1)=n and a(n,n)=1.",
+  "id": "A066121",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A000178",
+    "A007283",
+    "A007395",
+    "A055462",
+    "A057527",
+    "A057528",
+    "A066119"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

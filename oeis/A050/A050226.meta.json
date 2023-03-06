@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n divides Sum_{k = 1..n} A000005(k).",
+  "id": "A050226",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A057494",
+    "A085567",
+    "A085829"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

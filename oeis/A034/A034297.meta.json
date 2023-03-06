@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered positive integer solutions (m_1, m_2, ..., m_k) (for some k) to Sum_{i=1..k} m_i=n with |m_i-m_{i-1}| <= 1 for i = 2 ... k.",
+  "id": "A034297",
+  "mentions": [
+    "A003116",
+    "A034296",
+    "A214246",
+    "A214248",
+    "A309939"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of steps to reach a prime under \"replace n with concatenation of its prime factors\" when applied to n-th composite number, or -1 if no such number exists.",
+  "id": "A037271",
+  "mentions": [
+    "A002808",
+    "A027746",
+    "A037272",
+    "A037273",
+    "A037274",
+    "A037276",
+    "A056938",
+    "A230305"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

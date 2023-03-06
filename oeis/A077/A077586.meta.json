@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^(2^prime(n) - 1) - 1.",
+  "id": "A077586",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000225",
+    "A001348",
+    "A007013",
+    "A077585"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

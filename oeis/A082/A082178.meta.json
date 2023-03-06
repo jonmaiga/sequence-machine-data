@@ -1,0 +1,20 @@
+{
+  "description": "Professor Umbugio's sequence A082176 divided by 2*7*53*139 = 103138.",
+  "id": "A082178",
+  "mentions": [
+    "A082176",
+    "A082177"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

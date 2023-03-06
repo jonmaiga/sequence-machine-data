@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = largest k such that the decimal representation of 2^k does not contain the digit n.",
+  "id": "A094776",
+  "mentions": [
+    "A027870",
+    "A034293",
+    "A065712",
+    "A065744",
+    "A259081",
+    "A259083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "changed",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

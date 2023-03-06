@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered pairs (a,b) of elements of the symmetric group S_n such that the pair a,b generates S_n.",
+  "id": "A071605",
+  "mentions": [
+    "A001691",
+    "A040175",
+    "A135474"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^3 differs from smallest k > n that makes n^6+1 divide k^6+1.",
+  "id": "A098239",
+  "mentions": [
+    "A000578",
+    "A066021"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

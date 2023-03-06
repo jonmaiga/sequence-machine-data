@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest m such that m > A005235(n) and A002110(n)+m is prime.",
+  "id": "A087200",
+  "mentions": [
+    "A002110",
+    "A005235"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

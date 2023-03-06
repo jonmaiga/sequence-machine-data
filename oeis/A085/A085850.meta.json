@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of hard square entropy constant.",
+  "id": "A085850",
+  "mentions": [
+    "A006506",
+    "A085851",
+    "A247413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

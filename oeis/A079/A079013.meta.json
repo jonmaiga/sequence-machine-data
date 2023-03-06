@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p introducing prime-difference pattern {d, 2*d, 4*d, 8*d}, where d = 2*n, i.e., {p, p+2*n, p+6*n, p+14*n, p+30*n} are consecutive primes.",
+  "id": "A079013",
+  "mentions": [
+    "A079011",
+    "A079012"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

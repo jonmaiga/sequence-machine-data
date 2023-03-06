@@ -1,0 +1,22 @@
+{
+  "description": "Composites such that the number of 1's in their binary expansion is equal to the number of 1's in the binary expansion of the sum of their prime factors (counting repetition).",
+  "id": "A085955",
+  "mentions": [
+    "A000120",
+    "A001414",
+    "A002808",
+    "A064548"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

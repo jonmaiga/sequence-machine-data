@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = least positive integer > a(n-1) and not (a(i)+a(j))^2 + a(k)^2 for 1<=i<=j<=k<=n.",
+  "id": "A026516",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

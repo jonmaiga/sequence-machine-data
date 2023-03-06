@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dissections of a convex n-gon by nonintersecting diagonals, having exactly k triangles (n >= 2, k >= 0).",
+  "id": "A090985",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A002054",
+    "A002694",
+    "A046736"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

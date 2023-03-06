@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that there exists no k for which the denominator of d(k)/k is n, where d = A000005 is the number-of-divisors function.",
+  "id": "A091896",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A090395",
+    "A091895",
+    "A353011"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Increasing values for the radius of the inner Soddy circle associated with three unequal kissing circles, the four radii of the system forming a primitive quadruple.",
+  "id": "A062536",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

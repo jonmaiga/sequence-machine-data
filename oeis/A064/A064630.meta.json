@@ -1,0 +1,21 @@
+{
+  "description": "Number of parts if 4^n is partitioned into parts of size 3^n as far as possible into parts of size 2^n as far as possible and into parts of size 1^n.",
+  "id": "A064630",
+  "mentions": [
+    "A029837",
+    "A060692",
+    "A064628",
+    "A064629"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

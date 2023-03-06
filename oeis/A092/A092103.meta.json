@@ -1,0 +1,25 @@
+{
+  "description": "Number of values of k for which prime(n) divides A001008(k), the numerator of the k-th harmonic number.",
+  "id": "A092103",
+  "mentions": [
+    "A000720",
+    "A001008",
+    "A072984",
+    "A092101",
+    "A092102",
+    "A092193",
+    "A177734",
+    "A229493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

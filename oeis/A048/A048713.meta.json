@@ -1,0 +1,18 @@
+{
+  "description": "3rd row of Family 1 \"90 x 150 array\": generations 0 .. n of Rule 90 starting from seed pattern 21.",
+  "id": "A048713",
+  "mentions": [
+    "A048711"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:29",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

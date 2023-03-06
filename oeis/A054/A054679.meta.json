@@ -1,0 +1,23 @@
+{
+  "description": "First of n consecutive primes which differ by a multiple of 6.",
+  "id": "A054679",
+  "mentions": [
+    "A000040",
+    "A054678",
+    "A054680",
+    "A057620",
+    "A057621",
+    "A276414"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction of sum(prime(n)/10^b(n)), where b(n) = 1 + the total number of digits of the first n-1 primes, A068670.",
+  "id": "A086171",
+  "mentions": [
+    "A068670"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

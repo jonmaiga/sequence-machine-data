@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum_{k=0..n} 1/k!.",
+  "id": "A061355",
+  "mentions": [
+    "A002034",
+    "A046021",
+    "A061354",
+    "A093101"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

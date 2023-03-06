@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k), n>=0 and k>=0: Stern's diatonic array read by antidiagonals (version 5).",
+  "id": "A089595",
+  "mentions": [
+    "A002487",
+    "A049455",
+    "A049456",
+    "A070878",
+    "A070879"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

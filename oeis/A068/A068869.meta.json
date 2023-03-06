@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number k such that n! + k is a square.",
+  "id": "A068869",
+  "mentions": [
+    "A004664",
+    "A038202",
+    "A048761",
+    "A055228",
+    "A066857",
+    "A182203",
+    "A182204",
+    "A360210"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

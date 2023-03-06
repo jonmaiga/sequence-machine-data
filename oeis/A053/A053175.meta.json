@@ -1,0 +1,23 @@
+{
+  "description": "Catalan-Larcombe-French sequence.",
+  "id": "A053175",
+  "mentions": [
+    "A002894",
+    "A059304",
+    "A065409",
+    "A081085",
+    "A089602"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

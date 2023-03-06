@@ -1,0 +1,23 @@
+{
+  "description": "18^n-(-6)^n)/24.",
+  "id": "A099139",
+  "mentions": [
+    "A015518",
+    "A053524",
+    "A053535",
+    "A053536",
+    "A053537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:30:49",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

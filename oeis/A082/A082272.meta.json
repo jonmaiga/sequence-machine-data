@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindrome m such that n + m (m>0) is also a palindrome, or 0 if no such number exists.",
+  "id": "A082272",
+  "mentions": [
+    "A082273",
+    "A084843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

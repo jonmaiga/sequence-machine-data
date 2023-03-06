@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of degrees in the sequence of the degrees of the irreducible representations of the symmetric group S_n that appear only once.",
+  "id": "A060426",
+  "mentions": [
+    "A000700",
+    "A059867",
+    "A060368",
+    "A060369",
+    "A060437",
+    "A061569",
+    "A089248"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

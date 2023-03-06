@@ -1,0 +1,18 @@
+{
+  "description": "(#1's in (s(1),...,s(n)) - (#1's in r(1),...,r(n)), where s = A025142 and r = A025143.",
+  "id": "A025146",
+  "mentions": [
+    "A025142",
+    "A025143"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:53",
+    "offset": 1,
+    "size": 110,
+    "source": "joeis"
+  }
+}

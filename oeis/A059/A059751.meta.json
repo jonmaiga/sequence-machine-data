@@ -1,0 +1,20 @@
+{
+  "description": "Grimm numbers (2): a(n) = largest k so that for each composite m in {n+1, n+2, ..., n+k} there corresponds a different divisor d_m with 1 < d_m < m.",
+  "id": "A059751",
+  "mentions": [
+    "A059686",
+    "A059752"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n! / 2^floor(n/2).",
+  "id": "A090932",
+  "mentions": [
+    "A007019",
+    "A007415",
+    "A007452",
+    "A009775",
+    "A046979",
+    "A046981",
+    "A052277",
+    "A093968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

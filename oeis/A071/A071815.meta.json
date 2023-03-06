@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum(k = 0 to inf; d(n!)/n!).",
+  "id": "A071815",
+  "mentions": [
+    "A048799"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

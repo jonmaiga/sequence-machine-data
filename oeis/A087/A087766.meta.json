@@ -1,0 +1,23 @@
+{
+  "description": "Primes whose reversal is a multiple of 19.",
+  "id": "A087766",
+  "mentions": [
+    "A045711",
+    "A087762",
+    "A087764",
+    "A087765",
+    "A087767"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

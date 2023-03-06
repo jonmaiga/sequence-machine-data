@@ -1,0 +1,19 @@
+{
+  "description": "Aloof primes: Total distance between prime and neighboring primes sets record.",
+  "id": "A096265",
+  "mentions": [
+    "A023186",
+    "A031132",
+    "A087770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

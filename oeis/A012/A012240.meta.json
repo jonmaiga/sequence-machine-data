@@ -1,0 +1,19 @@
+{
+  "description": "-log(cos(tan(x)))=1/2!*x^2+10/4!*x^4+232/6!*x^6+10064/8!*x^8...",
+  "id": "A012240",
+  "mentions": [
+    "A009329",
+    "A009387"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

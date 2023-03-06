@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that phi(n-phi(n))=A054571(n) is a power of 2 and n is not a prime number.",
+  "id": "A070810",
+  "mentions": [
+    "A000010",
+    "A051953",
+    "A054571",
+    "A070556",
+    "A070806",
+    "A070812"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

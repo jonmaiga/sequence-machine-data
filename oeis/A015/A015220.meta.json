@@ -1,0 +1,21 @@
+{
+  "description": "Even tetrahedral numbers.",
+  "id": "A015220",
+  "mentions": [
+    "A000292",
+    "A004772",
+    "A015219"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:41:43",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

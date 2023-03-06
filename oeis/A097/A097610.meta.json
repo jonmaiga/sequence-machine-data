@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of Motzkin paths of length n and having k horizontal steps.",
+  "id": "A097610",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A002212",
+    "A005572",
+    "A007318",
+    "A011973",
+    "A049310",
+    "A055151",
+    "A060693",
+    "A121448",
+    "A124027",
+    "A125181",
+    "A126120",
+    "A134264",
+    "A145271",
+    "A180874",
+    "A238390"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

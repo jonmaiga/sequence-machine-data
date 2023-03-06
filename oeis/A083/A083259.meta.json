@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(n, A071364(n)), where A071364(n) is the smallest number with same sequence of exponents in canonical prime factorization as n.",
+  "id": "A083259",
+  "mentions": [
+    "A002808",
+    "A007395",
+    "A046523",
+    "A071364",
+    "A083255",
+    "A083260",
+    "A322361",
+    "A330749"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

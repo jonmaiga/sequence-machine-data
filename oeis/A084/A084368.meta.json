@@ -1,0 +1,20 @@
+{
+  "description": "Prime(n) does not contain the digit 1.",
+  "id": "A084368",
+  "mentions": [
+    "A007498",
+    "A038603"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

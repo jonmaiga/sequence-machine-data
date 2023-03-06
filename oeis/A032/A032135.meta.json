@@ -1,0 +1,15 @@
+{
+  "description": "\"CFJ\" (necklace, size, labeled) transform of 2,1,1,1...",
+  "id": "A032135",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

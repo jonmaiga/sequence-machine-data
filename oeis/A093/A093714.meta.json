@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = smallest number coprime to a(n-1), not equal to a(n-1)+1, and not occurring earlier; a(1)=1.",
+  "id": "A093714",
+  "mentions": [
+    "A085229",
+    "A093715",
+    "A109812",
+    "A347113",
+    "A352588",
+    "A352928",
+    "A352929",
+    "A352930",
+    "A352931",
+    "A352932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

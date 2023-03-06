@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = \"length\" of the aliquot sequence for n.",
+  "id": "A044050",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003023",
+    "A008886",
+    "A098007"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

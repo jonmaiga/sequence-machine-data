@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = smallest multiple of n using prime digits if n is composite else smallest multiple of n using composite digits; a(10k) = 0.",
+  "id": "A078250",
+  "mentions": [
+    "A078239",
+    "A078240"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

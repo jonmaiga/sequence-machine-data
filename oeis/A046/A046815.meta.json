@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number which can be written as the sum of distinct Fibonacci numbers in n ways and such that the Zeckendorf representation of the number uses only even-subscripted Fibonacci numbers.",
+  "id": "A046815",
+  "mentions": [
+    "A002487",
+    "A013583"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:07",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

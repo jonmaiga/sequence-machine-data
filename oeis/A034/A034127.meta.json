@@ -1,0 +1,18 @@
+{
+  "description": "Decimal part of cube root of a(n) starts with 1: first term of runs.",
+  "id": "A034127",
+  "mentions": [
+    "A034117"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

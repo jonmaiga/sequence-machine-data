@@ -1,0 +1,18 @@
+{
+  "description": "Ordered set S defined by these rules: 0 and 2 are in S and if x is a nonzero number in S, then 2x-1 and 4x are in S.",
+  "id": "A060138",
+  "mentions": [
+    "A003849",
+    "A060142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

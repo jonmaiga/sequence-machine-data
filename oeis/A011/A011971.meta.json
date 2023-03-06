@@ -1,0 +1,40 @@
+{
+  "description": "Aitken's array: triangle of numbers {a(n,k), n >= 0, 0 <= k <= n} read by rows, defined by a(0,0)=1, a(n,0) = a(n-1,n-1), a(n,k) = a(n,k-1) + a(n-1,k-1).",
+  "id": "A011971",
+  "mentions": [
+    "A000110",
+    "A000587",
+    "A002186",
+    "A005493",
+    "A011965",
+    "A011966",
+    "A011968",
+    "A011969",
+    "A011972",
+    "A030237",
+    "A040027",
+    "A046934",
+    "A056857",
+    "A094577",
+    "A095149",
+    "A106436",
+    "A108041",
+    "A108042",
+    "A108043",
+    "A123346"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Start with n; if palindrome, stop; otherwise add to itself with digits reversed; a(n) gives palindrome at which it stops, or -1 if no palindrome is ever reached.",
+  "id": "A033865",
+  "mentions": [
+    "A002113",
+    "A006960",
+    "A016016",
+    "A023108",
+    "A023109",
+    "A033665",
+    "A061563"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

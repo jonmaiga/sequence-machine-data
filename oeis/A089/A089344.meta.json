@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime(k) such that prime(k)-prime(k-n) is equal to prime(k+1)-prime(k).",
+  "id": "A089344",
+  "mentions": [
+    "A006562",
+    "A066496",
+    "A117876",
+    "A118467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

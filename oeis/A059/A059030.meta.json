@@ -1,0 +1,21 @@
+{
+  "description": "Fourth main diagonal of A059026: a(n) = B(n+3,n) = lcm(n+3,n)/(n+3) + lcm(n+3,n)/n - 1 for all n >= 1.",
+  "id": "A059030",
+  "mentions": [
+    "A059026",
+    "A059029",
+    "A059031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:55",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

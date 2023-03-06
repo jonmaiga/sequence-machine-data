@@ -1,0 +1,22 @@
+{
+  "description": "Arrange digits of cubes in ascending order.",
+  "id": "A032553",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A028907",
+    "A028908",
+    "A032554"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:03:31",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

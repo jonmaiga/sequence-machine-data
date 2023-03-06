@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime divisor of even nontotients.",
+  "id": "A072459",
+  "mentions": [
+    "A005277",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

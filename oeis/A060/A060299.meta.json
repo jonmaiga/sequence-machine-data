@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(m,n), 1 <= n <= m, read by rows: row m lists the first m consecutive composite numbers that are not in previous rows.",
+  "id": "A060299",
+  "mentions": [
+    "A060064"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

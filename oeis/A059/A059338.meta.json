@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^5 * binomial(n,k).",
+  "id": "A059338",
+  "mentions": [
+    "A000584"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:43:44",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

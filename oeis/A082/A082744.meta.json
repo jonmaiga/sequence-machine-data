@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that nk + 1 is a palindrome.",
+  "id": "A082744",
+  "mentions": [
+    "A082743"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

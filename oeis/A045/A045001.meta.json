@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n with property that in base 3 representation the numbers of 0's and 2's are 2 and 2, respectively.",
+  "id": "A045001",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:47",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

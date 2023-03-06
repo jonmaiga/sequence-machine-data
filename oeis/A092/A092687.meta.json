@@ -1,0 +1,21 @@
+{
+  "description": "First column and main diagonal of triangle A092686, in which the convolution of each row with {1,2} produces a triangle that, when flattened, equals the flattened form of A092686.",
+  "id": "A092687",
+  "mentions": [
+    "A092683",
+    "A092686",
+    "A092688",
+    "A092689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

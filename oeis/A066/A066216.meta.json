@@ -1,0 +1,19 @@
+{
+  "description": "Noncube numbers which are sums of cubes of some subset of divisors.",
+  "id": "A066216",
+  "mentions": [
+    "A066213",
+    "A066214",
+    "A066215"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

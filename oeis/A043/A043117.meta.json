@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 0 and 2 occur juxtaposed in the base-6 representation of k but not of k-1.",
+  "id": "A043117",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

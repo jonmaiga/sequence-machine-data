@@ -1,0 +1,23 @@
+{
+  "description": "Number of (s(0), s(1), ..., s(2n+1)) such that 0 < s(i) < 9 and |s(i) - s(i-1)| = 1 for i = 1,2,...,2n+1, s(0) = 1, s(2n+1) = 6.",
+  "id": "A094829",
+  "mentions": [
+    "A080938",
+    "A094256",
+    "A187360",
+    "A332437",
+    "A332438"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

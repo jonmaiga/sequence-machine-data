@@ -1,0 +1,20 @@
+{
+  "description": "Number of 4-ary sequences with primitive period n.",
+  "id": "A054719",
+  "mentions": [
+    "A001868",
+    "A027377",
+    "A143324"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

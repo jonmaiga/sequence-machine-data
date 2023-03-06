@@ -1,0 +1,19 @@
+{
+  "description": "Pseudoperfect numbers (A005835) that are not practical (second definition, A007620).",
+  "id": "A035480",
+  "mentions": [
+    "A005835",
+    "A007620",
+    "A007621"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

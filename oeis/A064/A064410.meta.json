@@ -1,0 +1,34 @@
+{
+  "description": "Number of partitions of n with zero crank.",
+  "id": "A064410",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000726",
+    "A001522",
+    "A003242",
+    "A027193",
+    "A034008",
+    "A062968",
+    "A064391",
+    "A064428",
+    "A114921",
+    "A224958",
+    "A257989",
+    "A342192",
+    "A342194",
+    "A342343",
+    "A342528"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

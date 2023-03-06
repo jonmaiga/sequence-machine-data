@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose base-4 representation Sum_{i=0..m} d(i)*4^i has d(0) <= d(1) >= d(2) <= ...",
+  "id": "A032901",
+  "mentions": [
+    "A032842",
+    "A032851",
+    "A032867",
+    "A032875",
+    "A032883",
+    "A032892"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:17",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

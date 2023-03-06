@@ -1,0 +1,36 @@
+{
+  "description": "Number of digits that must be counted from left to right to reach the last 1 in the binary representation of n.",
+  "id": "A070940",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000265",
+    "A001511",
+    "A002064",
+    "A002487",
+    "A007318",
+    "A007814",
+    "A070939",
+    "A070941",
+    "A080079",
+    "A080080",
+    "A082907",
+    "A082908",
+    "A199570",
+    "A269570"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

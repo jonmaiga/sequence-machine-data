@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes in the neighborhood with center = n-th primorial and radius = ceiling(log(n-th primorial)).",
+  "id": "A096831",
+  "mentions": [
+    "A002110",
+    "A096509",
+    "A096523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

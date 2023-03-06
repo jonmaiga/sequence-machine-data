@@ -1,0 +1,21 @@
+{
+  "description": "Rearrangement of natural numbers such that a(n) is the smallest proper divisor of n not included earlier but if no such divisor exists then a(n) is the smallest proper multiple of n not included earlier, subject always to the condition that a(n) is not equal to n.",
+  "id": "A073675",
+  "mentions": [
+    "A007814",
+    "A035263",
+    "A059897",
+    "A118967"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:05",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

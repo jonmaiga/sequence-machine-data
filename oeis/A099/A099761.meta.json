@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ( n*(n+2) )^2.",
+  "id": "A099761",
+  "mentions": [
+    "A000217",
+    "A005563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:53",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

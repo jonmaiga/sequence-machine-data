@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of 2 in prime factorization of prime(n)*prime(n-1) - 1.",
+  "id": "A023520",
+  "mentions": [
+    "A007814",
+    "A023515",
+    "A080378"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:39",
+    "offset": 2,
+    "size": 79,
+    "source": "joeis"
+  }
+}

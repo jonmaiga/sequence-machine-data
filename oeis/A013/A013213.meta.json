@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. arctan(log(x+1) - sin(x)).",
+  "id": "A013213",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

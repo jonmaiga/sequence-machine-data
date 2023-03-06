@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal sum of left justified array T given by A027082.",
+  "id": "A027100",
+  "mentions": [
+    "A027052",
+    "A027082"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:36:03",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

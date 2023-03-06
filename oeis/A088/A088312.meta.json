@@ -1,0 +1,26 @@
+{
+  "description": "Number of sets of lists (cf. A000262) with even number of lists.",
+  "id": "A088312",
+  "mentions": [
+    "A000262",
+    "A001710",
+    "A024429",
+    "A024430",
+    "A027187",
+    "A047974",
+    "A088313",
+    "A111884"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

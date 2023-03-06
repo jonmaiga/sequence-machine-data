@@ -1,0 +1,19 @@
+{
+  "description": "Difference between the number of even reduced Latin rectangles of size 3 X n and the number of odd ones.",
+  "id": "A098276",
+  "mentions": [
+    "A000186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

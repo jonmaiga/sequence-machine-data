@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers having initial digit '1'.",
+  "id": "A045725",
+  "mentions": [
+    "A000045",
+    "A105501",
+    "A131835"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:41:32",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

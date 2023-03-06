@@ -1,0 +1,31 @@
+{
+  "description": "Number of associative non-commutative non-anti-associative non-anti-commutative closed binary operations on a set of order n.",
+  "id": "A079240",
+  "mentions": [
+    "A002489",
+    "A023814",
+    "A023815",
+    "A063524",
+    "A079195",
+    "A079207",
+    "A079210",
+    "A079230",
+    "A079232",
+    "A079234",
+    "A079236",
+    "A079241",
+    "A079242",
+    "A079244"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

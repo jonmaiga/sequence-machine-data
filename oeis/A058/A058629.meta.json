@@ -1,0 +1,23 @@
+{
+  "description": "McKay-Thompson series of class 32A for Monster.",
+  "id": "A058629",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:53",
+    "offset": -1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

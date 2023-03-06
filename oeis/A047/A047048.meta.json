@@ -1,0 +1,18 @@
+{
+  "description": "T(n,n+3), array T as in A047040; T(n+3,n), array T given by A047050.",
+  "id": "A047048",
+  "mentions": [
+    "A047040",
+    "A047050"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:03:02",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

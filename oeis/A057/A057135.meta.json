@@ -1,0 +1,23 @@
+{
+  "description": "Palindromes whose square is a palindrome; also palindromes whose sum of squares of digits is less than 10.",
+  "id": "A057135",
+  "mentions": [
+    "A000290",
+    "A002113",
+    "A002779",
+    "A057136",
+    "A128921"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

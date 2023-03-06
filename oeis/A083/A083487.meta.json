@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(r,c) = 2*r*c + r + c (1 <= c <= r).",
+  "id": "A083487",
+  "mentions": [
+    "A047845",
+    "A082652",
+    "A083003",
+    "A151890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:37",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

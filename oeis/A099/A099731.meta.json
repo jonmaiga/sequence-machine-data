@@ -1,0 +1,19 @@
+{
+  "description": "This table shows the coefficients of sum formulas of n-th Fibonacci numbers (A000045). The k-th row (k>=1) contains T(i,k) for i=1 to k, where k=[2*n+1+(-1)^(n-1)]/4 and T(i,k) satisfies F(n)= Sum_{i=1..k} T(i,k) * n^(k-i)/(k-1)!.",
+  "id": "A099731",
+  "mentions": [
+    "A000045",
+    "A094638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

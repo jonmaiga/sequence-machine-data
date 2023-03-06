@@ -1,0 +1,21 @@
+{
+  "description": "Numbers congruent to {3, 36, 54, 57} mod 60.",
+  "id": "A072682",
+  "mentions": [
+    "A000045",
+    "A002265",
+    "A003893"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:25",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

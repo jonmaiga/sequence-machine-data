@@ -1,0 +1,29 @@
+{
+  "description": "All prime factors of n and n+1 are <= 7. (Related to the abc conjecture.)",
+  "id": "A085153",
+  "mentions": [
+    "A002071",
+    "A002072",
+    "A002473",
+    "A074399",
+    "A085152",
+    "A086247",
+    "A138180",
+    "A145604",
+    "A145605",
+    "A252489",
+    "A252494"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

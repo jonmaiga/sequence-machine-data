@@ -1,0 +1,20 @@
+{
+  "description": "Products of partition numbers A000041(n).",
+  "id": "A033637",
+  "mentions": [
+    "A000041",
+    "A000688",
+    "A046064"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

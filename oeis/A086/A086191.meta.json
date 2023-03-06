@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of primes into mutual coprimes > 1.",
+  "id": "A086191",
+  "mentions": [
+    "A000040",
+    "A007359"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

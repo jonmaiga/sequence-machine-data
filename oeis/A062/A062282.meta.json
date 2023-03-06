@@ -1,0 +1,31 @@
+{
+  "description": "Number of permutations of n elements with an even number of fixed points.",
+  "id": "A062282",
+  "mentions": [
+    "A000166",
+    "A000387",
+    "A000475",
+    "A008290",
+    "A059841",
+    "A063083",
+    "A088336",
+    "A088506",
+    "A092295",
+    "A100818",
+    "A111723",
+    "A111724",
+    "A111752",
+    "A111753"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

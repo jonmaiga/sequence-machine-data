@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors d of n such that d+2 is also a divisor of n.",
+  "id": "A099475",
+  "mentions": [
+    "A007862",
+    "A008585",
+    "A008586",
+    "A008588",
+    "A059267",
+    "A099476",
+    "A099477"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

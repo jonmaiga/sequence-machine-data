@@ -1,0 +1,31 @@
+{
+  "description": "Even triangular numbers halved.",
+  "id": "A074378",
+  "mentions": [
+    "A007742",
+    "A010709",
+    "A011848",
+    "A014493",
+    "A016687",
+    "A033991",
+    "A035294",
+    "A047522",
+    "A053188",
+    "A053615",
+    "A074377",
+    "A153799",
+    "A266883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

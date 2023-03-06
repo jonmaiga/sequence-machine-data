@@ -1,0 +1,35 @@
+{
+  "description": "Number of distinct exponents in the prime factorization of n!.",
+  "id": "A071626",
+  "mentions": [
+    "A000142",
+    "A001221",
+    "A001222",
+    "A011371",
+    "A022559",
+    "A051903",
+    "A051904",
+    "A071625",
+    "A076934",
+    "A115627",
+    "A135291",
+    "A240751",
+    "A323023",
+    "A325272",
+    "A325273",
+    "A325276",
+    "A325508"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

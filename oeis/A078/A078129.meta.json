@@ -1,0 +1,24 @@
+{
+  "description": "Numbers which cannot be written as sum of cubes > 1.",
+  "id": "A078129",
+  "mentions": [
+    "A000578",
+    "A078128",
+    "A078130",
+    "A078131",
+    "A078133",
+    "A078135"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

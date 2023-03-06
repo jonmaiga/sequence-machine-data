@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of [x^(2n)] in the Taylor expansion cosh(cosec(x)-coth(x))=1 +x^2/72 -215*x^4/31104 +199159*x^6/235146240-...",
+  "id": "A013546",
+  "mentions": [
+    "A013536",
+    "A202382"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

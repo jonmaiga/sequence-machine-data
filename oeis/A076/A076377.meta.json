@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k, 2*k, 4*k and 8*k are balanced numbers (A020492).",
+  "id": "A076377",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A055234",
+    "A076375",
+    "A076376"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

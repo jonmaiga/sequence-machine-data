@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Krivine's bound for Grothendieck's constant, Pi/(2*log(1+sqrt(2))).",
+  "id": "A088367",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

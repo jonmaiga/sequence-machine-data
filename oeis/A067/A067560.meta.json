@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of n X n matrix whose rows are cyclic permutations of 1..n-th nonprime (A018252).",
+  "id": "A067560",
+  "mentions": [
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

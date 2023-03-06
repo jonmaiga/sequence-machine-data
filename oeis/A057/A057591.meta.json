@@ -1,0 +1,23 @@
+{
+  "description": "Maximal size of binary code of length n that corrects 2 deletions.",
+  "id": "A057591",
+  "mentions": [
+    "A000016",
+    "A010101",
+    "A057608",
+    "A057657",
+    "A265032"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

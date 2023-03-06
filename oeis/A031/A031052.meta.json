@@ -1,0 +1,17 @@
+{
+  "description": "Position of n-th 6 in A031045.",
+  "id": "A031052",
+  "mentions": [
+    "A031045"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:05",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

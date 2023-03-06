@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + 2x + 6x^2 + x^3)/(1 - 2x^2).",
+  "id": "A029745",
+  "mentions": [
+    "A094958"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:35:00",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

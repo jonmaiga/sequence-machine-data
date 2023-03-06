@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of Product_{k=0..n} ((2*k+1)/(2*k+2))^((-1)^t(k)) where t(k)=A010060(k) (Thue-Morse sequence).",
+  "id": "A094541",
+  "mentions": [
+    "A010060",
+    "A094542",
+    "A261505",
+    "A261559"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of different graphs drawn in the following way: you decide for each number k <= n on a pair of positive numbers (x(k),y(k)) such that x(k)+y(k)=k; you draw n points numbered 1 to n; draw two arrows from n, one to x(n) and one to y(n); draw two arrows from each k already reached by an arrow, one to x(k) and one to y(k). The process stops when 1 is the only point reached by an arrow without any arrow leaving it; you can also erase the isolated points.",
+  "id": "A058050",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

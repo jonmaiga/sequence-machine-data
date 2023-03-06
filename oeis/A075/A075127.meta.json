@@ -1,0 +1,22 @@
+{
+  "description": "Safe perfect powers: perfect powers n such that (n-1)/2 is also a perfect power.",
+  "id": "A075127",
+  "mentions": [
+    "A001110",
+    "A001597",
+    "A055792",
+    "A070428",
+    "A075114"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:00:35",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

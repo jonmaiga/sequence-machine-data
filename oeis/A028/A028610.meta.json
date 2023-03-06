@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (theta_3(z)*theta_3(11z) + theta_2(z)*theta_2(11z))^2.",
+  "id": "A028610",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A028609",
+    "A032442",
+    "A121373",
+    "A128525"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

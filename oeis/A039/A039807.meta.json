@@ -1,0 +1,23 @@
+{
+  "description": "Matrix 5th power of partition triangle A008284.",
+  "id": "A039807",
+  "mentions": [
+    "A008284",
+    "A022813",
+    "A038497",
+    "A038498",
+    "A039805",
+    "A039806"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

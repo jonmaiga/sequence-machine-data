@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k>0 such that concatenation of n^k and 1 is prime, or 0 if no such number exists.",
+  "id": "A088782",
+  "mentions": [
+    "A088622",
+    "A088783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

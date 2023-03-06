@@ -1,0 +1,29 @@
+{
+  "description": "Number of separate orbits/cycles to which the Catalan bijections A069767/A069768 partition each A000108(n) structures encoded in the range [A014137(n-1)..A014138(n-1)] of the sequence A014486/A063171.",
+  "id": "A073431",
+  "mentions": [
+    "A000108",
+    "A007814",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A063171",
+    "A069767",
+    "A069768",
+    "A073201",
+    "A073346",
+    "A074079",
+    "A074080"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

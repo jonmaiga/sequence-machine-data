@@ -1,0 +1,24 @@
+{
+  "description": "Lunar squares: n*n where * is lunar multiplication (A087062).",
+  "id": "A087019",
+  "mentions": [
+    "A087061",
+    "A087062",
+    "A087097",
+    "A172199",
+    "A180513",
+    "A181319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

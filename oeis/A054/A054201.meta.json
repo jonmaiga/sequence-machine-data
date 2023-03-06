@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n-1)! * Sum_{k=1..n} k^k/k!.",
+  "id": "A054201",
+  "mentions": [
+    "A054202"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

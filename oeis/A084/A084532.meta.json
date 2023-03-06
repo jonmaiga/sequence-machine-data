@@ -1,0 +1,17 @@
+{
+  "description": "Signature sequence of 1/phi = phi-1 = (sqrt(5)-1)/2 = 0.61803...",
+  "id": "A084532",
+  "mentions": [
+    "A084531"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

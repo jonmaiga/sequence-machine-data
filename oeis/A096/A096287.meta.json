@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations of n -> n + (product of nonzero digits of n) needed for the trajectory of n to join the trajectory of A063108.",
+  "id": "A096287",
+  "mentions": [
+    "A063108"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

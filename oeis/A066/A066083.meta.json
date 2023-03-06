@@ -1,0 +1,19 @@
+{
+  "description": "Number of supersolvable groups of order n.",
+  "id": "A066083",
+  "mentions": [
+    "A000001",
+    "A066085"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

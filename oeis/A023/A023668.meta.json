@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of A001950 and A023533.",
+  "id": "A023668",
+  "mentions": [
+    "A001622",
+    "A001950",
+    "A023533",
+    "A023665"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:23",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

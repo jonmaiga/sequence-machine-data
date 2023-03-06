@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured orders of sociable numbers A003416.",
+  "id": "A052470",
+  "mentions": [
+    "A003416",
+    "A122726"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

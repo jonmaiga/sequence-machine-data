@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(0.121121112...), cf. A042974.",
+  "id": "A042975",
+  "mentions": [
+    "A042974"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:49",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

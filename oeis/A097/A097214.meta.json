@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that A076078(m) = m, where A076078(m) equals the number of sets of distinct positive integers with a least common multiple of m.",
+  "id": "A097214",
+  "mentions": [
+    "A000079",
+    "A002235",
+    "A076078",
+    "A097215"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

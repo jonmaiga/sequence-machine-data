@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not the sum of two distinct Ulam numbers.",
+  "id": "A033629",
+  "mentions": [
+    "A002858"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:43",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

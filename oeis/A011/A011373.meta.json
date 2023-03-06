@@ -1,0 +1,22 @@
+{
+  "description": "Number of 1's in binary expansion of Fibonacci(n).",
+  "id": "A011373",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A059016",
+    "A242208"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:18",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

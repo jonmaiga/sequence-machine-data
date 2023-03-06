@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)! [x^(2*n)] log(1 + tanh(x)^2)/2.",
+  "id": "A024299",
+  "mentions": [
+    "A003707",
+    "A009403",
+    "A101921"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

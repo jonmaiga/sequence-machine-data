@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum of the first k palindromes is a palindrome.",
+  "id": "A046486",
+  "mentions": [
+    "A002113",
+    "A046487",
+    "A046488"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

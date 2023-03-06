@@ -1,0 +1,30 @@
+{
+  "description": "Binomial triangle based on factorials.",
+  "id": "A076571",
+  "mentions": [
+    "A000142",
+    "A000522",
+    "A001048",
+    "A001339",
+    "A001340",
+    "A001341",
+    "A001342",
+    "A001344",
+    "A001345",
+    "A001346",
+    "A001347",
+    "A002627"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

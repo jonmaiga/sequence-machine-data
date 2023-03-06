@@ -1,0 +1,25 @@
+{
+  "description": "Nonprime numbers n such that n and n-reversed (<> n and no leading zeros) have the same number of prime factors (counted with multiplicity).",
+  "id": "A050699",
+  "mentions": [
+    "A006567",
+    "A050700",
+    "A050701",
+    "A050702",
+    "A097393",
+    "A109018",
+    "A109031"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

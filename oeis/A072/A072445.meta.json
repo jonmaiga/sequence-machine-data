@@ -1,0 +1,27 @@
+{
+  "description": "Number of subsets S of the power set P{1,2,...,n} such that: {1}, {2},..., {n} are all elements of S; {1,2,...,n} is an element of S; if X and Y are elements of S and X and Y have a nonempty intersection, then the union of X and Y is an element of S. The sets S are counted modulo permutations on the elements 1,2,...,n.",
+  "id": "A072445",
+  "mentions": [
+    "A072444",
+    "A072446",
+    "A072447",
+    "A092918",
+    "A108798",
+    "A326866",
+    "A326867",
+    "A326869",
+    "A326871",
+    "A326879"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

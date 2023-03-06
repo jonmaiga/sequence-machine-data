@@ -1,0 +1,21 @@
+{
+  "description": "Self-locating strings within Pi: numbers n such that the string n is at position n in the decimal digits of Pi, where 1 is the 0th digit.",
+  "id": "A064810",
+  "mentions": [
+    "A000796",
+    "A057679",
+    "A057680"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

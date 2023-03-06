@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum, over all labeled graphs G on n nodes, of the clique number w(G).",
+  "id": "A086371",
+  "mentions": [
+    "A006125",
+    "A052450",
+    "A052451",
+    "A052452",
+    "A077392",
+    "A077393",
+    "A077394"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

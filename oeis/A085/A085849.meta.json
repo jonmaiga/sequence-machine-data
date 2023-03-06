@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that two m X m and n X n matrices (m,n large) have relatively prime determinants.",
+  "id": "A085849",
+  "mentions": [
+    "A002107",
+    "A010815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

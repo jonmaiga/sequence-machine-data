@@ -1,0 +1,33 @@
+{
+  "description": "Bit to left of least significant 1-bit in binary expansion of n.",
+  "id": "A038189",
+  "mentions": [
+    "A014577",
+    "A014707",
+    "A014709",
+    "A014710",
+    "A025480",
+    "A034947",
+    "A038190",
+    "A065339",
+    "A082410",
+    "A091067",
+    "A164677",
+    "A301848",
+    "A301849",
+    "A301850"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Repeat (1,6): Period 2.",
+  "id": "A010687",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:06:31",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

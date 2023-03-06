@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the difference of the largest and smallest prime factors of k divides k.",
+  "id": "A083263",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A033845",
+    "A071141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

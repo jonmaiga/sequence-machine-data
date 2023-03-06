@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows where the top row is a 1. The m-th row of the triangle contains the smallest m as-yet-unused positive integers, in order from left to right, which are each coprime with every integer in the (m-1)th row.",
+  "id": "A097858",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

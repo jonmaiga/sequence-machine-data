@@ -1,0 +1,21 @@
+{
+  "description": "Nonpalindromic integers which have an even number of ones in binary and whose reverse does as well.",
+  "id": "A091017",
+  "mentions": [
+    "A000040",
+    "A001969",
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

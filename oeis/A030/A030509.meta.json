@@ -1,0 +1,16 @@
+{
+  "description": "Graham-Sloane-type lower bound on the size of a ternary (n,3,9) constant-weight code.",
+  "id": "A030509",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:19",
+    "offset": 9,
+    "size": 29,
+    "source": "joeis"
+  }
+}

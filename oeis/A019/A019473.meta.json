@@ -1,0 +1,22 @@
+{
+  "description": "Number of stable n-celled patterns (\"still lifes\") in Conway's Game of Life, up to rotation and reflection.",
+  "id": "A019473",
+  "mentions": [
+    "A056605",
+    "A056613",
+    "A056614",
+    "A330283"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

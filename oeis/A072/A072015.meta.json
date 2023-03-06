@@ -1,0 +1,18 @@
+{
+  "description": "Maxima when the mapping of A072010 is applied to n repeatedly.",
+  "id": "A072015",
+  "mentions": [
+    "A072010",
+    "A072014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

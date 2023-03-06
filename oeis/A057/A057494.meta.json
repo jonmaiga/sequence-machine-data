@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k = 1..10^n} d(k) where d(n) = number of divisors of n (A000005).",
+  "id": "A057494",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A050226",
+    "A085567",
+    "A085829",
+    "A085831"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

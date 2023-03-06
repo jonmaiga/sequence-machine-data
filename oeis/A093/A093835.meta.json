@@ -1,0 +1,21 @@
+{
+  "description": "n*Jacobsthal(n).",
+  "id": "A093835",
+  "mentions": [
+    "A001045",
+    "A014551",
+    "A023607"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:12:43",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

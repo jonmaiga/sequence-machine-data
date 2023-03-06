@@ -1,0 +1,21 @@
+{
+  "description": "Half the difference between start and center prime of the smallest [2n+1]-balanced prime set (A082080).",
+  "id": "A082312",
+  "mentions": [
+    "A006562",
+    "A051795",
+    "A054800",
+    "A075540",
+    "A082080"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

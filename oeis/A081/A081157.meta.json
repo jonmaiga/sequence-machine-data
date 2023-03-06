@@ -1,0 +1,27 @@
+{
+  "description": "Number of even cycles in range [A014137(n-1)..A014138(n-1)] of permutation A057505/A057506, with no fixed points of either A057163 or A057164.",
+  "id": "A081157",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057163",
+    "A057164",
+    "A057505",
+    "A057506",
+    "A081150",
+    "A081158",
+    "A081159",
+    "A081160",
+    "A081162"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

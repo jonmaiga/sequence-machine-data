@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: Stirling numbers of the first kind (A008275) mod 2.",
+  "id": "A087755",
+  "mentions": [
+    "A008275",
+    "A047999",
+    "A049458",
+    "A049460",
+    "A051339",
+    "A051380",
+    "A087748"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:23",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled semi-strong digraphs on n nodes with an even number of components.",
+  "id": "A054950",
+  "mentions": [
+    "A054947",
+    "A054948",
+    "A054949"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:16:24",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

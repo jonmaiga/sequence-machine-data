@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 + n + n*[n/2] + n*[n/2]*[n/3] + n*[n/2]*[n/3]*[n/4] +... where [x]=floor(x).",
+  "id": "A075885",
+  "mentions": [
+    "A085361",
+    "A207643",
+    "A207644",
+    "A207645",
+    "A208060"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

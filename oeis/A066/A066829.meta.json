@@ -1,0 +1,32 @@
+{
+  "description": "Parity of Omega(n): a(n) = 1 if n is the product of an odd number of primes; 0 if product of even number of primes.",
+  "id": "A066829",
+  "mentions": [
+    "A001222",
+    "A007421",
+    "A008836",
+    "A026424",
+    "A028260",
+    "A055038",
+    "A065043",
+    "A069545",
+    "A072203",
+    "A349905",
+    "A353556",
+    "A353558",
+    "A358751",
+    "A358753"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

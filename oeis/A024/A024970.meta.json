@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = position of 3*n^3 in A003072.",
+  "id": "A024970",
+  "mentions": [
+    "A003072"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

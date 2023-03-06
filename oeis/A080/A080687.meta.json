@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled n-element posets with no 3-element antichain.",
+  "id": "A080687",
+  "mentions": [
+    "A006251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:59:39",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

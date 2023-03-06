@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are run sums (trapezoidal, the difference between two triangular numbers) in exactly 3 ways.",
+  "id": "A072502",
+  "mentions": [
+    "A000079",
+    "A001227",
+    "A001248",
+    "A038547",
+    "A038550",
+    "A069562",
+    "A085548",
+    "A237593",
+    "A266531",
+    "A279387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

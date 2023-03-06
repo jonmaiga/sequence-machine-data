@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (2n)!-(2n-2)!+(2n-4)!-...+(-1)^n 0! is prime.",
+  "id": "A085700",
+  "mentions": [
+    "A001272",
+    "A002981",
+    "A002982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

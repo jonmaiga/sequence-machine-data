@@ -1,0 +1,30 @@
+{
+  "description": "Powers of 2 with initial digit 1.",
+  "id": "A067488",
+  "mentions": [
+    "A000079",
+    "A067480",
+    "A067481",
+    "A067482",
+    "A067483",
+    "A067484",
+    "A067485",
+    "A067486",
+    "A074116",
+    "A074117",
+    "A074118"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

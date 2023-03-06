@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(sigma(n)) = sum of the divisors of the sum of the divisors of n.",
+  "id": "A051027",
+  "mentions": [
+    "A000203",
+    "A090748"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:55",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

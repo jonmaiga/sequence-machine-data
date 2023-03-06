@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is smallest number >= a(n-1) such that a(n) plus any set of the previous values of the sequence is a nonsquare.",
+  "id": "A064776",
+  "mentions": [
+    "A133662"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

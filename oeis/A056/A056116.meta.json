@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 121*12^(n-2), a(0)=1, a(1)=10.",
+  "id": "A056116",
+  "mentions": [
+    "A055996",
+    "A056002",
+    "A201780"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

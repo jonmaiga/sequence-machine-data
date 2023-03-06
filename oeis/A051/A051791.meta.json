@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are unchanged when turned upside down, when written in a font in which 7 looks like upside-down 2).",
+  "id": "A051791",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:33",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

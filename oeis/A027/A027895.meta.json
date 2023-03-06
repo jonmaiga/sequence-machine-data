@@ -1,0 +1,18 @@
+{
+  "description": "Divisors of 9999999999.",
+  "id": "A027895",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

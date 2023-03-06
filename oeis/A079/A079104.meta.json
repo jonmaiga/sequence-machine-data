@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of length n containing the minimum number of monotone subsequences of length 4.",
+  "id": "A079104",
+  "mentions": [
+    "A079102",
+    "A079103",
+    "A079105",
+    "A079106"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

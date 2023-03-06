@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that sum(d|m, 1/core(d) ) is an integer where core(x) is the squarefree part of x.",
+  "id": "A074838",
+  "mentions": [
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

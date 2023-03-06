@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that there are no middle divisors of k (A071090) through k+n.",
+  "id": "A071563",
+  "mentions": [
+    "A071090",
+    "A071561",
+    "A071562"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + 1 is not squarefree.",
+  "id": "A049532",
+  "mentions": [
+    "A002522",
+    "A059592",
+    "A124809",
+    "A335963"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

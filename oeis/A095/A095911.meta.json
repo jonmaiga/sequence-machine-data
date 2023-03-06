@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps where the modified Juggler sequence reaches a new record (A095910).",
+  "id": "A095911",
+  "mentions": [
+    "A007321",
+    "A094696",
+    "A095909",
+    "A095910"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

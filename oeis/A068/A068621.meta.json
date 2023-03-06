@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 7; a(n+1) = smallest triangular number > a(n) formed by adding at least one digit to a(n).",
+  "id": "A068621",
+  "mentions": [
+    "A068618",
+    "A068619",
+    "A068622",
+    "A068623",
+    "A068624"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

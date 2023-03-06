@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A005382(n) + A005384(n) - 1 and A005382(n) + A005384(n) + 1 are twin primes.",
+  "id": "A099108",
+  "mentions": [
+    "A005382",
+    "A005384",
+    "A099109"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

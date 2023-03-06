@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n with distinct parts p(i) such that if i != j, then |p(i) - p(j)| >= 4.",
+  "id": "A025158",
+  "mentions": [
+    "A003114",
+    "A025157",
+    "A025162",
+    "A194543"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

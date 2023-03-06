@@ -1,0 +1,21 @@
+{
+  "description": "Least number of fecundity n (A070562).",
+  "id": "A070061",
+  "mentions": [
+    "A003001",
+    "A070257",
+    "A070562"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

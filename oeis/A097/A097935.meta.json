@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes that are not less than prime(n)-n and not greater than prime(n)+n.",
+  "id": "A097935",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A014688",
+    "A014689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic and nonantiisomorphic rings with n elements.",
+  "id": "A038036",
+  "mentions": [
+    "A027623",
+    "A037290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

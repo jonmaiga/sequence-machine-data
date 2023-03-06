@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that the sum of the digits of p is not prime, but the sum of each digit raised to the 4th power is prime.",
+  "id": "A091368",
+  "mentions": [
+    "A046704",
+    "A052034",
+    "A091362",
+    "A091365",
+    "A091366",
+    "A091367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that x(k)=0 where x(1)=n x(k)=k^2*floor(x(k-1)/k^2).",
+  "id": "A082527",
+  "mentions": [
+    "A073047"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

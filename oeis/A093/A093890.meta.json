@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes arising as the sum of one or more divisors of n.",
+  "id": "A093890",
+  "mentions": [
+    "A002093",
+    "A093891",
+    "A093892",
+    "A161510"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*p + 3 is also prime.",
+  "id": "A023204",
+  "mentions": [
+    "A000040",
+    "A067076",
+    "A089530",
+    "A089531",
+    "A089532"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

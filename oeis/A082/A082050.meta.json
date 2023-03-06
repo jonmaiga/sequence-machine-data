@@ -1,0 +1,25 @@
+{
+  "description": "Sum of divisors of n that are not of the form 3k+1.",
+  "id": "A082050",
+  "mentions": [
+    "A000203",
+    "A004611",
+    "A027748",
+    "A046913",
+    "A078181",
+    "A078182",
+    "A082051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

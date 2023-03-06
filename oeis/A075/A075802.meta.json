@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of perfect powers, A001597.",
+  "id": "A075802",
+  "mentions": [
+    "A001597",
+    "A007916",
+    "A052409",
+    "A057427",
+    "A072292",
+    "A112526"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

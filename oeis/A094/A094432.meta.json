@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = rightmost term in M^n * [1 0 0]. M = the 3 X 3 stiffness matrix [1 -1 0 / -1 4 -3 / 0 -3 3].",
+  "id": "A094432",
+  "mentions": [
+    "A094431",
+    "A154245"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

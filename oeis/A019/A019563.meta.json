@@ -1,0 +1,18 @@
+{
+  "description": "Coordination sequence for C_7 lattice.",
+  "id": "A019563",
+  "mentions": [
+    "A008415"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

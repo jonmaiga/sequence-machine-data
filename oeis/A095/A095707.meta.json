@@ -1,0 +1,19 @@
+{
+  "description": "Total number of distinct winning paths across an n X n Hex board.",
+  "id": "A095707",
+  "mentions": [
+    "A001792",
+    "A096367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

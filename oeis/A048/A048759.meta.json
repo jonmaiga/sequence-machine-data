@@ -1,0 +1,23 @@
+{
+  "description": "Longest perimeter of a Pythagorean triangle with n as length of one of the three sides.",
+  "id": "A048759",
+  "mentions": [
+    "A010814",
+    "A029578",
+    "A055522",
+    "A055523",
+    "A055524"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:36:33",
+    "offset": 3,
+    "size": 49,
+    "source": "joeis"
+  }
+}

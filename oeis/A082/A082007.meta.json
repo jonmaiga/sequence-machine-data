@@ -1,0 +1,21 @@
+{
+  "description": "Triangle (an infinite binary tree) read by rows; see Comments lines for definition.",
+  "id": "A082007",
+  "mentions": [
+    "A082008",
+    "A082009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

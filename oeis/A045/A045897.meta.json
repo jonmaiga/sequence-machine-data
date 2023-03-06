@@ -1,0 +1,20 @@
+{
+  "description": "Has both a primitive and imprimitive representation as x^2 + xy + y^2.",
+  "id": "A045897",
+  "mentions": [
+    "A003136",
+    "A004611",
+    "A034017",
+    "A034019"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

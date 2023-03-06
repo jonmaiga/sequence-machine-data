@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet convolution of Moebius function mu(n) (A008683) with Catalan numbers (A000108).",
+  "id": "A034742",
+  "mentions": [
+    "A000108",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:40:47",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

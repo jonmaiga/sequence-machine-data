@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of natural numbers induced by reranking plane binary trees given in the standard lexicographic order (A014486) with an \"arithmetic global ranking algorithm\", using the bivariate form of A001477 as the packing bijection N x N -> N.",
+  "id": "A071653",
+  "mentions": [
+    "A001477",
+    "A006894",
+    "A014137",
+    "A014486",
+    "A071651",
+    "A071652",
+    "A071654",
+    "A072638"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

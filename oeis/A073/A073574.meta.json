@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 + 6 is prime.",
+  "id": "A073574",
+  "mentions": [
+    "A067200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:17",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

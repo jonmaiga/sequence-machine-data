@@ -1,0 +1,18 @@
+{
+  "description": "a(1)= 7, a(n) = least prime obtained by prefixing the digits of a multiple of n to a(n-1).",
+  "id": "A088057",
+  "mentions": [
+    "A088056"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

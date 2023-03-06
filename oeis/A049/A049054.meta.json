@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 10^k + 3 is prime.",
+  "id": "A049054",
+  "mentions": [
+    "A102006",
+    "A159352"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

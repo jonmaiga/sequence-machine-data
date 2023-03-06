@@ -1,0 +1,34 @@
+{
+  "description": "Involution of natural numbers induced by Catalan Automorphism *A085161 acting on symbolless S-expressions encoded by A014486/A063171.",
+  "id": "A085161",
+  "mentions": [
+    "A001405",
+    "A007123",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057164",
+    "A057508",
+    "A063171",
+    "A073200",
+    "A074683",
+    "A074684",
+    "A085159",
+    "A085160",
+    "A085162",
+    "A085163",
+    "A085169",
+    "A085175",
+    "A086431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

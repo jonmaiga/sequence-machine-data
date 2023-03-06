@@ -1,0 +1,33 @@
+{
+  "description": "Number of segments used to represent n on a 7-segment calculator display; version where '6', '7' and '9' use 6, 4 and 6 segments, respectively.",
+  "id": "A010371",
+  "mentions": [
+    "A000120",
+    "A006942",
+    "A063720",
+    "A074458",
+    "A102679",
+    "A102681",
+    "A102683",
+    "A143616",
+    "A143617",
+    "A234691",
+    "A234692",
+    "A277116"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

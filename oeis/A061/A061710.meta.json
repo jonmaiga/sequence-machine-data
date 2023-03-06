@@ -1,0 +1,16 @@
+{
+  "description": "Number of maximal chains in the Bruhat order of S_n.",
+  "id": "A061710",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

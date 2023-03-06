@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of BesselI(1,2).",
+  "id": "A096789",
+  "mentions": [
+    "A070910",
+    "A228229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

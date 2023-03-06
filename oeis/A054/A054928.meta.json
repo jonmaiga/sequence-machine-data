@@ -1,0 +1,23 @@
+{
+  "description": "Number of complementary pairs of directed graphs on n nodes. Also number of unlabeled digraphs with n nodes and an even number of arcs.",
+  "id": "A054928",
+  "mentions": [
+    "A000273",
+    "A003086",
+    "A007869",
+    "A054960",
+    "A055969"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

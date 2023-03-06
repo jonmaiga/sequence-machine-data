@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n^2 into squares not greater than n.",
+  "id": "A093115",
+  "mentions": [
+    "A001156",
+    "A037444",
+    "A072213",
+    "A072925",
+    "A078134",
+    "A092362",
+    "A093116",
+    "A161407"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

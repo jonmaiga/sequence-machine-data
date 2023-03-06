@@ -1,0 +1,27 @@
+{
+  "description": "Number of rational knots with n crossings and unknotting number = 1 (chiral pairs counted only once).",
+  "id": "A078477",
+  "mentions": [
+    "A000225",
+    "A018240",
+    "A051449",
+    "A051450",
+    "A078478",
+    "A089797",
+    "A089891",
+    "A089892",
+    "A214927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

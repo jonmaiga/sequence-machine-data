@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of length n, in which all monotone subsequences of length 4 are descending or all such subsequences are ascending, containing the minimum number of such subsequences subject to that constraint.",
+  "id": "A079105",
+  "mentions": [
+    "A079102",
+    "A079103",
+    "A079104",
+    "A079106"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:09",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

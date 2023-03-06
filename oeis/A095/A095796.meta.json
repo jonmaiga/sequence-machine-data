@@ -1,0 +1,19 @@
+{
+  "description": "1 + (26*n+17+7*n^2)*n/2.",
+  "id": "A095796",
+  "mentions": [
+    "A095794"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:35",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

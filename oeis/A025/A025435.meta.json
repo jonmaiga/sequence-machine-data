@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into 2 distinct squares.",
+  "id": "A025435",
+  "mentions": [
+    "A000161",
+    "A000290",
+    "A001983",
+    "A004435",
+    "A010052",
+    "A025441"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

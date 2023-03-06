@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form p^3 + q^3, p, q primes.",
+  "id": "A086119",
+  "mentions": [
+    "A001235",
+    "A003325",
+    "A045636",
+    "A045699",
+    "A086120",
+    "A086121"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of squarefree divisors which are not unitary. Also number of unitary divisors which are not squarefree.",
+  "id": "A056674",
+  "mentions": [
+    "A000005",
+    "A007913",
+    "A034444",
+    "A055229",
+    "A055231",
+    "A056671",
+    "A057521"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "From George Gilbert's marks problem: jumping 4 marks at a time (initial positions).",
+  "id": "A019595",
+  "mentions": [
+    "A019596"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

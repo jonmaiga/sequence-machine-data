@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that prime(k) >= k*tau(k*n) where tau = A000005.",
+  "id": "A074811",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which sigma(k) > sigma(k+1).",
+  "id": "A053226",
+  "mentions": [
+    "A000203",
+    "A053222",
+    "A053224",
+    "A053238"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:07:01",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

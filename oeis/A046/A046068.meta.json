@@ -1,0 +1,18 @@
+{
+  "description": "Second smallest m such that (2n-1)2^m+1 is prime, or -1 if no such value exists.",
+  "id": "A046068",
+  "mentions": [
+    "A046067",
+    "A046070"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:28:37",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

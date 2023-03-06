@@ -1,0 +1,21 @@
+{
+  "description": "The weight of the periphery of the alternating group, denoted v(P_N).",
+  "id": "A067370",
+  "mentions": [
+    "A067318",
+    "A067369"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

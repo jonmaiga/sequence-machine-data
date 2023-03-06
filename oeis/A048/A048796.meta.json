@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes formed from decimal expansion of Pi written backwards then forwards.",
+  "id": "A048796",
+  "mentions": [
+    "A000796",
+    "A007523",
+    "A039954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

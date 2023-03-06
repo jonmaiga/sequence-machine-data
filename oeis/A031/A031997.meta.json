@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers which when cubed give number composed just of the digits 0, 1, 2, 3.",
+  "id": "A031997",
+  "mentions": [
+    "A030175"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

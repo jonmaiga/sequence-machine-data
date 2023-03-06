@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic oriented matroids with n points in 5 dimensions.",
+  "id": "A063803",
+  "mentions": [
+    "A063804"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 6,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

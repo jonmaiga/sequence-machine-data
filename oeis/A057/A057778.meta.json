@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least odd k such that k*2^n + 1 is prime.",
+  "id": "A057778",
+  "mentions": [
+    "A006093",
+    "A035050",
+    "A076336",
+    "A080076",
+    "A085427",
+    "A126717"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

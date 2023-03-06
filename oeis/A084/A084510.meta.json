@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=0, after which each n occurs A084516(n) times.",
+  "id": "A084510",
+  "mentions": [
+    "A084500",
+    "A084507",
+    "A084511",
+    "A084512",
+    "A084515",
+    "A084516",
+    "A084520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

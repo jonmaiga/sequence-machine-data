@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the derivative of n via transport of structure from polynomials. Completely multiplicative with a(2) = 1, a(prime(i+1)) = prime(i)^i for i > 0.",
+  "id": "A090884",
+  "mentions": [
+    "A001222",
+    "A048675",
+    "A054841",
+    "A090880",
+    "A090881",
+    "A090882",
+    "A090883",
+    "A297845"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

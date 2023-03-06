@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m such that A098371(m) = n.",
+  "id": "A098373",
+  "mentions": [
+    "A098371"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "4n-1 is composite.",
+  "id": "A045752",
+  "mentions": [
+    "A005099"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

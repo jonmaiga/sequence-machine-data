@@ -1,0 +1,15 @@
+{
+  "description": "sec(arcsinh(x)*arctan(x))=1+12/4!*x^4-360/6!*x^6+26768/8!*x^8...",
+  "id": "A012632",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:31:38",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

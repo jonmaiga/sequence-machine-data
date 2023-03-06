@@ -1,0 +1,15 @@
+{
+  "description": "Exponent of 6 (value of i) in n-th number of form 6^i*10^j.",
+  "id": "A025663",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:41",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

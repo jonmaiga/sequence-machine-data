@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that fractional part of e^(Pi*sqrt(n)) > 0.99.",
+  "id": "A035484",
+  "mentions": [
+    "A019296",
+    "A127022",
+    "A127023",
+    "A127024",
+    "A127025"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

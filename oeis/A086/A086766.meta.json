@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest r where (concatenation of n, r times with itself)*10 + 1 is a prime given by A087403(n), or 0 if no such number exists.",
+  "id": "A086766",
+  "mentions": [
+    "A087403"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

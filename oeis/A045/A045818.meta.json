@@ -1,0 +1,21 @@
+{
+  "description": "Number of times the digits are repeated in A045817.",
+  "id": "A045818",
+  "mentions": [
+    "A038564",
+    "A038565",
+    "A045817"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

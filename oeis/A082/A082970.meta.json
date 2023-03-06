@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of length n containing 2 occurrences of 132.",
+  "id": "A082970",
+  "mentions": [
+    "A263771"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:47:09",
+    "offset": 4,
+    "size": 22,
+    "source": "joeis"
+  }
+}

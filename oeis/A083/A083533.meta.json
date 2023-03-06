@@ -1,0 +1,25 @@
+{
+  "description": "First difference sequence of A002202. Difference between consecutive possible values for phi(n).",
+  "id": "A083533",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A083531",
+    "A083532",
+    "A083534",
+    "A083535",
+    "A083536"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

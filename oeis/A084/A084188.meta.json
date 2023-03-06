@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1, a(n+1) = 2*a(n) + b(n+2), where b(n)=A004539(n) is the n-th bit in the binary expansion of sqrt(2).",
+  "id": "A084188",
+  "mentions": [
+    "A004539",
+    "A017910",
+    "A084185",
+    "A084186",
+    "A219085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

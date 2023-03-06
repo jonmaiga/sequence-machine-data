@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that phi(k) < phi(k - phi(k)).",
+  "id": "A051488",
+  "mentions": [
+    "A000010",
+    "A005384",
+    "A051487",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

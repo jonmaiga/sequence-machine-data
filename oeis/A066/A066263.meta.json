@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 2^k + 1 has just two distinct prime factors.",
+  "id": "A066263",
+  "mentions": [
+    "A000978",
+    "A001221",
+    "A046799",
+    "A057182",
+    "A073936",
+    "A092559",
+    "A107036",
+    "A127317",
+    "A283364",
+    "A283657"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that d(sigma(n)) = sigma(d(n)).",
+  "id": "A076361",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A076360"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

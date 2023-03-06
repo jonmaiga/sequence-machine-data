@@ -1,0 +1,21 @@
+{
+  "description": "Future of the smallest-perizeroin komet in Kimberling's expulsion array (A035486).",
+  "id": "A038807",
+  "mentions": [
+    "A006852",
+    "A007063",
+    "A035486",
+    "A038834"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

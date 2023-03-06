@@ -1,0 +1,22 @@
+{
+  "description": "Area of n-th triple of hexagons around a triangle.",
+  "id": "A092936",
+  "mentions": [
+    "A005386",
+    "A006190",
+    "A057076",
+    "A092184"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

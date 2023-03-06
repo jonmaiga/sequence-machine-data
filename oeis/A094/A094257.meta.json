@@ -1,0 +1,17 @@
+{
+  "description": "Let M be the 3 X 3 matrix [0 1 0 / 0 0 1 / 7 -35 21]. Take M^n * [1 1 1] = [p q r]; then a(n-1), a(n), a(n+1) = -p, -q, -r respectively.",
+  "id": "A094257",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:29:53",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

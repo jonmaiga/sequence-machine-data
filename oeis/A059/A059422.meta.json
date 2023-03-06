@@ -1,0 +1,18 @@
+{
+  "description": "Difference between number of even equivalence classes and odd classes of terms in a symmetric determinant of order n.",
+  "id": "A059422",
+  "mentions": [
+    "A002135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:14:18",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

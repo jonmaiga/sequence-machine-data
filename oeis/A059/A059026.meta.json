@@ -1,0 +1,24 @@
+{
+  "description": "Table B(n,m) read by rows: B(n,m) = LCM(n,m)/n + LCM(n,m)/m - 1 for all 1<=m<=n.",
+  "id": "A059026",
+  "mentions": [
+    "A016777",
+    "A022998",
+    "A059028",
+    "A059029",
+    "A059030",
+    "A059031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

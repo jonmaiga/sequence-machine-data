@@ -1,0 +1,20 @@
+{
+  "description": "Number of irreducible nonpositively curved triangulations of an n-gon: All internal vertices have at valence at least 6 and no diagonals of the n-gon are allowed.",
+  "id": "A060050",
+  "mentions": [
+    "A059710",
+    "A060049"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

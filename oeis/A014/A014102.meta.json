@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of 93rd cyclotomic polynomial.",
+  "id": "A014102",
+  "mentions": [
+    "A240328",
+    "A240465"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:25",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

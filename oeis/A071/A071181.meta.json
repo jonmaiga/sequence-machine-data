@@ -1,0 +1,21 @@
+{
+  "description": "Number of k such that phi(k) divides phi(n).",
+  "id": "A071181",
+  "mentions": [
+    "A000010",
+    "A057826",
+    "A066412"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

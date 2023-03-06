@@ -1,0 +1,16 @@
+{
+  "description": "Number of components in all forests on nodes on a circle.",
+  "id": "A045740",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:19:29",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

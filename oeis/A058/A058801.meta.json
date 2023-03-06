@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected vertically indecomposable partial lattices on n unlabeled nodes.",
+  "id": "A058801",
+  "mentions": [
+    "A006966",
+    "A022562",
+    "A058800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

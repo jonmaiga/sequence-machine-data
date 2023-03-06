@@ -1,0 +1,22 @@
+{
+  "description": "Prime worms (as defined below).",
+  "id": "A089291",
+  "mentions": [
+    "A048398",
+    "A048405",
+    "A089315",
+    "A089317"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

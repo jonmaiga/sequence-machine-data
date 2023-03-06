@@ -1,0 +1,28 @@
+{
+  "description": "Binary \"exponentiation\" without carries: {0..y}^{0..x}, where y (column index) is binary encoding of GF(2)-polynomial and x (row index) is the exponent.",
+  "id": "A048723",
+  "mentions": [
+    "A000695",
+    "A001317",
+    "A004248",
+    "A034369",
+    "A034373",
+    "A038183",
+    "A038184",
+    "A048710",
+    "A048720",
+    "A048731"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

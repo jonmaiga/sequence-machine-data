@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct prime factors of n-th term of Look and Say Sequence A005150.",
+  "id": "A079562",
+  "mentions": [
+    "A001221",
+    "A005150",
+    "A334132"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

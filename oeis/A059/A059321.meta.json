@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that m^2+1 is divisible by A002144(n)^2 (= squares of primes congruent to 1 mod 4).",
+  "id": "A059321",
+  "mentions": [
+    "A002144",
+    "A059591",
+    "A059592"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers which are neither prime nor lucky.",
+  "id": "A032584",
+  "mentions": [
+    "A000959",
+    "A032583"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:03:55",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

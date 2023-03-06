@@ -1,0 +1,27 @@
+{
+  "description": "Maximum number of regions into which the plane can be divided using n (concave) quadrilaterals.",
+  "id": "A077591",
+  "mentions": [
+    "A000217",
+    "A006752",
+    "A016754",
+    "A069129",
+    "A071974",
+    "A071975",
+    "A077588",
+    "A195605",
+    "A239186"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of independent components for a Weyl tensor in n dimensions.",
+  "id": "A052472",
+  "mentions": [
+    "A058373"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:04:25",
+    "offset": 3,
+    "size": 37,
+    "source": "joeis"
+  }
+}

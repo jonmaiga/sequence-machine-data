@@ -1,0 +1,22 @@
+{
+  "description": "Conjecturally, this is the minimal y such that n primes occur infinitely often among (x+1, ..., x+y), that is, pi(x+y) - pi(x) >= n for infinitely many x.",
+  "id": "A020497",
+  "mentions": [
+    "A008407",
+    "A023193",
+    "A047947",
+    "A066081"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

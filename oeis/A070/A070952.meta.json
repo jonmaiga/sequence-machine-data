@@ -1,0 +1,33 @@
+{
+  "description": "Number of 1's in n-th generation of 1-D CA using Rule 30, started with a single 1.",
+  "id": "A070952",
+  "mentions": [
+    "A051023",
+    "A070950",
+    "A070951",
+    "A071049",
+    "A110240",
+    "A110267",
+    "A151929",
+    "A245549",
+    "A246023",
+    "A246024",
+    "A246025",
+    "A246026",
+    "A246597",
+    "A265703",
+    "A269160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

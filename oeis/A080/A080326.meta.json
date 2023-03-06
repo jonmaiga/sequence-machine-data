@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum(k^mu(k): 1<=k<=n), where mu is the Moebius function (A008683).",
+  "id": "A080326",
+  "mentions": [
+    "A008683",
+    "A034386",
+    "A080304",
+    "A080305",
+    "A080306"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

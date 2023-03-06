@@ -1,0 +1,18 @@
+{
+  "description": "[1->01, 2->10, 3->01]-transform of 3-symbol Thue-Morse A026600.",
+  "id": "A057215",
+  "mentions": [
+    "A026600",
+    "A026605"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:36:15",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

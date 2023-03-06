@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between p and p+10 if p is prime, i.e., number of primes somewhere between 10+A023203(n) and A023203(n).",
+  "id": "A086138",
+  "mentions": [
+    "A023203",
+    "A023303",
+    "A031928",
+    "A031929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

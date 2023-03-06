@@ -1,0 +1,21 @@
+{
+  "description": "Number of functions of n points with no fixed points and with no symmetries.",
+  "id": "A032178",
+  "mentions": [
+    "A001373",
+    "A032177"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

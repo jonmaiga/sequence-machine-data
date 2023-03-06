@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) giving number of symmetric polynomials of degree n in k noncommuting variables, n >=2, 2 <= k <= n.",
+  "id": "A055106",
+  "mentions": [
+    "A055105",
+    "A055107",
+    "A074664"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:28:07",
+    "offset": 2,
+    "size": 55,
+    "source": "joeis"
+  }
+}

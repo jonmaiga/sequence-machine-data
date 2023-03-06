@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (5*4^n - 8)/6.",
+  "id": "A080675",
+  "mentions": [
+    "A014486",
+    "A020988",
+    "A072197",
+    "A079946",
+    "A106191",
+    "A122229"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

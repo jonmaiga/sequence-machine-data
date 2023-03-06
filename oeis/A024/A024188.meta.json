@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = ((n+2)!/2)(1/3 - 1/4 + ... + c/(n+2)), where c = (-1)^(n+1).",
+  "id": "A024188",
+  "mentions": [
+    "A024176"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Shifts left under transform T where Ta is phi DCONV a.",
+  "id": "A038045",
+  "mentions": [
+    "A000010",
+    "A054523"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:36:35",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

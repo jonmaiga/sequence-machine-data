@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number k such that the LCM of the terms of the Collatz trajectory of k has n distinct prime factors.",
+  "id": "A087228",
+  "mentions": [
+    "A001221",
+    "A006370",
+    "A078719",
+    "A082226",
+    "A086227",
+    "A087226",
+    "A087227"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

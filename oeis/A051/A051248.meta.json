@@ -1,0 +1,21 @@
+{
+  "description": "n^a(n) is smallest power of n (with a(n) > 1) which starts with n.",
+  "id": "A051248",
+  "mentions": [
+    "A045537",
+    "A070327",
+    "A104782"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

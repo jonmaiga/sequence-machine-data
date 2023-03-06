@@ -1,0 +1,20 @@
+{
+  "description": "Powers of ten written in base 7.",
+  "id": "A055478",
+  "mentions": [
+    "A000468",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

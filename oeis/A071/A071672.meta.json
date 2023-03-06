@@ -1,0 +1,23 @@
+{
+  "description": "The binary encoding of parenthesizations given in a \"global arithmetic order\", using A001477 as the packing bijection N X N -> N.",
+  "id": "A071672",
+  "mentions": [
+    "A001477",
+    "A057163",
+    "A063171",
+    "A071654",
+    "A071671",
+    "A071673"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

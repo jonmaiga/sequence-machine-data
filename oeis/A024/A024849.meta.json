@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least m such that if r and s in {|F(h+1)-tau*F(h)|: h = 1,2,...,n} satisfy r < s, then r < k/m < s for some integer k, where F = A000045 (Fibonacci numbers) and tau = (1+sqrt(5))/2 (golden ratio).",
+  "id": "A024849",
+  "mentions": [
+    "A000045",
+    "A001000",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:05",
+    "offset": 2,
+    "size": 20,
+    "source": "joeis"
+  }
+}

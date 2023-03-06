@@ -1,0 +1,21 @@
+{
+  "description": "Solutions of x^2 = ceiling(x*r*floor(x/r)) where r=Pi.",
+  "id": "A092328",
+  "mentions": [
+    "A002485",
+    "A088306",
+    "A249836",
+    "A332095"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

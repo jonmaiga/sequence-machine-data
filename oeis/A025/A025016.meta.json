@@ -1,0 +1,21 @@
+{
+  "description": "Final digits of !n = Sum i!, i=0..n, (A003422) for very large n, read from right.",
+  "id": "A025016",
+  "mentions": [
+    "A003422",
+    "A014182",
+    "A014619"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

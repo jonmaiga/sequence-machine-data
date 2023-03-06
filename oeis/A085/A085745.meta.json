@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that 2^m + m is a semiprime.",
+  "id": "A085745",
+  "mentions": [
+    "A089535",
+    "A089536",
+    "A089537",
+    "A165767",
+    "A165768",
+    "A165769"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

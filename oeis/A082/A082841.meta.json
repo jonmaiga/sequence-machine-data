@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 4*a(n-1) - a(n-2) for n>1, a(0)=3, a(1)=9.",
+  "id": "A082841",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A001834",
+    "A001835",
+    "A003500",
+    "A005320",
+    "A082840"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

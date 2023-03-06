@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of A076271(n): A006530(A076271(n)).",
+  "id": "A076272",
+  "mentions": [
+    "A006530",
+    "A008578",
+    "A075527",
+    "A076271",
+    "A076273",
+    "A180101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

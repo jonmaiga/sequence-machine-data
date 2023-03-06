@@ -1,0 +1,18 @@
+{
+  "description": "Cubes which are palindromes in base 13.",
+  "id": "A046248",
+  "mentions": [
+    "A046247"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Monotonically increasing sequence such that every positive integer n appears if and only if d(n) doesn't (d(n)=number of divisors of n, A000005).",
+  "id": "A080218",
+  "mentions": [
+    "A000005",
+    "A036459",
+    "A182859"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

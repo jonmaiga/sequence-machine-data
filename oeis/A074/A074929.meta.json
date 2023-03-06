@@ -1,0 +1,15 @@
+{
+  "description": "a(n)>0 such that p(n)*p(n+1)-a(n) is a maximal square.",
+  "id": "A074929",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

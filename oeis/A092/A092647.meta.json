@@ -1,0 +1,20 @@
+{
+  "description": "Absolute value of difference between counts of uninterrupted runs of 4 primes in A092645 and A092646.",
+  "id": "A092647",
+  "mentions": [
+    "A092645",
+    "A092646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

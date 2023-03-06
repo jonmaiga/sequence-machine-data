@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = Product_{n>=0} 1/(1-a(n)*x^(n+1))^2 = Sum_{n>=0} a(n)*x^n.",
+  "id": "A093638",
+  "mentions": [
+    "A093637",
+    "A093639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients of generating function of ternary rooted trees of height exactly n.",
+  "id": "A036437",
+  "mentions": [
+    "A036370"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

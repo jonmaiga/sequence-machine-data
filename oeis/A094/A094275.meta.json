@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: for 1 <= k < n, a(n, k) is the least number not already used. For n > 1, a(n, n) is the least number not already used such that the product of the n-th row is a multiple of the product of the previous row.",
+  "id": "A094275",
+  "mentions": [
+    "A094276",
+    "A094277",
+    "A094278",
+    "A094279"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

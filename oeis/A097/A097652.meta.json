@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n=phi(phi(n)+sigma(n)) and n is not of the form 2*p where p is a Sophie Germain odd prime.",
+  "id": "A097652",
+  "mentions": [
+    "A005384",
+    "A097646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Smallest number m that is coprime to n and such that the arithmetic progression (n+k*m:k>0) contains no primes for values not greater than n^2; a(1)=1.",
+  "id": "A089167",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

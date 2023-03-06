@@ -1,0 +1,19 @@
+{
+  "description": "Prime tribonacci numbers.",
+  "id": "A092836",
+  "mentions": [
+    "A000073",
+    "A056816",
+    "A092835"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

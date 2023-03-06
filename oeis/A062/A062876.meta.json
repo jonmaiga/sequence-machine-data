@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of lattice points corresponding to incrementally largest circle radii in A062875.",
+  "id": "A062876",
+  "mentions": [
+    "A001749",
+    "A017113",
+    "A046112",
+    "A062875",
+    "A111333"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

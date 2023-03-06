@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose abundance is (+-1) times a prime.",
+  "id": "A088005",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A077374",
+    "A087998"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

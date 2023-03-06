@@ -1,0 +1,27 @@
+{
+  "description": "Number of cyclic graphs with oriented edges on n nodes (up to symmetry of dihedral group).",
+  "id": "A053656",
+  "mentions": [
+    "A000011",
+    "A000031",
+    "A123045",
+    "A256216",
+    "A256217",
+    "A283846",
+    "A283847",
+    "A283848"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

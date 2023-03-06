@@ -1,0 +1,18 @@
+{
+  "description": "From the sequence of natural numbers, go on deleting n smallest multiples of n (>n) not deleted earlier; a(n) = the largest number deleted.",
+  "id": "A090979",
+  "mentions": [
+    "A090980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

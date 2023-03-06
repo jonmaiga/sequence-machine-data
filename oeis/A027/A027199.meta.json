@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = number of partitions of n into an odd number of parts, each >=k.",
+  "id": "A027199",
+  "mentions": [
+    "A026807",
+    "A027185",
+    "A027193",
+    "A027200"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:29",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

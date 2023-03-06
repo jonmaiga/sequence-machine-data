@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = tau(F(2^n)) where tau(x) is the number of divisors of x (A000005(x)) and F(k) the k-th Fibonacci number (A000045(k)).",
+  "id": "A074700",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A037917",
+    "A063375",
+    "A074715"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

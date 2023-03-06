@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1, a(n) = smallest palindromic multiple of a(n-1).",
+  "id": "A068664",
+  "mentions": [
+    "A068665",
+    "A068666",
+    "A068667",
+    "A068668",
+    "A068971",
+    "A068972",
+    "A068973",
+    "A068974",
+    "A070069"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

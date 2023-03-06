@@ -1,0 +1,20 @@
+{
+  "description": "Number of independent subsets of nodes of 4^n cube (P_4 X ... X P_4).",
+  "id": "A027668",
+  "mentions": [
+    "A027624",
+    "A027667"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

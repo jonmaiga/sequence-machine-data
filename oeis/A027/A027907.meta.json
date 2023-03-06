@@ -1,0 +1,41 @@
+{
+  "description": "Triangle of trinomial coefficients T(n,k) (n >= 0, 0 <= k <= 2*n), read by rows: n-th row is obtained by expanding (1 + x + x^2)^n.",
+  "id": "A027907",
+  "mentions": [
+    "A000073",
+    "A000244",
+    "A001006",
+    "A002426",
+    "A005581",
+    "A005712",
+    "A005717",
+    "A007318",
+    "A008287",
+    "A014531",
+    "A025177",
+    "A025564",
+    "A027023",
+    "A027908",
+    "A027913",
+    "A027914",
+    "A035000",
+    "A055217",
+    "A111808",
+    "A123531",
+    "A349812"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

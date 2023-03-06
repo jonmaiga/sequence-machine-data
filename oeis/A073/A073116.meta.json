@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction expansion of S/2 where S = Sum_{k>=0} 1/2^floor(k*phi) (A073115) and phi is the golden ratio (1+sqrt(5))/2 (A001622).",
+  "id": "A073116",
+  "mentions": [
+    "A000045",
+    "A000301",
+    "A001622",
+    "A073115"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

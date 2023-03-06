@@ -1,0 +1,25 @@
+{
+  "description": "An interleaving of the Genocchi numbers of the first and second kind, A110501 and A005439.",
+  "id": "A099960",
+  "mentions": [
+    "A001469",
+    "A005439",
+    "A022493",
+    "A099959",
+    "A110501",
+    "A138265",
+    "A294281"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

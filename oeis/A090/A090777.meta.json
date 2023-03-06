@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) divides k^2.",
+  "id": "A090777",
+  "mentions": [
+    "A000203",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

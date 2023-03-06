@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose factorial has '2' as its final nonzero digit.",
+  "id": "A045547",
+  "mentions": [
+    "A008904",
+    "A045548",
+    "A045549",
+    "A045550"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Digit sum of 'odd' number equals digit sum of 'sum' and 'juxtaposition' of its prime factors (counted with multiplicity).",
+  "id": "A036927",
+  "mentions": [
+    "A006753",
+    "A019506",
+    "A036921"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

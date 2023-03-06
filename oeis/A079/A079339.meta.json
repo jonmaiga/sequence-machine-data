@@ -1,0 +1,28 @@
+{
+  "description": "Least k such that the decimal representation of k*n contains only 1's and 0's.",
+  "id": "A079339",
+  "mentions": [
+    "A002275",
+    "A004290",
+    "A070189",
+    "A078241",
+    "A078248",
+    "A096681",
+    "A096688",
+    "A257343",
+    "A257344",
+    "A257345"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

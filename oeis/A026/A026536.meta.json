@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangular array T read by rows: T(i,0 ) = T(i,2i) = 1 for i >= 0; T(i,1) = T(i,2i-1) = floor(i/2) for i >= 1; for even n >= 2, T(i,j) = T(i-1,j-2) + T(i-1,j-1) + T(i-1,j) for j = 2..2i-2, for odd n >= 3, T(i,j) = T(i-1,j-2) + T(i-1,j) for j = 2..2i-2.",
+  "id": "A026536",
+  "mentions": [
+    "A026519",
+    "A026527",
+    "A026537",
+    "A026538",
+    "A026539",
+    "A026540",
+    "A026541",
+    "A026545",
+    "A026546",
+    "A026547",
+    "A026548",
+    "A026549",
+    "A026550",
+    "A026552",
+    "A026584",
+    "A027267",
+    "A027268",
+    "A027269",
+    "A027270",
+    "A027271",
+    "A027926",
+    "A352972"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

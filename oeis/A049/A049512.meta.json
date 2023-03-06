@@ -1,0 +1,23 @@
+{
+  "description": "Number of quasi-initially connected digraphs on n unlabeled nodes.",
+  "id": "A049512",
+  "mentions": [
+    "A003085",
+    "A003088",
+    "A035512",
+    "A049414",
+    "A051421"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

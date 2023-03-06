@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to tile hexagon of edges n, n+1, n+2, n, n+1, n+2 with diamonds of side 1.",
+  "id": "A071096",
+  "mentions": [
+    "A008793",
+    "A071094",
+    "A071095",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

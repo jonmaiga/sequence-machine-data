@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime a(n) > a(n-1) such that a(1) + ... + a(n) is a Fibonacci number.",
+  "id": "A078727",
+  "mentions": [
+    "A000045",
+    "A078735"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

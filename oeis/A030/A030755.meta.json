@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A030747(k) = 3.",
+  "id": "A030755",
+  "mentions": [
+    "A030747"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:49:51",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

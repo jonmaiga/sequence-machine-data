@@ -1,0 +1,21 @@
+{
+  "description": "3-fold convolution of A001700(n), n >= 0.",
+  "id": "A045720",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A008549"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Index of 10^n within sequence of numbers of form 3^i*10^j.",
+  "id": "A025741",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

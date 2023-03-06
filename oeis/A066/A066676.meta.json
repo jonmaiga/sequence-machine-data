@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number m such that phi(m) is a multiple of n-th primorial number, the product of first n primes.",
+  "id": "A066676",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A066674",
+    "A066675",
+    "A066677",
+    "A066678"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

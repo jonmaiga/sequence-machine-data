@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, a(n) = sum_{k=1}^{k=n-1} (8^k-1)/7 a(k).",
+  "id": "A015509",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:44:20",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

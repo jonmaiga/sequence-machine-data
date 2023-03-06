@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that p + 4^k is also prime for all k = 1, ..., n.",
+  "id": "A049500",
+  "mentions": [
+    "A023200",
+    "A049492",
+    "A049499"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

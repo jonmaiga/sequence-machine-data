@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that floor(k*e^Pi) begins with n (e^Pi=23.14069264...).",
+  "id": "A081224",
+  "mentions": [
+    "A078219",
+    "A078220",
+    "A081223",
+    "A081225",
+    "A081226"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

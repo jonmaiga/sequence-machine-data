@@ -1,0 +1,15 @@
+{
+  "description": "cosh(sinh(x)+arctan(x))=1+4/2!*x^2+8/4!*x^4+214/6!*x^6-2120/8!*x^8...",
+  "id": "A013065",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:57:55",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

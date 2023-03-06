@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with distinct decimal digits.",
+  "id": "A010784",
+  "mentions": [
+    "A001339",
+    "A029740",
+    "A029741",
+    "A029743",
+    "A043096",
+    "A043537",
+    "A055642",
+    "A073531",
+    "A107846",
+    "A109303",
+    "A178787",
+    "A178788"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Replace n with concatenation of its divisors >1.",
+  "id": "A037277",
+  "mentions": [
+    "A027750",
+    "A037278",
+    "A037284",
+    "A106708"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

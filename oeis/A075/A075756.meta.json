@@ -1,0 +1,19 @@
+{
+  "description": "Number of hierarchies of hierarchies of hierarchies on n points.",
+  "id": "A075756",
+  "mentions": [
+    "A075729",
+    "A075744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Let H_n = n-th Hilbert matrix; sequence gives 1 / ( det(H_n) * denominator(permanent(H_n)) ).",
+  "id": "A061914",
+  "mentions": [
+    "A005249"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

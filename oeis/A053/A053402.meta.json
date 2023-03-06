@@ -1,0 +1,19 @@
+{
+  "description": "Running distances (in meters) in Olympic athletics.",
+  "id": "A053402",
+  "mentions": [
+    "A005901"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k for which exactly 4 applications of A000005 are needed to reach 2.",
+  "id": "A036456",
+  "mentions": [
+    "A000005",
+    "A007624",
+    "A036450",
+    "A036452",
+    "A036453",
+    "A036455",
+    "A036457",
+    "A036459"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

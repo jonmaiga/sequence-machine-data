@@ -1,0 +1,17 @@
+{
+  "description": "Positions of even numbers in A000404 (sums of 2 nonzero squares).",
+  "id": "A024515",
+  "mentions": [
+    "A000404"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:31",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

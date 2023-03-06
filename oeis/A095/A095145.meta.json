@@ -1,0 +1,32 @@
+{
+  "description": "Triangle, read by rows, formed by reading Pascal's triangle (A007318) mod 12.",
+  "id": "A095145",
+  "mentions": [
+    "A007318",
+    "A008975",
+    "A034930",
+    "A034931",
+    "A034932",
+    "A047999",
+    "A083093",
+    "A095140",
+    "A095141",
+    "A095142",
+    "A095143",
+    "A095144",
+    "A275198"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:05",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

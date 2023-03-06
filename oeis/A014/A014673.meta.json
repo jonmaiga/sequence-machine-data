@@ -1,0 +1,31 @@
+{
+  "description": "Smallest prime factor of greatest proper divisor of n.",
+  "id": "A014673",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A020639",
+    "A025475",
+    "A027746",
+    "A032742",
+    "A054576",
+    "A084127",
+    "A085392",
+    "A085393",
+    "A115561",
+    "A117357",
+    "A117358",
+    "A281889"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

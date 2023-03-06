@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A071364(n) <> A046523(n).",
+  "id": "A071365",
+  "mentions": [
+    "A046523",
+    "A071364",
+    "A071366",
+    "A097319"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

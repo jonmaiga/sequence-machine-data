@@ -1,0 +1,25 @@
+{
+  "description": "Number of magic series of order n.",
+  "id": "A052456",
+  "mentions": [
+    "A007785",
+    "A052457",
+    "A052458",
+    "A067059",
+    "A068606",
+    "A100568",
+    "A204459"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

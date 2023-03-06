@@ -1,0 +1,26 @@
+{
+  "description": "Irregularity index of prime(n): number of numbers k, 1 <= k <= (p-3)/2, such that p = prime(n) divides the numerator of the Bernoulli number B(2k).",
+  "id": "A091888",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A002445",
+    "A027641",
+    "A027642",
+    "A060975",
+    "A061576",
+    "A073277",
+    "A091887"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

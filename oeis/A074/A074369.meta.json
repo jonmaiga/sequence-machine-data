@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of Sum_{i=1..n} prime(i).",
+  "id": "A074369",
+  "mentions": [
+    "A000005",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

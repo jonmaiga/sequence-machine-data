@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured values of first prime in the orbit f(m), f(f(m)), ..., where f(n) = A067599(n) and m = n-th composite number; or 0 if none exists.",
+  "id": "A066817",
+  "mentions": [
+    "A002808",
+    "A067599",
+    "A067600"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

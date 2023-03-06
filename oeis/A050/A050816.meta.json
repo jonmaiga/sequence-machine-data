@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci(k) ending with digits of its index number k.",
+  "id": "A050816",
+  "mentions": [
+    "A000045",
+    "A000350",
+    "A038546",
+    "A052000"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:22:30",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

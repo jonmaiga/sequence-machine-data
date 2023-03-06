@@ -1,0 +1,29 @@
+{
+  "description": "Except for initial term, primes of form \"n 3's followed by 1\".",
+  "id": "A051200",
+  "mentions": [
+    "A005165",
+    "A033175",
+    "A051015",
+    "A055520",
+    "A056698",
+    "A089017",
+    "A089018",
+    "A093671",
+    "A105427",
+    "A105428",
+    "A123568"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:31:35",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

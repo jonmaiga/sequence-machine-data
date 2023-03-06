@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (2*n+4)!!/4!!, related to A000165 (even double factorials).",
+  "id": "A051578",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A001710",
+    "A002866",
+    "A051577",
+    "A051579",
+    "A051580",
+    "A051581",
+    "A051582",
+    "A051583"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

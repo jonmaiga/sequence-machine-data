@@ -1,0 +1,15 @@
+{
+  "description": "Magnetic susceptibility coefficients for square lattice spin 1 Ising model.",
+  "id": "A010115",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

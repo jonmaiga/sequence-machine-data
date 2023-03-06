@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1+x)^2/(1-x^2-x^4).",
+  "id": "A096748",
+  "mentions": [
+    "A000045",
+    "A079977",
+    "A134972",
+    "A239798"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

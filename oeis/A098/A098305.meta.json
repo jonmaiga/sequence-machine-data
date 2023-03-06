@@ -1,0 +1,21 @@
+{
+  "description": "Unsigned member r=-5 of the family of Chebyshev sequences S_r(n) defined in A092184.",
+  "id": "A098305",
+  "mentions": [
+    "A000032",
+    "A056854",
+    "A092184"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:47:45",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

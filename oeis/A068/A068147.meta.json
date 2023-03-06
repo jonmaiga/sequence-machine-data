@@ -1,0 +1,21 @@
+{
+  "description": "Primes in right concatenation of triangular numbers.",
+  "id": "A068147",
+  "mentions": [
+    "A078891"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

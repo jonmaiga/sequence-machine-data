@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of noncomposite numbers such that every partial sum is composite.",
+  "id": "A075568",
+  "mentions": [
+    "A123055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of cototient values of consecutive integers.",
+  "id": "A083548",
+  "mentions": [
+    "A049586",
+    "A051953",
+    "A083538",
+    "A083555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

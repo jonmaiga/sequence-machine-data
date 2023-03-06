@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of odd terms in the probability of obtaining an acute triangle by picking n points at random in the unit n-ball.",
+  "id": "A093757",
+  "mentions": [
+    "A093756",
+    "A093758",
+    "A093759",
+    "A093760",
+    "A093761"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

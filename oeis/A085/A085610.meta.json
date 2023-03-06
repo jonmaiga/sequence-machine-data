@@ -1,0 +1,15 @@
+{
+  "description": "Least m ending in 1 such that m^n ends in a string of n 0's followed by the final 1.",
+  "id": "A085610",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

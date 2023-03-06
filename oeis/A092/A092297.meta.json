@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of 3-coloring an annulus consisting of n zones joined like a pearl necklace.",
+  "id": "A092297",
+  "mentions": [
+    "A001045",
+    "A106512",
+    "A218034"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

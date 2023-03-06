@@ -1,0 +1,18 @@
+{
+  "description": "The limit of a continued fraction.",
+  "id": "A071851",
+  "mentions": [
+    "A072981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

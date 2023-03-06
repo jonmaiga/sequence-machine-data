@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(n+1) = if a(n)=n then 2*n+1 else smallest number not occurring earlier.",
+  "id": "A099257",
+  "mentions": [
+    "A033484",
+    "A068156",
+    "A099258"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

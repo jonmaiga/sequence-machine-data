@@ -1,0 +1,23 @@
+{
+  "description": "Maximum numbers of cards that would have no SET in an n-attribute version of the SET card game.",
+  "id": "A090245",
+  "mentions": [
+    "A003142",
+    "A090246",
+    "A156989"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

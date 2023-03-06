@@ -1,0 +1,28 @@
+{
+  "description": "Cubefree numbers which are not squarefree.",
+  "id": "A067259",
+  "mentions": [
+    "A000005",
+    "A004709",
+    "A005117",
+    "A008966",
+    "A048109",
+    "A051903",
+    "A059956",
+    "A067295",
+    "A086436",
+    "A088453",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

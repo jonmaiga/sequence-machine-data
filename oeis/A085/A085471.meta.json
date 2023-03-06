@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of coefficients of numerators of powers of e^2 in Sum_{k>=1} {1 / (1 + (k+1/2)^2*Pi^2)^n} + {4^n / (4+Pi^2)^n}.",
+  "id": "A085471",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

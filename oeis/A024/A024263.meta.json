@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of sinh(tan(x)*x)/2.",
+  "id": "A024263",
+  "mentions": [
+    "A009252",
+    "A009611"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

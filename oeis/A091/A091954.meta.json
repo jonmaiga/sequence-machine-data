@@ -1,0 +1,45 @@
+{
+  "description": "Number of odd proper divisors of n. That is, the number of odd divisors of n that are less than n.",
+  "id": "A091954",
+  "mentions": [
+    "A000005",
+    "A000035",
+    "A001227",
+    "A007814",
+    "A032741",
+    "A091570",
+    "A293214",
+    "A293216",
+    "A351647",
+    "A352031",
+    "A352032",
+    "A352033",
+    "A352034",
+    "A352035",
+    "A352036",
+    "A352037",
+    "A352038",
+    "A352047",
+    "A352048",
+    "A352049",
+    "A352050",
+    "A352051",
+    "A352052",
+    "A352053",
+    "A352054",
+    "A352055",
+    "A352056"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

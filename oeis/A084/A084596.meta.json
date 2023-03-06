@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of times n is in sequence A014085; i.e., there are exactly a(n) cases where there are exactly n primes between m^2 and (m+1)^2 for m >= 0.",
+  "id": "A084596",
+  "mentions": [
+    "A007491",
+    "A014085",
+    "A084597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

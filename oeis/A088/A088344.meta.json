@@ -1,0 +1,21 @@
+{
+  "description": "Powers of 3 grouped in pairs of 2 digits.",
+  "id": "A088344",
+  "mentions": [
+    "A030622",
+    "A030623",
+    "A030624"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

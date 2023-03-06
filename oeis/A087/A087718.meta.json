@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes with greater factor less than twice the smaller factor.",
+  "id": "A087718",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A084126",
+    "A084127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

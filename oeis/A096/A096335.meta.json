@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations of n -> n + tau(n) needed for the trajectory of n to join the trajectory of A064491, or -1 if the two trajectories never merge.",
+  "id": "A096335",
+  "mentions": [
+    "A000005",
+    "A036434",
+    "A064491"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

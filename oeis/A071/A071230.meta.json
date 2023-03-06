@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(6*n^2 - 7*n + 3)/2.",
+  "id": "A071230",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:11",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

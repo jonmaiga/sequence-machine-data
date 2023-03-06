@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/22.",
+  "id": "A021026",
+  "mentions": [
+    "A010710"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:25",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

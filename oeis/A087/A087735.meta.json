@@ -1,0 +1,17 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = o(n,k), where o(,) is a binary operation arising from counting the elements that are sums of m squares in a field of characteristic not equal to 2.",
+  "id": "A087735",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive integer such that for 1 <= k <= n, the concatenation of the k terms a(n-k+1) through a(n) is a multiple of k.",
+  "id": "A096085",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

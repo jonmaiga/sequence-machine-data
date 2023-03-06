@@ -1,0 +1,22 @@
+{
+  "description": "Largest palindromic substring in 2^n.",
+  "id": "A046260",
+  "mentions": [
+    "A000079",
+    "A046268",
+    "A047813"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(a(n-1)/2) if this is not among 0, a(1), ..., a(n-1); otherwise a(n) = 2*n.",
+  "id": "A050128",
+  "mentions": [
+    "A050000",
+    "A050129",
+    "A050130",
+    "A050131",
+    "A050132"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

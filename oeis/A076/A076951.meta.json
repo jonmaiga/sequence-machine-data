@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > 0 such that nk-1 is an n-th power, or 0 if no such number exists.",
+  "id": "A076951",
+  "mentions": [
+    "A076952",
+    "A081209",
+    "A081215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

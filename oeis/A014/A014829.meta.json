@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(n) = 6*a(n-1) + n.",
+  "id": "A014829",
+  "mentions": [
+    "A003948"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

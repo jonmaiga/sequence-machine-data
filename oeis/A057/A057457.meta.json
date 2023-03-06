@@ -1,0 +1,19 @@
+{
+  "description": "Prime recurrence: a(n+1) = a(n)-th prime, with a(1) = 12.",
+  "id": "A057457",
+  "mentions": [
+    "A007097"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime averages of two successive perfect powers (A001597(k) + A001597(k+1))/2.",
+  "id": "A075455",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Determinant of n X n matrix defined by m(i,j)=1 if i^2+j^2 is a prime, m(i,j)=0 otherwise.",
+  "id": "A071524",
+  "mentions": [
+    "A069191",
+    "A228552",
+    "A228557",
+    "A228559",
+    "A228561",
+    "A228574",
+    "A228578",
+    "A228591"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

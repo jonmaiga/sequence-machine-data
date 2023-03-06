@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A030767.",
+  "id": "A030771",
+  "mentions": [
+    "A030767",
+    "A030772"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:07",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "Digitally balanced numbers: positive numbers that in base 2 have the same number of 0's as 1's.",
+  "id": "A031443",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A001700",
+    "A006519",
+    "A014486",
+    "A023416",
+    "A037861",
+    "A049354",
+    "A049360",
+    "A053754",
+    "A061854",
+    "A070939",
+    "A079309",
+    "A090050",
+    "A144777",
+    "A144798",
+    "A144799",
+    "A144800",
+    "A144801",
+    "A144812",
+    "A144912",
+    "A145037",
+    "A145057",
+    "A145058",
+    "A145059",
+    "A145060",
+    "A179888",
+    "A191292"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

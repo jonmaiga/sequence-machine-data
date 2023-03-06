@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integers not excluded by the rule that if n is present then 2n+1 and 3n+1 are not allowed.",
+  "id": "A077477",
+  "mentions": [
+    "A002977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest multiple of n^2 beginning and ending in n, or 0 if no such multiple exists.",
+  "id": "A078211",
+  "mentions": [
+    "A077209",
+    "A077210",
+    "A078208",
+    "A078212"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

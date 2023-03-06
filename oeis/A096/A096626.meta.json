@@ -1,0 +1,18 @@
+{
+  "description": "Triangle (read by rows) where the number of row entries increases by steps of 2 and the entries are stacked in a rectangular fashion. The left end entry = 1 if row number is even, the right end entry = 1 if row number is odd. Rest of entries = sum of the entry directly above in the previous row plus the two entries (when present) in the previous row that are either to the left (if the current row number is even) or to the right (if odd).",
+  "id": "A096626",
+  "mentions": [
+    "A000244"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

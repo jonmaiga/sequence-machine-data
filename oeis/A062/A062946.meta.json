@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that have a larger multiple which differ in just one digit from its reverse.",
+  "id": "A062946",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

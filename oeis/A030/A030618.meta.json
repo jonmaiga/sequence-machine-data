@@ -1,0 +1,17 @@
+{
+  "description": "(# 1's)-(# 2's) in first n terms of A030604.",
+  "id": "A030618",
+  "mentions": [
+    "A030604"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

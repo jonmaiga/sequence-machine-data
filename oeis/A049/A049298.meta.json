@@ -1,0 +1,19 @@
+{
+  "description": "Take reduced residue systems of n, generate its first differences, dRRS(n); sequence gives maximal value of dRSSS(n).",
+  "id": "A049298",
+  "mentions": [
+    "A002110",
+    "A048669",
+    "A048670"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:36:39",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

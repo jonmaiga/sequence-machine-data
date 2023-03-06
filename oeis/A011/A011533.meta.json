@@ -1,0 +1,30 @@
+{
+  "description": "Numbers that contain a 3.",
+  "id": "A011533",
+  "mentions": [
+    "A011531",
+    "A011532",
+    "A011534",
+    "A011535",
+    "A011536",
+    "A011537",
+    "A011538",
+    "A011539",
+    "A011540",
+    "A016189",
+    "A052405"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

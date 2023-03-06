@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = smallest n-digit prime in A057876.",
+  "id": "A057877",
+  "mentions": [
+    "A034302",
+    "A034303",
+    "A034304",
+    "A034305",
+    "A051362",
+    "A057876",
+    "A057878",
+    "A057879",
+    "A057880",
+    "A057881",
+    "A057882",
+    "A057883"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

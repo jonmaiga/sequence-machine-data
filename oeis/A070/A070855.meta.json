@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime of the form k*n^n + 1.",
+  "id": "A070855",
+  "mentions": [
+    "A110932",
+    "A121270",
+    "A175763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

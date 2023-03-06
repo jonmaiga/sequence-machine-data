@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = C(n)*(8n+1) where C(n)=Catalan numbers (A000108).",
+  "id": "A050478",
+  "mentions": [
+    "A000108",
+    "A016993",
+    "A051945",
+    "A330965"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

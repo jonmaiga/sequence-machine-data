@@ -1,0 +1,23 @@
+{
+  "description": "Largest number that is not a quadratic residue modulo prime(n).",
+  "id": "A088196",
+  "mentions": [
+    "A088190",
+    "A088197",
+    "A088198",
+    "A088199",
+    "A088200",
+    "A088201"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

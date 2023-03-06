@@ -1,0 +1,17 @@
+{
+  "description": "Theta series of 7-dimensional lattice Kappa_7*.",
+  "id": "A029696",
+  "mentions": [
+    "A015236"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of lunar partitions of n: number of ways of writing n as a lunar sum of distinct terms, ignoring order.",
+  "id": "A087079",
+  "mentions": [
+    "A003465",
+    "A010036",
+    "A087061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, giving coefficients when output sequence O_0, O_1, O_2, ... from transformation described in A059216 is expressed in terms of input sequence I_0, I_1, I_2, ...",
+  "id": "A059718",
+  "mentions": [
+    "A059216",
+    "A059720"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

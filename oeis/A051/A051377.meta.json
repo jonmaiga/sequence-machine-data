@@ -1,0 +1,27 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) = sum of exponential divisors (or e-divisors) of n.",
+  "id": "A051377",
+  "mentions": [
+    "A027748",
+    "A027750",
+    "A049419",
+    "A051378",
+    "A124010",
+    "A126164",
+    "A322791"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

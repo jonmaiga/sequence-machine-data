@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Fibonacci(binomial(n+2,2)).",
+  "id": "A081667",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A033192",
+    "A045995",
+    "A054783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

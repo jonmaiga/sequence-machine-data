@@ -1,0 +1,33 @@
+{
+  "description": "Smaller term of a pair of twin primes such that prime factors of their average are only 2 and 3.",
+  "id": "A059960",
+  "mentions": [
+    "A002822",
+    "A014574",
+    "A027856",
+    "A033845",
+    "A052297",
+    "A058383",
+    "A075580",
+    "A075581",
+    "A075583",
+    "A075584",
+    "A075585",
+    "A075586",
+    "A075587",
+    "A075588",
+    "A075589",
+    "A078883"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

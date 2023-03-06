@@ -1,0 +1,20 @@
+{
+  "description": "Symmetric square table, read by antidiagonals, such that antidiagonal sums form the first row shifted left: T(0,0)=1, T(0,k) = Sum_{m=0..k-1} T(m,k-1-m) when k > 0; and T(n,k) = T(n-1,k) + T(n,k-1) when n > 0, k > 0.",
+  "id": "A084867",
+  "mentions": [
+    "A006012",
+    "A084868"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

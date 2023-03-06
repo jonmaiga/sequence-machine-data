@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime factors of Sigma_4[n], the sum of 4th powers of divisors of n.",
+  "id": "A066102",
+  "mentions": [
+    "A001159",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

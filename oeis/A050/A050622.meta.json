@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m that are divisible by 2^k, where k is the digit length of m.",
+  "id": "A050622",
+  "mentions": [
+    "A035014",
+    "A050621",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

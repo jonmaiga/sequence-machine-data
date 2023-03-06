@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form Fibonacci(p+1)/p, where p are primes >= 7 that end in 3 or 7 (i.e., p = A003631(n) for n > 2).",
+  "id": "A094809",
+  "mentions": [
+    "A003631",
+    "A094808",
+    "A096028"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

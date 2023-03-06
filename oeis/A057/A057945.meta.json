@@ -1,0 +1,24 @@
+{
+  "description": "Number of triangular numbers needed to represent n with greedy algorithm.",
+  "id": "A057945",
+  "mentions": [
+    "A000217",
+    "A000462",
+    "A002262",
+    "A006019",
+    "A006893",
+    "A056944",
+    "A057944"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

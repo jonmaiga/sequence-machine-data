@@ -1,0 +1,21 @@
+{
+  "description": "Possible differences between a square and the closest smaller cube.",
+  "id": "A087286",
+  "mentions": [
+    "A054504",
+    "A087285",
+    "A088017",
+    "A165289"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

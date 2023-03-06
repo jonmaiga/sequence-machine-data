@@ -1,0 +1,18 @@
+{
+  "description": "Harmonic means of (1+e)-divisors of (1+e)-harmonic numbers.",
+  "id": "A053784",
+  "mentions": [
+    "A049599",
+    "A051378"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

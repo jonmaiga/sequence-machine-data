@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers such that sum of digits equals product of digits.",
+  "id": "A066306",
+  "mentions": [
+    "A000040",
+    "A034710",
+    "A061672",
+    "A066307"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

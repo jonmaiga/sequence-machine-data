@@ -1,0 +1,19 @@
+{
+  "description": "Limit of the power tower t(2)^(t(3)^(t(4)^(t(5)^(...) ...))) in which t(n)=n^(1/n!).",
+  "id": "A098584",
+  "mentions": [
+    "A098454"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

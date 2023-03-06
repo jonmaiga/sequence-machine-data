@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of 1/((1-x^8)(1-x^9)(1-x^10)(1-x^12)).",
+  "id": "A029443",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:41:17",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

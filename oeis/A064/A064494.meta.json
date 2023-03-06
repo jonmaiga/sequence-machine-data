@@ -1,0 +1,20 @@
+{
+  "description": "Shotgun (or Schrotschuss) numbers: limit of the recursion B(k) =T[k](B(k-1)), where B(1) = (1,2,3,4,5,...) and T[k] is the Transformation that permutes the entries k(2i-1) and k(2i) for all positive integers i.",
+  "id": "A064494",
+  "mentions": [
+    "A064590",
+    "A064627",
+    "A064728"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Sum of digits of n written in base 11.",
+  "id": "A053831",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A053735",
+    "A053737",
+    "A053824",
+    "A053827",
+    "A053828",
+    "A053829",
+    "A053830",
+    "A053832",
+    "A053833",
+    "A053834",
+    "A053835",
+    "A053836",
+    "A064458",
+    "A138530"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

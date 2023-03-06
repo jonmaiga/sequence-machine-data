@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of Jacobi theta function theta_2(q^(1/2))/q^(1/8).",
+  "id": "A089799",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci(n) as n runs through the quarter-squares.",
+  "id": "A088795",
+  "mentions": [
+    "A002620"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-6 is also prime. (Upper of a pair of sexy primes.)",
+  "id": "A046117",
+  "mentions": [
+    "A023201",
+    "A087695",
+    "A098428"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:01",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

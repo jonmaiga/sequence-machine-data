@@ -1,0 +1,18 @@
+{
+  "description": "Difference between last prime < 10^n and 10^n is a record high.",
+  "id": "A038805",
+  "mentions": [
+    "A033874"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

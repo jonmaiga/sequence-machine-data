@@ -1,0 +1,21 @@
+{
+  "description": "Sum modulo n of all the digits of n in every base from 2 to n-1.",
+  "id": "A014836",
+  "mentions": [
+    "A014834",
+    "A014837",
+    "A116987"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:47",
+    "offset": 3,
+    "size": 78,
+    "source": "joeis"
+  }
+}

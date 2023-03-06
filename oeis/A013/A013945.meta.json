@@ -1,0 +1,20 @@
+{
+  "description": "Least d such that period of continued fraction for sqrt(d) contains n (n^2+2 if n odd, (n/2)^2+1 if n even).",
+  "id": "A013945",
+  "mentions": [
+    "A002522",
+    "A164897"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:09",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

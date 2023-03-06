@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of two positive cubes in at least three ways (all solutions).",
+  "id": "A018787",
+  "mentions": [
+    "A001235",
+    "A003825",
+    "A023051",
+    "A025294",
+    "A025398",
+    "A344804"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers > 1 in A051168, with a(0) = 1.",
+  "id": "A092964",
+  "mentions": [
+    "A051168",
+    "A093210",
+    "A185158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

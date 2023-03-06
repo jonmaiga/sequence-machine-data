@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n) for n > 1 is the smallest multiple of a(n-1) that is a square and begins with n.",
+  "id": "A078215",
+  "mentions": [
+    "A078216",
+    "A078815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

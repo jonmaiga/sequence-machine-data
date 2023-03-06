@@ -1,0 +1,20 @@
+{
+  "description": "Number of horizontally convex n-ominoes in which the top row has exactly 1 square.",
+  "id": "A049219",
+  "mentions": [
+    "A001169",
+    "A049221"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:33:17",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

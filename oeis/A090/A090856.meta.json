@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer such that the integer part of the arithmetic-geometric mean of a(n) and 1 is equal to 3^n.",
+  "id": "A090856",
+  "mentions": [
+    "A090852",
+    "A090854",
+    "A090857"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square array giving number of unimodal functions [n]->[m] for n>=0, m>=0, with a(0,m)=1 by definition, read by antidiagonals.",
+  "id": "A071921",
+  "mentions": [
+    "A071920",
+    "A225010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

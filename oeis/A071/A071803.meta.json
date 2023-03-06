@@ -1,0 +1,22 @@
+{
+  "description": "Number of paths in the lattice [0..n] X [0..n] X [0..n] which do not pass through the point (floor(n/2), floor(n/2), floor(n/2)). Number of paths through a lattice containing a \"hole\".",
+  "id": "A071803",
+  "mentions": [
+    "A006480",
+    "A071800",
+    "A071801"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

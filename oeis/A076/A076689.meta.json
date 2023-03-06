@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that k*prime(n)# + 1 is prime where prime(n)# is the n-th primorial number A002110(n).",
+  "id": "A076689",
+  "mentions": [
+    "A002110",
+    "A014545",
+    "A073917"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

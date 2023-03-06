@@ -1,0 +1,23 @@
+{
+  "description": "High-temperature coefficients for the internal energy for spin-1/2 Ising model on 4-d cubic lattice.",
+  "id": "A010572",
+  "mentions": [
+    "A010557",
+    "A010571",
+    "A010573",
+    "A010574",
+    "A030044"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

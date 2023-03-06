@@ -1,0 +1,16 @@
+{
+  "description": "Previous palindromic prime concatenated with this palindromic prime is prime.",
+  "id": "A030463",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:01:42",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

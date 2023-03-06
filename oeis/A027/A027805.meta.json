@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 21*(n+1)*binomial(n+4,9).",
+  "id": "A027805",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:29",
+    "offset": 5,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Sum of ordered factorizations over all prime signatures with n factors.",
+  "id": "A035341",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000079",
+    "A000110",
+    "A000670",
+    "A001792",
+    "A005649",
+    "A005651",
+    "A025487",
+    "A035098",
+    "A035310",
+    "A074206",
+    "A095705",
+    "A247551",
+    "A261719"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

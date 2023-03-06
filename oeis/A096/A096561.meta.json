@@ -1,0 +1,21 @@
+{
+  "description": "Consecutive internal states of the second of the two linear congruential random number generators whose combined output is used in function RANDOM_NUMBER in version 8 of the Intel FORTRAN Compiler for Linux, using its intrinsic initialization.",
+  "id": "A096561",
+  "mentions": [
+    "A061364",
+    "A096550",
+    "A096560"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

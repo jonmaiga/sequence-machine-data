@@ -1,0 +1,18 @@
+{
+  "description": "Variation on Ulam numbers: a(1) = 1; a(2) = 2; for n>2, a(n) is smallest (n odd) or largest (n even) new number that is the sum of two distinct earlier terms.",
+  "id": "A081025",
+  "mentions": [
+    "A002858",
+    "A081026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

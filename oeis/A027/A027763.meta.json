@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that 2^^n is not congruent to 2^^(n-1) mod k, where 2^^n denotes the power tower 2^2^...^2 (in which 2 appears n times).",
+  "id": "A027763",
+  "mentions": [
+    "A056637",
+    "A173927",
+    "A185816",
+    "A246491"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

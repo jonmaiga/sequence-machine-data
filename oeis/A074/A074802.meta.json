@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers k <= n such that tau(k) = tau(k+1) where tau(x) = A000005(x) is the number of divisors of x.",
+  "id": "A074802",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A130638"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

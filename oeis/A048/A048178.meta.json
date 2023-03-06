@@ -1,0 +1,19 @@
+{
+  "description": "Bases b associated with A048177.",
+  "id": "A048178",
+  "mentions": [
+    "A048177"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(d(n^3), d(n)).",
+  "id": "A069780",
+  "mentions": [
+    "A000005",
+    "A037992",
+    "A069781",
+    "A069782"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

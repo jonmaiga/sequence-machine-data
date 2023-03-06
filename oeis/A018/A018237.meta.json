@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of hypothetical [ 68,34,12 ] code derived from hypothetical [ 72,36,16 ] doubly-even self-dual code.",
+  "id": "A018237",
+  "mentions": [
+    "A018236"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

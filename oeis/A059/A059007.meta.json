@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that m^2 reversed is a prime.",
+  "id": "A059007",
+  "mentions": [
+    "A007488",
+    "A059008",
+    "A059205",
+    "A059206",
+    "A059207",
+    "A059208",
+    "A059209",
+    "A059210",
+    "A059211",
+    "A059212",
+    "A059213"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

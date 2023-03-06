@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k divides the sum of digits of 6^k.",
+  "id": "A067864",
+  "mentions": [
+    "A000400",
+    "A066002",
+    "A067862",
+    "A067863",
+    "A175169",
+    "A175457"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

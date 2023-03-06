@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor( n(n+1)(n+2)(n+3)(n+4) / (n+(n+1)+(n+2)+(n+3)+(n+4)) ).",
+  "id": "A032768",
+  "mentions": [
+    "A032769",
+    "A032770"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:57",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

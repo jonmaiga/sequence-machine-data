@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit prime containing only digits 1 and 7, or 0 if no such prime exists.",
+  "id": "A036934",
+  "mentions": [
+    "A020455",
+    "A036229",
+    "A036307"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

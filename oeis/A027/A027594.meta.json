@@ -1,0 +1,20 @@
+{
+  "description": "Sequence satisfies T^2(a)=a, where T is defined below.",
+  "id": "A027594",
+  "mentions": [
+    "A003633",
+    "A027593"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

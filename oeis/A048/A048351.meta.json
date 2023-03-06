@@ -1,0 +1,21 @@
+{
+  "description": "a(n)^2 is the smallest square containing exactly n 6's.",
+  "id": "A048351",
+  "mentions": [
+    "A034988",
+    "A036513"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

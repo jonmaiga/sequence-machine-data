@@ -1,0 +1,46 @@
+{
+  "description": "Number of distinct degree sequences among all n-vertex graphs with no isolated vertices.",
+  "id": "A095268",
+  "mentions": [
+    "A000569",
+    "A002494",
+    "A004250",
+    "A004251",
+    "A006125",
+    "A006129",
+    "A007717",
+    "A007721",
+    "A027187",
+    "A028260",
+    "A029889",
+    "A058696",
+    "A096373",
+    "A181819",
+    "A271831",
+    "A300061",
+    "A309356",
+    "A320458",
+    "A320921",
+    "A320922",
+    "A322661",
+    "A339559",
+    "A339560",
+    "A339659",
+    "A339741",
+    "A339843",
+    "A339844",
+    "A339845"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

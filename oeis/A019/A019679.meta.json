@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Pi/12.",
+  "id": "A019679",
+  "mentions": [
+    "A000796",
+    "A003881",
+    "A019669",
+    "A019670",
+    "A019673",
+    "A019675",
+    "A019683",
+    "A197476",
+    "A244978"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Numbers which can be written as sum of squares>1.",
+  "id": "A078137",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A025475",
+    "A078131",
+    "A078134",
+    "A078135",
+    "A078136",
+    "A078139",
+    "A090677",
+    "A134600",
+    "A134605",
+    "A134608",
+    "A134612",
+    "A134616",
+    "A134618",
+    "A134620"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:03",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

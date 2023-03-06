@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of rings with n elements.",
+  "id": "A037234",
+  "mentions": [
+    "A027623"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

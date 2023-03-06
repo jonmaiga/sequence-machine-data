@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=B(2n,4)/B(2n) (see comment).",
+  "id": "A096047",
+  "mentions": [
+    "A096045",
+    "A096046",
+    "A096048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:28:27",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

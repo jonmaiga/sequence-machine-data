@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct differences between consecutive divisors of n (ordered by size).",
+  "id": "A060682",
+  "mentions": [
+    "A000005",
+    "A060680",
+    "A060681",
+    "A060683",
+    "A193829"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

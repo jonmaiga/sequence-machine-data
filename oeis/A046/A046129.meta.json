@@ -1,0 +1,19 @@
+{
+  "description": "Middle side b of scalene integer Heronian triangles sorted by increasing c and b.",
+  "id": "A046129",
+  "mentions": [
+    "A046128",
+    "A046130",
+    "A046131"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

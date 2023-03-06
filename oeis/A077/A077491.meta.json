@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k such that 2k has digit sum = n.",
+  "id": "A077491",
+  "mentions": [
+    "A069532",
+    "A069534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:55:05",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

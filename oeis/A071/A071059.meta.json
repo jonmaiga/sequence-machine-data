@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of pairing even numbers in the range 1 to n with odd numbers in the range n+1 to 2n such that each pair sums to a prime.",
+  "id": "A071059",
+  "mentions": [
+    "A070897",
+    "A071058"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

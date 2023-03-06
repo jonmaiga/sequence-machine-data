@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2310*p + 1 where p is a prime.",
+  "id": "A051649",
+  "mentions": [
+    "A002110",
+    "A005384",
+    "A005385",
+    "A007693"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:35",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

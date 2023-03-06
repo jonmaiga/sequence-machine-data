@@ -1,0 +1,17 @@
+{
+  "description": "Let N = 2357111317192329313741434753..., the concatenation of the primes; a(n) = sum of first n digits of N.",
+  "id": "A067112",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:17",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

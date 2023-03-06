@@ -1,0 +1,18 @@
+{
+  "description": "a(n) gives the number of steps taken in a process which manipulates piles of tokens arranged in a line. There are 2n (or 2n+1) tokens in all. Initially they are all in one pile. At each step every pile with more than 1 token is divided into two and half the token are added to the pile on the left and half to the pile on the right. If a pile has an odd number of tokens, the token left over stays where it is. The redistributions in each step are done in parallel.",
+  "id": "A088803",
+  "mentions": [
+    "A088804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

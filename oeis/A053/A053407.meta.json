@@ -1,0 +1,17 @@
+{
+  "description": "Traditional type sizes (in typographic points) for printing.",
+  "id": "A053407",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "n! divided by its squarefree kernel.",
+  "id": "A049614",
+  "mentions": [
+    "A000142",
+    "A002110",
+    "A003418",
+    "A034386",
+    "A036691",
+    "A045948",
+    "A048148",
+    "A064808",
+    "A129995",
+    "A131527",
+    "A131528",
+    "A131682",
+    "A131683",
+    "A131684",
+    "A131685"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

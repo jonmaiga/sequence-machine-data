@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that floor(k*gamma) begins with n (gamma=0.5772156649...).",
+  "id": "A081223",
+  "mentions": [
+    "A078219",
+    "A078220",
+    "A081224",
+    "A081225",
+    "A081226"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

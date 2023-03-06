@@ -1,0 +1,22 @@
+{
+  "description": "Nonzero multiplicative digital root of n.",
+  "id": "A051802",
+  "mentions": [
+    "A007954",
+    "A051801"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:29",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

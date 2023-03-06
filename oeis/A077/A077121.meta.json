@@ -1,0 +1,22 @@
+{
+  "description": "Number of integer squares <= n^3.",
+  "id": "A077121",
+  "mentions": [
+    "A000093",
+    "A065733",
+    "A077113",
+    "A167222",
+    "A167223"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:53",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

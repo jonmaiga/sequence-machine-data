@@ -1,0 +1,23 @@
+{
+  "description": "Integers which have more distinct digits than any smaller number.",
+  "id": "A038378",
+  "mentions": [
+    "A007809",
+    "A043537",
+    "A086069"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

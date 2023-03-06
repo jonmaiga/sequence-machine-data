@@ -1,0 +1,19 @@
+{
+  "description": "Starting positions of strings of six 5's in the decimal expansion of Pi.",
+  "id": "A083623",
+  "mentions": [
+    "A083622",
+    "A083624"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

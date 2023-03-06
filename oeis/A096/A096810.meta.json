@@ -1,0 +1,23 @@
+{
+  "description": "Fractal table, read by antidiagonals, consisting of numbers 0..3.",
+  "id": "A096810",
+  "mentions": [
+    "A003987",
+    "A004526",
+    "A007494",
+    "A096808",
+    "A096809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

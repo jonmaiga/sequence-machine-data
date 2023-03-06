@@ -1,0 +1,33 @@
+{
+  "description": "1, together with numbers of the form k*(k+1) or k*(k+2), k > 0.",
+  "id": "A035106",
+  "mentions": [
+    "A002378",
+    "A002620",
+    "A004526",
+    "A004652",
+    "A005563",
+    "A006446",
+    "A028242",
+    "A035104",
+    "A035107",
+    "A052938",
+    "A064764",
+    "A064796",
+    "A064797",
+    "A064817"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

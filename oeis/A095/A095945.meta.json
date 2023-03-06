@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + number of letters in the English name of n.",
+  "id": "A095945",
+  "mentions": [
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:49",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

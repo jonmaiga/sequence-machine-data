@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of Bell and Catalan numbers.",
+  "id": "A014327",
+  "mentions": [
+    "A000108",
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n)^n - 1.",
+  "id": "A069459",
+  "mentions": [
+    "A000040",
+    "A062006",
+    "A062457",
+    "A069460",
+    "A069461",
+    "A069462"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

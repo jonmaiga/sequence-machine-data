@@ -1,0 +1,19 @@
+{
+  "description": "Fourth line of 5-wave sequence A038201.",
+  "id": "A038341",
+  "mentions": [
+    "A038201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:03:17",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

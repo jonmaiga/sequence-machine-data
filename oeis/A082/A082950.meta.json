@@ -1,0 +1,20 @@
+{
+  "description": "Power base and exponent of n-th prime-power exchanged.",
+  "id": "A082950",
+  "mentions": [
+    "A000961",
+    "A025473",
+    "A025474"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

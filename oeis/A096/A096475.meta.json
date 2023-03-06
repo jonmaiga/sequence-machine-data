@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest \"lesser twin\" prime p, such that prime(2 + p) - prime(p) = 2n (cf. A096474).",
+  "id": "A096475",
+  "mentions": [
+    "A001359",
+    "A096464",
+    "A096474",
+    "A096476"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

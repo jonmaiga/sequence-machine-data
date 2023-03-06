@@ -1,0 +1,22 @@
+{
+  "description": "Primes p = p(k) such that p(k) + p(k+11) = p(k+1) + p(k+10) = p(k+2) + p(k+9) = p(k+3) + p(k+8) = p(k+4) + p(k+7) = p(k+5) + p(k+6).",
+  "id": "A064104",
+  "mentions": [
+    "A000040",
+    "A022885",
+    "A064101",
+    "A359440"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

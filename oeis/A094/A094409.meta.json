@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k that divide Fibonacci(k) - 1 but not Fibonacci(k-1).",
+  "id": "A094409",
+  "mentions": [
+    "A069106",
+    "A094394",
+    "A094410"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

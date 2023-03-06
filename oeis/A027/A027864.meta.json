@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form k^2 + (k+1)^2 + (k+2)^2.",
+  "id": "A027864",
+  "mentions": [
+    "A027574",
+    "A257163"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:37",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

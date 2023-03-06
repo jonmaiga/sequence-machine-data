@@ -1,0 +1,22 @@
+{
+  "description": "1 iff n is of the form 4^m*(8k+7).",
+  "id": "A072401",
+  "mentions": [
+    "A004215",
+    "A057427",
+    "A064873",
+    "A071374",
+    "A072400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:07",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

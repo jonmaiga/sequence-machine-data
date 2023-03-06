@@ -1,0 +1,15 @@
+{
+  "description": "H*-palindromic trees with n nodes.",
+  "id": "A051174",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Consider the triangle shown below; sequence contains the concatenation of numbers read at a 45-degree angle upwards with horizontal beginning with the first term of a row.",
+  "id": "A079826",
+  "mentions": [
+    "A056011",
+    "A079825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

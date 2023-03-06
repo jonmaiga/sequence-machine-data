@@ -1,0 +1,23 @@
+{
+  "description": "n-th arithmetic mean = prime(n).",
+  "id": "A090942",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A033286",
+    "A033287",
+    "A141042",
+    "A152535"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

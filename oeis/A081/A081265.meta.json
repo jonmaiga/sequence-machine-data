@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of coefficients of the polynomials a(n, x) = 2*a(n-1, x)+ x^2*a(n-2,x), n >= 1, a(0, x) = 1, a(1, x) = 1.",
+  "id": "A081265",
+  "mentions": [
+    "A001792",
+    "A001793",
+    "A001794",
+    "A006974",
+    "A008310",
+    "A011782",
+    "A039991"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

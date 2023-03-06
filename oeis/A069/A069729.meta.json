@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted non-separable bi-Eulerian planar maps with 2n edges. Bi-Eulerian means all its vertices and faces are of even valency.",
+  "id": "A069729",
+  "mentions": [
+    "A000108",
+    "A005470",
+    "A069726"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

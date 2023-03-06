@@ -1,0 +1,25 @@
+{
+  "description": "Sum of digits of k is a prime proper factor of k.",
+  "id": "A052020",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A028834",
+    "A052018",
+    "A052019",
+    "A052021",
+    "A052022"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

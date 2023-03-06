@@ -1,0 +1,22 @@
+{
+  "description": "Product of prime and previous prime is palindromic.",
+  "id": "A028978",
+  "mentions": [
+    "A002113",
+    "A006094",
+    "A028888",
+    "A028979"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

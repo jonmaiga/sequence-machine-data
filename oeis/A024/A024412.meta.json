@@ -1,0 +1,18 @@
+{
+  "description": "Ordered Stirling numbers s(n,k) of the second kind.",
+  "id": "A024412",
+  "mentions": [
+    "A193245",
+    "A193246"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

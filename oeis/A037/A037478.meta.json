@@ -1,0 +1,25 @@
+{
+  "description": "Number of positive solutions to \"numbers that are n times sum of their digits\".",
+  "id": "A037478",
+  "mentions": [
+    "A003634",
+    "A003635",
+    "A005349",
+    "A052489",
+    "A052490",
+    "A055642",
+    "A057147",
+    "A058913"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

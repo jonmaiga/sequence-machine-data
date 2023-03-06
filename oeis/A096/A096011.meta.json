@@ -1,0 +1,22 @@
+{
+  "description": "Arrange numbers n such that A071364(n) <> A046523(n) by prime signature, cf. A071365.",
+  "id": "A096011",
+  "mentions": [
+    "A046523",
+    "A056808",
+    "A071364",
+    "A071365",
+    "A095990"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

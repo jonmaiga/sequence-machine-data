@@ -1,0 +1,20 @@
+{
+  "description": "Both p and p+Q(5) are primes, where Q(5)=2310 is the 5th primorial number (A002110[ 5 ]).",
+  "id": "A049483",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A023201",
+    "A045320"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

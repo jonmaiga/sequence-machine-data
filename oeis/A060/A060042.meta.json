@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: V(x)^(1/4), where V(x) = Sum_{n >= 0} A065409(n)*x^n.",
+  "id": "A060042",
+  "mentions": [
+    "A026301",
+    "A046105",
+    "A065409"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

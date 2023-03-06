@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising in A083760.",
+  "id": "A083761",
+  "mentions": [
+    "A083760"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Trajectory of 9 under prime factor concatenation procedure.",
+  "id": "A037921",
+  "mentions": [
+    "A037273",
+    "A037274"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

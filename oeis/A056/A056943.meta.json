@@ -1,0 +1,22 @@
+{
+  "description": "Unused area of rectangle needed to enclose a non-touching spiral of length n on a square lattice.",
+  "id": "A056943",
+  "mentions": [
+    "A002024",
+    "A003056",
+    "A056942",
+    "A056944"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:10",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

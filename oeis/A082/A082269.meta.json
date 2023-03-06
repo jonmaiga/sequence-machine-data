@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms in row n of A082268.",
+  "id": "A082269",
+  "mentions": [
+    "A082268"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

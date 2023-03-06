@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of Sum_{k >= 1} 1/k^k.",
+  "id": "A077178",
+  "mentions": [
+    "A073009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

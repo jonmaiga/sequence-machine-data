@@ -1,0 +1,21 @@
+{
+  "description": "Cubes containing no palindromic substring except single digits.",
+  "id": "A052064",
+  "mentions": [
+    "A050750",
+    "A052061",
+    "A052062",
+    "A052063"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:33",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

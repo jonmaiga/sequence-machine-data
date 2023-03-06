@@ -1,0 +1,28 @@
+{
+  "description": "Number of polyhexes with n cells that tile the plane by 180-degree rotation (Conway criterion) but not by translation.",
+  "id": "A075210",
+  "mentions": [
+    "A070766",
+    "A075201",
+    "A075207",
+    "A075208",
+    "A075209",
+    "A075211",
+    "A075212",
+    "A075213",
+    "A075214",
+    "A075215",
+    "A075219"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

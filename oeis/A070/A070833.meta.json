@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(10*n,10*k).",
+  "id": "A070833",
+  "mentions": [
+    "A000032",
+    "A000079",
+    "A007613",
+    "A070775",
+    "A070782",
+    "A070832",
+    "A070967",
+    "A081294",
+    "A094211",
+    "A094213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

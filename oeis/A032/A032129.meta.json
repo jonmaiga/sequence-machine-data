@@ -1,0 +1,18 @@
+{
+  "description": "Number of dyslexic rooted planar trees with n nodes.",
+  "id": "A032129",
+  "mentions": [
+    "A032128"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Fill a triangular array by rows by writing numbers 1 up to b(0), 1 up to b(1), etc., where b(n) are the square numbers. The first elements of the rows form a(n).",
+  "id": "A065228",
+  "mentions": [
+    "A064766",
+    "A064865",
+    "A065221",
+    "A065227",
+    "A065229",
+    "A065234"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximal elements of pairs of \"(-1)sigma amicable numbers\", sorted by their minimal elements.",
+  "id": "A051594",
+  "mentions": [
+    "A049060",
+    "A051595"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

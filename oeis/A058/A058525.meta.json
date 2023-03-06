@@ -1,0 +1,15 @@
+{
+  "description": "Numbers z by which not all integers y, 0 <= y < 2^64, can be divided using \"high multiplication\" followed by a right shift.",
+  "id": "A058525",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

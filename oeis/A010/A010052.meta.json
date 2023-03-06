@@ -1,0 +1,45 @@
+{
+  "description": "Characteristic function of squares: a(n) = 1 if n is a square, otherwise 0.",
+  "id": "A010052",
+  "mentions": [
+    "A000005",
+    "A000035",
+    "A000037",
+    "A000122",
+    "A000161",
+    "A000196",
+    "A000290",
+    "A005369",
+    "A005843",
+    "A007913",
+    "A008836",
+    "A025426",
+    "A025427",
+    "A025428",
+    "A037011",
+    "A053186",
+    "A063524",
+    "A093709",
+    "A106737",
+    "A156552",
+    "A243148",
+    "A258998",
+    "A271102",
+    "A337165",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

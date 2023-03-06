@@ -1,0 +1,22 @@
+{
+  "description": "Smallest x such that A073259[x]=n; the first number of which length of fixed-point-list terminated by x-th composite number equals n.",
+  "id": "A073323",
+  "mentions": [
+    "A002808",
+    "A073259",
+    "A073320",
+    "A073322"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest number of triangulations of n points in the plane.",
+  "id": "A063545",
+  "mentions": [
+    "A063544"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

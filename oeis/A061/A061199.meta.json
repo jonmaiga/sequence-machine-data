@@ -1,0 +1,25 @@
+{
+  "description": "Upper right triangle read by columns where T(n,k), with k >= n, is the number of partitions of k where no part appears more than n times; also partitions of k where no parts are multiples of (n+1).",
+  "id": "A061199",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A000041",
+    "A000726",
+    "A001935",
+    "A035959",
+    "A061198",
+    "A232623"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

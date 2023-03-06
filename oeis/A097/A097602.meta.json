@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = a(n) + number of squares so far; a(1) = 1.",
+  "id": "A097602",
+  "mentions": [
+    "A010052",
+    "A096777",
+    "A101135",
+    "A131073"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

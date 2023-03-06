@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled 3-colorable (i.e., chromatic number <= 3) graphs on n nodes.",
+  "id": "A084279",
+  "mentions": [
+    "A047864",
+    "A084280",
+    "A084281",
+    "A084282",
+    "A191371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

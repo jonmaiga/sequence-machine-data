@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which n-th row gives n numbers relatively prime to n and greater than all earlier terms in the triangle.",
+  "id": "A077164",
+  "mentions": [
+    "A071977",
+    "A077165",
+    "A077166",
+    "A077167"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes whose digits are composite.",
+  "id": "A051416",
+  "mentions": [
+    "A019546",
+    "A030096",
+    "A061246",
+    "A061371",
+    "A061372",
+    "A152313"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

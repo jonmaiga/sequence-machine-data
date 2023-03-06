@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci{p-(p/5)} is the first Fibonacci number that p divides and this is p-(p/5).",
+  "id": "A079347",
+  "mentions": [
+    "A079346",
+    "A079348",
+    "A079349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

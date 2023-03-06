@@ -1,0 +1,16 @@
+{
+  "description": "Primorials which yield palindromes if the trailing zeros are deleted.",
+  "id": "A088260",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

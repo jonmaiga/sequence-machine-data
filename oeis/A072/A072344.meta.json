@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the least natural number k such that k*phi(n) + 1 is prime.",
+  "id": "A072344",
+  "mentions": [
+    "A000010",
+    "A034693",
+    "A072917"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

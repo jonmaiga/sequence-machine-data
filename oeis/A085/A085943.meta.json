@@ -1,0 +1,17 @@
+{
+  "description": "Let S = 123456789101112131415..., the concatenation of the natural numbers; partition this string into distinct squarefree numbers. To avoid leading zeros, no number may end at the digit that comes before a 0 in S.",
+  "id": "A085943",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

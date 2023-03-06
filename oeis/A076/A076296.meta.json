@@ -1,0 +1,25 @@
+{
+  "description": "Consider all Pythagorean triples (X,X+7,Z); sequence gives X values.",
+  "id": "A076296",
+  "mentions": [
+    "A001652",
+    "A066436",
+    "A076293",
+    "A076294",
+    "A076295",
+    "A156035",
+    "A156649"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

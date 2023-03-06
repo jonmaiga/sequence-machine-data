@@ -1,0 +1,22 @@
+{
+  "description": "Signed primes: if prime(n) even, a(n) = 0; if prime(n) == 1 (mod 4), a(n) = prime(n); if prime(n) == -1 (mod 4), a(n) = -prime(n).",
+  "id": "A073579",
+  "mentions": [
+    "A000040",
+    "A070750",
+    "A111003",
+    "A160656"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

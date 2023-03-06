@@ -1,0 +1,32 @@
+{
+  "description": "Number of compositions of n into 10 ordered relatively prime parts.",
+  "id": "A023035",
+  "mentions": [
+    "A000741",
+    "A000742",
+    "A000743",
+    "A023023",
+    "A023024",
+    "A023025",
+    "A023026",
+    "A023027",
+    "A023028",
+    "A023029",
+    "A023030",
+    "A023031",
+    "A023032",
+    "A023033",
+    "A023034"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:59",
+    "offset": 10,
+    "size": 29,
+    "source": "joeis"
+  }
+}

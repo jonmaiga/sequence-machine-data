@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetric nonnegative integer 9 X 9 matrices with sum of elements equal to 4*n, under action of dihedral group D_4.",
+  "id": "A054549",
+  "mentions": [
+    "A001753",
+    "A038163"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

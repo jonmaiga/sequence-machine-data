@@ -1,0 +1,24 @@
+{
+  "description": "Let M(n) (A051755) be the maximal number of queens that can be placed on an n X n chessboard so that each queen attacks exactly two other queens; a(n) is the number of non-equivalent solutions. \"Non-equivalent\" means none of the a(n) solutions can be mapped onto any other solution by board rotations through 90, 180 or 270 degrees or mirror operations along the two diagonals or center lines.",
+  "id": "A051568",
+  "mentions": [
+    "A019654",
+    "A051567",
+    "A051571",
+    "A051754",
+    "A051755",
+    "A051759"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

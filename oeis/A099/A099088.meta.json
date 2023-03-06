@@ -1,0 +1,22 @@
+{
+  "description": "Indices of prime companion Pell numbers, divided by 2 (A001333).",
+  "id": "A099088",
+  "mentions": [
+    "A001333",
+    "A002203",
+    "A005850",
+    "A086395",
+    "A096650"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

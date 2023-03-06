@@ -1,0 +1,19 @@
+{
+  "description": "First diagonal of A027518.",
+  "id": "A027525",
+  "mentions": [
+    "A008284",
+    "A027518"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:05:38",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic self-complementary circulant digraphs (Cayley digraphs for the cyclic group) of order 2n-1.",
+  "id": "A049309",
+  "mentions": [
+    "A038785",
+    "A049288",
+    "A049289",
+    "A049297"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

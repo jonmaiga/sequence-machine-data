@@ -1,0 +1,26 @@
+{
+  "description": "4 times hexagonal numbers: a(n) = 4*n*(2*n-1).",
+  "id": "A085250",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A033581",
+    "A046092",
+    "A067239",
+    "A152734",
+    "A152751",
+    "A194274"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:37:37",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

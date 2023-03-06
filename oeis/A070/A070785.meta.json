@@ -1,0 +1,21 @@
+{
+  "description": "Square of shortest side of triangles with sides whose squares are integers and with positive integer area, ordered by longest side, then second longest side and finally shortest side.",
+  "id": "A070785",
+  "mentions": [
+    "A055594",
+    "A070783",
+    "A070784",
+    "A070786",
+    "A070787"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

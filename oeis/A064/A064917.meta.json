@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the result of beginning with n and iterating k -> A064916(k) until a prime is reached.",
+  "id": "A064917",
+  "mentions": [
+    "A064916",
+    "A064918",
+    "A064921"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

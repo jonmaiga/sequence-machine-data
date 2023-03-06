@@ -1,0 +1,25 @@
+{
+  "description": "Convolution of Catalan and Fibonacci numbers.",
+  "id": "A090826",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A014137",
+    "A014138",
+    "A089867",
+    "A089868",
+    "A139375"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

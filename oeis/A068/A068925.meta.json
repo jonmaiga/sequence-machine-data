@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to tile a 6 X n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.",
+  "id": "A068925",
+  "mentions": [
+    "A068920",
+    "A068931"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:03:00",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

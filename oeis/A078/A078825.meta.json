@@ -1,0 +1,20 @@
+{
+  "description": "Sum of distinct binary numbers contained as substrings in binary, circular formed representation of n and not longer than n.",
+  "id": "A078825",
+  "mentions": [
+    "A007088",
+    "A078823",
+    "A078824"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

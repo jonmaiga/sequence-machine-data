@@ -1,0 +1,28 @@
+{
+  "description": "Number of necklaces with 10 black beads and n-10 white beads.",
+  "id": "A032195",
+  "mentions": [
+    "A000011",
+    "A004526",
+    "A007997",
+    "A008610",
+    "A008646",
+    "A032191",
+    "A032192",
+    "A032193",
+    "A032194",
+    "A047996",
+    "A102190"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:59:33",
+    "offset": 10,
+    "size": 30,
+    "source": "joeis"
+  }
+}

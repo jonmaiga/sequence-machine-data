@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = s(2n+1) - s(2n), where s( ) is sequence A023631.",
+  "id": "A023632",
+  "mentions": [
+    "A023631"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:49",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

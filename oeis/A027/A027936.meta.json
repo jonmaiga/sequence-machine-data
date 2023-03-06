@@ -1,0 +1,17 @@
+{
+  "description": "Uniquification of array T given by A027935.",
+  "id": "A027936",
+  "mentions": [
+    "A027935"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

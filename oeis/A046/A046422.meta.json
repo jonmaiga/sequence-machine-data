@@ -1,0 +1,19 @@
+{
+  "description": "Numbers requiring 2 steps to reach a prime under the prime factor concatenation procedure.",
+  "id": "A046422",
+  "mentions": [
+    "A037271",
+    "A046411"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

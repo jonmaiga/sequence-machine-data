@@ -1,0 +1,25 @@
+{
+  "description": "Upper Wythoff primes, i.e., primes in A001950.",
+  "id": "A095281",
+  "mentions": [
+    "A000040",
+    "A001950",
+    "A014417",
+    "A095062",
+    "A095081",
+    "A095083",
+    "A095084",
+    "A095280",
+    "A095290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

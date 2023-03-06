@@ -1,0 +1,20 @@
+{
+  "description": "Total number of fixed points in free homeomorphically irreducible trees with n nodes.",
+  "id": "A037246",
+  "mentions": [
+    "A005200",
+    "A005202"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

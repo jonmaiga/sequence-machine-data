@@ -1,0 +1,22 @@
+{
+  "description": "Sorted positions of the elements of the quasicyclic group Z+(2a+1)/(2^b) [a > 0 and a < 2^(b-1), b > 0] at the ]0,1[ side of the Stern-Brocot Tree (A007305/A007306).",
+  "id": "A065810",
+  "mentions": [
+    "A007305",
+    "A007306",
+    "A065674",
+    "A065811",
+    "A065812",
+    "A065936"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

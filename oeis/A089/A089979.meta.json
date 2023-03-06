@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1-4x-4x^3).",
+  "id": "A089979",
+  "mentions": [
+    "A000930",
+    "A052912",
+    "A089978"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

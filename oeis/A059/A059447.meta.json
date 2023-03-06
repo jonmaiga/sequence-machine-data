@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number that takes n steps to get to 1 under the map f(n)=sigma(n)-n, the sum of the proper divisors.",
+  "id": "A059447",
+  "mentions": [
+    "A003023"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

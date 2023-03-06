@@ -1,0 +1,28 @@
+{
+  "description": "Numbers divisible by at least one of their digits.",
+  "id": "A038770",
+  "mentions": [
+    "A011531",
+    "A034709",
+    "A034837",
+    "A038769",
+    "A038772",
+    "A121022",
+    "A121029",
+    "A327560"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Third of three consecutive palindromes all of which are prime.",
+  "id": "A032597",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A032595",
+    "A032596"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

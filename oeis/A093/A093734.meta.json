@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that both prime(p) + prime(p+1) +/-1 are also primes.",
+  "id": "A093734",
+  "mentions": [
+    "A072669",
+    "A092738"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

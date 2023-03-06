@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that p/pi(p)>=n.",
+  "id": "A038623",
+  "mentions": [
+    "A038624",
+    "A038625",
+    "A038627",
+    "A062743"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of n X n matrix whose rows are cyclic permutations of 4..Composite(n).",
+  "id": "A066917",
+  "mentions": [
+    "A002808",
+    "A052182"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

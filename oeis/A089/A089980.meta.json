@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) = number of independent sets in the grid graph P_n X P_m.",
+  "id": "A089980",
+  "mentions": [
+    "A006506",
+    "A089934",
+    "A181031"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

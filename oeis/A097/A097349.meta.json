@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (Sum (2k)^k, k=1..n) + 1 is prime.",
+  "id": "A097349",
+  "mentions": [
+    "A073825",
+    "A097350"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

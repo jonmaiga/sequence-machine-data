@@ -1,0 +1,29 @@
+{
+  "description": "Array T(m,n) read by ascending antidiagonals: T(m,n) = m*binomial(n+m-2, n-1) for m, n >= 1.",
+  "id": "A093375",
+  "mentions": [
+    "A001792",
+    "A002411",
+    "A002457",
+    "A027810",
+    "A037965",
+    "A045943",
+    "A059298",
+    "A073107",
+    "A103283",
+    "A103406",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:15",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Scan Pascal's triangle (A007318) from left to right, record largest prime factor of each entry.",
+  "id": "A096006",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

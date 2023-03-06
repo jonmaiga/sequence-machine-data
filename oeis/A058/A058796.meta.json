@@ -1,0 +1,19 @@
+{
+  "description": "Row 5 of A007754.",
+  "id": "A058796",
+  "mentions": [
+    "A007754"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

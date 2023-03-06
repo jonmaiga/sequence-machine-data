@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = Product_{p prime} p^{ Sum_{k>= 0} floor[(n-1)/((p-1)p^k)]}.",
+  "id": "A053657",
+  "mentions": [
+    "A001898",
+    "A002207",
+    "A007814",
+    "A075264",
+    "A075266",
+    "A075267",
+    "A163176",
+    "A163940",
+    "A163972",
+    "A186430",
+    "A202318",
+    "A202339",
+    "A212429"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

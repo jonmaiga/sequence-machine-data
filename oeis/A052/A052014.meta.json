@@ -1,0 +1,23 @@
+{
+  "description": "Primes with distinct digits in descending order.",
+  "id": "A052014",
+  "mentions": [
+    "A000040",
+    "A028864",
+    "A028867",
+    "A052015"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

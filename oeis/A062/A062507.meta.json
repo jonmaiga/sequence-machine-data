@@ -1,0 +1,27 @@
+{
+  "description": "Table by antidiagonals related to partial sums and differences of Pell numbers (A000129).",
+  "id": "A062507",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000129",
+    "A001333",
+    "A001477",
+    "A022856",
+    "A048739",
+    "A048776",
+    "A052542"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

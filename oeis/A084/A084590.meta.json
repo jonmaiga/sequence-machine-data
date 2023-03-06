@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integers, all distinct, that satisfy Sum_{n>0} 1/a(n)^z = 0, where z is the third nontrivial zero of the Riemann zeta function: z = (1/2 + i*y) with y=25.01085758014568876321379099...",
+  "id": "A084590",
+  "mentions": [
+    "A084588",
+    "A084589",
+    "A084591",
+    "A084592",
+    "A084593"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

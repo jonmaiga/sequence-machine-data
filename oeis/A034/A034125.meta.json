@@ -1,0 +1,19 @@
+{
+  "description": "Decimal part of cube root of n starts with digit 9.",
+  "id": "A034125",
+  "mentions": [
+    "A034135"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:10:47",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

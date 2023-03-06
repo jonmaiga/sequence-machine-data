@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n^7 mod 9.",
+  "id": "A070692",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:27",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

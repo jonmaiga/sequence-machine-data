@@ -1,0 +1,25 @@
+{
+  "description": "Primes with distinct digits in alphabetical order (in English).",
+  "id": "A053435",
+  "mentions": [
+    "A000040",
+    "A053432",
+    "A053433",
+    "A053434"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

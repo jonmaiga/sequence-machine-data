@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled rooted trees with 3-colored leaves.",
+  "id": "A038050",
+  "mentions": [
+    "A000169",
+    "A029857",
+    "A038049"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:02:27",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

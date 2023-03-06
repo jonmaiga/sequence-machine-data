@@ -1,0 +1,19 @@
+{
+  "description": "Number of functions from {1,2,...,n} to {1,2,...,n} such that the sum of the function values is 0 mod 3.",
+  "id": "A068595",
+  "mentions": [
+    "A057065"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k surrounded by digit '1' is a lucky number.",
+  "id": "A032686",
+  "mentions": [
+    "A000959",
+    "A032682"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:43",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

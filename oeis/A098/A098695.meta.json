@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(n(n-1)/2) * Product_{k=1..n} k!.",
+  "id": "A098695",
+  "mentions": [
+    "A000178",
+    "A006125",
+    "A074962",
+    "A156921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:32:32",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

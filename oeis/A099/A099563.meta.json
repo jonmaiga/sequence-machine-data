@@ -1,0 +1,37 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = final nonzero number in the sequence n, f(n,2), f(f(n,2),3), f(f(f(n,2),3),4),..., where f(n,d) = floor(n/d); the most significant digit in the factorial base representation of n.",
+  "id": "A099563",
+  "mentions": [
+    "A001563",
+    "A007623",
+    "A034968",
+    "A048764",
+    "A051683",
+    "A055881",
+    "A099564",
+    "A126307",
+    "A230420",
+    "A246359",
+    "A249069",
+    "A257679",
+    "A257684",
+    "A257686",
+    "A257687",
+    "A265333",
+    "A265334",
+    "A265890",
+    "A265891",
+    "A265894"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Rotate one binary digit to the right, calculate, then rotate one binary digit to the left.",
+  "id": "A053641",
+  "mentions": [
+    "A006257",
+    "A038572"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:05",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

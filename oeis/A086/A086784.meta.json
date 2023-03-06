@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-trailing zeros in binary representation of n.",
+  "id": "A086784",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000225",
+    "A002450",
+    "A007088",
+    "A007814",
+    "A023416",
+    "A036563",
+    "A055010"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

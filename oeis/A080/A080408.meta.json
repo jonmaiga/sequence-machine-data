@@ -1,0 +1,22 @@
+{
+  "description": "Boustrophedon transform of the continued fraction of e (A003417).",
+  "id": "A080408",
+  "mentions": [
+    "A001113",
+    "A003417",
+    "A080406",
+    "A080407"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

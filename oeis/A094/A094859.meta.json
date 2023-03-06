@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of longest common subsequences between any two ternary strings of length n (Version 2).",
+  "id": "A094859",
+  "mentions": [
+    "A094858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

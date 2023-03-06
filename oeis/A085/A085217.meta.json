@@ -1,0 +1,21 @@
+{
+  "description": "Factorial expansions of the entries in A085215.",
+  "id": "A085217",
+  "mentions": [
+    "A085215",
+    "A085218"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

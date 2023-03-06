@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nonempty set S containing prime divisors of 7k + 1 for each k in S.",
+  "id": "A020607",
+  "mentions": [
+    "A020575",
+    "A020581",
+    "A020587",
+    "A020602"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

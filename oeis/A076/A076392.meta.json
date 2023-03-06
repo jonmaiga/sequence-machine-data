@@ -1,0 +1,19 @@
+{
+  "description": "Increasing partial quotients of the continued fraction for agm(1,i)/(1+i).",
+  "id": "A076392",
+  "mentions": [
+    "A076390",
+    "A076391"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

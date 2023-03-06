@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime factors of numbers that are not prime powers.",
+  "id": "A074592",
+  "mentions": [
+    "A006549",
+    "A020639",
+    "A024619",
+    "A074593",
+    "A074594",
+    "A074595"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:09",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

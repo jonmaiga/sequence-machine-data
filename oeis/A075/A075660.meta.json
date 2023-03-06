@@ -1,0 +1,15 @@
+{
+  "description": "Let f(n) = abs(lpd(n)-gpf(n)), where lpd(n) is the largest proper divisor of n and gpf(n) is the greatest prime factor of n. Sequence gives number of iterations for f(n) to reach zero.",
+  "id": "A075660",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

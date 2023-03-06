@@ -1,0 +1,20 @@
+{
+  "description": "Smallest Fibonacci number which is one more than the product of n distinct numbers > 1.",
+  "id": "A081952",
+  "mentions": [
+    "A000045",
+    "A081953",
+    "A119249"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

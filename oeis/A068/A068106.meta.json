@@ -1,0 +1,46 @@
+{
+  "description": "Euler's difference table: triangle read by rows, formed by starting with factorial numbers (A000142) and repeatedly taking differences. T(n,n) = n!, T(n,k) = T(n,k+1) - T(n-1,k).",
+  "id": "A068106",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000255",
+    "A001563",
+    "A001564",
+    "A001565",
+    "A001688",
+    "A001689",
+    "A002467",
+    "A023043",
+    "A023044",
+    "A023045",
+    "A023046",
+    "A023047",
+    "A033815",
+    "A047920",
+    "A055790",
+    "A086764",
+    "A277563",
+    "A277609",
+    "A280425",
+    "A280920",
+    "A284204",
+    "A284205",
+    "A284206",
+    "A284207"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Positions of primes among the powers of primes (A000961).",
+  "id": "A024620",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001222",
+    "A024621",
+    "A025474",
+    "A025528",
+    "A027883",
+    "A056604",
+    "A065515"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

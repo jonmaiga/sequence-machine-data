@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sopf(k) = sopf(k+3), where sopf(k) = A008472(k).",
+  "id": "A063969",
+  "mentions": [
+    "A006145",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least initial value of a 3x+1 trajectory in which n is the largest (peak) term or a(n) = 0 if n cannot be a peak value (i.e., when n = 2k+1, n = 4k+2, n = 16k+12, etc.).",
+  "id": "A087263",
+  "mentions": [
+    "A025586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

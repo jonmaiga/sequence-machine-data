@@ -1,0 +1,20 @@
+{
+  "description": "Denominators in the series for Bessel function J6(x).",
+  "id": "A061405",
+  "mentions": [
+    "A002474",
+    "A002506",
+    "A014401"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

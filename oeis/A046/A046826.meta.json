@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum_{k=0..n} 1/binomial(n,k).",
+  "id": "A046826",
+  "mentions": [
+    "A003149",
+    "A046825"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:18:49",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

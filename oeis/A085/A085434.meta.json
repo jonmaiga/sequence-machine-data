@@ -1,0 +1,19 @@
+{
+  "description": "n-th even number not a power of 2 whose largest and smallest factors do not add or subtract to a twin prime.",
+  "id": "A085434",
+  "mentions": [
+    "A052369",
+    "A056608"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 6,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

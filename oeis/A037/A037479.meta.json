@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=Sum{d(i)*10^i: i=0,1,...,m}, where Sum{d(i)*9^i: i=0,1,...,m} is the base 9 representation of n.",
+  "id": "A037479",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:41",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

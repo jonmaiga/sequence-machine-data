@@ -1,0 +1,20 @@
+{
+  "description": "Lessers of twin prime pairs whose greater has a prime prime index.",
+  "id": "A094068",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A096479"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

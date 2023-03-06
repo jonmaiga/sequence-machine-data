@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p^k - p + 1 for prime p.",
+  "id": "A034915",
+  "mentions": [
+    "A074268"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

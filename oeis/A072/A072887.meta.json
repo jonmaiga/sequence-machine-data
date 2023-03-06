@@ -1,0 +1,20 @@
+{
+  "description": "The s-inners or non-s-aints, numbers generated like the Aronson series from the letters, specifically the s, in a generating sentence, \"S ain't the second, third, fourth, fifth . . . letter of this sentence.\".",
+  "id": "A072887",
+  "mentions": [
+    "A005224",
+    "A072886"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

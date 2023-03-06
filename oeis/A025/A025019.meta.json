@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime in Goldbach partition of A025018(n).",
+  "id": "A025019",
+  "mentions": [
+    "A020481",
+    "A025018",
+    "A097224",
+    "A097226"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

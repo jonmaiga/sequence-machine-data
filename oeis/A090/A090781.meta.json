@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be expressed as the difference of the squares of primes in just one distinct way.",
+  "id": "A090781",
+  "mentions": [
+    "A078667",
+    "A090782",
+    "A090785",
+    "A090788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

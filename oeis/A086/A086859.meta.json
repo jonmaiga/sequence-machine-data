@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of elements of order n in simple group L_2(8) of order 504.",
+  "id": "A086859",
+  "mentions": [
+    "A031963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

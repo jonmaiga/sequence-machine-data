@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^2 + 2n - 1 is prime.",
+  "id": "A089623",
+  "mentions": [
+    "A028871",
+    "A088572"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:02:07",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

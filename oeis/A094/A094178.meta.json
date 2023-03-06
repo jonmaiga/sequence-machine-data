@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 4n+1 is divisible only by primes of form 4m+1 (i.e., by the Pythagorean primes A002144).",
+  "id": "A094178",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A002144",
+    "A008846",
+    "A124934",
+    "A125203"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

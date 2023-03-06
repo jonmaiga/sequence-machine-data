@@ -1,0 +1,24 @@
+{
+  "description": "Largest m such that we can partition the set {1,2,...,m} into n subsets with the property that we never have a+b=c for any distinct elements a, b, c in one subset.",
+  "id": "A072842",
+  "mentions": [
+    "A036918",
+    "A045652",
+    "A118771",
+    "A297023"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

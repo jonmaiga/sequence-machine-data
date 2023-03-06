@@ -1,0 +1,19 @@
+{
+  "description": "Number of horizontally convex n-ominoes in which the top row has exactly 1 square, which is not above the rightmost square in the second row and the rightmost square in the second row is above the leftmost square in the third row.",
+  "id": "A049222",
+  "mentions": [
+    "A049220"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:29:33",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

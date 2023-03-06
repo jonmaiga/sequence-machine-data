@@ -1,0 +1,19 @@
+{
+  "description": "Position of first occurrence of 2^n in A057923.",
+  "id": "A057925",
+  "mentions": [
+    "A057923",
+    "A057924"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

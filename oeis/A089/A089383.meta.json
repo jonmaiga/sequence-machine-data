@@ -1,0 +1,19 @@
+{
+  "description": "Number of peaks at even level in all Schroeder paths (i.e., consisting of steps U=(1,1), D=(1,-1), H=(2,0) and never going below the axis) from (0,0) to (2n+4,0).",
+  "id": "A089383",
+  "mentions": [
+    "A006318",
+    "A026002"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

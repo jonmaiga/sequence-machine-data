@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that sigma(n) * antisigma(n) is a perfect square, where antisigma(n) = sum of the non-divisors of n that are between 1 and n.",
+  "id": "A076646",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

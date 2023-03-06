@@ -1,0 +1,22 @@
+{
+  "description": "Congruence classes of triangles which can be drawn using lattice points in n X n grid as vertices.",
+  "id": "A028419",
+  "mentions": [
+    "A028492",
+    "A189978",
+    "A189979",
+    "A190021",
+    "A190022",
+    "A190313"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

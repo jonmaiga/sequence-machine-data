@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (Pi + e)/2 - sqrt(Pi*e).",
+  "id": "A074921",
+  "mentions": [
+    "A019645",
+    "A074916"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:27:51",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

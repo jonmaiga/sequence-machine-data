@@ -1,0 +1,21 @@
+{
+  "description": "Let F(x) be the function such that F(F(x)) = arctan(x), then F(x) = Sum_{n>=0} a(n)*x^(2n+1)/(2n+1)!.",
+  "id": "A095885",
+  "mentions": [
+    "A048605",
+    "A095882",
+    "A095883",
+    "A095884"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A063171-encoding of the stunted binomial-mod-2 zigzag trees. See A080263.",
+  "id": "A080264",
+  "mentions": [
+    "A007088",
+    "A063171",
+    "A080263",
+    "A080269"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

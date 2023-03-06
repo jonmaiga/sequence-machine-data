@@ -1,0 +1,22 @@
+{
+  "description": "Length of the hypotenuse of an integer right triangle with the hypotenuse being one more than the longer side. The shorter sides are just consecutive odd numbers 3, 5, 7, ...",
+  "id": "A099776",
+  "mentions": [
+    "A001844",
+    "A005408",
+    "A046092",
+    "A087484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

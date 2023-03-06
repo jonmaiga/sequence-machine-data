@@ -1,0 +1,27 @@
+{
+  "description": "Width of moat of composite numbers surrounding n-th prime.",
+  "id": "A046929",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051702",
+    "A051728",
+    "A051730"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

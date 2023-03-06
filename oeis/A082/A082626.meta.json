@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindromic prime that ends (the least significant side) in (2n-1) the n-th odd number, or 0 if no such number exists, e.g., for 2n-1 = 10k + 5, k>0.",
+  "id": "A082626",
+  "mentions": [
+    "A002385",
+    "A082625"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

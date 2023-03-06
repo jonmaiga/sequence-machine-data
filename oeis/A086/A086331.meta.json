@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. exp(x)/(1 + LambertW(-x)).",
+  "id": "A086331",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A069856",
+    "A126285",
+    "A204042",
+    "A277454",
+    "A277456",
+    "A323280"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:17:14",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

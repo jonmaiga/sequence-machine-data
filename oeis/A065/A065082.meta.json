@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (period of the continued fraction for sqrt(k))^3 = k.",
+  "id": "A065082",
+  "mentions": [
+    "A003285"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "p, p+6 and p+10 are primes.",
+  "id": "A046139",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:15",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

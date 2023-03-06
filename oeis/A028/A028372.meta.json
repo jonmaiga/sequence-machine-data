@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime that is simultaneously of forms x^2 + m*y^2 for m = 1, ..., n.",
+  "id": "A028372",
+  "mentions": [
+    "A155715"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

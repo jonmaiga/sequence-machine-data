@@ -1,0 +1,20 @@
+{
+  "description": "n is a term if the phi(n) numbers in [0,n-1] and coprime to n form an arithmetic progression.",
+  "id": "A067133",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A174090"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

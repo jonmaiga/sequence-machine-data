@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct odd parts.",
+  "id": "A032021",
+  "mentions": [
+    "A000700",
+    "A032020"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

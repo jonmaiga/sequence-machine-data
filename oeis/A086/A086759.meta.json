@@ -1,0 +1,18 @@
+{
+  "description": "Permanent of the Cayley addition table of Z_{n}. a(n) is the permanent of the n X n matrix M_(i,j) = ((i+j) mod n) where i and j range from 0 to n-1.",
+  "id": "A086759",
+  "mentions": [
+    "A070896",
+    "A085719"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

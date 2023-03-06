@@ -1,0 +1,27 @@
+{
+  "description": "Dirichlet convolution of n and tau^2(n).",
+  "id": "A062369",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000203",
+    "A035116",
+    "A060648",
+    "A060724",
+    "A062368",
+    "A062380",
+    "A064950"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:20:31",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

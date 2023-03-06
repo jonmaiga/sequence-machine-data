@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of even numbered entries of odd numbered rows of Pascal's triangle A007318.",
+  "id": "A091042",
+  "mentions": [
+    "A000302",
+    "A001813",
+    "A007318",
+    "A034870",
+    "A038754",
+    "A048854",
+    "A085478",
+    "A103327",
+    "A103328",
+    "A212500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

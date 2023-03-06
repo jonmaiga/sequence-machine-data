@@ -1,0 +1,22 @@
+{
+  "description": "Least number m such that the number of numbers k <= m with k > spf(k)^n exceeds the number of numbers with k <= spf(k)^n.",
+  "id": "A087719",
+  "mentions": [
+    "A000430",
+    "A080257",
+    "A088380",
+    "A088381",
+    "A088382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

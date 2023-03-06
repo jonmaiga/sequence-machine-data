@@ -1,0 +1,26 @@
+{
+  "description": "Smallest k such that k*n+1 is prime.",
+  "id": "A034693",
+  "mentions": [
+    "A010051",
+    "A034694",
+    "A053989",
+    "A071558",
+    "A085420",
+    "A103689",
+    "A194945",
+    "A200996"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

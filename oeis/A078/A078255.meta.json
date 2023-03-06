@@ -1,0 +1,19 @@
+{
+  "description": "Squares with distinct digits. To make an infinite sequence, we also include m-digit numbers in which each digit occurs no more than ceiling(m/10) times.",
+  "id": "A078255",
+  "mentions": [
+    "A075309"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Order of 2^n X 2^n unitary group H_n acting on Siegel modular forms.",
+  "id": "A027638",
+  "mentions": [
+    "A003956",
+    "A027639",
+    "A027672"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

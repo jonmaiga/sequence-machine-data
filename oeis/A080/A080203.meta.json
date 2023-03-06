@@ -1,0 +1,20 @@
+{
+  "description": "Steffi sequence; the numbers of pairs of unequal permutations of all the digits 1, ..., b-1 in base b whose ratio is an integer.",
+  "id": "A080203",
+  "mentions": [
+    "A080202"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

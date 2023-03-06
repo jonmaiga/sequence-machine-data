@@ -1,0 +1,18 @@
+{
+  "description": "Numbers congruent to 2,3,6,11 mod 12 missing from A042944 (conjectured to be finite).",
+  "id": "A042945",
+  "mentions": [
+    "A042944",
+    "A042946"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

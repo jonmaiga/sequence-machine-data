@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n such that 2^n == 2^5 (mod n).",
+  "id": "A015925",
+  "mentions": [
+    "A050993",
+    "A128122",
+    "A276968"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

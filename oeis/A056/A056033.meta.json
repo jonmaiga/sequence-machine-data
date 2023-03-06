@@ -1,0 +1,19 @@
+{
+  "description": "5-morphic but not bimorphic nor automorphic.",
+  "id": "A056033",
+  "mentions": [
+    "A003226",
+    "A033819"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

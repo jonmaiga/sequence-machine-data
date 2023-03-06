@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = dot_product(1,2,...,n)*(6,7,...,n,1,2,3,4,5).",
+  "id": "A026046",
+  "mentions": [
+    "A094414"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:47",
+    "offset": 6,
+    "size": 45,
+    "source": "joeis"
+  }
+}

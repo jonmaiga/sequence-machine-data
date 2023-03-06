@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/2)*(A073504(n+1) - A073504(n)).",
+  "id": "A073059",
+  "mentions": [
+    "A071992",
+    "A073504",
+    "A096268",
+    "A098725"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

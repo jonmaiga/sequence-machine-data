@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, the inverse Bell transform of n!*binomial(4,n) (without column 0).",
+  "id": "A011801",
+  "mentions": [
+    "A000369",
+    "A001497",
+    "A004747",
+    "A008277",
+    "A008546",
+    "A028575",
+    "A049223",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:24:56",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

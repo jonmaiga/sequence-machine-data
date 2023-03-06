@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the concatenation of the numbers 1, 2, ..., k is a product of distinct primes.",
+  "id": "A048342",
+  "mentions": [
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

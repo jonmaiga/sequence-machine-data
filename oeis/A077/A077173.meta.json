@@ -1,0 +1,21 @@
+{
+  "description": "Initial terms of rows of triangle in A077172.",
+  "id": "A077173",
+  "mentions": [
+    "A077172",
+    "A077174",
+    "A077175",
+    "A077176",
+    "A100918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

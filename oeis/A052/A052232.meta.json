@@ -1,0 +1,19 @@
+{
+  "description": "Primes p from A031924 such that A052180(primepi(p)) = 11.",
+  "id": "A052232",
+  "mentions": [
+    "A031924",
+    "A031925",
+    "A052180"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

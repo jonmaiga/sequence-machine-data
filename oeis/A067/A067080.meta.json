@@ -1,0 +1,35 @@
+{
+  "description": "If n = ab...def in decimal notation then the left digitorial function Ld(n) = ab...def*ab...de*ab...d*...*ab*a.",
+  "id": "A067080",
+  "mentions": [
+    "A000217",
+    "A048651",
+    "A065039",
+    "A067079",
+    "A098844",
+    "A132019",
+    "A132026",
+    "A132027",
+    "A132033",
+    "A132038",
+    "A132263",
+    "A132264",
+    "A132269",
+    "A132272",
+    "A132327",
+    "A132328"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

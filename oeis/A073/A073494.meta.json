@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having exactly two prime gaps in their factorization.",
+  "id": "A073494",
+  "mentions": [
+    "A005117",
+    "A073488",
+    "A073490",
+    "A073492",
+    "A073493",
+    "A073495"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

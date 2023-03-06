@@ -1,0 +1,17 @@
+{
+  "description": "s(n+3)/2, where s is A024945.",
+  "id": "A024946",
+  "mentions": [
+    "A024945"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:58:40",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

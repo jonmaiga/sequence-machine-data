@@ -1,0 +1,18 @@
+{
+  "description": "Number of different cycle lengths of the permutation created by duality and reversal on the partitions of n.",
+  "id": "A036048",
+  "mentions": [
+    "A036045",
+    "A036056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

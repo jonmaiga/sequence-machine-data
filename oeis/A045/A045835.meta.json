@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sopfr(Omega(n)) = Omega(sopfr(n)), where Omega(m) is the number and sopfr(m) is the sum of prime factors of m, with repetition respectively.",
+  "id": "A045835",
+  "mentions": [
+    "A001222",
+    "A001248",
+    "A001414",
+    "A076361"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:26:19",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

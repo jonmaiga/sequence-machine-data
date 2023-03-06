@@ -1,0 +1,21 @@
+{
+  "description": "Length of repeating cycle of the final n digits in the Fibonacci sequence.",
+  "id": "A096363",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:51:47",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

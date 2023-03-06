@@ -1,0 +1,25 @@
+{
+  "description": "Minimal number of Catalan numbers that sum to n.",
+  "id": "A014420",
+  "mentions": [
+    "A014418",
+    "A081290",
+    "A236855",
+    "A236859",
+    "A244232",
+    "A244318",
+    "A244320"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{0 <= k < n and gcd(k,n) = 1} a(k).",
+  "id": "A045545",
+  "mentions": [
+    "A001359",
+    "A002033",
+    "A023896",
+    "A054251",
+    "A054521",
+    "A143656"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

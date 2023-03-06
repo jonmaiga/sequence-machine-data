@@ -1,0 +1,31 @@
+{
+  "description": "Smallest exponent such that -1 + 3^a(n) is divisible by 2^n.",
+  "id": "A090129",
+  "mentions": [
+    "A000010",
+    "A011782",
+    "A033949",
+    "A068531",
+    "A069895",
+    "A088660",
+    "A090127",
+    "A090739",
+    "A090740",
+    "A091512",
+    "A131577",
+    "A152046",
+    "A192005"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

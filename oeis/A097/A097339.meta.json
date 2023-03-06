@@ -1,0 +1,20 @@
+{
+  "description": "2^n+n^3.",
+  "id": "A097339",
+  "mentions": [
+    "A001580",
+    "A006127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:04:01",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

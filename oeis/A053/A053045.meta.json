@@ -1,0 +1,22 @@
+{
+  "description": "EulerPhi is iterated with initial value n!; a(n) = number of powers of 2 among the iterates.",
+  "id": "A053045",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A000142",
+    "A049113",
+    "A053035"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

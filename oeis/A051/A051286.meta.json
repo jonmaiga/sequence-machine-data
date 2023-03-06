@@ -1,0 +1,29 @@
+{
+  "description": "Whitney number of level n of the lattice of the ideals of the fence of order 2n.",
+  "id": "A051286",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A002426",
+    "A049310",
+    "A051291",
+    "A051292",
+    "A107597",
+    "A125250",
+    "A174882",
+    "A185828"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

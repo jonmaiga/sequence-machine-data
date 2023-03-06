@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = prime(2^n).",
+  "id": "A033844",
+  "mentions": [
+    "A000040",
+    "A006988",
+    "A018249",
+    "A051438",
+    "A051439",
+    "A051440",
+    "A107655"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

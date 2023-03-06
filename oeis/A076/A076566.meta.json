@@ -1,0 +1,20 @@
+{
+  "description": "Greatest prime divisor of 3n+3 (sum of three successive integers).",
+  "id": "A076566",
+  "mentions": [
+    "A000082",
+    "A006530",
+    "A008585"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

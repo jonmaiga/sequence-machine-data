@@ -1,0 +1,19 @@
+{
+  "description": "Ninth powers ending nontrivially in a nonzero ninth power.",
+  "id": "A038685",
+  "mentions": [
+    "A017289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:41:33",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes formed from a concatenation of 2 and 3^k for some k.",
+  "id": "A068714",
+  "mentions": [
+    "A068712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

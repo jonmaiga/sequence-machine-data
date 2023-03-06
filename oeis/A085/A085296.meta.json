@@ -1,0 +1,24 @@
+{
+  "description": "Runs of zeros in Catalan sequence modulo 3: consecutive occurrences of binomial(2*k,k)/(k+1) == 0 (mod 3).",
+  "id": "A085296",
+  "mentions": [
+    "A000108",
+    "A007814",
+    "A029858",
+    "A039969",
+    "A079944",
+    "A085297",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

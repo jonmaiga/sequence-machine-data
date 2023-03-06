@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that both 4*n^2 - 3 and 4*n^2 + 3 are primes.",
+  "id": "A097698",
+  "mentions": [
+    "A083022",
+    "A097697",
+    "A153975"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

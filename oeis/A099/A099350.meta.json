@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that 4*k! - 1 is prime.",
+  "id": "A099350",
+  "mentions": [
+    "A002982",
+    "A076133",
+    "A076134",
+    "A076680",
+    "A099351",
+    "A180627",
+    "A180628",
+    "A180629",
+    "A180630",
+    "A180631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

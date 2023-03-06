@@ -1,0 +1,21 @@
+{
+  "description": "Number of walks on simple cubic lattice (starting on the xy plane, never going below it and finishing a height 1 above it).",
+  "id": "A052177",
+  "mentions": [
+    "A005572",
+    "A052178",
+    "A052179"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

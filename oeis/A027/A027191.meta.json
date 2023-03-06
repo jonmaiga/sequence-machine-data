@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into an odd number of parts, the least being 5; also, a(n+5) = number of partitions of n into an even number of parts, each >=5.",
+  "id": "A027191",
+  "mentions": [
+    "A026798",
+    "A027197"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

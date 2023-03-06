@@ -1,0 +1,18 @@
+{
+  "description": "Terms of A083393 such that the sum of the factorials of the digits is prime.",
+  "id": "A083394",
+  "mentions": [
+    "A083393"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Let Unrel(m) = number of unrelated numbers less than m; then a(n) = number of values of m for which Unrel(m) = n.",
+  "id": "A070298",
+  "mentions": [
+    "A045763",
+    "A070297"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

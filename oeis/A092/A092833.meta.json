@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of q / (chi(-q) * chi(-q^23)) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A092833",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A112216",
+    "A121373",
+    "A132322"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:19:55",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

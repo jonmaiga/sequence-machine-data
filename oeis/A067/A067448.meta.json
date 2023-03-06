@@ -1,0 +1,24 @@
+{
+  "description": "Smallest n-th power whose decimal expansion starts with 7.",
+  "id": "A067448",
+  "mentions": [
+    "A067442",
+    "A067443",
+    "A067444",
+    "A067445",
+    "A067446",
+    "A067447"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

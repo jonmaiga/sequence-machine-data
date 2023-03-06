@@ -1,0 +1,19 @@
+{
+  "description": "Squares such that digits of sqrt(n) appear in both n and n^(3/2).",
+  "id": "A029781",
+  "mentions": [
+    "A029780"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:05",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

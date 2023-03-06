@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all possible sums formed from all but one of the previous terms, starting 1.",
+  "id": "A094304",
+  "mentions": [
+    "A001563",
+    "A057438",
+    "A094258",
+    "A122974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:25:50",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

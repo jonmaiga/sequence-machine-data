@@ -1,0 +1,21 @@
+{
+  "description": "Number of bits in the base-2 representation of the n-th Fibonacci number.",
+  "id": "A020909",
+  "mentions": [
+    "A000045",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:01",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

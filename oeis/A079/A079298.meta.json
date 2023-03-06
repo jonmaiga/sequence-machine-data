@@ -1,0 +1,17 @@
+{
+  "description": "Binomial numbers: of the form a^k +- b^k for k >= 2.",
+  "id": "A079298",
+  "mentions": [
+    "A079299"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

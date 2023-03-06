@@ -1,0 +1,21 @@
+{
+  "description": "Sum of numerator and denominator in n-th harmonic number, 1 + 1/2 + 1/3 +...+ 1/n.",
+  "id": "A064168",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A064167",
+    "A064169"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

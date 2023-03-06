@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the strings n7n and 7n7 are both prime.",
+  "id": "A090264",
+  "mentions": [
+    "A090262",
+    "A090263",
+    "A090265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Smallest area of a Pythagorean triangle with n as length of one of the three sides.",
+  "id": "A054435",
+  "mentions": [
+    "A009112",
+    "A046079",
+    "A046080",
+    "A046081",
+    "A054436",
+    "A055522",
+    "A055523",
+    "A055524",
+    "A055525",
+    "A055526",
+    "A055527"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 3,
+    "size": 53,
+    "source": "joeis"
+  }
+}

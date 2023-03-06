@@ -1,0 +1,24 @@
+{
+  "description": "Number of 5-element families of an n-element set such that every 3 members of the family have a nonempty intersection.",
+  "id": "A051364",
+  "mentions": [
+    "A036239",
+    "A051180",
+    "A051181",
+    "A051182",
+    "A051183",
+    "A051184",
+    "A051185"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

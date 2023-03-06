@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes with no divisors >1 that are prefixes of other divisors in binary representation.",
+  "id": "A090333",
+  "mentions": [
+    "A001248",
+    "A090332"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Position of the first location of n in the digits of Phi = 1.61803398874989....",
+  "id": "A088577",
+  "mentions": [
+    "A001622",
+    "A032445",
+    "A051238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

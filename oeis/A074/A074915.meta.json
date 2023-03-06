@@ -1,0 +1,26 @@
+{
+  "description": "Largest x such that the number of nonprimes (i.e., 1 and composites) in the reduced residue set (RRS(x)) of x equals n, or 0 if there are no such numbers.",
+  "id": "A074915",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221",
+    "A001620",
+    "A048597",
+    "A048864",
+    "A048865",
+    "A072022",
+    "A072023"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

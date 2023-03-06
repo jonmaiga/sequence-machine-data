@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum of absolute values of coefficients of (1+x-3x^2)^n.",
+  "id": "A084615",
+  "mentions": [
+    "A002426",
+    "A084600",
+    "A084614"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

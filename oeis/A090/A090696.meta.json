@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 - 11 is a prime.",
+  "id": "A090696",
+  "mentions": [
+    "A091271",
+    "A091272",
+    "A091273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:25",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number m such that each of the numbers m and m+1 has n distinct prime divisors.",
+  "id": "A093548",
+  "mentions": [
+    "A052215",
+    "A093549",
+    "A093550",
+    "A115186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

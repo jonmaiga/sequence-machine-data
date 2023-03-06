@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A064417.",
+  "id": "A064956",
+  "mentions": [
+    "A064413",
+    "A064417"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

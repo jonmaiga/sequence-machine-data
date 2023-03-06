@@ -1,0 +1,16 @@
+{
+  "description": "Smallest nontrivial multiple of n (> n and not equal to 10^k*n)) whose digit sum is a multiple of the digit sum of n.",
+  "id": "A075401",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

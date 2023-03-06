@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: a(n,k) = number of Dyck n-paths such that number of DUs at level 1 plus number of UDs at level 2 is k, 0<=k<=n-1.",
+  "id": "A096794",
+  "mentions": [
+    "A000108",
+    "A000957"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

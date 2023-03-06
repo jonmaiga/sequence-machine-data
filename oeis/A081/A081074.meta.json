@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci(4n)-3, or Fibonacci(2n-2)*Lucas(2n+2).",
+  "id": "A081074",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A033888"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:57:30",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

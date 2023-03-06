@@ -1,0 +1,20 @@
+{
+  "description": "Linear recursion relative of Shallit sequence S(2,6).",
+  "id": "A014010",
+  "mentions": [
+    "A018906",
+    "A022041"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Mod( binomial(2*n,n), (n+1)*(n+2)*(n+3) ).",
+  "id": "A065345",
+  "mentions": [
+    "A000108",
+    "A065344",
+    "A065346",
+    "A065347",
+    "A065348",
+    "A065349"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

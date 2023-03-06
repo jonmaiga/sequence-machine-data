@@ -1,0 +1,28 @@
+{
+  "description": "Number of n-th generation triangles in the tiling of the hyperbolic plane by triangles with angles {Pi/2, Pi/3, 0}.",
+  "id": "A096231",
+  "mentions": [
+    "A000931",
+    "A020720",
+    "A078027",
+    "A124745",
+    "A133034",
+    "A134816",
+    "A164001",
+    "A182097",
+    "A228361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Orders of finite groups having the incrementally largest numbers of nonisomorphic forms A046058.",
+  "id": "A046059",
+  "mentions": [
+    "A046056",
+    "A046058"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

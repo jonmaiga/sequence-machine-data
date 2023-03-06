@@ -1,0 +1,19 @@
+{
+  "description": "For p = prime(n), the number of integers k < p-1 such that p divides A001008(k), the numerator of the harmonic number H(k).",
+  "id": "A093569",
+  "mentions": [
+    "A001008",
+    "A001220",
+    "A092194"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

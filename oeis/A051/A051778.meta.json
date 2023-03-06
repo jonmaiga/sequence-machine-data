@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, where row (n) = n mod (n-1), n mod (n-2), n mod (n-3), ...n mod 2.",
+  "id": "A051778",
+  "mentions": [
+    "A000027",
+    "A004125",
+    "A032741",
+    "A049820",
+    "A051126",
+    "A051127",
+    "A051777",
+    "A055126",
+    "A070824"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:19",
+    "offset": 3,
+    "size": 105,
+    "source": "joeis"
+  }
+}

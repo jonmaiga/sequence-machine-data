@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2*a(n-1) - 1 with a(0) = 10.",
+  "id": "A083705",
+  "mentions": [
+    "A020737",
+    "A083575",
+    "A083683",
+    "A083686",
+    "A168596",
+    "A181565",
+    "A195744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

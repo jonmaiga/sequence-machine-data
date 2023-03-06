@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = a(2) = 1; for n >2, a(n) = smallest prime factor of n-th Fibonacci number.",
+  "id": "A060383",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A020639",
+    "A022307",
+    "A051694",
+    "A060319",
+    "A060320",
+    "A139044"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

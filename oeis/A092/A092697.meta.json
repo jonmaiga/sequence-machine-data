@@ -1,0 +1,23 @@
+{
+  "description": "For 1 <= n <= 9, a(n) = least number m such that the product n*m is obtained merely by shifting the rightmost digit of m to the left end (a finite sequence).",
+  "id": "A092697",
+  "mentions": [
+    "A081463",
+    "A094676",
+    "A097717",
+    "A128857"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

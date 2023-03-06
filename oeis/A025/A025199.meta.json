@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(floor(S2)/floor(S1)), where S2 and S1 are, respectively, the 2nd and first elementary symmetric functions of {sqrt(k), k = 1,2,...,n}.",
+  "id": "A025199",
+  "mentions": [
+    "A025193",
+    "A025224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 2,
+    "size": 58,
+    "source": "joeis"
+  }
+}

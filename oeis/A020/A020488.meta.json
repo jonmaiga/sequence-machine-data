@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that tau(n) (or sigma_0(n)) = phi(n).",
+  "id": "A020488",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A062516",
+    "A063469",
+    "A063470",
+    "A064374",
+    "A064375",
+    "A064376",
+    "A064377",
+    "A112587",
+    "A112954"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

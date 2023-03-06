@@ -1,0 +1,19 @@
+{
+  "description": "a(n) gives sum of number of common unitary divisors of n and m, where m runs from 1 to n.",
+  "id": "A089912",
+  "mentions": [
+    "A034444",
+    "A034448"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

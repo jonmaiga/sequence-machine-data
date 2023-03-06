@@ -1,0 +1,18 @@
+{
+  "description": "A B_2 sequence: a(n) is the least value such that sequence increases and pairwise sums of elements are all distinct.",
+  "id": "A025582",
+  "mentions": [
+    "A010672",
+    "A011185"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

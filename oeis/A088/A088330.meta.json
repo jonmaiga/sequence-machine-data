@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the remainders when n is divided by nonzero numbers obtained by deleting one digit. The sum ranges over all the digits.",
+  "id": "A088330",
+  "mentions": [
+    "A000042",
+    "A067458"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 10,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

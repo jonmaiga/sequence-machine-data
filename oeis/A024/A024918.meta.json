@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of the sequence of prime powers (A000961).",
+  "id": "A024918",
+  "mentions": [
+    "A000961",
+    "A024923"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:45",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

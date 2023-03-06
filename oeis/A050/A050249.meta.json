@@ -1,0 +1,22 @@
+{
+  "description": "Weakly prime numbers (changing any one decimal digit always produces a composite number). Also called digitally delicate primes.",
+  "id": "A050249",
+  "mentions": [
+    "A118118",
+    "A137985",
+    "A158124",
+    "A158125",
+    "A186995"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Ultrafactorials: a(n) = n!^n!.",
+  "id": "A046882",
+  "mentions": [
+    "A000166",
+    "A000178",
+    "A002109",
+    "A002982",
+    "A100085"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

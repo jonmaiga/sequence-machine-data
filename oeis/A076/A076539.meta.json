@@ -1,0 +1,23 @@
+{
+  "description": "Numerators a(n) of fractions slowly converging to Pi: let a(1) = 0, b(n) = n - a(n); if (a(n) + 1) / b(n) < Pi, then a(n+1) = a(n) + 1, otherwise a(n+1) = a(n).",
+  "id": "A076539",
+  "mentions": [
+    "A060143",
+    "A074065",
+    "A074840",
+    "A144609"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

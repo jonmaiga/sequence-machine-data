@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be the larger leg of an integer right triangle.",
+  "id": "A074235",
+  "mentions": [
+    "A009012",
+    "A009023",
+    "A227481"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

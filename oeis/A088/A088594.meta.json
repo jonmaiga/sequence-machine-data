@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-dimensional lattice paths running from (0,0,0) to (n,n,n), lying in {(x,y,z) : 0<=x<=y<=z} and using the steps (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (0,1,1), (1,1,1).",
+  "id": "A088594",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A087647",
+    "A105124"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

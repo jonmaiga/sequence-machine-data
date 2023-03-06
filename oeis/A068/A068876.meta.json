@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit prime with property that digits alternate in parity.",
+  "id": "A068876",
+  "mentions": [
+    "A030144",
+    "A056830",
+    "A068877"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

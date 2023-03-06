@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form prime(k)*2 - prime(k-1), k>1.",
+  "id": "A085704",
+  "mentions": [
+    "A000040",
+    "A071680"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

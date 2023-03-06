@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers not of the form 3 + twin prime + twin prime.",
+  "id": "A051345",
+  "mentions": [
+    "A007534"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

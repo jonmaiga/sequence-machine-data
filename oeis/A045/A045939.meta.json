@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that the factorizations of m..m+2 have the same number of primes (including multiplicities).",
+  "id": "A045939",
+  "mentions": [
+    "A006073",
+    "A045920",
+    "A045940",
+    "A045941",
+    "A045942",
+    "A056809",
+    "A123103",
+    "A123201",
+    "A358017",
+    "A358018",
+    "A358019"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

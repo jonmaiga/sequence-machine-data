@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of cototients arising in A063986.",
+  "id": "A073129",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A002088",
+    "A048920",
+    "A050226",
+    "A051953",
+    "A063896",
+    "A063986",
+    "A073128"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

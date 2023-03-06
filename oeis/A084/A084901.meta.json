@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4^(n-2)*n*(5*n+3)/2.",
+  "id": "A084901",
+  "mentions": [
+    "A000566",
+    "A077616",
+    "A084900",
+    "A084902",
+    "A276289"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

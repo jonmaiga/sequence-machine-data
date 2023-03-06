@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (3*Catalan*Pi)/4 - Pi^3/64 + (Pi^2*log(64))/64 - (105*zeta(3))/64.",
+  "id": "A091477",
+  "mentions": [
+    "A000796",
+    "A002117",
+    "A006752",
+    "A016687"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

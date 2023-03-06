@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of placing 2n points on n X n grid so no 3 are in a line (solutions with 180 deg rotational symmetry).",
+  "id": "A037187",
+  "mentions": [
+    "A000769"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

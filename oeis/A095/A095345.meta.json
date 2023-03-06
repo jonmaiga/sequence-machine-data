@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the length of the n-th run in A095346.",
+  "id": "A095345",
+  "mentions": [
+    "A064353",
+    "A066983",
+    "A095343",
+    "A095344",
+    "A095346",
+    "A108103"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

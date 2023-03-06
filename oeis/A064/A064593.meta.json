@@ -1,0 +1,23 @@
+{
+  "description": "Nonunitary triply perfect numbers: the sum of the nonunitary divisors of n is 3n; i.e., sigma(n) - usigma(n) = 3n.",
+  "id": "A064593",
+  "mentions": [
+    "A048146",
+    "A064591",
+    "A064592",
+    "A064594",
+    "A064595",
+    "A064596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

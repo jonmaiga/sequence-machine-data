@@ -1,0 +1,22 @@
+{
+  "description": "Commuting elements: number of ordered pairs g, h in the group GL(2,Z_n) such that gh = hg.",
+  "id": "A070943",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000252",
+    "A062354"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

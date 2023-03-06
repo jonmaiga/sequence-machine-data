@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic hypotenuses in primitive Pythagorean triples.",
+  "id": "A087456",
+  "mentions": [
+    "A020882",
+    "A081220"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

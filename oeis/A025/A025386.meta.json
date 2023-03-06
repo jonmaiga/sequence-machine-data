@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of 4 distinct nonzero squares in 2 or more ways.",
+  "id": "A025386",
+  "mentions": [
+    "A025376",
+    "A025387",
+    "A025443"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:28:31",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

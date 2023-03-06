@@ -1,0 +1,19 @@
+{
+  "description": "Write the odd numbers 2n - 1 in base 2 and juxtapose these binary expansions; read the result bit-by-bit.",
+  "id": "A030317",
+  "mentions": [
+    "A099821"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:39",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

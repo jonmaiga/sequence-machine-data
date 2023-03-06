@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes pertaining to A082204.",
+  "id": "A082205",
+  "mentions": [
+    "A082204",
+    "A082206"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:09:48",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

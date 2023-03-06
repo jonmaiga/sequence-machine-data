@@ -1,0 +1,22 @@
+{
+  "description": "Central terms of the rows of the XOR difference triangle of the powers of 2 (A099884) so that a(n) = A099884(n,[n/2]).",
+  "id": "A099885",
+  "mentions": [
+    "A001317",
+    "A099884",
+    "A099886",
+    "A117998"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

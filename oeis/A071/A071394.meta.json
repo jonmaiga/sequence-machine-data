@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n divisible by pi(n) [A057809] with prime pi(n); i.e., largest prime factor of n equals pi(n).",
+  "id": "A071394",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A057809",
+    "A256394"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximal m such that n^n-m and n^n+m are both primes, or -1 if there is no such m.",
+  "id": "A075469",
+  "mentions": [
+    "A047949",
+    "A075468"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

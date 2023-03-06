@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4 X 4 matrices whose determinant is 1 mod n.",
+  "id": "A011786",
+  "mentions": [
+    "A000010",
+    "A000056",
+    "A000252",
+    "A011785",
+    "A064767",
+    "A305186"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:55",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

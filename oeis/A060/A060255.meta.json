@@ -1,0 +1,28 @@
+{
+  "description": "Smaller of twin primes {p, p+2} whose average p+1 = k*q is the least multiple of the n-th primorial number q such that k*q-1 and k*q+1 are twin primes.",
+  "id": "A060255",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A006794",
+    "A014545",
+    "A057706",
+    "A059960",
+    "A060229",
+    "A060230",
+    "A060231",
+    "A060232",
+    "A060256"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

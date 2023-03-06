@@ -1,0 +1,20 @@
+{
+  "description": "Recamán variation: a(1) = 1; for n > 1, a(n) = a(n-1)-f(n) if that number is positive and not already in the sequence, otherwise a(n) = a(n-1)+f(n), where f(n)=phi(n) (cf. A000010).",
+  "id": "A079052",
+  "mentions": [
+    "A000010",
+    "A005132",
+    "A079051",
+    "A079053"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

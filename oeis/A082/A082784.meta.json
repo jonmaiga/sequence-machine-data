@@ -1,0 +1,30 @@
+{
+  "description": "Characteristic function of multiples of 7.",
+  "id": "A082784",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A008589",
+    "A047304",
+    "A059841",
+    "A076309",
+    "A079978",
+    "A079979",
+    "A079998",
+    "A109720",
+    "A121262",
+    "A185017"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

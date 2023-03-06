@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = smallest prime number not occurring earlier such that the concatenation a(n-1) and a(n) is a prime.",
+  "id": "A075609",
+  "mentions": [
+    "A075607",
+    "A075608",
+    "A075610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

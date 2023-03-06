@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of W(1), where W(x) is the Lambert W function (the root of w*exp(w) = x).",
+  "id": "A019474",
+  "mentions": [
+    "A030178"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

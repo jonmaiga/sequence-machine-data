@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n such that phi(n) - d(n) = phi(n+1) - d(n+1) where d(n) is the number of divisors of n.",
+  "id": "A063069",
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

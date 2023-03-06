@@ -1,0 +1,32 @@
+{
+  "description": "Number of minimal covers of n objects.",
+  "id": "A046165",
+  "mentions": [
+    "A000371",
+    "A000372",
+    "A003182",
+    "A003465",
+    "A006126",
+    "A006602",
+    "A035347",
+    "A035348",
+    "A053530",
+    "A261005",
+    "A282575",
+    "A305844",
+    "A307249",
+    "A326358",
+    "A326359"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (p1^(p1^2))*(p2^(p2^2))*...*(pk^(pk^2)) where p1,p2,..,pk are distinct primes. (In other words: in the prime factorization of any term, the exponent of p is either 0 or p^2 for all prime p).",
+  "id": "A089232",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

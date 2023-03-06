@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of sequence of odd primes (A065091); a(n) = sum of the first n odd primes.",
+  "id": "A071148",
+  "mentions": [
+    "A007504",
+    "A013916",
+    "A013917",
+    "A013918",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of walks of length 2n+1 between two nodes at distance 5 in the cycle graph C_10.",
+  "id": "A095933",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:57:36",
+    "offset": 2,
+    "size": 22,
+    "source": "joeis"
+  }
+}

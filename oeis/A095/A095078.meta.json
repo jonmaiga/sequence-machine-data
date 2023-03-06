@@ -1,0 +1,22 @@
+{
+  "description": "Primes with a single 0 bit in their binary expansion.",
+  "id": "A095078",
+  "mentions": [
+    "A000040",
+    "A030130",
+    "A095058",
+    "A095062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

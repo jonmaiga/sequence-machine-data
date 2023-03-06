@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of natural numbers such that the n-th term is coprime to n and the sum of n terms starting from the n-th term is a multiple of n.",
+  "id": "A084393",
+  "mentions": [
+    "A084394",
+    "A084395"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

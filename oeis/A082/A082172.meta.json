@@ -1,0 +1,23 @@
+{
+  "description": "A subclass of quasi-acyclic automata with 3 inputs, n transient and k absorbing labeled states.",
+  "id": "A082172",
+  "mentions": [
+    "A082160",
+    "A082164",
+    "A082170",
+    "A082171"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

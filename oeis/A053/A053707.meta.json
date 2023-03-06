@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A025475, powers of a prime but not prime.",
+  "id": "A053707",
+  "mentions": [
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

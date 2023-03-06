@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4*a(n-1) + a(n-2); a(0)=1, a(1)=8.",
+  "id": "A048877",
+  "mentions": [
+    "A001076",
+    "A001077",
+    "A015448",
+    "A033887"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

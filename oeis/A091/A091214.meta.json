@@ -1,0 +1,37 @@
+{
+  "description": "Composite numbers whose binary representation encodes a polynomial irreducible over GF(2).",
+  "id": "A091214",
+  "mentions": [
+    "A002808",
+    "A014580",
+    "A091206",
+    "A091209",
+    "A091212",
+    "A091215",
+    "A091247",
+    "A235027",
+    "A235033",
+    "A235041",
+    "A235042",
+    "A235044",
+    "A235046",
+    "A236834",
+    "A236838",
+    "A236841",
+    "A236845",
+    "A236850",
+    "A236851",
+    "A236861"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

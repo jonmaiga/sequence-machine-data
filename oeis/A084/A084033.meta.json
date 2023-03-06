@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = A084029(n, k)/n.",
+  "id": "A084033",
+  "mentions": [
+    "A084029",
+    "A084030",
+    "A084031",
+    "A084032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

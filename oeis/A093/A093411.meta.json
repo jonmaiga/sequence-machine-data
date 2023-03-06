@@ -1,0 +1,24 @@
+{
+  "description": "Divide n by the largest factorial that divides it and repeat until an odd number is reached, which will be the result; a(0) = 0.",
+  "id": "A093411",
+  "mentions": [
+    "A000142",
+    "A076934",
+    "A109375",
+    "A328478",
+    "A329379",
+    "A344181"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k such that k / sopfr(k) is an integer, where sopfr = sum-of-prime-factors, A001414.",
+  "id": "A036844",
+  "mentions": [
+    "A001414",
+    "A046346",
+    "A056239",
+    "A112798",
+    "A120383",
+    "A238525",
+    "A324851",
+    "A330950",
+    "A330953",
+    "A330954",
+    "A331378",
+    "A331379",
+    "A331380",
+    "A331381",
+    "A331382",
+    "A331383",
+    "A331384"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

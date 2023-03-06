@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest non-palindromic k such that the base-4 Reverse and Add! trajectory of k is palindrome-free and joins the trajectory of A091675(n).",
+  "id": "A091677",
+  "mentions": [
+    "A075421",
+    "A089494",
+    "A091675",
+    "A091676",
+    "A091680"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

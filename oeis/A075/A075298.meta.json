@@ -1,0 +1,22 @@
+{
+  "description": "Inverted (definition in A075193) generalized tribonacci numbers A001644.",
+  "id": "A075298",
+  "mentions": [
+    "A001644",
+    "A073145",
+    "A075193",
+    "A078046"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of 1/(1-49*x)^(1/7); related to sept-factorial numbers A045754.",
+  "id": "A034835",
+  "mentions": [
+    "A004993",
+    "A034829",
+    "A034830",
+    "A034831",
+    "A034832",
+    "A034833",
+    "A034834",
+    "A045754"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

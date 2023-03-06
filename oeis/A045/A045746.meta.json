@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose sum of divisors is a triangular number.",
+  "id": "A045746",
+  "mentions": [
+    "A000203",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

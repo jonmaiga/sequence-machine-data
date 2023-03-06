@@ -1,0 +1,17 @@
+{
+  "description": "If n can be written in the form r^i-s^j (see A074981), where r,s,i,j are integers with r>0, s>0, i>1, j>1 choose the representation with smallest r^i (in case of ties, minimize i and j); or if n is not of this form set r=s=i=j=0; sequence gives values of r.",
+  "id": "A075788",
+  "mentions": [
+    "A074981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

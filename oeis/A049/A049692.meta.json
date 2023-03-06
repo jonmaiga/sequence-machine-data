@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the square of the number of divisors of k does not divide the sum of the divisors of k.",
+  "id": "A049692",
+  "mentions": [
+    "A003601",
+    "A049642",
+    "A049645"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:21",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

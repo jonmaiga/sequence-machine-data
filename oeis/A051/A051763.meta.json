@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonalternating prime knots with n crossings.",
+  "id": "A051763",
+  "mentions": [
+    "A002863",
+    "A002864"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest linear combination of phi(n) and sigma(n) with nonnegative coefficients: a(n) = Min_{x>=0,y>=0} (x+y) for which x*phi(n) + y*sigma(n) is a multiple of n.",
+  "id": "A094701",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000396",
+    "A005820",
+    "A007691",
+    "A027687",
+    "A046060",
+    "A046061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

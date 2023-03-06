@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of nonnegative integers obtained by mapping each forest of A000108[n] rooted binary plane trees from breadth-first to depth-first encoding.",
+  "id": "A057117",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A038776",
+    "A057118",
+    "A072088"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:36",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

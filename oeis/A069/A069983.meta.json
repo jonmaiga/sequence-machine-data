@@ -1,0 +1,21 @@
+{
+  "description": "Number of 5-gonal compositions of n into positive parts.",
+  "id": "A069983",
+  "mentions": [
+    "A005044",
+    "A069981",
+    "A069982"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:41",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

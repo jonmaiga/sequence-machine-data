@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes less than 10^n containing only the digits 2 and 3 (A020458).",
+  "id": "A069749",
+  "mentions": [
+    "A006880",
+    "A020458",
+    "A036937"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

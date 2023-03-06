@@ -1,0 +1,34 @@
+{
+  "description": "n divided by largest 4th-power-free factor of n.",
+  "id": "A062379",
+  "mentions": [
+    "A000190",
+    "A000583",
+    "A003557",
+    "A008835",
+    "A020639",
+    "A028234",
+    "A053164",
+    "A053165",
+    "A053166",
+    "A053167",
+    "A056553",
+    "A056554",
+    "A056555",
+    "A058035",
+    "A062378",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

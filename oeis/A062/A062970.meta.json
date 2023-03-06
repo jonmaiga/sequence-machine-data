@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 + Sum_{j=1..n} j^j.",
+  "id": "A062970",
+  "mentions": [
+    "A000312",
+    "A001923"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

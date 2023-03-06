@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number of the form n*k + 1 that is divisible by all the phi(n) numbers less than n and relatively prime to n.",
+  "id": "A084715",
+  "mentions": [
+    "A038610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

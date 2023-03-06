@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n, gcd(n,k) = 1} k^3.",
+  "id": "A053819",
+  "mentions": [
+    "A000010",
+    "A023900",
+    "A053818",
+    "A308477"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0 and a(n+1) = if a(n) - 1 is new and > 0 then a(n) - 1 else a(n)*a(n) + 1 for n >= 0.",
+  "id": "A065652",
+  "mentions": [
+    "A065653",
+    "A065654"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

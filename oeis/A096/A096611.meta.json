@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=number of Catalan knight paths in right half-plane from (0,0) to (n,2).",
+  "id": "A096611",
+  "mentions": [
+    "A096608",
+    "A096609",
+    "A099610",
+    "A099612"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

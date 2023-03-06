@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sin(Pi/2 degrees). (Of course, sin(Pi/2 radians) = 1.)",
+  "id": "A051558",
+  "mentions": [
+    "A051553",
+    "A051555",
+    "A051557",
+    "A051559"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:13",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A051066 read mod 2.",
+  "id": "A051067",
+  "mentions": [
+    "A004128",
+    "A051065",
+    "A051066"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:53:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

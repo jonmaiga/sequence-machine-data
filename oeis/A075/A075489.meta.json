@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime((n+1)!) - prime(n!).",
+  "id": "A075489",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A062439"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

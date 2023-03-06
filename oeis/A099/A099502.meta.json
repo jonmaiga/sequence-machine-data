@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A099501(n) = 3.",
+  "id": "A099502",
+  "mentions": [
+    "A099500",
+    "A099501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

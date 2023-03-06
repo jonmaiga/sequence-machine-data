@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between 10n and 10n+9.",
+  "id": "A038800",
+  "mentions": [
+    "A055781",
+    "A055782",
+    "A055783",
+    "A055784"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

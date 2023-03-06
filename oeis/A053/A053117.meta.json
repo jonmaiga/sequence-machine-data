@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows of coefficients of Chebyshev's U(n,x) polynomials (exponents in increasing order).",
+  "id": "A053117",
+  "mentions": [
+    "A000027",
+    "A000129",
+    "A038207",
+    "A049310",
+    "A053118",
+    "A097610",
+    "A099089",
+    "A100258",
+    "A121448",
+    "A133156",
+    "A207538"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:25",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

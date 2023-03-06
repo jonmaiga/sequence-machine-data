@@ -1,0 +1,23 @@
+{
+  "description": "Smallest triangular number with Hamming weight n (i.e., with exactly n 1's when written in binary).",
+  "id": "A089999",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A061712",
+    "A089998",
+    "A090002",
+    "A211201"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

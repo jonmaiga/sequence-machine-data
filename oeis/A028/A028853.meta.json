@@ -1,0 +1,15 @@
+{
+  "description": "Number of prime labeled topologies on n points.",
+  "id": "A028853",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

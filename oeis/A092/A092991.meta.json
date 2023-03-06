@@ -1,0 +1,19 @@
+{
+  "description": "Least product of the parts of the partitions of n where that product has the maximum number of divisors.",
+  "id": "A092991",
+  "mentions": [
+    "A000005",
+    "A092990",
+    "A118851"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

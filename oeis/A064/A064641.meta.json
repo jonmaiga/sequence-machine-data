@@ -1,0 +1,22 @@
+{
+  "description": "Unidirectional 'Delannoy' variation of the Boustrophedon transform applied to all 1's sequence: construct an array in which the first element of each row is 1 and subsequent entries are given by T(n,k) = T(n,k-1) + T(n-1,k-1) + T(n-1,k) + T(n-2,k-1). The last number in row n gives a(n).",
+  "id": "A064641",
+  "mentions": [
+    "A008288",
+    "A038764",
+    "A064642",
+    "A201159",
+    "A223092"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

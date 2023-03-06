@@ -1,0 +1,27 @@
+{
+  "description": "Exponential Riordan array (sech(x), tanh(x)).",
+  "id": "A060081",
+  "mentions": [
+    "A000364",
+    "A009244",
+    "A009265",
+    "A048854",
+    "A060058",
+    "A060075",
+    "A060524",
+    "A111593"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

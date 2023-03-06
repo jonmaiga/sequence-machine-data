@@ -1,0 +1,30 @@
+{
+  "description": "Denominator of n * n-th harmonic number.",
+  "id": "A027611",
+  "mentions": [
+    "A001008",
+    "A001705",
+    "A002805",
+    "A006675",
+    "A024816",
+    "A027612",
+    "A049820",
+    "A074791",
+    "A079076",
+    "A128438",
+    "A213999"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

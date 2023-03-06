@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x*(2+22*x+11*x^2)/((x-1)*(1+x)*(10*x^2-1)).",
+  "id": "A094625",
+  "mentions": [
+    "A094623",
+    "A094624"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:44:07",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

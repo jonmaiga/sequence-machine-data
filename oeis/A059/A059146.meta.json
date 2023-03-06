@@ -1,0 +1,20 @@
+{
+  "description": "A hierarchical sequence (W'2{2} - see A059126).",
+  "id": "A059146",
+  "mentions": [
+    "A006519",
+    "A059126"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

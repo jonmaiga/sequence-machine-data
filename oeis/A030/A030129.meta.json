@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonisomorphic Steiner triple systems (STS's) S(2,3,n) on n points.",
+  "id": "A030129",
+  "mentions": [
+    "A001201",
+    "A030128",
+    "A051390",
+    "A076019",
+    "A124118",
+    "A124119"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

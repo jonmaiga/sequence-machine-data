@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least m > 1 such that m^3 = 1 (mod n).",
+  "id": "A091733",
+  "mentions": [
+    "A070667",
+    "A076947",
+    "A083501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

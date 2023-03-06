@@ -1,0 +1,18 @@
+{
+  "description": "Number of edges in the prime graph.",
+  "id": "A082767",
+  "mentions": [
+    "A083399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

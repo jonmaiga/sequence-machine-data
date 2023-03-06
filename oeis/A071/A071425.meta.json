@@ -1,0 +1,21 @@
+{
+  "description": "Total number of 1-s in binary representation of all factorials from 1 to n.",
+  "id": "A071425",
+  "mentions": [
+    "A000142",
+    "A000788",
+    "A079584"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

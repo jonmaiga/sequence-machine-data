@@ -1,0 +1,42 @@
+{
+  "description": "Sieve of Eratosthenes arranged as an array and read by antidiagonals in the up direction; n-th row has property that smallest prime factor is prime(n).",
+  "id": "A083140",
+  "mentions": [
+    "A002110",
+    "A004280",
+    "A005843",
+    "A005867",
+    "A016945",
+    "A038110",
+    "A038111",
+    "A038179",
+    "A066884",
+    "A067576",
+    "A078840",
+    "A083141",
+    "A083221",
+    "A084967",
+    "A084968",
+    "A084969",
+    "A084970",
+    "A084971",
+    "A095904",
+    "A096153",
+    "A119586",
+    "A125624",
+    "A125666",
+    "A192179"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

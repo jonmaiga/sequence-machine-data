@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into 5 positive cubes.",
+  "id": "A025458",
+  "mentions": [
+    "A000578",
+    "A003328",
+    "A048926",
+    "A048927",
+    "A057906",
+    "A320841",
+    "A343705",
+    "A344035"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

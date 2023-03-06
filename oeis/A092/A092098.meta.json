@@ -1,0 +1,20 @@
+{
+  "description": "Number of regions that the line segments in A091908(n) cut the equilateral triangle into.",
+  "id": "A092098",
+  "mentions": [
+    "A006533",
+    "A091908",
+    "A091910"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

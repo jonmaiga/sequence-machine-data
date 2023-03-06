@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least number of applications of f to n to reach 1, where f is defined by f(n) = phi(n) if n is even; = sigma(n) if n is odd.",
+  "id": "A066919",
+  "mentions": [
+    "A055021"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

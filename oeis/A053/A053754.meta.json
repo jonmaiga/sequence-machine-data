@@ -1,0 +1,35 @@
+{
+  "description": "If k is in the sequence then 2*k and 2*k+1 are not (and 0 is in the sequence); when written in binary k has an even number of bits (0 has 0 digits).",
+  "id": "A053754",
+  "mentions": [
+    "A000120",
+    "A000302",
+    "A001969",
+    "A008549",
+    "A029837",
+    "A031443",
+    "A032925",
+    "A053738",
+    "A058696",
+    "A066099",
+    "A070939",
+    "A080791",
+    "A081294",
+    "A114121",
+    "A124767",
+    "A179888",
+    "A300061"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

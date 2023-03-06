@@ -1,0 +1,19 @@
+{
+  "description": "Maximum prime required in the representation of the square of the n-th prime A000040(n) by a signed sum of squares of distinct other primes minimizing the number of terms in the sum.",
+  "id": "A089297",
+  "mentions": [
+    "A000040",
+    "A088934",
+    "A089296"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to lace a shoe that has n pairs of eyelets, assuming the lacing satisfies certain conditions.",
+  "id": "A078601",
+  "mentions": [
+    "A078602",
+    "A078629"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

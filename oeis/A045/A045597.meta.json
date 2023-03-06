@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 8^k + 5^k.",
+  "id": "A045597",
+  "mentions": [
+    "A074617"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

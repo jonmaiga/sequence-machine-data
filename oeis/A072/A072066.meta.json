@@ -1,0 +1,21 @@
+{
+  "description": "Exceptional (or extraordinary) numbers: m such that A005179(m) < A037019(m).",
+  "id": "A072066",
+  "mentions": [
+    "A005179",
+    "A013929",
+    "A025487",
+    "A037019",
+    "A048108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

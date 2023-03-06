@@ -1,0 +1,29 @@
+{
+  "description": "Number of regular orientable coverings of the Klein bottle with 2n lists.",
+  "id": "A069735",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A001620",
+    "A040001",
+    "A059841",
+    "A069734",
+    "A099774",
+    "A143110",
+    "A304182",
+    "A320111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

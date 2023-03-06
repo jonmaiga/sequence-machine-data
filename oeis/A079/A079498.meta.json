@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose sum of digits in base b gives 0 (mod b), for b = 3.",
+  "id": "A079498",
+  "mentions": [
+    "A001969",
+    "A026601",
+    "A053838",
+    "A053839",
+    "A053840",
+    "A141803"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

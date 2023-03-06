@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = greatest k such that s(j) > 0 for all j < k at end of stage n in forming A026409.",
+  "id": "A026407",
+  "mentions": [
+    "A026409"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

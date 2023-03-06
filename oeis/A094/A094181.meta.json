@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n - tau(n))*(n - phi(n)), where tau=A000005 and phi=A000010.",
+  "id": "A094181",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A049820",
+    "A051953",
+    "A062355"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:07",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

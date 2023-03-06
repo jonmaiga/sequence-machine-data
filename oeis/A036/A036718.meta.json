@@ -1,0 +1,32 @@
+{
+  "description": "Number of rooted trees where each node has at most 4 children.",
+  "id": "A036718",
+  "mentions": [
+    "A000081",
+    "A036717",
+    "A036719",
+    "A036720",
+    "A036721",
+    "A036722",
+    "A182378",
+    "A244372",
+    "A292553",
+    "A292554",
+    "A292555",
+    "A292556",
+    "A299038"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

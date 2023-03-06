@@ -1,0 +1,21 @@
+{
+  "description": "First prime starting a chain of exactly n consecutive primes congruent to 1 modulo 6.",
+  "id": "A055625",
+  "mentions": [
+    "A055623",
+    "A055624",
+    "A055626",
+    "A057620",
+    "A085515"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

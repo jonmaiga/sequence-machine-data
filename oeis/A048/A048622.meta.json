@@ -1,0 +1,23 @@
+{
+  "description": "Difference of maximal and central values of A001222 when applied to {C(n,k)} set.",
+  "id": "A048622",
+  "mentions": [
+    "A001222",
+    "A001405",
+    "A020740",
+    "A046660",
+    "A048620",
+    "A048621"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

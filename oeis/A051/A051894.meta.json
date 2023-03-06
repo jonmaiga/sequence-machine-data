@@ -1,0 +1,20 @@
+{
+  "description": "Number of monic polynomials with integer coefficients of degree n with all roots in unit disc.",
+  "id": "A051894",
+  "mentions": [
+    "A014197",
+    "A120963"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Position of n-th 1 in A030317.",
+  "id": "A030319",
+  "mentions": [
+    "A030317"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

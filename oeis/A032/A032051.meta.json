@@ -1,0 +1,15 @@
+{
+  "description": "\"BGJ\" (reversible, element, labeled) transform of 0,1,1,1...",
+  "id": "A032051",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

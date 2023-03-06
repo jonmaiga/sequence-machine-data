@@ -1,0 +1,22 @@
+{
+  "description": "Primes which yield a prime whenever a 1 is inserted anywhere in them (including at the beginning or end).",
+  "id": "A069246",
+  "mentions": [
+    "A068679",
+    "A215417",
+    "A215419",
+    "A215421"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

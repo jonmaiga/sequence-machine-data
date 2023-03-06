@@ -1,0 +1,17 @@
+{
+  "description": "If k is a palindrome made of only two nonzero digits a and b then the palindrome arising by swapping the digits a and b.",
+  "id": "A088642",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

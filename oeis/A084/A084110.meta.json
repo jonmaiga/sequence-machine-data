@@ -1,0 +1,23 @@
+{
+  "description": "Let L(n) = ordered list of divisors of n = {d_1=1, d_2, ..., d_k=n}; set e_1=1, e_i = e_{i-1}/d_i if that is an integer otherwise e_i = e_{i-1}*d_i; then a(n) = e_k.",
+  "id": "A084110",
+  "mentions": [
+    "A000005",
+    "A007422",
+    "A008344",
+    "A027750",
+    "A084111",
+    "A084113",
+    "A084114"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

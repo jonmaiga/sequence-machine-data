@@ -1,0 +1,20 @@
+{
+  "description": "Centered cube numbers: (n+1)^24 + n^24.",
+  "id": "A036102",
+  "mentions": [
+    "A010812",
+    "A036100",
+    "A036101"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

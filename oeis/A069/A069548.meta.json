@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form sum 6d/(2 + mu(d)) for some k and all d dividing k.",
+  "id": "A069548",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

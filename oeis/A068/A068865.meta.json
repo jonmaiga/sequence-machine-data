@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest triangular number not already in the sequence which differs from a(n-1) at every digit.",
+  "id": "A068865",
+  "mentions": [
+    "A000217",
+    "A068855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

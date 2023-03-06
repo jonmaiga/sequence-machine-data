@@ -1,0 +1,27 @@
+{
+  "description": "Number of sets of lists with distinct list sizes, cf. A000262.",
+  "id": "A088311",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000085",
+    "A000142",
+    "A000262",
+    "A001044",
+    "A007837",
+    "A007838",
+    "A053529",
+    "A166861"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

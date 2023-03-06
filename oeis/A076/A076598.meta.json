@@ -1,0 +1,24 @@
+{
+  "description": "Sum of squares of divisors d of n such that d or n/d is odd.",
+  "id": "A076598",
+  "mentions": [
+    "A001157",
+    "A002117",
+    "A050999",
+    "A069184",
+    "A069733",
+    "A076577"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

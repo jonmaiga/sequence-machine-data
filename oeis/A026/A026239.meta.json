@@ -1,0 +1,22 @@
+{
+  "description": "Beginning with the natural numbers, swap the k-th prime and k-th composite.",
+  "id": "A026239",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A049084",
+    "A066246",
+    "A236854"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

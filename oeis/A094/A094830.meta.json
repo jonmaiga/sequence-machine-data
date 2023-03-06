@@ -1,0 +1,21 @@
+{
+  "description": "Start with x = n, repeatedly replace x with x + sum of squares of digits of x until you reach a prime; sequence gives number of steps.",
+  "id": "A094830",
+  "mentions": [
+    "A003132",
+    "A094877"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

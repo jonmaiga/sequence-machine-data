@@ -1,0 +1,15 @@
+{
+  "description": "Numbers m such that the absolute values of the real and imaginary part of zeta(1/2 + m*i) are both < 1.",
+  "id": "A072564",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 6 and then the smallest triangular numbers such that sum of two neighbors is also a triangular number.",
+  "id": "A072521",
+  "mentions": [
+    "A072522"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

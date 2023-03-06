@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (k+2) divides 2^(k-1) - 1.",
+  "id": "A081765",
+  "mentions": [
+    "A000225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

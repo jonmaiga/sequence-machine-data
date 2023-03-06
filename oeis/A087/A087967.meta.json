@@ -1,0 +1,19 @@
+{
+  "description": "Integers m such that gcd(-1+2^m, m^2) is not a square number.",
+  "id": "A087967",
+  "mentions": [
+    "A087966",
+    "A087969"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

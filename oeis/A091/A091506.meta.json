@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (2 + sqrt(2) + 5*arcsinh(1))/9.",
+  "id": "A091506",
+  "mentions": [
+    "A091505"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

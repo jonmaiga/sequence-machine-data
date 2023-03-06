@@ -1,0 +1,17 @@
+{
+  "description": "Numbers having a unique representation as ab+ac+bc, with 1 <= a <= b <= c.",
+  "id": "A093670",
+  "mentions": [
+    "A025052"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

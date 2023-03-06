@@ -1,0 +1,21 @@
+{
+  "description": "Indices of occurrences of 2 in A004738.",
+  "id": "A082742",
+  "mentions": [
+    "A002061",
+    "A004738",
+    "A134519"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:09",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

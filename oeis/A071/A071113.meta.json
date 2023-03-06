@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the number of terms in the continued fraction for (1 + 1/x)^x equals k for some x.",
+  "id": "A071113",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Product of the largest prime divisors of composite numbers between successive primes.",
+  "id": "A076977",
+  "mentions": [
+    "A076976"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

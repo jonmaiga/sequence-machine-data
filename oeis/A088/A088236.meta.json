@@ -1,0 +1,23 @@
+{
+  "description": "Total number of digits (in base 2) in all preceding terms in the sequence.",
+  "id": "A088236",
+  "mentions": [
+    "A010062",
+    "A070939",
+    "A088235",
+    "A088326"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

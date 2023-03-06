@@ -1,0 +1,28 @@
+{
+  "description": "Chebyshev polynomials S(n,83) + S(n-1,83) with Diophantine property.",
+  "id": "A097840",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A097783",
+    "A097834",
+    "A097837",
+    "A097839",
+    "A097841",
+    "A099371",
+    "A100047",
+    "A168561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

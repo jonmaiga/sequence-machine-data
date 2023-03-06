@@ -1,0 +1,32 @@
+{
+  "description": "Smallest prime containing exactly n 7's.",
+  "id": "A037067",
+  "mentions": [
+    "A034388",
+    "A036507",
+    "A036536",
+    "A037053",
+    "A037055",
+    "A037057",
+    "A037059",
+    "A037061",
+    "A037063",
+    "A037065",
+    "A037066",
+    "A037069",
+    "A037071",
+    "A065581",
+    "A065590"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

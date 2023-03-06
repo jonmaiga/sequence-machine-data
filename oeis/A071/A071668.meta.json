@@ -1,0 +1,23 @@
+{
+  "description": "Permutation A057506 applied five times (\"^5\").",
+  "id": "A071668",
+  "mentions": [
+    "A057163",
+    "A057506",
+    "A071662",
+    "A071664",
+    "A071666",
+    "A071667",
+    "A071670"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

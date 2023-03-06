@@ -1,0 +1,23 @@
+{
+  "description": "Change the first bit to 0 in binary notation for the n-th prime.",
+  "id": "A091931",
+  "mentions": [
+    "A000040",
+    "A035100",
+    "A053645",
+    "A091932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:11:25",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integers not appearing previously such that the self-convolution cube-root of this sequence consists entirely of integers.",
+  "id": "A083349",
+  "mentions": [
+    "A083350",
+    "A106213",
+    "A106214",
+    "A106216"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Engel expansion of 1/log(2) = 1.4427...",
+  "id": "A059183",
+  "mentions": [
+    "A006784",
+    "A007525"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

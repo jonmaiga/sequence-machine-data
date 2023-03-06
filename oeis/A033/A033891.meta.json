@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Fibonacci(4*n+3).",
+  "id": "A033891",
+  "mentions": [
+    "A000045",
+    "A004187",
+    "A049685",
+    "A101858",
+    "A167816"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

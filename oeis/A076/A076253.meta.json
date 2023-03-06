@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the least positive integer solution of the \"n-th omega recurrence\" omega(k) = omega(k-1) + ... + omega(k-n), if such k exists; = 0 otherwise. (omega(n) denotes the number of distinct prime factors of n.)",
+  "id": "A076253",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

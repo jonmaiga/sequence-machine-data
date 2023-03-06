@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled 4-trees with n nodes.",
+  "id": "A036506",
+  "mentions": [
+    "A000055",
+    "A000272",
+    "A036361",
+    "A036362",
+    "A054581"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

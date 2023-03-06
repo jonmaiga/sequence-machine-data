@@ -1,0 +1,23 @@
+{
+  "description": "Fifth (unsigned) column sequence of triangle A062140 (generalized a=4 Laguerre).",
+  "id": "A062262",
+  "mentions": [
+    "A001720",
+    "A062140",
+    "A062199",
+    "A062260",
+    "A062261"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

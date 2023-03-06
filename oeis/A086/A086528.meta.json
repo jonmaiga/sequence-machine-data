@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime which occurs exactly n times in the sequence A086527.",
+  "id": "A086528",
+  "mentions": [
+    "A086526",
+    "A086527"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

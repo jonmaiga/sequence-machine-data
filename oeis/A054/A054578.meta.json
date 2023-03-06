@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsequences of {1..n} such that all differences of pairs of terms are distinct (i.e., number of Golomb rulers on {1..n}).",
+  "id": "A054578",
+  "mentions": [
+    "A003022",
+    "A036501",
+    "A143823",
+    "A308251"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sequence generated from a Knight's tour of a 4 X 4 chessboard considered as a matrix.",
+  "id": "A094895",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

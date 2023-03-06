@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that s(j) < s(k) for all j < k, where s = A026136.",
+  "id": "A026138",
+  "mentions": [
+    "A026136",
+    "A026139",
+    "A026169"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

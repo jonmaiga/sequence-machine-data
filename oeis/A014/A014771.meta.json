@@ -1,0 +1,21 @@
+{
+  "description": "Squares of odd hexagonal numbers.",
+  "id": "A014771",
+  "mentions": [
+    "A003215",
+    "A006752",
+    "A014634"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:29",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

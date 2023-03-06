@@ -1,0 +1,19 @@
+{
+  "description": "Array of coefficients of 1/det(M_n)*P(M_n) where P(M_n) is the characteristic polynomial of M_n, the n-th n X n Hilbert matrix M_n(i,j)=1/(i+j-1).",
+  "id": "A076823",
+  "mentions": [
+    "A005249"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

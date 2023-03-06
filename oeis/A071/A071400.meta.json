@@ -1,0 +1,23 @@
+{
+  "description": "Rounded volume of a regular octahedron with edge length n.",
+  "id": "A071400",
+  "mentions": [
+    "A000578",
+    "A071396",
+    "A071399",
+    "A071401",
+    "A071402"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

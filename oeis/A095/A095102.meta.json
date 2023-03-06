@@ -1,0 +1,27 @@
+{
+  "description": "Odd primes p for which all sums Sum_{i=1..u} L(i/p) (with u ranging from 1 to (p-1)) are nonnegative, where L(i/p) is Legendre symbol of i and p, defined to be 1 if i is a quadratic residue (mod p) and -1 if i is a quadratic non-residue (mod p).",
+  "id": "A095102",
+  "mentions": [
+    "A000040",
+    "A002145",
+    "A014486",
+    "A055094",
+    "A080114",
+    "A095062",
+    "A095092",
+    "A095100",
+    "A095103",
+    "A095272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

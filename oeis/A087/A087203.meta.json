@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest m such that m > A037155(n) and n!- m is prime.",
+  "id": "A087203",
+  "mentions": [
+    "A037155",
+    "A087201",
+    "A087202"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A000108(n) + A014137(n).",
+  "id": "A081293",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A081289",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:14:41",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

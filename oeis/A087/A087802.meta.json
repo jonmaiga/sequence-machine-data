@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, d nonprime} mu(d), where mu = A008683.",
+  "id": "A087802",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A023890",
+    "A033273",
+    "A064372",
+    "A079553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1-x^2)^2 (included only for completeness - the policy is always to omit the zeros from such sequences).",
+  "id": "A027656",
+  "mentions": [
+    "A008619",
+    "A008805",
+    "A045891",
+    "A059841",
+    "A142150"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:33",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

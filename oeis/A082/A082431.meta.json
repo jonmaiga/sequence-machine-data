@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest prime p such that there are exactly n sets of consecutive primes, each of which has an arithmetic mean of p.",
+  "id": "A082431",
+  "mentions": [
+    "A050221",
+    "A050237",
+    "A060863",
+    "A082370"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

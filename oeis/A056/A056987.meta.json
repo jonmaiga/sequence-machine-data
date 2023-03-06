@@ -1,0 +1,42 @@
+{
+  "description": "Discriminants of imaginary quadratic fields with class number 25 (negated).",
+  "id": "A056987",
+  "mentions": [
+    "A006203",
+    "A013658",
+    "A014602",
+    "A014603",
+    "A046002",
+    "A046003",
+    "A046004",
+    "A046005",
+    "A046006",
+    "A046007",
+    "A046008",
+    "A046009",
+    "A046010",
+    "A046011",
+    "A046012",
+    "A046013",
+    "A046014",
+    "A046015",
+    "A046016",
+    "A046018",
+    "A046020",
+    "A048925",
+    "A123563",
+    "A171724"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

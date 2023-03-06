@@ -1,0 +1,31 @@
+{
+  "description": "Numerators in Kepler's tree of harmonic fractions.",
+  "id": "A093873",
+  "mentions": [
+    "A000045",
+    "A011782",
+    "A020651",
+    "A029744",
+    "A070875",
+    "A071585",
+    "A086592",
+    "A093875",
+    "A123760",
+    "A294442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

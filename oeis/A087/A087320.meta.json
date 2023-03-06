@@ -1,0 +1,24 @@
+{
+  "description": "Smallest perfect power (at least a square) that is a multiple of n.",
+  "id": "A087320",
+  "mentions": [
+    "A001597",
+    "A007913",
+    "A007947",
+    "A087321",
+    "A160400",
+    "A197863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

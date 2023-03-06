@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = binomial(n, floor(n/2)) + binomial(n-1, floor(n/2)).",
+  "id": "A050168",
+  "mentions": [
+    "A001405",
+    "A029653",
+    "A208976"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

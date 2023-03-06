@@ -1,0 +1,22 @@
+{
+  "description": "Meandric numbers for a curve crossing two perpendicular lines at n points.",
+  "id": "A076875",
+  "mentions": [
+    "A005316",
+    "A076876",
+    "A076906",
+    "A076907"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

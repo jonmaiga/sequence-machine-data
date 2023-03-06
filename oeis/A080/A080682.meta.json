@@ -1,0 +1,25 @@
+{
+  "description": "19-smooth numbers: numbers whose prime divisors are all <= 19.",
+  "id": "A080682",
+  "mentions": [
+    "A002473",
+    "A003586",
+    "A051037",
+    "A051038",
+    "A080197",
+    "A080681",
+    "A080683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

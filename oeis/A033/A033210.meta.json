@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form x^2+13*y^2.",
+  "id": "A033210",
+  "mentions": [
+    "A106856",
+    "A139643",
+    "A248212",
+    "A248213"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

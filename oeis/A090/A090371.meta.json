@@ -1,0 +1,21 @@
+{
+  "description": "Number of unrooted planar 2-constellations with n digons. Also number of n-edge unrooted planar Eulerian maps with bicolored faces.",
+  "id": "A090371",
+  "mentions": [
+    "A000257",
+    "A069727",
+    "A090372",
+    "A118094"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

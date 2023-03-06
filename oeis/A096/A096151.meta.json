@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the 206545-digit integer solution to Archimedes's cattle problem.",
+  "id": "A096151",
+  "mentions": [
+    "A003131"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 206545,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

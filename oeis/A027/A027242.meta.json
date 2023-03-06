@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n-3} T(n,k) * T(n,k+3), with T given by A026769.",
+  "id": "A027242",
+  "mentions": [
+    "A026769"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:56:07",
+    "offset": 3,
+    "size": 24,
+    "source": "joeis"
+  }
+}

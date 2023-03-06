@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = ceiling(n*log(n)).",
+  "id": "A050502",
+  "mentions": [
+    "A050503"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:33",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Multiples of 4 whose sum of digits is also a multiple of 4.",
+  "id": "A062753",
+  "mentions": [
+    "A008586"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

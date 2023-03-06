@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = - a(n-1) + 5(a(n-2) + a(n-3)) - 2(a(n-4) + a(n-5)) - 8(a(n-6) + a(n-7)).",
+  "id": "A090597",
+  "mentions": [
+    "A001045",
+    "A005418",
+    "A018240",
+    "A200893",
+    "A329908",
+    "A336398"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "10th-order Patalan numbers (generalization of Catalan numbers).",
+  "id": "A025755",
+  "mentions": [
+    "A035278"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

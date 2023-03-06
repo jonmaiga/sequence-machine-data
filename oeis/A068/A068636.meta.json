@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Min(n, R(n)), where R(n) (A004086) = digit reversal of n.",
+  "id": "A068636",
+  "mentions": [
+    "A004086",
+    "A004185",
+    "A068637"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

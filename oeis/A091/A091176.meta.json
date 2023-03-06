@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that prime(n) is of the form 2*k^2 - 1.",
+  "id": "A091176",
+  "mentions": [
+    "A000040",
+    "A066049",
+    "A066436",
+    "A090697",
+    "A110558"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

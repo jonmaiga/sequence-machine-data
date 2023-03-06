@@ -1,0 +1,20 @@
+{
+  "description": "All natural numbers occur in their order as many times as they have ordered prime factorizations.",
+  "id": "A099848",
+  "mentions": [
+    "A000961",
+    "A006881",
+    "A008480",
+    "A099849"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

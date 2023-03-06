@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of the '3rd order' mock theta function chi(q).",
+  "id": "A053252",
+  "mentions": [
+    "A000025",
+    "A053250",
+    "A053251",
+    "A053253",
+    "A053254",
+    "A053255",
+    "A261401"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

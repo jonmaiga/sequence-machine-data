@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that floor(exp(k)) is prime.",
+  "id": "A050808",
+  "mentions": [
+    "A000149",
+    "A000227",
+    "A004791",
+    "A037028",
+    "A040016",
+    "A050809",
+    "A059791",
+    "A059792"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

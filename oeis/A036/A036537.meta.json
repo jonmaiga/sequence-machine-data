@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose number of divisors is a power of 2.",
+  "id": "A036537",
+  "mentions": [
+    "A000005",
+    "A000188",
+    "A002035",
+    "A005117",
+    "A007913",
+    "A007947",
+    "A030513",
+    "A036538",
+    "A037445",
+    "A058891",
+    "A162643",
+    "A162644",
+    "A175496",
+    "A209229",
+    "A336591",
+    "A337533",
+    "A352780",
+    "A355038"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

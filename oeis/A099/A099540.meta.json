@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the first n digits of log(Pi)=1.14472988584940017...",
+  "id": "A099540",
+  "mentions": [
+    "A039918",
+    "A046974",
+    "A046975",
+    "A053510",
+    "A093084",
+    "A099534",
+    "A099539"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

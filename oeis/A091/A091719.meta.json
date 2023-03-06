@@ -1,0 +1,19 @@
+{
+  "description": "Greatest common divisors of consecutive partition numbers.",
+  "id": "A091719",
+  "mentions": [
+    "A000041",
+    "A091717"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

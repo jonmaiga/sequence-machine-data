@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 10*p + 7 is also prime.",
+  "id": "A023239",
+  "mentions": [
+    "A023238",
+    "A102342"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

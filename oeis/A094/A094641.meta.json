@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for the \"alternating Euler constant\" log(4/Pi).",
+  "id": "A094641",
+  "mentions": [
+    "A094640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

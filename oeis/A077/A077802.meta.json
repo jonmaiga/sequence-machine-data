@@ -1,0 +1,25 @@
+{
+  "description": "Sum of products of parts increased by 1 in hook partitions of n, where hook partitions are of the form h*1^(n-h).",
+  "id": "A077802",
+  "mentions": [
+    "A000225",
+    "A042950",
+    "A055010",
+    "A074141",
+    "A095151",
+    "A125128",
+    "A132048"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:23:35",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

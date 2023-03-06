@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of number C(3; m,k) of arrangements of k objects of one type and m of another such that no 3-run occurs.",
+  "id": "A086437",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

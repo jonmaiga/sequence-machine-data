@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = smallest multiple of n that can be obtained by inserting digits anywhere in a(n-1) if necessary.",
+  "id": "A080502",
+  "mentions": [
+    "A078283",
+    "A080501",
+    "A080503"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

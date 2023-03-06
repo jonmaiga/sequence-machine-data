@@ -1,0 +1,21 @@
+{
+  "description": "Number of degree-n even permutations of order exactly 4.",
+  "id": "A051695",
+  "mentions": [
+    "A001473",
+    "A048099",
+    "A051685"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

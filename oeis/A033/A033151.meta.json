@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Niven's constant.",
+  "id": "A033151",
+  "mentions": [
+    "A033150"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

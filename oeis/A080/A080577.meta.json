@@ -1,0 +1,43 @@
+{
+  "description": "Triangle in which n-th row lists all partitions of n, in graded reverse lexicographic ordering.",
+  "id": "A080577",
+  "mentions": [
+    "A000041",
+    "A026791",
+    "A026792",
+    "A036036",
+    "A036037",
+    "A048793",
+    "A063008",
+    "A066099",
+    "A080576",
+    "A115623",
+    "A129129",
+    "A185974",
+    "A193073",
+    "A209936",
+    "A211992",
+    "A228100",
+    "A228531",
+    "A238966",
+    "A296150",
+    "A322761",
+    "A331581",
+    "A334301",
+    "A334434",
+    "A334436",
+    "A334438",
+    "A334439"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

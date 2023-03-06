@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n-1)^n - 1.",
+  "id": "A085606",
+  "mentions": [
+    "A007778",
+    "A014293",
+    "A037205",
+    "A065440",
+    "A157437"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:26:16",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Fibonacci(k) == 1 (mod k).",
+  "id": "A023173",
+  "mentions": [
+    "A000045",
+    "A003631",
+    "A045468",
+    "A064739"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

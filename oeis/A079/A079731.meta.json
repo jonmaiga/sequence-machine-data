@@ -1,0 +1,22 @@
+{
+  "description": "Fundamental piano frequencies in Hertz rounded to nearest integer.",
+  "id": "A079731",
+  "mentions": [
+    "A214832",
+    "A254531"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

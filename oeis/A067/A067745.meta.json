@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of ((3*n - 2)/(n^(2*n - 1)*(2*n - 1)*4^(n - 1))).",
+  "id": "A067745",
+  "mentions": [
+    "A000265",
+    "A007310",
+    "A016921",
+    "A067746",
+    "A075101",
+    "A075677",
+    "A165355"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Conjecturally, number of infinitely-recurring prime patterns of width n (n odd).",
+  "id": "A023189",
+  "mentions": [
+    "A023190",
+    "A023191",
+    "A023192"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

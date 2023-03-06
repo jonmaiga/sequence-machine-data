@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (period n) periodic palindromes using exactly four different symbols.",
+  "id": "A056500",
+  "mentions": [
+    "A056391",
+    "A056465",
+    "A056490",
+    "A327878"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:26:59",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

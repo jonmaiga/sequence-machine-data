@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least k such that the average number of divisors of {1..k} is >= n.",
+  "id": "A085829",
+  "mentions": [
+    "A006218",
+    "A050226",
+    "A057494",
+    "A085567"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form floor(x^Pi) where x is prime.",
+  "id": "A079595",
+  "mentions": [
+    "A074218"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

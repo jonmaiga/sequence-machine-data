@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are both congruent to 1 mod 10 and congruent to 1 or 2 mod 9.",
+  "id": "A089716",
+  "mentions": [
+    "A030430",
+    "A061237",
+    "A061238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

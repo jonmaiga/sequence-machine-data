@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n - A001414(n) = reversal of n + A001414(n).",
+  "id": "A069578",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

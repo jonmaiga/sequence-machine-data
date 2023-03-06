@@ -1,0 +1,21 @@
+{
+  "description": "One eighth of eighth unsigned column of Lanczos' triangle A053125.",
+  "id": "A054331",
+  "mentions": [
+    "A053125",
+    "A054326"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

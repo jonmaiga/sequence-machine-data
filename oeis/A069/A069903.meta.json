@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime factors of n-th triangular number.",
+  "id": "A069903",
+  "mentions": [
+    "A000217",
+    "A001221",
+    "A069901",
+    "A069902",
+    "A069904"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

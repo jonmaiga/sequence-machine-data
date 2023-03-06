@@ -1,0 +1,19 @@
+{
+  "description": "Table with 4 consecutive primes prime(k), prime(k+1), prime(k+2) and prime(k+3) in a row such that prime(k)^x + prime(k+1)^x == prime(k+2) (mod prime(k+3)) has no solution x.",
+  "id": "A082373",
+  "mentions": [
+    "A082371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

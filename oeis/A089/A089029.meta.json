@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=n if Hofstadter's Q-sequence increases A005185(n-1)->A005185(n), a(n)=1 otherwise.",
+  "id": "A089029",
+  "mentions": [
+    "A005185",
+    "A081827"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

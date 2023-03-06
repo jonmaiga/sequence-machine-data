@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with no middle divisors (cf. A071090).",
+  "id": "A071561",
+  "mentions": [
+    "A071090",
+    "A071562",
+    "A071563",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A241008",
+    "A241561",
+    "A241562"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

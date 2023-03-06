@@ -1,0 +1,21 @@
+{
+  "description": "Number of proper T_0-covers of an n-set.",
+  "id": "A095423",
+  "mentions": [
+    "A007537",
+    "A095421",
+    "A095422"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

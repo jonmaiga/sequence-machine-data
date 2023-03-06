@@ -1,0 +1,15 @@
+{
+  "description": "Number of numbers up to 10^n with exactly 4 divisors.",
+  "id": "A035533",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

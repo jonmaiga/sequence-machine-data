@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{m>=1} (1 + q^m)^48.",
+  "id": "A025233",
+  "mentions": [
+    "A022596",
+    "A022600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

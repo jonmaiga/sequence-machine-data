@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(p(k)/k).",
+  "id": "A024926",
+  "mentions": [
+    "A038605"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:45",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

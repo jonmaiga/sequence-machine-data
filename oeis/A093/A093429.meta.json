@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime factors of (prime(1)*...*prime(n))+(prime(n+1)*...*prime(2n)), where prime(n) is the n-th prime.",
+  "id": "A093429",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A093433",
+    "A329532"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

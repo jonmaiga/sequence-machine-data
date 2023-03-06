@@ -1,0 +1,20 @@
+{
+  "description": "Integer solutions x to sigma(x) + sigma(x+1)) = 2*sigma(2x+1) where sigma = A000203.",
+  "id": "A091289",
+  "mentions": [
+    "A000203",
+    "A067171",
+    "A091287",
+    "A091290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

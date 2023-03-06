@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of 3 distinct positive cubes in exactly 3 ways.",
+  "id": "A025401",
+  "mentions": [
+    "A025397",
+    "A025469"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

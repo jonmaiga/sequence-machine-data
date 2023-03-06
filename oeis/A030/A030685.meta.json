@@ -1,0 +1,18 @@
+{
+  "description": "Smallest nontrivial extension of n-th square which is a prime.",
+  "id": "A030685",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:49",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

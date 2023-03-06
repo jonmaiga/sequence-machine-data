@@ -1,0 +1,26 @@
+{
+  "description": "Number of nonisomorphic circulant graphs, i.e., undirected Cayley graphs for the cyclic group of order n.",
+  "id": "A049287",
+  "mentions": [
+    "A000040",
+    "A038781",
+    "A049288",
+    "A049289",
+    "A049297",
+    "A060966",
+    "A075545",
+    "A285620"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

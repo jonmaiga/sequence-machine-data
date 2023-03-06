@@ -1,0 +1,19 @@
+{
+  "description": "Digits of the prime factors of composite a(n) are not shared.",
+  "id": "A052053",
+  "mentions": [
+    "A052054"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

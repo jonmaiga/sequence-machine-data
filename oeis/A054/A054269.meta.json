@@ -1,0 +1,27 @@
+{
+  "description": "Length of period of continued fraction for sqrt(prime(n)).",
+  "id": "A054269",
+  "mentions": [
+    "A002496",
+    "A003285",
+    "A006254",
+    "A028871",
+    "A034953",
+    "A056899",
+    "A067076",
+    "A082749",
+    "A130272"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

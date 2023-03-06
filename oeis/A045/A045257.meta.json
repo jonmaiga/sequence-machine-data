@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-5 representation contains exactly two 1's and two 4's.",
+  "id": "A045257",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:17",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

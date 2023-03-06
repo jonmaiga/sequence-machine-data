@@ -1,0 +1,19 @@
+{
+  "description": "Index of the first of two successive 2's in A005361.",
+  "id": "A085651",
+  "mentions": [
+    "A005361",
+    "A060687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

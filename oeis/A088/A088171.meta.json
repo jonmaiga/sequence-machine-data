@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the set S(n) = {k: k + reverse(k) = n} is not empty, at least one element of S(n) has the same number of digits as n and at least one element of S(n) has one digit less than n has.",
+  "id": "A088171",
+  "mentions": [
+    "A067030",
+    "A088169",
+    "A088170"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=a(2)=1, a(3)=4, a(n)=abs(a(n-1)-a(n-2)-a(n-3)).",
+  "id": "A079623",
+  "mentions": [
+    "A077623",
+    "A077653",
+    "A078108",
+    "A079624",
+    "A080096",
+    "A088226"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}
